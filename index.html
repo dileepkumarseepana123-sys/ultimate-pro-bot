@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Pro Betting Calculator v8.0 (Deep Intel)</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #0f172a; color: #e2e8f0; line-height: 1.5; padding: 15px; max-width: 800px; margin: 0 auto; }
+        .card { background: #1e293b; padding: 20px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.3); margin-bottom: 20px; border: 1px solid #334155; }
+        h2 { margin-top: 0; padding-bottom: 10px; font-size: 1.3em; letter-spacing: 0.5px; }
+        .h2-blue { color: #38bdf8; border-bottom: 2px solid #0284c7; }
+        .h2-purple { color: #c084fc; border-bottom: 2px solid #9333ea; }
+        label { display: block; margin-top: 15px; font-weight: 600; font-size: 0.85em; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.5px; }
+        input, select { width: 100%; padding: 12px; margin-top: 6px; border: 1px solid #475569; border-radius: 8px; box-sizing: border-box; font-size: 16px; background-color: #0f172a; color: #f8fafc; }
+        select { cursor: pointer; border: 2px solid #38bdf8; }
+        button { width: 100%; color: white; padding: 14px; border: none; border-radius: 8px; margin-top: 15px; font-size: 15px; cursor: pointer; font-weight: 700; transition: 0.2s; }
+        .btn-blue { background-color: #0284c7; } .btn-blue:hover { background-color: #0369a1; }
+        .btn-orange { background-color: #ea580c; } .btn-orange:hover { background-color: #c2410c; }
+        .btn-radar { background-color: #6366f1; } .btn-radar:hover { background-color: #4f46e5; }
+        
+        .radio-container { display: flex; gap: 10px; margin-top: 6px; }
+        .radio-container label { flex: 1; text-align: center; padding: 12px; background: #0f172a; border-radius: 8px; cursor: pointer; font-weight: 700; margin: 0; border: 2px solid #334155; transition: 0.2s; }
+        .radio-container input[type="radio"] { display: none; }
+        .radio-container input[type="radio"]:checked + .team-btn { background: #38bdf8; color: #0f172a; border-color: #38bdf8; }
+        .radio-container input[type="radio"]:checked + .back-btn { background: #0284c7; color: white; border-color: #38bdf8; }
+        .radio-container input[type="radio"]:checked + .lay-btn { background: #e11d48; color: white; border-color: #f43f5e; }
+
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.9em; }
+        th, td { padding: 10px; text-align: center; border-bottom: 1px solid #334155; }
+        th { background-color: #0f172a; color: #94a3b8; font-weight: 600; font-size: 0.8em; text-transform: uppercase; }
+        
+        .back-text { color: #38bdf8; font-weight: 700; }
+        .lay-text { color: #f43f5e; font-weight: 700; }
+        .profit-text { color: #4ade80; font-weight: 700; }
+        
+        .section-box { margin-top: 15px; padding: 15px; border-radius: 8px; display: none; }
+        .info-box { background-color: #0c4a6e; border-left: 4px solid #38bdf8; }
+        .radar-box { background-color: #1e1b4b; border: 2px solid #6366f1; border-radius: 12px; padding: 18px; margin-bottom: 20px; }
+        .twist-box { background-color: #451a03; border-left: 4px solid #f97316; }
+        
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; margin-top: 12px; }
+        
+        .metric-card { background: #0f172a; padding: 12px; border-radius: 8px; border: 1px solid #334155; text-align: center; }
+        .metric-label { font-size: 0.75em; color: #94a3b8; text-transform: uppercase; font-weight: 600; }
+        .metric-val { font-size: 1.1em; font-weight: 700; margin-top: 4px; color: #f8fafc; }
+        .verdict-badge { display: inline-block; padding: 6px 12px; border-radius: 20px; font-weight: 800; font-size: 0.85em; margin-top: 8px; text-transform: uppercase; }
+        .badge-green { background: #065f46; color: #34d399; border: 1px solid #059669; }
+        .badge-yellow { background: #713f12; color: #facc15; border: 1px solid #ca8a04; }
+        .badge-red { background: #881337; color: #fb7185; border: 1px solid #e11d48; }
+
+        .entry-instruction { background-color: #3b2d04; border: 1px dashed #facc15; padding: 12px; border-radius: 8px; margin-top: 15px; text-align: center; font-size: 0.95em; display: none; color: #fef08a; }
+        .result-panel { background-color: #0f172a; border: 1px solid #334155; padding: 12px; border-radius: 8px; }
+        hr { border: 0; border-top: 1px solid #334155; margin: 25px 0; }
+        .highlight-row { background-color: #064e3b; border: 1px solid #10b981; }
+        .dynamic-team { text-decoration: underline; text-decoration-color: #38bdf8; }
+
+        .auto-box { background-color: #1e293b; border: 1px solid #334155; padding: 15px; border-radius: 8px; margin-top: 15px; display: none; }
+        .sl-auto { border-top: 4px solid #e11d48; }
+        .fb-auto { border-top: 4px solid #c084fc; }
+        .goal-box { border: 1px solid #6b21a8; background-color: #2e1065; padding: 15px; border-radius: 8px; margin-top: 15px; }
+        .split-btn { background: #334155; color: #f8fafc; padding: 8px; border-radius: 6px; cursor: pointer; border: 1px solid #475569; font-size: 0.8em; margin-top: 6px; }
+    </style>
+</head>
+<body>
+
+    <!-- DEEP METRICS INTELLIGENCE RADAR -->
+    <div class="radar-box">
+        <h2 class="h2-purple" style="margin-top:0;">📡 Deep Match Radar & Venue Analytics</h2>
+        <p style="font-size:0.85em; color:#94a3b8; margin-top:-5px;">Live atmospheric, venue bias, and powerplay momentum engine.</p>
+        
+        <label>Select Goldmine Fixture:</label>
+        <select id="intelMatchSelect" onchange="applyDeepMetrics()">
+            <option value="">-- Choose Match --</option>
+            <option value="0">Guyana Amazon Warriors vs Jamaica Kingsmen (Barbados)</option>
+            <option value="1">England vs Sri Lanka (Old Trafford, Manchester)</option>
+        </select>
+
+        <div id="radarDashboard" style="display:none; margin-top:15px;">
+            <div id="verdictContainer" style="text-align:center; margin-bottom:12px;"></div>
+            
+            <div class="grid-4">
+                <div class="metric-card">
+                    <div class="metric-label">🌤️ Weather & Dew</div>
+                    <div class="metric-val" id="metricWeather">--</div>
+                    <div style="font-size:0.75em; color:#94a3b8; margin-top:2px;" id="subWeather">--</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">🪙 Toss Bias</div>
+                    <div class="metric-val" id="metricToss">--</div>
+                    <div style="font-size:0.75em; color:#94a3b8; margin-top:2px;" id="subToss">--</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">⚡ Powerplay Baseline</div>
+                    <div class="metric-val" id="metricPP">--</div>
+                    <div style="font-size:0.75em; color:#94a3b8; margin-top:2px;" id="subPP">--</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">🌀 Spin Choke Index</div>
+                    <div class="metric-val" id="metricSpin">--</div>
+                    <div style="font-size:0.75em; color:#94a3b8; margin-top:2px;" id="subSpin">--</div>
+                </div>
+            </div>
+
+            <div id="metricStrategyNote" style="margin-top:12px; background:#0f172a; padding:12px; border-radius:8px; font-size:0.85em; border-left:3px solid #6366f1;"></div>
+        </div>
+    </div>
+
+    <!-- PHASE 1: ENTRY SETUP -->
+    <div class="card">
+        <h2 class="h2-blue">Phase 1: Entry Setup</h2>
+        
+        <label>1. Team Chosen:</label>
+        <div class="radio-container">
+            <input type="radio" name="initTeam" id="teamA" value="Team A" checked onchange="updateUI()">
+            <label for="teamA" class="team-btn" id="lblTeamA">Team A</label>
+            <input type="radio" name="initTeam" id="teamB" value="Team B" onchange="updateUI()">
+            <label for="teamB" class="team-btn" id="lblTeamB">Team B</label>
+        </div>
+
+        <label>2. Bet Action:</label>
+        <div class="radio-container">
+            <input type="radio" name="initType" id="typeBack" value="BACK" checked onchange="updateUI()">
+            <label for="typeBack" class="back-btn">BACK (Blue)</label>
+            <input type="radio" name="initType" id="typeLay" value="LAY" onchange="updateUI()">
+            <label for="typeLay" class="lay-btn">LAY (Pink)</label>
+        </div>
+
+        <div class="grid-2">
+            <div>
+                <label>3. Matched Odds:</label>
+                <input type="number" id="odds1" placeholder="e.g., 1.35" step="0.01" oninput="updateUI()">
+                <button class="split-btn" onclick="toggleSplitTool()">+ Dual Entry Helper</button>
+            </div>
+            <div>
+                <label id="stakeLabel">4. Amount Box:</label>
+                <select id="layInputType" onchange="updateUI()" style="display:none; padding: 8px; margin-bottom: 5px; font-size: 0.85em; font-weight: bold;">
+                    <option value="liability">Target Risk (Liability)</option>
+                    <option value="actualStake">Actual App Entry (Stake)</option>
+                </select>
+                <input type="number" id="stake1" placeholder="e.g., 100" min="1" step="1" oninput="updateUI()">
+            </div>
+        </div>
+
+        <!-- Dual Entry Split Helper -->
+        <div id="splitToolBox" style="display:none; background:#0f172a; padding:15px; border-radius:8px; margin-top:10px; border:1px dashed #475569;">
+            <strong style="font-size:0.85em; color:#94a3b8; text-transform:uppercase;">Dual Entry Split (App Stake Amounts)</strong>
+            <div class="grid-2" style="margin-top:10px;">
+                <div>
+                    <input type="number" id="splitStake1" placeholder="Stake 1 (e.g. 100)" oninput="calcSplit()">
+                    <input type="number" id="splitOdd1" placeholder="Odds 1" step="0.01" oninput="calcSplit()">
+                </div>
+                <div>
+                    <input type="number" id="splitStake2" placeholder="Stake 2 (e.g. 100)" oninput="calcSplit()">
+                    <input type="number" id="splitOdd2" placeholder="Odds 2" step="0.01" oninput="calcSplit()">
+                </div>
+            </div>
+            <div id="splitResult" style="margin-top:10px; font-size: 0.9em; font-weight:bold; color:#38bdf8;"></div>
+            <button class="split-btn" onclick="applySplit()" style="background:#059669; width: 100%;">Use Combined Average Odds</button>
+        </div>
+
+        <div id="entryInstructionBox" class="entry-instruction"></div>
+
+        <!-- Custom Profit Goal -->
+        <div class="goal-box">
+            <label style="margin-top: 0; color: #c084fc;">5. Custom Profit Goal (₹):</label>
+            <input type="number" id="customTargetProfit" placeholder="Defaults to 100% Risk ROI" min="1" step="1" oninput="updateUI()">
+        </div>
+
+        <!-- Blueprint Target Exits -->
+        <div id="cheatSheetSection" class="section-box info-box">
+            <h3 style="margin-top:0; font-size: 1.05em; color:#e0f2fe;">Target Exits Blueprint</h3>
+            <table id="cheatSheetTable">
+                <thead>
+                    <tr>
+                        <th><span class="dynamic-team opp-team"></span> Hits (BACK)</th>
+                        <th>= Lay <span class="dynamic-team sided-team"></span> at</th>
+                        <th>Guaranteed Profit</th>
+                    </tr>
+                </thead>
+                <tbody id="cheatSheetBody"></tbody>
+            </table>
+        </div>
+
+        <!-- ZERO-CLICK INSTANT ACTION TRACKERS -->
+        <div id="autoTrackers" style="display:none;">
+            <h3 style="margin-top:25px; margin-bottom:5px; border-bottom: 1px solid #334155; padding-bottom:5px; font-size: 1.1em; color:#f8fafc;">⚡ Instant Action Trackers</h3>
+            
+            <!-- Auto Free-Bet -->
+            <div class="auto-box fb-auto" style="display:block;">
+                <h4 style="margin:0 0 8px 0; color:#c084fc; font-size: 1em;">🎁 Fast Free-Bet (Zero Loss Secured)</h4>
+                <p style="margin:0 0 10px 0; font-size:0.85em; color: #94a3b8;">When market moves to <strong style="font-size:1.15em; color: #c084fc;"><span id="txtFbOdds"></span></strong> odds:</p>
+
+                <div class="grid-2">
+                    <div class="result-panel" style="border: 1px solid #0284c7;">
+                        <div style="font-size:0.7em; color:#38bdf8; text-transform:uppercase; font-weight:bold; margin-bottom:5px;">✅ Uses Existing Exposure (No Wallet Need)</div>
+                        <strong id="fbSameAction" style="font-size:0.95em;"></strong><br>
+                        Stake: <strong style="font-size:1.1em; color:#f8fafc;">₹<span id="fbSameStake"></span></strong>
+                    </div>
+                    <div class="result-panel" style="border: 1px solid #f97316;">
+                        <div style="font-size:0.7em; color:#fb923c; text-transform:uppercase; font-weight:bold; margin-bottom:5px;">⚠️ Needs Extra Wallet Balance</div>
+                        <strong id="fbOppAction" style="font-size:0.95em;"></strong><br>
+                        Stake: <strong style="font-size:1.1em; color:#f8fafc;">₹<span id="fbOppStake"></span></strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Auto Cut-Loss -->
+            <div class="auto-box sl-auto" style="display:block; margin-top: 15px;">
+                <h4 style="margin:0 0 8px 0; color:#fb7185; font-size: 1em;">🚨 Auto Cut-Loss (Stop-Loss)</h4>
+                <p style="margin:0 0 10px 0; font-size:0.85em; color: #94a3b8;">If market drifts against you to <strong style="font-size:1.15em; color:#f43f5e;"><span id="txtSlOdds"></span></strong>, save capital:</p>
+
+                <div class="grid-2">
+                    <div class="result-panel" style="border: 1px solid #0284c7;">
+                        <div style="font-size:0.7em; color:#38bdf8; text-transform:uppercase; font-weight:bold; margin-bottom:5px;">✅ Uses Existing Exposure (Best)</div>
+                        <strong id="slSameAction" style="font-size:0.95em;"></strong><br>
+                        Stake: <strong style="font-size:1.1em; color:#f8fafc;">₹<span id="slSameStake"></span></strong>
+                    </div>
+                    <div class="result-panel" style="border: 1px solid #f97316;">
+                        <div style="font-size:0.7em; color:#fb923c; text-transform:uppercase; font-weight:bold; margin-bottom:5px;">⚠️ Needs Extra Wallet Balance</div>
+                        <strong id="slOppAction" style="font-size:0.95em;"></strong><br>
+                        Stake: <strong style="font-size:1.1em; color:#f8fafc;">₹<span id="slOppStake"></span></strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        
+        <!-- PHASE 2: CUSTOM LOCK-IN -->
+        <h2 class="h2-blue">Phase 2: Custom Live Lock-In</h2>
+        <label>Current Live Odds for <strong class="dynamic-team opp-team back-text"></strong>:</label>
+        <input type="number" id="odds2" placeholder="e.g., 1.95" step="0.01">
+        <button class="btn-blue" onclick="calculateTrade()">Calculate Custom Exit</button>
+
+        <div id="errorBox1" class="section-box" style="background:#450a0a; border-left:4px solid #f87171; color:#fecaca;"></div>
+        <div id="resultBox1" class="section-box info-box" style="display:none; padding: 15px;">
+            <div class="grid-2">
+                <div class="result-panel">
+                    <h4 style="margin:0 0 5px 0; color:#38bdf8; font-size: 0.85em;">Option 1: BACK <span class="opp-team"></span></h4>
+                    App Stake: <strong id="outBackStake" style="font-size: 1.1em; color:#f8fafc;"></strong>
+                </div>
+                <div class="result-panel">
+                    <h4 style="margin:0 0 5px 0; color:#fb7185; font-size: 0.85em;">Option 2: LAY <span class="sided-team"></span></h4>
+                    Lay Odds: <strong id="outLayOdds" style="color:#f8fafc;"></strong><br>
+                    App Stake: <strong id="outLayStake" style="font-size: 1.1em; color:#f8fafc;"></strong>
+                </div>
+            </div>
+            <h3 style="text-align:center; margin-top:15px; margin-bottom:0;">Guaranteed Equal Profit: <span class="profit-text" id="outTradeProfit"></span></h3>
+        </div>
+
+        <!-- PHASE 3: SAFE TWIST -->
+        <div id="twistSection" class="section-box twist-box" style="display:block; margin-top: 25px;">
+            <h3 style="margin-top:0; color:#fb923c; font-size: 1.1em;">Phase 3: The 16th Over "Safe Twist"</h3>
+            <div class="grid-2">
+                <div>
+                    <label>Actual Booked Profit:</label>
+                    <input type="number" id="actualBookedProfit" placeholder="e.g., 100" min="1" step="1">
+                </div>
+                <div>
+                    <label>Safe Base to Keep:</label>
+                    <input type="number" id="safeProfitTarget" placeholder="e.g., 100" min="1" step="1">
+                </div>
+            </div>
+            <label>16th Over LAY Odds (Favorite):</label>
+            <input type="number" id="favoriteLayOdds" placeholder="e.g., 1.01" step="0.01">
+            <button class="btn-orange" onclick="calculateSafeTwist()">Calculate Risk-Free Lottery Ticket</button>
+            <div id="twistErrorBox" class="section-box" style="background:#450a0a; border-left:4px solid #f87171; color:#fecaca;"></div>
+            <div id="twistResultBox" class="result-panel" style="display:none; border-color: #f97316; padding: 15px; margin-top:15px;"></div>
+        </div>
+    </div>
+
+    <script>
+        // ==========================================
+        // DEEP METRICS REPOSITORY DATABASE
+        // ==========================================
+        const DEEP_INTEL_DB = [
+            {
+                id: 0,
+                teamA: "Guyana Amazon Warriors",
+                teamB: "Jamaica Kingsmen",
+                venue: "Kensington Oval, Barbados",
+                weather: "28°C, Humid",
+                dewRisk: "Zero Dew (Breezy)",
+                tossBias: "62% Chasing Wins",
+                tossTrend: "Toss Winner bowls first",
+                ppScoreAvg: "41 / 2 (Low Pace)",
+                ppRunRate: "6.8 RPO baseline",
+                spinIndex: "68% Wickets to Spin",
+                spinNote: "Grip in Overs 7-14 is severe",
+                verdict: "🟢 HIGH CONVICTION: SPIN SQUEEZE ACTIVE",
+                badgeClass: "badge-green",
+                strategyText: "Slow deck with zero dew risk. Chasing team under heavy pressure in overs 7-14. Look for favorite at 1.30-1.35 and execute LAY with instant Auto Free-Bet targets."
+            },
+            {
+                id: 1,
+                teamA: "England",
+                teamB: "Sri Lanka",
+                venue: "Old Trafford, Manchester",
+                weather: "17°C, Clear",
+                dewRisk: "Moderate Evening Dew",
+                tossBias: "51% Batting 1st Wins",
+                tossTrend: "Even toss impact",
+                ppScoreAvg: "54 / 1 (High Pace)",
+                ppRunRate: "9.0 RPO aggressive",
+                spinIndex: "38% Wickets to Spin",
+                spinNote: "Flat track with true bounce",
+                verdict: "🟡 CAUTION: DUAL ENTRY MANDATORY",
+                badgeClass: "badge-yellow",
+                strategyText: "High-scoring flat track. Do not Lay at 1.30 with single stake. Use the Dual Entry Helper (1.35 and 1.25) to protect capital against boundary flurries."
+            }
+        ];
+
+        function applyDeepMetrics() {
+            const select = document.getElementById('intelMatchSelect');
+            const idx = select.value;
+            const dashboard = document.getElementById('radarDashboard');
+            if (idx === "") { dashboard.style.display = 'none'; return; }
+
+            const data = DEEP_INTEL_DB[idx];
+            document.getElementById('lblTeamA').innerText = data.teamA;
+            document.getElementById('teamA').value = data.teamA;
+            document.getElementById('lblTeamB').innerText = data.teamB;
+            document.getElementById('teamB').value = data.teamB;
+
+            document.getElementById('verdictContainer').innerHTML = `<span class="verdict-badge ${data.badgeClass}">${data.verdict}</span>`;
+            document.getElementById('metricWeather').innerText = data.weather;
+            document.getElementById('subWeather').innerText = data.dewRisk;
+            document.getElementById('metricToss').innerText = data.tossBias;
+            document.getElementById('subToss').innerText = data.tossTrend;
+            document.getElementById('metricPP').innerText = data.ppScoreAvg;
+            document.getElementById('subPP').innerText = data.ppRunRate;
+            document.getElementById('metricSpin').innerText = data.spinIndex;
+            document.getElementById('subSpin').innerText = data.spinNote;
+            document.getElementById('metricStrategyNote').innerHTML = `💡 <strong>Tactical Execution:</strong> ${data.strategyText}`;
+
+            dashboard.style.display = 'block';
+            updateUI();
+        }
+
+        // ==========================================
+        // DUAL ENTRY SPLIT HELPER
+        // ==========================================
+        let tempAvgOdds = 0; let tempTotalStake = 0;
+        function toggleSplitTool() {
+            let box = document.getElementById('splitToolBox');
+            box.style.display = box.style.display === 'none' ? 'block' : 'none';
+        }
+        function calcSplit() {
+            let s1 = parseFloat(document.getElementById('splitStake1').value);
+            let o1 = parseFloat(document.getElementById('splitOdd1').value);
+            let s2 = parseFloat(document.getElementById('splitStake2').value);
+            let o2 = parseFloat(document.getElementById('splitOdd2').value);
+            if(isNaN(s1) || isNaN(o1) || isNaN(s2) || isNaN(o2) || o1<=1 || o2<=1) return;
+            let totalLiab = (s1 * (o1 - 1)) + (s2 * (o2 - 1));
+            let totalStake = s1 + s2;
+            tempAvgOdds = (totalLiab / totalStake) + 1;
+            tempTotalStake = totalStake;
+            document.getElementById('splitResult').innerHTML = `Total App Stake: ₹${totalStake}<br>Total Risk (Liability): ₹${Math.round(totalLiab)}<br><strong>Combined Entry Odds: ${tempAvgOdds.toFixed(2)}</strong>`;
+        }
+        function applySplit() {
+            if(tempAvgOdds > 0) {
+                document.getElementById('odds1').value = tempAvgOdds.toFixed(2);
+                document.getElementById('stake1').value = tempTotalStake;
+                document.getElementById('layInputType').value = "actualStake";
+                updateUI();
+                toggleSplitTool();
+            }
+        }
+
+        // ==========================================
+        // STATE EVALUATOR & MATHEMATICAL ENGINE
+        // ==========================================
+        function getGameState() {
+            let selectedTeam = document.querySelector('input[name="initTeam"]:checked').value; 
+            let betType = document.querySelector('input[name="initType"]:checked').value; 
+            let rawOdds = parseFloat(document.getElementById('odds1').value);
+            let enteredValue = parseFloat(document.getElementById('stake1').value);
+            let layInputType = document.getElementById('layInputType').value;
+            let teamAVal = document.getElementById('teamA').value;
+            let teamBVal = document.getElementById('teamB').value;
+
+            let sidedTeam = selectedTeam;
+            let oppTeam = (selectedTeam === teamAVal) ? teamBVal : teamAVal;
+            let effOdds = rawOdds;
+            let rawStake = enteredValue; 
+
+            if (betType === 'LAY') {
+                sidedTeam = (selectedTeam === teamAVal) ? teamBVal : teamAVal;
+                oppTeam = selectedTeam;
+                if (!isNaN(rawOdds) && rawOdds > 1) {
+                    effOdds = rawOdds / (rawOdds - 1); 
+                    if (layInputType === 'actualStake') {
+                        rawStake = Math.round(enteredValue * (rawOdds - 1));
+                    }
+                }
+            }
+            rawStake = isNaN(rawStake) ? NaN : Math.round(rawStake);
+            let targetProfit = parseFloat(document.getElementById('customTargetProfit').value);
+            if (isNaN(targetProfit) && !isNaN(rawStake)) targetProfit = rawStake; 
+
+            return { selectedTeam, betType, layInputType, sidedTeam, oppTeam, effOdds, rawOdds, enteredValue, stake: rawStake, targetProfit };
+        }
+
+        function updateUI() {
+            let state = getGameState();
+            document.querySelectorAll('.sided-team').forEach(el => el.innerText = state.sidedTeam);
+            document.querySelectorAll('.opp-team').forEach(el => el.innerText = state.oppTeam);
+            let stakeLabel = document.getElementById('stakeLabel');
+            let layInputTypeDropdown = document.getElementById('layInputType');
+            let entryBox = document.getElementById('entryInstructionBox');
+
+            if (state.betType === 'BACK') {
+                stakeLabel.innerText = "4. Amount to Bet (Stake):";
+                layInputTypeDropdown.style.display = 'none';
+                if (!isNaN(state.stake)) {
+                    entryBox.innerHTML = `<strong>App Entry:</strong> Type <strong class="back-text">₹${state.stake}</strong> in the BACK box for ${state.selectedTeam}.`;
+                    entryBox.style.display = 'block';
+                } else { entryBox.style.display = 'none'; }
+            } else {
+                stakeLabel.innerText = "4. Number Logic:";
+                layInputTypeDropdown.style.display = 'block';
+                if (!isNaN(state.rawOdds) && state.rawOdds > 1 && !isNaN(state.enteredValue)) {
+                    if (state.layInputType === 'liability') {
+                        entryBox.innerHTML = `<strong>App Entry:</strong> To risk exactly ₹${state.enteredValue}, type <strong class="lay-text">₹${Math.round(state.enteredValue / (state.rawOdds - 1))}</strong> in the LAY box.`;
+                    } else {
+                        entryBox.innerHTML = `<strong>Matched Bet:</strong> By typing ₹${state.enteredValue} stake at ${state.rawOdds} odds, your actual risk is <strong class="lay-text">₹${state.stake}</strong>.`;
+                    }
+                    entryBox.style.display = 'block';
+                } else { entryBox.style.display = 'none'; }
+            }
+            generateCheatSheet(state);
+            updateAutoTrackers(state);
+        }
+
+        function updateAutoTrackers(state) {
+            let trackerBox = document.getElementById('autoTrackers');
+            if (isNaN(state.stake) || isNaN(state.rawOdds) || state.rawOdds <= 1) {
+                trackerBox.style.display = 'none'; return;
+            }
+            trackerBox.style.display = 'block';
+            let O1 = state.rawOdds;
+            let S_app = state.betType === 'LAY' ? Math.round(state.stake / (O1 - 1)) : state.stake;
+
+            let slOdds = state.betType === 'LAY' ? Math.max(1.02, O1 - 0.15) : O1 + 1.00;
+            let fbOdds = state.betType === 'LAY' ? O1 + 0.30 : Math.max(1.05, O1 * 0.75);
+            slOdds = parseFloat(slOdds.toFixed(2));
+            fbOdds = parseFloat(fbOdds.toFixed(2));
+
+            // CUT LOSS
+            document.getElementById('txtSlOdds').innerText = slOdds;
+            let slExitStake = Math.round((S_app * O1) / slOdds);
+            let slActionSame = state.betType === 'LAY' ? 'BACK' : 'LAY';
+            document.getElementById('slSameAction').innerHTML = `<span class="${slActionSame==='BACK'?'back-text':'lay-text'}">${slActionSame}</span> ${state.selectedTeam}`;
+            document.getElementById('slSameStake').innerText = slExitStake;
+            document.getElementById('slOppAction').innerHTML = `<span class="${state.betType==='BACK'?'back-text':'lay-text'}">${state.betType}</span> ${state.oppTeam}`;
+            document.getElementById('slOppStake').innerText = Math.round(slExitStake * (slOdds - 1));
+
+            // FREE BET
+            document.getElementById('txtFbOdds').innerText = fbOdds;
+            document.getElementById('fbSameAction').innerHTML = `<span class="${slActionSame==='BACK'?'back-text':'lay-text'}">${slActionSame}</span> ${state.selectedTeam}`;
+            document.getElementById('fbSameStake').innerText = S_app;
+            document.getElementById('fbOppAction').innerHTML = `<span class="${state.betType==='BACK'?'back-text':'lay-text'}">${state.betType}</span> ${state.oppTeam}`;
+            document.getElementById('fbOppStake').innerText = Math.round(S_app * (fbOdds - 1));
+        }
+
+        function generateCheatSheet(state) {
+            let section = document.getElementById('cheatSheetSection');
+            let tbody = document.getElementById('cheatSheetBody');
+            if (isNaN(state.stake) || isNaN(state.effOdds) || state.effOdds <= 1 || isNaN(state.targetProfit)) {
+                section.style.display = 'none'; return;
+            }
+            
+            let targets = []; let matchOdds = 0; let minO2 = state.effOdds / (state.effOdds - 1);
+            let testTarget = parseFloat((minO2 + 0.01).toFixed(2));
+            
+            while(testTarget < 10) {
+                let testLay = testTarget / (testTarget - 1);
+                let testStake = Math.max(100, Math.round((state.stake * state.effOdds) / testLay));
+                let testProfit = Math.min(
+                    Math.round((state.stake * state.effOdds) - state.stake - Math.round(testStake * (testLay - 1))),
+                    Math.round(testStake - state.stake)
+                );
+                if (testProfit >= state.targetProfit) { matchOdds = testTarget; break; }
+                testTarget += 0.01;
+                testTarget = parseFloat(testTarget.toFixed(2));
+            }
+            if(matchOdds > 0) {
+                targets.push(matchOdds);
+                targets.push(matchOdds + 0.15);
+                targets.push(matchOdds + 0.35);
+            }
+            
+            tbody.innerHTML = '';
+            targets.forEach(target => {
+                let layOdds = target / (target - 1);
+                let layStake = Math.max(100, Math.round((state.stake * state.effOdds) / layOdds));
+                let guaranteedMinProfit = Math.min(
+                    Math.round((state.stake * state.effOdds) - state.stake - Math.round(layStake * (layOdds - 1))),
+                    Math.round(layStake - state.stake)
+                );
+                let tr = document.createElement('tr');
+                if (Math.abs(target - matchOdds) < 0.001) tr.className = "highlight-row";
+                tr.innerHTML = `<td class="back-text">${target.toFixed(2)}</td><td class="lay-text">${layOdds.toFixed(2)}</td><td class="profit-text">+₹${guaranteedMinProfit}</td>`;
+                tbody.appendChild(tr);
+            });
+            section.style.display = 'block';
+        }
+
+        function calculateTrade() {
+            let state = getGameState();
+            let o2 = parseFloat(document.getElementById('odds2').value); 
+            let res = document.getElementById('resultBox1');
+            let err = document.getElementById('errorBox1');
+            err.style.display = 'none'; res.style.display = 'none';
+
+            if (isNaN(state.stake) || isNaN(state.effOdds) || isNaN(o2)) return;
+            let minO2 = state.effOdds / (state.effOdds - 1);
+            if (o2 <= minO2) {
+                err.innerHTML = `Live odds must be higher than ${minO2.toFixed(2)} to guarantee profit.`;
+                err.style.display = 'block'; return;
+            }
+
+            let backStake = Math.max(100, Math.round((state.stake * state.effOdds) / o2));
+            let layOdds = o2 / (o2 - 1);
+            let layStake = Math.max(100, Math.round((state.stake * state.effOdds) / layOdds)); 
+            let finalLayProfit = Math.min(
+                Math.round((state.stake * state.effOdds) - state.stake - Math.round(layStake * (layOdds - 1))),
+                Math.round(layStake - state.stake)
+            );
+
+            document.getElementById('outBackStake').innerText = '₹' + backStake;
+            document.getElementById('outLayOdds').innerText = layOdds.toFixed(2);
+            document.getElementById('outLayStake').innerText = '₹' + layStake;
+            document.getElementById('outTradeProfit').innerText = '+₹' + finalLayProfit;
+            
+            let bookedInput = document.getElementById('actualBookedProfit');
+            if (bookedInput) bookedInput.value = finalLayProfit;
+            res.style.display = 'block';
+        }
+
+        function calculateSafeTwist() {
+            let booked = Math.round(parseFloat(document.getElementById('actualBookedProfit').value));
+            let safeTarget = Math.round(parseFloat(document.getElementById('safeProfitTarget').value));
+            let layOdds = parseFloat(document.getElementById('favoriteLayOdds').value);
+            let err = document.getElementById('twistErrorBox');
+            let res = document.getElementById('twistResultBox');
+            err.style.display = 'none'; res.style.display = 'none';
+
+            if (isNaN(booked) || isNaN(safeTarget) || isNaN(layOdds) || safeTarget >= booked || layOdds <= 1) {
+                err.innerHTML = "Verify fields: Safe base must be less than booked profit, odds > 1.00.";
+                err.style.display = 'block'; return;
+            }
+
+            let excessRisk = booked - safeTarget;
+            let layStake = Math.max(100, Math.round(excessRisk / (layOdds - 1))); 
+            let actualLiability = Math.round(layStake * (layOdds - 1));
+            let baseOutcome = booked - actualLiability; 
+            let jackpotOutcome = booked + layStake;
+
+            res.innerHTML = `
+                <div style="background-color: #0f172a; border: 1px dashed #ea580c; padding: 10px; text-align: center;">
+                    <strong>Execution Bet:</strong> Type <strong class="lay-text">₹${layStake}</strong> in the LAY box for the winning favorite.<br>
+                    <span style="font-size: 0.8em; color: #94a3b8;">(Actual Risk Liability: ₹${actualLiability})</span>
+                </div>
+                <p style="margin-top:10px;">🏏 <strong>If favorite holds on:</strong> You keep <strong class="profit-text">+₹${baseOutcome}</strong> safely.</p>
+                <p>🔥 <strong>If underdog pulls miracle:</strong> Payout jumps to <strong style="color: #c084fc; font-weight: bold; font-size: 1.15em;">+₹${jackpotOutcome}</strong>!</p>
+            `;
+            res.style.display = 'block';
+        }
+
+        window.onload = updateUI;
+    </script>
+</body>
+</html>
