@@ -16,7 +16,6 @@
         button { width: 100%; color: white; padding: 14px; border: none; border-radius: 8px; margin-top: 15px; font-size: 15px; cursor: pointer; font-weight: 700; transition: 0.2s; }
         .btn-blue { background-color: #0284c7; } .btn-blue:hover { background-color: #0369a1; }
         .btn-orange { background-color: #ea580c; } .btn-orange:hover { background-color: #c2410c; }
-        .btn-radar { background-color: #6366f1; } .btn-radar:hover { background-color: #4f46e5; }
         
         .radio-container { display: flex; gap: 10px; margin-top: 6px; }
         .radio-container label { flex: 1; text-align: center; padding: 12px; background: #0f172a; border-radius: 8px; cursor: pointer; font-weight: 700; margin: 0; border: 2px solid #334155; transition: 0.2s; }
@@ -71,9 +70,7 @@
         
         <label>Select Goldmine Fixture:</label>
         <select id="intelMatchSelect" onchange="applyDeepMetrics()">
-            <option value="">-- Choose Match --</option>
-            <option value="0">Guyana Amazon Warriors vs Jamaica Kingsmen (Barbados)</option>
-            <option value="1">England vs Sri Lanka (Old Trafford, Manchester)</option>
+            <option value="">⏳ Fetching Live Market Data...</option>
         </select>
 
         <div id="radarDashboard" style="display:none; margin-top:15px;">
@@ -272,44 +269,40 @@
 
     <script>
         // ==========================================
-        // DEEP METRICS REPOSITORY DATABASE
+        // DYNAMIC CLOUD DATA FETCHER (NO DUMMY DB)
         // ==========================================
-        const DEEP_INTEL_DB = [
-            {
-                id: 0,
-                teamA: "Guyana Amazon Warriors",
-                teamB: "Jamaica Kingsmen",
-                venue: "Kensington Oval, Barbados",
-                weather: "28°C, Humid",
-                dewRisk: "Zero Dew (Breezy)",
-                tossBias: "62% Chasing Wins",
-                tossTrend: "Toss Winner bowls first",
-                ppScoreAvg: "41 / 2 (Low Pace)",
-                ppRunRate: "6.8 RPO baseline",
-                spinIndex: "68% Wickets to Spin",
-                spinNote: "Grip in Overs 7-14 is severe",
-                verdict: "🟢 HIGH CONVICTION: SPIN SQUEEZE ACTIVE",
-                badgeClass: "badge-green",
-                strategyText: "Slow deck with zero dew risk. Chasing team under heavy pressure in overs 7-14. Look for favorite at 1.30-1.35 and execute LAY with instant Auto Free-Bet targets."
-            },
-            {
-                id: 1,
-                teamA: "England",
-                teamB: "Sri Lanka",
-                venue: "Old Trafford, Manchester",
-                weather: "17°C, Clear",
-                dewRisk: "Moderate Evening Dew",
-                tossBias: "51% Batting 1st Wins",
-                tossTrend: "Even toss impact",
-                ppScoreAvg: "54 / 1 (High Pace)",
-                ppRunRate: "9.0 RPO aggressive",
-                spinIndex: "38% Wickets to Spin",
-                spinNote: "Flat track with true bounce",
-                verdict: "🟡 CAUTION: DUAL ENTRY MANDATORY",
-                badgeClass: "badge-yellow",
-                strategyText: "High-scoring flat track. Do not Lay at 1.30 with single stake. Use the Dual Entry Helper (1.35 and 1.25) to protect capital against boundary flurries."
+        let DEEP_INTEL_DB = [];
+
+        async function fetchCloudIntel() {
+            const select = document.getElementById('intelMatchSelect');
+            try {
+                // Fetch the auto-generated json from your repo
+                const res = await fetch('intel.json?t=' + new Date().getTime());
+                if(!res.ok) throw new Error("No data file yet");
+                const data = await res.json();
+                DEEP_INTEL_DB = data.matches;
+
+                select.innerHTML = '<option value="">-- Choose Target Match --</option>';
+                if(DEEP_INTEL_DB.length === 0) {
+                    select.innerHTML = '<option value="">🛑 0 Matches Passed Rules (REST DAY)</option>';
+                } else {
+                    DEEP_INTEL_DB.forEach((m, idx) => {
+                        let opt = document.createElement('option');
+                        opt.value = idx;
+                        opt.innerText = `${m.teamA} vs ${m.teamB} (${m.venue})`;
+                        select.appendChild(opt);
+                    });
+                }
+            } catch (err) {
+                console.log(err);
+                select.innerHTML = '<option value="">⚠️ Bot generating data... Run workflow & refresh</option>';
             }
-        ];
+        }
+
+        window.onload = () => { 
+            fetchCloudIntel(); 
+            updateUI(); 
+        };
 
         function applyDeepMetrics() {
             const select = document.getElementById('intelMatchSelect');
