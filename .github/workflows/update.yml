@@ -1,0 +1,34 @@
+name: Match Deep Intel Scanner
+
+on:
+  schedule:
+    - cron: '30 2 * * *' # Runs everyday at 8:00 AM IST
+  workflow_dispatch: # Allows you to run it manually with a button
+
+jobs:
+  run-scanner:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install Requirements
+        run: pip install requests beautifulsoup4
+        
+      - name: Run Bot (Scrape & Analyze)
+        run: python scanner.py
+        
+      - name: Save intel.json to Repo
+        run: |
+          git config --global user.name "Scanner-Bot"
+          git config --global user.email "bot@ultimatepro.com"
+          git add intel.json
+          git commit -m "Auto-updated deep match intel" || exit 0
+          git push
