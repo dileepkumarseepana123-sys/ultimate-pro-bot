@@ -1,37 +1,4 @@
 {
-    "last_updated": "2026-09-19 01:37:46.475970",
-    "matches": [
-        {
-            "teamA": "India Women",
-            "teamB": "Japan Women",
-            "venue": "Asian Games (Pingfeng Campus)",
-            "weather": "N/A",
-            "dewRisk": "N/A",
-            "tossBias": "Unknown",
-            "tossTrend": "Unpredictable",
-            "ppScoreAvg": "Wildcard",
-            "ppRunRate": "Erratic",
-            "spinIndex": "Low Volume",
-            "spinNote": "Liquidity Trap",
-            "verdict": "\ud83d\udd34 REJECTED: MASSIVE SKILL GAP",
-            "badgeClass": "badge-red",
-            "strategyText": "TRAP DETECTED! Odds locked at 1.01. Lay orders will not match. DO NOT TRADE."
-        },
-        {
-            "teamA": "Kenya",
-            "teamB": "Uganda",
-            "venue": "Africa Continental Cup",
-            "weather": "N/A",
-            "dewRisk": "N/A",
-            "tossBias": "Unknown",
-            "tossTrend": "Unpredictable",
-            "ppScoreAvg": "Wildcard",
-            "ppRunRate": "Erratic",
-            "spinIndex": "Low Volume",
-            "spinNote": "Liquidity Trap",
-            "verdict": "\ud83d\udd34 REJECTED: ZERO LIQUIDITY",
-            "badgeClass": "badge-red",
-            "strategyText": "TRAP DETECTED! No public money on exchange. Auto Cut-Loss will fail. DO NOT TRADE."
-        }
-    ]
+    "last_updated": "2026-09-19 01:45:14.296893",
+    "matches": []
 }
