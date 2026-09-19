@@ -16,9 +16,10 @@ def get_venue_deep_stats(combined_text):
 
 def run_scanner():
     live_matches = []
-    premium_leagues = ["cpl", "ipl", "bbl", "psl", "sa20", "blast", "hundred", "t20i", "t20", "women"]
+    # Added Major Teams to VIP list so they don't get rejected in RSS Feed
+    premium_keywords = ["cpl", "ipl", "bbl", "psl", "sa20", "blast", "hundred", "t20", "women", "england", "sri lanka", "india", "australia", "guyana", "jamaica", "barbados", "st lucia", "trinbago", "st kitts"]
     
-    # METHOD 1: ESPN Core Scorepanel API (Unblockable JSON Backend)
+    # METHOD 1: ESPN Core Scorepanel API
     try:
         url = "https://site.api.espn.com/apis/site/v2/sports/cricket/scorepanel"
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
@@ -35,7 +36,7 @@ def run_scanner():
                 teamA = competitors[0].get('team', {}).get('name', 'Team A')
                 teamB = competitors[1].get('team', {}).get('name', 'Team B')
                 
-                is_premium = any(l in series.lower() or l in title.lower() for l in premium_leagues)
+                is_premium = any(k in series.lower() or k in title.lower() for k in premium_keywords)
                 stats = get_venue_deep_stats(title + " " + venue) if is_premium else {
                     "weather": "N/A", "dew": "N/A", "toss": "Unknown", "toss_trend": "Unpredictable",
                     "pp_score": "Wildcard", "pp_rr": "Erratic", "spin_idx": "Low Volume", "spin_note": "Liquidity Trap",
@@ -55,7 +56,7 @@ def run_scanner():
     except Exception as e:
         print(f"ESPN API Route Failed: {e}")
 
-    # METHOD 2: Cricinfo Static RSS (Bulletproof Fallback if API fails or is empty)
+    # METHOD 2: Cricinfo Static RSS (Bulletproof Fallback)
     if len(live_matches) == 0:
         try:
             url = "http://static.cricinfo.com/rss/livescores.xml"
@@ -67,10 +68,13 @@ def run_scanner():
                 title = item.find('title').text
                 if ' v ' in title:
                     parts = title.split(' v ')
-                    teamA = re.sub(r'[\d/\*d]+', '', parts[0]).strip()
-                    teamB = re.sub(r'[\d/\*d]+', '', parts[1]).strip()
                     
-                    is_premium = any(l in title.lower() for l in premium_leagues)
+                    # BUG FIX: Removed 'd' from regex! Now it only removes numbers, slashes, and brackets.
+                    teamA = re.sub(r'[0-9/\*\(\)]+', '', parts[0]).strip()
+                    teamB = re.sub(r'[0-9/\*\(\)]+', '', parts[1]).strip()
+                    
+                    is_premium = any(k in title.lower() or k in teamA.lower() or k in teamB.lower() for k in premium_keywords)
+                    
                     stats = get_venue_deep_stats(title) if is_premium else {
                         "weather": "N/A", "dew": "N/A", "toss": "Unknown", "toss_trend": "Unpredictable",
                         "pp_score": "Wildcard", "pp_rr": "Erratic", "spin_idx": "Low Volume", "spin_note": "Liquidity Trap",
@@ -79,7 +83,7 @@ def run_scanner():
                     }
                         
                     live_matches.append({
-                        "teamA": teamA, "teamB": teamB, "venue": "International Venue",
+                        "teamA": teamA, "teamB": teamB, "venue": "Live Market",
                         "weather": stats["weather"], "dewRisk": stats["dew"],
                         "tossBias": stats["toss"], "tossTrend": stats["toss_trend"],
                         "ppScoreAvg": stats["pp_score"], "ppRunRate": stats["pp_rr"],
@@ -90,7 +94,7 @@ def run_scanner():
         except Exception as e:
             print(f"RSS Fallback Failed: {e}")
 
-    # SYSTEM DIAGNOSTIC (Prevents the empty [] screen confusion)
+    # SYSTEM DIAGNOSTIC
     if len(live_matches) == 0:
         live_matches.append({
             "teamA": "SYSTEM", "teamB": "ONLINE", "venue": "Global Database",
