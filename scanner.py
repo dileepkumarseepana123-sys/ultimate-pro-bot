@@ -16,9 +16,10 @@ CRICSHEET_URL = "https://cricsheet.org/downloads/all_json.zip"
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": "Pro-Terminal/CricAPI-Engine"})
 
-# ADDED CPL FRANCHISE NAMES DIRECTLY SO THEY NEVER GET REJECTED
+# PREMIUM LEAGUES & TEAMS
 PREMIUM_KEYWORDS = ["ipl", "cpl", "bbl", "psl", "sa20", "blast", "mlc", "ilt20", "lanka", "bpl", "super smash", "nepal", "guyana", "jamaica", "barbados", "lucia", "trinbago", "kitts", "antigua", "falcons"]
 MAJOR_TEAMS = ["england", "india", "australia", "sri lanka", "west indies", "south africa", "new zealand", "pakistan", "bangladesh", "afghanistan", "ireland", "zimbabwe"]
+JUNK_WORDS = ["test", "odi", "one day", "t10", "hundred", "women's club"]
 
 # ==========================================
 # OPEN-METEO WEATHER ENGINE
@@ -148,8 +149,8 @@ def run_scanner():
     t20_db = load_t20_history()
     live_matches = []
     
-    # 💥 BUG FIX: Changed endpoint to /matches to ensure we get Upcoming matches too!
-    url = f"https://api.cricapi.com/v1/matches?apikey={CRICAPI_KEY}&offset=0"
+    # 💥 BUG FIX: Use currentMatches to ONLY get Today's active/upcoming matches!
+    url = f"https://api.cricapi.com/v1/currentMatches?apikey={CRICAPI_KEY}&offset=0"
     
     try:
         response = SESSION.get(url, timeout=15).json()
@@ -158,38 +159,41 @@ def run_scanner():
         for m in matches:
             title = str(m.get("name", ""))
             match_type = str(m.get("matchType", "")).lower()
+            combined_text = f"{title} {match_type}".lower()
+
+            # Rule 1: Eliminate clear non-T20 formats
+            if any(j in combined_text for j in JUNK_WORDS):
+                continue
             
-            # Rule 1: Relaxed T20 filter (Sometimes matchType is missing in free API, so we check title too)
-            if "t20" not in match_type and "twenty20" not in match_type and "t20" not in title.lower():
+            # Rule 2: Identify T20 strictly by Title or MatchType
+            is_franchise = any(k in combined_text for k in PREMIUM_KEYWORDS)
+            is_t20 = "t20" in combined_text or "twenty20" in combined_text or is_franchise
+            
+            if not is_t20:
                 continue
                 
             if m.get("matchEnded", False): 
                 continue
-                
-            # 💥 BUG FIX: Robust Team Extraction. Free API often hides teamInfo for upcoming matches.
+
+            # 💥 BUG FIX: Robust Team Extraction (Bypasses missing teamInfo array)
             teamA, teamB = "Team A", "Team B"
             if m.get("teamInfo") and len(m["teamInfo"]) >= 2:
                 teamA = m["teamInfo"][0].get("name", "Team A")
                 teamB = m["teamInfo"][1].get("name", "Team B")
-            elif m.get("teams") and len(m["teams"]) >= 2:
-                teamA = m["teams"][0]
-                teamB = m["teams"][1]
-            elif " vs " in title:
-                parts = title.split(",")[0].split(" vs ")
-                if len(parts) >= 2:
-                    teamA, teamB = parts[0].strip(), parts[1].strip()
             else:
-                continue # If we STILL can't find teams, skip it.
+                # E.g. "England vs Sri Lanka, 3rd T20I"
+                clean_title = title.split(",")[0].lower()
+                parts = re.split(r'\s+vs\s+|\s+v\s+', clean_title)
+                if len(parts) >= 2:
+                    teamA, teamB = parts[0].strip().title(), parts[1].strip().title()
 
             venue = str(m.get("venue", "UNKNOWN VENUE"))
-            if not venue or venue.lower() == "none":
+            if not venue or venue.lower() == "none" or venue == "":
                 venue = "UNKNOWN VENUE"
                 
             status_text = str(m.get("status", "Upcoming"))
-            combined_text = f"{title} {match_type}".lower()
             
-            # PREMIUM FILTER
-            is_franchise = any(k in combined_text for k in PREMIUM_KEYWORDS)
+            # Rule 3: PREMIUM FILTER
             is_intl = any(t in combined_text for t in MAJOR_TEAMS)
             is_premium = is_franchise or is_intl
             
@@ -219,7 +223,7 @@ def run_scanner():
                         toss_bias, pp_avg, spin_idx = "UNKNOWN", "UNKNOWN", "UNKNOWN"
                 else:
                     verdict, badge = "🟡 INSUFFICIENT VENUE DATA", "badge-yellow"
-                    strategy = "CricAPI did not provide a venue name. Rely strictly on live odds."
+                    strategy = "CricAPI did not provide a venue name yet. Rely strictly on live odds."
                     wx_str, dew_str, toss_bias, pp_avg, spin_idx = "N/A", "N/A", "UNKNOWN", "UNKNOWN", "UNKNOWN"
             else:
                 verdict, badge = "🔴 REJECTED: JUNK T20", "badge-red"
