@@ -1,21 +1,21 @@
 {
-    "last_updated": "2026-09-19 08:39:33.843899+00:00",
+    "last_updated": "2026-09-19 08:43:28.784235+00:00",
     "matches": [
         {
-            "teamA": "Tanzania Women",
-            "teamB": "Uganda Women",
-            "venue": "Namibia Cricket Ground, Windhoek",
+            "teamA": "SYSTEM",
+            "teamB": "ONLINE",
+            "venue": "Global Database",
             "weather": "N/A",
             "dewRisk": "N/A",
             "tossBias": "N/A",
-            "tossTrend": "Tanzania Women awarded the match (opposition refused to play)",
+            "tossTrend": "N/A",
             "ppScoreAvg": "N/A",
-            "ppRunRate": "116/2 (16.4 ov) @ 7.07 RPO",
+            "ppRunRate": "N/A",
             "spinIndex": "N/A",
-            "spinNote": "Live Match Radar Active",
-            "verdict": "\ud83d\udd34 REJECTED: JUNK T20",
-            "badgeClass": "badge-red",
-            "strategyText": "Low liquidity match. Stop-loss logic will fail. DO NOT TRADE."
+            "spinNote": "N/A",
+            "verdict": "\u26a0\ufe0f NO STANDARD T20 MATCHES TODAY",
+            "badgeClass": "badge-yellow",
+            "strategyText": "No major T20s found in CricAPI feed. Rest day."
         }
     ]
 }
