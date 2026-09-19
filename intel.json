@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-09-19 02:27:32.691439",
+    "last_updated": "2026-09-19 02:34:01.431451",
     "matches": [
         {
-            "teamA": "Maiwan Champions",
-            "teamB": "Hinukush Strikers",
-            "venue": "International Venue",
+            "teamA": "Maiwand Champions",
+            "teamB": "Hindukush Strikers",
+            "venue": "Live Market",
             "weather": "N/A",
             "dewRisk": "N/A",
             "tossBias": "Unknown",
@@ -18,9 +18,9 @@
             "strategyText": "TRAP DETECTED! Market liquidity will be dead. DO NOT TRADE."
         },
         {
-            "teamA": "Pamir Legens",
+            "teamA": "Pamir Legends",
             "teamB": "Mah-e-Par Stars  &",
-            "venue": "International Venue",
+            "venue": "Live Market",
             "weather": "N/A",
             "dewRisk": "N/A",
             "tossBias": "Unknown",
@@ -36,23 +36,23 @@
         {
             "teamA": "Guyana Amazon Warriors",
             "teamB": "Jamaica Kingsmen",
-            "venue": "International Venue",
-            "weather": "N/A",
-            "dewRisk": "N/A",
-            "tossBias": "Unknown",
-            "tossTrend": "Unpredictable",
-            "ppScoreAvg": "Wildcard",
-            "ppRunRate": "Erratic",
-            "spinIndex": "Low Volume",
-            "spinNote": "Liquidity Trap",
-            "verdict": "\ud83d\udd34 REJECTED: JUNK LEAGUE",
-            "badgeClass": "badge-red",
-            "strategyText": "TRAP DETECTED! Market liquidity will be dead. DO NOT TRADE."
+            "venue": "Live Market",
+            "weather": "25\u00b0C, Clear",
+            "dewRisk": "Unknown",
+            "tossBias": "50-50 Bias",
+            "tossTrend": "Neutral",
+            "ppScoreAvg": "48 / 1",
+            "ppRunRate": "8.0 RPO",
+            "spinIndex": "50% Wickets to Spin",
+            "spinNote": "Standard T20 Pitch",
+            "verdict": "\ud83d\udfe1 AVERAGE TRACK: PLAY CAREFULLY",
+            "badgeClass": "badge-yellow",
+            "strategyText": "Read the game in powerplay before taking action."
         },
         {
-            "teamA": "Queenslan",
+            "teamA": "Queensland",
             "teamB": "Victoria",
-            "venue": "International Venue",
+            "venue": "Live Market",
             "weather": "N/A",
             "dewRisk": "N/A",
             "tossBias": "Unknown",
@@ -68,7 +68,7 @@
         {
             "teamA": "Hampshire Women",
             "teamB": "The Blaze Women",
-            "venue": "International Venue",
+            "venue": "Live Market",
             "weather": "25\u00b0C, Clear",
             "dewRisk": "Unknown",
             "tossBias": "50-50 Bias",
@@ -84,7 +84,7 @@
         {
             "teamA": "Zimbabwe Women",
             "teamB": "South Africa Women",
-            "venue": "International Venue",
+            "venue": "Live Market",
             "weather": "25\u00b0C, Clear",
             "dewRisk": "Unknown",
             "tossBias": "50-50 Bias",
@@ -99,8 +99,8 @@
         },
         {
             "teamA": "Belfast Wolves",
-            "teamB": "Amsteram Flames",
-            "venue": "International Venue",
+            "teamB": "Amsterdam Flames",
+            "venue": "Live Market",
             "weather": "N/A",
             "dewRisk": "N/A",
             "tossBias": "Unknown",
@@ -114,20 +114,20 @@
             "strategyText": "TRAP DETECTED! Market liquidity will be dead. DO NOT TRADE."
         },
         {
-            "teamA": "Englan",
+            "teamA": "England",
             "teamB": "Sri Lanka",
-            "venue": "International Venue",
-            "weather": "N/A",
-            "dewRisk": "N/A",
-            "tossBias": "Unknown",
-            "tossTrend": "Unpredictable",
-            "ppScoreAvg": "Wildcard",
-            "ppRunRate": "Erratic",
-            "spinIndex": "Low Volume",
-            "spinNote": "Liquidity Trap",
-            "verdict": "\ud83d\udd34 REJECTED: JUNK LEAGUE",
-            "badgeClass": "badge-red",
-            "strategyText": "TRAP DETECTED! Market liquidity will be dead. DO NOT TRADE."
+            "venue": "Live Market",
+            "weather": "25\u00b0C, Clear",
+            "dewRisk": "Unknown",
+            "tossBias": "50-50 Bias",
+            "tossTrend": "Neutral",
+            "ppScoreAvg": "48 / 1",
+            "ppRunRate": "8.0 RPO",
+            "spinIndex": "50% Wickets to Spin",
+            "spinNote": "Standard T20 Pitch",
+            "verdict": "\ud83d\udfe1 AVERAGE TRACK: PLAY CAREFULLY",
+            "badgeClass": "badge-yellow",
+            "strategyText": "Read the game in powerplay before taking action."
         }
     ]
 }
