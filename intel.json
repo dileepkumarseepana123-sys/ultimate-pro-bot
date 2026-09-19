@@ -1,21 +1,21 @@
 {
-    "last_updated": "2026-09-19 08:09:58.338793+00:00",
+    "last_updated": "2026-09-19 08:33:44.066860+00:00",
     "matches": [
         {
-            "teamA": "England",
-            "teamB": "Sri Lanka",
-            "venue": "UNKNOWN VENUE",
+            "teamA": "SYSTEM",
+            "teamB": "ONLINE",
+            "venue": "Global Database",
             "weather": "N/A",
             "dewRisk": "N/A",
-            "tossBias": "UNKNOWN",
-            "tossTrend": "Toss Unknown",
-            "ppScoreAvg": "UNKNOWN",
-            "ppRunRate": "0/0 @ 0.00 RPO",
-            "spinIndex": "UNKNOWN",
-            "spinNote": "Match Radar Active",
-            "verdict": "\ud83d\udfe1 INSUFFICIENT VENUE DATA",
+            "tossBias": "N/A",
+            "tossTrend": "N/A",
+            "ppScoreAvg": "N/A",
+            "ppRunRate": "N/A",
+            "spinIndex": "N/A",
+            "spinNote": "N/A",
+            "verdict": "\u26a0\ufe0f NO STANDARD T20 MATCHES TODAY",
             "badgeClass": "badge-yellow",
-            "strategyText": "Match active via Fallback API. Venue is unknown. Rely strictly on live odds."
+            "strategyText": "No major T20s found in CricAPI feed. Rest day."
         }
     ]
 }
