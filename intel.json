@@ -1,21 +1,21 @@
 {
-    "last_updated": "2026-09-19 08:01:58.777733+00:00",
+    "last_updated": "2026-09-19 08:09:58.338793+00:00",
     "matches": [
         {
             "teamA": "England",
             "teamB": "Sri Lanka",
-            "venue": "Live Market",
-            "weather": "Check Broadcast",
-            "dewRisk": "Unknown",
+            "venue": "UNKNOWN VENUE",
+            "weather": "N/A",
+            "dewRisk": "N/A",
             "tossBias": "UNKNOWN",
-            "tossTrend": "Live Broadcast Active",
+            "tossTrend": "Toss Unknown",
             "ppScoreAvg": "UNKNOWN",
             "ppRunRate": "0/0 @ 0.00 RPO",
             "spinIndex": "UNKNOWN",
             "spinNote": "Match Radar Active",
             "verdict": "\ud83d\udfe1 INSUFFICIENT VENUE DATA",
             "badgeClass": "badge-yellow",
-            "strategyText": "Less than 5 historical T20s found here. Rely strictly on live odds."
+            "strategyText": "Match active via Fallback API. Venue is unknown. Rely strictly on live odds."
         }
     ]
 }
