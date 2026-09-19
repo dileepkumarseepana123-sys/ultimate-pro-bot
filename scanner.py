@@ -1,4 +1,5 @@
 import json, requests, datetime
+import urllib.parse
 from bs4 import BeautifulSoup
 
 # Deep Venue Database
@@ -16,14 +17,22 @@ def get_venue_deep_stats(venue_name):
     return VENUE_DEEP_DB["DEFAULT"]
 
 def run_scanner():
-    url = "https://www.cricbuzz.com/cricket-schedule/upcoming-series/all"
+    target_url = "https://www.cricbuzz.com/cricket-match/live-scores"
+    
+    # Bypassing GitHub IP Block using AllOrigins Proxy Engine
+    encoded_url = urllib.parse.quote(target_url, safe='')
+    url = f"https://api.allorigins.win/get?url={encoded_url}"
+    
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
-    premium_leagues = ["cpl", "ipl", "bbl", "psl", "sa20", "t20i", "t20 blast", "hundred"]
+    premium_leagues = ["cpl", "ipl", "bbl", "psl", "sa20", "t20i", "t20 blast", "the hundred"]
     live_matches = []
 
     try:
-        res = requests.get(url, headers=headers, timeout=10)
-        soup = BeautifulSoup(res.text, "html.parser")
+        res = requests.get(url, headers=headers, timeout=15)
+        data = res.json()
+        html_content = data.get("contents", "")
+        
+        soup = BeautifulSoup(html_content, "html.parser")
         blocks = soup.find_all("div", class_="cb-col-100 cb-col")
         
         for block in blocks:
@@ -31,21 +40,26 @@ def run_scanner():
             lines = [l.strip() for l in text.split("\n") if l.strip()]
             
             if len(lines) >= 2 and " vs " in lines[0]:
-                teamA = lines[0].split(" vs ")[0].strip()
-                teamB = lines[0].split(" vs ")[1].split(",")[0].strip()
-                venue = lines[1].strip()
+                match_title = lines[0]
+                venue = lines[1]
+                
+                teams = match_title.split(" vs ")
+                if len(teams) < 2:
+                    continue
+                    
+                teamA = teams[0].strip()
+                teamB = teams[1].split(",")[0].strip()
                 
                 is_premium = any(league in text.lower() for league in premium_leagues)
                 
                 if is_premium:
                     stats = get_venue_deep_stats(venue)
                 else:
-                    # THE REJECTION PROFILE
                     stats = {
                         "weather": "N/A", "dew": "N/A", "toss": "Unknown", "toss_trend": "Unpredictable",
                         "pp_score": "Wildcard", "pp_rr": "Erratic", "spin_idx": "Low Volume", "spin_note": "Liquidity Trap",
                         "verdict": "🔴 REJECTED: JUNK LEAGUE / LOW LIQUIDITY", "badge": "badge-red",
-                        "strategy": "TRAP DETECTED! This match failed Rule #5. Market liquidity will be dead. Stop-Loss orders won't execute. DO NOT TRADE."
+                        "strategy": "TRAP DETECTED! Market liquidity will be dead. Stop-Loss orders won't execute. DO NOT TRADE."
                     }
                 
                 if not any(m['teamA'] == teamA for m in live_matches):
@@ -58,28 +72,9 @@ def run_scanner():
                         "verdict": stats["verdict"], "badgeClass": stats["badge"],
                         "strategyText": stats["strategy"]
                     })
+                    
     except Exception as e:
-        print(f"Error scraping: {e}")
-
-    # THE FAILSAFE: If Github IP gets blocked, force inject today's active junk matches!
-    if len(live_matches) == 0:
-        print("Cricbuzz blocked GitHub IP! Injecting Failsafe Matches...")
-        live_matches = [
-            {
-                "teamA": "India Women", "teamB": "Japan Women", "venue": "Asian Games (Pingfeng Campus)",
-                "weather": "N/A", "dewRisk": "N/A", "tossBias": "Unknown", "tossTrend": "Unpredictable",
-                "ppScoreAvg": "Wildcard", "ppRunRate": "Erratic", "spinIndex": "Low Volume", "spinNote": "Liquidity Trap",
-                "verdict": "🔴 REJECTED: MASSIVE SKILL GAP", "badgeClass": "badge-red",
-                "strategyText": "TRAP DETECTED! Odds locked at 1.01. Lay orders will not match. DO NOT TRADE."
-            },
-            {
-                "teamA": "Kenya", "teamB": "Uganda", "venue": "Africa Continental Cup",
-                "weather": "N/A", "dewRisk": "N/A", "tossBias": "Unknown", "tossTrend": "Unpredictable",
-                "ppScoreAvg": "Wildcard", "ppRunRate": "Erratic", "spinIndex": "Low Volume", "spinNote": "Liquidity Trap",
-                "verdict": "🔴 REJECTED: ZERO LIQUIDITY", "badgeClass": "badge-red",
-                "strategyText": "TRAP DETECTED! No public money on exchange. Auto Cut-Loss will fail. DO NOT TRADE."
-            }
-        ]
+        print(f"Error scraping via proxy: {e}")
 
     output = {
         "last_updated": str(datetime.datetime.now()),
@@ -87,7 +82,7 @@ def run_scanner():
     }
     with open("intel.json", "w") as f:
         json.dump(output, f, indent=4)
-    print(f"Scanned & Saved {len(live_matches)} Matches.")
+    print(f"Scanned & Saved {len(live_matches)} Live Matches.")
 
 if __name__ == "__main__":
     run_scanner()
