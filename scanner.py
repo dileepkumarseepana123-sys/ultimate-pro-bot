@@ -4,8 +4,6 @@ import json, urllib.request, datetime
 # CRICSHEET DATA ENGINE (Foundation)
 # ==========================================
 def get_cricsheet_historical_stats(venue_name):
-    # Idhi Cricsheet & DuckDB pipeline ki connection point.
-    # Future lo idhi direct ga CSV/DB nunchi data laaguthundi.
     return {
         "toss": "Cricsheet: 55% Chasing Wins", 
         "pp_score": "Cricsheet Avg: 47 / 1", 
@@ -17,11 +15,10 @@ def get_cricsheet_historical_stats(venue_name):
 
 def run_scanner():
     live_matches = []
-    # ESPN Scorepanel: Fetches ALL matches scheduled for Today
     url = "https://site.api.espn.com/apis/site/v2/sports/cricket/scorepanel"
     
-    # Premium T20 Leagues List
-    premium_keywords = ["cpl", "ipl", "bbl", "psl", "sa20", "blast", "hundred", "t20i", "women's t20", "t20"]
+    # 💥 BUG FIX: Added exact league names so we never miss them even if ESPN forgets to write "T20"
+    premium_keywords = ["cpl", "caribbean", "ipl", "indian premier", "bbl", "big bash", "psl", "super league", "sa20", "blast", "hundred", "t20i", "women's t20", "t20"]
     
     try:
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
@@ -30,23 +27,25 @@ def run_scanner():
         for event in data.get('events', []):
             title = event.get('name', 'Unknown Match')
             comp = event.get('competitions', [{}])[0]
-            series = event.get('season', {}).get('slug', '')
+            series = event.get('season', {}).get('slug', '').replace('-', ' ')
             
-            # 1. MATCH STATUS CHECK (Upcoming & Live ONLY. Ignore Finished)
+            # 1. MATCH STATUS CHECK 
             status_node = comp.get('status', {}).get('type', {})
-            state = status_node.get('state', 'pre') # 'pre'=Upcoming, 'in'=Live, 'post'=Finished
+            state = status_node.get('state', 'pre') 
             
             if state == 'post':
-                continue # Match aipoindi, so list nunchi theesey!
+                continue # Match aipoindi
                 
-            # 2. STRICT T20 FILTER (Ignore ODIs, Tests, T10s)
             combined_text = f"{title} {series}".lower()
-            is_t20 = ("t20" in combined_text or "twenty20" in combined_text or "hundred" in combined_text)
+            
+            # 2. STRICT T20 FILTER (Upgraded VIP Logic)
+            is_premium = any(k in combined_text for k in premium_keywords)
+            # If it's in our premium list OR has "twenty20", it is a T20 match!
+            is_t20 = ("twenty20" in combined_text or is_premium)
             
             if not is_t20:
-                continue # Asalu T20 kaakapothe pakkana padesey!
+                continue
 
-            # Venue & Teams
             venue_name = comp.get('venue', {}).get('fullName', 'Unknown Venue')
             city = comp.get('venue', {}).get('address', {}).get('city', venue_name)
             
@@ -58,14 +57,12 @@ def run_scanner():
             
             # 3. UPCOMING vs LIVE LOGIC
             if state == 'pre':
-                # Match inka start avvaledu (Scheduled for today)
                 toss_actual = "Upcoming Match (Toss pending)"
                 current_score = "0/0"
                 current_rr = "0.00 RPO"
                 time_str = status_node.get('shortDetail', 'Today')
                 spin_note = f"Match starts at {time_str}"
             else:
-                # Match is LIVE right now
                 toss_node = comp.get('status', {}).get('toss', {})
                 if toss_node:
                     winner = toss_node.get('winner', {}).get('text', 'Toss')
@@ -74,7 +71,6 @@ def run_scanner():
                 else:
                     toss_actual = "Live Match"
                     
-                # Calculate Live Score
                 runs, wickets, overs = 0, 0, 0
                 for team in competitors:
                     linescores = team.get('linescores', [])
@@ -88,11 +84,8 @@ def run_scanner():
                 current_rr = f"{(runs/overs):.2f} RPO" if overs > 0 else "0.00 RPO"
                 spin_note = "Watch live overs 7-14"
 
-            # 4. ACCEPTED vs REJECTED (T20 League Quality)
-            is_premium = any(k in combined_text for k in premium_keywords)
-            
+            # 4. ACCEPTED vs REJECTED
             if is_premium:
-                # PREMIUM T20 - Send to Cricsheet Engine
                 stats = get_cricsheet_historical_stats(venue_name)
                 toss_bias = stats["toss"]
                 pp_avg = stats["pp_score"]
@@ -101,9 +94,8 @@ def run_scanner():
                 badge = stats["badge"]
                 strategy = stats["strategy"]
             else:
-                # JUNK T20 - Reject it brutally
                 toss_bias, pp_avg, spin_idx = "N/A", "N/A", "N/A"
-                verdict = f"🔴 REJECTED: JUNK T20 ({series})"
+                verdict = f"🔴 REJECTED: JUNK T20"
                 badge = "badge-red"
                 strategy = "This is a T20, but not a premium league. Market liquidity will be zero. DO NOT TRADE."
 
@@ -125,7 +117,6 @@ def run_scanner():
     except Exception as e:
         print(f"API Failed: {e}")
 
-    # No T20 matches scheduled today
     if len(live_matches) == 0:
         live_matches.append({
             "teamA": "SYSTEM", "teamB": "ONLINE", "venue": "Global Database",
