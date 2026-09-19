@@ -15,50 +15,41 @@ def get_venue_deep_stats(match_title, venue_name):
     return VENUE_DEEP_DB["DEFAULT"]
 
 def run_scanner():
-    # 💥 CRACKED ROUTE: Hitting ESPN's internal JSON API directly. 
-    # Bypasses HTML anti-bot protections entirely!
-    api_url = "https://site.api.espn.com/apis/site/v2/sports/cricket/scorepanel"
+    # THE RESEARCHED ENDPOINT: Cricinfo's highly stable Mobile App API
+    api_url = "https://hs-consumer-api.espncricinfo.com/v1/pages/matches/current?lang=en&v=1"
     
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-        "Accept": "application/json"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
     }
     
-    # Premium leagues we care about
     premium_leagues = ["cpl", "ipl", "bbl", "psl", "sa20", "t20 blast", "hundred", "t20i", "t20"]
     live_matches = []
 
     try:
-        print("Intercepting ESPN Backend API...")
+        print("Fetching data from Cricinfo Consumer API...")
         res = requests.get(api_url, headers=headers, timeout=15)
-        res.raise_for_status() # If network fails, let the script crash gracefully. NO FAILSAFES.
+        res.raise_for_status() 
         
         data = res.json()
-        events = data.get("events", [])
+        matches = data.get("matches", [])
+        print(f"API Connected! Found {len(matches)} active global matches.")
         
-        for event in events:
+        for m in matches:
             try:
-                # Extracting specific data from the complex JSON structure
-                match_title = event.get("name", "Unknown Match")
-                competitions = event.get("competitions", [])
-                if not competitions:
+                # Safely parsing the Cricinfo JSON structure
+                teams = m.get("teams", [])
+                if len(teams) < 2:
                     continue
                     
-                comp = competitions[0]
-                competitors = comp.get("competitors", [])
-                if len(competitors) < 2:
-                    continue
-                    
-                # Getting team names
-                teamA = competitors[0].get("team", {}).get("name", "Team A")
-                teamB = competitors[1].get("team", {}).get("name", "Team B")
+                teamA = teams[0].get("team", {}).get("name", "Team A")
+                teamB = teams[1].get("team", {}).get("name", "Team B")
                 
-                # Getting venue
-                venue = comp.get("venue", {}).get("fullName", "Unknown Venue")
-                league_name = event.get("season", {}).get("slug", "") or match_title
+                venue = m.get("ground", {}).get("name", "Unknown Venue")
+                series_name = m.get("series", {}).get("name", "Unknown Series")
+                match_title = f"{teamA} vs {teamB}"
                 
-                # Applying our Rule #5 Liquidity filter
-                is_premium = any(l in match_title.lower() or l in league_name.lower() for l in premium_leagues)
+                # Rule #5 Liquidity check
+                is_premium = any(l in series_name.lower() or l in match_title.lower() for l in premium_leagues)
                 
                 if is_premium:
                     stats = get_venue_deep_stats(match_title, venue)
@@ -66,7 +57,7 @@ def run_scanner():
                     stats = {
                         "weather": "N/A", "dew": "N/A", "toss": "Unknown", "toss_trend": "Unpredictable",
                         "pp_score": "Wildcard", "pp_rr": "Erratic", "spin_idx": "Low Volume", "spin_note": "Liquidity Trap",
-                        "verdict": f"🔴 REJECTED: JUNK / LOW LIQUIDITY", "badge": "badge-red",
+                        "verdict": f"🔴 REJECTED: JUNK ({series_name})", "badge": "badge-red",
                         "strategy": "TRAP DETECTED! Market liquidity will be dead. Stop-Loss orders won't execute. DO NOT TRADE."
                     }
                 
@@ -80,14 +71,13 @@ def run_scanner():
                     "strategyText": stats["strategy"]
                 })
             except Exception as e:
-                print(f"Skipping a match due to parsing error: {e}")
+                print(f"Skipped a match due to parsing error: {e}")
                 continue
                 
     except Exception as e:
-        # NO DUMMY DATA INJECTED! We accept the failure like pros if the API goes down.
         print(f"CRITICAL API FAILURE: {e}")
 
-    # Outputting the real data exactly as captured
+    # Output generation
     output = {
         "last_updated": str(datetime.datetime.now()),
         "matches": live_matches
@@ -96,7 +86,7 @@ def run_scanner():
     with open("intel.json", "w") as f:
         json.dump(output, f, indent=4)
         
-    print(f"Scanned & Saved {len(live_matches)} Live Matches securely from Backend API.")
+    print(f"Successfully Scanned & Saved {len(live_matches)} Live Matches.")
 
 if __name__ == "__main__":
     run_scanner()
