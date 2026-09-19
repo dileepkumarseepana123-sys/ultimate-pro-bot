@@ -1,21 +1,21 @@
 {
-    "last_updated": "2026-09-19 07:53:46.251768+00:00",
+    "last_updated": "2026-09-19 08:01:58.777733+00:00",
     "matches": [
         {
-            "teamA": "SYSTEM",
-            "teamB": "ONLINE",
-            "venue": "Global Database",
-            "weather": "N/A",
-            "dewRisk": "N/A",
-            "tossBias": "N/A",
-            "tossTrend": "N/A",
-            "ppScoreAvg": "N/A",
-            "ppRunRate": "N/A",
-            "spinIndex": "N/A",
-            "spinNote": "N/A",
-            "verdict": "\u26a0\ufe0f NO STANDARD T20 MATCHES TODAY",
+            "teamA": "England",
+            "teamB": "Sri Lanka",
+            "venue": "Live Market",
+            "weather": "Check Broadcast",
+            "dewRisk": "Unknown",
+            "tossBias": "UNKNOWN",
+            "tossTrend": "Live Broadcast Active",
+            "ppScoreAvg": "UNKNOWN",
+            "ppRunRate": "0/0 @ 0.00 RPO",
+            "spinIndex": "UNKNOWN",
+            "spinNote": "Match Radar Active",
+            "verdict": "\ud83d\udfe1 INSUFFICIENT VENUE DATA",
             "badgeClass": "badge-yellow",
-            "strategyText": "No major T20s found. System respects the Rules of Trading. Rest day."
+            "strategyText": "Less than 5 historical T20s found here. Rely strictly on live odds."
         }
     ]
 }
