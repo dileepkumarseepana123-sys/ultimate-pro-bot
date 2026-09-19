@@ -6,7 +6,6 @@ import requests
 # ==========================================
 # CONFIGURATION
 # ==========================================
-# CRICAPI KEY SUCCESSFULLY INTEGRATED
 CRICAPI_KEY = "8ea9030f-60fe-46a7-a2aa-e985361b63bd"
 
 DATA_DIR = Path("./data")
@@ -17,7 +16,8 @@ CRICSHEET_URL = "https://cricsheet.org/downloads/all_json.zip"
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": "Pro-Terminal/CricAPI-Engine"})
 
-PREMIUM_KEYWORDS = ["ipl", "cpl", "bbl", "psl", "sa20", "blast", "mlc", "ilt20", "lanka", "bpl", "super smash", "nepal"]
+# ADDED CPL FRANCHISE NAMES DIRECTLY SO THEY NEVER GET REJECTED
+PREMIUM_KEYWORDS = ["ipl", "cpl", "bbl", "psl", "sa20", "blast", "mlc", "ilt20", "lanka", "bpl", "super smash", "nepal", "guyana", "jamaica", "barbados", "lucia", "trinbago", "kitts", "antigua", "falcons"]
 MAJOR_TEAMS = ["england", "india", "australia", "sri lanka", "west indies", "south africa", "new zealand", "pakistan", "bangladesh", "afghanistan", "ireland", "zimbabwe"]
 
 # ==========================================
@@ -148,34 +148,44 @@ def run_scanner():
     t20_db = load_t20_history()
     live_matches = []
     
-    url = f"https://api.cricapi.com/v1/currentMatches?apikey={CRICAPI_KEY}&offset=0"
+    # 💥 BUG FIX: Changed endpoint to /matches to ensure we get Upcoming matches too!
+    url = f"https://api.cricapi.com/v1/matches?apikey={CRICAPI_KEY}&offset=0"
     
     try:
         response = SESSION.get(url, timeout=15).json()
         matches = response.get("data", [])
         
         for m in matches:
+            title = str(m.get("name", ""))
             match_type = str(m.get("matchType", "")).lower()
             
-            # STRICT T20 FILTER
-            if match_type != "t20": 
+            # Rule 1: Relaxed T20 filter (Sometimes matchType is missing in free API, so we check title too)
+            if "t20" not in match_type and "twenty20" not in match_type and "t20" not in title.lower():
                 continue
                 
-            title = str(m.get("name", ""))
+            if m.get("matchEnded", False): 
+                continue
+                
+            # 💥 BUG FIX: Robust Team Extraction. Free API often hides teamInfo for upcoming matches.
+            teamA, teamB = "Team A", "Team B"
+            if m.get("teamInfo") and len(m["teamInfo"]) >= 2:
+                teamA = m["teamInfo"][0].get("name", "Team A")
+                teamB = m["teamInfo"][1].get("name", "Team B")
+            elif m.get("teams") and len(m["teams"]) >= 2:
+                teamA = m["teams"][0]
+                teamB = m["teams"][1]
+            elif " vs " in title:
+                parts = title.split(",")[0].split(" vs ")
+                if len(parts) >= 2:
+                    teamA, teamB = parts[0].strip(), parts[1].strip()
+            else:
+                continue # If we STILL can't find teams, skip it.
+
             venue = str(m.get("venue", "UNKNOWN VENUE"))
-            teams = m.get("teamInfo", [])
-            
-            if len(teams) < 2: 
-                continue
+            if not venue or venue.lower() == "none":
+                venue = "UNKNOWN VENUE"
                 
-            teamA = teams[0].get("name", "Team A")
-            teamB = teams[1].get("name", "Team B")
-            
-            status_text = str(m.get("status", "Match Data Pending"))
-            is_match_ended = m.get("matchEnded", False)
-            if is_match_ended: 
-                continue
-                
+            status_text = str(m.get("status", "Upcoming"))
             combined_text = f"{title} {match_type}".lower()
             
             # PREMIUM FILTER
@@ -183,29 +193,34 @@ def run_scanner():
             is_intl = any(t in combined_text for t in MAJOR_TEAMS)
             is_premium = is_franchise or is_intl
             
-            # Extract live score if available
+            # Live Score Extraction
             score_str, rr_str = "0/0 (0.0 ov)", "0.00 RPO"
             score_data = m.get("score", [])
-            if score_data:
+            if score_data and isinstance(score_data, list):
                 latest_innings = score_data[-1]
                 runs = latest_innings.get("r", 0)
                 wkts = latest_innings.get("w", 0)
                 overs = latest_innings.get("o", 0)
                 score_str = f"{runs}/{wkts} ({overs} ov)"
-                rr_str = f"{(runs/overs):.2f} RPO" if overs > 0 else "0.00 RPO"
+                rr_str = f"{(runs/float(overs)):.2f} RPO" if float(overs) > 0 else "0.00 RPO"
 
             if is_premium:
-                wx_str, dew_str = get_live_weather(venue)
-                v_stats = analyze_venue(t20_db, venue)
-                
-                if v_stats:
-                    verdict, badge = "🟢 PRO DATA VERIFIED", "badge-green"
-                    strategy = f"Cricsheet History ({v_stats['matches']} matches). Trade safely."
-                    toss_bias, pp_avg, spin_idx = v_stats['toss_bias'], v_stats['pp_avg'], v_stats['spin_idx']
+                if venue != "UNKNOWN VENUE":
+                    wx_str, dew_str = get_live_weather(venue)
+                    v_stats = analyze_venue(t20_db, venue)
+                    
+                    if v_stats:
+                        verdict, badge = "🟢 PRO DATA VERIFIED", "badge-green"
+                        strategy = f"Cricsheet History ({v_stats['matches']} matches). Trade safely."
+                        toss_bias, pp_avg, spin_idx = v_stats['toss_bias'], v_stats['pp_avg'], v_stats['spin_idx']
+                    else:
+                        verdict, badge = "🟡 INSUFFICIENT VENUE DATA", "badge-yellow"
+                        strategy = "Less than 5 historical T20s found here. Rely strictly on live odds."
+                        toss_bias, pp_avg, spin_idx = "UNKNOWN", "UNKNOWN", "UNKNOWN"
                 else:
                     verdict, badge = "🟡 INSUFFICIENT VENUE DATA", "badge-yellow"
-                    strategy = "Less than 5 historical T20s found here. Rely strictly on live odds."
-                    toss_bias, pp_avg, spin_idx = "UNKNOWN", "UNKNOWN", "UNKNOWN"
+                    strategy = "CricAPI did not provide a venue name. Rely strictly on live odds."
+                    wx_str, dew_str, toss_bias, pp_avg, spin_idx = "N/A", "N/A", "UNKNOWN", "UNKNOWN", "UNKNOWN"
             else:
                 verdict, badge = "🔴 REJECTED: JUNK T20", "badge-red"
                 strategy = "Low liquidity match. Stop-loss logic will fail. DO NOT TRADE."
