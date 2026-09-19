@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-19 06:56:31.691785",
+    "last_updated": "2026-09-19 07:43:49.068488+00:00",
     "matches": [
         {
             "teamA": "SYSTEM",
@@ -13,9 +13,9 @@
             "ppRunRate": "N/A",
             "spinIndex": "N/A",
             "spinNote": "N/A",
-            "verdict": "\u26a0\ufe0f NO T20 MATCHES TODAY",
+            "verdict": "\u26a0\ufe0f NO STANDARD T20 MATCHES TODAY",
             "badgeClass": "badge-yellow",
-            "strategyText": "There are no T20 matches (Premium or Junk) scheduled for today globally."
+            "strategyText": "No major T20s found. System respects the Rules of Trading. Rest day."
         }
     ]
 }
