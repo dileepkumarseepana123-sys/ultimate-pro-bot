@@ -2,6 +2,7 @@ import json, re, zipfile
 from pathlib import Path
 from datetime import datetime, timezone
 import requests
+import xml.etree.ElementTree as ET
 
 # ==========================================
 # CONFIGURATION
@@ -16,7 +17,6 @@ CRICSHEET_URL = "https://cricsheet.org/downloads/all_json.zip"
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": "Pro-Terminal/CricAPI-Engine"})
 
-# PREMIUM LEAGUES & TEAMS
 PREMIUM_KEYWORDS = ["ipl", "cpl", "bbl", "psl", "sa20", "blast", "mlc", "ilt20", "lanka", "bpl", "super smash", "nepal", "guyana", "jamaica", "barbados", "lucia", "trinbago", "kitts", "antigua", "falcons"]
 MAJOR_TEAMS = ["england", "india", "australia", "sri lanka", "west indies", "south africa", "new zealand", "pakistan", "bangladesh", "afghanistan", "ireland", "zimbabwe"]
 JUNK_WORDS = ["test", "odi", "one day", "t10", "hundred", "women's club"]
@@ -55,7 +55,6 @@ def calculate_dew_risk(temp, dp, rh, wind, precip):
         if wind <= 8: score += 1
         elif wind >= 20: score -= 1
     if precip is not None and precip >= 1.0: score -= 1
-
     if score >= 6: return "HIGH DEW RISK 🔴"
     if score >= 4: return "MEDIUM DEW RISK 🟡"
     return "LOW DEW RISK 🟢"
@@ -69,8 +68,7 @@ def get_live_weather(venue):
         temp, rh, dp = c.get("temperature_2m"), c.get("relative_humidity_2m"), c.get("dew_point_2m")
         wind, precip = c.get("wind_speed_10m"), c.get("precipitation")
         wx_str = f"{temp}°C | RH: {rh}% | Wind: {wind}km/h"
-        dew_str = calculate_dew_risk(temp, dp, rh, wind, precip)
-        return wx_str, dew_str
+        return wx_str, calculate_dew_risk(temp, dp, rh, wind, precip)
     except: return "API Error", "Unknown"
 
 # ==========================================
@@ -148,12 +146,21 @@ def run_scanner():
     ensure_cricsheet_history()
     t20_db = load_t20_history()
     live_matches = []
+    seen_matches = set()
     
-    # 💥 BUG FIX: Use currentMatches to ONLY get Today's active/upcoming matches!
+    api_limit_exceeded = False
+    
     url = f"https://api.cricapi.com/v1/currentMatches?apikey={CRICAPI_KEY}&offset=0"
     
     try:
-        response = SESSION.get(url, timeout=15).json()
+        response = SESSION.get(url, timeout=10).json()
+        
+        # Check if API threw a quota/limit error
+        if response.get("status") != "success" or "hitsToday" in str(response.get("info", {})):
+            info = response.get("info", {})
+            if info.get("hitsToday", 0) >= info.get("hitsLimit", 100):
+                api_limit_exceeded = True
+
         matches = response.get("data", [])
         
         for m in matches:
@@ -161,99 +168,122 @@ def run_scanner():
             match_type = str(m.get("matchType", "")).lower()
             combined_text = f"{title} {match_type}".lower()
 
-            # Rule 1: Eliminate clear non-T20 formats
-            if any(j in combined_text for j in JUNK_WORDS):
-                continue
+            if any(j in combined_text for j in JUNK_WORDS): continue
             
-            # Rule 2: Identify T20 strictly by Title or MatchType
             is_franchise = any(k in combined_text for k in PREMIUM_KEYWORDS)
             is_t20 = "t20" in combined_text or "twenty20" in combined_text or is_franchise
-            
-            if not is_t20:
-                continue
-                
-            if m.get("matchEnded", False): 
-                continue
+            if not is_t20: continue
+            if m.get("matchEnded", False): continue
 
-            # 💥 BUG FIX: Robust Team Extraction (Bypasses missing teamInfo array)
             teamA, teamB = "Team A", "Team B"
             if m.get("teamInfo") and len(m["teamInfo"]) >= 2:
                 teamA = m["teamInfo"][0].get("name", "Team A")
                 teamB = m["teamInfo"][1].get("name", "Team B")
             else:
-                # E.g. "England vs Sri Lanka, 3rd T20I"
                 clean_title = title.split(",")[0].lower()
                 parts = re.split(r'\s+vs\s+|\s+v\s+', clean_title)
                 if len(parts) >= 2:
                     teamA, teamB = parts[0].strip().title(), parts[1].strip().title()
 
             venue = str(m.get("venue", "UNKNOWN VENUE"))
-            if not venue or venue.lower() == "none" or venue == "":
-                venue = "UNKNOWN VENUE"
-                
+            if not venue or venue.lower() == "none" or venue == "": venue = "UNKNOWN VENUE"
             status_text = str(m.get("status", "Upcoming"))
             
-            # Rule 3: PREMIUM FILTER
             is_intl = any(t in combined_text for t in MAJOR_TEAMS)
             is_premium = is_franchise or is_intl
             
-            # Live Score Extraction
             score_str, rr_str = "0/0 (0.0 ov)", "0.00 RPO"
             score_data = m.get("score", [])
             if score_data and isinstance(score_data, list):
                 latest_innings = score_data[-1]
-                runs = latest_innings.get("r", 0)
-                wkts = latest_innings.get("w", 0)
-                overs = latest_innings.get("o", 0)
+                runs, wkts, overs = latest_innings.get("r", 0), latest_innings.get("w", 0), latest_innings.get("o", 0)
                 score_str = f"{runs}/{wkts} ({overs} ov)"
                 rr_str = f"{(runs/float(overs)):.2f} RPO" if float(overs) > 0 else "0.00 RPO"
+
+            match_key = f"{teamA} vs {teamB}".lower()
+            seen_matches.add(match_key)
 
             if is_premium:
                 if venue != "UNKNOWN VENUE":
                     wx_str, dew_str = get_live_weather(venue)
                     v_stats = analyze_venue(t20_db, venue)
-                    
                     if v_stats:
                         verdict, badge = "🟢 PRO DATA VERIFIED", "badge-green"
                         strategy = f"Cricsheet History ({v_stats['matches']} matches). Trade safely."
                         toss_bias, pp_avg, spin_idx = v_stats['toss_bias'], v_stats['pp_avg'], v_stats['spin_idx']
                     else:
                         verdict, badge = "🟡 INSUFFICIENT VENUE DATA", "badge-yellow"
-                        strategy = "Less than 5 historical T20s found here. Rely strictly on live odds."
-                        toss_bias, pp_avg, spin_idx = "UNKNOWN", "UNKNOWN", "UNKNOWN"
+                        strategy, toss_bias, pp_avg, spin_idx = "Less than 5 historical T20s found here.", "UNKNOWN", "UNKNOWN", "UNKNOWN"
                 else:
-                    verdict, badge = "🟡 INSUFFICIENT VENUE DATA", "badge-yellow"
-                    strategy = "CricAPI did not provide a venue name yet. Rely strictly on live odds."
+                    verdict, badge, strategy = "🟡 INSUFFICIENT VENUE DATA", "badge-yellow", "CricAPI did not provide a venue name yet. Rely strictly on live odds."
                     wx_str, dew_str, toss_bias, pp_avg, spin_idx = "N/A", "N/A", "UNKNOWN", "UNKNOWN", "UNKNOWN"
             else:
-                verdict, badge = "🔴 REJECTED: JUNK T20", "badge-red"
-                strategy = "Low liquidity match. Stop-loss logic will fail. DO NOT TRADE."
+                verdict, badge, strategy = "🔴 REJECTED: JUNK T20", "badge-red", "Low liquidity match. Stop-loss logic will fail. DO NOT TRADE."
                 wx_str, dew_str, toss_bias, pp_avg, spin_idx = "N/A", "N/A", "N/A", "N/A", "N/A"
 
             live_matches.append({
-                "teamA": teamA, "teamB": teamB, "venue": venue,
-                "weather": wx_str, "dewRisk": dew_str,
-                "tossBias": toss_bias, "tossTrend": status_text,
-                "ppScoreAvg": pp_avg, "ppRunRate": f"{score_str} @ {rr_str}",
-                "spinIndex": spin_idx, "spinNote": "Live Match Radar Active",
-                "verdict": verdict, "badgeClass": badge, "strategyText": strategy
+                "teamA": teamA, "teamB": teamB, "venue": venue, "weather": wx_str, "dewRisk": dew_str,
+                "tossBias": toss_bias, "tossTrend": status_text, "ppScoreAvg": pp_avg, "ppRunRate": f"{score_str} @ {rr_str}",
+                "spinIndex": spin_idx, "spinNote": "Live Match Radar Active", "verdict": verdict, "badgeClass": badge, "strategyText": strategy
             })
 
     except Exception as e:
         print(f"CricAPI Connection Error: {e}")
 
-    if not live_matches:
-        live_matches.append({
-            "teamA": "SYSTEM", "teamB": "ONLINE", "venue": "Global Database",
-            "weather": "N/A", "dewRisk": "N/A", "tossBias": "N/A", "tossTrend": "N/A",
-            "ppScoreAvg": "N/A", "ppRunRate": "N/A", "spinIndex": "N/A", "spinNote": "N/A",
-            "verdict": "⚠️ NO STANDARD T20 MATCHES TODAY", "badgeClass": "badge-yellow",
-            "strategyText": "No major T20s found in CricAPI feed. Rest day."
-        })
+    # ==========================================
+    # RSS FALLBACK (TRIGGERS IF CRICAPI IS EMPTY/LIMITED)
+    # ==========================================
+    if len(live_matches) == 0:
+        try:
+            xml_data = SESSION.get("http://static.cricinfo.com/rss/livescores.xml", timeout=10).text
+            root = ET.fromstring(xml_data)
+            for item in root.findall('./channel/item'):
+                title = item.find('title').text
+                if ' v ' in title:
+                    parts = title.split(' v ')
+                    teamA, teamB = re.sub(r'[0-9/\*\(\)]+', '', parts[0]).strip(), re.sub(r'[0-9/\*\(\)]+', '', parts[1]).strip()
+                    
+                    combined_text = title.lower()
+                    if any(j in combined_text for j in JUNK_WORDS): continue
+                    
+                    is_franchise = any(k in combined_text for k in PREMIUM_KEYWORDS)
+                    is_intl = any(t in combined_text for t in MAJOR_TEAMS)
+                    is_premium = is_franchise or is_intl
+                    
+                    if is_premium:
+                        live_matches.append({
+                            "teamA": teamA, "teamB": teamB, "venue": "UNKNOWN VENUE",
+                            "weather": "N/A", "dewRisk": "N/A", "tossBias": "UNKNOWN", "tossTrend": "Toss Unknown (via Backup Feed)",
+                            "ppScoreAvg": "UNKNOWN", "ppRunRate": "0/0 @ 0.00 RPO", "spinIndex": "UNKNOWN", "spinNote": "Match Radar Active",
+                            "verdict": "🟡 INSUFFICIENT VENUE DATA", "badgeClass": "badge-yellow",
+                            "strategyText": "Match active via Fallback RSS API. Venue is unknown. Rely strictly on live odds."
+                        })
+        except: pass
+
+    # ==========================================
+    # FINAL SYSTEM DIAGNOSTICS
+    # ==========================================
+    if len(live_matches) == 0:
+        if api_limit_exceeded:
+            live_matches.append({
+                "teamA": "SYSTEM", "teamB": "LIMIT HIT", "venue": "CricAPI Servers",
+                "weather": "N/A", "dewRisk": "N/A", "tossBias": "N/A", "tossTrend": "N/A",
+                "ppScoreAvg": "N/A", "ppRunRate": "N/A", "spinIndex": "N/A", "spinNote": "N/A",
+                "verdict": "🔴 API QUOTA EXCEEDED", "badgeClass": "badge-red",
+                "strategyText": "Your free 100 hits/day on CricAPI are exhausted. Fallback RSS is also empty. Rest day."
+            })
+        else:
+            live_matches.append({
+                "teamA": "SYSTEM", "teamB": "ONLINE", "venue": "Global Database",
+                "weather": "N/A", "dewRisk": "N/A", "tossBias": "N/A", "tossTrend": "N/A",
+                "ppScoreAvg": "N/A", "ppRunRate": "N/A", "spinIndex": "N/A", "spinNote": "N/A",
+                "verdict": "⚠️ NO STANDARD T20 MATCHES TODAY", "badgeClass": "badge-yellow",
+                "strategyText": "No major T20s found in any feed. Rest day."
+            })
 
     with open("intel.json", "w", encoding="utf-8") as f:
         json.dump({"last_updated": str(datetime.now(timezone.utc)), "matches": live_matches}, f, indent=4)
-    print(f"CricAPI Scan Complete. Saved {len(live_matches)} matches.")
+    print(f"Scan Complete. Saved {len(live_matches)} matches.")
 
 if __name__ == "__main__":
     run_scanner()
