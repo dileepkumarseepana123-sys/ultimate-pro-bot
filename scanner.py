@@ -1,8 +1,13 @@
-import json, re, math, zipfile
+import json, re, zipfile
 from pathlib import Path
 from datetime import datetime, timezone
 import requests
-import xml.etree.ElementTree as ET
+
+# ==========================================
+# CONFIGURATION
+# ==========================================
+# CRICAPI KEY SUCCESSFULLY INTEGRATED
+CRICAPI_KEY = "8ea9030f-60fe-46a7-a2aa-e985361b63bd"
 
 DATA_DIR = Path("./data")
 HISTORY_DIR = DATA_DIR / "cricsheet_all"
@@ -10,17 +15,13 @@ CACHE_DIR = DATA_DIR / "cache"
 CRICSHEET_URL = "https://cricsheet.org/downloads/all_json.zip"
 
 SESSION = requests.Session()
-SESSION.headers.update({"User-Agent": "T20-PreMatch-Scanner/12.1"})
+SESSION.headers.update({"User-Agent": "Pro-Terminal/CricAPI-Engine"})
 
-PREMIUM_KEYWORDS = [
-    "ipl", "indian premier", "cpl", "caribbean", "bbl", "big bash", "psl", "pakistan super", 
-    "sa20", "blast", "major league", "mlc", "ilt20", "lanka", "bpl", "super smash", "nepal"
-]
+PREMIUM_KEYWORDS = ["ipl", "cpl", "bbl", "psl", "sa20", "blast", "mlc", "ilt20", "lanka", "bpl", "super smash", "nepal"]
 MAJOR_TEAMS = ["england", "india", "australia", "sri lanka", "west indies", "south africa", "new zealand", "pakistan", "bangladesh", "afghanistan", "ireland", "zimbabwe"]
-JUNK_WORDS = ["club", "university", "college", "academy", "regional", "minor", "county", "u19", "women's club"]
 
 # ==========================================
-# OPEN-METEO WEATHER ENGINE (DEW RISK)
+# OPEN-METEO WEATHER ENGINE
 # ==========================================
 def geocode_venue(venue):
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
@@ -46,11 +47,9 @@ def calculate_dew_risk(temp, dp, rh, wind, precip):
     if rh >= 80: score += 3
     elif rh >= 70: score += 2
     elif rh >= 60: score += 1
-
     if spread <= 2: score += 3
     elif spread <= 4: score += 2
     elif spread <= 6: score += 1
-
     if wind is not None:
         if wind <= 8: score += 1
         elif wind >= 20: score -= 1
@@ -74,14 +73,14 @@ def get_live_weather(venue):
     except: return "API Error", "Unknown"
 
 # ==========================================
-# CRICSHEET HISTORICAL MATH ENGINE
+# CRICSHEET HISTORICAL ENGINE
 # ==========================================
 def ensure_cricsheet_history():
     DATA_DIR.mkdir(exist_ok=True)
     HISTORY_DIR.mkdir(parents=True, exist_ok=True)
     marker = HISTORY_DIR / ".ready"
     if marker.exists(): return
-    print("[INFO] Downloading Cricsheet History...")
+    print("[INFO] Initializing Cricsheet Database...")
     zip_path = DATA_DIR / "all_json.zip"
     r = SESSION.get(CRICSHEET_URL, stream=True, timeout=30)
     with zip_path.open("wb") as f:
@@ -142,41 +141,63 @@ def analyze_venue(history, target_venue):
     return {"matches": len(first_inn_scores), "pp_avg": f"{avg_pp:.1f} / 1", "toss_bias": f"{chase_pct:.1f}% Chasing Wins", "spin_idx": f"{mid_wkt_pct:.1f}% Wkts (Overs 7-14)"}
 
 # ==========================================
-# THE OMNI-AGGREGATOR
+# CRICAPI CORE ENGINE
 # ==========================================
 def run_scanner():
     ensure_cricsheet_history()
     t20_db = load_t20_history()
     live_matches = []
-    seen_match_keys = set()
+    
+    url = f"https://api.cricapi.com/v1/currentMatches?apikey={CRICAPI_KEY}&offset=0"
+    
+    try:
+        response = SESSION.get(url, timeout=15).json()
+        matches = response.get("data", [])
+        
+        for m in matches:
+            match_type = str(m.get("matchType", "")).lower()
+            
+            # STRICT T20 FILTER
+            if match_type != "t20": 
+                continue
+                
+            title = str(m.get("name", ""))
+            venue = str(m.get("venue", "UNKNOWN VENUE"))
+            teams = m.get("teamInfo", [])
+            
+            if len(teams) < 2: 
+                continue
+                
+            teamA = teams[0].get("name", "Team A")
+            teamB = teams[1].get("name", "Team B")
+            
+            status_text = str(m.get("status", "Match Data Pending"))
+            is_match_ended = m.get("matchEnded", False)
+            if is_match_ended: 
+                continue
+                
+            combined_text = f"{title} {match_type}".lower()
+            
+            # PREMIUM FILTER
+            is_franchise = any(k in combined_text for k in PREMIUM_KEYWORDS)
+            is_intl = any(t in combined_text for t in MAJOR_TEAMS)
+            is_premium = is_franchise or is_intl
+            
+            # Extract live score if available
+            score_str, rr_str = "0/0 (0.0 ov)", "0.00 RPO"
+            score_data = m.get("score", [])
+            if score_data:
+                latest_innings = score_data[-1]
+                runs = latest_innings.get("r", 0)
+                wkts = latest_innings.get("w", 0)
+                overs = latest_innings.get("o", 0)
+                score_str = f"{runs}/{wkts} ({overs} ov)"
+                rr_str = f"{(runs/overs):.2f} RPO" if overs > 0 else "0.00 RPO"
 
-    def add_match(teamA, teamB, venue, combined_text, toss_str, score_str, rr_str):
-        teamA, teamB = teamA.strip(), teamB.strip()
-        match_key = f"{teamA} vs {teamB}".lower()
-        if not teamA or not teamB or match_key in seen_match_keys: return
-        
-        c_text = combined_text.lower()
-        if any(x in c_text for x in ["odi", "test", "one day", "one-day", "t10", "hundred"]): return
-        
-        is_franchise = any(k in c_text for k in PREMIUM_KEYWORDS)
-        is_t20 = "t20" in c_text or "twenty20" in c_text or is_franchise
-        if not is_t20: return
-        
-        seen_match_keys.add(match_key)
-        
-        is_intl = ("t20i" in c_text) and any(t in c_text for t in MAJOR_TEAMS)
-        is_premium = is_franchise or is_intl
-        
-        if is_premium:
-            # 💥 THE BUG FIX: Do NOT try to fetch weather/stats if venue is unknown
-            if venue == "UNKNOWN VENUE":
-                verdict, badge = "🟡 INSUFFICIENT VENUE DATA", "badge-yellow"
-                strategy = "Match active via Fallback API. Venue is unknown. Rely strictly on live odds."
-                wx_str, dew_str = "N/A", "N/A"
-                toss_bias, pp_avg, spin_idx = "UNKNOWN", "UNKNOWN", "UNKNOWN"
-            else:
+            if is_premium:
                 wx_str, dew_str = get_live_weather(venue)
                 v_stats = analyze_venue(t20_db, venue)
+                
                 if v_stats:
                     verdict, badge = "🟢 PRO DATA VERIFIED", "badge-green"
                     strategy = f"Cricsheet History ({v_stats['matches']} matches). Trade safely."
@@ -185,86 +206,22 @@ def run_scanner():
                     verdict, badge = "🟡 INSUFFICIENT VENUE DATA", "badge-yellow"
                     strategy = "Less than 5 historical T20s found here. Rely strictly on live odds."
                     toss_bias, pp_avg, spin_idx = "UNKNOWN", "UNKNOWN", "UNKNOWN"
-        else:
-            verdict, badge = "🔴 REJECTED: JUNK T20", "badge-red"
-            strategy = "Low liquidity match. Stop-loss logic will fail. DO NOT TRADE."
-            wx_str, dew_str, toss_bias, pp_avg, spin_idx = "N/A", "N/A", "N/A", "N/A", "N/A"
+            else:
+                verdict, badge = "🔴 REJECTED: JUNK T20", "badge-red"
+                strategy = "Low liquidity match. Stop-loss logic will fail. DO NOT TRADE."
+                wx_str, dew_str, toss_bias, pp_avg, spin_idx = "N/A", "N/A", "N/A", "N/A", "N/A"
 
-        live_matches.append({
-            "teamA": teamA, "teamB": teamB, "venue": venue,
-            "weather": wx_str, "dewRisk": dew_str,
-            "tossBias": toss_bias, "tossTrend": toss_str,
-            "ppScoreAvg": pp_avg, "ppRunRate": f"{score_str} @ {rr_str}",
-            "spinIndex": spin_idx, "spinNote": "Match Radar Active",
-            "verdict": verdict, "badgeClass": badge, "strategyText": strategy
-        })
+            live_matches.append({
+                "teamA": teamA, "teamB": teamB, "venue": venue,
+                "weather": wx_str, "dewRisk": dew_str,
+                "tossBias": toss_bias, "tossTrend": status_text,
+                "ppScoreAvg": pp_avg, "ppRunRate": f"{score_str} @ {rr_str}",
+                "spinIndex": spin_idx, "spinNote": "Live Match Radar Active",
+                "verdict": verdict, "badgeClass": badge, "strategyText": strategy
+            })
 
-    # 1. ESPN
-    try:
-        espn_data = SESSION.get("https://site.api.espn.com/apis/site/v2/sports/cricket/scorepanel", timeout=15).json()
-        for event in espn_data.get('events', []):
-            comp = event.get('competitions', [{}])[0]
-            title, series = event.get('name', ''), event.get('season', {}).get('slug', '')
-            match_type = comp.get('type', {}).get('abbreviation', '')
-            state = comp.get('status', {}).get('type', {}).get('state', 'pre') 
-            if state == 'post': continue
-                
-            venue = comp.get('venue', {}).get('fullName', 'Unknown Venue')
-            teams = [t.get('team', {}).get('name', '') for t in comp.get('competitors', [])]
-            if len(teams) < 2: continue
-            
-            toss_str, score_str, rr_str = "Live Match", "0/0", "0.00 RPO"
-            if state != 'pre':
-                toss = comp.get('status', {}).get('toss', {})
-                if toss: toss_str = f"{toss.get('winner', {}).get('text', '')} elected to {toss.get('decision', '')}"
-                for c in comp.get('competitors', []):
-                    ls = c.get('linescores', [])
-                    if ls:
-                        runs, wkts, overs = ls[-1].get('value', 0), ls[-1].get('outs', 0), ls[-1].get('overs', 0)
-                        score_str, rr_str = f"{runs}/{wkts} ({overs} ov)", f"{(runs/overs):.2f} RPO" if overs > 0 else "0.00 RPO"
-                        break
-            add_match(teams[0], teams[1], venue, f"{title} {series} {match_type}", toss_str, score_str, rr_str)
-    except: pass
-
-    # 2. CRICBUZZ UNOFFICIAL API
-    cb_urls = ["https://cricbuzz-live.vercel.app/v1/matches/live", "https://cricbuzz-live.vercel.app/v1/matches/upcoming?type=international", "https://cricbuzz-live.vercel.app/v1/matches/upcoming?type=league"]
-    for url in cb_urls:
-        try:
-            cb_data = SESSION.get(url, timeout=15).json()
-            match_list = []
-            if "typeMatches" in cb_data:
-                for tm in cb_data["typeMatches"]:
-                    for sm in tm.get("seriesMatches", []):
-                        if "seriesAdWrapper" in sm: match_list.extend(sm["seriesAdWrapper"].get("matches", []))
-            elif "data" in cb_data: match_list = cb_data["data"].get("matches", [])
-                
-            for m in match_list:
-                match_info = m.get("matchInfo", m)
-                title = match_info.get("team1", {}).get("teamName", "") + " vs " + match_info.get("team2", {}).get("teamName", "")
-                if title == " vs ": title = str(m.get("title", ""))
-                if " vs " not in title: continue
-                
-                cb_teams = [x.strip() for x in title.split(" vs ")[:2]]
-                series = str(match_info.get("seriesName", m.get("series", "")))
-                venue = str(match_info.get("venueInfo", {}).get("ground", m.get("timeAndPlace", {}).get("place", "")))
-                state = match_info.get("state", "Upcoming")
-                if state in ["Complete", "Result"]: continue
-                
-                add_match(cb_teams[0], cb_teams[1], venue, f"{title} {series}", f"Status: {state}", "0/0", "0.00 RPO")
-        except: pass
-
-    # 3. CRICINFO RSS FALLBACK (Now with Honest Unknown Venue)
-    try:
-        xml_data = SESSION.get("http://static.cricinfo.com/rss/livescores.xml", timeout=10).text
-        root = ET.fromstring(xml_data)
-        for item in root.findall('./channel/item'):
-            title = item.find('title').text
-            if ' v ' in title:
-                parts = title.split(' v ')
-                teamA, teamB = re.sub(r'[0-9/\*\(\)]+', '', parts[0]).strip(), re.sub(r'[0-9/\*\(\)]+', '', parts[1]).strip()
-                # BUG FIX: Passing "UNKNOWN VENUE" instead of "Live Market"
-                add_match(teamA, teamB, "UNKNOWN VENUE", title, "Toss Unknown", "0/0", "0.00 RPO")
-    except: pass
+    except Exception as e:
+        print(f"CricAPI Connection Error: {e}")
 
     if not live_matches:
         live_matches.append({
@@ -272,12 +229,12 @@ def run_scanner():
             "weather": "N/A", "dewRisk": "N/A", "tossBias": "N/A", "tossTrend": "N/A",
             "ppScoreAvg": "N/A", "ppRunRate": "N/A", "spinIndex": "N/A", "spinNote": "N/A",
             "verdict": "⚠️ NO STANDARD T20 MATCHES TODAY", "badgeClass": "badge-yellow",
-            "strategyText": "No major T20s found across 3 different APIs. Rest day."
+            "strategyText": "No major T20s found in CricAPI feed. Rest day."
         })
 
     with open("intel.json", "w", encoding="utf-8") as f:
         json.dump({"last_updated": str(datetime.now(timezone.utc)), "matches": live_matches}, f, indent=4)
-    print(f"OMNI-SCAN COMPLETE. Saved {len(live_matches)} matches.")
+    print(f"CricAPI Scan Complete. Saved {len(live_matches)} matches.")
 
 if __name__ == "__main__":
     run_scanner()
