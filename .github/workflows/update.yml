@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -23,7 +23,7 @@ jobs:
       XI_LOOKAHEAD_MIN: '180'
       ALLOW_FANTASY_SQUAD: '0'
       MAX_XI_LOOKUPS_PER_RUN: '0'
-      MAX_MATCH_PAGES_PER_RUN: '3'
+      MAX_MATCH_PAGES_PER_RUN: '8'
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
