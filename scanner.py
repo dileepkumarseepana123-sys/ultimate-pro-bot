@@ -593,10 +593,8 @@ def run_scanner():
                 xi_lookups += 1
                 _, dynamic_styles = extract_squad(squad)
                 xi = confirmed_xi_status(squad)
-        if xi.get("status") != "CONFIRMED" and m.get("cricbuzz_url"):
-            page_xi = check_cricbuzz_xi(m.get("cricbuzz_url"))
-            if page_xi.get("status") == "XI PUBLISHED":
-                xi = page_xi
+        # We only mark XI as CONFIRMED when match_squad returns explicit playing flags.
+        # A page mention is not enough evidence for a confirmed XI.
 
         venue_stats = analyze_venue(history, venue, dynamic_styles) if venue != "UNKNOWN VENUE" else {"status": "NO DATA / UNKNOWN VENUE"}
         weather = get_match_weather(venue, dt) if venue != "UNKNOWN VENUE" else {"status": "UNKNOWN", "reason": "No usable venue"}
