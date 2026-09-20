@@ -1,7 +1,7 @@
 {
-    "last_updated": "2026-09-20T06:21:48.733941+00:00",
+    "last_updated": "2026-09-20T06:40:55.337232+00:00",
     "source": {
-        "primary": "CricketData API",
+        "primary": "CricketData cricScore + Match List",
         "secondary": "Cricbuzz T20 schedule"
     },
     "date_filter": {
@@ -12,7 +12,8 @@
     },
     "api_budget": {
         "daily_limit_user_reported": 100,
-        "max_match_list_calls_per_run": 8,
+        "max_match_list_calls_per_run": 2,
+        "cricscore_calls_per_run": 1,
         "max_squad_calls_per_run": 0
     },
     "rules": {
@@ -25,11 +26,14 @@
         "min_spin_classification": 0.9
     },
     "discovery": {
-        "cricketdata_rows": 200,
-        "cricketdata_t20_rows": 151,
+        "cricscore_rows": 24,
+        "cricscore_t20_rows": 5,
+        "cricscore_today_t20_rows": 0,
+        "cricketdata_rows": 50,
+        "cricketdata_t20_rows": 27,
         "cricketdata_today_t20_rows": 0,
         "cricbuzz_today_t20_rows": 0,
-        "merged_candidates": 151,
+        "merged_candidates": 32,
         "final_reports": 0
     },
     "summary": {
