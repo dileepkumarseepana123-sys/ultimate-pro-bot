@@ -150,15 +150,15 @@ def scrape_cricbuzz():
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             
-            # Using a normal browser identity (Bypasses the need for stealth_sync)
+            # Bypassing the stealth issue by using standard user-agent in Playwright
             context = browser.new_context(
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
             )
             page = context.new_page()
             
-            # Going straight to the T20 matches tab
+            # Cricbuzz Upcoming T20 Matches
             page.goto("https://www.cricbuzz.com/cricket-schedule/upcoming-series/t20", timeout=60000)
-            page.wait_for_timeout(3000) # Wait for page to render
+            page.wait_for_timeout(3000) 
             
             soup = BeautifulSoup(page.content(), "html.parser")
             
@@ -212,7 +212,6 @@ def run_scanner():
         if match_key in seen: continue
         seen.add(match_key)
         
-        # Checking Rules to Accept or Reject
         if any(j in title for j in JUNK_WORDS):
             verdict, badge = "🔴 REJECTED: JUNK MATCH", "badge-red"
             strategy = "Match format is not standard T20 (ODI/Test/T10). System ignored."
@@ -233,7 +232,6 @@ def run_scanner():
                 verdict, badge = "🔴 REJECTED: LOW LIQUIDITY", "badge-red"
                 strategy = "Minor domestic league or unknown teams. Stop-loss will fail. DO NOT TRADE."
         
-        # Stats generation only for Valid Premium Venues
         if is_premium and venue != "UNKNOWN VENUE":
             wx_str, dew_str = get_live_weather(venue)
             v_stats = analyze_venue(t20_db, venue)
@@ -256,7 +254,6 @@ def run_scanner():
             "verdict": verdict, "badgeClass": badge, "strategyText": strategy
         })
 
-    # Failsafe if absolutely nothing is scraped
     if not live_matches:
         live_matches.append({
             "teamA": "SYSTEM", "teamB": "ONLINE", "venue": "Web Scraper Output",
