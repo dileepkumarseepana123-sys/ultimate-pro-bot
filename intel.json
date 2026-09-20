@@ -1,21 +1,30 @@
 {
-    "last_updated": "2026-09-20T06:50:08.141138+00:00",
+    "last_updated": "2026-09-20T18:40:09.677864+00:00",
+    "scanner_status": {
+        "state": "OK",
+        "stale": false,
+        "message": "Fresh scan completed."
+    },
     "source": {
-        "primary": "SofaScore date schedule",
-        "secondary": "ESPNcricinfo date schedule",
-        "fallback": "CricketData cricScore / Match List / Cricbuzz"
+        "primary": "Cricbuzz via text relay",
+        "secondary": "CricketData cricScore",
+        "fallback": "CricketData Match List"
     },
     "date_filter": {
         "timezone": "Asia/Kolkata",
-        "today": "2026-09-20",
+        "today": "2026-09-21",
         "today_only": true,
-        "method": "GMT timestamp when available; local date field or Cricbuzz today section otherwise"
+        "method": "GMT timestamp when available; India date otherwise"
     },
     "api_budget": {
         "daily_limit_user_reported": 100,
         "max_match_list_calls_per_run": 2,
-        "cricscore_calls_this_run": 1,
-        "max_squad_calls_per_run": 0
+        "cricscore_calls_this_run": 0,
+        "max_squad_calls_per_run": 0,
+        "hits_today_reported": null,
+        "hits_limit_reported": null,
+        "quota_exhausted": false,
+        "api_last_error": null
     },
     "rules": {
         "standard_t20_only": true,
@@ -27,20 +36,16 @@
         "min_spin_classification": 0.9
     },
     "discovery": {
-        "sofascore_rows": 0,
-        "sofascore_t20_rows": 0,
-        "sofascore_today_t20_rows": 0,
-        "espn_rows": 0,
-        "espn_t20_rows": 0,
-        "espn_today_t20_rows": 0,
+        "text_relay_rows": 3,
+        "text_relay_t20_rows": 3,
+        "text_relay_today_t20_rows": 3,
         "cricscore_rows": 0,
         "cricscore_t20_rows": 0,
         "cricscore_today_t20_rows": 0,
         "cricketdata_rows": 0,
         "cricketdata_t20_rows": 0,
         "cricketdata_today_t20_rows": 0,
-        "cricbuzz_today_t20_rows": 0,
-        "merged_candidates": 0,
+        "merged_candidates": 3,
         "final_reports": 0
     },
     "summary": {
