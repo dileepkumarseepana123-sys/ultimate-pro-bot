@@ -100,16 +100,62 @@ def date_field_is_india_today(value):
     if not value:
         return False
     txt = clean_text(value)
-    try:
-        return datetime.strptime(txt[:10], "%Y-%m-%d").date() == local_today()
-    except ValueError:
-        for fmt in ("%d %b %Y", "%b %d, %Y", "%a, %b %d %Y"):
+    variants = [
+        txt,
+        txt.replace("T", " ").replace("Z", " ").strip(),
+    ]
+    formats = (
+        "%Y-%m-%d",
+        "%Y-%m-%d %H:%M:%S",
+        "%Y-%m-%d %H:%M",
+        "%d %b %Y",
+        "%b %d, %Y",
+        "%a, %b %d %Y",
+        "%a, %b %d, %Y",
+        "%d/%m/%Y",
+        "%m/%d/%Y",
+    )
+    for item in variants:
+        for fmt in formats:
             try:
-                return datetime.strptime(txt, fmt).date() == local_today()
+                return datetime.strptime(item, fmt).date() == local_today()
+            except ValueError:
+                continue
+        # Handle strings that contain an ISO date plus additional metadata.
+        m = re.search(r"\\b(20\\d{2}-\\d{2}-\\d{2})\\b", item)
+        if m:
+            try:
+                return datetime.strptime(m.group(1), "%Y-%m-%d").date() == local_today()
             except ValueError:
                 pass
     return False
 
+
+def match_is_today(match):
+    # CricketData documents date as the local match date and dateTimeGMT as
+    # the UTC start timestamp. Prefer the UTC timestamp, then fall back across
+    # common date/datetime field variants without fabricating a date.
+    datetime_keys = (
+        "dateTimeGMT", "date_time_gmt", "dateTime", "datetime",
+        "startDateTime", "start_datetime", "matchDateTime", "match_datetime"
+    )
+    for key in datetime_keys:
+        raw_dt = match.get(key)
+        if raw_dt:
+            dt = parse_dt(raw_dt)
+            if dt is not None:
+                return in_india_today(dt), dt
+
+    date_keys = (
+        "date", "matchDate", "match_date", "startDate", "start_date",
+        "localDate", "local_date"
+    )
+    for key in date_keys:
+        raw_date = match.get(key)
+        if date_field_is_india_today(raw_date):
+            return True, None
+
+    return False, None
 
 def match_is_today(match):
     raw_dt = match.get("dateTimeGMT") or match.get("date_time_gmt")
@@ -507,75 +553,197 @@ def analyze_venue(history, target_venue, dynamic_styles=None):
 # ==========================================
 # BROWSER AUTOMATION ENGINE (PLAYWRIGHT PURE)
 # ==========================================
+def _parse_schedule_date(text):
+    txt = clean_text(text).upper().replace(",", "")
+    patterns = (
+        "%a %b %d %Y",
+        "%A %B %d %Y",
+        "%b %d %Y",
+        "%B %d %Y",
+        "%d %b %Y",
+        "%Y-%m-%d",
+    )
+    for fmt in patterns:
+        try:
+            return datetime.strptime(txt.title(), fmt).date()
+        except ValueError:
+            continue
+    return None
+
+
+def _extract_date_token(text):
+    txt = clean_text(text)
+    patterns = (
+        r"\\b(?:MON|TUE|WED|THU|FRI|SAT|SUN),?\\s+[A-Z]{3,9}\\s+\\d{1,2},?\\s+20\\d{2}\\b",
+        r"\\b(?:JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[A-Z]*\\s+\\d{1,2},?\\s+20\\d{2}\\b",
+        r"\\b20\\d{2}-\\d{2}-\\d{2}\\b",
+    )
+    for pat in patterns:
+        m = re.search(pat, txt, re.I)
+        if m:
+            dt = _parse_schedule_date(m.group(0))
+            if dt:
+                return dt, m.group(0)
+    return None, None
+
+
+def _is_t20_series_name(series_name):
+    s = norm(series_name)
+    if not s:
+        return False
+    return (
+        "t20" in s
+        or "twenty20" in s
+        or "t20i" in s
+        or "asian games" in s
+        or any(k in s for k in ("premier league", "premier league", "super league", "big bash", "cpl"))
+    )
+
+
+def _parse_cricbuzz_match_line(line, series_name):
+    lower = line.lower()
+    if " vs " not in lower or "test" in lower or "odi" in lower or "t10" in lower or "hundred" in lower:
+        return None
+
+    # A detailed Cricbuzz line normally puts the match stage after the team
+    # names. Split before that stage so commas inside a team name are preserved.
+    stage_re = re.compile(
+        r",\\s*(?:\\d+(?:st|nd|rd|th)\\s+)?"
+        r"(?:t20i|t20|twenty20|final|semi\\s*final|qualifier|eliminator|"
+        r"1st\\s+semi\\s+final|2nd\\s+semi\\s+final|bronze\\s+medal\\s+match|"
+        r"\\d+st\\s+match|\\d+nd\\s+match|\\d+rd\\s+match|\\d+th\\s+match)",
+        re.I,
+    )
+    stage_match = stage_re.search(line)
+    match_part = line[:stage_match.start()] if stage_match else line
+
+    parts = re.split(r"\\s+vs\\s+|\\s+versus\\s+", match_part, maxsplit=1, flags=re.I)
+    if len(parts) != 2:
+        return None
+
+    team_a = clean_text(parts[0].split("•")[-1])
+    team_b = clean_text(parts[1])
+    if not team_a or not team_b:
+        return None
+
+    t20_line = bool(re.search(r"\\b(?:t20i|t20|twenty20)\\b", line, re.I))
+    t20_series = _is_t20_series_name(series_name)
+    if not (t20_line or t20_series):
+        return None
+
+    # Try to isolate venue from the visible text after the stage.
+    venue = "UNKNOWN VENUE"
+    if stage_match:
+        after = clean_text(line[stage_match.end():])
+        if after:
+            venue = after
+    elif "," in line:
+        after = clean_text(line.split(",", 1)[1])
+        if after:
+            venue = after
+
+    return {
+        "id": None,
+        "teamA": team_a,
+        "teamB": team_b,
+        "name": line,
+        "matchType": "T20",
+        "teams": [team_a, team_b],
+        "venue": venue,
+        "status": "Scheduled",
+        "source_date": local_today().isoformat(),
+        "series_name": clean_text(series_name) or "UNKNOWN SERIES",
+    }
+
+
 def scrape_cricbuzz():
     matches_found = []
-    if sync_playwright is None:
-        return matches_found
     target_date = local_today()
-    date_re = re.compile(r"^(?:MON|TUE|WED|THU|FRI|SAT|SUN),\s+[A-Z]{3}\s+\d{1,2}\s+\d{4}$", re.I)
+    urls = [
+        "https://m.cricbuzz.com/cricket-schedule/upcoming-series/all",
+        "https://www.cricbuzz.com/cricket-schedule/upcoming-series/all",
+    ]
+
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             page = browser.new_page(
-                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128 Safari/537.36"
+                user_agent="Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/128 Mobile Safari/537.36"
             )
-            page.goto("https://www.cricbuzz.com/cricket-schedule/upcoming-series/all", wait_until="domcontentloaded", timeout=60000)
-            page.wait_for_timeout(2500)
-            lines = [clean_text(x) for x in page.locator("body").inner_text(timeout=20000).splitlines() if clean_text(x)]
-            current_date = None
-            current_series_t20 = False
+            loaded = False
+            for url in urls:
+                try:
+                    page.goto(url, wait_until="domcontentloaded", timeout=60000)
+                    page.wait_for_timeout(2500)
+                    body_text = page.locator("body").inner_text(timeout=20000)
+                    if body_text and ("cricket schedule" in body_text.lower() or "schedule" in body_text.lower()):
+                        loaded = True
+                        break
+                except Exception as exc:
+                    print(f"[WARN] Cricbuzz page load failed for {url}: {exc}")
+            if not loaded:
+                browser.close()
+                return matches_found
 
-            for line in lines:
-                mdate = date_re.match(line)
-                if mdate:
-                    try:
-                        current_date = datetime.strptime(line.title(), "%a, %b %d %Y").date()
-                    except ValueError:
-                        current_date = None
-                    current_series_t20 = False
+            lines = [clean_text(x) for x in body_text.splitlines() if clean_text(x)]
+
+            # Find the first explicit occurrence of today's calendar date, then
+            # scan only that date section. This avoids relying on a single exact
+            # heading format such as 'SUN, SEP 20 2026'.
+            target_tokens = (
+                target_date.strftime("%b %d %Y").upper(),
+                target_date.strftime("%b %d, %Y").upper(),
+                target_date.strftime("%B %d %Y").upper(),
+                target_date.strftime("%B %d, %Y").upper(),
+                target_date.isoformat(),
+            )
+
+            start_idx = None
+            for idx, line in enumerate(lines):
+                u = line.upper().replace(",", "")
+                if any(token.replace(",", "") in u for token in target_tokens):
+                    start_idx = idx
+                    break
+
+            if start_idx is None:
+                # As a final layout fallback, detect a standalone schedule-date heading.
+                for idx, line in enumerate(lines):
+                    dt, _ = _extract_date_token(line)
+                    if dt == target_date:
+                        start_idx = idx
+                        break
+
+            if start_idx is None:
+                print("[WARN] Cricbuzz today section not found.")
+                browser.close()
+                return matches_found
+
+            current_series = "UNKNOWN SERIES"
+            current_date = target_date
+
+            for line in lines[start_idx:]:
+                maybe_date, _ = _extract_date_token(line)
+                if maybe_date and maybe_date != target_date:
+                    if current_date == target_date:
+                        break
+                    continue
+                if maybe_date == target_date:
+                    current_date = target_date
                     continue
 
-                if current_date != target_date:
+                # Series headings appear as standalone text before one or more matches.
+                if " vs " not in line.lower():
+                    if len(line) < 120 and ("t20" in line.lower() or "twenty20" in line.lower() or "premier league" in line.lower() or "asian games" in line.lower() or "super league" in line.lower()):
+                        current_series = line
                     continue
 
-                lower = line.lower()
-                if "t20" in lower or "twenty20" in lower:
-                    current_series_t20 = True
+                parsed = _parse_cricbuzz_match_line(line, current_series)
+                if parsed:
+                    matches_found.append(parsed)
 
-                if " vs " not in lower:
-                    continue
-                if not (current_series_t20 or re.search(r"\b(?:t20i|t20|twenty20)\b", lower)):
-                    continue
-
-                parts = re.split(r"\s+vs\s+|\s+versus\s+", line, maxsplit=1, flags=re.I)
-                if len(parts) != 2:
-                    continue
-                team_a = clean_text(parts[0].split(",")[0])
-                rhs = clean_text(parts[1])
-                team_b = clean_text(rhs.split(",")[0])
-
-                # Try to pull a visible venue after the match-stage text; otherwise keep unknown.
-                venue = "UNKNOWN VENUE"
-                stage_match = re.search(r",\s*(?:\d+(?:st|nd|rd|th)\s+)?(?:T20I|T20|Final|Semi Final|Qualifier|Eliminator)?\s*(.+)$", rhs, re.I)
-                if stage_match:
-                    candidate = clean_text(stage_match.group(1))
-                    if candidate and len(candidate) > 3:
-                        venue = candidate
-
-                matches_found.append({
-                    "id": None,
-                    "teamA": team_a,
-                    "teamB": team_b,
-                    "name": line,
-                    "matchType": "T20",
-                    "teams": [team_a, team_b],
-                    "venue": venue,
-                    "status": "Scheduled",
-                    "source_date": target_date.isoformat()
-                })
             browser.close()
     except Exception as exc:
-        print(f"[WARN] Cricbuzz all-schedule discovery failed: {exc}")
+        print(f"[WARN] Cricbuzz schedule discovery failed: {exc}")
     return matches_found
 
 
