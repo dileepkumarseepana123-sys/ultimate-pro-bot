@@ -18,13 +18,13 @@ CRICSHEET_URL = "https://cricsheet.org/downloads/all_json.zip"
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": "Ultimate-Pro-Bot/T20-Scanner-V2"})
 API_KEY = os.getenv("CRICKETDATA_API_KEY", "").strip()
-LOOKAHEAD_DAYS = int(os.getenv("SCANNER_LOOKAHEAD_DAYS", "7"))
+LOOKAHEAD_DAYS = int(os.getenv("SCANNER_LOOKAHEAD_DAYS", "1"))
 MIN_VENUE_MATCHES = int(os.getenv("MIN_VENUE_MATCHES", "5"))
 MIN_SPIN_CLASSIFICATION = float(os.getenv("MIN_SPIN_CLASSIFICATION", "0.90"))
 XI_LOOKAHEAD_MIN = int(os.getenv("XI_LOOKAHEAD_MIN", "180"))
 ALLOW_FANTASY_SQUAD = os.getenv("ALLOW_FANTASY_SQUAD", "0").strip().lower() in {"1", "true", "yes"}
 MAX_XI_LOOKUPS_PER_RUN = int(os.getenv("MAX_XI_LOOKUPS_PER_RUN", "0" if not ALLOW_FANTASY_SQUAD else "2"))
-MAX_MATCH_PAGES_PER_RUN = int(os.getenv("MAX_MATCH_PAGES_PER_RUN", "3"))
+MAX_MATCH_PAGES_PER_RUN = int(os.getenv("MAX_MATCH_PAGES_PER_RUN", "8"))
 TODAY_ONLY = os.getenv("TODAY_ONLY", "1").strip().lower() not in {"0", "false", "no"}
 
 # PREMIUM LEAGUES & TEAMS
@@ -94,6 +94,34 @@ def local_today():
 
 def in_india_today(dt):
     return dt is not None and dt.astimezone(ZoneInfo("Asia/Kolkata")).date() == local_today()
+
+
+def date_field_is_india_today(value):
+    if not value:
+        return False
+    txt = clean_text(value)
+    try:
+        return datetime.strptime(txt[:10], "%Y-%m-%d").date() == local_today()
+    except ValueError:
+        for fmt in ("%d %b %Y", "%b %d, %Y", "%a, %b %d %Y"):
+            try:
+                return datetime.strptime(txt, fmt).date() == local_today()
+            except ValueError:
+                pass
+    return False
+
+
+def match_is_today(match):
+    raw_dt = match.get("dateTimeGMT") or match.get("date_time_gmt")
+    if raw_dt:
+        dt = parse_dt(raw_dt)
+        return in_india_today(dt), dt
+    raw_date = match.get("date")
+    if date_field_is_india_today(raw_date):
+        return True, None
+    return False, None
+
+
 
 
 def premium_market(match):
@@ -482,40 +510,71 @@ def scrape_cricbuzz():
     matches_found = []
     if sync_playwright is None:
         return matches_found
+    target_date = local_today()
+    date_re = re.compile(r"^(?:MON|TUE|WED|THU|FRI|SAT|SUN),\s+[A-Z]{3}\s+\d{1,2}\s+\d{4}$", re.I)
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
-            context = browser.new_context(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128 Safari/537.36")
-            page = context.new_page()
-            page.goto("https://www.cricbuzz.com/cricket-schedule/upcoming-series/t20", wait_until="domcontentloaded", timeout=60000)
+            page = browser.new_page(
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128 Safari/537.36"
+            )
+            page.goto("https://www.cricbuzz.com/cricket-schedule/upcoming-series/all", wait_until="domcontentloaded", timeout=60000)
             page.wait_for_timeout(2500)
-            soup = BeautifulSoup(page.content(), "html.parser")
-            for a_tag in soup.find_all("a", href=re.compile(r"live-cricket-scores")):
-                title = clean_text(a_tag.get("title", ""))
-                if " vs " not in title.lower() and " v " not in title.lower():
+            lines = [clean_text(x) for x in page.locator("body").inner_text(timeout=20000).splitlines() if clean_text(x)]
+            current_date = None
+            current_series_t20 = False
+
+            for line in lines:
+                mdate = date_re.match(line)
+                if mdate:
+                    try:
+                        current_date = datetime.strptime(line.title(), "%a, %b %d %Y").date()
+                    except ValueError:
+                        current_date = None
+                    current_series_t20 = False
                     continue
-                clean_title = title.replace(" - Live Cricket Score", "")
-                parts = re.split(r"\s+vs\s+|\s+v\s+", clean_title, maxsplit=1, flags=re.I)
+
+                if current_date != target_date:
+                    continue
+
+                lower = line.lower()
+                if "t20" in lower or "twenty20" in lower:
+                    current_series_t20 = True
+
+                if " vs " not in lower:
+                    continue
+                if not (current_series_t20 or re.search(r"\b(?:t20i|t20|twenty20)\b", lower)):
+                    continue
+
+                parts = re.split(r"\s+vs\s+|\s+versus\s+", line, maxsplit=1, flags=re.I)
                 if len(parts) != 2:
                     continue
-                team_a = parts[0].split(",")[0].strip()
-                team_b = parts[1].split(",")[0].strip()
+                team_a = clean_text(parts[0].split(",")[0])
+                rhs = clean_text(parts[1])
+                team_b = clean_text(rhs.split(",")[0])
+
+                # Try to pull a visible venue after the match-stage text; otherwise keep unknown.
                 venue = "UNKNOWN VENUE"
-                parent = a_tag.find_parent("div", class_="cb-col") or a_tag.parent
-                if parent:
-                    venue_div = parent.find("div", class_="text-gray")
-                    if venue_div:
-                        venue = clean_text(venue_div.get_text(" ", strip=True)).split("•")[0].strip()
-                href = a_tag.get("href", "")
+                stage_match = re.search(r",\s*(?:\d+(?:st|nd|rd|th)\s+)?(?:T20I|T20|Final|Semi Final|Qualifier|Eliminator)?\s*(.+)$", rhs, re.I)
+                if stage_match:
+                    candidate = clean_text(stage_match.group(1))
+                    if candidate and len(candidate) > 3:
+                        venue = candidate
+
                 matches_found.append({
-                    "id": None, "teamA": team_a, "teamB": team_b,
-                    "name": f"{team_a} vs {team_b}", "matchType": "t20",
-                    "teams": [team_a, team_b], "venue": venue, "status": "Scheduled",
-                    "cricbuzz_url": ("https://www.cricbuzz.com" + href) if href.startswith("/") else href
+                    "id": None,
+                    "teamA": team_a,
+                    "teamB": team_b,
+                    "name": line,
+                    "matchType": "T20",
+                    "teams": [team_a, team_b],
+                    "venue": venue,
+                    "status": "Scheduled",
+                    "source_date": target_date.isoformat()
                 })
             browser.close()
     except Exception as exc:
-        print(f"[WARN] Cricbuzz schedule failed: {exc}")
+        print(f"[WARN] Cricbuzz all-schedule discovery failed: {exc}")
     return matches_found
 
 
@@ -567,8 +626,8 @@ def run_scanner():
         if len(teams) < 2:
             continue
 
-        dt = parse_dt(m.get("dateTimeGMT") or m.get("date_time_gmt") or m.get("date"))
-        if TODAY_ONLY and not in_india_today(dt):
+        is_today, dt = match_is_today(m)
+        if TODAY_ONLY and not is_today:
             continue
 
         team_a, team_b = clean_text(teams[0]), clean_text(teams[1])
@@ -650,6 +709,7 @@ def run_scanner():
             "matchType": mt,
             "venue": venue,
             "dateTimeGMT": m.get("dateTimeGMT"),
+            "sourceDate": m.get("source_date") or m.get("date"),
             "matchTimeIST": local_time,
             "series": m.get("series_name") or m.get("series") or "UNKNOWN SERIES",
             "marketTier": tier,
@@ -683,7 +743,7 @@ def run_scanner():
     Path("intel.json").write_text(json.dumps({
         "last_updated": datetime.now(timezone.utc).isoformat(),
         "source": {"primary": "CricketData API" if api_rows else "Cricbuzz fallback", "secondary": "Cricbuzz T20 schedule"},
-        "date_filter": {"timezone": "Asia/Kolkata", "today": today.isoformat(), "today_only": TODAY_ONLY},
+        "date_filter": {"timezone": "Asia/Kolkata", "today": today.isoformat(), "today_only": TODAY_ONLY, "method": "GMT timestamp when available; local date field or Cricbuzz today section otherwise"},
         "api_budget": {
             "daily_limit_user_reported": 100,
             "max_match_list_calls_per_run": MAX_MATCH_PAGES_PER_RUN,
