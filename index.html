@@ -65,12 +65,12 @@
 
     <!-- DEEP METRICS INTELLIGENCE RADAR -->
     <div class="radar-box">
-        <h2 class="h2-purple" style="margin-top:0;">📡 Deep Match Radar & Venue Analytics</h2>
-        <p style="font-size:0.85em; color:#94a3b8; margin-top:-5px;">Live atmospheric, venue bias, and powerplay momentum engine.</p>
+        <h2 class="h2-purple" style="margin-top:0;">📡 Today's T20 Match Reports</h2>
+        <p style="font-size:0.85em; color:#94a3b8; margin-top:-5px;">Every standard T20 today, with venue, weather, XI and explicit risk reasons.</p>
         
-        <label>Select Goldmine Fixture:</label>
+        <label>Select Today's T20 Fixture:</label>
         <select id="intelMatchSelect" onchange="applyDeepMetrics()">
-            <option value="">⏳ Fetching Live Market Data...</option>
+            <option value="">⏳ Loading today's T20 fixtures...</option>
         </select>
 
         <div id="radarDashboard" style="display:none; margin-top:15px;">
@@ -284,7 +284,7 @@
 
                 select.innerHTML = '<option value="">-- Choose Target Match --</option>';
                 if(DEEP_INTEL_DB.length === 0) {
-                    select.innerHTML = '<option value="">🛑 0 Matches Passed Rules (REST DAY)</option>';
+                    select.innerHTML = '<option value="">🛑 No standard T20 fixtures found for today</option>';
                 } else {
                     DEEP_INTEL_DB.forEach((m, idx) => {
                         let opt = document.createElement('option');
@@ -295,7 +295,7 @@
                 }
             } catch (err) {
                 console.log(err);
-                select.innerHTML = '<option value="">⚠️ Bot generating data... Run workflow & refresh</option>';
+                select.innerHTML = '<option value="">⚠️ No report file yet — run the GitHub Actions workflow</option>';
             }
         }
 

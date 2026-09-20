@@ -1,6 +1,8 @@
 name: Match Deep Intel Scanner
 
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: '0 */2 * * *'
   workflow_dispatch:
@@ -14,12 +16,14 @@ jobs:
     timeout-minutes: 12
     env:
       CRICKETDATA_API_KEY: ${{ secrets.CRICKETDATA_API_KEY }}
-      SCANNER_LOOKAHEAD_DAYS: '7'
+      SCANNER_LOOKAHEAD_DAYS: '1'
+      TODAY_ONLY: '1'
       MIN_VENUE_MATCHES: '5'
       MIN_SPIN_CLASSIFICATION: '0.90'
       XI_LOOKAHEAD_MIN: '180'
-      MAX_XI_LOOKUPS_PER_RUN: '2'
-      MAX_MATCH_PAGES_PER_RUN: '1'
+      ALLOW_FANTASY_SQUAD: '0'
+      MAX_XI_LOOKUPS_PER_RUN: '0'
+      MAX_MATCH_PAGES_PER_RUN: '3'
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
