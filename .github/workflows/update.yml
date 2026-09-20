@@ -21,7 +21,8 @@ jobs:
       MIN_VENUE_MATCHES: '5'
       MIN_SPIN_CLASSIFICATION: '0.90'
       XI_LOOKAHEAD_MIN: '180'
-      MAX_XI_LOOKUPS_PER_RUN: '2'
+      ALLOW_FANTASY_SQUAD: '0'
+      MAX_XI_LOOKUPS_PER_RUN: '0'
       MAX_MATCH_PAGES_PER_RUN: '3'
     steps:
       - name: Checkout Code
