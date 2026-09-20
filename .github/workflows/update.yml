@@ -2,7 +2,7 @@ name: Match Deep Intel Scanner
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '30 18,0,6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -22,6 +22,7 @@ jobs:
       ALLOW_FANTASY_SQUAD: '0'
       MAX_XI_LOOKUPS_PER_RUN: '0'
       MAX_MATCH_PAGES_PER_RUN: '2'
+      PAUSE_UNTIL_IST: '2026-09-21'
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -54,6 +55,7 @@ jobs:
           git config user.name "Scanner-Bot"
           git config user.email "bot@ultimatepro.com"
           git add intel.json
+          if [ -f intel_last_good.json ]; then git add intel_last_good.json; fi
           git diff --cached --quiet && exit 0
           git commit -m "Auto-update T20 deep match intel"
           git push
