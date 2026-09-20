@@ -4,6 +4,7 @@ from datetime import datetime, timedelta, timezone
 from difflib import SequenceMatcher
 from zoneinfo import ZoneInfo
 import requests
+from curl_cffi import requests as curl_requests
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
@@ -266,17 +267,29 @@ def get_espn_schedule(target_date):
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128 Safari/537.36",
     }
     try:
-        resp = requests.get(
+        resp = curl_requests.get(
             url,
             params={"lang": "en", "filterType": "DATE", "filterValue": date_value},
             headers=headers,
+            impersonate="chrome120",
             timeout=25,
         )
         resp.raise_for_status()
         payload = resp.json()
     except Exception as exc:
-        print(f"[WARN] ESPNcricinfo schedule JSON failed: {exc}")
-        return []
+        print(f"[WARN] ESPNcricinfo impersonated request failed: {exc}")
+        try:
+            resp = requests.get(
+                url,
+                params={"lang": "en", "filterType": "DATE", "filterValue": date_value},
+                headers=headers,
+                timeout=25,
+            )
+            resp.raise_for_status()
+            payload = resp.json()
+        except Exception as exc2:
+            print(f"[WARN] ESPNcricinfo schedule JSON failed: {exc2}")
+            return []
 
     rows_out = []
     for item in _espn_matches_from_payload(payload):
@@ -940,11 +953,11 @@ def run_scanner():
     history = load_t20_history()
     today = local_today()
     espn_rows = get_espn_schedule(today)
-    score_rows = get_cricscore_matches() if API_KEY else []
-    # The generic CricketData match list is now fallback-only. ESPN's date board
-    # and cricScore are both better discovery feeds and save API quota.
-    api_rows = get_cricketdata_matches() if API_KEY and not espn_rows else []
-    cb_rows = scrape_cricbuzz() if not espn_rows else []
+    # Preserve the 100-hit CricketData quota: only touch CricketData if ESPN fails.
+    score_rows = get_cricscore_matches() if API_KEY and not espn_rows else []
+    # The generic CricketData match list is last-resort fallback only.
+    api_rows = get_cricketdata_matches() if API_KEY and not espn_rows and not score_rows else []
+    cb_rows = scrape_cricbuzz() if not espn_rows and not score_rows else []
 
     # Discovery diagnostics must be initialized before report generation.
     espn_t20_count = sum(
@@ -1152,7 +1165,7 @@ def run_scanner():
         "api_budget": {
             "daily_limit_user_reported": 100,
             "max_match_list_calls_per_run": MAX_MATCH_PAGES_PER_RUN,
-            "cricscore_calls_per_run": 1 if API_KEY else 0,
+            "cricscore_calls_this_run": 1 if (API_KEY and not espn_rows) else 0,
             "max_squad_calls_per_run": MAX_XI_LOOKUPS_PER_RUN
         },
         "rules": {
