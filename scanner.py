@@ -211,6 +211,102 @@ def premium_market(match):
 
 
 
+
+def _sofascore_t20_type(event):
+    tournament = event.get("tournament") if isinstance(event.get("tournament"), dict) else {}
+    unique = tournament.get("uniqueTournament") if isinstance(tournament.get("uniqueTournament"), dict) else {}
+    season = event.get("season") if isinstance(event.get("season"), dict) else {}
+    round_info = event.get("roundInfo") if isinstance(event.get("roundInfo"), dict) else {}
+    text_blob = norm(" ".join([
+        clean_text(tournament.get("name")),
+        clean_text(unique.get("name")),
+        clean_text(season.get("name")),
+        clean_text(round_info.get("name")),
+        clean_text(event.get("slug")),
+    ]))
+    if any(x in text_blob for x in ("test", "odi", "one day", "list a", "t10", "hundred", "100 ball")):
+        return "NON_T20"
+    if "t20i" in text_blob:
+        return "T20I"
+    if "t20" in text_blob or "twenty20" in text_blob:
+        return "T20"
+    # Asian Games cricket is played in the T20 format.
+    if "asian games" in text_blob:
+        return "T20"
+    return "UNKNOWN"
+
+
+def get_sofascore_schedule(target_date):
+    """No-key SofaScore cricket date board."""
+    url = f"https://www.sofascore.com/api/v1/sport/cricket/scheduled-events/{target_date.isoformat()}"
+    headers = {
+        "Accept": "application/json,text/plain,*/*",
+        "Referer": "https://www.sofascore.com/cricket",
+        "Origin": "https://www.sofascore.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128 Safari/537.36",
+    }
+    try:
+        resp = curl_requests.get(
+            url,
+            headers=headers,
+            impersonate="chrome120",
+            timeout=25,
+        )
+        resp.raise_for_status()
+        payload = resp.json()
+    except Exception as exc:
+        print(f"[WARN] SofaScore schedule request failed: {exc}")
+        return []
+
+    rows_out = []
+    for event in payload.get("events") or []:
+        if not isinstance(event, dict):
+            continue
+        home = event.get("homeTeam") if isinstance(event.get("homeTeam"), dict) else {}
+        away = event.get("awayTeam") if isinstance(event.get("awayTeam"), dict) else {}
+        team_a = clean_text(home.get("name"))
+        team_b = clean_text(away.get("name"))
+        if not team_a or not team_b:
+            continue
+
+        mt = _sofascore_t20_type(event)
+        if mt not in {"T20", "T20I"}:
+            continue
+
+        tournament = event.get("tournament") if isinstance(event.get("tournament"), dict) else {}
+        unique = tournament.get("uniqueTournament") if isinstance(tournament.get("uniqueTournament"), dict) else {}
+        series_name = clean_text(unique.get("name") or tournament.get("name")) or "UNKNOWN SERIES"
+
+        venue_obj = event.get("venue") if isinstance(event.get("venue"), dict) else {}
+        city_obj = venue_obj.get("city") if isinstance(venue_obj.get("city"), dict) else {}
+        venue_parts = [clean_text(venue_obj.get("name")), clean_text(city_obj.get("name"))]
+        venue = ", ".join(x for x in venue_parts if x) or "UNKNOWN VENUE"
+
+        ts = event.get("startTimestamp")
+        dt = None
+        try:
+            if ts is not None:
+                dt = datetime.fromtimestamp(float(ts), tz=timezone.utc)
+        except (TypeError, ValueError, OSError):
+            dt = None
+
+        status_obj = event.get("status") if isinstance(event.get("status"), dict) else {}
+        rows_out.append({
+            "id": event.get("id"),
+            "name": f"{team_a} vs {team_b}",
+            "matchType": mt,
+            "status": clean_text(status_obj.get("description") or status_obj.get("type")),
+            "dateTimeGMT": dt.isoformat() if dt else None,
+            "date": target_date.isoformat(),
+            "teams": [team_a, team_b],
+            "venue": venue,
+            "series_name": series_name,
+            "source_name": "SofaScore scheduled",
+            "source_date": target_date.isoformat(),
+        })
+    return rows_out
+
+
 def _espn_matches_from_payload(payload):
     if isinstance(payload, list):
         return payload
@@ -952,14 +1048,23 @@ def run_scanner():
 
     history = load_t20_history()
     today = local_today()
-    espn_rows = get_espn_schedule(today)
-    # Preserve the 100-hit CricketData quota: only touch CricketData if ESPN fails.
-    score_rows = get_cricscore_matches() if API_KEY and not espn_rows else []
-    # The generic CricketData match list is last-resort fallback only.
-    api_rows = get_cricketdata_matches() if API_KEY and not espn_rows and not score_rows else []
-    cb_rows = scrape_cricbuzz() if not espn_rows and not score_rows else []
+    sofa_rows = get_sofascore_schedule(today)
+    espn_rows = get_espn_schedule(today) if not sofa_rows else []
+    # Preserve the 100-hit CricketData quota: only touch CricketData if both
+    # no-key date-board sources fail.
+    score_rows = get_cricscore_matches() if API_KEY and not sofa_rows and not espn_rows else []
+    api_rows = get_cricketdata_matches() if API_KEY and not sofa_rows and not espn_rows and not score_rows else []
+    cb_rows = scrape_cricbuzz() if not sofa_rows and not espn_rows and not score_rows else []
 
     # Discovery diagnostics must be initialized before report generation.
+    sofa_t20_count = sum(
+        1 for raw in sofa_rows
+        if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"}
+    )
+    sofa_today_count = sum(
+        1 for raw in sofa_rows
+        if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"} and match_is_today(raw)[0]
+    )
     espn_t20_count = sum(
         1 for raw in espn_rows
         if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"}
@@ -992,7 +1097,13 @@ def run_scanner():
 
     candidates = []
 
-    # ESPNcricinfo's date-scoped board is the first discovery source.
+    # SofaScore is the first no-key, date-scoped discovery source.
+    for raw in sofa_rows:
+        m = dict(raw)
+        if infer_match_type(m) in {"T20", "T20I", "TWENTY20"}:
+            candidates.append(m)
+
+    # ESPNcricinfo is the second no-key date-scoped source.
     for raw in espn_rows:
         m = dict(raw)
         if infer_match_type(m) in {"T20", "T20I", "TWENTY20"}:
@@ -1160,12 +1271,12 @@ def run_scanner():
     output.sort(key=lambda x: x.get("matchTimeIST", "9999"))
     Path("intel.json").write_text(json.dumps({
         "last_updated": datetime.now(timezone.utc).isoformat(),
-        "source": {"primary": "ESPNcricinfo date schedule", "secondary": "CricketData cricScore", "fallback": "CricketData Match List / Cricbuzz"},
+        "source": {"primary": "SofaScore date schedule", "secondary": "ESPNcricinfo date schedule", "fallback": "CricketData cricScore / Match List / Cricbuzz"},
         "date_filter": {"timezone": "Asia/Kolkata", "today": today.isoformat(), "today_only": TODAY_ONLY, "method": "GMT timestamp when available; local date field or Cricbuzz today section otherwise"},
         "api_budget": {
             "daily_limit_user_reported": 100,
             "max_match_list_calls_per_run": MAX_MATCH_PAGES_PER_RUN,
-            "cricscore_calls_this_run": 1 if (API_KEY and not espn_rows) else 0,
+            "cricscore_calls_this_run": 1 if (API_KEY and not sofa_rows and not espn_rows) else 0,
             "max_squad_calls_per_run": MAX_XI_LOOKUPS_PER_RUN
         },
         "rules": {
@@ -1178,6 +1289,9 @@ def run_scanner():
             "min_spin_classification": MIN_SPIN_CLASSIFICATION
         },
         "discovery": {
+            "sofascore_rows": len(sofa_rows),
+            "sofascore_t20_rows": sofa_t20_count,
+            "sofascore_today_t20_rows": sofa_today_count,
             "espn_rows": len(espn_rows),
             "espn_t20_rows": espn_t20_count,
             "espn_today_t20_rows": espn_today_count,
