@@ -67,6 +67,7 @@
     <div class="radar-box">
         <h2 class="h2-purple" style="margin-top:0;">📡 Today's T20 Match Reports</h2>
         <p style="font-size:0.85em; color:#94a3b8; margin-top:-5px;">Every standard T20 today, with venue, weather, XI and explicit risk reasons.</p>
+        <div id="scannerStatus" style="margin:10px 0 12px; padding:10px 12px; border-radius:8px; background:#0f172a; border:1px solid #334155; font-size:0.82em; color:#cbd5e1;">Scanner status: loading…</div>
         
         <label>Select Today's T20 Fixture:</label>
         <select id="intelMatchSelect" onchange="applyDeepMetrics()">
@@ -280,11 +281,31 @@
                 const res = await fetch('intel.json?t=' + new Date().getTime());
                 if(!res.ok) throw new Error("No data file yet");
                 const data = await res.json();
-                DEEP_INTEL_DB = data.matches;
+                DEEP_INTEL_DB = data.matches || [];
+
+                const statusBox = document.getElementById('scannerStatus');
+                const scan = data.scanner_status || {};
+                const budget = data.api_budget || {};
+                const state = scan.state || 'UNKNOWN';
+                const stale = scan.stale === true;
+                const hits = budget.hits_today_reported;
+                const limit = budget.hits_limit_reported;
+                const quotaText = (hits !== null && hits !== undefined && limit !== null && limit !== undefined)
+                    ? ' | CricketData hits: ' + hits + '/' + limit : '';
+                const icon = stale ? '⚠️' : (state === 'OK' ? '✅' : '🟠');
+                statusBox.innerHTML = '<strong>' + icon + ' ' + state + '</strong>' +
+                    (stale ? ' — showing preserved same-day report' : '') + quotaText + '<br>' +
+                    '<span style="color:#94a3b8;">' + (scan.message || 'Scanner status unavailable.') + '</span>';
 
                 select.innerHTML = '<option value="">-- Choose Target Match --</option>';
                 if(DEEP_INTEL_DB.length === 0) {
-                    select.innerHTML = '<option value="">🛑 No standard T20 fixtures found for today</option>';
+                    if(state === 'QUOTA_EXHAUSTED') {
+                        select.innerHTML = '<option value="">⚠️ CricketData daily quota exhausted — no fresh report</option>';
+                    } else if(state === 'SOURCE_UNAVAILABLE') {
+                        select.innerHTML = '<option value="">⚠️ Match sources unavailable — not a confirmed “no matches” result</option>';
+                    } else {
+                        select.innerHTML = '<option value="">🛑 No standard T20 fixtures found from available sources</option>';
+                    }
                 } else {
                     DEEP_INTEL_DB.forEach((m, idx) => {
                         let opt = document.createElement('option');
