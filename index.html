@@ -100,6 +100,7 @@
             </div>
 
             <div id="metricStrategyNote" style="margin-top:12px; background:#0f172a; padding:12px; border-radius:8px; font-size:0.85em; border-left:3px solid #6366f1;"></div>
+            <div id="metricRiskReasons" style="margin-top:10px; background:#0f172a; padding:12px; border-radius:8px; font-size:0.82em;"></div>
         </div>
     </div>
 
@@ -311,15 +312,22 @@
             document.getElementById('teamB').value = data.teamB;
 
             document.getElementById('verdictContainer').innerHTML = `<span class="verdict-badge ${data.badgeClass}">${data.verdict}</span>`;
-            document.getElementById('metricWeather').innerText = data.weather;
+            document.getElementById('metricWeather').innerText = data.weatherText || data.weather || 'NO DATA';
             document.getElementById('subWeather').innerText = data.dewRisk;
             document.getElementById('metricToss').innerText = data.tossBias;
             document.getElementById('subToss').innerText = data.tossTrend;
             document.getElementById('metricPP').innerText = data.ppScoreAvg;
             document.getElementById('subPP').innerText = data.ppRunRate;
             document.getElementById('metricSpin').innerText = data.spinIndex;
-            document.getElementById('subSpin').innerText = data.spinNote;
-            document.getElementById('metricStrategyNote').innerHTML = `💡 <strong>Tactical Execution:</strong> ${data.strategyText}`;
+            document.getElementById('subSpin').innerText = data.spinNote || 'UNKNOWN';
+            document.getElementById('metricStrategyNote').innerHTML = `💡 <strong>Data status:</strong> ${data.strategyText || 'NO DATA'}`;
+            const reasons = (data.noBetReasons || []).map(x => `<li>🔴 ${x}</li>`).join('');
+            const warnings = (data.warnings || []).map(x => `<li>🟡 ${x}</li>`).join('');
+            const xi = data.playingXI ? data.playingXI.status : 'UNKNOWN';
+            document.getElementById('metricRiskReasons').innerHTML =
+                `<strong>Playing XI:</strong> ${xi}<br>
+                 <strong>NO-BET / WAIT reasons:</strong>
+                 <ul style="margin:6px 0 0 18px;">${reasons || '<li>None from current data</li>'}${warnings}</ul>`;
 
             dashboard.style.display = 'block';
             updateUI();
