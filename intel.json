@@ -1,21 +1,12 @@
 {
-    "last_updated": "2026-09-20 02:09:41.387523+00:00",
-    "matches": [
-        {
-            "teamA": "SYSTEM",
-            "teamB": "ONLINE",
-            "venue": "Web Scraper Output",
-            "weather": "N/A",
-            "dewRisk": "N/A",
-            "tossBias": "N/A",
-            "tossTrend": "N/A",
-            "ppScoreAvg": "N/A",
-            "ppRunRate": "N/A",
-            "spinIndex": "N/A",
-            "spinNote": "N/A",
-            "verdict": "\u26a0\ufe0f SCRAPER RETURNED EMPTY",
-            "badgeClass": "badge-yellow",
-            "strategyText": "Web Agent found no fixtures on schedule. Rest day."
-        }
-    ]
+    "last_updated": "2026-09-20T03:18:36.678943+00:00",
+    "source": "CricketData API",
+    "rules": {
+        "standard_t20_only": true,
+        "premium_market_proxy": true,
+        "no_fake_data": true,
+        "min_venue_matches": 5,
+        "min_spin_classification": 0.9
+    },
+    "matches": []
 }
