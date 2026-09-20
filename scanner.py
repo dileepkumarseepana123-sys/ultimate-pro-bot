@@ -966,8 +966,14 @@ def scrape_cricbuzz_via_text_relay():
         try:
             r = SESSION.get(
                 relay_url,
-                headers={"Accept": "text/plain", "User-Agent": "Mozilla/5.0"},
-                timeout=35,
+                headers={
+                    "Accept": "text/plain",
+                    "User-Agent": "Mozilla/5.0",
+                    "x-engine": "browser",
+                    "x-no-cache": "true",
+                    "x-timeout": "20",
+                },
+                timeout=40,
             )
             r.raise_for_status()
             lines = [_strip_markdown_text(x) for x in r.text.splitlines()]
