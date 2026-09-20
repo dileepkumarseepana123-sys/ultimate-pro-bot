@@ -949,9 +949,9 @@ def _parse_cricbuzz_match_line(line, series_name):
 
 def _strip_markdown_text(value):
     text = str(value or "")
-    text = re.sub(r"!\\[([^\\]]*)\\]\\([^)]+\\)", r"\\1", text)
-    text = re.sub(r"\\[([^\\]]+)\\]\\([^)]+\\)", r"\\1", text)
-    text = re.sub(r"^[#>*\\-\\s]+", "", text)
+    text = re.sub(r"!\[([^\]]*)\]\([^)]+\)", r"\1", text)
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    text = re.sub(r"^[#>*\-\s]+", "", text)
     return clean_text(text)
 
 
