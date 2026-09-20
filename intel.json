@@ -1,12 +1,33 @@
 {
-    "last_updated": "2026-09-20T03:18:36.678943+00:00",
-    "source": "CricketData API",
+    "last_updated": "2026-09-20T03:30:45.370383+00:00",
+    "source": {
+        "primary": "CricketData API",
+        "secondary": "Cricbuzz T20 schedule"
+    },
+    "date_filter": {
+        "timezone": "Asia/Kolkata",
+        "today": "2026-09-20",
+        "today_only": true
+    },
+    "api_budget": {
+        "daily_limit_user_reported": 100,
+        "max_match_list_calls_per_run": 3,
+        "max_squad_calls_per_run": 0
+    },
     "rules": {
         "standard_t20_only": true,
-        "premium_market_proxy": true,
+        "show_all_t20_today": true,
+        "premium_market_proxy_is_not_liquidity_proof": true,
+        "fantasy_squad_default_disabled_on_free_plan": true,
         "no_fake_data": true,
         "min_venue_matches": 5,
         "min_spin_classification": 0.9
+    },
+    "summary": {
+        "today_t20_count": 0,
+        "no_bet_or_high_caution": 0,
+        "wait": 0,
+        "data_clear": 0
     },
     "matches": []
 }
