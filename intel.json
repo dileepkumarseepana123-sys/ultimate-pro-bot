@@ -1,8 +1,9 @@
 {
-    "last_updated": "2026-09-20T06:40:55.337232+00:00",
+    "last_updated": "2026-09-20T06:44:20.893075+00:00",
     "source": {
-        "primary": "CricketData cricScore + Match List",
-        "secondary": "Cricbuzz T20 schedule"
+        "primary": "ESPNcricinfo date schedule",
+        "secondary": "CricketData cricScore",
+        "fallback": "CricketData Match List / Cricbuzz"
     },
     "date_filter": {
         "timezone": "Asia/Kolkata",
@@ -26,14 +27,17 @@
         "min_spin_classification": 0.9
     },
     "discovery": {
-        "cricscore_rows": 24,
-        "cricscore_t20_rows": 5,
+        "espn_rows": 0,
+        "espn_t20_rows": 0,
+        "espn_today_t20_rows": 0,
+        "cricscore_rows": 0,
+        "cricscore_t20_rows": 0,
         "cricscore_today_t20_rows": 0,
-        "cricketdata_rows": 50,
-        "cricketdata_t20_rows": 27,
+        "cricketdata_rows": 0,
+        "cricketdata_t20_rows": 0,
         "cricketdata_today_t20_rows": 0,
         "cricbuzz_today_t20_rows": 0,
-        "merged_candidates": 32,
+        "merged_candidates": 0,
         "final_reports": 0
     },
     "summary": {
