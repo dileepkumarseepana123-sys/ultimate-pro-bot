@@ -2,7 +2,7 @@ name: Match Deep Intel Scanner
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 */2 * * *'
   workflow_dispatch:
 
 permissions:
@@ -18,6 +18,8 @@ jobs:
       MIN_VENUE_MATCHES: '5'
       MIN_SPIN_CLASSIFICATION: '0.90'
       XI_LOOKAHEAD_MIN: '180'
+      MAX_XI_LOOKUPS_PER_RUN: '2'
+      MAX_MATCH_PAGES_PER_RUN: '1'
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
