@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-20T06:44:20.893075+00:00",
+    "last_updated": "2026-09-20T06:47:04.078036+00:00",
     "source": {
         "primary": "ESPNcricinfo date schedule",
         "secondary": "CricketData cricScore",
@@ -14,7 +14,7 @@
     "api_budget": {
         "daily_limit_user_reported": 100,
         "max_match_list_calls_per_run": 2,
-        "cricscore_calls_per_run": 1,
+        "cricscore_calls_this_run": 1,
         "max_squad_calls_per_run": 0
     },
     "rules": {
