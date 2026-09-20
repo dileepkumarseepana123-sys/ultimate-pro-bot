@@ -115,7 +115,8 @@ def match_is_today(match):
     raw_dt = match.get("dateTimeGMT") or match.get("date_time_gmt")
     if raw_dt:
         dt = parse_dt(raw_dt)
-        return in_india_today(dt), dt
+        if dt is not None:
+            return in_india_today(dt), dt
     raw_date = match.get("date")
     if date_field_is_india_today(raw_date):
         return True, None
@@ -757,6 +758,14 @@ def run_scanner():
             "no_fake_data": True,
             "min_venue_matches": MIN_VENUE_MATCHES,
             "min_spin_classification": MIN_SPIN_CLASSIFICATION
+        },
+        "discovery": {
+            "cricketdata_rows": len(api_rows),
+            "cricketdata_t20_rows": api_t20_count,
+            "cricketdata_today_t20_rows": api_today_count,
+            "cricbuzz_today_t20_rows": cb_today_count,
+            "merged_candidates": len(candidates),
+            "final_reports": len(output)
         },
         "summary": {
             "today_t20_count": len(output),
