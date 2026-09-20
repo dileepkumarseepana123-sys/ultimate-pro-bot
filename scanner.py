@@ -243,6 +243,39 @@ def get_cricketdata_matches():
     return rows_out
 
 
+
+def strip_team_code(value):
+    return clean_text(re.sub(r"\\s*\\[[^\\]]+\\]\\s*$", "", clean_text(value)))
+
+
+def get_cricscore_matches():
+    """Use CricketData's +/-7 day fixture/live/results feed for reliable date discovery."""
+    if not API_KEY:
+        return []
+    data = api_get("cricScore")
+    if not isinstance(data, dict) or data.get("status") != "success":
+        return []
+    rows_out = []
+    for raw in data.get("data") or []:
+        if not isinstance(raw, dict):
+            continue
+        team_a = strip_team_code(raw.get("t1"))
+        team_b = strip_team_code(raw.get("t2"))
+        row = {
+            "id": raw.get("id"),
+            "name": f"{team_a} vs {team_b}" if team_a and team_b else clean_text(raw.get("name")),
+            "matchType": raw.get("matchType"),
+            "status": raw.get("status"),
+            "dateTimeGMT": raw.get("dateTimeGMT"),
+            "teams": [team_a, team_b] if team_a and team_b else [],
+            "venue": clean_text(raw.get("venue")) or "UNKNOWN VENUE",
+            "source_name": "CricketData cricScore",
+            "cricscore_status": raw.get("ms"),
+        }
+        rows_out.append(row)
+    return rows_out
+
+
 def cache_key(prefix, value):
     key = re.sub(r"[^a-z0-9]+", "_", norm(value)).strip("_")[:100]
     return CACHE_DIR / f"{prefix}_{key}.json"
@@ -799,10 +832,19 @@ def run_scanner():
         return
 
     history = load_t20_history()
+    score_rows = get_cricscore_matches() if API_KEY else []
     api_rows = get_cricketdata_matches() if API_KEY else []
     cb_rows = scrape_cricbuzz()
 
     # Discovery diagnostics must be initialized before report generation.
+    score_t20_count = sum(
+        1 for raw in score_rows
+        if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"}
+    )
+    score_today_count = sum(
+        1 for raw in score_rows
+        if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"} and match_is_today(raw)[0]
+    )
     api_t20_count = sum(
         1 for raw in api_rows
         if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"}
@@ -819,8 +861,22 @@ def run_scanner():
 
     candidates = []
 
-    # CricketData provides a broad match list; Cricbuzz T20 schedule is a second,
-    # T20-specific discovery source. We merge both rather than using either as a gate.
+    # cricScore is the date-aware discovery feed (+/-7 days). Match List is used
+    # as an enrichment/secondary source; Cricbuzz remains a last-resort fallback.
+    api_by_id = {str(x.get("id")): x for x in api_rows if x.get("id")}
+    for raw in score_rows:
+        m = dict(raw)
+        richer = api_by_id.get(str(m.get("id"))) if m.get("id") else None
+        if richer:
+            for key in ("venue", "series", "series_name", "date", "name"):
+                if richer.get(key):
+                    m[key] = richer.get(key)
+            if richer.get("teams"):
+                m["teams"] = richer.get("teams")
+        t = infer_match_type(m)
+        if t in {"T20", "T20I", "TWENTY20"}:
+            candidates.append(m)
+
     for raw in api_rows:
         m = dict(raw)
         t = infer_match_type(m)
@@ -968,11 +1024,12 @@ def run_scanner():
     output.sort(key=lambda x: x.get("matchTimeIST", "9999"))
     Path("intel.json").write_text(json.dumps({
         "last_updated": datetime.now(timezone.utc).isoformat(),
-        "source": {"primary": "CricketData API" if api_rows else "Cricbuzz fallback", "secondary": "Cricbuzz T20 schedule"},
+        "source": {"primary": "CricketData cricScore + Match List" if API_KEY else "Cricbuzz fallback", "secondary": "Cricbuzz T20 schedule"},
         "date_filter": {"timezone": "Asia/Kolkata", "today": today.isoformat(), "today_only": TODAY_ONLY, "method": "GMT timestamp when available; local date field or Cricbuzz today section otherwise"},
         "api_budget": {
             "daily_limit_user_reported": 100,
             "max_match_list_calls_per_run": MAX_MATCH_PAGES_PER_RUN,
+            "cricscore_calls_per_run": 1 if API_KEY else 0,
             "max_squad_calls_per_run": MAX_XI_LOOKUPS_PER_RUN
         },
         "rules": {
@@ -985,6 +1042,9 @@ def run_scanner():
             "min_spin_classification": MIN_SPIN_CLASSIFICATION
         },
         "discovery": {
+            "cricscore_rows": len(score_rows),
+            "cricscore_t20_rows": score_t20_count,
+            "cricscore_today_t20_rows": score_today_count,
             "cricketdata_rows": len(api_rows),
             "cricketdata_t20_rows": api_t20_count,
             "cricketdata_today_t20_rows": api_today_count,
