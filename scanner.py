@@ -592,6 +592,22 @@ def run_scanner():
     history = load_t20_history()
     api_rows = get_cricketdata_matches() if API_KEY else []
     cb_rows = scrape_cricbuzz()
+
+    # Discovery diagnostics must be initialized before report generation.
+    api_t20_count = sum(
+        1 for raw in api_rows
+        if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"}
+    )
+    api_today_count = sum(
+        1 for raw in api_rows
+        if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"} and match_is_today(raw)[0]
+    )
+    cb_today_count = sum(
+        1 for raw in cb_rows
+        if infer_match_type(raw, source_t20=True) in {"T20", "T20I", "TWENTY20"}
+        and date_field_is_india_today(raw.get("source_date"))
+    )
+
     candidates = []
 
     # CricketData provides a broad match list; Cricbuzz T20 schedule is a second,
