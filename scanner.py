@@ -4,7 +4,6 @@ from datetime import datetime, timezone
 import requests
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
-from playwright_stealth import stealth_sync
 
 # ==========================================
 # CONFIGURATION
@@ -142,16 +141,20 @@ def analyze_venue(history, target_venue):
     return {"matches": len(first_inn_scores), "pp_avg": f"{avg_pp:.1f} / 1", "toss_bias": f"{chase_pct:.1f}% Chasing Wins", "spin_idx": f"{mid_wkt_pct:.1f}% Wkts (Overs 7-14)"}
 
 # ==========================================
-# BROWSER AUTOMATION ENGINE (PLAYWRIGHT)
+# BROWSER AUTOMATION ENGINE (PLAYWRIGHT PURE)
 # ==========================================
 def scrape_cricbuzz():
     matches_found = []
-    print("[INFO] Launching Stealth Browser to Scrape Matches...")
+    print("[INFO] Launching Standard Browser to Scrape Matches...")
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
-            page = browser.new_page()
-            stealth_sync(page) 
+            
+            # Using a normal browser identity (Bypasses the need for stealth_sync)
+            context = browser.new_context(
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            )
+            page = context.new_page()
             
             # Going straight to the T20 matches tab
             page.goto("https://www.cricbuzz.com/cricket-schedule/upcoming-series/t20", timeout=60000)
