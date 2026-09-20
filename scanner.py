@@ -131,10 +131,42 @@ def date_field_is_india_today(value):
     return False
 
 
+def _parse_embedded_gmt_date(value):
+    text = clean_text(value)
+    # CricketData status commonly contains:
+    # "Match starts at Sep 20, 01:00 GMT"
+    patterns = (
+        r"(?:match\\s+starts\\s+at\\s+)?([A-Z]{3,9})\\s+(\\d{1,2}),?\\s+(\\d{1,2}):(\\d{2})\\s*GMT",
+        r"(?:match\\s+starts\\s+at\\s+)?([A-Z]{3,9})\\s+(\\d{1,2}),?\\s+(20\\d{2})\\s+(\\d{1,2}):(\\d{2})\\s*GMT",
+    )
+    for pattern in patterns:
+        m = re.search(pattern, text, re.I)
+        if not m:
+            continue
+        try:
+            groups = m.groups()
+            month = groups[0].title()
+            day = int(groups[1])
+            if len(groups) == 4:
+                year = local_today().year
+                hour = int(groups[2])
+                minute = int(groups[3])
+            else:
+                year = int(groups[2])
+                hour = int(groups[3])
+                minute = int(groups[4])
+            return datetime.strptime(
+                f"{month} {day} {year} {hour:02d}:{minute:02d}",
+                "%b %d %Y %H:%M"
+            ).replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+    return None
+
+
 def match_is_today(match):
-    # CricketData documents date as the local match date and dateTimeGMT as
-    # the UTC start timestamp. Prefer the UTC timestamp, then fall back across
-    # common date/datetime field variants without fabricating a date.
+    # Prefer explicit UTC start fields. If unavailable, CricketData's status
+    # can contain a GMT start time; parse that before falling back to local date.
     datetime_keys = (
         "dateTimeGMT", "date_time_gmt", "dateTime", "datetime",
         "startDateTime", "start_datetime", "matchDateTime", "match_datetime"
@@ -146,6 +178,11 @@ def match_is_today(match):
             if dt is not None:
                 return in_india_today(dt), dt
 
+    for key in ("status", "match_status", "message"):
+        embedded = _parse_embedded_gmt_date(match.get(key))
+        if embedded is not None:
+            return in_india_today(embedded), embedded
+
     date_keys = (
         "date", "matchDate", "match_date", "startDate", "start_date",
         "localDate", "local_date"
@@ -156,8 +193,6 @@ def match_is_today(match):
             return True, None
 
     return False, None
-
-
 
 
 
