@@ -27,11 +27,14 @@ ALLOW_FANTASY_SQUAD = os.getenv("ALLOW_FANTASY_SQUAD", "0").strip().lower() in {
 MAX_XI_LOOKUPS_PER_RUN = int(os.getenv("MAX_XI_LOOKUPS_PER_RUN", "0" if not ALLOW_FANTASY_SQUAD else "2"))
 MAX_MATCH_PAGES_PER_RUN = int(os.getenv("MAX_MATCH_PAGES_PER_RUN", "8"))
 TODAY_ONLY = os.getenv("TODAY_ONLY", "1").strip().lower() not in {"0", "false", "no"}
+PAUSE_UNTIL_IST = os.getenv("PAUSE_UNTIL_IST", "").strip()
 
 # PREMIUM LEAGUES & TEAMS
 PREMIUM_KEYWORDS = ["indian premier league", "ipl", "big bash league", "bbl", "caribbean premier league", "cpl", "pakistan super league", "psl", "sa20", "t20 blast", "vitality blast", "major league cricket", "mlc", "international t20 league", "ilt20", "bangladesh premier league", "bpl", "super smash"]
 MAJOR_TEAMS = ["england", "india", "australia", "sri lanka", "west indies", "south africa", "new zealand", "pakistan", "bangladesh", "afghanistan", "ireland", "zimbabwe"]
 JUNK_WORDS = ["test", "tests", "odi", "one day", "t10", "hundred", "100 ball", "women's club", "under-19", "u19", "county championship"]
+
+API_USAGE = {"hitsToday": None, "hitsLimit": None, "quota_exhausted": False, "last_error": None}
 
 
 def clean_text(value):
@@ -425,15 +428,30 @@ def get_espn_schedule(target_date):
 
 
 def api_get(endpoint, params=None):
-    if not API_KEY:
+    if not API_KEY or API_USAGE.get("quota_exhausted"):
         return None
     q = {"apikey": API_KEY, "offset": 0}
     q.update(params or {})
     try:
         r = SESSION.get(f"https://api.cricapi.com/v1/{endpoint}", params=q, timeout=20)
         r.raise_for_status()
-        return r.json()
+        data = r.json()
+        info = data.get("info") if isinstance(data, dict) else None
+        if isinstance(info, dict):
+            API_USAGE["hitsToday"] = info.get("hitsToday")
+            API_USAGE["hitsLimit"] = info.get("hitsLimit")
+            try:
+                if int(info.get("hitsToday")) >= int(info.get("hitsLimit")):
+                    API_USAGE["quota_exhausted"] = True
+            except (TypeError, ValueError):
+                pass
+        if isinstance(data, dict) and data.get("status") != "success":
+            API_USAGE["last_error"] = clean_text(data.get("reason") or data.get("message") or data.get("status"))
+            if "limit" in norm(API_USAGE["last_error"]) or "quota" in norm(API_USAGE["last_error"]):
+                API_USAGE["quota_exhausted"] = True
+        return data
     except Exception as exc:
+        API_USAGE["last_error"] = str(exc)
         print(f"[WARN] CricketData {endpoint} failed: {exc}")
         return None
 
@@ -929,6 +947,80 @@ def _parse_cricbuzz_match_line(line, series_name):
     }
 
 
+def _strip_markdown_text(value):
+    text = str(value or "")
+    text = re.sub(r"!\\[([^\\]]*)\\]\\([^)]+\\)", r"\\1", text)
+    text = re.sub(r"\\[([^\\]]+)\\]\\([^)]+\\)", r"\\1", text)
+    text = re.sub(r"^[#>*\\-\\s]+", "", text)
+    return clean_text(text)
+
+
+def scrape_cricbuzz_via_text_relay():
+    """Fetch Cricbuzz through a public text relay to avoid GitHub-runner 403s."""
+    target_date = local_today()
+    relay_urls = [
+        "https://r.jina.ai/http://www.cricbuzz.com/cricket-schedule/upcoming-series/all",
+        "https://r.jina.ai/https://www.cricbuzz.com/cricket-schedule/upcoming-series/all",
+    ]
+    for relay_url in relay_urls:
+        try:
+            r = SESSION.get(
+                relay_url,
+                headers={"Accept": "text/plain", "User-Agent": "Mozilla/5.0"},
+                timeout=35,
+            )
+            r.raise_for_status()
+            lines = [_strip_markdown_text(x) for x in r.text.splitlines()]
+            lines = [x for x in lines if x]
+
+            start_idx = None
+            for idx, line in enumerate(lines):
+                dt, _ = _extract_date_token(line)
+                if dt == target_date:
+                    start_idx = idx
+                    break
+            if start_idx is None:
+                continue
+
+            rows = []
+            current_series = "UNKNOWN SERIES"
+            for line in lines[start_idx:]:
+                maybe_date, _ = _extract_date_token(line)
+                if maybe_date and maybe_date != target_date:
+                    break
+                if maybe_date == target_date:
+                    continue
+
+                low = line.lower()
+                if " vs " not in low:
+                    if (
+                        len(line) < 180
+                        and (
+                            "t20" in low
+                            or "twenty20" in low
+                            or "asian games" in low
+                            or "premier league" in low
+                            or "super league" in low
+                            or "big bash" in low
+                            or "cpl" in low
+                        )
+                    ):
+                        current_series = line
+                    continue
+
+                parsed = _parse_cricbuzz_match_line(line, current_series)
+                if parsed:
+                    parsed["source_name"] = "Cricbuzz via text relay"
+                    rows.append(parsed)
+
+            if rows:
+                print(f"[INFO] Text relay discovered {len(rows)} Cricbuzz T20 rows.")
+                return rows
+        except Exception as exc:
+            print(f"[WARN] Cricbuzz text relay failed for {relay_url}: {exc}")
+    return []
+
+
 def scrape_cricbuzz():
     matches_found = []
     target_date = local_today()
@@ -1048,15 +1140,45 @@ def run_scanner():
 
     history = load_t20_history()
     today = local_today()
-    sofa_rows = get_sofascore_schedule(today)
-    espn_rows = get_espn_schedule(today) if not sofa_rows else []
-    # Preserve the 100-hit CricketData quota: only touch CricketData if both
-    # no-key date-board sources fail.
-    score_rows = get_cricscore_matches() if API_KEY and not sofa_rows and not espn_rows else []
-    api_rows = get_cricketdata_matches() if API_KEY and not sofa_rows and not espn_rows and not score_rows else []
-    cb_rows = scrape_cricbuzz() if not sofa_rows and not espn_rows and not score_rows else []
+
+    if PAUSE_UNTIL_IST:
+        try:
+            pause_until = datetime.strptime(PAUSE_UNTIL_IST, "%Y-%m-%d").date()
+            if today < pause_until:
+                print(f"[INFO] Scanner paused until India date {pause_until.isoformat()}; no external APIs called.")
+                return
+        except ValueError:
+            print(f"[WARN] Invalid PAUSE_UNTIL_IST={PAUSE_UNTIL_IST!r}; ignoring.")
+
+    # Production discovery path:
+    # 1) no-key Cricbuzz text relay; 2) CricketData cricScore; 3) small Match List fallback.
+    relay_rows = scrape_cricbuzz_via_text_relay()
+    score_rows = get_cricscore_matches() if API_KEY and not relay_rows else []
+
+    score_today_probe = [
+        raw for raw in score_rows
+        if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"} and match_is_today(raw)[0]
+    ]
+    api_rows = (
+        get_cricketdata_matches()
+        if API_KEY and not relay_rows and not score_today_probe and not API_USAGE.get("quota_exhausted")
+        else []
+    )
+
+    # Legacy direct-site sources stay disabled in production because GitHub shared
+    # runners receive HTTP 403 from them.
+    sofa_rows, espn_rows, cb_rows = [], [], []
 
     # Discovery diagnostics must be initialized before report generation.
+    relay_t20_count = sum(
+        1 for raw in relay_rows
+        if infer_match_type(raw, source_t20=True) in {"T20", "T20I", "TWENTY20"}
+    )
+    relay_today_count = sum(
+        1 for raw in relay_rows
+        if infer_match_type(raw, source_t20=True) in {"T20", "T20I", "TWENTY20"}
+        and date_field_is_india_today(raw.get("source_date"))
+    )
     sofa_t20_count = sum(
         1 for raw in sofa_rows
         if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"}
@@ -1096,6 +1218,12 @@ def run_scanner():
     )
 
     candidates = []
+
+    # No-key Cricbuzz text-relay rows are preferred on GitHub Actions.
+    for raw in relay_rows:
+        m = dict(raw)
+        m["matchType"] = "T20"
+        candidates.append(m)
 
     # SofaScore is the first no-key, date-scoped discovery source.
     for raw in sofa_rows:
@@ -1269,15 +1397,33 @@ def run_scanner():
         })
 
     output.sort(key=lambda x: x.get("matchTimeIST", "9999"))
-    Path("intel.json").write_text(json.dumps({
-        "last_updated": datetime.now(timezone.utc).isoformat(),
-        "source": {"primary": "SofaScore date schedule", "secondary": "ESPNcricinfo date schedule", "fallback": "CricketData cricScore / Match List / Cricbuzz"},
-        "date_filter": {"timezone": "Asia/Kolkata", "today": today.isoformat(), "today_only": TODAY_ONLY, "method": "GMT timestamp when available; local date field or Cricbuzz today section otherwise"},
+    source_rows_total = len(relay_rows) + len(score_rows) + len(api_rows)
+    now_iso = datetime.now(timezone.utc).isoformat()
+
+    payload = {
+        "last_updated": now_iso,
+        "scanner_status": {
+            "state": "OK" if source_rows_total > 0 else (
+                "QUOTA_EXHAUSTED" if API_USAGE.get("quota_exhausted") else "SOURCE_UNAVAILABLE"
+            ),
+            "stale": False,
+            "message": "Fresh scan completed." if source_rows_total > 0 else (
+                "CricketData quota exhausted and no no-key source was available."
+                if API_USAGE.get("quota_exhausted")
+                else "No discovery source returned data."
+            ),
+        },
+        "source": {"primary": "Cricbuzz via text relay", "secondary": "CricketData cricScore", "fallback": "CricketData Match List"},
+        "date_filter": {"timezone": "Asia/Kolkata", "today": today.isoformat(), "today_only": TODAY_ONLY, "method": "GMT timestamp when available; India date otherwise"},
         "api_budget": {
             "daily_limit_user_reported": 100,
             "max_match_list_calls_per_run": MAX_MATCH_PAGES_PER_RUN,
-            "cricscore_calls_this_run": 1 if (API_KEY and not sofa_rows and not espn_rows) else 0,
-            "max_squad_calls_per_run": MAX_XI_LOOKUPS_PER_RUN
+            "cricscore_calls_this_run": 1 if (API_KEY and not relay_rows) else 0,
+            "max_squad_calls_per_run": MAX_XI_LOOKUPS_PER_RUN,
+            "hits_today_reported": API_USAGE.get("hitsToday"),
+            "hits_limit_reported": API_USAGE.get("hitsLimit"),
+            "quota_exhausted": API_USAGE.get("quota_exhausted"),
+            "api_last_error": API_USAGE.get("last_error")
         },
         "rules": {
             "standard_t20_only": True,
@@ -1289,19 +1435,15 @@ def run_scanner():
             "min_spin_classification": MIN_SPIN_CLASSIFICATION
         },
         "discovery": {
-            "sofascore_rows": len(sofa_rows),
-            "sofascore_t20_rows": sofa_t20_count,
-            "sofascore_today_t20_rows": sofa_today_count,
-            "espn_rows": len(espn_rows),
-            "espn_t20_rows": espn_t20_count,
-            "espn_today_t20_rows": espn_today_count,
+            "text_relay_rows": len(relay_rows),
+            "text_relay_t20_rows": relay_t20_count,
+            "text_relay_today_t20_rows": relay_today_count,
             "cricscore_rows": len(score_rows),
             "cricscore_t20_rows": score_t20_count,
             "cricscore_today_t20_rows": score_today_count,
             "cricketdata_rows": len(api_rows),
             "cricketdata_t20_rows": api_t20_count,
             "cricketdata_today_t20_rows": api_today_count,
-            "cricbuzz_today_t20_rows": cb_today_count,
             "merged_candidates": len(candidates),
             "final_reports": len(output)
         },
@@ -1312,8 +1454,34 @@ def run_scanner():
             "data_clear": sum(1 for x in output if x["verdict"].startswith("🟢"))
         },
         "matches": output
-    }, indent=4, ensure_ascii=False), encoding="utf-8")
-    print(f"[INFO] Saved {len(output)} T20 fixtures for India date {today.isoformat()}.")
+    }
+
+    intel_path = Path("intel.json")
+    if source_rows_total == 0 and intel_path.exists():
+        try:
+            previous = json.loads(intel_path.read_text(encoding="utf-8"))
+            previous_date = (previous.get("date_filter") or {}).get("today")
+            previous_matches = previous.get("matches") or []
+            if previous_date == today.isoformat() and previous_matches:
+                previous["last_checked"] = now_iso
+                previous["scanner_status"] = {
+                    "state": payload["scanner_status"]["state"],
+                    "stale": True,
+                    "message": payload["scanner_status"]["message"] + " Preserving earlier same-day report."
+                }
+                previous["api_budget"] = payload["api_budget"]
+                previous["discovery_last_attempt"] = payload["discovery"]
+                payload = previous
+                print("[WARN] Discovery failed; preserving earlier same-day non-empty intel.json.")
+        except Exception as exc:
+            print(f"[WARN] Could not preserve previous intel.json: {exc}")
+
+    intel_path.write_text(json.dumps(payload, indent=4, ensure_ascii=False), encoding="utf-8")
+    if output:
+        Path("intel_last_good.json").write_text(
+            json.dumps(payload, indent=4, ensure_ascii=False), encoding="utf-8"
+        )
+    print(f"[INFO] Saved {len(payload.get('matches') or [])} T20 fixtures for India date {today.isoformat()}.")
 
 
 if __name__ == "__main__":
