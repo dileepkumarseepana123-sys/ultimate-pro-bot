@@ -22,6 +22,8 @@ LOOKAHEAD_DAYS = int(os.getenv("SCANNER_LOOKAHEAD_DAYS", "7"))
 MIN_VENUE_MATCHES = int(os.getenv("MIN_VENUE_MATCHES", "5"))
 MIN_SPIN_CLASSIFICATION = float(os.getenv("MIN_SPIN_CLASSIFICATION", "0.90"))
 XI_LOOKAHEAD_MIN = int(os.getenv("XI_LOOKAHEAD_MIN", "180"))
+MAX_XI_LOOKUPS_PER_RUN = int(os.getenv("MAX_XI_LOOKUPS_PER_RUN", "2"))
+MAX_MATCH_PAGES_PER_RUN = int(os.getenv("MAX_MATCH_PAGES_PER_RUN", "1"))
 
 # PREMIUM LEAGUES & TEAMS
 PREMIUM_KEYWORDS = ["indian premier league", "ipl", "big bash league", "bbl", "caribbean premier league", "cpl", "pakistan super league", "psl", "sa20", "t20 blast", "vitality blast", "major league cricket", "mlc", "international t20 league", "ilt20", "bangladesh premier league", "bpl", "super smash"]
@@ -41,7 +43,8 @@ def parse_dt(value):
     if not value:
         return None
     try:
-        return datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+        dt = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+        return dt.replace(tzinfo=timezone.utc) if dt.tzinfo is None else dt
     except ValueError:
         for fmt in ("%Y-%m-%d", "%d %b %Y", "%b %d, %Y"):
             try:
@@ -91,7 +94,7 @@ def get_cricketdata_matches():
         return []
     rows_out = []
     offset = 0
-    for _ in range(10):
+    for _ in range(MAX_MATCH_PAGES_PER_RUN):
         data = api_get("matches", {"offset": offset})
         if not isinstance(data, dict) or data.get("status") != "success":
             break
@@ -174,6 +177,32 @@ def confirmed_xi_status(payload):
 def is_spin_style(style):
     s = norm(style)
     return bool(s) and any(k in s for k in ("spin", "orthodox", "off break", "leg break", "googly", "chinaman", "carrom"))
+
+
+def team_form(history, team, limit=10):
+    target = norm(team)
+    rows = []
+    dated = []
+    for m in history:
+        teams = m.get("info", {}).get("teams", [])
+        if not any(norm(t) == target for t in teams):
+            continue
+        meta = m.get("info", {})
+        date_value = (meta.get("dates") or [None])[0]
+        dt = parse_dt(date_value) or datetime.min.replace(tzinfo=timezone.utc)
+        winner = norm(meta.get("outcome", {}).get("winner", ""))
+        rows.append({
+            "date": date_value,
+            "winner": meta.get("outcome", {}).get("winner"),
+            "won": winner == target if winner else None,
+            "venue": meta.get("venue")
+        })
+        dated.append((dt, rows[-1]))
+    dated.sort(key=lambda x: x[0], reverse=True)
+    recent = [row for _, row in dated[:limit]]
+    wins = sum(1 for r in recent if r["won"] is True)
+    losses = sum(1 for r in recent if r["won"] is False)
+    return {"matches": len(recent), "wins": wins, "losses": losses, "recent": recent}
 
 
 def load_spin_bowler_db():
@@ -313,7 +342,7 @@ def ensure_cricsheet_history():
     DATA_DIR.mkdir(exist_ok=True)
     HISTORY_DIR.mkdir(parents=True, exist_ok=True)
     marker = HISTORY_DIR / ".ready"
-    if marker.exists(): return
+    if marker.exists(): return True
     print("[INFO] Initializing Cricsheet Database...")
     zip_path = DATA_DIR / "all_json.zip"
     r = SESSION.get(CRICSHEET_URL, stream=True, timeout=30)
@@ -323,6 +352,7 @@ def ensure_cricsheet_history():
     with zipfile.ZipFile(zip_path) as z: z.extractall(HISTORY_DIR)
     marker.write_text(datetime.now(timezone.utc).isoformat())
     zip_path.unlink()
+    return True
 
 def load_t20_history():
     history = []
@@ -474,6 +504,7 @@ def run_scanner():
     now = datetime.now(timezone.utc)
     cutoff = now + timedelta(days=LOOKAHEAD_DAYS)
     output, seen = [], set()
+    xi_lookups = 0
 
     for raw in matches:
         m = dict(raw)
@@ -497,8 +528,9 @@ def run_scanner():
 
         xi = {"status": "NOT CONFIRMED", "teams": {}, "source": "Not requested"}
         dynamic_styles = {}
-        if standard and premium and API_KEY and m.get("id") and dt and dt <= now + timedelta(minutes=XI_LOOKAHEAD_MIN):
+        if standard and premium and API_KEY and m.get("id") and dt and dt <= now + timedelta(minutes=XI_LOOKAHEAD_MIN) and xi_lookups < MAX_XI_LOOKUPS_PER_RUN:
             squad = get_match_squad(m.get("id"))
+            xi_lookups += 1
             _, dynamic_styles = extract_squad(squad)
             xi = confirmed_xi_status(squad)
         if xi.get("status") != "CONFIRMED" and m.get("cricbuzz_url"):
