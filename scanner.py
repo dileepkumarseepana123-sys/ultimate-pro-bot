@@ -654,86 +654,102 @@ def scrape_cricbuzz():
         "https://www.cricbuzz.com/cricket-schedule/upcoming-series/all",
     ]
 
+    def parse_lines(lines):
+        clean_lines = [clean_text(x) for x in lines if clean_text(x)]
+        # Prefer an exact standalone date heading. Cricbuzz repeats date headers,
+        # so use the last matching heading rather than an arbitrary occurrence.
+        date_heading_re = re.compile(
+            r"^(?:MON|TUE|WED|THU|FRI|SAT|SUN),?\\s+"
+            r"(?:JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[A-Z]*\\s+"
+            r"\\d{1,2},?\\s+20\\d{2}$", re.I
+        )
+        start_indices = []
+        for idx, line in enumerate(clean_lines):
+            if date_heading_re.match(line):
+                dt = _parse_schedule_date(line)
+                if dt == target_date:
+                    start_indices.append(idx)
+
+        if not start_indices:
+            # Fallback for layouts that include extra text around the date.
+            for idx, line in enumerate(clean_lines):
+                dt, _ = _extract_date_token(line)
+                if dt == target_date:
+                    start_indices.append(idx)
+
+        if not start_indices:
+            return []
+
+        start_idx = start_indices[-1]
+        current_series = "UNKNOWN SERIES"
+        current_date = target_date
+
+        for line in clean_lines[start_idx:]:
+            maybe_date, _ = _extract_date_token(line)
+            if maybe_date and maybe_date != target_date:
+                break
+            if maybe_date == target_date:
+                current_date = target_date
+                continue
+
+            low = line.lower()
+            if " vs " not in low:
+                if (
+                    len(line) < 160
+                    and (
+                        "t20" in low
+                        or "twenty20" in low
+                        or "asian games" in low
+                        or "premier league" in low
+                        or "super league" in low
+                        or "big bash" in low
+                        or "cpl" in low
+                    )
+                ):
+                    current_series = line
+                continue
+
+            parsed = _parse_cricbuzz_match_line(line, current_series)
+            if parsed:
+                matches_found.append(parsed)
+
+        return matches_found
+
+    # 1) Server-rendered HTML: more stable than browser body extraction on CI.
+    for url in urls:
+        try:
+            response = SESSION.get(url, timeout=30)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, "html.parser")
+            text_lines = soup.get_text("\n").splitlines()
+            parsed = parse_lines(text_lines)
+            if parsed:
+                return parsed
+        except Exception as exc:
+            print(f"[WARN] Cricbuzz HTML discovery failed for {url}: {exc}")
+
+    # 2) Browser-rendered fallback for JS-only changes.
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             page = browser.new_page(
-                user_agent="Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/128 Mobile Safari/537.36"
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128 Safari/537.36"
             )
-            loaded = False
             for url in urls:
                 try:
                     page.goto(url, wait_until="domcontentloaded", timeout=60000)
                     page.wait_for_timeout(2500)
                     body_text = page.locator("body").inner_text(timeout=20000)
-                    if body_text and ("cricket schedule" in body_text.lower() or "schedule" in body_text.lower()):
-                        loaded = True
-                        break
+                    parsed = parse_lines(body_text.splitlines())
+                    if parsed:
+                        browser.close()
+                        return parsed
                 except Exception as exc:
-                    print(f"[WARN] Cricbuzz page load failed for {url}: {exc}")
-            if not loaded:
-                browser.close()
-                return matches_found
-
-            lines = [clean_text(x) for x in body_text.splitlines() if clean_text(x)]
-
-            # Find the first explicit occurrence of today's calendar date, then
-            # scan only that date section. This avoids relying on a single exact
-            # heading format such as 'SUN, SEP 20 2026'.
-            target_tokens = (
-                target_date.strftime("%b %d %Y").upper(),
-                target_date.strftime("%b %d, %Y").upper(),
-                target_date.strftime("%B %d %Y").upper(),
-                target_date.strftime("%B %d, %Y").upper(),
-                target_date.isoformat(),
-            )
-
-            start_idx = None
-            for idx, line in enumerate(lines):
-                u = line.upper().replace(",", "")
-                if any(token.replace(",", "") in u for token in target_tokens):
-                    start_idx = idx
-                    break
-
-            if start_idx is None:
-                # As a final layout fallback, detect a standalone schedule-date heading.
-                for idx, line in enumerate(lines):
-                    dt, _ = _extract_date_token(line)
-                    if dt == target_date:
-                        start_idx = idx
-                        break
-
-            if start_idx is None:
-                print("[WARN] Cricbuzz today section not found.")
-                browser.close()
-                return matches_found
-
-            current_series = "UNKNOWN SERIES"
-            current_date = target_date
-
-            for line in lines[start_idx:]:
-                maybe_date, _ = _extract_date_token(line)
-                if maybe_date and maybe_date != target_date:
-                    if current_date == target_date:
-                        break
-                    continue
-                if maybe_date == target_date:
-                    current_date = target_date
-                    continue
-
-                # Series headings appear as standalone text before one or more matches.
-                if " vs " not in line.lower():
-                    if len(line) < 120 and ("t20" in line.lower() or "twenty20" in line.lower() or "premier league" in line.lower() or "asian games" in line.lower() or "super league" in line.lower()):
-                        current_series = line
-                    continue
-
-                parsed = _parse_cricbuzz_match_line(line, current_series)
-                if parsed:
-                    matches_found.append(parsed)
-
+                    print(f"[WARN] Cricbuzz browser discovery failed for {url}: {exc}")
             browser.close()
     except Exception as exc:
-        print(f"[WARN] Cricbuzz schedule discovery failed: {exc}")
+        print(f"[WARN] Cricbuzz browser discovery unavailable: {exc}")
+
     return matches_found
 
 
