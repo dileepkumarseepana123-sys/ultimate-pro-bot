@@ -136,8 +136,8 @@ def _parse_embedded_gmt_date(value):
     # CricketData status commonly contains:
     # "Match starts at Sep 20, 01:00 GMT"
     patterns = (
-        r"(?:match\\s+starts\\s+at\\s+)?([A-Z]{3,9})\\s+(\\d{1,2}),?\\s+(\\d{1,2}):(\\d{2})\\s*GMT",
-        r"(?:match\\s+starts\\s+at\\s+)?([A-Z]{3,9})\\s+(\\d{1,2}),?\\s+(20\\d{2})\\s+(\\d{1,2}):(\\d{2})\\s*GMT",
+        r"(?:match\s+starts\s+at\s+)?([A-Z]{3,9})\s+(\d{1,2}),?\s+(\d{1,2}):(\d{2})\s*GMT",
+        r"(?:match\s+starts\s+at\s+)?([A-Z]{3,9})\s+(\d{1,2}),?\s+(20\d{2})\s+(\d{1,2}):(\d{2})\s*GMT",
     )
     for pattern in patterns:
         m = re.search(pattern, text, re.I)
