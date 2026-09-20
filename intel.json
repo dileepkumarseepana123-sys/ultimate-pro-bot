@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-09-20T06:47:04.078036+00:00",
+    "last_updated": "2026-09-20T06:50:08.141138+00:00",
     "source": {
-        "primary": "ESPNcricinfo date schedule",
-        "secondary": "CricketData cricScore",
-        "fallback": "CricketData Match List / Cricbuzz"
+        "primary": "SofaScore date schedule",
+        "secondary": "ESPNcricinfo date schedule",
+        "fallback": "CricketData cricScore / Match List / Cricbuzz"
     },
     "date_filter": {
         "timezone": "Asia/Kolkata",
@@ -27,6 +27,9 @@
         "min_spin_classification": 0.9
     },
     "discovery": {
+        "sofascore_rows": 0,
+        "sofascore_t20_rows": 0,
+        "sofascore_today_t20_rows": 0,
         "espn_rows": 0,
         "espn_t20_rows": 0,
         "espn_today_t20_rows": 0,
