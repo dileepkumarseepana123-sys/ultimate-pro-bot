@@ -22,7 +22,8 @@ LOOKAHEAD_DAYS = int(os.getenv("SCANNER_LOOKAHEAD_DAYS", "7"))
 MIN_VENUE_MATCHES = int(os.getenv("MIN_VENUE_MATCHES", "5"))
 MIN_SPIN_CLASSIFICATION = float(os.getenv("MIN_SPIN_CLASSIFICATION", "0.90"))
 XI_LOOKAHEAD_MIN = int(os.getenv("XI_LOOKAHEAD_MIN", "180"))
-MAX_XI_LOOKUPS_PER_RUN = int(os.getenv("MAX_XI_LOOKUPS_PER_RUN", "2"))
+ALLOW_FANTASY_SQUAD = os.getenv("ALLOW_FANTASY_SQUAD", "0").strip().lower() in {"1", "true", "yes"}
+MAX_XI_LOOKUPS_PER_RUN = int(os.getenv("MAX_XI_LOOKUPS_PER_RUN", "0" if not ALLOW_FANTASY_SQUAD else "2"))
 MAX_MATCH_PAGES_PER_RUN = int(os.getenv("MAX_MATCH_PAGES_PER_RUN", "3"))
 TODAY_ONLY = os.getenv("TODAY_ONLY", "1").strip().lower() not in {"0", "false", "no"}
 
@@ -588,7 +589,7 @@ def run_scanner():
         xi = {"status": "NOT CONFIRMED", "teams": {}, "source": "Not queried"}
         dynamic_styles = {}
         if standard := True:
-            if premium and API_KEY and m.get("id") and dt and dt <= datetime.now(timezone.utc) + timedelta(minutes=XI_LOOKAHEAD_MIN) and xi_lookups < MAX_XI_LOOKUPS_PER_RUN:
+            if ALLOW_FANTASY_SQUAD and premium and API_KEY and m.get("id") and dt and dt <= datetime.now(timezone.utc) + timedelta(minutes=XI_LOOKAHEAD_MIN) and xi_lookups < MAX_XI_LOOKUPS_PER_RUN:
                 squad = get_match_squad(m.get("id"))
                 xi_lookups += 1
                 _, dynamic_styles = extract_squad(squad)
@@ -692,6 +693,7 @@ def run_scanner():
             "standard_t20_only": True,
             "show_all_t20_today": True,
             "premium_market_proxy_is_not_liquidity_proof": True,
+            "fantasy_squad_default_disabled_on_free_plan": True,
             "no_fake_data": True,
             "min_venue_matches": MIN_VENUE_MATCHES,
             "min_spin_classification": MIN_SPIN_CLASSIFICATION
