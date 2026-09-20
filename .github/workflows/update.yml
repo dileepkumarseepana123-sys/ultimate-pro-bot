@@ -32,3 +32,9 @@ jobs:
           git add intel.json
           git commit -m "Auto-updated deep match intel" || exit 0
           git push
+          
+    - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 playwright playwright-stealth
+          playwright install chromium --with-deps
