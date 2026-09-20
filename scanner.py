@@ -209,6 +209,112 @@ def premium_market(match):
     return False, "LOW/UNKNOWN MARKET TIER"
 
 
+
+def _espn_matches_from_payload(payload):
+    if isinstance(payload, list):
+        return payload
+    if not isinstance(payload, dict):
+        return []
+    containers = [
+        payload.get("matches"),
+        (payload.get("content") or {}).get("matches"),
+        ((payload.get("content") or {}).get("matchList") or {}).get("matches"),
+        (payload.get("matchList") or {}).get("matches"),
+        (payload.get("data") or {}).get("matches") if isinstance(payload.get("data"), dict) else None,
+    ]
+    for value in containers:
+        if isinstance(value, list):
+            return value
+    groups = (
+        (payload.get("content") or {}).get("matchesByDate")
+        or payload.get("matchesByDate")
+        or (payload.get("content") or {}).get("groups")
+        or payload.get("groups")
+    )
+    if isinstance(groups, list):
+        out = []
+        for group in groups:
+            if not isinstance(group, dict):
+                continue
+            items = group.get("matches") or group.get("items") or []
+            if isinstance(items, list):
+                out.extend(x for x in items if isinstance(x, dict))
+        return out
+    return []
+
+
+def _espn_team_name(entry):
+    if not isinstance(entry, dict):
+        return ""
+    team = entry.get("team") if isinstance(entry.get("team"), dict) else entry
+    return clean_text(
+        team.get("longName")
+        or team.get("name")
+        or team.get("displayName")
+        or team.get("shortName")
+    )
+
+
+def get_espn_schedule(target_date):
+    """Date-scoped ESPNcricinfo schedule JSON. No API key and no quota."""
+    date_value = target_date.strftime("%d-%m-%Y")
+    url = "https://hs-consumer-api.espncricinfo.com/v1/pages/matches/scheduled"
+    headers = {
+        "Accept": "application/json,text/plain,*/*",
+        "Origin": "https://www.espncricinfo.com",
+        "Referer": "https://www.espncricinfo.com/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128 Safari/537.36",
+    }
+    try:
+        resp = requests.get(
+            url,
+            params={"lang": "en", "filterType": "DATE", "filterValue": date_value},
+            headers=headers,
+            timeout=25,
+        )
+        resp.raise_for_status()
+        payload = resp.json()
+    except Exception as exc:
+        print(f"[WARN] ESPNcricinfo schedule JSON failed: {exc}")
+        return []
+
+    rows_out = []
+    for item in _espn_matches_from_payload(payload):
+        teams_raw = item.get("teams") or []
+        teams = [_espn_team_name(x) for x in teams_raw[:2]] if isinstance(teams_raw, list) else []
+        teams = [x for x in teams if x]
+        if len(teams) < 2:
+            continue
+
+        fmt = clean_text(item.get("format") or item.get("matchFormat") or item.get("matchType"))
+        series = item.get("series") if isinstance(item.get("series"), dict) else {}
+        ground = item.get("ground") if isinstance(item.get("ground"), dict) else {}
+        town = ground.get("town") if isinstance(ground.get("town"), dict) else {}
+        venue_parts = [clean_text(ground.get("name")), clean_text(town.get("name"))]
+        venue = ", ".join(x for x in venue_parts if x) or "UNKNOWN VENUE"
+
+        start = (
+            item.get("startTime")
+            or item.get("startDate")
+            or item.get("date")
+            or item.get("dateTimeGMT")
+        )
+        rows_out.append({
+            "id": item.get("id") or item.get("objectId") or item.get("matchId"),
+            "name": clean_text(item.get("title")) or f"{teams[0]} vs {teams[1]}",
+            "matchType": fmt,
+            "status": clean_text(item.get("statusText") or item.get("status") or item.get("state")),
+            "dateTimeGMT": start,
+            "date": target_date.isoformat(),
+            "teams": teams,
+            "venue": venue,
+            "series_name": clean_text(series.get("longName") or series.get("name")) or "UNKNOWN SERIES",
+            "source_name": "ESPNcricinfo scheduled",
+            "source_date": target_date.isoformat(),
+        })
+    return rows_out
+
+
 def api_get(endpoint, params=None):
     if not API_KEY:
         return None
@@ -832,11 +938,23 @@ def run_scanner():
         return
 
     history = load_t20_history()
+    today = local_today()
+    espn_rows = get_espn_schedule(today)
     score_rows = get_cricscore_matches() if API_KEY else []
-    api_rows = get_cricketdata_matches() if API_KEY else []
-    cb_rows = scrape_cricbuzz()
+    # The generic CricketData match list is now fallback-only. ESPN's date board
+    # and cricScore are both better discovery feeds and save API quota.
+    api_rows = get_cricketdata_matches() if API_KEY and not espn_rows else []
+    cb_rows = scrape_cricbuzz() if not espn_rows else []
 
     # Discovery diagnostics must be initialized before report generation.
+    espn_t20_count = sum(
+        1 for raw in espn_rows
+        if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"}
+    )
+    espn_today_count = sum(
+        1 for raw in espn_rows
+        if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"} and match_is_today(raw)[0]
+    )
     score_t20_count = sum(
         1 for raw in score_rows
         if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"}
@@ -861,8 +979,14 @@ def run_scanner():
 
     candidates = []
 
-    # cricScore is the date-aware discovery feed (+/-7 days). Match List is used
-    # as an enrichment/secondary source; Cricbuzz remains a last-resort fallback.
+    # ESPNcricinfo's date-scoped board is the first discovery source.
+    for raw in espn_rows:
+        m = dict(raw)
+        if infer_match_type(m) in {"T20", "T20I", "TWENTY20"}:
+            candidates.append(m)
+
+    # cricScore is the date-aware secondary feed (+/-7 days). Match List is
+    # fallback-only; Cricbuzz remains a last-resort fallback.
     api_by_id = {str(x.get("id")): x for x in api_rows if x.get("id")}
     for raw in score_rows:
         m = dict(raw)
@@ -893,7 +1017,6 @@ def run_scanner():
 
     output, seen = [], set()
     xi_lookups = 0
-    today = local_today()
 
     for raw in candidates:
         m = dict(raw)
@@ -915,9 +1038,9 @@ def run_scanner():
         team_a, team_b = clean_text(teams[0]), clean_text(teams[1])
         venue = clean_text(m.get("venue")) or "UNKNOWN VENUE"
         date_key = dt.astimezone(ZoneInfo("Asia/Kolkata")).date().isoformat() if dt else str(today)
-        key = f"{norm(team_a)}|{norm(team_b)}|{norm(venue)}|{date_key}"
-        reverse_key = f"{norm(team_b)}|{norm(team_a)}|{norm(venue)}|{date_key}"
-        if key in seen or reverse_key in seen:
+        pair = sorted([norm(team_a), norm(team_b)])
+        key = f"{pair[0]}|{pair[1]}|{date_key}"
+        if key in seen:
             continue
         seen.add(key)
 
@@ -1024,7 +1147,7 @@ def run_scanner():
     output.sort(key=lambda x: x.get("matchTimeIST", "9999"))
     Path("intel.json").write_text(json.dumps({
         "last_updated": datetime.now(timezone.utc).isoformat(),
-        "source": {"primary": "CricketData cricScore + Match List" if API_KEY else "Cricbuzz fallback", "secondary": "Cricbuzz T20 schedule"},
+        "source": {"primary": "ESPNcricinfo date schedule", "secondary": "CricketData cricScore", "fallback": "CricketData Match List / Cricbuzz"},
         "date_filter": {"timezone": "Asia/Kolkata", "today": today.isoformat(), "today_only": TODAY_ONLY, "method": "GMT timestamp when available; local date field or Cricbuzz today section otherwise"},
         "api_budget": {
             "daily_limit_user_reported": 100,
@@ -1042,6 +1165,9 @@ def run_scanner():
             "min_spin_classification": MIN_SPIN_CLASSIFICATION
         },
         "discovery": {
+            "espn_rows": len(espn_rows),
+            "espn_t20_rows": espn_t20_count,
+            "espn_today_t20_rows": espn_today_count,
             "cricscore_rows": len(score_rows),
             "cricscore_t20_rows": score_t20_count,
             "cricscore_today_t20_rows": score_today_count,
