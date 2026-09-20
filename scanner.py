@@ -157,16 +157,6 @@ def match_is_today(match):
 
     return False, None
 
-def match_is_today(match):
-    raw_dt = match.get("dateTimeGMT") or match.get("date_time_gmt")
-    if raw_dt:
-        dt = parse_dt(raw_dt)
-        if dt is not None:
-            return in_india_today(dt), dt
-    raw_date = match.get("date")
-    if date_field_is_india_today(raw_date):
-        return True, None
-    return False, None
 
 
 
@@ -574,9 +564,9 @@ def _parse_schedule_date(text):
 def _extract_date_token(text):
     txt = clean_text(text)
     patterns = (
-        r"\\b(?:MON|TUE|WED|THU|FRI|SAT|SUN),?\\s+[A-Z]{3,9}\\s+\\d{1,2},?\\s+20\\d{2}\\b",
-        r"\\b(?:JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[A-Z]*\\s+\\d{1,2},?\\s+20\\d{2}\\b",
-        r"\\b20\\d{2}-\\d{2}-\\d{2}\\b",
+        r"\b(?:MON|TUE|WED|THU|FRI|SAT|SUN),?\s+[A-Z]{3,9}\s+\\d{1,2},?\s+20\\d{2}\b",
+        r"\b(?:JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[A-Z]*\s+\\d{1,2},?\s+20\\d{2}\b",
+        r"\b20\\d{2}-\\d{2}-\\d{2}\b",
     )
     for pat in patterns:
         m = re.search(pat, txt, re.I)
@@ -608,16 +598,16 @@ def _parse_cricbuzz_match_line(line, series_name):
     # A detailed Cricbuzz line normally puts the match stage after the team
     # names. Split before that stage so commas inside a team name are preserved.
     stage_re = re.compile(
-        r",\\s*(?:\\d+(?:st|nd|rd|th)\\s+)?"
-        r"(?:t20i|t20|twenty20|final|semi\\s*final|qualifier|eliminator|"
-        r"1st\\s+semi\\s+final|2nd\\s+semi\\s+final|bronze\\s+medal\\s+match|"
-        r"\\d+st\\s+match|\\d+nd\\s+match|\\d+rd\\s+match|\\d+th\\s+match)",
+        r",\s*(?:\\d+(?:st|nd|rd|th)\s+)?"
+        r"(?:t20i|t20|twenty20|final|semi\s*final|qualifier|eliminator|"
+        r"1st\s+semi\s+final|2nd\s+semi\s+final|bronze\s+medal\s+match|"
+        r"\\d+st\s+match|\\d+nd\s+match|\\d+rd\s+match|\\d+th\s+match)",
         re.I,
     )
     stage_match = stage_re.search(line)
     match_part = line[:stage_match.start()] if stage_match else line
 
-    parts = re.split(r"\\s+vs\\s+|\\s+versus\\s+", match_part, maxsplit=1, flags=re.I)
+    parts = re.split(r"\s+vs\s+|\s+versus\s+", match_part, maxsplit=1, flags=re.I)
     if len(parts) != 2:
         return None
 
@@ -626,7 +616,7 @@ def _parse_cricbuzz_match_line(line, series_name):
     if not team_a or not team_b:
         return None
 
-    t20_line = bool(re.search(r"\\b(?:t20i|t20|twenty20)\\b", line, re.I))
+    t20_line = bool(re.search(r"\b(?:t20i|t20|twenty20)\b", line, re.I))
     t20_series = _is_t20_series_name(series_name)
     if not (t20_line or t20_series):
         return None
