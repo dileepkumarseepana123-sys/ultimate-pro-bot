@@ -23,7 +23,8 @@ MIN_VENUE_MATCHES = int(os.getenv("MIN_VENUE_MATCHES", "5"))
 MIN_SPIN_CLASSIFICATION = float(os.getenv("MIN_SPIN_CLASSIFICATION", "0.90"))
 XI_LOOKAHEAD_MIN = int(os.getenv("XI_LOOKAHEAD_MIN", "180"))
 MAX_XI_LOOKUPS_PER_RUN = int(os.getenv("MAX_XI_LOOKUPS_PER_RUN", "2"))
-MAX_MATCH_PAGES_PER_RUN = int(os.getenv("MAX_MATCH_PAGES_PER_RUN", "1"))
+MAX_MATCH_PAGES_PER_RUN = int(os.getenv("MAX_MATCH_PAGES_PER_RUN", "3"))
+TODAY_ONLY = os.getenv("TODAY_ONLY", "1").strip().lower() not in {"0", "false", "no"}
 
 # PREMIUM LEAGUES & TEAMS
 PREMIUM_KEYWORDS = ["indian premier league", "ipl", "big bash league", "bbl", "caribbean premier league", "cpl", "pakistan super league", "psl", "sa20", "t20 blast", "vitality blast", "major league cricket", "mlc", "international t20 league", "ilt20", "bangladesh premier league", "bpl", "super smash"]
@@ -55,11 +56,43 @@ def parse_dt(value):
 
 
 def is_standard_t20(match):
-    mt = norm(match.get("matchType", match.get("match_type", "")))
-    name = norm(match.get("name", ""))
-    if any(token in name for token in ("test", "odi", "one day", "t10", "hundred", "100 ball")):
-        return False
-    return mt in {"t20", "t20i", "twenty20"}
+    return infer_match_type(match) in {"T20", "T20I", "TWENTY20"}
+
+
+
+
+def parse_match_name(name):
+    text = clean_text(name)
+    parts = re.split(r"\s+vs\s+|\s+v\s+|\s+versus\s+", text, maxsplit=1, flags=re.I)
+    if len(parts) != 2:
+        return None, None
+    team_a = clean_text(re.split(r",|\s+-\s+", parts[0], maxsplit=1)[0])
+    team_b = clean_text(re.split(r",|\s+-\s+", parts[1], maxsplit=1)[0])
+    return team_a, team_b
+
+
+def infer_match_type(match, source_t20=False):
+    explicit = norm(match.get("matchType") or match.get("match_type") or match.get("type"))
+    if explicit in {"t20", "t20i", "twenty20"}:
+        return explicit.upper() if explicit else "T20"
+    if explicit in {"odi", "test", "t10"}:
+        return explicit.upper()
+    text_blob = norm(" ".join(str(match.get(k) or "") for k in ("name", "series_name", "series", "status")))
+    if any(x in text_blob for x in ("test", "tests", "one day", "odi", "t10", "hundred", "100 ball")):
+        return "NON_T20"
+    if source_t20 or "t20" in text_blob or "twenty20" in text_blob:
+        return "T20"
+    if any(k in text_blob for k in PREMIUM_KEYWORDS):
+        return "T20"
+    return "UNKNOWN"
+
+
+def local_today():
+    return datetime.now(timezone.utc).astimezone(ZoneInfo("Asia/Kolkata")).date()
+
+
+def in_india_today(dt):
+    return dt is not None and dt.astimezone(ZoneInfo("Asia/Kolkata")).date() == local_today()
 
 
 def premium_market(match):
@@ -496,57 +529,84 @@ def run_scanner():
         return
 
     history = load_t20_history()
-    matches = get_cricketdata_matches() if API_KEY else []
-    source = "CricketData API" if matches else "Cricbuzz fallback"
-    if not matches:
-        matches = scrape_cricbuzz()
+    api_rows = get_cricketdata_matches() if API_KEY else []
+    cb_rows = scrape_cricbuzz()
+    candidates = []
 
-    now = datetime.now(timezone.utc)
-    cutoff = now + timedelta(days=LOOKAHEAD_DAYS)
+    # CricketData provides a broad match list; Cricbuzz T20 schedule is a second,
+    # T20-specific discovery source. We merge both rather than using either as a gate.
+    for raw in api_rows:
+        m = dict(raw)
+        t = infer_match_type(m)
+        if t in {"T20", "T20I", "TWENTY20"}:
+            if not m.get("teams"):
+                a, b = parse_match_name(m.get("name"))
+                m["teams"] = [a, b] if a and b else []
+            candidates.append(m)
+
+    for raw in cb_rows:
+        m = dict(raw)
+        m["matchType"] = "T20"
+        candidates.append(m)
+
     output, seen = [], set()
     xi_lookups = 0
+    today = local_today()
 
-    for raw in matches:
+    for raw in candidates:
         m = dict(raw)
-        if not m.get("matchType") and source == "Cricbuzz fallback":
-            m["matchType"] = "t20"
-        teams = m.get("teams") or [m.get("teamA"), m.get("teamB")]
+        mt = infer_match_type(m, source_t20=(m.get("matchType") == "t20"))
+        if mt not in {"T20", "T20I", "TWENTY20"}:
+            continue
+
+        teams = m.get("teams") or []
+        if len(teams) < 2 or not teams[0] or not teams[1]:
+            a, b = parse_match_name(m.get("name"))
+            teams = [a, b] if a and b else []
         if len(teams) < 2:
             continue
-        dt = parse_dt(m.get("dateTimeGMT") or m.get("date_time_gmt"))
-        if dt and (dt < now - timedelta(hours=1) or dt > cutoff):
+
+        dt = parse_dt(m.get("dateTimeGMT") or m.get("date_time_gmt") or m.get("date"))
+        if TODAY_ONLY and not in_india_today(dt):
             continue
-        key = f"{norm(m.get('name'))}|{norm(m.get('venue'))}"
-        if key in seen:
+
+        team_a, team_b = clean_text(teams[0]), clean_text(teams[1])
+        venue = clean_text(m.get("venue")) or "UNKNOWN VENUE"
+        date_key = dt.astimezone(ZoneInfo("Asia/Kolkata")).date().isoformat() if dt else str(today)
+        key = f"{norm(team_a)}|{norm(team_b)}|{norm(venue)}|{date_key}"
+        reverse_key = f"{norm(team_b)}|{norm(team_a)}|{norm(venue)}|{date_key}"
+        if key in seen or reverse_key in seen:
             continue
         seen.add(key)
 
-        team_a, team_b = teams[0], teams[1]
-        standard = is_standard_t20(m)
-        premium, tier = premium_market({"name": m.get("name"), "series_name": m.get("series_name") or m.get("series"), "teams": teams})
-        venue = clean_text(m.get("venue")) or "UNKNOWN VENUE"
+        premium, tier = premium_market({
+            "name": m.get("name"),
+            "series_name": m.get("series_name") or m.get("series"),
+            "teams": [team_a, team_b]
+        })
 
-        xi = {"status": "NOT CONFIRMED", "teams": {}, "source": "Not requested"}
+        xi = {"status": "NOT CONFIRMED", "teams": {}, "source": "Not queried"}
         dynamic_styles = {}
-        if standard and premium and API_KEY and m.get("id") and dt and dt <= now + timedelta(minutes=XI_LOOKAHEAD_MIN) and xi_lookups < MAX_XI_LOOKUPS_PER_RUN:
-            squad = get_match_squad(m.get("id"))
-            xi_lookups += 1
-            _, dynamic_styles = extract_squad(squad)
-            xi = confirmed_xi_status(squad)
+        if standard := True:
+            if premium and API_KEY and m.get("id") and dt and dt <= datetime.now(timezone.utc) + timedelta(minutes=XI_LOOKAHEAD_MIN) and xi_lookups < MAX_XI_LOOKUPS_PER_RUN:
+                squad = get_match_squad(m.get("id"))
+                xi_lookups += 1
+                _, dynamic_styles = extract_squad(squad)
+                xi = confirmed_xi_status(squad)
         if xi.get("status") != "CONFIRMED" and m.get("cricbuzz_url"):
             page_xi = check_cricbuzz_xi(m.get("cricbuzz_url"))
             if page_xi.get("status") == "XI PUBLISHED":
                 xi = page_xi
 
-        venue_stats = analyze_venue(history, venue, dynamic_styles) if standard and venue != "UNKNOWN VENUE" else {"status": "NO DATA / UNKNOWN VENUE"}
-        weather = get_match_weather(venue, dt) if standard and venue != "UNKNOWN VENUE" else {"status": "UNKNOWN", "reason": "No usable venue/time"}
-        form_a, form_b = team_form(history, team_a), team_form(history, team_b)
+        venue_stats = analyze_venue(history, venue, dynamic_styles) if venue != "UNKNOWN VENUE" else {"status": "NO DATA / UNKNOWN VENUE"}
+        weather = get_match_weather(venue, dt) if venue != "UNKNOWN VENUE" else {"status": "UNKNOWN", "reason": "No usable venue"}
 
+        form_a, form_b = team_form(history, team_a), team_form(history, team_b)
         reasons, warnings = [], []
-        if not standard:
-            reasons.append("NOT STANDARD T20")
+
+        # Liquidity is not directly supplied by CricketData. Premium competition is only a proxy.
         if not premium:
-            reasons.append("LOW/UNKNOWN MARKET TIER")
+            reasons.append("LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER")
         if venue_stats.get("status") != "OK":
             reasons.append("NO DATA / UNKNOWN VENUE")
         if xi.get("status") != "CONFIRMED":
@@ -559,60 +619,94 @@ def run_scanner():
             warnings.append("MEDIUM DEW RISK")
         if weather.get("status") == "OK" and weather.get("rain_risk") == "HIGH":
             reasons.append("HIGH RAIN INTERRUPTION RISK")
-        if not form_a.get("matches") or not form_b.get("matches"):
-            reasons.append("INSUFFICIENT RECENT T20 DATA")
+        if form_a.get("matches", 0) < 5:
+            reasons.append(f"LIMITED RECENT T20 DATA FOR {team_a}")
+        if form_b.get("matches", 0) < 5:
+            reasons.append(f"LIMITED RECENT T20 DATA FOR {team_b}")
         if venue_stats.get("spin_index_status") != "OK":
             warnings.append("SPIN CHOKE INDEX NOT FULLY CLASSIFIED")
 
-        if not standard or not premium:
-            verdict = "🔴 REJECTED: FORMAT/MARKET"
-        elif reasons:
-            verdict = "🟡 WAIT / NO-BET" if "PLAYING XI NOT CONFIRMED" in reasons else "🔴 NO-BET"
+        if not reasons:
+            verdict = "🟢 DATA CLEAR FOR FURTHER PRICE CHECK"
+        elif "PLAYING XI NOT CONFIRMED" in reasons:
+            verdict = "🟡 WAIT — KEY DATA PENDING"
         else:
-            verdict = "🟢 READY FOR PRICE CHECK"
+            verdict = "🔴 HIGH-CAUTION / NO-BET"
 
+        weather_text = "NO DATA"
         if weather.get("status") == "OK":
-            weather_text = f"{weather.get('temperature_c')}°C | RH {weather.get('humidity_pct')}% | Rain {weather.get('rain_probability_pct')}% | Wind {weather.get('wind_kmh')} km/h"
-        else:
-            weather_text = "NO DATA"
+            weather_text = (
+                f"{weather.get('temperature_c')}°C | RH {weather.get('humidity_pct')}% | "
+                f"Rain {weather.get('rain_probability_pct')}% | Wind {weather.get('wind_kmh')} km/h"
+            )
+
         pp = venue_stats.get("powerplay_avg")
         spin_share = venue_stats.get("spin_wicket_share_pct")
+        local_time = dt.astimezone(ZoneInfo("Asia/Kolkata")).isoformat() if dt else "UNKNOWN"
 
         output.append({
-            "teamA": team_a, "teamB": team_b, "name": m.get("name"),
-            "matchType": m.get("matchType"), "venue": venue, "dateTimeGMT": m.get("dateTimeGMT"),
-            "series": m.get("series_name") or m.get("series"),
-            "marketTier": tier, "premiumMarketProxy": premium, "standardT20": standard,
-            "playingXI": xi, "formA": form_a, "formB": form_b, "weather": weather,
-            "weatherText": weather_text, "dewRisk": weather.get("dew_risk", "UNKNOWN"),
+            "teamA": team_a,
+            "teamB": team_b,
+            "name": m.get("name") or f"{team_a} vs {team_b}",
+            "matchType": mt,
+            "venue": venue,
+            "dateTimeGMT": m.get("dateTimeGMT"),
+            "matchTimeIST": local_time,
+            "series": m.get("series_name") or m.get("series") or "UNKNOWN SERIES",
+            "marketTier": tier,
+            "liquidityProxyOnly": True,
+            "premiumMarketProxy": premium,
+            "standardT20": True,
+            "playingXI": xi,
+            "formA": form_a,
+            "formB": form_b,
+            "weather": weather,
+            "weatherText": weather_text,
+            "dewRisk": weather.get("dew_risk", "UNKNOWN"),
             "tossBias": f"{venue_stats.get('chasing_win_pct')}% Chasing Wins" if venue_stats.get("chasing_win_pct") is not None else "UNKNOWN",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": f"{pp:.2f}" if isinstance(pp, (int, float)) else "UNKNOWN",
-            "ppRunRate": "Historical 1st-innings PP",
+            "ppRunRate": "Historical first-innings PP",
             "spinIndex": f"{spin_share:.2f}% Spinner Wicket Share (7-14)" if isinstance(spin_share, (int, float)) else "UNKNOWN",
             "spinNote": venue_stats.get("spin_index_status", "UNKNOWN"),
             "venueIntel": venue_stats,
             "midOversWickets": venue_stats.get("mid_overs_7_14_wickets"),
             "spinnerWickets7to14": venue_stats.get("spinner_7_14_wickets"),
             "spinClassificationPct": venue_stats.get("spin_classification_pct"),
-            "verdict": verdict, "noBetReasons": reasons, "warnings": warnings,
+            "verdict": verdict,
+            "noBetReasons": reasons,
+            "warnings": warnings,
             "badgeClass": "badge-green" if verdict.startswith("🟢") else "badge-red" if verdict.startswith("🔴") else "badge-yellow",
-            "strategyText": "; ".join(reasons) if reasons else "No critical pre-match data risk detected."
+            "strategyText": "; ".join(reasons) if reasons else "No critical pre-match data issues from available sources."
         })
 
+    output.sort(key=lambda x: x.get("matchTimeIST", "9999"))
     Path("intel.json").write_text(json.dumps({
         "last_updated": datetime.now(timezone.utc).isoformat(),
-        "source": source,
+        "source": {"primary": "CricketData API" if api_rows else "Cricbuzz fallback", "secondary": "Cricbuzz T20 schedule"},
+        "date_filter": {"timezone": "Asia/Kolkata", "today": today.isoformat(), "today_only": TODAY_ONLY},
+        "api_budget": {
+            "daily_limit_user_reported": 100,
+            "max_match_list_calls_per_run": MAX_MATCH_PAGES_PER_RUN,
+            "max_squad_calls_per_run": MAX_XI_LOOKUPS_PER_RUN
+        },
         "rules": {
             "standard_t20_only": True,
-            "premium_market_proxy": True,
+            "show_all_t20_today": True,
+            "premium_market_proxy_is_not_liquidity_proof": True,
             "no_fake_data": True,
             "min_venue_matches": MIN_VENUE_MATCHES,
             "min_spin_classification": MIN_SPIN_CLASSIFICATION
         },
+        "summary": {
+            "today_t20_count": len(output),
+            "no_bet_or_high_caution": sum(1 for x in output if x["verdict"].startswith("🔴")),
+            "wait": sum(1 for x in output if x["verdict"].startswith("🟡")),
+            "data_clear": sum(1 for x in output if x["verdict"].startswith("🟢"))
+        },
         "matches": output
     }, indent=4, ensure_ascii=False), encoding="utf-8")
-    print(f"[INFO] Saved {len(output)} T20 fixtures to intel.json")
+    print(f"[INFO] Saved {len(output)} T20 fixtures for India date {today.isoformat()}.")
 
 
 if __name__ == "__main__":
