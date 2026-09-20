@@ -122,7 +122,7 @@ def date_field_is_india_today(value):
             except ValueError:
                 continue
         # Handle strings that contain an ISO date plus additional metadata.
-        m = re.search(r"\\b(20\\d{2}-\\d{2}-\\d{2})\\b", item)
+        m = re.search(r"\b(20\d{2}-\d{2}-\d{2})\b", item)
         if m:
             try:
                 return datetime.strptime(m.group(1), "%Y-%m-%d").date() == local_today()
@@ -564,9 +564,9 @@ def _parse_schedule_date(text):
 def _extract_date_token(text):
     txt = clean_text(text)
     patterns = (
-        r"\b(?:MON|TUE|WED|THU|FRI|SAT|SUN),?\s+[A-Z]{3,9}\s+\\d{1,2},?\s+20\\d{2}\b",
-        r"\b(?:JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[A-Z]*\s+\\d{1,2},?\s+20\\d{2}\b",
-        r"\b20\\d{2}-\\d{2}-\\d{2}\b",
+        r"\b(?:MON|TUE|WED|THU|FRI|SAT|SUN),?\s+[A-Z]{3,9}\s+\d{1,2},?\s+20\d{2}\b",
+        r"\b(?:JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[A-Z]*\s+\d{1,2},?\s+20\d{2}\b",
+        r"\b20\d{2}-\d{2}-\d{2}\b",
     )
     for pat in patterns:
         m = re.search(pat, txt, re.I)
@@ -598,10 +598,10 @@ def _parse_cricbuzz_match_line(line, series_name):
     # A detailed Cricbuzz line normally puts the match stage after the team
     # names. Split before that stage so commas inside a team name are preserved.
     stage_re = re.compile(
-        r",\s*(?:\\d+(?:st|nd|rd|th)\s+)?"
+        r",\s*(?:\d+(?:st|nd|rd|th)\s+)?"
         r"(?:t20i|t20|twenty20|final|semi\s*final|qualifier|eliminator|"
         r"1st\s+semi\s+final|2nd\s+semi\s+final|bronze\s+medal\s+match|"
-        r"\\d+st\s+match|\\d+nd\s+match|\\d+rd\s+match|\\d+th\s+match)",
+        r"\d+st\s+match|\d+nd\s+match|\d+rd\s+match|\d+th\s+match)",
         re.I,
     )
     stage_match = stage_re.search(line)
