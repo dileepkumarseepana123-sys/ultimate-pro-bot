@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-21T12:43:18.076205+00:00",
+    "last_updated": "2026-09-21T18:45:43.338458+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -12,7 +12,7 @@
     },
     "date_filter": {
         "timezone": "Asia/Kolkata",
-        "today": "2026-09-21",
+        "today": "2026-09-22",
         "today_only": true,
         "method": "GMT timestamp when available; India date otherwise"
     },
@@ -37,34 +37,625 @@
     },
     "discovery": {
         "live_text_relay_rows": 0,
-        "schedule_text_relay_rows": 1,
-        "text_relay_rows": 1,
-        "text_relay_t20_rows": 1,
-        "text_relay_today_t20_rows": 1,
+        "schedule_text_relay_rows": 7,
+        "text_relay_rows": 7,
+        "text_relay_t20_rows": 7,
+        "text_relay_today_t20_rows": 7,
         "cricscore_rows": 0,
         "cricscore_t20_rows": 0,
         "cricscore_today_t20_rows": 0,
         "cricketdata_rows": 0,
         "cricketdata_t20_rows": 0,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 1,
-        "final_reports": 1
+        "merged_candidates": 7,
+        "final_reports": 7
     },
     "summary": {
-        "today_t20_count": 1,
-        "no_bet_or_high_caution": 1,
+        "today_t20_count": 7,
+        "no_bet_or_high_caution": 7,
         "wait": 0,
         "data_clear": 0
     },
     "matches": [
         {
-            "teamA": "Nigeria",
-            "teamB": "Ghana",
-            "name": "Nigeria vs Ghana,1st Match Tafawa Balewa Square Cricket Oval , Lagos",
+            "teamA": "Bahamas",
+            "teamB": "Cayman Islands",
+            "name": "Bahamas vs Cayman Islands,2nd Match Jimmy Powell Oval , George Town",
+            "matchType": "T20",
+            "venue": "Jimmy Powell Oval , George Town",
+            "dateTimeGMT": null,
+            "sourceDate": "2026-09-22",
+            "matchTimeIST": "UNKNOWN",
+            "series": "CSA T20 Challenge 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "sourceStatus": "Scheduled",
+            "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": false,
+            "tradeProfile": {
+                "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 20,
+                "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
+                "swingCatalysts": [],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "formA": {
+                "matches": 10,
+                "wins": 2,
+                "losses": 7,
+                "recent": [
+                    {
+                        "date": "2026-06-27",
+                        "winner": "Bahamas",
+                        "won": true,
+                        "venue": "White Hill Field, Sandys Parish"
+                    },
+                    {
+                        "date": "2026-06-25",
+                        "winner": "Bahamas",
+                        "won": true,
+                        "venue": "White Hill Field, Sandys Parish"
+                    },
+                    {
+                        "date": "2026-06-24",
+                        "winner": "Panama",
+                        "won": false,
+                        "venue": "White Hill Field, Sandys Parish"
+                    },
+                    {
+                        "date": "2026-06-21",
+                        "winner": null,
+                        "won": null,
+                        "venue": "White Hill Field, Sandys Parish"
+                    },
+                    {
+                        "date": "2025-06-22",
+                        "winner": "Cayman Islands",
+                        "won": false,
+                        "venue": "Maple Leaf North-West Ground, King City"
+                    },
+                    {
+                        "date": "2025-06-21",
+                        "winner": "Canada",
+                        "won": false,
+                        "venue": "Maple Leaf North-West Ground, King City"
+                    },
+                    {
+                        "date": "2025-06-19",
+                        "winner": "Bermuda",
+                        "won": false,
+                        "venue": "Maple Leaf North-West Ground, King City"
+                    },
+                    {
+                        "date": "2025-06-18",
+                        "winner": "Canada",
+                        "won": false,
+                        "venue": "Maple Leaf North-West Ground, King City"
+                    },
+                    {
+                        "date": "2025-06-16",
+                        "winner": "Bermuda",
+                        "won": false,
+                        "venue": "Maple Leaf North-West Ground, King City"
+                    },
+                    {
+                        "date": "2025-06-15",
+                        "winner": "Cayman Islands",
+                        "won": false,
+                        "venue": "Maple Leaf North-West Ground, King City"
+                    }
+                ]
+            },
+            "formB": {
+                "matches": 10,
+                "wins": 8,
+                "losses": 2,
+                "recent": [
+                    {
+                        "date": "2026-03-15",
+                        "winner": "Cayman Islands",
+                        "won": true,
+                        "venue": "Jimmy Powell Oval, Cayman Islands"
+                    },
+                    {
+                        "date": "2026-03-14",
+                        "winner": "Cayman Islands",
+                        "won": true,
+                        "venue": "Jimmy Powell Oval, Cayman Islands"
+                    },
+                    {
+                        "date": "2026-03-12",
+                        "winner": "Cayman Islands",
+                        "won": true,
+                        "venue": "Jimmy Powell Oval, Cayman Islands"
+                    },
+                    {
+                        "date": "2026-03-11",
+                        "winner": "Cayman Islands",
+                        "won": true,
+                        "venue": "Jimmy Powell Oval, Cayman Islands"
+                    },
+                    {
+                        "date": "2026-03-09",
+                        "winner": "Cayman Islands",
+                        "won": true,
+                        "venue": "Jimmy Powell Oval, Cayman Islands"
+                    },
+                    {
+                        "date": "2026-03-08",
+                        "winner": "Cayman Islands",
+                        "won": true,
+                        "venue": "Jimmy Powell Oval, Cayman Islands"
+                    },
+                    {
+                        "date": "2025-06-22",
+                        "winner": "Cayman Islands",
+                        "won": true,
+                        "venue": "Maple Leaf North-West Ground, King City"
+                    },
+                    {
+                        "date": "2025-06-21",
+                        "winner": "Cayman Islands",
+                        "won": true,
+                        "venue": "Maple Leaf North-West Ground, King City"
+                    },
+                    {
+                        "date": "2025-06-19",
+                        "winner": "Canada",
+                        "won": false,
+                        "venue": "Maple Leaf North-West Ground, King City"
+                    },
+                    {
+                        "date": "2025-06-18",
+                        "winner": "Bermuda",
+                        "won": false,
+                        "venue": "Maple Leaf North-West Ground, King City"
+                    }
+                ]
+            },
+            "weather": {
+                "status": "UNKNOWN",
+                "reason": "Match time unavailable"
+            },
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
+            "tossBias": "UNKNOWN",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "UNKNOWN",
+            "ppRunRate": "Historical first-innings PP",
+            "spinIndex": "UNKNOWN",
+            "spinNote": "UNKNOWN",
+            "venueIntel": {
+                "status": "NO DATA / UNKNOWN VENUE",
+                "matches": 0,
+                "venue_confidence": 0.656
+            },
+            "midOversWickets": null,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": null,
+            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "noBetReasons": [
+                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                "NO DATA / UNKNOWN VENUE",
+                "PLAYING XI NOT CONFIRMED",
+                "WEATHER DATA UNKNOWN"
+            ],
+            "warnings": [
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-red",
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN"
+        },
+        {
+            "teamA": "Pakistan Women",
+            "teamB": "Bangladesh Women",
+            "name": "Pakistan Women vs Bangladesh Women,Bronze Medal Match Korogi Sports Park , Nisshin",
+            "matchType": "T20",
+            "venue": "Korogi Sports Park , Nisshin",
+            "dateTimeGMT": null,
+            "sourceDate": "2026-09-22",
+            "matchTimeIST": "UNKNOWN",
+            "series": "Women's Asian Games 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "sourceStatus": "Scheduled",
+            "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": false,
+            "tradeProfile": {
+                "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 20,
+                "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
+                "swingCatalysts": [],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "formA": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "recent": []
+            },
+            "formB": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "recent": []
+            },
+            "weather": {
+                "status": "UNKNOWN",
+                "reason": "Match time unavailable"
+            },
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
+            "tossBias": "42.86% Chasing Wins",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "39.86",
+            "ppRunRate": "Historical first-innings PP",
+            "spinIndex": "UNKNOWN",
+            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
+            "venueIntel": {
+                "status": "OK",
+                "matches": 7,
+                "venue_confidence": 1.0,
+                "avg_first_innings": 129.29,
+                "powerplay_avg": 39.86,
+                "chasing_win_pct": 42.86,
+                "mid_overs_7_14_wickets": 32,
+                "spin_classification_pct": 0.0,
+                "spinner_7_14_wickets": null,
+                "spin_wicket_share_pct": null,
+                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+            },
+            "midOversWickets": 32,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": 0.0,
+            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "noBetReasons": [
+                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                "PLAYING XI NOT CONFIRMED",
+                "WEATHER DATA UNKNOWN",
+                "LIMITED RECENT T20 DATA FOR Pakistan Women",
+                "LIMITED RECENT T20 DATA FOR Bangladesh Women"
+            ],
+            "warnings": [
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-red",
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR Pakistan Women; LIMITED RECENT T20 DATA FOR Bangladesh Women"
+        },
+        {
+            "teamA": "India Women",
+            "teamB": "Sri Lanka Women",
+            "name": "India Women vs Sri Lanka Women,Final Korogi Sports Park , Nisshin",
+            "matchType": "T20",
+            "venue": "Korogi Sports Park , Nisshin",
+            "dateTimeGMT": null,
+            "sourceDate": "2026-09-22",
+            "matchTimeIST": "UNKNOWN",
+            "series": "Women's Asian Games 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "sourceStatus": "Scheduled",
+            "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": false,
+            "tradeProfile": {
+                "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 20,
+                "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
+                "swingCatalysts": [],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "formA": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "recent": []
+            },
+            "formB": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "recent": []
+            },
+            "weather": {
+                "status": "UNKNOWN",
+                "reason": "Match time unavailable"
+            },
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
+            "tossBias": "42.86% Chasing Wins",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "39.86",
+            "ppRunRate": "Historical first-innings PP",
+            "spinIndex": "UNKNOWN",
+            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
+            "venueIntel": {
+                "status": "OK",
+                "matches": 7,
+                "venue_confidence": 1.0,
+                "avg_first_innings": 129.29,
+                "powerplay_avg": 39.86,
+                "chasing_win_pct": 42.86,
+                "mid_overs_7_14_wickets": 32,
+                "spin_classification_pct": 0.0,
+                "spinner_7_14_wickets": null,
+                "spin_wicket_share_pct": null,
+                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+            },
+            "midOversWickets": 32,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": 0.0,
+            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "noBetReasons": [
+                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                "PLAYING XI NOT CONFIRMED",
+                "WEATHER DATA UNKNOWN",
+                "LIMITED RECENT T20 DATA FOR India Women",
+                "LIMITED RECENT T20 DATA FOR Sri Lanka Women"
+            ],
+            "warnings": [
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-red",
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR India Women; LIMITED RECENT T20 DATA FOR Sri Lanka Women"
+        },
+        {
+            "teamA": "Queensland",
+            "teamB": "New South Wales",
+            "name": "Queensland vs New South Wales,4th Match Allan Border Field , Brisbane",
+            "matchType": "T20",
+            "venue": "Allan Border Field , Brisbane",
+            "dateTimeGMT": null,
+            "sourceDate": "2026-09-22",
+            "matchTimeIST": "UNKNOWN",
+            "series": "Women's Asian Games 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "sourceStatus": "Scheduled",
+            "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": false,
+            "tradeProfile": {
+                "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 20,
+                "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
+                "swingCatalysts": [],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "formA": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "recent": []
+            },
+            "formB": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "recent": []
+            },
+            "weather": {
+                "status": "UNKNOWN",
+                "reason": "Match time unavailable"
+            },
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
+            "tossBias": "50.0% Chasing Wins",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "44.41",
+            "ppRunRate": "Historical first-innings PP",
+            "spinIndex": "UNKNOWN",
+            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
+            "venueIntel": {
+                "status": "OK",
+                "matches": 22,
+                "venue_confidence": 1.0,
+                "avg_first_innings": 148.95,
+                "powerplay_avg": 44.41,
+                "chasing_win_pct": 50.0,
+                "mid_overs_7_14_wickets": 108,
+                "spin_classification_pct": 0.0,
+                "spinner_7_14_wickets": null,
+                "spin_wicket_share_pct": null,
+                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+            },
+            "midOversWickets": 108,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": 0.0,
+            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "noBetReasons": [
+                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                "PLAYING XI NOT CONFIRMED",
+                "WEATHER DATA UNKNOWN",
+                "LIMITED RECENT T20 DATA FOR Queensland",
+                "LIMITED RECENT T20 DATA FOR New South Wales"
+            ],
+            "warnings": [
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-red",
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR Queensland; LIMITED RECENT T20 DATA FOR New South Wales"
+        },
+        {
+            "teamA": "Japan",
+            "teamB": "India,One-off T20I Sano International Cricket Ground , Sano, Kanto",
+            "name": "Japan vs India,One-off T20I Sano International Cricket Ground , Sano, Kanto",
+            "matchType": "T20",
+            "venue": "One-off T20I Sano International Cricket Ground , Sano, Kanto",
+            "dateTimeGMT": null,
+            "sourceDate": "2026-09-22",
+            "matchTimeIST": "UNKNOWN",
+            "series": "Women's Asian Games 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "sourceStatus": "Scheduled",
+            "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": false,
+            "tradeProfile": {
+                "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 0,
+                "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
+                "swingCatalysts": [],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "formA": {
+                "matches": 10,
+                "wins": 6,
+                "losses": 4,
+                "recent": [
+                    {
+                        "date": "2026-09-13",
+                        "winner": "Japan",
+                        "won": true,
+                        "venue": "Sano International Cricket Ground"
+                    },
+                    {
+                        "date": "2026-09-12",
+                        "winner": "Malaysia",
+                        "won": false,
+                        "venue": "Sano International Cricket Ground"
+                    },
+                    {
+                        "date": "2026-06-10",
+                        "winner": "Hong Kong",
+                        "won": false,
+                        "venue": "YSD-UKM Cricket Oval, Bangi"
+                    },
+                    {
+                        "date": "2026-06-09",
+                        "winner": "Thailand",
+                        "won": false,
+                        "venue": "Bayuemas Oval, Kuala Lumpur"
+                    },
+                    {
+                        "date": "2026-06-07",
+                        "winner": "Japan",
+                        "won": true,
+                        "venue": "Bayuemas Oval, Kuala Lumpur"
+                    },
+                    {
+                        "date": "2026-06-06",
+                        "winner": "Japan",
+                        "won": true,
+                        "venue": "Selangor Turf Club, Kuala Lumpur"
+                    },
+                    {
+                        "date": "2026-06-04",
+                        "winner": "Japan",
+                        "won": true,
+                        "venue": "Bayuemas Oval, Kuala Lumpur"
+                    },
+                    {
+                        "date": "2026-05-18",
+                        "winner": "Japan",
+                        "won": true,
+                        "venue": "Sano International Cricket Ground"
+                    },
+                    {
+                        "date": "2026-05-16",
+                        "winner": "Japan",
+                        "won": true,
+                        "venue": "Sano International Cricket Ground"
+                    },
+                    {
+                        "date": "2026-05-14",
+                        "winner": "Cook Islands",
+                        "won": false,
+                        "venue": "Sano International Cricket Ground"
+                    }
+                ]
+            },
+            "formB": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "recent": []
+            },
+            "weather": {
+                "status": "UNKNOWN",
+                "reason": "Match time unavailable"
+            },
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
+            "tossBias": "UNKNOWN",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "UNKNOWN",
+            "ppRunRate": "Historical first-innings PP",
+            "spinIndex": "UNKNOWN",
+            "spinNote": "UNKNOWN",
+            "venueIntel": {
+                "status": "NO DATA / UNKNOWN VENUE",
+                "matches": 0,
+                "venue_confidence": 0.739
+            },
+            "midOversWickets": null,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": null,
+            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "noBetReasons": [
+                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                "NO DATA / UNKNOWN VENUE",
+                "PLAYING XI NOT CONFIRMED",
+                "WEATHER DATA UNKNOWN",
+                "LIMITED RECENT T20 DATA FOR India,One-off T20I Sano International Cricket Ground , Sano, Kanto"
+            ],
+            "warnings": [
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-red",
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR India,One-off T20I Sano International Cricket Ground , Sano, Kanto"
+        },
+        {
+            "teamA": "Ghana",
+            "teamB": "Sierra Leone",
+            "name": "Ghana vs Sierra Leone,2nd Match Tafawa Balewa Square Cricket Oval , Lagos",
             "matchType": "T20",
             "venue": "Tafawa Balewa Square Cricket Oval , Lagos",
             "dateTimeGMT": null,
-            "sourceDate": "2026-09-21",
+            "sourceDate": "2026-09-22",
             "matchTimeIST": "UNKNOWN",
             "series": "Quadrangular T20I Series in Nigeria, 2026",
             "sourceName": "Cricbuzz via text relay",
@@ -91,73 +682,6 @@
                 "source": "Not queried"
             },
             "formA": {
-                "matches": 10,
-                "wins": 2,
-                "losses": 8,
-                "recent": [
-                    {
-                        "date": "2026-06-23",
-                        "winner": "Namibia",
-                        "won": false,
-                        "venue": "Namibia Cricket Ground, Windhoek"
-                    },
-                    {
-                        "date": "2026-06-21",
-                        "winner": "Hong Kong",
-                        "won": false,
-                        "venue": "Namibia Cricket Ground, Windhoek"
-                    },
-                    {
-                        "date": "2026-06-20",
-                        "winner": "Nigeria",
-                        "won": true,
-                        "venue": "Gahanga International Cricket Stadium, Rwanda"
-                    },
-                    {
-                        "date": "2026-06-20",
-                        "winner": "Namibia",
-                        "won": false,
-                        "venue": "Namibia Cricket Ground, Windhoek"
-                    },
-                    {
-                        "date": "2026-06-19",
-                        "winner": "Rwanda",
-                        "won": false,
-                        "venue": "Gahanga B Ground, Rwanda"
-                    },
-                    {
-                        "date": "2026-06-18",
-                        "winner": "Hong Kong",
-                        "won": false,
-                        "venue": "Namibia Cricket Ground, Windhoek"
-                    },
-                    {
-                        "date": "2026-06-15",
-                        "winner": "Brazil",
-                        "won": false,
-                        "venue": "Gahanga B Ground, Rwanda"
-                    },
-                    {
-                        "date": "2026-06-14",
-                        "winner": "Nigeria",
-                        "won": true,
-                        "venue": "Gahanga International Cricket Stadium, Rwanda"
-                    },
-                    {
-                        "date": "2026-06-12",
-                        "winner": "Rwanda",
-                        "won": false,
-                        "venue": "Gahanga International Cricket Stadium, Rwanda"
-                    },
-                    {
-                        "date": "2026-06-11",
-                        "winner": "Brazil",
-                        "won": false,
-                        "venue": "Gahanga International Cricket Stadium, Rwanda"
-                    }
-                ]
-            },
-            "formB": {
                 "matches": 10,
                 "wins": 6,
                 "losses": 4,
@@ -224,6 +748,73 @@
                     }
                 ]
             },
+            "formB": {
+                "matches": 10,
+                "wins": 2,
+                "losses": 8,
+                "recent": [
+                    {
+                        "date": "2026-09-16",
+                        "winner": "Rwanda",
+                        "won": false,
+                        "venue": "Gahanga International Cricket Stadium, Rwanda"
+                    },
+                    {
+                        "date": "2026-09-15",
+                        "winner": "Uganda",
+                        "won": false,
+                        "venue": "Gahanga International Cricket Stadium, Rwanda"
+                    },
+                    {
+                        "date": "2026-09-13",
+                        "winner": "Kenya",
+                        "won": false,
+                        "venue": "Gahanga B Ground, Rwanda"
+                    },
+                    {
+                        "date": "2026-09-12",
+                        "winner": "Botswana",
+                        "won": false,
+                        "venue": "Gahanga B Ground, Rwanda"
+                    },
+                    {
+                        "date": "2026-09-10",
+                        "winner": "Rwanda",
+                        "won": false,
+                        "venue": "Gahanga B Ground, Rwanda"
+                    },
+                    {
+                        "date": "2026-09-09",
+                        "winner": "Uganda",
+                        "won": false,
+                        "venue": "Gahanga B Ground, Rwanda"
+                    },
+                    {
+                        "date": "2026-09-08",
+                        "winner": "Kenya",
+                        "won": false,
+                        "venue": "Gahanga B Ground, Rwanda"
+                    },
+                    {
+                        "date": "2026-05-30",
+                        "winner": "Sierra Leone",
+                        "won": true,
+                        "venue": "Botswana Cricket Association Oval 1, Gaborone"
+                    },
+                    {
+                        "date": "2026-05-29",
+                        "winner": "Sierra Leone",
+                        "won": true,
+                        "venue": "Botswana Cricket Association Oval 2, Gaborone"
+                    },
+                    {
+                        "date": "2026-05-28",
+                        "winner": "Rwanda",
+                        "won": false,
+                        "venue": "Botswana Cricket Association Oval 2, Gaborone"
+                    }
+                ]
+            },
             "weather": {
                 "status": "UNKNOWN",
                 "reason": "Match time unavailable"
@@ -263,6 +854,91 @@
             ],
             "badgeClass": "badge-red",
             "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN"
+        },
+        {
+            "teamA": "Northern Cape",
+            "teamB": "Limpopo",
+            "name": "Northern Cape vs Limpopo,1st Match Diamond Oval , Kimberley",
+            "matchType": "T20",
+            "venue": "Diamond Oval , Kimberley",
+            "dateTimeGMT": null,
+            "sourceDate": "2026-09-22",
+            "matchTimeIST": "UNKNOWN",
+            "series": "CSA T20 Challenge 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "sourceStatus": "Scheduled",
+            "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": false,
+            "tradeProfile": {
+                "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 20,
+                "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
+                "swingCatalysts": [],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "formA": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "recent": []
+            },
+            "formB": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "recent": []
+            },
+            "weather": {
+                "status": "UNKNOWN",
+                "reason": "Match time unavailable"
+            },
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
+            "tossBias": "45.45% Chasing Wins",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "40.85",
+            "ppRunRate": "Historical first-innings PP",
+            "spinIndex": "UNKNOWN",
+            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
+            "venueIntel": {
+                "status": "OK",
+                "matches": 13,
+                "venue_confidence": 1.0,
+                "avg_first_innings": 150.62,
+                "powerplay_avg": 40.85,
+                "chasing_win_pct": 45.45,
+                "mid_overs_7_14_wickets": 38,
+                "spin_classification_pct": 0.0,
+                "spinner_7_14_wickets": null,
+                "spin_wicket_share_pct": null,
+                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+            },
+            "midOversWickets": 38,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": 0.0,
+            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "noBetReasons": [
+                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                "PLAYING XI NOT CONFIRMED",
+                "WEATHER DATA UNKNOWN",
+                "LIMITED RECENT T20 DATA FOR Northern Cape",
+                "LIMITED RECENT T20 DATA FOR Limpopo"
+            ],
+            "warnings": [
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-red",
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR Northern Cape; LIMITED RECENT T20 DATA FOR Limpopo"
         }
     ]
 }
