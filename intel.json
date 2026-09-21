@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-21T03:34:19.905261+00:00",
+    "last_updated": "2026-09-21T06:47:51.775023+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -36,232 +36,27 @@
         "min_spin_classification": 0.9
     },
     "discovery": {
-        "live_text_relay_rows": 1,
+        "live_text_relay_rows": 0,
         "schedule_text_relay_rows": 1,
-        "text_relay_rows": 2,
-        "text_relay_t20_rows": 2,
-        "text_relay_today_t20_rows": 2,
+        "text_relay_rows": 1,
+        "text_relay_t20_rows": 1,
+        "text_relay_today_t20_rows": 1,
         "cricscore_rows": 0,
         "cricscore_t20_rows": 0,
         "cricscore_today_t20_rows": 0,
         "cricketdata_rows": 0,
         "cricketdata_t20_rows": 0,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 2,
-        "final_reports": 2
+        "merged_candidates": 1,
+        "final_reports": 1
     },
     "summary": {
-        "today_t20_count": 2,
-        "no_bet_or_high_caution": 2,
+        "today_t20_count": 1,
+        "no_bet_or_high_caution": 1,
         "wait": 0,
         "data_clear": 0
     },
     "matches": [
-        {
-            "teamA": "Antigua and Barbuda Falcons",
-            "teamB": "Jamaica Kingsmen",
-            "name": "Antigua and Barbuda Falcons vs Jamaica Kingsmen, Final, Caribbean Premier League 2026",
-            "matchType": "T20",
-            "venue": "Bridgetown, Barbados, Kensington Oval",
-            "dateTimeGMT": null,
-            "sourceDate": "2026-09-21",
-            "matchTimeIST": "UNKNOWN",
-            "series": "Caribbean Premier League 2026",
-            "sourceName": "Cricbuzz live via text relay",
-            "sourceStatus": "LIVE / CURRENT",
-            "marketTier": "PREMIUM COMPETITION",
-            "marketVisibility": "PREMIUM / LIKELY LISTED",
-            "liquidityProxyOnly": true,
-            "premiumMarketProxy": true,
-            "tradeProfile": {
-                "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 60,
-                "swingProfile": "MODERATE-INFORMATION SWING PROFILE",
-                "swingCatalysts": [],
-                "equalProfitTargetRequiresEntryOdds": true,
-                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
-            },
-            "preMatchSnapshot": null,
-            "standardT20": true,
-            "playingXI": {
-                "status": "NOT CONFIRMED",
-                "teams": {},
-                "source": "Not queried"
-            },
-            "formA": {
-                "matches": 10,
-                "wins": 6,
-                "losses": 4,
-                "recent": [
-                    {
-                        "date": "2026-09-08",
-                        "winner": "Antigua and Barbuda Falcons",
-                        "won": true,
-                        "venue": "Providence Stadium, Guyana"
-                    },
-                    {
-                        "date": "2026-09-02",
-                        "winner": "Antigua and Barbuda Falcons",
-                        "won": true,
-                        "venue": "Queen's Park Oval, Port of Spain, Trinidad"
-                    },
-                    {
-                        "date": "2026-08-25",
-                        "winner": "Antigua and Barbuda Falcons",
-                        "won": true,
-                        "venue": "Sir Vivian Richards Stadium, North Sound, Antigua"
-                    },
-                    {
-                        "date": "2026-08-23",
-                        "winner": "Guyana Amazon Warriors",
-                        "won": false,
-                        "venue": "Sir Vivian Richards Stadium, North Sound, Antigua"
-                    },
-                    {
-                        "date": "2026-08-22",
-                        "winner": "Antigua and Barbuda Falcons",
-                        "won": true,
-                        "venue": "Sir Vivian Richards Stadium, North Sound, Antigua"
-                    },
-                    {
-                        "date": "2026-08-20",
-                        "winner": "Antigua and Barbuda Falcons",
-                        "won": true,
-                        "venue": "Sir Vivian Richards Stadium, North Sound, Antigua"
-                    },
-                    {
-                        "date": "2026-08-14",
-                        "winner": "St Lucia Kings",
-                        "won": false,
-                        "venue": "Daren Sammy National Cricket Stadium, Gros Islet, St Lucia"
-                    },
-                    {
-                        "date": "2026-08-09",
-                        "winner": "St Lucia Kings",
-                        "won": false,
-                        "venue": "Arnos Vale Ground, Kingstown, St Vincent"
-                    },
-                    {
-                        "date": "2026-08-07",
-                        "winner": "Antigua and Barbuda Falcons",
-                        "won": true,
-                        "venue": "Arnos Vale Ground, Kingstown, St Vincent"
-                    },
-                    {
-                        "date": "2025-09-16",
-                        "winner": "Trinbago Knight Riders",
-                        "won": false,
-                        "venue": "Providence Stadium, Guyana"
-                    }
-                ]
-            },
-            "formB": {
-                "matches": 10,
-                "wins": 5,
-                "losses": 5,
-                "recent": [
-                    {
-                        "date": "2026-09-16",
-                        "winner": "Jamaica Kingsmen",
-                        "won": true,
-                        "venue": "Kensington Oval, Bridgetown, Barbados"
-                    },
-                    {
-                        "date": "2026-09-12",
-                        "winner": "Barbados Tridents",
-                        "won": false,
-                        "venue": "Kensington Oval, Bridgetown, Barbados"
-                    },
-                    {
-                        "date": "2026-09-04",
-                        "winner": "Guyana Amazon Warriors",
-                        "won": false,
-                        "venue": "Providence Stadium, Guyana"
-                    },
-                    {
-                        "date": "2026-08-29",
-                        "winner": "Jamaica Kingsmen",
-                        "won": true,
-                        "venue": "Queen's Park Oval, Port of Spain, Trinidad"
-                    },
-                    {
-                        "date": "2026-08-27",
-                        "winner": "Jamaica Kingsmen",
-                        "won": true,
-                        "venue": "Warner Park, Basseterre, St Kitts"
-                    },
-                    {
-                        "date": "2026-08-21",
-                        "winner": "St Lucia Kings",
-                        "won": false,
-                        "venue": "Daren Sammy National Cricket Stadium, Gros Islet, St Lucia"
-                    },
-                    {
-                        "date": "2026-08-18",
-                        "winner": "Jamaica Kingsmen",
-                        "won": true,
-                        "venue": "Sabina Park, Kingston, Jamaica"
-                    },
-                    {
-                        "date": "2026-08-15",
-                        "winner": "Jamaica Kingsmen",
-                        "won": true,
-                        "venue": "Sabina Park, Kingston, Jamaica"
-                    },
-                    {
-                        "date": "2026-08-13",
-                        "winner": "Guyana Amazon Warriors",
-                        "won": false,
-                        "venue": "Sabina Park, Kingston, Jamaica"
-                    },
-                    {
-                        "date": "2026-08-11",
-                        "winner": "Barbados Tridents",
-                        "won": false,
-                        "venue": "Sabina Park, Kingston, Jamaica"
-                    }
-                ]
-            },
-            "weather": {
-                "status": "UNKNOWN",
-                "reason": "Match time unavailable"
-            },
-            "weatherText": "NO DATA",
-            "dewRisk": "UNKNOWN",
-            "tossBias": "58.0% Chasing Wins",
-            "tossTrend": "Historical venue trend",
-            "ppScoreAvg": "43.70",
-            "ppRunRate": "Historical first-innings PP",
-            "spinIndex": "UNKNOWN",
-            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
-            "venueIntel": {
-                "status": "OK",
-                "matches": 53,
-                "venue_confidence": 0.95,
-                "avg_first_innings": 148.75,
-                "powerplay_avg": 43.7,
-                "chasing_win_pct": 58.0,
-                "mid_overs_7_14_wickets": 243,
-                "spin_classification_pct": 2.6,
-                "spinner_7_14_wickets": null,
-                "spin_wicket_share_pct": null,
-                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
-            },
-            "midOversWickets": 243,
-            "spinnerWickets7to14": null,
-            "spinClassificationPct": 2.6,
-            "verdict": "🔴 LIVE — PRE-MATCH WINDOW CLOSED",
-            "noBetReasons": [
-                "MATCH ALREADY LIVE — PRE-MATCH WINDOW CLOSED",
-                "PLAYING XI NOT CONFIRMED",
-                "WEATHER DATA UNKNOWN"
-            ],
-            "warnings": [
-                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
-            ],
-            "badgeClass": "badge-red",
-            "strategyText": "MATCH ALREADY LIVE — PRE-MATCH WINDOW CLOSED; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN"
-        },
         {
             "teamA": "Nigeria",
             "teamB": "Ghana",
