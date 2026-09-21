@@ -188,7 +188,7 @@ def match_is_today(match):
             return in_india_today(embedded), embedded
 
     date_keys = (
-        "date", "matchDate", "match_date", "startDate", "start_date",
+        "date", "source_date", "matchDate", "match_date", "startDate", "start_date",
         "localDate", "local_date"
     )
     for key in date_keys:
@@ -1409,12 +1409,19 @@ def run_scanner():
     payload = {
         "last_updated": now_iso,
         "scanner_status": {
-            "state": "OK" if source_rows_total > 0 else (
-                "QUOTA_EXHAUSTED" if API_USAGE.get("quota_exhausted") else "SOURCE_UNAVAILABLE"
+            "state": (
+                "OK" if len(output) > 0
+                else "DISCOVERY_FILTERED" if source_rows_total > 0
+                else "QUOTA_EXHAUSTED" if API_USAGE.get("quota_exhausted")
+                else "SOURCE_UNAVAILABLE"
             ),
             "stale": False,
-            "message": "Fresh scan completed." if source_rows_total > 0 else (
-                "CricketData quota exhausted and no no-key source was available."
+            "message": (
+                "Fresh scan completed."
+                if len(output) > 0
+                else "Fixtures were discovered but none survived final report filters."
+                if source_rows_total > 0
+                else "CricketData quota exhausted and no no-key source was available."
                 if API_USAGE.get("quota_exhausted")
                 else "No discovery source returned data."
             ),
