@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-21T02:56:24.776565+00:00",
+    "last_updated": "2026-09-21T03:07:18.331330+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -36,6 +36,8 @@
         "min_spin_classification": 0.9
     },
     "discovery": {
+        "live_text_relay_rows": 0,
+        "schedule_text_relay_rows": 1,
         "text_relay_rows": 1,
         "text_relay_t20_rows": 1,
         "text_relay_today_t20_rows": 1,
@@ -50,8 +52,8 @@
     },
     "summary": {
         "today_t20_count": 1,
-        "no_bet_or_high_caution": 0,
-        "wait": 1,
+        "no_bet_or_high_caution": 1,
+        "wait": 0,
         "data_clear": 0
     },
     "matches": [
@@ -65,7 +67,10 @@
             "sourceDate": "2026-09-21",
             "matchTimeIST": "UNKNOWN",
             "series": "Quadrangular T20I Series in Nigeria, 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "sourceStatus": "Scheduled",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
             "premiumMarketProxy": false,
             "standardT20": true,
@@ -236,7 +241,7 @@
             "midOversWickets": 141,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.0,
-            "verdict": "🟡 WAIT — KEY DATA PENDING",
+            "verdict": "🔴 HIGH-CAUTION / NO-BET",
             "noBetReasons": [
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
                 "PLAYING XI NOT CONFIRMED",
@@ -245,7 +250,7 @@
             "warnings": [
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-yellow",
+            "badgeClass": "badge-red",
             "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN"
         }
     ]
