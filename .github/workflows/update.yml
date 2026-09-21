@@ -63,4 +63,5 @@ jobs:
           if [ -f pre_match_archive.json ]; then git add pre_match_archive.json; fi
           git diff --cached --quiet && exit 0
           git commit -m "Auto-update T20 deep match intel"
+          git pull --rebase origin main
           git push
