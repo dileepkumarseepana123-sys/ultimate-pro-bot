@@ -45,6 +45,18 @@ def norm(value):
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9]+", " ", clean_text(value).lower())).strip()
 
 
+def has_non_t20_format_marker(value):
+    text = norm(value)
+    return bool(
+        re.search(r"\btests?\b", text)
+        or re.search(r"\bodi\b", text)
+        or re.search(r"\bone day\b", text)
+        or re.search(r"\bt10\b", text)
+        or re.search(r"\bhundred\b", text)
+        or re.search(r"\b100 ball\b", text)
+    )
+
+
 def parse_dt(value):
     if not value:
         return None
@@ -83,7 +95,7 @@ def infer_match_type(match, source_t20=False):
     if explicit in {"odi", "test", "t10"}:
         return explicit.upper()
     text_blob = norm(" ".join(str(match.get(k) or "") for k in ("name", "series_name", "series", "status")))
-    if any(x in text_blob for x in ("test", "tests", "one day", "odi", "t10", "hundred", "100 ball")):
+    if has_non_t20_format_marker(text_blob):
         return "NON_T20"
     if source_t20 or "t20" in text_blob or "twenty20" in text_blob:
         return "T20"
@@ -227,7 +239,7 @@ def _sofascore_t20_type(event):
         clean_text(round_info.get("name")),
         clean_text(event.get("slug")),
     ]))
-    if any(x in text_blob for x in ("test", "odi", "one day", "list a", "t10", "hundred", "100 ball")):
+    if has_non_t20_format_marker(text_blob) or "list a" in text_blob:
         return "NON_T20"
     if "t20i" in text_blob:
         return "T20I"
@@ -1049,7 +1061,7 @@ def scrape_cricbuzz_live_via_text_relay():
                     continue
 
                 context = " ".join(lines[max(0, i-3):min(len(lines), i+4)])
-                if any(x in norm(context) for x in ("test", "odi", "one day", "t10", "hundred", "100 ball")):
+                if has_non_t20_format_marker(context):
                     continue
 
                 context = " ".join(lines[max(0, i-4):min(len(lines), i+5)])
