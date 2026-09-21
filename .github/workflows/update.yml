@@ -6,7 +6,7 @@ on:
     paths:
       - 'scanner.py'
   schedule:
-    - cron: '30 18,0,6 * * *'
+    - cron: '30 0,6,12,18 * * *'
   workflow_dispatch:
 
 permissions:
@@ -60,6 +60,7 @@ jobs:
           git config user.email "bot@ultimatepro.com"
           git add intel.json
           if [ -f intel_last_good.json ]; then git add intel_last_good.json; fi
+          if [ -f pre_match_archive.json ]; then git add pre_match_archive.json; fi
           git diff --cached --quiet && exit 0
           git commit -m "Auto-update T20 deep match intel"
           git push
