@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-20T18:40:09.677864+00:00",
+    "last_updated": "2026-09-21T00:44:09.563439+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -36,16 +36,16 @@
         "min_spin_classification": 0.9
     },
     "discovery": {
-        "text_relay_rows": 3,
-        "text_relay_t20_rows": 3,
-        "text_relay_today_t20_rows": 3,
+        "text_relay_rows": 1,
+        "text_relay_t20_rows": 1,
+        "text_relay_today_t20_rows": 1,
         "cricscore_rows": 0,
         "cricscore_t20_rows": 0,
         "cricscore_today_t20_rows": 0,
         "cricketdata_rows": 0,
         "cricketdata_t20_rows": 0,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 3,
+        "merged_candidates": 1,
         "final_reports": 0
     },
     "summary": {
