@@ -1136,6 +1136,7 @@ def scrape_cricbuzz():
 
 # ==========================================
 # CORE TERMINAL LOGIC
+# Relay source_date is accepted by final India-today filtering.
 # ==========================================
 def run_scanner():
     DATA_DIR.mkdir(exist_ok=True)
