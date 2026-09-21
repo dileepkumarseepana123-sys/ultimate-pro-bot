@@ -979,6 +979,14 @@ def scrape_cricbuzz_live_via_text_relay():
             r.raise_for_status()
             lines = [_strip_markdown_text(x) for x in r.text.splitlines()]
             lines = [x for x in lines if x]
+            hints = [
+                x for x in lines
+                if any(k in x.lower() for k in (
+                    "caribbean premier league", "antigua", "jamaica", "abf", "jkm", "cpl"
+                ))
+            ][:30]
+            if hints:
+                print("[DEBUG] LIVE_RELAY_HINTS=" + json.dumps(hints, ensure_ascii=False))
 
             current_series = "UNKNOWN SERIES"
             for i, line in enumerate(lines):
