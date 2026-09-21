@@ -955,6 +955,75 @@ def _strip_markdown_text(value):
     return clean_text(text)
 
 
+def scrape_cricbuzz_live_via_text_relay():
+    """Discover currently live/recent Cricbuzz matches through the text relay."""
+    target_date = local_today()
+    relay_urls = [
+        "https://r.jina.ai/http://www.cricbuzz.com/cricket-match/live-scores",
+        "https://r.jina.ai/https://www.cricbuzz.com/cricket-match/live-scores",
+    ]
+    rows = []
+    for relay_url in relay_urls:
+        try:
+            r = SESSION.get(
+                relay_url,
+                headers={
+                    "Accept": "text/plain",
+                    "User-Agent": "Mozilla/5.0",
+                    "x-engine": "browser",
+                    "x-no-cache": "true",
+                    "x-timeout": "20",
+                },
+                timeout=40,
+            )
+            r.raise_for_status()
+            lines = [_strip_markdown_text(x) for x in r.text.splitlines()]
+            lines = [x for x in lines if x]
+
+            current_series = "UNKNOWN SERIES"
+            for i, line in enumerate(lines):
+                low = line.lower()
+                if " vs " not in low:
+                    if (
+                        len(line) < 180
+                        and (
+                            "t20" in low
+                            or "twenty20" in low
+                            or "premier league" in low
+                            or "big bash" in low
+                            or "psl" in low
+                            or "sa20" in low
+                            or "cpl" in low
+                            or "blast" in low
+                        )
+                    ):
+                        current_series = line
+                    continue
+
+                context = " ".join(lines[max(0, i-3):min(len(lines), i+4)])
+                if any(x in norm(context) for x in ("test", "odi", "one day", "t10", "hundred", "100 ball")):
+                    continue
+
+                parsed = _parse_cricbuzz_match_line(line, current_series)
+                if not parsed:
+                    # Some live-score cards carry T20/series text in neighboring lines.
+                    parsed = _parse_cricbuzz_match_line(line + " T20", current_series)
+                if parsed:
+                    parsed["source_name"] = "Cricbuzz live via text relay"
+                    parsed["source_date"] = target_date.isoformat()
+                    parsed["status"] = "LIVE / CURRENT"
+                    if parsed.get("series_name") == "UNKNOWN SERIES":
+                        parsed["series_name"] = current_series
+                    rows.append(parsed)
+
+            if rows:
+                print(f"[INFO] Live text relay discovered {len(rows)} current cricket rows.")
+                return rows
+        except Exception as exc:
+            print(f"[WARN] Cricbuzz live text relay failed for {relay_url}: {exc}")
+    return rows
+
+
 def scrape_cricbuzz_via_text_relay():
     """Fetch Cricbuzz through a public text relay to avoid GitHub-runner 403s."""
     target_date = local_today()
@@ -1159,7 +1228,9 @@ def run_scanner():
 
     # Production discovery path:
     # 1) no-key Cricbuzz text relay; 2) CricketData cricScore; 3) small Match List fallback.
-    relay_rows = scrape_cricbuzz_via_text_relay()
+    live_relay_rows = scrape_cricbuzz_live_via_text_relay()
+    schedule_relay_rows = scrape_cricbuzz_via_text_relay()
+    relay_rows = live_relay_rows + schedule_relay_rows
     score_rows = get_cricscore_matches() if API_KEY and not relay_rows else []
 
     score_today_probe = [
@@ -1348,7 +1419,9 @@ def run_scanner():
         if venue_stats.get("spin_index_status") != "OK":
             warnings.append("SPIN CHOKE INDEX NOT FULLY CLASSIFIED")
 
-        if not reasons:
+        if "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER" in reasons:
+            verdict = "🔴 HIGH-CAUTION / NO-BET"
+        elif not reasons:
             verdict = "🟢 DATA CLEAR FOR FURTHER PRICE CHECK"
         elif "PLAYING XI NOT CONFIRMED" in reasons:
             verdict = "🟡 WAIT — KEY DATA PENDING"
@@ -1376,7 +1449,10 @@ def run_scanner():
             "sourceDate": m.get("source_date") or m.get("date"),
             "matchTimeIST": local_time,
             "series": m.get("series_name") or m.get("series") or "UNKNOWN SERIES",
+            "sourceName": m.get("source_name") or "UNKNOWN SOURCE",
+            "sourceStatus": m.get("status") or "UNKNOWN",
             "marketTier": tier,
+            "marketVisibility": "PREMIUM / LIKELY LISTED" if premium else "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": True,
             "premiumMarketProxy": premium,
             "standardT20": True,
@@ -1403,7 +1479,11 @@ def run_scanner():
             "strategyText": "; ".join(reasons) if reasons else "No critical pre-match data issues from available sources."
         })
 
-    output.sort(key=lambda x: x.get("matchTimeIST", "9999"))
+    output.sort(key=lambda x: (
+        0 if x.get("premiumMarketProxy") else 1,
+        0 if "LIVE" in str(x.get("sourceStatus", "")).upper() else 1,
+        x.get("matchTimeIST", "9999")
+    ))
     source_rows_total = len(relay_rows) + len(score_rows) + len(api_rows)
     now_iso = datetime.now(timezone.utc).isoformat()
 
@@ -1449,6 +1529,8 @@ def run_scanner():
             "min_spin_classification": MIN_SPIN_CLASSIFICATION
         },
         "discovery": {
+            "live_text_relay_rows": len(live_relay_rows),
+            "schedule_text_relay_rows": len(schedule_relay_rows),
             "text_relay_rows": len(relay_rows),
             "text_relay_t20_rows": relay_t20_count,
             "text_relay_today_t20_rows": relay_today_count,
