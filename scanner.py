@@ -35,6 +35,7 @@ MAJOR_TEAMS = ["england", "india", "australia", "sri lanka", "west indies", "sou
 JUNK_WORDS = ["test", "tests", "odi", "one day", "t10", "hundred", "100 ball", "women's club", "under-19", "u19", "county championship"]
 
 API_USAGE = {"hitsToday": None, "hitsLimit": None, "quota_exhausted": False, "last_error": None}
+PREMATCH_ARCHIVE_PATH = Path("pre_match_archive.json")
 
 
 def clean_text(value):
@@ -1269,6 +1270,76 @@ def scrape_cricbuzz():
     return matches_found
 
 
+
+def match_archive_key(team_a, team_b, match_date):
+    pair = sorted([norm(team_a), norm(team_b)])
+    return f"{pair[0]}|{pair[1]}|{match_date}"
+
+
+def load_prematch_archive():
+    try:
+        if PREMATCH_ARCHIVE_PATH.exists():
+            data = json.loads(PREMATCH_ARCHIVE_PATH.read_text(encoding="utf-8"))
+            return data if isinstance(data, dict) else {}
+    except Exception as exc:
+        print(f"[WARN] Could not read pre-match archive: {exc}")
+    return {}
+
+
+def save_prematch_archive(archive):
+    try:
+        PREMATCH_ARCHIVE_PATH.write_text(
+            json.dumps(archive, indent=4, ensure_ascii=False),
+            encoding="utf-8",
+        )
+    except Exception as exc:
+        print(f"[WARN] Could not save pre-match archive: {exc}")
+
+
+def build_trade_profile(premium, venue_stats, weather, form_a, form_b, xi):
+    known = 0
+    total = 5
+    if premium:
+        known += 1
+    if venue_stats.get("status") == "OK":
+        known += 1
+    if weather.get("status") == "OK":
+        known += 1
+    if form_a.get("matches", 0) >= 5 and form_b.get("matches", 0) >= 5:
+        known += 1
+    if xi.get("status") == "CONFIRMED":
+        known += 1
+
+    catalysts = []
+    chasing = venue_stats.get("chasing_win_pct")
+    if isinstance(chasing, (int, float)) and (chasing >= 60 or chasing <= 40):
+        catalysts.append(f"Strong historical chase/bat-first skew: {chasing:.1f}% chasing wins")
+    if weather.get("status") == "OK" and weather.get("dew_risk") in {"HIGH", "MEDIUM"}:
+        catalysts.append(f"{weather.get('dew_risk')} dew-risk regime")
+    spin_share = venue_stats.get("spin_wicket_share_pct")
+    if isinstance(spin_share, (int, float)) and spin_share >= 35:
+        catalysts.append(f"Meaningful 7-14 over spin wicket share: {spin_share:.1f}%")
+
+    completeness = round((known / total) * 100)
+    if not premium:
+        swing_profile = "LOW-CONFIDENCE / LOW-MARKET"
+    elif completeness >= 80 and len(catalysts) >= 2:
+        swing_profile = "HIGH-INFORMATION SWING PROFILE"
+    elif completeness >= 60:
+        swing_profile = "MODERATE-INFORMATION SWING PROFILE"
+    else:
+        swing_profile = "INSUFFICIENT PRE-MATCH DATA"
+
+    return {
+        "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
+        "dataCompletenessPct": completeness,
+        "swingProfile": swing_profile,
+        "swingCatalysts": catalysts,
+        "equalProfitTargetRequiresEntryOdds": True,
+        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability.",
+    }
+
+
 # ==========================================
 # CORE TERMINAL LOGIC
 # Relay source_date is accepted by final India-today filtering.
@@ -1282,6 +1353,7 @@ def run_scanner():
 
     history = load_t20_history()
     today = local_today()
+    prematch_archive = load_prematch_archive()
 
     if PAUSE_UNTIL_IST:
         try:
@@ -1511,6 +1583,7 @@ def run_scanner():
         pp = venue_stats.get("powerplay_avg")
         spin_share = venue_stats.get("spin_wicket_share_pct")
         local_time = dt.astimezone(ZoneInfo("Asia/Kolkata")).isoformat() if dt else "UNKNOWN"
+        trade_profile = build_trade_profile(premium, venue_stats, weather, form_a, form_b, xi)
 
         output.append({
             "teamA": team_a,
@@ -1528,6 +1601,8 @@ def run_scanner():
             "marketVisibility": "PREMIUM / LIKELY LISTED" if premium else "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": True,
             "premiumMarketProxy": premium,
+            "tradeProfile": trade_profile,
+            "preMatchSnapshot": None,
             "standardT20": True,
             "playingXI": xi,
             "formA": form_a,
@@ -1551,6 +1626,28 @@ def run_scanner():
             "badgeClass": "badge-green" if verdict.startswith("🟢") else "badge-red" if verdict.startswith("🔴") else "badge-yellow",
             "strategyText": "; ".join(reasons) if reasons else "No critical pre-match data issues from available sources."
         })
+
+    # Freeze scheduled pre-match analysis, then attach it to the same fixture
+    # after the match becomes live. This preserves the decision context.
+    for report in output:
+        key = match_archive_key(
+            report.get("teamA"),
+            report.get("teamB"),
+            (report.get("sourceDate") or today.isoformat())[:10],
+        )
+        is_live = "LIVE" in str(report.get("sourceStatus") or "").upper()
+        if not is_live:
+            snapshot = dict(report)
+            snapshot["preMatchSnapshot"] = None
+            prematch_archive[key] = {
+                "capturedAt": datetime.now(timezone.utc).isoformat(),
+                "matchDate": (report.get("sourceDate") or today.isoformat())[:10],
+                "report": snapshot,
+            }
+        elif key in prematch_archive:
+            report["preMatchSnapshot"] = prematch_archive[key]
+
+    save_prematch_archive(prematch_archive)
 
     output.sort(key=lambda x: (
         0 if x.get("premiumMarketProxy") else 1,
