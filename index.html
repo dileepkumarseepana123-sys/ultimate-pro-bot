@@ -102,6 +102,7 @@
 
             <div id="metricStrategyNote" style="margin-top:12px; background:#0f172a; padding:12px; border-radius:8px; font-size:0.85em; border-left:3px solid #6366f1;"></div>
             <div id="metricRiskReasons" style="margin-top:10px; background:#0f172a; padding:12px; border-radius:8px; font-size:0.82em;"></div>
+            <div id="metricTradeProfile" style="margin-top:10px; background:#0f172a; padding:12px; border-radius:8px; font-size:0.82em; border-left:3px solid #f59e0b;"></div>
         </div>
     </div>
 
@@ -165,6 +166,7 @@
             <label style="margin-top: 0; color: #c084fc;">5. Custom Profit Goal (₹):</label>
             <input type="number" id="customTargetProfit" placeholder="Defaults to 100% Risk ROI" min="1" step="1" oninput="updateUI()">
         </div>
+        <div id="equalProfitTargetBox" style="margin-top:15px; padding:14px; border-radius:8px; background:#0f172a; border:1px solid #475569; font-size:0.88em; display:none;"></div>
 
         <!-- Blueprint Target Exits -->
         <div id="cheatSheetSection" class="section-box info-box">
@@ -350,6 +352,15 @@
                  <strong>NO-BET / WAIT reasons:</strong>
                  <ul style="margin:6px 0 0 18px;">${reasons || '<li>None from current data</li>'}${warnings}</ul>`;
 
+            const profile = data.tradeProfile || {};
+            const catalysts = (profile.swingCatalysts || []).map(x => '<li>' + x + '</li>').join('');
+            const snap = data.preMatchSnapshot && data.preMatchSnapshot.report ? data.preMatchSnapshot.report : null;
+            document.getElementById('metricTradeProfile').innerHTML =
+                '<strong>Pre-match market profile:</strong> ' + (profile.swingProfile || 'UNKNOWN') + '<br>' +
+                '<strong>Data completeness:</strong> ' + (profile.dataCompletenessPct ?? 'UNKNOWN') + '%<br>' +
+                '<strong>Swing catalysts:</strong><ul style="margin:6px 0 0 18px;">' + (catalysts || '<li>None confirmed</li>') + '</ul>' +
+                (snap ? '<div style="margin-top:8px; color:#facc15;"><strong>Frozen pre-match snapshot available.</strong> Live status does not overwrite the pre-match view.</div>' : '');
+
             dashboard.style.display = 'block';
             updateUI();
         }
@@ -418,8 +429,64 @@
             return { selectedTeam, betType, layInputType, sidedTeam, oppTeam, effOdds, rawOdds, enteredValue, stake: rawStake, targetProfit };
         }
 
+        function renderEqualProfitTarget(state) {
+            const box = document.getElementById('equalProfitTargetBox');
+            const O = state.rawOdds;
+            const risk = state.stake;
+            if (isNaN(O) || O <= 1 || isNaN(risk) || risk <= 0) {
+                box.style.display = 'none';
+                return;
+            }
+
+            let html = '';
+            if (state.betType === 'BACK') {
+                const targetLay = O / 2;
+                const maxProfit = risk * ((O / 1.01) - 1);
+                const feasible = targetLay >= 1.01;
+                html += '<strong>100% Equal-Profit Target</strong><br>';
+                html += 'Risk basis: ₹' + Math.round(risk) + ' BACK stake.<br>';
+                if (feasible) {
+                    html += 'For equal profit of about <strong>₹' + Math.round(risk) + ' on both outcomes</strong>, ' +
+                            'the same-team LAY price would need to reach approximately <strong>' + targetLay.toFixed(2) + '</strong>.';
+                } else {
+                    html += '<strong>Not mathematically reachable at standard exchange odds.</strong> ' +
+                            'Even at 1.01, theoretical equalized profit is only about ₹' + Math.max(0, Math.round(maxProfit)) +
+                            ' (' + Math.max(0, (maxProfit / risk * 100)).toFixed(1) + '% of initial risk).';
+                }
+            } else {
+                const L = O;
+                html += '<strong>100% Equal-Profit Target</strong><br>';
+                html += 'Risk basis: ₹' + Math.round(risk) + ' LAY liability.<br>';
+                if (L < 2) {
+                    const targetBack = L / (2 - L);
+                    html += 'For equal profit of about <strong>₹' + Math.round(risk) + ' on both outcomes</strong>, ' +
+                            'the same-team BACK price would need to drift to approximately <strong>' + targetBack.toFixed(2) + '</strong>.';
+                } else {
+                    const maxPct = (1 / (L - 1)) * 100;
+                    html += '<strong>Not mathematically reachable relative to the full liability.</strong> ' +
+                            'The theoretical maximum equalized profit is below 100% of liability (about ' + maxPct.toFixed(1) + '% before market/friction limits).';
+                }
+            }
+
+            const idx = document.getElementById('intelMatchSelect').value;
+            if (idx !== '' && DEEP_INTEL_DB[idx]) {
+                const p = DEEP_INTEL_DB[idx].tradeProfile || {};
+                html += '<br><br><strong>Match profile:</strong> ' + (p.swingProfile || 'UNKNOWN') +
+                        ' | Data completeness: ' + (p.dataCompletenessPct ?? 'UNKNOWN') + '%.';
+                if (!DEEP_INTEL_DB[idx].premiumMarketProxy) {
+                    html += '<br><strong>Market warning:</strong> liquidity/market availability is not verified.';
+                }
+            }
+
+            html += '<br><span style="color:#94a3b8;">This is a mathematical hedge threshold, not a guarantee that the market will reach it.</span>';
+            box.innerHTML = html;
+            box.style.display = 'block';
+        }
+
+
         function updateUI() {
             let state = getGameState();
+            renderEqualProfitTarget(state);
             document.querySelectorAll('.sided-team').forEach(el => el.innerText = state.sidedTeam);
             document.querySelectorAll('.opp-team').forEach(el => el.innerText = state.oppTeam);
             let stakeLabel = document.getElementById('stakeLabel');
