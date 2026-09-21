@@ -969,6 +969,9 @@ def _strip_markdown_text(value):
 
 def _parse_cricbuzz_live_title(line, current_series, context=""):
     text = clean_text(line)
+    live_marker = re.search(r"\bLIVE:\s*", text, re.I)
+    if live_marker:
+        text = text[live_marker.end():].strip()
     m = re.search(
         r"(?:LIVE:\s*)?(.+?)\s+vs\s+(.+?)\s*\|\s*"
         r"(Final|Semi[- ]?Final|Qualifier|Eliminator|[^|]+?)\s*\|\s*(.+)$",
@@ -1064,13 +1067,13 @@ def scrape_cricbuzz_live_via_text_relay():
                 if has_non_t20_format_marker(context):
                     continue
 
+                # The live page also contains highlight/video titles with "vs".
+                # Only the actual current-match card carries a LIVE: marker.
+                if "live:" not in low:
+                    continue
+
                 context = " ".join(lines[max(0, i-4):min(len(lines), i+5)])
                 parsed = _parse_cricbuzz_live_title(line, current_series, context)
-                if not parsed:
-                    parsed = _parse_cricbuzz_match_line(line, current_series)
-                if not parsed:
-                    # Some live-score cards carry T20/series text in neighboring lines.
-                    parsed = _parse_cricbuzz_match_line(line + " T20", current_series)
                 if parsed:
                     parsed["source_name"] = "Cricbuzz live via text relay"
                     parsed["source_date"] = target_date.isoformat()
@@ -1460,6 +1463,11 @@ def run_scanner():
         form_a, form_b = team_form(history, team_a), team_form(history, team_b)
         reasons, warnings = [], []
 
+        # This scanner is pre-match only. Keep live matches visible, but do not
+        # treat them as fresh pre-match candidates.
+        if "LIVE" in str(m.get("status") or "").upper():
+            reasons.append("MATCH ALREADY LIVE — PRE-MATCH WINDOW CLOSED")
+
         # Liquidity is not directly supplied by CricketData. Premium competition is only a proxy.
         if not premium:
             reasons.append("LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER")
@@ -1482,7 +1490,9 @@ def run_scanner():
         if venue_stats.get("spin_index_status") != "OK":
             warnings.append("SPIN CHOKE INDEX NOT FULLY CLASSIFIED")
 
-        if "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER" in reasons:
+        if "MATCH ALREADY LIVE — PRE-MATCH WINDOW CLOSED" in reasons:
+            verdict = "🔴 LIVE — PRE-MATCH WINDOW CLOSED"
+        elif "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER" in reasons:
             verdict = "🔴 HIGH-CAUTION / NO-BET"
         elif not reasons:
             verdict = "🟢 DATA CLEAR FOR FURTHER PRICE CHECK"
