@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-21T03:12:24.772513+00:00",
+    "last_updated": "2026-09-21T03:14:52.320559+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -36,27 +36,303 @@
         "min_spin_classification": 0.9
     },
     "discovery": {
-        "live_text_relay_rows": 0,
+        "live_text_relay_rows": 3,
         "schedule_text_relay_rows": 1,
-        "text_relay_rows": 1,
-        "text_relay_t20_rows": 1,
-        "text_relay_today_t20_rows": 1,
+        "text_relay_rows": 4,
+        "text_relay_t20_rows": 4,
+        "text_relay_today_t20_rows": 4,
         "cricscore_rows": 0,
         "cricscore_t20_rows": 0,
         "cricscore_today_t20_rows": 0,
         "cricketdata_rows": 0,
         "cricketdata_t20_rows": 0,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 1,
-        "final_reports": 1
+        "merged_candidates": 4,
+        "final_reports": 4
     },
     "summary": {
-        "today_t20_count": 1,
+        "today_t20_count": 4,
         "no_bet_or_high_caution": 1,
-        "wait": 0,
+        "wait": 3,
         "data_clear": 0
     },
     "matches": [
+        {
+            "teamA": "Image 5: live-antigua-and-barbuda-falcons-vs-jamaica-kingsmen-final-cpl-2026 LIVE #### LIVE: Antigua and Barbuda Falcons",
+            "teamB": "Jamaica Kingsmen",
+            "name": "Image 5: live-antigua-and-barbuda-falcons-vs-jamaica-kingsmen-final-cpl-2026 LIVE #### LIVE: Antigua and Barbuda Falcons vs Jamaica Kingsmen, Final, Caribbean Premier League 2026",
+            "matchType": "T20",
+            "venue": "Bridgetown, Barbados, Kensington Oval",
+            "dateTimeGMT": null,
+            "sourceDate": "2026-09-21",
+            "matchTimeIST": "UNKNOWN",
+            "series": "Caribbean Premier League 2026",
+            "sourceName": "Cricbuzz live via text relay",
+            "sourceStatus": "LIVE / CURRENT",
+            "marketTier": "PREMIUM COMPETITION",
+            "marketVisibility": "PREMIUM / LIKELY LISTED",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": true,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "formA": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "recent": []
+            },
+            "formB": {
+                "matches": 10,
+                "wins": 5,
+                "losses": 5,
+                "recent": [
+                    {
+                        "date": "2026-09-16",
+                        "winner": "Jamaica Kingsmen",
+                        "won": true,
+                        "venue": "Kensington Oval, Bridgetown, Barbados"
+                    },
+                    {
+                        "date": "2026-09-12",
+                        "winner": "Barbados Tridents",
+                        "won": false,
+                        "venue": "Kensington Oval, Bridgetown, Barbados"
+                    },
+                    {
+                        "date": "2026-09-04",
+                        "winner": "Guyana Amazon Warriors",
+                        "won": false,
+                        "venue": "Providence Stadium, Guyana"
+                    },
+                    {
+                        "date": "2026-08-29",
+                        "winner": "Jamaica Kingsmen",
+                        "won": true,
+                        "venue": "Queen's Park Oval, Port of Spain, Trinidad"
+                    },
+                    {
+                        "date": "2026-08-27",
+                        "winner": "Jamaica Kingsmen",
+                        "won": true,
+                        "venue": "Warner Park, Basseterre, St Kitts"
+                    },
+                    {
+                        "date": "2026-08-21",
+                        "winner": "St Lucia Kings",
+                        "won": false,
+                        "venue": "Daren Sammy National Cricket Stadium, Gros Islet, St Lucia"
+                    },
+                    {
+                        "date": "2026-08-18",
+                        "winner": "Jamaica Kingsmen",
+                        "won": true,
+                        "venue": "Sabina Park, Kingston, Jamaica"
+                    },
+                    {
+                        "date": "2026-08-15",
+                        "winner": "Jamaica Kingsmen",
+                        "won": true,
+                        "venue": "Sabina Park, Kingston, Jamaica"
+                    },
+                    {
+                        "date": "2026-08-13",
+                        "winner": "Guyana Amazon Warriors",
+                        "won": false,
+                        "venue": "Sabina Park, Kingston, Jamaica"
+                    },
+                    {
+                        "date": "2026-08-11",
+                        "winner": "Barbados Tridents",
+                        "won": false,
+                        "venue": "Sabina Park, Kingston, Jamaica"
+                    }
+                ]
+            },
+            "weather": {
+                "status": "UNKNOWN",
+                "reason": "Match time unavailable"
+            },
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
+            "tossBias": "58.0% Chasing Wins",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "43.70",
+            "ppRunRate": "Historical first-innings PP",
+            "spinIndex": "UNKNOWN",
+            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
+            "venueIntel": {
+                "status": "OK",
+                "matches": 53,
+                "venue_confidence": 0.95,
+                "avg_first_innings": 148.75,
+                "powerplay_avg": 43.7,
+                "chasing_win_pct": 58.0,
+                "mid_overs_7_14_wickets": 243,
+                "spin_classification_pct": 2.6,
+                "spinner_7_14_wickets": null,
+                "spin_wicket_share_pct": null,
+                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+            },
+            "midOversWickets": 243,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": 2.6,
+            "verdict": "🟡 WAIT — KEY DATA PENDING",
+            "noBetReasons": [
+                "PLAYING XI NOT CONFIRMED",
+                "WEATHER DATA UNKNOWN",
+                "LIMITED RECENT T20 DATA FOR Image 5: live-antigua-and-barbuda-falcons-vs-jamaica-kingsmen-final-cpl-2026 LIVE #### LIVE: Antigua and Barbuda Falcons"
+            ],
+            "warnings": [
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-yellow",
+            "strategyText": "PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR Image 5: live-antigua-and-barbuda-falcons-vs-jamaica-kingsmen-final-cpl-2026 LIVE #### LIVE: Antigua and Barbuda Falcons"
+        },
+        {
+            "teamA": "Image 6: maaz-sadaqats-114-vs-abf-final-cpl-2026 6:18 #### Maaz Sadaqat’s 114",
+            "teamB": "ABF",
+            "name": "Image 6: maaz-sadaqats-114-vs-abf-final-cpl-2026 6:18 #### Maaz Sadaqat’s 114 vs ABF, Final, Caribbean Premier League 2026",
+            "matchType": "T20",
+            "venue": "Bridgetown, Barbados, Kensington Oval",
+            "dateTimeGMT": null,
+            "sourceDate": "2026-09-21",
+            "matchTimeIST": "UNKNOWN",
+            "series": "Caribbean Premier League 2026",
+            "sourceName": "Cricbuzz live via text relay",
+            "sourceStatus": "LIVE / CURRENT",
+            "marketTier": "PREMIUM COMPETITION",
+            "marketVisibility": "PREMIUM / LIKELY LISTED",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": true,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "formA": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "recent": []
+            },
+            "formB": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "recent": []
+            },
+            "weather": {
+                "status": "UNKNOWN",
+                "reason": "Match time unavailable"
+            },
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
+            "tossBias": "58.0% Chasing Wins",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "43.70",
+            "ppRunRate": "Historical first-innings PP",
+            "spinIndex": "UNKNOWN",
+            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
+            "venueIntel": {
+                "status": "OK",
+                "matches": 53,
+                "venue_confidence": 0.95,
+                "avg_first_innings": 148.75,
+                "powerplay_avg": 43.7,
+                "chasing_win_pct": 58.0,
+                "mid_overs_7_14_wickets": 243,
+                "spin_classification_pct": 2.6,
+                "spinner_7_14_wickets": null,
+                "spin_wicket_share_pct": null,
+                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+            },
+            "midOversWickets": 243,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": 2.6,
+            "verdict": "🟡 WAIT — KEY DATA PENDING",
+            "noBetReasons": [
+                "PLAYING XI NOT CONFIRMED",
+                "WEATHER DATA UNKNOWN",
+                "LIMITED RECENT T20 DATA FOR Image 6: maaz-sadaqats-114-vs-abf-final-cpl-2026 6:18 #### Maaz Sadaqat’s 114",
+                "LIMITED RECENT T20 DATA FOR ABF"
+            ],
+            "warnings": [
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-yellow",
+            "strategyText": "PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR Image 6: maaz-sadaqats-114-vs-abf-final-cpl-2026 6:18 #### Maaz Sadaqat’s 114; LIMITED RECENT T20 DATA FOR ABF"
+        },
+        {
+            "teamA": "Image 7: sufyan-moqims-4-fer-vs-jak-final-cpl-2026 1:48 Free #### Sufyan Moqim’s 4-fer",
+            "teamB": "JAK",
+            "name": "Image 7: sufyan-moqims-4-fer-vs-jak-final-cpl-2026 1:48 Free #### Sufyan Moqim’s 4-fer vs JAK, Final, Caribbean Premier League 2026",
+            "matchType": "T20",
+            "venue": "UNKNOWN VENUE",
+            "dateTimeGMT": null,
+            "sourceDate": "2026-09-21",
+            "matchTimeIST": "UNKNOWN",
+            "series": "Caribbean Premier League 2026",
+            "sourceName": "Cricbuzz live via text relay",
+            "sourceStatus": "LIVE / CURRENT",
+            "marketTier": "PREMIUM COMPETITION",
+            "marketVisibility": "PREMIUM / LIKELY LISTED",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": true,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "formA": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "recent": []
+            },
+            "formB": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "recent": []
+            },
+            "weather": {
+                "status": "UNKNOWN",
+                "reason": "No usable venue"
+            },
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
+            "tossBias": "UNKNOWN",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "UNKNOWN",
+            "ppRunRate": "Historical first-innings PP",
+            "spinIndex": "UNKNOWN",
+            "spinNote": "UNKNOWN",
+            "venueIntel": {
+                "status": "NO DATA / UNKNOWN VENUE"
+            },
+            "midOversWickets": null,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": null,
+            "verdict": "🟡 WAIT — KEY DATA PENDING",
+            "noBetReasons": [
+                "NO DATA / UNKNOWN VENUE",
+                "PLAYING XI NOT CONFIRMED",
+                "WEATHER DATA UNKNOWN",
+                "LIMITED RECENT T20 DATA FOR Image 7: sufyan-moqims-4-fer-vs-jak-final-cpl-2026 1:48 Free #### Sufyan Moqim’s 4-fer",
+                "LIMITED RECENT T20 DATA FOR JAK"
+            ],
+            "warnings": [
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-yellow",
+            "strategyText": "NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR Image 7: sufyan-moqims-4-fer-vs-jak-final-cpl-2026 1:48 Free #### Sufyan Moqim’s 4-fer; LIMITED RECENT T20 DATA FOR JAK"
+        },
         {
             "teamA": "Nigeria",
             "teamB": "Ghana",
