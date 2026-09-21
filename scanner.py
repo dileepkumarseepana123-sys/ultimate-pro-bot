@@ -1343,6 +1343,7 @@ def build_trade_profile(premium, venue_stats, weather, form_a, form_b, xi):
 # ==========================================
 # CORE TERMINAL LOGIC
 # Relay source_date is accepted by final India-today filtering.
+# Pre-match archive: preserve scheduled analysis for later live review.
 # ==========================================
 def run_scanner():
     DATA_DIR.mkdir(exist_ok=True)
