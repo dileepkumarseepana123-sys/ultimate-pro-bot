@@ -955,6 +955,55 @@ def _strip_markdown_text(value):
     return clean_text(text)
 
 
+def _parse_cricbuzz_live_title(line, current_series, context=""):
+    text = clean_text(line)
+    m = re.search(
+        r"(?:LIVE:\s*)?(.+?)\s+vs\s+(.+?)\s*\|\s*"
+        r"(Final|Semi[- ]?Final|Qualifier|Eliminator|[^|]+?)\s*\|\s*(.+)$",
+        text,
+        re.I,
+    )
+    if not m:
+        return None
+
+    team_a = clean_text(m.group(1))
+    team_b = clean_text(m.group(2))
+    stage = clean_text(m.group(3))
+    tail_series = clean_text(m.group(4))
+    series_name = (
+        clean_text(current_series)
+        if current_series and current_series != "UNKNOWN SERIES"
+        else tail_series
+    )
+    if not _is_t20_series_name(series_name) and not _is_t20_series_name(tail_series):
+        return None
+
+    venue = "UNKNOWN VENUE"
+    ctx = clean_text(context)
+    vm = re.search(
+        r"(?:Final|Semi[- ]?Final|Qualifier|Eliminator)\s*•\s*"
+        r"(.+?)(?:\s+Image\s+\d+:|\s+[A-Z]{2,5}\s+\d)",
+        ctx,
+        re.I,
+    )
+    if vm:
+        venue = clean_text(vm.group(1))
+
+    return {
+        "id": None,
+        "teamA": team_a,
+        "teamB": team_b,
+        "name": f"{team_a} vs {team_b}, {stage}, {series_name}",
+        "matchType": "T20",
+        "teams": [team_a, team_b],
+        "venue": venue,
+        "status": "LIVE / CURRENT",
+        "source_date": local_today().isoformat(),
+        "series_name": series_name or tail_series or "UNKNOWN SERIES",
+        "source_name": "Cricbuzz live via text relay",
+    }
+
+
 def scrape_cricbuzz_live_via_text_relay():
     """Discover currently live/recent Cricbuzz matches through the text relay."""
     target_date = local_today()
@@ -979,15 +1028,6 @@ def scrape_cricbuzz_live_via_text_relay():
             r.raise_for_status()
             lines = [_strip_markdown_text(x) for x in r.text.splitlines()]
             lines = [x for x in lines if x]
-            hints = [
-                x for x in lines
-                if any(k in x.lower() for k in (
-                    "caribbean premier league", "antigua", "jamaica", "abf", "jkm", "cpl"
-                ))
-            ][:30]
-            if hints:
-                print("[DEBUG] LIVE_RELAY_HINTS=" + json.dumps(hints, ensure_ascii=False))
-
             current_series = "UNKNOWN SERIES"
             for i, line in enumerate(lines):
                 low = line.lower()
@@ -1012,7 +1052,10 @@ def scrape_cricbuzz_live_via_text_relay():
                 if any(x in norm(context) for x in ("test", "odi", "one day", "t10", "hundred", "100 ball")):
                     continue
 
-                parsed = _parse_cricbuzz_match_line(line, current_series)
+                context = " ".join(lines[max(0, i-4):min(len(lines), i+5)])
+                parsed = _parse_cricbuzz_live_title(line, current_series, context)
+                if not parsed:
+                    parsed = _parse_cricbuzz_match_line(line, current_series)
                 if not parsed:
                     # Some live-score cards carry T20/series text in neighboring lines.
                     parsed = _parse_cricbuzz_match_line(line + " T20", current_series)
