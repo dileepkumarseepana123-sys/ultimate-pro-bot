@@ -1,0 +1,213 @@
+{
+    "ghana|nigeria|2026-09-21": {
+        "capturedAt": "2026-09-21T03:34:19.904814+00:00",
+        "matchDate": "2026-09-21",
+        "report": {
+            "teamA": "Nigeria",
+            "teamB": "Ghana",
+            "name": "Nigeria vs Ghana,1st Match Tafawa Balewa Square Cricket Oval , Lagos",
+            "matchType": "T20",
+            "venue": "Tafawa Balewa Square Cricket Oval , Lagos",
+            "dateTimeGMT": null,
+            "sourceDate": "2026-09-21",
+            "matchTimeIST": "UNKNOWN",
+            "series": "Quadrangular T20I Series in Nigeria, 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "sourceStatus": "Scheduled",
+            "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": false,
+            "tradeProfile": {
+                "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 40,
+                "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
+                "swingCatalysts": [
+                    "Strong historical chase/bat-first skew: 36.0% chasing wins"
+                ],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "formA": {
+                "matches": 10,
+                "wins": 2,
+                "losses": 8,
+                "recent": [
+                    {
+                        "date": "2026-06-23",
+                        "winner": "Namibia",
+                        "won": false,
+                        "venue": "Namibia Cricket Ground, Windhoek"
+                    },
+                    {
+                        "date": "2026-06-21",
+                        "winner": "Hong Kong",
+                        "won": false,
+                        "venue": "Namibia Cricket Ground, Windhoek"
+                    },
+                    {
+                        "date": "2026-06-20",
+                        "winner": "Nigeria",
+                        "won": true,
+                        "venue": "Gahanga International Cricket Stadium, Rwanda"
+                    },
+                    {
+                        "date": "2026-06-20",
+                        "winner": "Namibia",
+                        "won": false,
+                        "venue": "Namibia Cricket Ground, Windhoek"
+                    },
+                    {
+                        "date": "2026-06-19",
+                        "winner": "Rwanda",
+                        "won": false,
+                        "venue": "Gahanga B Ground, Rwanda"
+                    },
+                    {
+                        "date": "2026-06-18",
+                        "winner": "Hong Kong",
+                        "won": false,
+                        "venue": "Namibia Cricket Ground, Windhoek"
+                    },
+                    {
+                        "date": "2026-06-15",
+                        "winner": "Brazil",
+                        "won": false,
+                        "venue": "Gahanga B Ground, Rwanda"
+                    },
+                    {
+                        "date": "2026-06-14",
+                        "winner": "Nigeria",
+                        "won": true,
+                        "venue": "Gahanga International Cricket Stadium, Rwanda"
+                    },
+                    {
+                        "date": "2026-06-12",
+                        "winner": "Rwanda",
+                        "won": false,
+                        "venue": "Gahanga International Cricket Stadium, Rwanda"
+                    },
+                    {
+                        "date": "2026-06-11",
+                        "winner": "Brazil",
+                        "won": false,
+                        "venue": "Gahanga International Cricket Stadium, Rwanda"
+                    }
+                ]
+            },
+            "formB": {
+                "matches": 10,
+                "wins": 6,
+                "losses": 4,
+                "recent": [
+                    {
+                        "date": "2026-03-28",
+                        "winner": "Ghana",
+                        "won": true,
+                        "venue": "Achimota Senior Secondary School B Field, Accra"
+                    },
+                    {
+                        "date": "2026-03-27",
+                        "winner": "Ghana",
+                        "won": true,
+                        "venue": "Achimota Senior Secondary School A Field, Accra"
+                    },
+                    {
+                        "date": "2026-03-25",
+                        "winner": "Ghana",
+                        "won": true,
+                        "venue": "Achimota Senior Secondary School A Field, Accra"
+                    },
+                    {
+                        "date": "2026-03-24",
+                        "winner": "Ghana",
+                        "won": true,
+                        "venue": "Achimota Senior Secondary School B Field, Accra"
+                    },
+                    {
+                        "date": "2026-03-22",
+                        "winner": "Nigeria",
+                        "won": false,
+                        "venue": "Tafawa Balewa Square Cricket Oval, Lagos"
+                    },
+                    {
+                        "date": "2026-03-20",
+                        "winner": "Rwanda",
+                        "won": false,
+                        "venue": "Tafawa Balewa Square Cricket Oval, Lagos"
+                    },
+                    {
+                        "date": "2024-09-26",
+                        "winner": "Ghana",
+                        "won": true,
+                        "venue": "Gymkhana Club Ground, Dar-es-Salaam"
+                    },
+                    {
+                        "date": "2024-09-25",
+                        "winner": "Tanzania",
+                        "won": false,
+                        "venue": "University of Dar-es-Salaam Ground"
+                    },
+                    {
+                        "date": "2024-09-24",
+                        "winner": "Ghana",
+                        "won": true,
+                        "venue": "University of Dar-es-Salaam Ground"
+                    },
+                    {
+                        "date": "2024-09-22",
+                        "winner": "Malawi",
+                        "won": false,
+                        "venue": "University of Dar-es-Salaam Ground"
+                    }
+                ]
+            },
+            "weather": {
+                "status": "UNKNOWN",
+                "reason": "Match time unavailable"
+            },
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
+            "tossBias": "36.0% Chasing Wins",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "36.27",
+            "ppRunRate": "Historical first-innings PP",
+            "spinIndex": "UNKNOWN",
+            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
+            "venueIntel": {
+                "status": "OK",
+                "matches": 26,
+                "venue_confidence": 1.0,
+                "avg_first_innings": 119.77,
+                "powerplay_avg": 36.27,
+                "chasing_win_pct": 36.0,
+                "mid_overs_7_14_wickets": 141,
+                "spin_classification_pct": 0.0,
+                "spinner_7_14_wickets": null,
+                "spin_wicket_share_pct": null,
+                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+            },
+            "midOversWickets": 141,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": 0.0,
+            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "noBetReasons": [
+                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                "PLAYING XI NOT CONFIRMED",
+                "WEATHER DATA UNKNOWN"
+            ],
+            "warnings": [
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-red",
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN"
+        }
+    }
+}
