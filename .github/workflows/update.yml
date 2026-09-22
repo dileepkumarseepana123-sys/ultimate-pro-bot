@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: match-deep-intel-scanner
+  cancel-in-progress: false
+
 jobs:
   run-scanner:
     runs-on: ubuntu-latest
