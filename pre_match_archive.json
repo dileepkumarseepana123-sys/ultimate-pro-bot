@@ -211,7 +211,7 @@
         }
     },
     "bangladesh women|pakistan women|2026-09-22": {
-        "capturedAt": "2026-09-22T13:31:52.459264+00:00",
+        "capturedAt": "2026-09-22T13:35:39.322797+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "Pakistan Women",
@@ -301,7 +301,7 @@
         }
     },
     "india women|sri lanka women|2026-09-22": {
-        "capturedAt": "2026-09-22T13:31:52.459275+00:00",
+        "capturedAt": "2026-09-22T13:35:39.322809+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "India Women",
@@ -511,7 +511,7 @@
         }
     },
     "ghana|sierra leone|2026-09-22": {
-        "capturedAt": "2026-09-22T13:31:52.459246+00:00",
+        "capturedAt": "2026-09-22T13:35:39.322761+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "Ghana",
@@ -731,7 +731,7 @@
         }
     },
     "limpopo|northern cape|2026-09-22": {
-        "capturedAt": "2026-09-22T13:31:52.459284+00:00",
+        "capturedAt": "2026-09-22T13:35:39.322783+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "Northern Cape",
@@ -746,14 +746,14 @@
             "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/172971/ncape-vs-limpo-1st-match-csa-t20-challenge-2026",
-            "sourceStatus": "ARCHIVED PRE-MATCH",
+            "sourceStatus": "Scheduled",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
             "premiumMarketProxy": false,
             "tradeProfile": {
                 "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 20,
+                "dataCompletenessPct": 40,
                 "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
                 "swingCatalysts": [],
                 "equalProfitTargetRequiresEntryOdds": true,
@@ -779,11 +779,19 @@
                 "recent": []
             },
             "weather": {
-                "status": "UNKNOWN",
-                "reason": "No hourly forecast returned"
+                "status": "OK",
+                "local_time": "2026-09-22T13:00:00+02:00",
+                "temperature_c": 24.2,
+                "humidity_pct": 45,
+                "dew_point_c": 11.4,
+                "rain_probability_pct": 0,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 14.6,
+                "dew_risk": "LOW",
+                "rain_risk": "LOW"
             },
-            "weatherText": "NO DATA",
-            "dewRisk": "UNKNOWN",
+            "weatherText": "24.2°C | RH 45% | Rain 0% | Wind 14.6 km/h",
+            "dewRisk": "LOW",
             "tossBias": "45.45% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "40.85",
@@ -810,7 +818,6 @@
             "noBetReasons": [
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
                 "PLAYING XI NOT CONFIRMED",
-                "WEATHER DATA UNKNOWN",
                 "LIMITED RECENT T20 DATA FOR Northern Cape",
                 "LIMITED RECENT T20 DATA FOR Limpopo"
             ],
@@ -818,12 +825,11 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR Northern Cape; LIMITED RECENT T20 DATA FOR Limpopo",
-            "archivedOnly": true
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Northern Cape; LIMITED RECENT T20 DATA FOR Limpopo"
         }
     },
     "india|japan|2026-09-22": {
-        "capturedAt": "2026-09-22T13:31:52.459291+00:00",
+        "capturedAt": "2026-09-22T13:35:39.322818+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "Japan",

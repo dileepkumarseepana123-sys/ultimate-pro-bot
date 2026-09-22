@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-22T13:31:52.460539+00:00",
+    "last_updated": "2026-09-22T13:35:39.324154+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -40,11 +40,11 @@
         "schedule_text_relay_rows": 2,
         "text_relay_rows": 2,
         "text_relay_t20_rows": 2,
-        "text_relay_today_t20_rows": 1,
+        "text_relay_today_t20_rows": 2,
         "text_relay_match_url_rows": 2,
         "text_relay_time_enriched_rows": 2,
         "final_reports_with_known_time": 2,
-        "final_reports_with_weather": 1,
+        "final_reports_with_weather": 2,
         "cricscore_rows": 0,
         "cricscore_t20_rows": 0,
         "cricscore_today_t20_rows": 0,
@@ -290,110 +290,20 @@
             "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/172971/ncape-vs-limpo-1st-match-csa-t20-challenge-2026",
-            "sourceStatus": "ARCHIVED PRE-MATCH",
+            "sourceStatus": "Scheduled",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
             "premiumMarketProxy": false,
             "tradeProfile": {
                 "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 20,
+                "dataCompletenessPct": 40,
                 "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
                 "swingCatalysts": [],
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": {
-                "capturedAt": "2026-09-22T13:26:51.403635+00:00",
-                "matchDate": "2026-09-22",
-                "report": {
-                    "teamA": "Northern Cape",
-                    "teamB": "Limpopo",
-                    "name": "Northern Cape vs Limpopo,1st Match Diamond Oval , Kimberley",
-                    "matchType": "T20",
-                    "venue": "Diamond Oval , Kimberley",
-                    "dateTimeGMT": "2026-09-22T11:00:00+00:00",
-                    "sourceDate": "2026-09-22",
-                    "matchTimeIST": "2026-09-22T16:30:00+05:30",
-                    "indiaDate": "2026-09-22",
-                    "series": "CSA T20 Challenge 2026",
-                    "sourceName": "Cricbuzz via text relay",
-                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/172971/ncape-vs-limpo-1st-match-csa-t20-challenge-2026",
-                    "sourceStatus": "Scheduled",
-                    "marketTier": "LOW/UNKNOWN MARKET TIER",
-                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
-                    "liquidityProxyOnly": true,
-                    "premiumMarketProxy": false,
-                    "tradeProfile": {
-                        "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
-                        "dataCompletenessPct": 20,
-                        "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
-                        "swingCatalysts": [],
-                        "equalProfitTargetRequiresEntryOdds": true,
-                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
-                    },
-                    "preMatchSnapshot": null,
-                    "standardT20": true,
-                    "playingXI": {
-                        "status": "NOT CONFIRMED",
-                        "teams": {},
-                        "source": "Not queried"
-                    },
-                    "formA": {
-                        "matches": 0,
-                        "wins": 0,
-                        "losses": 0,
-                        "recent": []
-                    },
-                    "formB": {
-                        "matches": 0,
-                        "wins": 0,
-                        "losses": 0,
-                        "recent": []
-                    },
-                    "weather": {
-                        "status": "UNKNOWN",
-                        "reason": "No hourly forecast returned"
-                    },
-                    "weatherText": "NO DATA",
-                    "dewRisk": "UNKNOWN",
-                    "tossBias": "45.45% Chasing Wins",
-                    "tossTrend": "Historical venue trend",
-                    "ppScoreAvg": "40.85",
-                    "ppRunRate": "Historical first-innings PP",
-                    "spinIndex": "UNKNOWN",
-                    "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
-                    "venueIntel": {
-                        "status": "OK",
-                        "matches": 13,
-                        "venue_confidence": 1.0,
-                        "avg_first_innings": 150.62,
-                        "powerplay_avg": 40.85,
-                        "chasing_win_pct": 45.45,
-                        "mid_overs_7_14_wickets": 38,
-                        "spin_classification_pct": 0.0,
-                        "spinner_7_14_wickets": null,
-                        "spin_wicket_share_pct": null,
-                        "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
-                    },
-                    "midOversWickets": 38,
-                    "spinnerWickets7to14": null,
-                    "spinClassificationPct": 0.0,
-                    "verdict": "🔴 HIGH-CAUTION / NO-BET",
-                    "noBetReasons": [
-                        "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
-                        "PLAYING XI NOT CONFIRMED",
-                        "WEATHER DATA UNKNOWN",
-                        "LIMITED RECENT T20 DATA FOR Northern Cape",
-                        "LIMITED RECENT T20 DATA FOR Limpopo"
-                    ],
-                    "warnings": [
-                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
-                    ],
-                    "badgeClass": "badge-red",
-                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR Northern Cape; LIMITED RECENT T20 DATA FOR Limpopo"
-                }
-            },
+            "preMatchSnapshot": null,
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -413,11 +323,19 @@
                 "recent": []
             },
             "weather": {
-                "status": "UNKNOWN",
-                "reason": "No hourly forecast returned"
+                "status": "OK",
+                "local_time": "2026-09-22T13:00:00+02:00",
+                "temperature_c": 24.2,
+                "humidity_pct": 45,
+                "dew_point_c": 11.4,
+                "rain_probability_pct": 0,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 14.6,
+                "dew_risk": "LOW",
+                "rain_risk": "LOW"
             },
-            "weatherText": "NO DATA",
-            "dewRisk": "UNKNOWN",
+            "weatherText": "24.2°C | RH 45% | Rain 0% | Wind 14.6 km/h",
+            "dewRisk": "LOW",
             "tossBias": "45.45% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "40.85",
@@ -444,7 +362,6 @@
             "noBetReasons": [
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
                 "PLAYING XI NOT CONFIRMED",
-                "WEATHER DATA UNKNOWN",
                 "LIMITED RECENT T20 DATA FOR Northern Cape",
                 "LIMITED RECENT T20 DATA FOR Limpopo"
             ],
@@ -452,8 +369,7 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR Northern Cape; LIMITED RECENT T20 DATA FOR Limpopo",
-            "archivedOnly": true
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Northern Cape; LIMITED RECENT T20 DATA FOR Limpopo"
         },
         {
             "teamA": "Pakistan Women",
@@ -480,7 +396,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-09-22T13:26:51.403649+00:00",
+                "capturedAt": "2026-09-22T13:31:52.459264+00:00",
                 "matchDate": "2026-09-22",
                 "report": {
                     "teamA": "Pakistan Women",
@@ -655,7 +571,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-09-22T13:26:51.403661+00:00",
+                "capturedAt": "2026-09-22T13:31:52.459275+00:00",
                 "matchDate": "2026-09-22",
                 "report": {
                     "teamA": "India Women",
@@ -1070,7 +986,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-09-22T13:26:51.403670+00:00",
+                "capturedAt": "2026-09-22T13:31:52.459291+00:00",
                 "matchDate": "2026-09-22",
                 "report": {
                     "teamA": "Japan",
