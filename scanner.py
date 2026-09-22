@@ -750,7 +750,6 @@ def get_match_weather(venue, match_dt):
     params = {
         "latitude": geo["lat"], "longitude": geo["lon"], "timezone": tz_name,
         "start_date": local_dt.strftime("%Y-%m-%d"), "end_date": local_dt.strftime("%Y-%m-%d"),
-        "forecast_days": 16,
         "hourly": "temperature_2m,relative_humidity_2m,dew_point_2m,precipitation_probability,precipitation,wind_speed_10m"
     }
     try:
@@ -1022,56 +1021,91 @@ def _extract_cricbuzz_match_url(raw_line):
 def _fetch_cricbuzz_match_meta(match_url, source_date):
     if not match_url:
         return {}
-    relay_url = "https://r.jina.ai/" + match_url
-    try:
-        r = SESSION.get(
-            relay_url,
-            headers={
-                "Accept": "text/plain",
-                "User-Agent": "Mozilla/5.0",
-                "x-engine": "browser",
-                "x-no-cache": "true",
-                "x-timeout": "20",
-            },
-            timeout=40,
-        )
-        r.raise_for_status()
-        text = r.text
 
-        # Prefer the explicit GMT line because it converts cleanly to IST and
-        # avoids ambiguity in local venue dates.
-        m = re.search(
-            r"Match starts at\s+([A-Za-z]{3})\s+(\d{1,2}),\s*"
-            r"(\d{1,2}:\d{2})\s+GMT",
-            text,
-            re.I,
-        )
-        dt = None
-        if m:
-            year = source_date.year if hasattr(source_date, "year") else local_today().year
-            dt = datetime.strptime(
-                f"{m.group(1)} {m.group(2)} {year} {m.group(3)}",
-                "%b %d %Y %H:%M",
-            ).replace(tzinfo=timezone.utc)
-        else:
-            # Match-facts pages also expose a line such as:
-            # Time 1:00 PM LOCAL, 4:00 AM GMT, 9:30 AM IST
-            tm = re.search(r"(\d{1,2}:\d{2}\s*[AP]M)\s+GMT", text, re.I)
-            if tm:
+    candidates = []
+    murl = re.search(
+        r"cricbuzz\.com/(?:live-cricket-scores|live-cricket-scorecard|cricket-match-facts)/"
+        r"(\d+)/([^/?#]+)",
+        match_url,
+        re.I,
+    )
+    if murl:
+        match_id, slug = murl.group(1), murl.group(2)
+        candidates.append(f"https://www.cricbuzz.com/cricket-match-facts/{match_id}/{slug}")
+    candidates.append(match_url)
+
+    meta = {"source_match_url": match_url}
+    seen = set()
+    for page_url in candidates:
+        if page_url in seen:
+            continue
+        seen.add(page_url)
+        relay_url = "https://r.jina.ai/" + page_url
+        try:
+            r = SESSION.get(
+                relay_url,
+                headers={
+                    "Accept": "text/plain",
+                    "User-Agent": "Mozilla/5.0",
+                    "x-engine": "browser",
+                    "x-no-cache": "true",
+                    "x-timeout": "20",
+                },
+                timeout=40,
+            )
+            r.raise_for_status()
+            text = re.sub(r"\s+", " ", r.text.replace("\xa0", " ")).strip()
+
+            dt = None
+            # Examples:
+            # "Match starts at Sep 22, 09:00 GMT"
+            # "Match starts at Sep 22 09:00 GMT"
+            mm = re.search(
+                r"Match starts at\s+([A-Za-z]{3})\s+(\d{1,2}),?\s*"
+                r"(\d{1,2}:\d{2})\s+GMT",
+                text,
+                re.I,
+            )
+            if mm:
                 year = source_date.year if hasattr(source_date, "year") else local_today().year
                 dt = datetime.strptime(
-                    f"{source_date.strftime('%b %d')} {year} {tm.group(1).upper()}",
-                    "%b %d %Y %I:%M %p",
+                    f"{mm.group(1)} {mm.group(2)} {year} {mm.group(3)}",
+                    "%b %d %Y %H:%M",
                 ).replace(tzinfo=timezone.utc)
+            else:
+                # Match-facts pages normally expose GMT in the Time row.
+                tm = re.search(
+                    r"(\d{1,2}:\d{2})\s*([AP]M)?\s+GMT",
+                    text,
+                    re.I,
+                )
+                if tm:
+                    year = source_date.year if hasattr(source_date, "year") else local_today().year
+                    if tm.group(2):
+                        dt = datetime.strptime(
+                            f"{source_date.strftime('%b %d')} {year} "
+                            f"{tm.group(1)} {tm.group(2).upper()}",
+                            "%b %d %Y %I:%M %p",
+                        ).replace(tzinfo=timezone.utc)
+                    else:
+                        dt = datetime.strptime(
+                            f"{source_date.strftime('%b %d')} {year} {tm.group(1)}",
+                            "%b %d %Y %H:%M",
+                        ).replace(tzinfo=timezone.utc)
 
-        meta = {"source_match_url": match_url}
-        if dt:
-            meta["dateTimeGMT"] = dt.isoformat()
-            meta["source_date"] = source_date.isoformat()
-        return meta
-    except Exception as exc:
-        print(f"[WARN] Match metadata relay failed for {match_url}: {exc}")
-        return {"source_match_url": match_url}
+            if dt:
+                meta["dateTimeGMT"] = dt.isoformat()
+                meta["source_date"] = source_date.isoformat()
+                print(
+                    f"[INFO] Match time enriched: {match_url} -> "
+                    f"{dt.astimezone(ZoneInfo('Asia/Kolkata')).isoformat()}"
+                )
+                return meta
+        except Exception as exc:
+            print(f"[WARN] Match metadata relay failed for {page_url}: {exc}")
+
+    print(f"[WARN] Match time not found in relay metadata: {match_url}")
+    return meta
 
 
 def _strip_markdown_text(value):
@@ -1518,7 +1552,7 @@ def run_scanner():
     relay_today_count = sum(
         1 for raw in relay_rows
         if infer_match_type(raw, source_t20=True) in {"T20", "T20I", "TWENTY20"}
-        and date_field_is_india_today(raw.get("source_date"))
+        and match_is_today(raw)[0]
     )
     sofa_t20_count = sum(
         1 for raw in sofa_rows
