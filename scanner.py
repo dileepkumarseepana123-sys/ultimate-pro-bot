@@ -221,8 +221,8 @@ def premium_market(match):
         return True, "PREMIUM COMPETITION"
     teams = [norm(t) for t in match.get("teams", []) if t]
     major = sum(1 for t in teams if any(t == x or t.startswith(x + " ") or x in t for x in MAJOR_TEAMS))
-    if major >= 2 and "women" not in combined and "under 19" not in combined:
-        return True, "MAJOR INTERNATIONAL T20I"
+    if major >= 2 and "under 19" not in combined:
+        return True, "MAJOR INTERNATIONAL T20I PROXY"
     return False, "LOW/UNKNOWN MARKET TIER"
 
 
@@ -592,43 +592,232 @@ def is_spin_style(style):
     return bool(s) and any(k in s for k in ("spin", "orthodox", "off break", "leg break", "googly", "chinaman", "carrom"))
 
 
-def team_form(history, team, limit=10):
-    raw_target = norm(team)
-    wants_women = raw_target.endswith(" women")
-    target = re.sub(r"\s+women$", "", raw_target).strip() if wants_women else raw_target
+def _requested_team_pool(team):
+    raw = norm(team)
+    female = raw.endswith(" women")
+    base = re.sub(r"\s+women$", "", raw).strip() if female else raw
+    return ("female" if female else "male"), base
 
+
+def _cricsheet_pool(meta):
+    gender = norm(meta.get("gender", ""))
+    return "female" if gender in {"female", "women", "womens"} else "male"
+
+
+def _margin_from_outcome(outcome):
+    by = outcome.get("by") if isinstance(outcome.get("by"), dict) else {}
+    if isinstance(by.get("runs"), (int, float)):
+        value = float(by["runs"])
+        return {"type": "runs", "value": value, "strength": min(1.0, value / 60.0)}
+    if isinstance(by.get("wickets"), (int, float)):
+        value = float(by["wickets"])
+        return {"type": "wickets", "value": value, "strength": min(1.0, value / 8.0)}
+    return {"type": None, "value": None, "strength": 0.0}
+
+
+def team_form(history, team, limit=10):
+    pool, target = _requested_team_pool(team)
     rows = []
     dated = []
     for m in history:
         meta = m.get("info", {})
-        gender = norm(meta.get("gender", ""))
-        if wants_women and gender not in {"female", "women", "womens"}:
+        if _cricsheet_pool(meta) != pool:
             continue
 
-        teams = meta.get("teams", [])
-        normalized = [norm(t) for t in teams]
-        if wants_women:
-            normalized = [re.sub(r"\s+women$", "", t).strip() for t in normalized]
-        if target not in normalized:
+        teams = [norm(t) for t in meta.get("teams", [])]
+        if target not in teams:
             continue
 
         date_value = (meta.get("dates") or [None])[0]
         dt = parse_dt(date_value) or datetime.min.replace(tzinfo=timezone.utc)
-        winner_raw = norm(meta.get("outcome", {}).get("winner", ""))
-        winner = re.sub(r"\s+women$", "", winner_raw).strip() if wants_women else winner_raw
-        rows.append({
+        outcome = meta.get("outcome", {})
+        winner = norm(outcome.get("winner", ""))
+        margin = _margin_from_outcome(outcome)
+        won = winner == target if winner else None
+        impact = margin["strength"] * (1 if won is True else -1 if won is False else 0)
+
+        row = {
             "date": date_value,
-            "winner": meta.get("outcome", {}).get("winner"),
-            "won": winner == target if winner else None,
-            "venue": meta.get("venue")
-        })
-        dated.append((dt, rows[-1]))
+            "winner": outcome.get("winner"),
+            "won": won,
+            "venue": meta.get("venue"),
+            "marginType": margin["type"],
+            "marginValue": margin["value"],
+            "marginImpact": round(impact, 3),
+        }
+        rows.append(row)
+        dated.append((dt, row))
 
     dated.sort(key=lambda x: x[0], reverse=True)
     recent = [row for _, row in dated[:limit]]
     wins = sum(1 for r in recent if r["won"] is True)
     losses = sum(1 for r in recent if r["won"] is False)
-    return {"matches": len(recent), "wins": wins, "losses": losses, "recent": recent}
+    decided = wins + losses
+    win_rate = round((wins / decided) * 100, 1) if decided else None
+    margin_impacts = [r["marginImpact"] for r in recent if r["won"] is not None]
+    avg_margin_impact = round(statistics.mean(margin_impacts), 3) if margin_impacts else None
+    return {
+        "matches": len(recent),
+        "wins": wins,
+        "losses": losses,
+        "winRatePct": win_rate,
+        "avgMarginImpact": avg_margin_impact,
+        "recent": recent,
+    }
+
+
+def build_t20_elo(history):
+    rows = []
+    for m in history:
+        meta = m.get("info", {})
+        teams = meta.get("teams") or []
+        if len(teams) != 2:
+            continue
+        outcome = meta.get("outcome", {})
+        winner = norm(outcome.get("winner", ""))
+        if not winner:
+            continue
+        pool = _cricsheet_pool(meta)
+        a, b = norm(teams[0]), norm(teams[1])
+        if winner not in {a, b}:
+            continue
+        date_value = (meta.get("dates") or [None])[0]
+        dt = parse_dt(date_value) or datetime.min.replace(tzinfo=timezone.utc)
+        rows.append((dt, pool, a, b, winner))
+
+    rows.sort(key=lambda x: x[0])
+    ratings = {}
+    counts = {}
+    for _, pool, a, b, winner in rows:
+        ka, kb = (pool, a), (pool, b)
+        ra, rb = ratings.get(ka, 1500.0), ratings.get(kb, 1500.0)
+        ea = 1.0 / (1.0 + 10 ** ((rb - ra) / 400.0))
+        sa = 1.0 if winner == a else 0.0
+        # Slightly faster learning for teams with very few recorded matches.
+        k = 28.0 if min(counts.get(ka, 0), counts.get(kb, 0)) < 10 else 22.0
+        ratings[ka] = ra + k * (sa - ea)
+        ratings[kb] = rb + k * ((1.0 - sa) - (1.0 - ea))
+        counts[ka] = counts.get(ka, 0) + 1
+        counts[kb] = counts.get(kb, 0) + 1
+    return {"ratings": ratings, "counts": counts, "source": "Cricsheet-derived T20 Elo; not ICC ranking"}
+
+
+def head_to_head(history, team_a, team_b, limit=10):
+    pool_a, a = _requested_team_pool(team_a)
+    pool_b, b = _requested_team_pool(team_b)
+    if pool_a != pool_b:
+        return {"matches": 0, "teamAWins": 0, "teamBWins": 0, "recent": []}
+
+    dated = []
+    for m in history:
+        meta = m.get("info", {})
+        if _cricsheet_pool(meta) != pool_a:
+            continue
+        teams = {norm(t) for t in meta.get("teams", [])}
+        if a not in teams or b not in teams:
+            continue
+        outcome = meta.get("outcome", {})
+        winner = norm(outcome.get("winner", ""))
+        date_value = (meta.get("dates") or [None])[0]
+        dt = parse_dt(date_value) or datetime.min.replace(tzinfo=timezone.utc)
+        margin = _margin_from_outcome(outcome)
+        dated.append((dt, {
+            "date": date_value,
+            "winner": outcome.get("winner"),
+            "marginType": margin["type"],
+            "marginValue": margin["value"],
+        }))
+
+    dated.sort(key=lambda x: x[0], reverse=True)
+    recent = [row for _, row in dated[:limit]]
+    a_wins = sum(1 for r in recent if norm(r.get("winner")) == a)
+    b_wins = sum(1 for r in recent if norm(r.get("winner")) == b)
+    return {"matches": len(recent), "teamAWins": a_wins, "teamBWins": b_wins, "recent": recent}
+
+
+def build_competitive_balance(team_a, team_b, form_a, form_b, h2h, elo_model):
+    pool_a, a = _requested_team_pool(team_a)
+    pool_b, b = _requested_team_pool(team_b)
+    signals = []
+    components = []
+
+    rating_a = rating_b = None
+    elo_matches_a = elo_matches_b = 0
+    elo_gap = None
+    if pool_a == pool_b:
+        ka, kb = (pool_a, a), (pool_b, b)
+        elo_matches_a = elo_model["counts"].get(ka, 0)
+        elo_matches_b = elo_model["counts"].get(kb, 0)
+        if elo_matches_a >= 5 and elo_matches_b >= 5:
+            rating_a = round(elo_model["ratings"].get(ka, 1500.0), 1)
+            rating_b = round(elo_model["ratings"].get(kb, 1500.0), 1)
+            elo_gap = round(abs(rating_a - rating_b), 1)
+            elo_balance = max(0.0, 100.0 - min(100.0, elo_gap / 3.0))
+            components.append(("elo", elo_balance, 0.55))
+            signals.append(f"Derived Elo gap {elo_gap:.1f}")
+
+    wr_a = form_a.get("winRatePct")
+    wr_b = form_b.get("winRatePct")
+    form_gap = None
+    if form_a.get("matches", 0) >= 5 and form_b.get("matches", 0) >= 5 and isinstance(wr_a, (int, float)) and isinstance(wr_b, (int, float)):
+        form_gap = round(abs(wr_a - wr_b), 1)
+        components.append(("form", max(0.0, 100.0 - form_gap), 0.30))
+        signals.append(f"Recent win-rate gap {form_gap:.1f} percentage points")
+
+    h2h_gap = None
+    if h2h.get("matches", 0) >= 3:
+        decided = h2h.get("teamAWins", 0) + h2h.get("teamBWins", 0)
+        if decided:
+            h2h_gap = round(abs(h2h.get("teamAWins", 0) - h2h.get("teamBWins", 0)) / decided * 100, 1)
+            components.append(("h2h", max(0.0, 100.0 - h2h_gap), 0.15))
+            signals.append(f"Recent H2H win-share gap {h2h_gap:.1f} percentage points")
+
+    if components:
+        total_w = sum(w for _, _, w in components)
+        balance_score = round(sum(score * w for _, score, w in components) / total_w, 1)
+    else:
+        balance_score = None
+
+    if balance_score is None:
+        label = "UNKNOWN"
+    elif balance_score >= 75:
+        label = "BALANCED"
+    elif balance_score >= 55:
+        label = "MODERATE GAP"
+    elif balance_score >= 35:
+        label = "STRONG GAP"
+    else:
+        label = "EXTREME GAP"
+
+    stronger = None
+    edge = 0.0
+    if rating_a is not None and rating_b is not None:
+        edge += rating_a - rating_b
+    if isinstance(wr_a, (int, float)) and isinstance(wr_b, (int, float)):
+        edge += (wr_a - wr_b) * 2.0
+    if abs(edge) >= 25:
+        stronger = team_a if edge > 0 else team_b
+
+    return {
+        "label": label,
+        "balanceScore": balance_score,
+        "teamAElo": rating_a,
+        "teamBElo": rating_b,
+        "eloMatchesA": elo_matches_a,
+        "eloMatchesB": elo_matches_b,
+        "eloGap": elo_gap,
+        "recentWinRateA": wr_a,
+        "recentWinRateB": wr_b,
+        "recentFormGapPct": form_gap,
+        "headToHead": h2h,
+        "headToHeadGapPct": h2h_gap,
+        "historicallyStrongerSide": stronger,
+        "signals": signals,
+        "ratingSource": elo_model.get("source"),
+        "officialRanking": "UNKNOWN / NOT CONNECTED",
+    }
+
+
 
 
 def load_spin_bowler_db():
@@ -1451,9 +1640,9 @@ def save_prematch_archive(archive):
         print(f"[WARN] Could not save pre-match archive: {exc}")
 
 
-def build_trade_profile(premium, venue_stats, weather, form_a, form_b, xi):
+def build_trade_profile(premium, venue_stats, weather, form_a, form_b, xi, balance):
     known = 0
-    total = 5
+    total = 6
     if premium:
         known += 1
     if venue_stats.get("status") == "OK":
@@ -1464,32 +1653,125 @@ def build_trade_profile(premium, venue_stats, weather, form_a, form_b, xi):
         known += 1
     if xi.get("status") == "CONFIRMED":
         known += 1
+    if isinstance(balance.get("balanceScore"), (int, float)):
+        known += 1
 
     catalysts = []
+    penalties = []
+
     chasing = venue_stats.get("chasing_win_pct")
-    if isinstance(chasing, (int, float)) and (chasing >= 60 or chasing <= 40):
-        catalysts.append(f"Strong historical chase/bat-first skew: {chasing:.1f}% chasing wins")
-    if weather.get("status") == "OK" and weather.get("dew_risk") in {"HIGH", "MEDIUM"}:
-        catalysts.append(f"{weather.get('dew_risk')} dew-risk regime")
+    if isinstance(chasing, (int, float)):
+        if 42 <= chasing <= 58:
+            catalysts.append(f"Historically two-way venue: {chasing:.1f}% chasing wins")
+        elif chasing >= 65 or chasing <= 35:
+            penalties.append(f"Strong venue side-bias: {chasing:.1f}% chasing wins")
+
+    venue_matches = venue_stats.get("matches")
+    mid_wickets = venue_stats.get("mid_overs_7_14_wickets")
+    mid_wickets_per_match = None
+    if isinstance(venue_matches, (int, float)) and venue_matches > 0 and isinstance(mid_wickets, (int, float)):
+        mid_wickets_per_match = round(mid_wickets / venue_matches, 2)
+        if mid_wickets_per_match >= 4.0:
+            catalysts.append(f"Middle-overs wicket volatility: {mid_wickets_per_match:.2f} wickets/match in overs 7-14")
+
+    if weather.get("status") == "OK":
+        if weather.get("dew_risk") == "MEDIUM":
+            catalysts.append("Medium dew can change second-innings conditions")
+        elif weather.get("dew_risk") == "HIGH":
+            penalties.append("High dew may create strong chase-side bias")
+        if weather.get("rain_risk") == "HIGH":
+            penalties.append("High rain-interruption risk")
+
     spin_share = venue_stats.get("spin_wicket_share_pct")
     if isinstance(spin_share, (int, float)) and spin_share >= 35:
         catalysts.append(f"Meaningful 7-14 over spin wicket share: {spin_share:.1f}%")
 
+    components = []
+    if isinstance(balance.get("balanceScore"), (int, float)):
+        components.append(("competitive_balance", balance["balanceScore"], 0.35))
+
+    if isinstance(chasing, (int, float)):
+        venue_two_way = max(0.0, 100.0 - abs(chasing - 50.0) * 2.0)
+        components.append(("venue_two_way", venue_two_way, 0.20))
+
+    if isinstance(mid_wickets_per_match, (int, float)):
+        middle_score = min(100.0, (mid_wickets_per_match / 6.0) * 100.0)
+        components.append(("middle_over_volatility", middle_score, 0.15))
+
+    if weather.get("status") == "OK":
+        if weather.get("rain_risk") == "HIGH":
+            weather_score = 20.0
+        elif weather.get("dew_risk") == "MEDIUM":
+            weather_score = 90.0
+        elif weather.get("dew_risk") == "HIGH":
+            weather_score = 60.0
+        else:
+            weather_score = 70.0
+        components.append(("weather", weather_score, 0.10))
+
+    components.append(("market_proxy", 100.0 if premium else 35.0, 0.20))
+
+    total_weight = sum(w for _, _, w in components)
+    evidence_score = (
+        sum(score * w for _, score, w in components) / total_weight
+        if total_weight else 0.0
+    )
     completeness = round((known / total) * 100)
+    confidence_factor = 0.50 + (completeness / 200.0)
+    swing_score = round(evidence_score * confidence_factor, 1)
+
+    # Hard caps: a large quality gap or unverified market should never be
+    # presented as a top equal-profit candidate just because other inputs look good.
+    gap_label = balance.get("label")
+    if gap_label == "EXTREME GAP":
+        swing_score = min(swing_score, 35.0)
+        penalties.append("Extreme skill gap: one-sided price path risk")
+    elif gap_label == "STRONG GAP":
+        swing_score = min(swing_score, 55.0)
+        penalties.append("Strong skill gap reduces reliable two-way movement")
+
     if not premium:
-        swing_profile = "LOW-CONFIDENCE / LOW-MARKET"
-    elif completeness >= 80 and len(catalysts) >= 2:
-        swing_profile = "HIGH-INFORMATION SWING PROFILE"
-    elif completeness >= 60:
-        swing_profile = "MODERATE-INFORMATION SWING PROFILE"
+        swing_score = min(swing_score, 60.0)
+        penalties.append("Liquidity/market depth is not verified")
+
+    if weather.get("status") == "OK" and weather.get("rain_risk") == "HIGH":
+        swing_score = min(swing_score, 35.0)
+
+    if balance.get("balanceScore") is None and completeness < 50:
+        strategy_label = "INSUFFICIENT DATA"
+    elif swing_score >= 70:
+        strategy_label = "HIGH SWING POTENTIAL — PRICE CHECK REQUIRED"
+    elif swing_score >= 50:
+        strategy_label = "MODERATE SWING POTENTIAL — CONDITIONAL"
+    elif swing_score >= 35:
+        strategy_label = "LOW SWING POTENTIAL / CAUTION"
+    else:
+        strategy_label = "POOR FIT / SKILL-GAP OR DATA CAUTION"
+
+    if gap_label == "EXTREME GAP":
+        swing_profile = "EXTREME SKILL-GAP CAUTION"
+    elif gap_label == "STRONG GAP":
+        swing_profile = "STRONG SKILL-GAP CAUTION"
+    elif completeness >= 70 and swing_score >= 60:
+        swing_profile = "TWO-WAY SWING PROFILE"
+    elif completeness >= 50:
+        swing_profile = "CONDITIONAL SWING PROFILE"
     else:
         swing_profile = "INSUFFICIENT PRE-MATCH DATA"
 
     return {
-        "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
+        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
         "dataCompletenessPct": completeness,
         "swingProfile": swing_profile,
+        "swingScore": swing_score,
+        "strategyLabel": strategy_label,
+        "competitiveBalance": balance,
         "swingCatalysts": catalysts,
+        "swingPenalties": penalties,
+        "scoreComponents": [
+            {"name": name, "score": round(score, 1), "weight": weight}
+            for name, score, weight in components
+        ],
         "equalProfitTargetRequiresEntryOdds": True,
         "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability.",
     }
@@ -1509,6 +1791,7 @@ def run_scanner():
         return
 
     history = load_t20_history()
+    elo_model = build_t20_elo(history)
     today = local_today()
     prematch_archive = load_prematch_archive()
 
@@ -1690,6 +1973,8 @@ def run_scanner():
         weather = get_match_weather(venue, dt) if venue != "UNKNOWN VENUE" else {"status": "UNKNOWN", "reason": "No usable venue"}
 
         form_a, form_b = team_form(history, team_a), team_form(history, team_b)
+        h2h = head_to_head(history, team_a, team_b)
+        balance = build_competitive_balance(team_a, team_b, form_a, form_b, h2h, elo_model)
         reasons, warnings = [], []
 
         # This scanner is pre-match only. Keep live matches visible, but do not
@@ -1716,6 +2001,12 @@ def run_scanner():
             reasons.append(f"LIMITED RECENT T20 DATA FOR {team_a}")
         if form_b.get("matches", 0) < 5:
             reasons.append(f"LIMITED RECENT T20 DATA FOR {team_b}")
+        if balance.get("label") == "EXTREME GAP":
+            reasons.append("EXTREME SKILL GAP / ONE-SIDED MARKET PATH RISK")
+        elif balance.get("label") == "STRONG GAP":
+            warnings.append("STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE")
+        elif balance.get("label") == "MODERATE GAP":
+            warnings.append("MODERATE SKILL GAP")
         if venue_stats.get("spin_index_status") != "OK":
             warnings.append("SPIN CHOKE INDEX NOT FULLY CLASSIFIED")
 
@@ -1740,7 +2031,7 @@ def run_scanner():
         pp = venue_stats.get("powerplay_avg")
         spin_share = venue_stats.get("spin_wicket_share_pct")
         local_time = dt.astimezone(ZoneInfo("Asia/Kolkata")).isoformat() if dt else "UNKNOWN"
-        trade_profile = build_trade_profile(premium, venue_stats, weather, form_a, form_b, xi)
+        trade_profile = build_trade_profile(premium, venue_stats, weather, form_a, form_b, xi, balance)
 
         output.append({
             "teamA": team_a,
@@ -1760,6 +2051,10 @@ def run_scanner():
             "marketVisibility": "PREMIUM / LIKELY LISTED" if premium else "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": True,
             "premiumMarketProxy": premium,
+            "competitiveBalance": balance,
+            "skillGap": balance.get("label"),
+            "swingScore": trade_profile.get("swingScore"),
+            "strategyLabel": trade_profile.get("strategyLabel"),
             "tradeProfile": trade_profile,
             "preMatchSnapshot": None,
             "standardT20": True,
@@ -1834,6 +2129,7 @@ def run_scanner():
 
     output.sort(key=lambda x: (
         0 if x.get("premiumMarketProxy") else 1,
+        -(x.get("swingScore") if isinstance(x.get("swingScore"), (int, float)) else -1),
         0 if "LIVE" in str(x.get("sourceStatus", "")).upper() else 1,
         x.get("matchTimeIST", "9999")
     ))
@@ -1879,7 +2175,9 @@ def run_scanner():
             "fantasy_squad_default_disabled_on_free_plan": True,
             "no_fake_data": True,
             "min_venue_matches": MIN_VENUE_MATCHES,
-            "min_spin_classification": MIN_SPIN_CLASSIFICATION
+            "min_spin_classification": MIN_SPIN_CLASSIFICATION,
+            "skill_gap_engine": "Cricsheet-derived Elo + recent form + head-to-head",
+            "swing_score_is_not_profit_probability": True
         },
         "discovery": {
             "live_text_relay_rows": len(live_relay_rows),
