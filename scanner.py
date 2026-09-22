@@ -1719,6 +1719,7 @@ def run_scanner():
             "dateTimeGMT": m.get("dateTimeGMT"),
             "sourceDate": m.get("source_date") or m.get("date"),
             "matchTimeIST": local_time,
+            "indiaDate": date_key,
             "series": m.get("series_name") or m.get("series") or "UNKNOWN SERIES",
             "sourceName": m.get("source_name") or "UNKNOWN SOURCE",
             "sourceMatchUrl": m.get("source_match_url"),
@@ -1759,7 +1760,7 @@ def run_scanner():
         match_archive_key(
             r.get("teamA"),
             r.get("teamB"),
-            (r.get("sourceDate") or today.isoformat())[:10],
+            r.get("indiaDate") or (r.get("sourceDate") or today.isoformat())[:10],
         )
         for r in output
     }
@@ -1783,7 +1784,7 @@ def run_scanner():
         key = match_archive_key(
             report.get("teamA"),
             report.get("teamB"),
-            (report.get("sourceDate") or today.isoformat())[:10],
+            report.get("indiaDate") or (report.get("sourceDate") or today.isoformat())[:10],
         )
         is_live = "LIVE" in str(report.get("sourceStatus") or "").upper()
         if not is_live:
@@ -1791,7 +1792,7 @@ def run_scanner():
             snapshot["preMatchSnapshot"] = None
             prematch_archive[key] = {
                 "capturedAt": datetime.now(timezone.utc).isoformat(),
-                "matchDate": (report.get("sourceDate") or today.isoformat())[:10],
+                "matchDate": report.get("indiaDate") or (report.get("sourceDate") or today.isoformat())[:10],
                 "report": snapshot,
             }
         elif key in prematch_archive:
@@ -1854,6 +1855,10 @@ def run_scanner():
             "text_relay_rows": len(relay_rows),
             "text_relay_t20_rows": relay_t20_count,
             "text_relay_today_t20_rows": relay_today_count,
+            "text_relay_match_url_rows": sum(1 for x in relay_rows if x.get("source_match_url")),
+            "text_relay_time_enriched_rows": sum(1 for x in relay_rows if x.get("dateTimeGMT")),
+            "final_reports_with_known_time": sum(1 for x in output if x.get("matchTimeIST") not in (None, "UNKNOWN")),
+            "final_reports_with_weather": sum(1 for x in output if (x.get("weather") or {}).get("status") == "OK"),
             "cricscore_rows": len(score_rows),
             "cricscore_t20_rows": score_t20_count,
             "cricscore_today_t20_rows": score_today_count,
