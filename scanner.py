@@ -593,17 +593,29 @@ def is_spin_style(style):
 
 
 def team_form(history, team, limit=10):
-    target = norm(team)
+    raw_target = norm(team)
+    wants_women = raw_target.endswith(" women")
+    target = re.sub(r"\s+women$", "", raw_target).strip() if wants_women else raw_target
+
     rows = []
     dated = []
     for m in history:
-        teams = m.get("info", {}).get("teams", [])
-        if not any(norm(t) == target for t in teams):
-            continue
         meta = m.get("info", {})
+        gender = norm(meta.get("gender", ""))
+        if wants_women and gender not in {"female", "women", "womens"}:
+            continue
+
+        teams = meta.get("teams", [])
+        normalized = [norm(t) for t in teams]
+        if wants_women:
+            normalized = [re.sub(r"\s+women$", "", t).strip() for t in normalized]
+        if target not in normalized:
+            continue
+
         date_value = (meta.get("dates") or [None])[0]
         dt = parse_dt(date_value) or datetime.min.replace(tzinfo=timezone.utc)
-        winner = norm(meta.get("outcome", {}).get("winner", ""))
+        winner_raw = norm(meta.get("outcome", {}).get("winner", ""))
+        winner = re.sub(r"\s+women$", "", winner_raw).strip() if wants_women else winner_raw
         rows.append({
             "date": date_value,
             "winner": meta.get("outcome", {}).get("winner"),
@@ -611,6 +623,7 @@ def team_form(history, team, limit=10):
             "venue": meta.get("venue")
         })
         dated.append((dt, rows[-1]))
+
     dated.sort(key=lambda x: x[0], reverse=True)
     recent = [row for _, row in dated[:limit]]
     wins = sum(1 for r in recent if r["won"] is True)
@@ -900,22 +913,29 @@ def _is_t20_series_name(series_name):
         or "twenty20" in s
         or "t20i" in s
         or "asian games" in s
-        or any(k in s for k in ("premier league", "premier league", "super league", "big bash", "cpl"))
+        or "north american cup" in s
+        or any(k in s for k in ("premier league", "super league", "big bash", "cpl"))
     )
 
 
 def _parse_cricbuzz_match_line(line, series_name):
     lower = line.lower()
-    if " vs " not in lower or "test" in lower or "odi" in lower or "t10" in lower or "hundred" in lower:
+    if " vs " not in lower or has_non_t20_format_marker(line):
         return None
 
-    # A detailed Cricbuzz line normally puts the match stage after the team
-    # names. Split before that stage so commas inside a team name are preserved.
+    # Split teams from the match-stage section. Support labels such as
+    # "One-off T20I", "Bronze Medal Match", "Final", and numbered matches.
     stage_re = re.compile(
-        r",\s*(?:\d+(?:st|nd|rd|th)\s+)?"
-        r"(?:t20i|t20|twenty20|final|semi\s*final|qualifier|eliminator|"
-        r"1st\s+semi\s+final|2nd\s+semi\s+final|bronze\s+medal\s+match|"
-        r"\d+st\s+match|\d+nd\s+match|\d+rd\s+match|\d+th\s+match)",
+        r",\s*(?:"
+        r"one[- ]?off\s+t20i|"
+        r"t20i|t20|twenty20|"
+        r"bronze\s+medal\s+match|"
+        r"gold\s+medal\s+match|"
+        r"final|semi[- ]?final|"
+        r"1st\s+semi[- ]?final|2nd\s+semi[- ]?final|"
+        r"qualifier(?:\s+\d+)?|eliminator|"
+        r"\d+(?:st|nd|rd|th)\s+match"
+        r")\b",
         re.I,
     )
     stage_match = stage_re.search(line)
@@ -930,12 +950,11 @@ def _parse_cricbuzz_match_line(line, series_name):
     if not team_a or not team_b:
         return None
 
-    t20_line = bool(re.search(r"\b(?:t20i|t20|twenty20)\b", line, re.I))
+    t20_line = bool(re.search(r"\b(?:one[- ]?off\s+)?(?:t20i|t20|twenty20)\b", line, re.I))
     t20_series = _is_t20_series_name(series_name)
     if not (t20_line or t20_series):
         return None
 
-    # Try to isolate venue from the visible text after the stage.
     venue = "UNKNOWN VENUE"
     if stage_match:
         after = clean_text(line[stage_match.end():])
@@ -1135,18 +1154,14 @@ def scrape_cricbuzz_via_text_relay():
 
                 low = line.lower()
                 if " vs " not in low:
-                    if (
+                    is_date_line = _extract_date_token(line)[0] is not None
+                    looks_like_series = (
                         len(line) < 180
-                        and (
-                            "t20" in low
-                            or "twenty20" in low
-                            or "asian games" in low
-                            or "premier league" in low
-                            or "super league" in low
-                            or "big bash" in low
-                            or "cpl" in low
-                        )
-                    ):
+                        and not is_date_line
+                        and "•" not in line
+                        and bool(re.search(r"\b20\d{2}(?:-\d{2})?\s*$", line))
+                    )
+                    if looks_like_series:
                         current_series = line
                     continue
 
