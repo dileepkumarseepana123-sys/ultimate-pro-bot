@@ -677,17 +677,45 @@ def geocode_venue(venue):
     key = re.sub(r"[^a-z0-9]+", "_", str(venue).lower()).strip("_")
     cache = CACHE_DIR / f"geo_{key}.json"
     if cache.exists():
-        try: return json.loads(cache.read_text(encoding="utf-8"))
-        except: pass
-    try:
-        r = SESSION.get("https://geocoding-api.open-meteo.com/v1/search", params={"name": venue, "count": 1, "format": "json"}, timeout=10)
-        results = r.json().get("results", [])
-        if results:
-            data = {"lat": results[0]["latitude"], "lon": results[0]["longitude"], "tz": results[0].get("timezone", "auto")}
-            cache.write_text(json.dumps(data), encoding="utf-8")
-            return data
-    except: pass
+        try:
+            return json.loads(cache.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
+    raw = clean_text(venue)
+    parts = [clean_text(x) for x in str(venue).split(",") if clean_text(x)]
+    queries = [raw]
+    if len(parts) >= 2:
+        # Ground, City, Region -> city is usually more useful than the region.
+        queries.append(parts[-2] if len(parts) >= 3 else parts[-1])
+        queries.append(parts[-1])
+
+    seen = set()
+    for q in queries:
+        nq = norm(q)
+        if not q or nq in seen:
+            continue
+        seen.add(nq)
+        try:
+            resp = SESSION.get(
+                "https://geocoding-api.open-meteo.com/v1/search",
+                params={"name": q, "count": 3, "format": "json"},
+                timeout=10,
+            )
+            results = resp.json().get("results", [])
+            if results:
+                data = {
+                    "lat": results[0]["latitude"],
+                    "lon": results[0]["longitude"],
+                    "tz": results[0].get("timezone", "auto"),
+                    "query": q,
+                }
+                cache.write_text(json.dumps(data), encoding="utf-8")
+                return data
+        except Exception:
+            continue
     return None
+
 
 def calculate_dew_risk(temp, dp, rh, wind, precip):
     if None in (temp, dp, rh):
@@ -979,6 +1007,73 @@ def _parse_cricbuzz_match_line(line, series_name):
     }
 
 
+def _extract_cricbuzz_match_url(raw_line):
+    text = str(raw_line or "")
+    m = re.search(
+        r"https?://(?:www\.)?cricbuzz\.com/"
+        r"(?:live-cricket-scores|live-cricket-scorecard|cricket-match-facts)/"
+        r"\d+/[^)\s]+",
+        text,
+        re.I,
+    )
+    return m.group(0) if m else None
+
+
+def _fetch_cricbuzz_match_meta(match_url, source_date):
+    if not match_url:
+        return {}
+    relay_url = "https://r.jina.ai/" + match_url
+    try:
+        r = SESSION.get(
+            relay_url,
+            headers={
+                "Accept": "text/plain",
+                "User-Agent": "Mozilla/5.0",
+                "x-engine": "browser",
+                "x-no-cache": "true",
+                "x-timeout": "20",
+            },
+            timeout=40,
+        )
+        r.raise_for_status()
+        text = r.text
+
+        # Prefer the explicit GMT line because it converts cleanly to IST and
+        # avoids ambiguity in local venue dates.
+        m = re.search(
+            r"Match starts at\s+([A-Za-z]{3})\s+(\d{1,2}),\s*"
+            r"(\d{1,2}:\d{2})\s+GMT",
+            text,
+            re.I,
+        )
+        dt = None
+        if m:
+            year = source_date.year if hasattr(source_date, "year") else local_today().year
+            dt = datetime.strptime(
+                f"{m.group(1)} {m.group(2)} {year} {m.group(3)}",
+                "%b %d %Y %H:%M",
+            ).replace(tzinfo=timezone.utc)
+        else:
+            # Match-facts pages also expose a line such as:
+            # Time 1:00 PM LOCAL, 4:00 AM GMT, 9:30 AM IST
+            tm = re.search(r"(\d{1,2}:\d{2}\s*[AP]M)\s+GMT", text, re.I)
+            if tm:
+                year = source_date.year if hasattr(source_date, "year") else local_today().year
+                dt = datetime.strptime(
+                    f"{source_date.strftime('%b %d')} {year} {tm.group(1).upper()}",
+                    "%b %d %Y %I:%M %p",
+                ).replace(tzinfo=timezone.utc)
+
+        meta = {"source_match_url": match_url}
+        if dt:
+            meta["dateTimeGMT"] = dt.isoformat()
+            meta["source_date"] = source_date.isoformat()
+        return meta
+    except Exception as exc:
+        print(f"[WARN] Match metadata relay failed for {match_url}: {exc}")
+        return {"source_match_url": match_url}
+
+
 def _strip_markdown_text(value):
     text = str(value or "")
     text = re.sub(r"!\[([^\]]*)\]\([^)]+\)", r"\1", text)
@@ -1061,10 +1156,14 @@ def scrape_cricbuzz_live_via_text_relay():
                 timeout=40,
             )
             r.raise_for_status()
-            lines = [_strip_markdown_text(x) for x in r.text.splitlines()]
-            lines = [x for x in lines if x]
+            pairs = []
+            for raw_line in r.text.splitlines():
+                cleaned = _strip_markdown_text(raw_line)
+                if cleaned:
+                    pairs.append((raw_line, cleaned))
+            lines = [cleaned for _, cleaned in pairs]
             current_series = "UNKNOWN SERIES"
-            for i, line in enumerate(lines):
+            for i, (raw_line, line) in enumerate(pairs):
                 low = line.lower()
                 if " vs " not in low:
                     if (
@@ -1100,6 +1199,9 @@ def scrape_cricbuzz_live_via_text_relay():
                     parsed["status"] = "LIVE / CURRENT"
                     if parsed.get("series_name") == "UNKNOWN SERIES":
                         parsed["series_name"] = current_series
+                    match_url = _extract_cricbuzz_match_url(raw_line)
+                    if match_url:
+                        parsed.update(_fetch_cricbuzz_match_meta(match_url, target_date))
                     rows.append(parsed)
 
             if rows:
@@ -1131,8 +1233,12 @@ def scrape_cricbuzz_via_text_relay():
                 timeout=40,
             )
             r.raise_for_status()
-            lines = [_strip_markdown_text(x) for x in r.text.splitlines()]
-            lines = [x for x in lines if x]
+            pairs = []
+            for raw_line in r.text.splitlines():
+                cleaned = _strip_markdown_text(raw_line)
+                if cleaned:
+                    pairs.append((raw_line, cleaned))
+            lines = [cleaned for _, cleaned in pairs]
 
             start_idx = None
             for idx, line in enumerate(lines):
@@ -1145,7 +1251,7 @@ def scrape_cricbuzz_via_text_relay():
 
             rows = []
             current_series = "UNKNOWN SERIES"
-            for line in lines[start_idx:]:
+            for raw_line, line in pairs[start_idx:]:
                 maybe_date, _ = _extract_date_token(line)
                 if maybe_date and maybe_date != target_date:
                     break
@@ -1168,6 +1274,9 @@ def scrape_cricbuzz_via_text_relay():
                 parsed = _parse_cricbuzz_match_line(line, current_series)
                 if parsed:
                     parsed["source_name"] = "Cricbuzz via text relay"
+                    match_url = _extract_cricbuzz_match_url(raw_line)
+                    if match_url:
+                        parsed.update(_fetch_cricbuzz_match_meta(match_url, target_date))
                     rows.append(parsed)
 
             if rows:
@@ -1612,6 +1721,7 @@ def run_scanner():
             "matchTimeIST": local_time,
             "series": m.get("series_name") or m.get("series") or "UNKNOWN SERIES",
             "sourceName": m.get("source_name") or "UNKNOWN SOURCE",
+            "sourceMatchUrl": m.get("source_match_url"),
             "sourceStatus": m.get("status") or "UNKNOWN",
             "marketTier": tier,
             "marketVisibility": "PREMIUM / LIKELY LISTED" if premium else "SCHEDULE-ONLY / LOW-VISIBILITY",
@@ -1642,6 +1752,30 @@ def run_scanner():
             "badgeClass": "badge-green" if verdict.startswith("🟢") else "badge-red" if verdict.startswith("🔴") else "badge-yellow",
             "strategyText": "; ".join(reasons) if reasons else "No critical pre-match data issues from available sources."
         })
+
+    # Re-add same-IST-day archived pre-match reports that have disappeared
+    # from the current upcoming/live source, so the dashboard remains complete.
+    current_keys = {
+        match_archive_key(
+            r.get("teamA"),
+            r.get("teamB"),
+            (r.get("sourceDate") or today.isoformat())[:10],
+        )
+        for r in output
+    }
+    for key, archived in prematch_archive.items():
+        if key in current_keys:
+            continue
+        if archived.get("matchDate") != today.isoformat():
+            continue
+        report = archived.get("report") or {}
+        if not report.get("standardT20"):
+            continue
+        restored = dict(report)
+        restored["sourceStatus"] = "ARCHIVED PRE-MATCH"
+        restored["preMatchSnapshot"] = archived
+        restored["archivedOnly"] = True
+        output.append(restored)
 
     # Freeze scheduled pre-match analysis, then attach it to the same fixture
     # after the match becomes live. This preserves the decision context.
