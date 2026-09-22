@@ -312,7 +312,9 @@
                     DEEP_INTEL_DB.forEach((m, idx) => {
                         let opt = document.createElement('option');
                         opt.value = idx;
-                        opt.innerText = `${m.teamA} vs ${m.teamB} (${m.venue})`;
+                        const score = (m.swingScore !== null && m.swingScore !== undefined) ? m.swingScore : '?';
+                        const gap = m.skillGap || 'UNKNOWN';
+                        opt.innerText = `[${score}/100 | ${gap}] ${m.teamA} vs ${m.teamB} (${m.venue})`;
                         select.appendChild(opt);
                     });
                 }
