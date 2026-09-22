@@ -353,12 +353,36 @@
                  <ul style="margin:6px 0 0 18px;">${reasons || '<li>None from current data</li>'}${warnings}</ul>`;
 
             const profile = data.tradeProfile || {};
-            const catalysts = (profile.swingCatalysts || []).map(x => '<li>' + x + '</li>').join('');
+            const balance = data.competitiveBalance || profile.competitiveBalance || {};
+            const catalysts = (profile.swingCatalysts || []).map(x => '<li>✅ ' + x + '</li>').join('');
+            const penalties = (profile.swingPenalties || []).map(x => '<li>⚠️ ' + x + '</li>').join('');
+            const h2h = balance.headToHead || {};
             const snap = data.preMatchSnapshot && data.preMatchSnapshot.report ? data.preMatchSnapshot.report : null;
+
+            let balanceLines = '';
+            balanceLines += '<strong>Skill gap:</strong> ' + (data.skillGap || balance.label || 'UNKNOWN') + '<br>';
+            balanceLines += '<strong>Competitive Balance:</strong> ' + (balance.balanceScore ?? 'UNKNOWN') + '/100<br>';
+            balanceLines += '<strong>Derived Elo:</strong> ' +
+                (balance.teamAElo ?? 'UNKNOWN') + ' vs ' + (balance.teamBElo ?? 'UNKNOWN') +
+                (balance.eloGap != null ? ' (gap ' + balance.eloGap + ')' : '') + '<br>';
+            balanceLines += '<strong>Recent win rate:</strong> ' +
+                (balance.recentWinRateA ?? 'UNKNOWN') + '% vs ' + (balance.recentWinRateB ?? 'UNKNOWN') + '%<br>';
+            balanceLines += '<strong>H2H sample:</strong> ' + (h2h.matches ?? 0) + ' matches' +
+                ((h2h.matches || 0) > 0 ? ' — ' + (h2h.teamAWins ?? 0) + ' vs ' + (h2h.teamBWins ?? 0) + ' wins' : '') + '<br>';
+            if (balance.historicallyStrongerSide) {
+                balanceLines += '<strong>Historically stronger in available data:</strong> ' + balance.historicallyStrongerSide + '<br>';
+            }
+
             document.getElementById('metricTradeProfile').innerHTML =
-                '<strong>Pre-match market profile:</strong> ' + (profile.swingProfile || 'UNKNOWN') + '<br>' +
-                '<strong>Data completeness:</strong> ' + (profile.dataCompletenessPct ?? 'UNKNOWN') + '%<br>' +
+                '<div style="font-size:1.05em; margin-bottom:6px;"><strong>Swing Score:</strong> ' +
+                (profile.swingScore ?? data.swingScore ?? 'UNKNOWN') + '/100</div>' +
+                '<strong>Strategy label:</strong> ' + (profile.strategyLabel || data.strategyLabel || 'UNKNOWN') + '<br>' +
+                '<strong>Pre-match profile:</strong> ' + (profile.swingProfile || 'UNKNOWN') + '<br>' +
+                '<strong>Data completeness:</strong> ' + (profile.dataCompletenessPct ?? 'UNKNOWN') + '%<br><br>' +
+                balanceLines +
+                '<span style="color:#94a3b8;">Rating source: ' + (balance.ratingSource || 'UNKNOWN') + '</span><br><br>' +
                 '<strong>Swing catalysts:</strong><ul style="margin:6px 0 0 18px;">' + (catalysts || '<li>None confirmed</li>') + '</ul>' +
+                '<strong>Penalties:</strong><ul style="margin:6px 0 0 18px;">' + (penalties || '<li>None confirmed</li>') + '</ul>' +
                 (snap ? '<div style="margin-top:8px; color:#facc15;"><strong>Frozen pre-match snapshot available.</strong> Live status does not overwrite the pre-match view.</div>' : '');
 
             dashboard.style.display = 'block';
