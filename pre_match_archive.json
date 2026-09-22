@@ -219,9 +219,9 @@
             "name": "Pakistan Women vs Bangladesh Women,Bronze Medal Match Korogi Sports Park , Nisshin",
             "matchType": "T20",
             "venue": "Korogi Sports Park , Nisshin",
-            "dateTimeGMT": null,
+            "dateTimeGMT": "2026-09-22T00:00:00+00:00",
             "sourceDate": "2026-09-22",
-            "matchTimeIST": "UNKNOWN",
+            "matchTimeIST": "2026-09-22T05:30:00+05:30",
             "series": "Women's Asian Games 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceStatus": "ARCHIVED PRE-MATCH",
@@ -297,7 +297,10 @@
             ],
             "badgeClass": "badge-red",
             "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR Pakistan Women; LIMITED RECENT T20 DATA FOR Bangladesh Women",
-            "archivedOnly": true
+            "archivedOnly": true,
+            "sourceMatchUrl": "https://www.cricbuzz.com/cricket-match-facts/170960/pakw-vs-banw-bronze-medal-match-womens-asian-games-2026",
+            "indiaDate": "2026-09-22",
+            "metadataRetrofitted": true
         }
     },
     "india women|sri lanka women|2026-09-22": {
@@ -309,9 +312,9 @@
             "name": "India Women vs Sri Lanka Women,Final Korogi Sports Park , Nisshin",
             "matchType": "T20",
             "venue": "Korogi Sports Park , Nisshin",
-            "dateTimeGMT": null,
+            "dateTimeGMT": "2026-09-22T05:00:00+00:00",
             "sourceDate": "2026-09-22",
-            "matchTimeIST": "UNKNOWN",
+            "matchTimeIST": "2026-09-22T10:30:00+05:30",
             "series": "Women's Asian Games 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceStatus": "ARCHIVED PRE-MATCH",
@@ -507,7 +510,10 @@
             ],
             "badgeClass": "badge-red",
             "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN",
-            "archivedOnly": true
+            "archivedOnly": true,
+            "sourceMatchUrl": "https://www.cricbuzz.com/cricket-match-facts/170963/indw-vs-slw-final-womens-asian-games-2026",
+            "indiaDate": "2026-09-22",
+            "metadataRetrofitted": true
         }
     },
     "ghana|sierra leone|2026-09-22": {
@@ -689,7 +695,7 @@
                 "humidity_pct": 78,
                 "dew_point_c": 23.2,
                 "rain_probability_pct": 47,
-                "precipitation_mm": 0.0,
+                "precipitation_mm": 0,
                 "wind_kmh": 17.8,
                 "dew_risk": "LOW",
                 "rain_risk": "MEDIUM"
@@ -705,19 +711,19 @@
             "venueIntel": {
                 "status": "OK",
                 "matches": 26,
-                "venue_confidence": 1.0,
+                "venue_confidence": 1,
                 "avg_first_innings": 119.77,
                 "powerplay_avg": 36.27,
-                "chasing_win_pct": 36.0,
+                "chasing_win_pct": 36,
                 "mid_overs_7_14_wickets": 141,
-                "spin_classification_pct": 0.0,
+                "spin_classification_pct": 0,
                 "spinner_7_14_wickets": null,
                 "spin_wicket_share_pct": null,
                 "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
             },
             "midOversWickets": 141,
             "spinnerWickets7to14": null,
-            "spinClassificationPct": 0.0,
+            "spinClassificationPct": 0,
             "verdict": "🔴 HIGH-CAUTION / NO-BET",
             "noBetReasons": [
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
@@ -785,7 +791,7 @@
                 "humidity_pct": 45,
                 "dew_point_c": 11.4,
                 "rain_probability_pct": 0,
-                "precipitation_mm": 0.0,
+                "precipitation_mm": 0,
                 "wind_kmh": 14.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
@@ -801,19 +807,19 @@
             "venueIntel": {
                 "status": "OK",
                 "matches": 13,
-                "venue_confidence": 1.0,
+                "venue_confidence": 1,
                 "avg_first_innings": 150.62,
                 "powerplay_avg": 40.85,
                 "chasing_win_pct": 45.45,
                 "mid_overs_7_14_wickets": 38,
-                "spin_classification_pct": 0.0,
+                "spin_classification_pct": 0,
                 "spinner_7_14_wickets": null,
                 "spin_wicket_share_pct": null,
                 "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
             },
             "midOversWickets": 38,
             "spinnerWickets7to14": null,
-            "spinClassificationPct": 0.0,
+            "spinClassificationPct": 0,
             "verdict": "🔴 HIGH-CAUTION / NO-BET",
             "noBetReasons": [
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
@@ -837,9 +843,9 @@
             "name": "Japan vs India,One-off T20I Sano International Cricket Ground , Sano, Kanto",
             "matchType": "T20",
             "venue": "Sano International Cricket Ground , Sano, Kanto",
-            "dateTimeGMT": null,
+            "dateTimeGMT": "2026-09-22T04:00:00+00:00",
             "sourceDate": "2026-09-22",
-            "matchTimeIST": "UNKNOWN",
+            "matchTimeIST": "2026-09-22T09:30:00+05:30",
             "series": "India tour of Japan, 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceStatus": "ARCHIVED PRE-MATCH",
@@ -1028,7 +1034,10 @@
             ],
             "badgeClass": "badge-red",
             "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN",
-            "archivedOnly": true
+            "archivedOnly": true,
+            "sourceMatchUrl": "https://www.cricbuzz.com/cricket-match-facts/171477/jpn-vs-ind-one-off-t20i-india-tour-of-japan-2026",
+            "indiaDate": "2026-09-22",
+            "metadataRetrofitted": true
         }
     }
 }
