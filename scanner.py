@@ -1073,25 +1073,22 @@ def _fetch_cricbuzz_match_meta(match_url, source_date):
                     "%b %d %Y %H:%M",
                 ).replace(tzinfo=timezone.utc)
             else:
-                # Match-facts pages normally expose GMT in the Time row.
+                # Only trust the explicitly labelled match Time row. Do not
+                # grab an arbitrary GMT timestamp from videos/footer content.
                 tm = re.search(
-                    r"(\d{1,2}:\d{2})\s*([AP]M)?\s+GMT",
+                    r"\bTime\s+"
+                    r"(?:\d{1,2}:\d{2}\s*[AP]M\s+LOCAL,\s*)?"
+                    r"(\d{1,2}:\d{2})\s*([AP]M)\s+GMT\b",
                     text,
                     re.I,
                 )
                 if tm:
                     year = source_date.year if hasattr(source_date, "year") else local_today().year
-                    if tm.group(2):
-                        dt = datetime.strptime(
-                            f"{source_date.strftime('%b %d')} {year} "
-                            f"{tm.group(1)} {tm.group(2).upper()}",
-                            "%b %d %Y %I:%M %p",
-                        ).replace(tzinfo=timezone.utc)
-                    else:
-                        dt = datetime.strptime(
-                            f"{source_date.strftime('%b %d')} {year} {tm.group(1)}",
-                            "%b %d %Y %H:%M",
-                        ).replace(tzinfo=timezone.utc)
+                    dt = datetime.strptime(
+                        f"{source_date.strftime('%b %d')} {year} "
+                        f"{tm.group(1)} {tm.group(2).upper()}",
+                        "%b %d %Y %I:%M %p",
+                    ).replace(tzinfo=timezone.utc)
 
             if dt:
                 meta["dateTimeGMT"] = dt.isoformat()
