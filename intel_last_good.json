@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-21T18:45:43.338458+00:00",
+    "last_updated": "2026-09-22T00:45:27.210793+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -37,224 +37,26 @@
     },
     "discovery": {
         "live_text_relay_rows": 0,
-        "schedule_text_relay_rows": 7,
-        "text_relay_rows": 7,
-        "text_relay_t20_rows": 7,
-        "text_relay_today_t20_rows": 7,
+        "schedule_text_relay_rows": 6,
+        "text_relay_rows": 6,
+        "text_relay_t20_rows": 6,
+        "text_relay_today_t20_rows": 6,
         "cricscore_rows": 0,
         "cricscore_t20_rows": 0,
         "cricscore_today_t20_rows": 0,
         "cricketdata_rows": 0,
         "cricketdata_t20_rows": 0,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 7,
-        "final_reports": 7
+        "merged_candidates": 6,
+        "final_reports": 6
     },
     "summary": {
-        "today_t20_count": 7,
-        "no_bet_or_high_caution": 7,
+        "today_t20_count": 6,
+        "no_bet_or_high_caution": 6,
         "wait": 0,
         "data_clear": 0
     },
     "matches": [
-        {
-            "teamA": "Bahamas",
-            "teamB": "Cayman Islands",
-            "name": "Bahamas vs Cayman Islands,2nd Match Jimmy Powell Oval , George Town",
-            "matchType": "T20",
-            "venue": "Jimmy Powell Oval , George Town",
-            "dateTimeGMT": null,
-            "sourceDate": "2026-09-22",
-            "matchTimeIST": "UNKNOWN",
-            "series": "CSA T20 Challenge 2026",
-            "sourceName": "Cricbuzz via text relay",
-            "sourceStatus": "Scheduled",
-            "marketTier": "LOW/UNKNOWN MARKET TIER",
-            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
-            "liquidityProxyOnly": true,
-            "premiumMarketProxy": false,
-            "tradeProfile": {
-                "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 20,
-                "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
-                "swingCatalysts": [],
-                "equalProfitTargetRequiresEntryOdds": true,
-                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
-            },
-            "preMatchSnapshot": null,
-            "standardT20": true,
-            "playingXI": {
-                "status": "NOT CONFIRMED",
-                "teams": {},
-                "source": "Not queried"
-            },
-            "formA": {
-                "matches": 10,
-                "wins": 2,
-                "losses": 7,
-                "recent": [
-                    {
-                        "date": "2026-06-27",
-                        "winner": "Bahamas",
-                        "won": true,
-                        "venue": "White Hill Field, Sandys Parish"
-                    },
-                    {
-                        "date": "2026-06-25",
-                        "winner": "Bahamas",
-                        "won": true,
-                        "venue": "White Hill Field, Sandys Parish"
-                    },
-                    {
-                        "date": "2026-06-24",
-                        "winner": "Panama",
-                        "won": false,
-                        "venue": "White Hill Field, Sandys Parish"
-                    },
-                    {
-                        "date": "2026-06-21",
-                        "winner": null,
-                        "won": null,
-                        "venue": "White Hill Field, Sandys Parish"
-                    },
-                    {
-                        "date": "2025-06-22",
-                        "winner": "Cayman Islands",
-                        "won": false,
-                        "venue": "Maple Leaf North-West Ground, King City"
-                    },
-                    {
-                        "date": "2025-06-21",
-                        "winner": "Canada",
-                        "won": false,
-                        "venue": "Maple Leaf North-West Ground, King City"
-                    },
-                    {
-                        "date": "2025-06-19",
-                        "winner": "Bermuda",
-                        "won": false,
-                        "venue": "Maple Leaf North-West Ground, King City"
-                    },
-                    {
-                        "date": "2025-06-18",
-                        "winner": "Canada",
-                        "won": false,
-                        "venue": "Maple Leaf North-West Ground, King City"
-                    },
-                    {
-                        "date": "2025-06-16",
-                        "winner": "Bermuda",
-                        "won": false,
-                        "venue": "Maple Leaf North-West Ground, King City"
-                    },
-                    {
-                        "date": "2025-06-15",
-                        "winner": "Cayman Islands",
-                        "won": false,
-                        "venue": "Maple Leaf North-West Ground, King City"
-                    }
-                ]
-            },
-            "formB": {
-                "matches": 10,
-                "wins": 8,
-                "losses": 2,
-                "recent": [
-                    {
-                        "date": "2026-03-15",
-                        "winner": "Cayman Islands",
-                        "won": true,
-                        "venue": "Jimmy Powell Oval, Cayman Islands"
-                    },
-                    {
-                        "date": "2026-03-14",
-                        "winner": "Cayman Islands",
-                        "won": true,
-                        "venue": "Jimmy Powell Oval, Cayman Islands"
-                    },
-                    {
-                        "date": "2026-03-12",
-                        "winner": "Cayman Islands",
-                        "won": true,
-                        "venue": "Jimmy Powell Oval, Cayman Islands"
-                    },
-                    {
-                        "date": "2026-03-11",
-                        "winner": "Cayman Islands",
-                        "won": true,
-                        "venue": "Jimmy Powell Oval, Cayman Islands"
-                    },
-                    {
-                        "date": "2026-03-09",
-                        "winner": "Cayman Islands",
-                        "won": true,
-                        "venue": "Jimmy Powell Oval, Cayman Islands"
-                    },
-                    {
-                        "date": "2026-03-08",
-                        "winner": "Cayman Islands",
-                        "won": true,
-                        "venue": "Jimmy Powell Oval, Cayman Islands"
-                    },
-                    {
-                        "date": "2025-06-22",
-                        "winner": "Cayman Islands",
-                        "won": true,
-                        "venue": "Maple Leaf North-West Ground, King City"
-                    },
-                    {
-                        "date": "2025-06-21",
-                        "winner": "Cayman Islands",
-                        "won": true,
-                        "venue": "Maple Leaf North-West Ground, King City"
-                    },
-                    {
-                        "date": "2025-06-19",
-                        "winner": "Canada",
-                        "won": false,
-                        "venue": "Maple Leaf North-West Ground, King City"
-                    },
-                    {
-                        "date": "2025-06-18",
-                        "winner": "Bermuda",
-                        "won": false,
-                        "venue": "Maple Leaf North-West Ground, King City"
-                    }
-                ]
-            },
-            "weather": {
-                "status": "UNKNOWN",
-                "reason": "Match time unavailable"
-            },
-            "weatherText": "NO DATA",
-            "dewRisk": "UNKNOWN",
-            "tossBias": "UNKNOWN",
-            "tossTrend": "Historical venue trend",
-            "ppScoreAvg": "UNKNOWN",
-            "ppRunRate": "Historical first-innings PP",
-            "spinIndex": "UNKNOWN",
-            "spinNote": "UNKNOWN",
-            "venueIntel": {
-                "status": "NO DATA / UNKNOWN VENUE",
-                "matches": 0,
-                "venue_confidence": 0.656
-            },
-            "midOversWickets": null,
-            "spinnerWickets7to14": null,
-            "spinClassificationPct": null,
-            "verdict": "🔴 HIGH-CAUTION / NO-BET",
-            "noBetReasons": [
-                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
-                "NO DATA / UNKNOWN VENUE",
-                "PLAYING XI NOT CONFIRMED",
-                "WEATHER DATA UNKNOWN"
-            ],
-            "warnings": [
-                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
-            ],
-            "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN"
-        },
         {
             "teamA": "Pakistan Women",
             "teamB": "Bangladesh Women",
