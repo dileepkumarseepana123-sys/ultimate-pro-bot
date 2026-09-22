@@ -502,7 +502,7 @@
         }
     },
     "india women|sri lanka women|2026-09-22": {
-        "capturedAt": "2026-09-22T00:45:27.209336+00:00",
+        "capturedAt": "2026-09-22T03:11:47.533660+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "India Women",
@@ -522,7 +522,7 @@
             "premiumMarketProxy": false,
             "tradeProfile": {
                 "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 20,
+                "dataCompletenessPct": 40,
                 "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
                 "swingCatalysts": [],
                 "equalProfitTargetRequiresEntryOdds": true,
@@ -536,16 +536,138 @@
                 "source": "Not queried"
             },
             "formA": {
-                "matches": 0,
-                "wins": 0,
-                "losses": 0,
-                "recent": []
+                "matches": 10,
+                "wins": 8,
+                "losses": 2,
+                "recent": [
+                    {
+                        "date": "2026-09-13",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-10",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-05",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-03",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-08-30",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-06-28",
+                        "winner": "Australia",
+                        "won": false,
+                        "venue": "Lord's, London"
+                    },
+                    {
+                        "date": "2026-06-25",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Old Trafford, Manchester"
+                    },
+                    {
+                        "date": "2026-06-21",
+                        "winner": "South Africa",
+                        "won": false,
+                        "venue": "Old Trafford, Manchester"
+                    },
+                    {
+                        "date": "2026-06-17",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Headingley, Leeds"
+                    },
+                    {
+                        "date": "2026-06-14",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Edgbaston, Birmingham"
+                    }
+                ]
             },
             "formB": {
-                "matches": 0,
-                "wins": 0,
-                "losses": 0,
-                "recent": []
+                "matches": 10,
+                "wins": 8,
+                "losses": 2,
+                "recent": [
+                    {
+                        "date": "2026-09-13",
+                        "winner": "India",
+                        "won": false,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-11",
+                        "winner": "Sri Lanka",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-06",
+                        "winner": "Sri Lanka",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-02",
+                        "winner": "Sri Lanka",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-08-29",
+                        "winner": "Sri Lanka",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-08-04",
+                        "winner": "Pakistan",
+                        "won": false,
+                        "venue": "Rangiri Dambulla International Stadium"
+                    },
+                    {
+                        "date": "2026-08-02",
+                        "winner": "Sri Lanka",
+                        "won": true,
+                        "venue": "Rangiri Dambulla International Stadium"
+                    },
+                    {
+                        "date": "2026-07-31",
+                        "winner": "Sri Lanka",
+                        "won": true,
+                        "venue": "Rangiri Dambulla International Stadium"
+                    },
+                    {
+                        "date": "2026-06-26",
+                        "winner": "Sri Lanka",
+                        "won": true,
+                        "venue": "Old Trafford, Manchester"
+                    },
+                    {
+                        "date": "2026-06-23",
+                        "winner": "Sri Lanka",
+                        "won": true,
+                        "venue": "County Ground, Bristol"
+                    }
+                ]
             },
             "weather": {
                 "status": "UNKNOWN",
@@ -579,15 +701,13 @@
             "noBetReasons": [
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
                 "PLAYING XI NOT CONFIRMED",
-                "WEATHER DATA UNKNOWN",
-                "LIMITED RECENT T20 DATA FOR India Women",
-                "LIMITED RECENT T20 DATA FOR Sri Lanka Women"
+                "WEATHER DATA UNKNOWN"
             ],
             "warnings": [
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR India Women; LIMITED RECENT T20 DATA FOR Sri Lanka Women"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN"
         }
     },
     "new south wales|queensland|2026-09-22": {
@@ -822,7 +942,7 @@
         }
     },
     "ghana|sierra leone|2026-09-22": {
-        "capturedAt": "2026-09-22T00:45:27.209380+00:00",
+        "capturedAt": "2026-09-22T03:11:47.533676+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "Ghana",
@@ -1033,7 +1153,7 @@
         }
     },
     "limpopo|northern cape|2026-09-22": {
-        "capturedAt": "2026-09-22T00:45:27.209395+00:00",
+        "capturedAt": "2026-09-22T03:11:47.533691+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "Northern Cape",
@@ -1119,6 +1239,208 @@
             ],
             "badgeClass": "badge-red",
             "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR Northern Cape; LIMITED RECENT T20 DATA FOR Limpopo"
+        }
+    },
+    "india|japan|2026-09-22": {
+        "capturedAt": "2026-09-22T03:11:47.533630+00:00",
+        "matchDate": "2026-09-22",
+        "report": {
+            "teamA": "Japan",
+            "teamB": "India",
+            "name": "Japan vs India,One-off T20I Sano International Cricket Ground , Sano, Kanto",
+            "matchType": "T20",
+            "venue": "Sano International Cricket Ground , Sano, Kanto",
+            "dateTimeGMT": null,
+            "sourceDate": "2026-09-22",
+            "matchTimeIST": "UNKNOWN",
+            "series": "India tour of Japan, 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "sourceStatus": "Scheduled",
+            "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": false,
+            "tradeProfile": {
+                "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 20,
+                "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
+                "swingCatalysts": [],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "formA": {
+                "matches": 10,
+                "wins": 6,
+                "losses": 4,
+                "recent": [
+                    {
+                        "date": "2026-09-13",
+                        "winner": "Japan",
+                        "won": true,
+                        "venue": "Sano International Cricket Ground"
+                    },
+                    {
+                        "date": "2026-09-12",
+                        "winner": "Malaysia",
+                        "won": false,
+                        "venue": "Sano International Cricket Ground"
+                    },
+                    {
+                        "date": "2026-06-10",
+                        "winner": "Hong Kong",
+                        "won": false,
+                        "venue": "YSD-UKM Cricket Oval, Bangi"
+                    },
+                    {
+                        "date": "2026-06-09",
+                        "winner": "Thailand",
+                        "won": false,
+                        "venue": "Bayuemas Oval, Kuala Lumpur"
+                    },
+                    {
+                        "date": "2026-06-07",
+                        "winner": "Japan",
+                        "won": true,
+                        "venue": "Bayuemas Oval, Kuala Lumpur"
+                    },
+                    {
+                        "date": "2026-06-06",
+                        "winner": "Japan",
+                        "won": true,
+                        "venue": "Selangor Turf Club, Kuala Lumpur"
+                    },
+                    {
+                        "date": "2026-06-04",
+                        "winner": "Japan",
+                        "won": true,
+                        "venue": "Bayuemas Oval, Kuala Lumpur"
+                    },
+                    {
+                        "date": "2026-05-18",
+                        "winner": "Japan",
+                        "won": true,
+                        "venue": "Sano International Cricket Ground"
+                    },
+                    {
+                        "date": "2026-05-16",
+                        "winner": "Japan",
+                        "won": true,
+                        "venue": "Sano International Cricket Ground"
+                    },
+                    {
+                        "date": "2026-05-14",
+                        "winner": "Cook Islands",
+                        "won": false,
+                        "venue": "Sano International Cricket Ground"
+                    }
+                ]
+            },
+            "formB": {
+                "matches": 10,
+                "wins": 8,
+                "losses": 2,
+                "recent": [
+                    {
+                        "date": "2026-09-13",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-10",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-05",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-03",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-08-30",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-07-26",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Harare Sports Club"
+                    },
+                    {
+                        "date": "2026-07-25",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Harare Sports Club"
+                    },
+                    {
+                        "date": "2026-07-23",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Harare Sports Club"
+                    },
+                    {
+                        "date": "2026-07-11",
+                        "winner": "England",
+                        "won": false,
+                        "venue": "The Rose Bowl, Southampton"
+                    },
+                    {
+                        "date": "2026-07-09",
+                        "winner": "England",
+                        "won": false,
+                        "venue": "County Ground, Bristol"
+                    }
+                ]
+            },
+            "weather": {
+                "status": "UNKNOWN",
+                "reason": "Match time unavailable"
+            },
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
+            "tossBias": "UNKNOWN",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "UNKNOWN",
+            "ppRunRate": "Historical first-innings PP",
+            "spinIndex": "UNKNOWN",
+            "spinNote": "UNKNOWN",
+            "venueIntel": {
+                "status": "NO DATA / UNKNOWN VENUE",
+                "matches": 0,
+                "venue_confidence": 0.861
+            },
+            "midOversWickets": null,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": null,
+            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "noBetReasons": [
+                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                "NO DATA / UNKNOWN VENUE",
+                "PLAYING XI NOT CONFIRMED",
+                "WEATHER DATA UNKNOWN"
+            ],
+            "warnings": [
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-red",
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN"
         }
     }
 }

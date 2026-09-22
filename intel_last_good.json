@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-22T00:45:27.210793+00:00",
+    "last_updated": "2026-09-22T03:11:47.535352+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -37,291 +37,36 @@
     },
     "discovery": {
         "live_text_relay_rows": 0,
-        "schedule_text_relay_rows": 6,
-        "text_relay_rows": 6,
-        "text_relay_t20_rows": 6,
-        "text_relay_today_t20_rows": 6,
+        "schedule_text_relay_rows": 4,
+        "text_relay_rows": 4,
+        "text_relay_t20_rows": 4,
+        "text_relay_today_t20_rows": 4,
         "cricscore_rows": 0,
         "cricscore_t20_rows": 0,
         "cricscore_today_t20_rows": 0,
         "cricketdata_rows": 0,
         "cricketdata_t20_rows": 0,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 6,
-        "final_reports": 6
+        "merged_candidates": 4,
+        "final_reports": 4
     },
     "summary": {
-        "today_t20_count": 6,
-        "no_bet_or_high_caution": 6,
+        "today_t20_count": 4,
+        "no_bet_or_high_caution": 4,
         "wait": 0,
         "data_clear": 0
     },
     "matches": [
         {
-            "teamA": "Pakistan Women",
-            "teamB": "Bangladesh Women",
-            "name": "Pakistan Women vs Bangladesh Women,Bronze Medal Match Korogi Sports Park , Nisshin",
-            "matchType": "T20",
-            "venue": "Korogi Sports Park , Nisshin",
-            "dateTimeGMT": null,
-            "sourceDate": "2026-09-22",
-            "matchTimeIST": "UNKNOWN",
-            "series": "Women's Asian Games 2026",
-            "sourceName": "Cricbuzz via text relay",
-            "sourceStatus": "Scheduled",
-            "marketTier": "LOW/UNKNOWN MARKET TIER",
-            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
-            "liquidityProxyOnly": true,
-            "premiumMarketProxy": false,
-            "tradeProfile": {
-                "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 20,
-                "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
-                "swingCatalysts": [],
-                "equalProfitTargetRequiresEntryOdds": true,
-                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
-            },
-            "preMatchSnapshot": null,
-            "standardT20": true,
-            "playingXI": {
-                "status": "NOT CONFIRMED",
-                "teams": {},
-                "source": "Not queried"
-            },
-            "formA": {
-                "matches": 0,
-                "wins": 0,
-                "losses": 0,
-                "recent": []
-            },
-            "formB": {
-                "matches": 0,
-                "wins": 0,
-                "losses": 0,
-                "recent": []
-            },
-            "weather": {
-                "status": "UNKNOWN",
-                "reason": "Match time unavailable"
-            },
-            "weatherText": "NO DATA",
-            "dewRisk": "UNKNOWN",
-            "tossBias": "42.86% Chasing Wins",
-            "tossTrend": "Historical venue trend",
-            "ppScoreAvg": "39.86",
-            "ppRunRate": "Historical first-innings PP",
-            "spinIndex": "UNKNOWN",
-            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
-            "venueIntel": {
-                "status": "OK",
-                "matches": 7,
-                "venue_confidence": 1.0,
-                "avg_first_innings": 129.29,
-                "powerplay_avg": 39.86,
-                "chasing_win_pct": 42.86,
-                "mid_overs_7_14_wickets": 32,
-                "spin_classification_pct": 0.0,
-                "spinner_7_14_wickets": null,
-                "spin_wicket_share_pct": null,
-                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
-            },
-            "midOversWickets": 32,
-            "spinnerWickets7to14": null,
-            "spinClassificationPct": 0.0,
-            "verdict": "🔴 HIGH-CAUTION / NO-BET",
-            "noBetReasons": [
-                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
-                "PLAYING XI NOT CONFIRMED",
-                "WEATHER DATA UNKNOWN",
-                "LIMITED RECENT T20 DATA FOR Pakistan Women",
-                "LIMITED RECENT T20 DATA FOR Bangladesh Women"
-            ],
-            "warnings": [
-                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
-            ],
-            "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR Pakistan Women; LIMITED RECENT T20 DATA FOR Bangladesh Women"
-        },
-        {
-            "teamA": "India Women",
-            "teamB": "Sri Lanka Women",
-            "name": "India Women vs Sri Lanka Women,Final Korogi Sports Park , Nisshin",
-            "matchType": "T20",
-            "venue": "Korogi Sports Park , Nisshin",
-            "dateTimeGMT": null,
-            "sourceDate": "2026-09-22",
-            "matchTimeIST": "UNKNOWN",
-            "series": "Women's Asian Games 2026",
-            "sourceName": "Cricbuzz via text relay",
-            "sourceStatus": "Scheduled",
-            "marketTier": "LOW/UNKNOWN MARKET TIER",
-            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
-            "liquidityProxyOnly": true,
-            "premiumMarketProxy": false,
-            "tradeProfile": {
-                "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 20,
-                "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
-                "swingCatalysts": [],
-                "equalProfitTargetRequiresEntryOdds": true,
-                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
-            },
-            "preMatchSnapshot": null,
-            "standardT20": true,
-            "playingXI": {
-                "status": "NOT CONFIRMED",
-                "teams": {},
-                "source": "Not queried"
-            },
-            "formA": {
-                "matches": 0,
-                "wins": 0,
-                "losses": 0,
-                "recent": []
-            },
-            "formB": {
-                "matches": 0,
-                "wins": 0,
-                "losses": 0,
-                "recent": []
-            },
-            "weather": {
-                "status": "UNKNOWN",
-                "reason": "Match time unavailable"
-            },
-            "weatherText": "NO DATA",
-            "dewRisk": "UNKNOWN",
-            "tossBias": "42.86% Chasing Wins",
-            "tossTrend": "Historical venue trend",
-            "ppScoreAvg": "39.86",
-            "ppRunRate": "Historical first-innings PP",
-            "spinIndex": "UNKNOWN",
-            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
-            "venueIntel": {
-                "status": "OK",
-                "matches": 7,
-                "venue_confidence": 1.0,
-                "avg_first_innings": 129.29,
-                "powerplay_avg": 39.86,
-                "chasing_win_pct": 42.86,
-                "mid_overs_7_14_wickets": 32,
-                "spin_classification_pct": 0.0,
-                "spinner_7_14_wickets": null,
-                "spin_wicket_share_pct": null,
-                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
-            },
-            "midOversWickets": 32,
-            "spinnerWickets7to14": null,
-            "spinClassificationPct": 0.0,
-            "verdict": "🔴 HIGH-CAUTION / NO-BET",
-            "noBetReasons": [
-                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
-                "PLAYING XI NOT CONFIRMED",
-                "WEATHER DATA UNKNOWN",
-                "LIMITED RECENT T20 DATA FOR India Women",
-                "LIMITED RECENT T20 DATA FOR Sri Lanka Women"
-            ],
-            "warnings": [
-                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
-            ],
-            "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR India Women; LIMITED RECENT T20 DATA FOR Sri Lanka Women"
-        },
-        {
-            "teamA": "Queensland",
-            "teamB": "New South Wales",
-            "name": "Queensland vs New South Wales,4th Match Allan Border Field , Brisbane",
-            "matchType": "T20",
-            "venue": "Allan Border Field , Brisbane",
-            "dateTimeGMT": null,
-            "sourceDate": "2026-09-22",
-            "matchTimeIST": "UNKNOWN",
-            "series": "Women's Asian Games 2026",
-            "sourceName": "Cricbuzz via text relay",
-            "sourceStatus": "Scheduled",
-            "marketTier": "LOW/UNKNOWN MARKET TIER",
-            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
-            "liquidityProxyOnly": true,
-            "premiumMarketProxy": false,
-            "tradeProfile": {
-                "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 20,
-                "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
-                "swingCatalysts": [],
-                "equalProfitTargetRequiresEntryOdds": true,
-                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
-            },
-            "preMatchSnapshot": null,
-            "standardT20": true,
-            "playingXI": {
-                "status": "NOT CONFIRMED",
-                "teams": {},
-                "source": "Not queried"
-            },
-            "formA": {
-                "matches": 0,
-                "wins": 0,
-                "losses": 0,
-                "recent": []
-            },
-            "formB": {
-                "matches": 0,
-                "wins": 0,
-                "losses": 0,
-                "recent": []
-            },
-            "weather": {
-                "status": "UNKNOWN",
-                "reason": "Match time unavailable"
-            },
-            "weatherText": "NO DATA",
-            "dewRisk": "UNKNOWN",
-            "tossBias": "50.0% Chasing Wins",
-            "tossTrend": "Historical venue trend",
-            "ppScoreAvg": "44.41",
-            "ppRunRate": "Historical first-innings PP",
-            "spinIndex": "UNKNOWN",
-            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
-            "venueIntel": {
-                "status": "OK",
-                "matches": 22,
-                "venue_confidence": 1.0,
-                "avg_first_innings": 148.95,
-                "powerplay_avg": 44.41,
-                "chasing_win_pct": 50.0,
-                "mid_overs_7_14_wickets": 108,
-                "spin_classification_pct": 0.0,
-                "spinner_7_14_wickets": null,
-                "spin_wicket_share_pct": null,
-                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
-            },
-            "midOversWickets": 108,
-            "spinnerWickets7to14": null,
-            "spinClassificationPct": 0.0,
-            "verdict": "🔴 HIGH-CAUTION / NO-BET",
-            "noBetReasons": [
-                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
-                "PLAYING XI NOT CONFIRMED",
-                "WEATHER DATA UNKNOWN",
-                "LIMITED RECENT T20 DATA FOR Queensland",
-                "LIMITED RECENT T20 DATA FOR New South Wales"
-            ],
-            "warnings": [
-                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
-            ],
-            "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR Queensland; LIMITED RECENT T20 DATA FOR New South Wales"
-        },
-        {
             "teamA": "Japan",
-            "teamB": "India,One-off T20I Sano International Cricket Ground , Sano, Kanto",
+            "teamB": "India",
             "name": "Japan vs India,One-off T20I Sano International Cricket Ground , Sano, Kanto",
             "matchType": "T20",
-            "venue": "One-off T20I Sano International Cricket Ground , Sano, Kanto",
+            "venue": "Sano International Cricket Ground , Sano, Kanto",
             "dateTimeGMT": null,
             "sourceDate": "2026-09-22",
             "matchTimeIST": "UNKNOWN",
-            "series": "Women's Asian Games 2026",
+            "series": "India tour of Japan, 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceStatus": "Scheduled",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
@@ -330,7 +75,7 @@
             "premiumMarketProxy": false,
             "tradeProfile": {
                 "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 0,
+                "dataCompletenessPct": 20,
                 "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
                 "swingCatalysts": [],
                 "equalProfitTargetRequiresEntryOdds": true,
@@ -411,10 +156,71 @@
                 ]
             },
             "formB": {
-                "matches": 0,
-                "wins": 0,
-                "losses": 0,
-                "recent": []
+                "matches": 10,
+                "wins": 8,
+                "losses": 2,
+                "recent": [
+                    {
+                        "date": "2026-09-13",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-10",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-05",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-03",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-08-30",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-07-26",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Harare Sports Club"
+                    },
+                    {
+                        "date": "2026-07-25",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Harare Sports Club"
+                    },
+                    {
+                        "date": "2026-07-23",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Harare Sports Club"
+                    },
+                    {
+                        "date": "2026-07-11",
+                        "winner": "England",
+                        "won": false,
+                        "venue": "The Rose Bowl, Southampton"
+                    },
+                    {
+                        "date": "2026-07-09",
+                        "winner": "England",
+                        "won": false,
+                        "venue": "County Ground, Bristol"
+                    }
+                ]
             },
             "weather": {
                 "status": "UNKNOWN",
@@ -431,7 +237,7 @@
             "venueIntel": {
                 "status": "NO DATA / UNKNOWN VENUE",
                 "matches": 0,
-                "venue_confidence": 0.739
+                "venue_confidence": 0.861
             },
             "midOversWickets": null,
             "spinnerWickets7to14": null,
@@ -441,14 +247,218 @@
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
                 "NO DATA / UNKNOWN VENUE",
                 "PLAYING XI NOT CONFIRMED",
-                "WEATHER DATA UNKNOWN",
-                "LIMITED RECENT T20 DATA FOR India,One-off T20I Sano International Cricket Ground , Sano, Kanto"
+                "WEATHER DATA UNKNOWN"
             ],
             "warnings": [
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR India,One-off T20I Sano International Cricket Ground , Sano, Kanto"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN"
+        },
+        {
+            "teamA": "India Women",
+            "teamB": "Sri Lanka Women",
+            "name": "India Women vs Sri Lanka Women,Final Korogi Sports Park , Nisshin",
+            "matchType": "T20",
+            "venue": "Korogi Sports Park , Nisshin",
+            "dateTimeGMT": null,
+            "sourceDate": "2026-09-22",
+            "matchTimeIST": "UNKNOWN",
+            "series": "Women's Asian Games 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "sourceStatus": "Scheduled",
+            "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": false,
+            "tradeProfile": {
+                "purpose": "Pre-match market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 40,
+                "swingProfile": "LOW-CONFIDENCE / LOW-MARKET",
+                "swingCatalysts": [],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "formA": {
+                "matches": 10,
+                "wins": 8,
+                "losses": 2,
+                "recent": [
+                    {
+                        "date": "2026-09-13",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-10",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-05",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-03",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-08-30",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-06-28",
+                        "winner": "Australia",
+                        "won": false,
+                        "venue": "Lord's, London"
+                    },
+                    {
+                        "date": "2026-06-25",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Old Trafford, Manchester"
+                    },
+                    {
+                        "date": "2026-06-21",
+                        "winner": "South Africa",
+                        "won": false,
+                        "venue": "Old Trafford, Manchester"
+                    },
+                    {
+                        "date": "2026-06-17",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Headingley, Leeds"
+                    },
+                    {
+                        "date": "2026-06-14",
+                        "winner": "India",
+                        "won": true,
+                        "venue": "Edgbaston, Birmingham"
+                    }
+                ]
+            },
+            "formB": {
+                "matches": 10,
+                "wins": 8,
+                "losses": 2,
+                "recent": [
+                    {
+                        "date": "2026-09-13",
+                        "winner": "India",
+                        "won": false,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-11",
+                        "winner": "Sri Lanka",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-06",
+                        "winner": "Sri Lanka",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-09-02",
+                        "winner": "Sri Lanka",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-08-29",
+                        "winner": "Sri Lanka",
+                        "won": true,
+                        "venue": "Dubai International Cricket Stadium"
+                    },
+                    {
+                        "date": "2026-08-04",
+                        "winner": "Pakistan",
+                        "won": false,
+                        "venue": "Rangiri Dambulla International Stadium"
+                    },
+                    {
+                        "date": "2026-08-02",
+                        "winner": "Sri Lanka",
+                        "won": true,
+                        "venue": "Rangiri Dambulla International Stadium"
+                    },
+                    {
+                        "date": "2026-07-31",
+                        "winner": "Sri Lanka",
+                        "won": true,
+                        "venue": "Rangiri Dambulla International Stadium"
+                    },
+                    {
+                        "date": "2026-06-26",
+                        "winner": "Sri Lanka",
+                        "won": true,
+                        "venue": "Old Trafford, Manchester"
+                    },
+                    {
+                        "date": "2026-06-23",
+                        "winner": "Sri Lanka",
+                        "won": true,
+                        "venue": "County Ground, Bristol"
+                    }
+                ]
+            },
+            "weather": {
+                "status": "UNKNOWN",
+                "reason": "Match time unavailable"
+            },
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
+            "tossBias": "42.86% Chasing Wins",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "39.86",
+            "ppRunRate": "Historical first-innings PP",
+            "spinIndex": "UNKNOWN",
+            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
+            "venueIntel": {
+                "status": "OK",
+                "matches": 7,
+                "venue_confidence": 1.0,
+                "avg_first_innings": 129.29,
+                "powerplay_avg": 39.86,
+                "chasing_win_pct": 42.86,
+                "mid_overs_7_14_wickets": 32,
+                "spin_classification_pct": 0.0,
+                "spinner_7_14_wickets": null,
+                "spin_wicket_share_pct": null,
+                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+            },
+            "midOversWickets": 32,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": 0.0,
+            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "noBetReasons": [
+                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                "PLAYING XI NOT CONFIRMED",
+                "WEATHER DATA UNKNOWN"
+            ],
+            "warnings": [
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-red",
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN"
         },
         {
             "teamA": "Ghana",
