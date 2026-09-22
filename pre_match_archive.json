@@ -211,7 +211,7 @@
         }
     },
     "bangladesh women|pakistan women|2026-09-22": {
-        "capturedAt": "2026-09-22T13:35:39.322797+00:00",
+        "capturedAt": "2026-09-22T13:40:39.346707+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "Pakistan Women",
@@ -304,7 +304,7 @@
         }
     },
     "india women|sri lanka women|2026-09-22": {
-        "capturedAt": "2026-09-22T13:35:39.322809+00:00",
+        "capturedAt": "2026-09-22T13:40:39.346717+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "India Women",
@@ -517,7 +517,7 @@
         }
     },
     "ghana|sierra leone|2026-09-22": {
-        "capturedAt": "2026-09-22T13:35:39.322761+00:00",
+        "capturedAt": "2026-09-22T13:40:39.346672+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "Ghana",
@@ -695,7 +695,7 @@
                 "humidity_pct": 78,
                 "dew_point_c": 23.2,
                 "rain_probability_pct": 47,
-                "precipitation_mm": 0,
+                "precipitation_mm": 0.0,
                 "wind_kmh": 17.8,
                 "dew_risk": "LOW",
                 "rain_risk": "MEDIUM"
@@ -711,19 +711,19 @@
             "venueIntel": {
                 "status": "OK",
                 "matches": 26,
-                "venue_confidence": 1,
+                "venue_confidence": 1.0,
                 "avg_first_innings": 119.77,
                 "powerplay_avg": 36.27,
-                "chasing_win_pct": 36,
+                "chasing_win_pct": 36.0,
                 "mid_overs_7_14_wickets": 141,
-                "spin_classification_pct": 0,
+                "spin_classification_pct": 0.0,
                 "spinner_7_14_wickets": null,
                 "spin_wicket_share_pct": null,
                 "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
             },
             "midOversWickets": 141,
             "spinnerWickets7to14": null,
-            "spinClassificationPct": 0,
+            "spinClassificationPct": 0.0,
             "verdict": "🔴 HIGH-CAUTION / NO-BET",
             "noBetReasons": [
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
@@ -737,7 +737,7 @@
         }
     },
     "limpopo|northern cape|2026-09-22": {
-        "capturedAt": "2026-09-22T13:35:39.322783+00:00",
+        "capturedAt": "2026-09-22T13:40:39.346694+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "Northern Cape",
@@ -791,7 +791,7 @@
                 "humidity_pct": 45,
                 "dew_point_c": 11.4,
                 "rain_probability_pct": 0,
-                "precipitation_mm": 0,
+                "precipitation_mm": 0.0,
                 "wind_kmh": 14.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
@@ -807,19 +807,19 @@
             "venueIntel": {
                 "status": "OK",
                 "matches": 13,
-                "venue_confidence": 1,
+                "venue_confidence": 1.0,
                 "avg_first_innings": 150.62,
                 "powerplay_avg": 40.85,
                 "chasing_win_pct": 45.45,
                 "mid_overs_7_14_wickets": 38,
-                "spin_classification_pct": 0,
+                "spin_classification_pct": 0.0,
                 "spinner_7_14_wickets": null,
                 "spin_wicket_share_pct": null,
                 "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
             },
             "midOversWickets": 38,
             "spinnerWickets7to14": null,
-            "spinClassificationPct": 0,
+            "spinClassificationPct": 0.0,
             "verdict": "🔴 HIGH-CAUTION / NO-BET",
             "noBetReasons": [
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
@@ -835,7 +835,7 @@
         }
     },
     "india|japan|2026-09-22": {
-        "capturedAt": "2026-09-22T13:35:39.322818+00:00",
+        "capturedAt": "2026-09-22T13:40:39.346724+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "Japan",
