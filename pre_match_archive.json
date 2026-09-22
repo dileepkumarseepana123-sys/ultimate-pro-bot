@@ -211,7 +211,7 @@
         }
     },
     "bangladesh women|pakistan women|2026-09-22": {
-        "capturedAt": "2026-09-22T00:45:27.209303+00:00",
+        "capturedAt": "2026-09-22T13:26:51.403649+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "Pakistan Women",
@@ -224,7 +224,7 @@
             "matchTimeIST": "UNKNOWN",
             "series": "Women's Asian Games 2026",
             "sourceName": "Cricbuzz via text relay",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -296,11 +296,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR Pakistan Women; LIMITED RECENT T20 DATA FOR Bangladesh Women"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR Pakistan Women; LIMITED RECENT T20 DATA FOR Bangladesh Women",
+            "archivedOnly": true
         }
     },
     "india women|sri lanka women|2026-09-22": {
-        "capturedAt": "2026-09-22T06:46:38.261482+00:00",
+        "capturedAt": "2026-09-22T13:26:51.403661+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "India Women",
@@ -313,7 +314,7 @@
             "matchTimeIST": "UNKNOWN",
             "series": "Women's Asian Games 2026",
             "sourceName": "Cricbuzz via text relay",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -505,11 +506,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN",
+            "archivedOnly": true
         }
     },
     "ghana|sierra leone|2026-09-22": {
-        "capturedAt": "2026-09-22T12:46:20.611202+00:00",
+        "capturedAt": "2026-09-22T13:26:51.403614+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "Ghana",
@@ -520,8 +522,10 @@
             "dateTimeGMT": null,
             "sourceDate": "2026-09-22",
             "matchTimeIST": "UNKNOWN",
+            "indiaDate": "2026-09-22",
             "series": "Quadrangular T20I Series in Nigeria, 2026",
             "sourceName": "Cricbuzz via text relay",
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173647/gh-vs-sle-2nd-match-quadrangular-t20i-series-in-nigeria-2026",
             "sourceStatus": "Scheduled",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
@@ -693,19 +697,19 @@
             "venueIntel": {
                 "status": "OK",
                 "matches": 26,
-                "venue_confidence": 1,
+                "venue_confidence": 1.0,
                 "avg_first_innings": 119.77,
                 "powerplay_avg": 36.27,
-                "chasing_win_pct": 36,
+                "chasing_win_pct": 36.0,
                 "mid_overs_7_14_wickets": 141,
-                "spin_classification_pct": 0,
+                "spin_classification_pct": 0.0,
                 "spinner_7_14_wickets": null,
                 "spin_wicket_share_pct": null,
                 "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
             },
             "midOversWickets": 141,
             "spinnerWickets7to14": null,
-            "spinClassificationPct": 0,
+            "spinClassificationPct": 0.0,
             "verdict": "🔴 HIGH-CAUTION / NO-BET",
             "noBetReasons": [
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
@@ -720,7 +724,7 @@
         }
     },
     "limpopo|northern cape|2026-09-22": {
-        "capturedAt": "2026-09-22T12:46:20.611240+00:00",
+        "capturedAt": "2026-09-22T13:26:51.403635+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "Northern Cape",
@@ -728,11 +732,13 @@
             "name": "Northern Cape vs Limpopo,1st Match Diamond Oval , Kimberley",
             "matchType": "T20",
             "venue": "Diamond Oval , Kimberley",
-            "dateTimeGMT": null,
+            "dateTimeGMT": "2026-09-22T11:00:00+00:00",
             "sourceDate": "2026-09-22",
-            "matchTimeIST": "UNKNOWN",
+            "matchTimeIST": "2026-09-22T16:30:00+05:30",
+            "indiaDate": "2026-09-22",
             "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/172971/ncape-vs-limpo-1st-match-csa-t20-challenge-2026",
             "sourceStatus": "Scheduled",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
@@ -767,7 +773,7 @@
             },
             "weather": {
                 "status": "UNKNOWN",
-                "reason": "Match time unavailable"
+                "reason": "No hourly forecast returned"
             },
             "weatherText": "NO DATA",
             "dewRisk": "UNKNOWN",
@@ -780,19 +786,19 @@
             "venueIntel": {
                 "status": "OK",
                 "matches": 13,
-                "venue_confidence": 1,
+                "venue_confidence": 1.0,
                 "avg_first_innings": 150.62,
                 "powerplay_avg": 40.85,
                 "chasing_win_pct": 45.45,
                 "mid_overs_7_14_wickets": 38,
-                "spin_classification_pct": 0,
+                "spin_classification_pct": 0.0,
                 "spinner_7_14_wickets": null,
                 "spin_wicket_share_pct": null,
                 "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
             },
             "midOversWickets": 38,
             "spinnerWickets7to14": null,
-            "spinClassificationPct": 0,
+            "spinClassificationPct": 0.0,
             "verdict": "🔴 HIGH-CAUTION / NO-BET",
             "noBetReasons": [
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
@@ -809,7 +815,7 @@
         }
     },
     "india|japan|2026-09-22": {
-        "capturedAt": "2026-09-22T06:46:38.261445+00:00",
+        "capturedAt": "2026-09-22T13:26:51.403670+00:00",
         "matchDate": "2026-09-22",
         "report": {
             "teamA": "Japan",
@@ -822,7 +828,7 @@
             "matchTimeIST": "UNKNOWN",
             "series": "India tour of Japan, 2026",
             "sourceName": "Cricbuzz via text relay",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -1007,7 +1013,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN",
+            "archivedOnly": true
         }
     }
 }
