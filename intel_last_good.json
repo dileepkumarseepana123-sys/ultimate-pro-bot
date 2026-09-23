@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-22T18:42:00.350262+00:00",
+    "last_updated": "2026-09-23T00:45:16.817192+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -63,499 +63,6 @@
         "data_clear": 0
     },
     "matches": [
-        {
-            "teamA": "Nigeria",
-            "teamB": "Sierra Leone",
-            "name": "Nigeria vs Sierra Leone,3rd Match Tafawa Balewa Square Cricket Oval , Lagos",
-            "matchType": "T20",
-            "venue": "Tafawa Balewa Square Cricket Oval , Lagos",
-            "dateTimeGMT": "2026-09-23T09:00:00+00:00",
-            "sourceDate": "2026-09-23",
-            "matchTimeIST": "2026-09-23T14:30:00+05:30",
-            "indiaDate": "2026-09-23",
-            "series": "Quadrangular T20I Series in Nigeria, 2026",
-            "sourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173657/nga-vs-sle-3rd-match-quadrangular-t20i-series-in-nigeria-2026",
-            "sourceStatus": "Scheduled",
-            "marketTier": "LOW/UNKNOWN MARKET TIER",
-            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
-            "liquidityProxyOnly": true,
-            "premiumMarketProxy": false,
-            "competitiveBalance": {
-                "label": "STRONG GAP",
-                "balanceScore": 41.6,
-                "teamAElo": 1531.1,
-                "teamBElo": 1343.7,
-                "eloMatchesA": 93,
-                "eloMatchesB": 52,
-                "eloGap": 187.4,
-                "recentWinRateA": 50.0,
-                "recentWinRateB": 20.0,
-                "recentFormGapPct": 30.0,
-                "headToHead": {
-                    "matches": 10,
-                    "teamAWins": 10,
-                    "teamBWins": 0,
-                    "recent": [
-                        {
-                            "date": "2025-12-11",
-                            "winner": "Nigeria",
-                            "marginType": "runs",
-                            "marginValue": 68.0
-                        },
-                        {
-                            "date": "2025-12-07",
-                            "winner": "Nigeria",
-                            "marginType": "wickets",
-                            "marginValue": 9.0
-                        },
-                        {
-                            "date": "2025-12-05",
-                            "winner": "Nigeria",
-                            "marginType": "runs",
-                            "marginValue": 36.0
-                        },
-                        {
-                            "date": "2024-11-27",
-                            "winner": "Nigeria",
-                            "marginType": "runs",
-                            "marginValue": 29.0
-                        },
-                        {
-                            "date": "2023-10-12",
-                            "winner": "Nigeria",
-                            "marginType": "runs",
-                            "marginValue": 53.0
-                        },
-                        {
-                            "date": "2023-10-08",
-                            "winner": "Nigeria",
-                            "marginType": "wickets",
-                            "marginValue": 9.0
-                        },
-                        {
-                            "date": "2023-10-05",
-                            "winner": "Nigeria",
-                            "marginType": "runs",
-                            "marginValue": 63.0
-                        },
-                        {
-                            "date": "2022-12-02",
-                            "winner": "Nigeria",
-                            "marginType": "wickets",
-                            "marginValue": 6.0
-                        },
-                        {
-                            "date": "2021-10-26",
-                            "winner": "Nigeria",
-                            "marginType": "runs",
-                            "marginValue": 36.0
-                        },
-                        {
-                            "date": "2021-10-24",
-                            "winner": "Nigeria",
-                            "marginType": "runs",
-                            "marginValue": 19.0
-                        }
-                    ]
-                },
-                "headToHeadGapPct": 100.0,
-                "historicallyStrongerSide": "Nigeria",
-                "signals": [
-                    "Derived Elo gap 187.4",
-                    "Recent win-rate gap 30.0 percentage points",
-                    "Recent H2H win-share gap 100.0 percentage points"
-                ],
-                "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
-                "officialRanking": "UNKNOWN / NOT CONNECTED"
-            },
-            "skillGap": "STRONG GAP",
-            "swingScore": 47.2,
-            "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
-            "tradeProfile": {
-                "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 67,
-                "swingProfile": "STRONG SKILL-GAP CAUTION",
-                "swingScore": 47.2,
-                "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
-                "competitiveBalance": {
-                    "label": "STRONG GAP",
-                    "balanceScore": 41.6,
-                    "teamAElo": 1531.1,
-                    "teamBElo": 1343.7,
-                    "eloMatchesA": 93,
-                    "eloMatchesB": 52,
-                    "eloGap": 187.4,
-                    "recentWinRateA": 50.0,
-                    "recentWinRateB": 20.0,
-                    "recentFormGapPct": 30.0,
-                    "headToHead": {
-                        "matches": 10,
-                        "teamAWins": 10,
-                        "teamBWins": 0,
-                        "recent": [
-                            {
-                                "date": "2025-12-11",
-                                "winner": "Nigeria",
-                                "marginType": "runs",
-                                "marginValue": 68.0
-                            },
-                            {
-                                "date": "2025-12-07",
-                                "winner": "Nigeria",
-                                "marginType": "wickets",
-                                "marginValue": 9.0
-                            },
-                            {
-                                "date": "2025-12-05",
-                                "winner": "Nigeria",
-                                "marginType": "runs",
-                                "marginValue": 36.0
-                            },
-                            {
-                                "date": "2024-11-27",
-                                "winner": "Nigeria",
-                                "marginType": "runs",
-                                "marginValue": 29.0
-                            },
-                            {
-                                "date": "2023-10-12",
-                                "winner": "Nigeria",
-                                "marginType": "runs",
-                                "marginValue": 53.0
-                            },
-                            {
-                                "date": "2023-10-08",
-                                "winner": "Nigeria",
-                                "marginType": "wickets",
-                                "marginValue": 9.0
-                            },
-                            {
-                                "date": "2023-10-05",
-                                "winner": "Nigeria",
-                                "marginType": "runs",
-                                "marginValue": 63.0
-                            },
-                            {
-                                "date": "2022-12-02",
-                                "winner": "Nigeria",
-                                "marginType": "wickets",
-                                "marginValue": 6.0
-                            },
-                            {
-                                "date": "2021-10-26",
-                                "winner": "Nigeria",
-                                "marginType": "runs",
-                                "marginValue": 36.0
-                            },
-                            {
-                                "date": "2021-10-24",
-                                "winner": "Nigeria",
-                                "marginType": "runs",
-                                "marginValue": 19.0
-                            }
-                        ]
-                    },
-                    "headToHeadGapPct": 100.0,
-                    "historicallyStrongerSide": "Nigeria",
-                    "signals": [
-                        "Derived Elo gap 187.4",
-                        "Recent win-rate gap 30.0 percentage points",
-                        "Recent H2H win-share gap 100.0 percentage points"
-                    ],
-                    "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
-                    "officialRanking": "UNKNOWN / NOT CONNECTED"
-                },
-                "swingCatalysts": [
-                    "Middle-overs wicket volatility: 5.42 wickets/match in overs 7-14"
-                ],
-                "swingPenalties": [
-                    "Strong skill gap reduces reliable two-way movement",
-                    "Liquidity/market depth is not verified"
-                ],
-                "scoreComponents": [
-                    {
-                        "name": "competitive_balance",
-                        "score": 41.6,
-                        "weight": 0.35
-                    },
-                    {
-                        "name": "venue_two_way",
-                        "score": 72.0,
-                        "weight": 0.2
-                    },
-                    {
-                        "name": "middle_over_volatility",
-                        "score": 90.3,
-                        "weight": 0.15
-                    },
-                    {
-                        "name": "weather",
-                        "score": 70.0,
-                        "weight": 0.1
-                    },
-                    {
-                        "name": "market_proxy",
-                        "score": 35.0,
-                        "weight": 0.2
-                    }
-                ],
-                "equalProfitTargetRequiresEntryOdds": true,
-                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
-            },
-            "preMatchSnapshot": null,
-            "standardT20": true,
-            "playingXI": {
-                "status": "NOT CONFIRMED",
-                "teams": {},
-                "source": "Not queried"
-            },
-            "formA": {
-                "matches": 10,
-                "wins": 5,
-                "losses": 5,
-                "winRatePct": 50.0,
-                "avgMarginImpact": -0.065,
-                "recent": [
-                    {
-                        "date": "2026-06-23",
-                        "winner": "Namibia",
-                        "won": false,
-                        "venue": "Namibia Cricket Ground, Windhoek",
-                        "marginType": "runs",
-                        "marginValue": 93.0,
-                        "marginImpact": -1.0
-                    },
-                    {
-                        "date": "2026-06-21",
-                        "winner": "Hong Kong",
-                        "won": false,
-                        "venue": "Namibia Cricket Ground, Windhoek",
-                        "marginType": "wickets",
-                        "marginValue": 6.0,
-                        "marginImpact": -0.75
-                    },
-                    {
-                        "date": "2026-06-20",
-                        "winner": "Namibia",
-                        "won": false,
-                        "venue": "Namibia Cricket Ground, Windhoek",
-                        "marginType": "runs",
-                        "marginValue": 90.0,
-                        "marginImpact": -1.0
-                    },
-                    {
-                        "date": "2026-06-18",
-                        "winner": "Hong Kong",
-                        "won": false,
-                        "venue": "Namibia Cricket Ground, Windhoek",
-                        "marginType": "wickets",
-                        "marginValue": 8.0,
-                        "marginImpact": -1.0
-                    },
-                    {
-                        "date": "2025-12-14",
-                        "winner": "Nigeria",
-                        "won": true,
-                        "venue": "Nigeria Cricket Federation Oval 1, Abuja",
-                        "marginType": "runs",
-                        "marginValue": 40.0,
-                        "marginImpact": 0.667
-                    },
-                    {
-                        "date": "2025-12-13",
-                        "winner": "Nigeria",
-                        "won": true,
-                        "venue": "Nigeria Cricket Federation Oval 1, Abuja",
-                        "marginType": "runs",
-                        "marginValue": 81.0,
-                        "marginImpact": 1.0
-                    },
-                    {
-                        "date": "2025-12-12",
-                        "winner": "Nigeria",
-                        "won": true,
-                        "venue": "Nigeria Cricket Federation Oval 1, Abuja",
-                        "marginType": "runs",
-                        "marginValue": 26.0,
-                        "marginImpact": 0.433
-                    },
-                    {
-                        "date": "2025-12-11",
-                        "winner": "Nigeria",
-                        "won": true,
-                        "venue": "Nigeria Cricket Federation Oval 1, Abuja",
-                        "marginType": "runs",
-                        "marginValue": 68.0,
-                        "marginImpact": 1.0
-                    },
-                    {
-                        "date": "2025-12-09",
-                        "winner": "Rwanda",
-                        "won": false,
-                        "venue": "Nigeria Cricket Federation Oval 1, Abuja",
-                        "marginType": "runs",
-                        "marginValue": 23.0,
-                        "marginImpact": -0.383
-                    },
-                    {
-                        "date": "2025-12-08",
-                        "winner": "Nigeria",
-                        "won": true,
-                        "venue": "Nigeria Cricket Federation Oval 1, Abuja",
-                        "marginType": "runs",
-                        "marginValue": 23.0,
-                        "marginImpact": 0.383
-                    }
-                ]
-            },
-            "formB": {
-                "matches": 10,
-                "wins": 2,
-                "losses": 8,
-                "winRatePct": 20.0,
-                "avgMarginImpact": -0.538,
-                "recent": [
-                    {
-                        "date": "2026-09-16",
-                        "winner": "Rwanda",
-                        "won": false,
-                        "venue": "Gahanga International Cricket Stadium, Rwanda",
-                        "marginType": "wickets",
-                        "marginValue": 6.0,
-                        "marginImpact": -0.75
-                    },
-                    {
-                        "date": "2026-09-15",
-                        "winner": "Uganda",
-                        "won": false,
-                        "venue": "Gahanga International Cricket Stadium, Rwanda",
-                        "marginType": "wickets",
-                        "marginValue": 8.0,
-                        "marginImpact": -1.0
-                    },
-                    {
-                        "date": "2026-09-13",
-                        "winner": "Kenya",
-                        "won": false,
-                        "venue": "Gahanga B Ground, Rwanda",
-                        "marginType": "wickets",
-                        "marginValue": 9.0,
-                        "marginImpact": -1.0
-                    },
-                    {
-                        "date": "2026-09-12",
-                        "winner": "Botswana",
-                        "won": false,
-                        "venue": "Gahanga B Ground, Rwanda",
-                        "marginType": "runs",
-                        "marginValue": 23.0,
-                        "marginImpact": -0.383
-                    },
-                    {
-                        "date": "2026-09-10",
-                        "winner": "Rwanda",
-                        "won": false,
-                        "venue": "Gahanga B Ground, Rwanda",
-                        "marginType": "runs",
-                        "marginValue": 145.0,
-                        "marginImpact": -1.0
-                    },
-                    {
-                        "date": "2026-09-09",
-                        "winner": "Uganda",
-                        "won": false,
-                        "venue": "Gahanga B Ground, Rwanda",
-                        "marginType": "runs",
-                        "marginValue": 114.0,
-                        "marginImpact": -1.0
-                    },
-                    {
-                        "date": "2026-09-08",
-                        "winner": "Kenya",
-                        "won": false,
-                        "venue": "Gahanga B Ground, Rwanda",
-                        "marginType": "runs",
-                        "marginValue": 94.0,
-                        "marginImpact": -1.0
-                    },
-                    {
-                        "date": "2026-05-30",
-                        "winner": "Sierra Leone",
-                        "won": true,
-                        "venue": "Botswana Cricket Association Oval 1, Gaborone",
-                        "marginType": "wickets",
-                        "marginValue": 6.0,
-                        "marginImpact": 0.75
-                    },
-                    {
-                        "date": "2026-05-29",
-                        "winner": "Sierra Leone",
-                        "won": true,
-                        "venue": "Botswana Cricket Association Oval 2, Gaborone",
-                        "marginType": "wickets",
-                        "marginValue": 9.0,
-                        "marginImpact": 1.0
-                    },
-                    {
-                        "date": "2026-05-28",
-                        "winner": "Rwanda",
-                        "won": false,
-                        "venue": "Botswana Cricket Association Oval 2, Gaborone",
-                        "marginType": "wickets",
-                        "marginValue": 8.0,
-                        "marginImpact": -1.0
-                    }
-                ]
-            },
-            "weather": {
-                "status": "OK",
-                "local_time": "2026-09-23T10:00:00+01:00",
-                "temperature_c": 27.3,
-                "humidity_pct": 75,
-                "dew_point_c": 22.5,
-                "rain_probability_pct": 57,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 13.5,
-                "dew_risk": "LOW",
-                "rain_risk": "MEDIUM"
-            },
-            "weatherText": "27.3°C | RH 75% | Rain 57% | Wind 13.5 km/h",
-            "dewRisk": "LOW",
-            "tossBias": "36.0% Chasing Wins",
-            "tossTrend": "Historical venue trend",
-            "ppScoreAvg": "36.27",
-            "ppRunRate": "Historical first-innings PP",
-            "spinIndex": "UNKNOWN",
-            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
-            "venueIntel": {
-                "status": "OK",
-                "matches": 26,
-                "venue_confidence": 1.0,
-                "avg_first_innings": 119.77,
-                "powerplay_avg": 36.27,
-                "chasing_win_pct": 36.0,
-                "mid_overs_7_14_wickets": 141,
-                "spin_classification_pct": 0.0,
-                "spinner_7_14_wickets": null,
-                "spin_wicket_share_pct": null,
-                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
-            },
-            "midOversWickets": 141,
-            "spinnerWickets7to14": null,
-            "spinClassificationPct": 0.0,
-            "verdict": "🔴 HIGH-CAUTION / NO-BET",
-            "noBetReasons": [
-                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
-                "PLAYING XI NOT CONFIRMED"
-            ],
-            "warnings": [
-                "STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE",
-                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
-            ],
-            "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED"
-        },
         {
             "teamA": "Cayman Islands",
             "teamB": "Bermuda",
@@ -1004,6 +511,503 @@
             ],
             "badgeClass": "badge-red",
             "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN"
+        },
+        {
+            "teamA": "Nigeria",
+            "teamB": "Sierra Leone",
+            "name": "Nigeria vs Sierra Leone,3rd Match Tafawa Balewa Square Cricket Oval , Lagos",
+            "matchType": "T20",
+            "venue": "Tafawa Balewa Square Cricket Oval , Lagos",
+            "dateTimeGMT": "2026-09-23T09:00:00+00:00",
+            "sourceDate": "2026-09-23",
+            "matchTimeIST": "2026-09-23T14:30:00+05:30",
+            "indiaDate": "2026-09-23",
+            "series": "Quadrangular T20I Series in Nigeria, 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173657/nga-vs-sle-3rd-match-quadrangular-t20i-series-in-nigeria-2026",
+            "sourceStatus": "Scheduled",
+            "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": false,
+            "competitiveBalance": {
+                "label": "STRONG GAP",
+                "balanceScore": 41.6,
+                "teamAElo": 1531.1,
+                "teamBElo": 1343.7,
+                "eloMatchesA": 93,
+                "eloMatchesB": 52,
+                "eloGap": 187.4,
+                "recentWinRateA": 50.0,
+                "recentWinRateB": 20.0,
+                "recentFormGapPct": 30.0,
+                "headToHead": {
+                    "matches": 10,
+                    "teamAWins": 10,
+                    "teamBWins": 0,
+                    "recent": [
+                        {
+                            "date": "2025-12-11",
+                            "winner": "Nigeria",
+                            "marginType": "runs",
+                            "marginValue": 68.0
+                        },
+                        {
+                            "date": "2025-12-07",
+                            "winner": "Nigeria",
+                            "marginType": "wickets",
+                            "marginValue": 9.0
+                        },
+                        {
+                            "date": "2025-12-05",
+                            "winner": "Nigeria",
+                            "marginType": "runs",
+                            "marginValue": 36.0
+                        },
+                        {
+                            "date": "2024-11-27",
+                            "winner": "Nigeria",
+                            "marginType": "runs",
+                            "marginValue": 29.0
+                        },
+                        {
+                            "date": "2023-10-12",
+                            "winner": "Nigeria",
+                            "marginType": "runs",
+                            "marginValue": 53.0
+                        },
+                        {
+                            "date": "2023-10-08",
+                            "winner": "Nigeria",
+                            "marginType": "wickets",
+                            "marginValue": 9.0
+                        },
+                        {
+                            "date": "2023-10-05",
+                            "winner": "Nigeria",
+                            "marginType": "runs",
+                            "marginValue": 63.0
+                        },
+                        {
+                            "date": "2022-12-02",
+                            "winner": "Nigeria",
+                            "marginType": "wickets",
+                            "marginValue": 6.0
+                        },
+                        {
+                            "date": "2021-10-26",
+                            "winner": "Nigeria",
+                            "marginType": "runs",
+                            "marginValue": 36.0
+                        },
+                        {
+                            "date": "2021-10-24",
+                            "winner": "Nigeria",
+                            "marginType": "runs",
+                            "marginValue": 19.0
+                        }
+                    ]
+                },
+                "headToHeadGapPct": 100.0,
+                "historicallyStrongerSide": "Nigeria",
+                "signals": [
+                    "Derived Elo gap 187.4",
+                    "Recent win-rate gap 30.0 percentage points",
+                    "Recent H2H win-share gap 100.0 percentage points"
+                ],
+                "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                "officialRanking": "UNKNOWN / NOT CONNECTED"
+            },
+            "skillGap": "STRONG GAP",
+            "swingScore": 35.0,
+            "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
+            "tradeProfile": {
+                "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 67,
+                "swingProfile": "STRONG SKILL-GAP CAUTION",
+                "swingScore": 35.0,
+                "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
+                "competitiveBalance": {
+                    "label": "STRONG GAP",
+                    "balanceScore": 41.6,
+                    "teamAElo": 1531.1,
+                    "teamBElo": 1343.7,
+                    "eloMatchesA": 93,
+                    "eloMatchesB": 52,
+                    "eloGap": 187.4,
+                    "recentWinRateA": 50.0,
+                    "recentWinRateB": 20.0,
+                    "recentFormGapPct": 30.0,
+                    "headToHead": {
+                        "matches": 10,
+                        "teamAWins": 10,
+                        "teamBWins": 0,
+                        "recent": [
+                            {
+                                "date": "2025-12-11",
+                                "winner": "Nigeria",
+                                "marginType": "runs",
+                                "marginValue": 68.0
+                            },
+                            {
+                                "date": "2025-12-07",
+                                "winner": "Nigeria",
+                                "marginType": "wickets",
+                                "marginValue": 9.0
+                            },
+                            {
+                                "date": "2025-12-05",
+                                "winner": "Nigeria",
+                                "marginType": "runs",
+                                "marginValue": 36.0
+                            },
+                            {
+                                "date": "2024-11-27",
+                                "winner": "Nigeria",
+                                "marginType": "runs",
+                                "marginValue": 29.0
+                            },
+                            {
+                                "date": "2023-10-12",
+                                "winner": "Nigeria",
+                                "marginType": "runs",
+                                "marginValue": 53.0
+                            },
+                            {
+                                "date": "2023-10-08",
+                                "winner": "Nigeria",
+                                "marginType": "wickets",
+                                "marginValue": 9.0
+                            },
+                            {
+                                "date": "2023-10-05",
+                                "winner": "Nigeria",
+                                "marginType": "runs",
+                                "marginValue": 63.0
+                            },
+                            {
+                                "date": "2022-12-02",
+                                "winner": "Nigeria",
+                                "marginType": "wickets",
+                                "marginValue": 6.0
+                            },
+                            {
+                                "date": "2021-10-26",
+                                "winner": "Nigeria",
+                                "marginType": "runs",
+                                "marginValue": 36.0
+                            },
+                            {
+                                "date": "2021-10-24",
+                                "winner": "Nigeria",
+                                "marginType": "runs",
+                                "marginValue": 19.0
+                            }
+                        ]
+                    },
+                    "headToHeadGapPct": 100.0,
+                    "historicallyStrongerSide": "Nigeria",
+                    "signals": [
+                        "Derived Elo gap 187.4",
+                        "Recent win-rate gap 30.0 percentage points",
+                        "Recent H2H win-share gap 100.0 percentage points"
+                    ],
+                    "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                    "officialRanking": "UNKNOWN / NOT CONNECTED"
+                },
+                "swingCatalysts": [
+                    "Middle-overs wicket volatility: 5.42 wickets/match in overs 7-14",
+                    "Medium dew can change second-innings conditions"
+                ],
+                "swingPenalties": [
+                    "High rain-interruption risk",
+                    "Strong skill gap reduces reliable two-way movement",
+                    "Liquidity/market depth is not verified"
+                ],
+                "scoreComponents": [
+                    {
+                        "name": "competitive_balance",
+                        "score": 41.6,
+                        "weight": 0.35
+                    },
+                    {
+                        "name": "venue_two_way",
+                        "score": 72.0,
+                        "weight": 0.2
+                    },
+                    {
+                        "name": "middle_over_volatility",
+                        "score": 90.3,
+                        "weight": 0.15
+                    },
+                    {
+                        "name": "weather",
+                        "score": 20.0,
+                        "weight": 0.1
+                    },
+                    {
+                        "name": "market_proxy",
+                        "score": 35.0,
+                        "weight": 0.2
+                    }
+                ],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "formA": {
+                "matches": 10,
+                "wins": 5,
+                "losses": 5,
+                "winRatePct": 50.0,
+                "avgMarginImpact": -0.065,
+                "recent": [
+                    {
+                        "date": "2026-06-23",
+                        "winner": "Namibia",
+                        "won": false,
+                        "venue": "Namibia Cricket Ground, Windhoek",
+                        "marginType": "runs",
+                        "marginValue": 93.0,
+                        "marginImpact": -1.0
+                    },
+                    {
+                        "date": "2026-06-21",
+                        "winner": "Hong Kong",
+                        "won": false,
+                        "venue": "Namibia Cricket Ground, Windhoek",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": -0.75
+                    },
+                    {
+                        "date": "2026-06-20",
+                        "winner": "Namibia",
+                        "won": false,
+                        "venue": "Namibia Cricket Ground, Windhoek",
+                        "marginType": "runs",
+                        "marginValue": 90.0,
+                        "marginImpact": -1.0
+                    },
+                    {
+                        "date": "2026-06-18",
+                        "winner": "Hong Kong",
+                        "won": false,
+                        "venue": "Namibia Cricket Ground, Windhoek",
+                        "marginType": "wickets",
+                        "marginValue": 8.0,
+                        "marginImpact": -1.0
+                    },
+                    {
+                        "date": "2025-12-14",
+                        "winner": "Nigeria",
+                        "won": true,
+                        "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                        "marginType": "runs",
+                        "marginValue": 40.0,
+                        "marginImpact": 0.667
+                    },
+                    {
+                        "date": "2025-12-13",
+                        "winner": "Nigeria",
+                        "won": true,
+                        "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                        "marginType": "runs",
+                        "marginValue": 81.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2025-12-12",
+                        "winner": "Nigeria",
+                        "won": true,
+                        "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                        "marginType": "runs",
+                        "marginValue": 26.0,
+                        "marginImpact": 0.433
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "winner": "Nigeria",
+                        "won": true,
+                        "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                        "marginType": "runs",
+                        "marginValue": 68.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2025-12-09",
+                        "winner": "Rwanda",
+                        "won": false,
+                        "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                        "marginType": "runs",
+                        "marginValue": 23.0,
+                        "marginImpact": -0.383
+                    },
+                    {
+                        "date": "2025-12-08",
+                        "winner": "Nigeria",
+                        "won": true,
+                        "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                        "marginType": "runs",
+                        "marginValue": 23.0,
+                        "marginImpact": 0.383
+                    }
+                ]
+            },
+            "formB": {
+                "matches": 10,
+                "wins": 2,
+                "losses": 8,
+                "winRatePct": 20.0,
+                "avgMarginImpact": -0.538,
+                "recent": [
+                    {
+                        "date": "2026-09-16",
+                        "winner": "Rwanda",
+                        "won": false,
+                        "venue": "Gahanga International Cricket Stadium, Rwanda",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": -0.75
+                    },
+                    {
+                        "date": "2026-09-15",
+                        "winner": "Uganda",
+                        "won": false,
+                        "venue": "Gahanga International Cricket Stadium, Rwanda",
+                        "marginType": "wickets",
+                        "marginValue": 8.0,
+                        "marginImpact": -1.0
+                    },
+                    {
+                        "date": "2026-09-13",
+                        "winner": "Kenya",
+                        "won": false,
+                        "venue": "Gahanga B Ground, Rwanda",
+                        "marginType": "wickets",
+                        "marginValue": 9.0,
+                        "marginImpact": -1.0
+                    },
+                    {
+                        "date": "2026-09-12",
+                        "winner": "Botswana",
+                        "won": false,
+                        "venue": "Gahanga B Ground, Rwanda",
+                        "marginType": "runs",
+                        "marginValue": 23.0,
+                        "marginImpact": -0.383
+                    },
+                    {
+                        "date": "2026-09-10",
+                        "winner": "Rwanda",
+                        "won": false,
+                        "venue": "Gahanga B Ground, Rwanda",
+                        "marginType": "runs",
+                        "marginValue": 145.0,
+                        "marginImpact": -1.0
+                    },
+                    {
+                        "date": "2026-09-09",
+                        "winner": "Uganda",
+                        "won": false,
+                        "venue": "Gahanga B Ground, Rwanda",
+                        "marginType": "runs",
+                        "marginValue": 114.0,
+                        "marginImpact": -1.0
+                    },
+                    {
+                        "date": "2026-09-08",
+                        "winner": "Kenya",
+                        "won": false,
+                        "venue": "Gahanga B Ground, Rwanda",
+                        "marginType": "runs",
+                        "marginValue": 94.0,
+                        "marginImpact": -1.0
+                    },
+                    {
+                        "date": "2026-05-30",
+                        "winner": "Sierra Leone",
+                        "won": true,
+                        "venue": "Botswana Cricket Association Oval 1, Gaborone",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": 0.75
+                    },
+                    {
+                        "date": "2026-05-29",
+                        "winner": "Sierra Leone",
+                        "won": true,
+                        "venue": "Botswana Cricket Association Oval 2, Gaborone",
+                        "marginType": "wickets",
+                        "marginValue": 9.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2026-05-28",
+                        "winner": "Rwanda",
+                        "won": false,
+                        "venue": "Botswana Cricket Association Oval 2, Gaborone",
+                        "marginType": "wickets",
+                        "marginValue": 8.0,
+                        "marginImpact": -1.0
+                    }
+                ]
+            },
+            "weather": {
+                "status": "OK",
+                "local_time": "2026-09-23T10:00:00+01:00",
+                "temperature_c": 25.3,
+                "humidity_pct": 93,
+                "dew_point_c": 24.1,
+                "rain_probability_pct": 94,
+                "precipitation_mm": 1.3,
+                "wind_kmh": 11.6,
+                "dew_risk": "MEDIUM",
+                "rain_risk": "HIGH"
+            },
+            "weatherText": "25.3°C | RH 93% | Rain 94% | Wind 11.6 km/h",
+            "dewRisk": "MEDIUM",
+            "tossBias": "36.0% Chasing Wins",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "36.27",
+            "ppRunRate": "Historical first-innings PP",
+            "spinIndex": "UNKNOWN",
+            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
+            "venueIntel": {
+                "status": "OK",
+                "matches": 26,
+                "venue_confidence": 1.0,
+                "avg_first_innings": 119.77,
+                "powerplay_avg": 36.27,
+                "chasing_win_pct": 36.0,
+                "mid_overs_7_14_wickets": 141,
+                "spin_classification_pct": 0.0,
+                "spinner_7_14_wickets": null,
+                "spin_wicket_share_pct": null,
+                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+            },
+            "midOversWickets": 141,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": 0.0,
+            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "noBetReasons": [
+                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                "PLAYING XI NOT CONFIRMED",
+                "HIGH RAIN INTERRUPTION RISK"
+            ],
+            "warnings": [
+                "MEDIUM DEW RISK",
+                "STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE",
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-red",
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; HIGH RAIN INTERRUPTION RISK"
         }
     ]
 }
