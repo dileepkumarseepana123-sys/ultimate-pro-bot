@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-23T00:45:16.817192+00:00",
+    "last_updated": "2026-09-23T06:46:49.247924+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -965,13 +965,13 @@
                 "temperature_c": 25.3,
                 "humidity_pct": 93,
                 "dew_point_c": 24.1,
-                "rain_probability_pct": 94,
+                "rain_probability_pct": 90,
                 "precipitation_mm": 1.3,
                 "wind_kmh": 11.6,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "25.3°C | RH 93% | Rain 94% | Wind 11.6 km/h",
+            "weatherText": "25.3°C | RH 93% | Rain 90% | Wind 11.6 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "36.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
