@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-24T07:00:53.818182+00:00",
+    "last_updated": "2026-09-24T07:05:10.670283+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -174,6 +174,7 @@
             "skillGap": "BALANCED",
             "swingScore": 60.0,
             "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+            "analysisEngineVersion": 2,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 67,
@@ -638,14 +639,15 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "STRONG GAP",
-            "swingScore": 33.3,
-            "strategyLabel": "POOR FIT / SKILL-GAP OR DATA CAUTION",
+            "swingScore": 48.0,
+            "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
+            "analysisEngineVersion": 2,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 50,
+                "dataCompletenessPct": 67,
                 "swingProfile": "STRONG SKILL-GAP CAUTION",
-                "swingScore": 33.3,
-                "strategyLabel": "POOR FIT / SKILL-GAP OR DATA CAUTION",
+                "swingScore": 48.0,
+                "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
                 "competitiveBalance": {
                     "label": "STRONG GAP",
                     "balanceScore": 45.4,
@@ -706,7 +708,10 @@
                     "sourceLimitations": [],
                     "majorTeamAsymmetryProxyUsed": false
                 },
-                "swingCatalysts": [],
+                "swingCatalysts": [
+                    "Historically two-way venue: 56.0% chasing wins",
+                    "Middle-overs wicket volatility: 4.40 wickets/match in overs 7-14"
+                ],
                 "swingPenalties": [
                     "High dew may create strong chase-side bias",
                     "Strong skill gap reduces reliable two-way movement",
@@ -717,6 +722,16 @@
                         "name": "competitive_balance",
                         "score": 45.4,
                         "weight": 0.35
+                    },
+                    {
+                        "name": "venue_two_way",
+                        "score": 88.0,
+                        "weight": 0.2
+                    },
+                    {
+                        "name": "middle_over_volatility",
+                        "score": 73.3,
+                        "weight": 0.15
                     },
                     {
                         "name": "weather",
@@ -951,24 +966,31 @@
             },
             "weatherText": "26.0°C | RH 98% | Rain 24% | Wind 3.2 km/h",
             "dewRisk": "HIGH",
-            "tossBias": "UNKNOWN",
+            "tossBias": "56.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
-            "ppScoreAvg": "UNKNOWN",
+            "ppScoreAvg": "39.16",
             "ppRunRate": "Historical first-innings PP",
             "spinIndex": "UNKNOWN",
-            "spinNote": "UNKNOWN",
+            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
             "venueIntel": {
-                "status": "NO DATA / UNKNOWN VENUE",
-                "matches": 0,
-                "venue_confidence": 0.656
+                "status": "OK",
+                "matches": 25,
+                "venue_confidence": 1.0,
+                "avg_first_innings": 129.28,
+                "powerplay_avg": 39.16,
+                "chasing_win_pct": 56.0,
+                "mid_overs_7_14_wickets": 110,
+                "spin_classification_pct": 0.0,
+                "spinner_7_14_wickets": null,
+                "spin_wicket_share_pct": null,
+                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
             },
-            "midOversWickets": null,
+            "midOversWickets": 110,
             "spinnerWickets7to14": null,
-            "spinClassificationPct": null,
+            "spinClassificationPct": 0.0,
             "verdict": "🔴 HIGH-CAUTION / NO-BET",
             "noBetReasons": [
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
-                "NO DATA / UNKNOWN VENUE",
                 "PLAYING XI NOT CONFIRMED",
                 "HIGH DEW RISK"
             ],
@@ -977,7 +999,7 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; HIGH DEW RISK"
         },
         {
             "teamA": "Japan",
@@ -1074,7 +1096,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-09-24T06:47:17.667993+00:00",
+                "capturedAt": "2026-09-24T07:00:53.814288+00:00",
                 "matchDate": "2026-09-24",
                 "report": {
                     "teamA": "Japan",
