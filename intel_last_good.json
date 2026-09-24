@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-24T06:47:17.672116+00:00",
+    "last_updated": "2026-09-24T07:00:53.818182+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -46,7 +46,7 @@
         "text_relay_match_url_rows": 2,
         "text_relay_time_enriched_rows": 2,
         "final_reports_with_known_time": 3,
-        "final_reports_with_weather": 2,
+        "final_reports_with_weather": 3,
         "cricscore_rows": 0,
         "cricscore_t20_rows": 0,
         "cricscore_today_t20_rows": 0,
@@ -63,6 +63,922 @@
         "data_clear": 0
     },
     "matches": [
+        {
+            "teamA": "Hong Kong, China",
+            "teamB": "Malaysia",
+            "name": "Hong Kong, China vs Malaysia,2nd Match, Group B Korogi Sports Park , Nisshin",
+            "matchType": "T20",
+            "venue": "Korogi Sports Park , Nisshin",
+            "dateTimeGMT": "2026-09-24T05:00:00+00:00",
+            "sourceDate": "2026-09-24",
+            "matchTimeIST": "2026-09-24T10:30:00+05:30",
+            "indiaDate": "2026-09-24",
+            "series": "Asian Games 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/170983/hkc-vs-mly-2nd-match-group-b-asian-games-2026",
+            "sourceStatus": "Scheduled",
+            "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": false,
+            "competitiveBalance": {
+                "label": "BALANCED",
+                "balanceScore": 92.1,
+                "teamAElo": 1583.9,
+                "teamBElo": 1594.4,
+                "eloMatchesA": 133,
+                "eloMatchesB": 128,
+                "eloGap": 10.5,
+                "recentWinRateA": 60.0,
+                "recentWinRateB": 50.0,
+                "recentFormGapPct": 10.0,
+                "headToHead": {
+                    "matches": 10,
+                    "teamAWins": 6,
+                    "teamBWins": 4,
+                    "recent": [
+                        {
+                            "date": "2026-06-07",
+                            "winner": "Hong Kong",
+                            "marginType": "wickets",
+                            "marginValue": 6.0
+                        },
+                        {
+                            "date": "2025-07-26",
+                            "winner": "Malaysia",
+                            "marginType": "wickets",
+                            "marginValue": 10.0
+                        },
+                        {
+                            "date": "2025-07-22",
+                            "winner": "Malaysia",
+                            "marginType": "wickets",
+                            "marginValue": 7.0
+                        },
+                        {
+                            "date": "2025-07-18",
+                            "winner": "Malaysia",
+                            "marginType": "wickets",
+                            "marginValue": 5.0
+                        },
+                        {
+                            "date": "2025-03-15",
+                            "winner": "Hong Kong",
+                            "marginType": "wickets",
+                            "marginValue": 8.0
+                        },
+                        {
+                            "date": "2025-03-12",
+                            "winner": "Hong Kong",
+                            "marginType": "runs",
+                            "marginValue": 42.0
+                        },
+                        {
+                            "date": "2024-09-07",
+                            "winner": "Malaysia",
+                            "marginType": "runs",
+                            "marginValue": 3.0
+                        },
+                        {
+                            "date": "2024-08-26",
+                            "winner": "Hong Kong",
+                            "marginType": "runs",
+                            "marginValue": 7.0
+                        },
+                        {
+                            "date": "2024-08-23",
+                            "winner": "Hong Kong",
+                            "marginType": "wickets",
+                            "marginValue": 6.0
+                        },
+                        {
+                            "date": "2024-04-17",
+                            "winner": "Hong Kong",
+                            "marginType": "wickets",
+                            "marginValue": 7.0
+                        }
+                    ]
+                },
+                "headToHeadGapPct": 20.0,
+                "historicallyStrongerSide": null,
+                "signals": [
+                    "Derived Elo gap 10.5",
+                    "Recent win-rate gap 10.0 percentage points",
+                    "Recent H2H win-share gap 20.0 percentage points"
+                ],
+                "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                "officialRanking": "UNKNOWN / NOT CONNECTED",
+                "sourceLimitations": [],
+                "majorTeamAsymmetryProxyUsed": false
+            },
+            "skillGap": "BALANCED",
+            "swingScore": 60.0,
+            "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+            "tradeProfile": {
+                "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 67,
+                "swingProfile": "CONDITIONAL SWING PROFILE",
+                "swingScore": 60.0,
+                "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                "competitiveBalance": {
+                    "label": "BALANCED",
+                    "balanceScore": 92.1,
+                    "teamAElo": 1583.9,
+                    "teamBElo": 1594.4,
+                    "eloMatchesA": 133,
+                    "eloMatchesB": 128,
+                    "eloGap": 10.5,
+                    "recentWinRateA": 60.0,
+                    "recentWinRateB": 50.0,
+                    "recentFormGapPct": 10.0,
+                    "headToHead": {
+                        "matches": 10,
+                        "teamAWins": 6,
+                        "teamBWins": 4,
+                        "recent": [
+                            {
+                                "date": "2026-06-07",
+                                "winner": "Hong Kong",
+                                "marginType": "wickets",
+                                "marginValue": 6.0
+                            },
+                            {
+                                "date": "2025-07-26",
+                                "winner": "Malaysia",
+                                "marginType": "wickets",
+                                "marginValue": 10.0
+                            },
+                            {
+                                "date": "2025-07-22",
+                                "winner": "Malaysia",
+                                "marginType": "wickets",
+                                "marginValue": 7.0
+                            },
+                            {
+                                "date": "2025-07-18",
+                                "winner": "Malaysia",
+                                "marginType": "wickets",
+                                "marginValue": 5.0
+                            },
+                            {
+                                "date": "2025-03-15",
+                                "winner": "Hong Kong",
+                                "marginType": "wickets",
+                                "marginValue": 8.0
+                            },
+                            {
+                                "date": "2025-03-12",
+                                "winner": "Hong Kong",
+                                "marginType": "runs",
+                                "marginValue": 42.0
+                            },
+                            {
+                                "date": "2024-09-07",
+                                "winner": "Malaysia",
+                                "marginType": "runs",
+                                "marginValue": 3.0
+                            },
+                            {
+                                "date": "2024-08-26",
+                                "winner": "Hong Kong",
+                                "marginType": "runs",
+                                "marginValue": 7.0
+                            },
+                            {
+                                "date": "2024-08-23",
+                                "winner": "Hong Kong",
+                                "marginType": "wickets",
+                                "marginValue": 6.0
+                            },
+                            {
+                                "date": "2024-04-17",
+                                "winner": "Hong Kong",
+                                "marginType": "wickets",
+                                "marginValue": 7.0
+                            }
+                        ]
+                    },
+                    "headToHeadGapPct": 20.0,
+                    "historicallyStrongerSide": null,
+                    "signals": [
+                        "Derived Elo gap 10.5",
+                        "Recent win-rate gap 10.0 percentage points",
+                        "Recent H2H win-share gap 20.0 percentage points"
+                    ],
+                    "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                    "officialRanking": "UNKNOWN / NOT CONNECTED",
+                    "sourceLimitations": [],
+                    "majorTeamAsymmetryProxyUsed": false
+                },
+                "swingCatalysts": [
+                    "Historically two-way venue: 42.9% chasing wins",
+                    "Middle-overs wicket volatility: 4.57 wickets/match in overs 7-14"
+                ],
+                "swingPenalties": [
+                    "Liquidity/market depth is not verified"
+                ],
+                "scoreComponents": [
+                    {
+                        "name": "competitive_balance",
+                        "score": 92.1,
+                        "weight": 0.35
+                    },
+                    {
+                        "name": "venue_two_way",
+                        "score": 85.7,
+                        "weight": 0.2
+                    },
+                    {
+                        "name": "middle_over_volatility",
+                        "score": 76.2,
+                        "weight": 0.15
+                    },
+                    {
+                        "name": "weather",
+                        "score": 70.0,
+                        "weight": 0.1
+                    },
+                    {
+                        "name": "market_proxy",
+                        "score": 35.0,
+                        "weight": 0.2
+                    }
+                ],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "formA": {
+                "matches": 10,
+                "wins": 6,
+                "losses": 4,
+                "winRatePct": 60.0,
+                "avgMarginImpact": 0.343,
+                "recent": [
+                    {
+                        "date": "2026-06-22",
+                        "winner": "Namibia",
+                        "won": false,
+                        "venue": "Namibia Cricket Ground, Windhoek",
+                        "marginType": "runs",
+                        "marginValue": 30.0,
+                        "marginImpact": -0.5
+                    },
+                    {
+                        "date": "2026-06-21",
+                        "winner": "Hong Kong",
+                        "won": true,
+                        "venue": "Namibia Cricket Ground, Windhoek",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": 0.75
+                    },
+                    {
+                        "date": "2026-06-19",
+                        "winner": "Namibia",
+                        "won": false,
+                        "venue": "Namibia Cricket Ground, Windhoek",
+                        "marginType": "wickets",
+                        "marginValue": 7.0,
+                        "marginImpact": -0.875
+                    },
+                    {
+                        "date": "2026-06-18",
+                        "winner": "Hong Kong",
+                        "won": true,
+                        "venue": "Namibia Cricket Ground, Windhoek",
+                        "marginType": "wickets",
+                        "marginValue": 8.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2026-06-08",
+                        "winner": "Nepal",
+                        "won": false,
+                        "venue": "Singapore National Cricket Ground",
+                        "marginType": "runs",
+                        "marginValue": 19.0,
+                        "marginImpact": -0.317
+                    },
+                    {
+                        "date": "2026-06-07",
+                        "winner": "Hong Kong",
+                        "won": true,
+                        "venue": "Singapore National Cricket Ground",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": 0.75
+                    },
+                    {
+                        "date": "2026-06-05",
+                        "winner": "Hong Kong",
+                        "won": true,
+                        "venue": "Singapore National Cricket Ground",
+                        "marginType": "runs",
+                        "marginValue": 154.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2026-06-03",
+                        "winner": "Hong Kong",
+                        "won": true,
+                        "venue": "Singapore National Cricket Ground",
+                        "marginType": "wickets",
+                        "marginValue": 9.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2026-06-01",
+                        "winner": "Hong Kong",
+                        "won": true,
+                        "venue": "Singapore National Cricket Ground",
+                        "marginType": "wickets",
+                        "marginValue": 8.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2026-03-01",
+                        "winner": "Kuwait",
+                        "won": false,
+                        "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+                        "marginType": "wickets",
+                        "marginValue": 3.0,
+                        "marginImpact": -0.375
+                    }
+                ]
+            },
+            "formB": {
+                "matches": 10,
+                "wins": 5,
+                "losses": 5,
+                "winRatePct": 50.0,
+                "avgMarginImpact": -0.053,
+                "recent": [
+                    {
+                        "date": "2026-09-17",
+                        "winner": "United Arab Emirates",
+                        "won": false,
+                        "venue": "Bayuemas Oval, Kuala Lumpur",
+                        "marginType": "runs",
+                        "marginValue": 59.0,
+                        "marginImpact": -0.983
+                    },
+                    {
+                        "date": "2026-09-16",
+                        "winner": "United Arab Emirates",
+                        "won": false,
+                        "venue": "Bayuemas Oval, Kuala Lumpur",
+                        "marginType": "wickets",
+                        "marginValue": 7.0,
+                        "marginImpact": -0.875
+                    },
+                    {
+                        "date": "2026-09-14",
+                        "winner": "United Arab Emirates",
+                        "won": false,
+                        "venue": "Bayuemas Oval, Kuala Lumpur",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": -0.75
+                    },
+                    {
+                        "date": "2026-06-08",
+                        "winner": "Malaysia",
+                        "won": true,
+                        "venue": "Singapore National Cricket Ground",
+                        "marginType": "wickets",
+                        "marginValue": 8.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2026-06-07",
+                        "winner": "Hong Kong",
+                        "won": false,
+                        "venue": "Singapore National Cricket Ground",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": -0.75
+                    },
+                    {
+                        "date": "2026-06-04",
+                        "winner": "Nepal",
+                        "won": false,
+                        "venue": "Singapore National Cricket Ground",
+                        "marginType": "runs",
+                        "marginValue": 167.0,
+                        "marginImpact": -1.0
+                    },
+                    {
+                        "date": "2026-06-02",
+                        "winner": "Malaysia",
+                        "won": true,
+                        "venue": "Singapore National Cricket Ground",
+                        "marginType": "wickets",
+                        "marginValue": 9.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2026-05-05",
+                        "winner": "Malaysia",
+                        "won": true,
+                        "venue": "Bayuemas Oval, Kuala Lumpur",
+                        "marginType": "wickets",
+                        "marginValue": 5.0,
+                        "marginImpact": 0.625
+                    },
+                    {
+                        "date": "2026-05-04",
+                        "winner": "Malaysia",
+                        "won": true,
+                        "venue": "Bayuemas Oval, Kuala Lumpur",
+                        "marginType": "runs",
+                        "marginValue": 104.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2026-05-02",
+                        "winner": "Malaysia",
+                        "won": true,
+                        "venue": "Bayuemas Oval, Kuala Lumpur",
+                        "marginType": "runs",
+                        "marginValue": 12.0,
+                        "marginImpact": 0.2
+                    }
+                ]
+            },
+            "weather": {
+                "status": "OK",
+                "local_time": "2026-09-24T14:00:00+09:00",
+                "temperature_c": 29.7,
+                "humidity_pct": 52,
+                "dew_point_c": 18.8,
+                "rain_probability_pct": 0,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 10.1,
+                "dew_risk": "LOW",
+                "rain_risk": "LOW"
+            },
+            "weatherText": "29.7°C | RH 52% | Rain 0% | Wind 10.1 km/h",
+            "dewRisk": "LOW",
+            "tossBias": "42.86% Chasing Wins",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "39.86",
+            "ppRunRate": "Historical first-innings PP",
+            "spinIndex": "UNKNOWN",
+            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
+            "venueIntel": {
+                "status": "OK",
+                "matches": 7,
+                "venue_confidence": 1.0,
+                "avg_first_innings": 129.29,
+                "powerplay_avg": 39.86,
+                "chasing_win_pct": 42.86,
+                "mid_overs_7_14_wickets": 32,
+                "spin_classification_pct": 0.0,
+                "spinner_7_14_wickets": null,
+                "spin_wicket_share_pct": null,
+                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+            },
+            "midOversWickets": 32,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": 0.0,
+            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "noBetReasons": [
+                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                "PLAYING XI NOT CONFIRMED"
+            ],
+            "warnings": [
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-red",
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED"
+        },
+        {
+            "teamA": "Cayman Islands",
+            "teamB": "Bahamas",
+            "name": "Cayman Islands vs Bahamas,3rd Match(Rescheduled match) Jimmy Powell Oval , George Town Live Cricket Score\")",
+            "matchType": "T20",
+            "venue": "Jimmy Powell Oval , George Town",
+            "dateTimeGMT": "2026-09-24T15:00:00+00:00",
+            "sourceDate": "2026-09-24",
+            "matchTimeIST": "2026-09-24T20:30:00+05:30",
+            "indiaDate": "2026-09-24",
+            "series": "North American Cup, 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/174174/caym-vs-bhm-3rd-matchrescheduled-match-north-american-cup-2026",
+            "sourceStatus": "Scheduled",
+            "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": false,
+            "competitiveBalance": {
+                "label": "STRONG GAP",
+                "balanceScore": 45.4,
+                "teamAElo": 1527.6,
+                "teamBElo": 1406.1,
+                "eloMatchesA": 42,
+                "eloMatchesB": 32,
+                "eloGap": 121.5,
+                "recentWinRateA": 80.0,
+                "recentWinRateB": 22.2,
+                "recentFormGapPct": 57.8,
+                "headToHead": {
+                    "matches": 5,
+                    "teamAWins": 5,
+                    "teamBWins": 0,
+                    "recent": [
+                        {
+                            "date": "2025-06-22",
+                            "winner": "Cayman Islands",
+                            "marginType": "runs",
+                            "marginValue": 49.0
+                        },
+                        {
+                            "date": "2025-06-15",
+                            "winner": "Cayman Islands",
+                            "marginType": "runs",
+                            "marginValue": 38.0
+                        },
+                        {
+                            "date": "2025-04-24",
+                            "winner": "Cayman Islands",
+                            "marginType": "runs",
+                            "marginValue": 79.0
+                        },
+                        {
+                            "date": "2024-12-12",
+                            "winner": "Cayman Islands",
+                            "marginType": "wickets",
+                            "marginValue": 10.0
+                        },
+                        {
+                            "date": "2023-02-28",
+                            "winner": "Cayman Islands",
+                            "marginType": "runs",
+                            "marginValue": 31.0
+                        }
+                    ]
+                },
+                "headToHeadGapPct": 100.0,
+                "historicallyStrongerSide": "Cayman Islands",
+                "signals": [
+                    "Derived Elo gap 121.5",
+                    "Recent win-rate gap 57.8 percentage points",
+                    "Recent H2H win-share gap 100.0 percentage points"
+                ],
+                "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                "officialRanking": "UNKNOWN / NOT CONNECTED",
+                "sourceLimitations": [],
+                "majorTeamAsymmetryProxyUsed": false
+            },
+            "skillGap": "STRONG GAP",
+            "swingScore": 33.3,
+            "strategyLabel": "POOR FIT / SKILL-GAP OR DATA CAUTION",
+            "tradeProfile": {
+                "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 50,
+                "swingProfile": "STRONG SKILL-GAP CAUTION",
+                "swingScore": 33.3,
+                "strategyLabel": "POOR FIT / SKILL-GAP OR DATA CAUTION",
+                "competitiveBalance": {
+                    "label": "STRONG GAP",
+                    "balanceScore": 45.4,
+                    "teamAElo": 1527.6,
+                    "teamBElo": 1406.1,
+                    "eloMatchesA": 42,
+                    "eloMatchesB": 32,
+                    "eloGap": 121.5,
+                    "recentWinRateA": 80.0,
+                    "recentWinRateB": 22.2,
+                    "recentFormGapPct": 57.8,
+                    "headToHead": {
+                        "matches": 5,
+                        "teamAWins": 5,
+                        "teamBWins": 0,
+                        "recent": [
+                            {
+                                "date": "2025-06-22",
+                                "winner": "Cayman Islands",
+                                "marginType": "runs",
+                                "marginValue": 49.0
+                            },
+                            {
+                                "date": "2025-06-15",
+                                "winner": "Cayman Islands",
+                                "marginType": "runs",
+                                "marginValue": 38.0
+                            },
+                            {
+                                "date": "2025-04-24",
+                                "winner": "Cayman Islands",
+                                "marginType": "runs",
+                                "marginValue": 79.0
+                            },
+                            {
+                                "date": "2024-12-12",
+                                "winner": "Cayman Islands",
+                                "marginType": "wickets",
+                                "marginValue": 10.0
+                            },
+                            {
+                                "date": "2023-02-28",
+                                "winner": "Cayman Islands",
+                                "marginType": "runs",
+                                "marginValue": 31.0
+                            }
+                        ]
+                    },
+                    "headToHeadGapPct": 100.0,
+                    "historicallyStrongerSide": "Cayman Islands",
+                    "signals": [
+                        "Derived Elo gap 121.5",
+                        "Recent win-rate gap 57.8 percentage points",
+                        "Recent H2H win-share gap 100.0 percentage points"
+                    ],
+                    "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                    "officialRanking": "UNKNOWN / NOT CONNECTED",
+                    "sourceLimitations": [],
+                    "majorTeamAsymmetryProxyUsed": false
+                },
+                "swingCatalysts": [],
+                "swingPenalties": [
+                    "High dew may create strong chase-side bias",
+                    "Strong skill gap reduces reliable two-way movement",
+                    "Liquidity/market depth is not verified"
+                ],
+                "scoreComponents": [
+                    {
+                        "name": "competitive_balance",
+                        "score": 45.4,
+                        "weight": 0.35
+                    },
+                    {
+                        "name": "weather",
+                        "score": 60.0,
+                        "weight": 0.1
+                    },
+                    {
+                        "name": "market_proxy",
+                        "score": 35.0,
+                        "weight": 0.2
+                    }
+                ],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "formA": {
+                "matches": 10,
+                "wins": 8,
+                "losses": 2,
+                "winRatePct": 80.0,
+                "avgMarginImpact": 0.599,
+                "recent": [
+                    {
+                        "date": "2026-03-15",
+                        "winner": "Cayman Islands",
+                        "won": true,
+                        "venue": "Jimmy Powell Oval, Cayman Islands",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": 0.75
+                    },
+                    {
+                        "date": "2026-03-14",
+                        "winner": "Cayman Islands",
+                        "won": true,
+                        "venue": "Jimmy Powell Oval, Cayman Islands",
+                        "marginType": "wickets",
+                        "marginValue": 9.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2026-03-12",
+                        "winner": "Cayman Islands",
+                        "won": true,
+                        "venue": "Jimmy Powell Oval, Cayman Islands",
+                        "marginType": "runs",
+                        "marginValue": 93.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2026-03-11",
+                        "winner": "Cayman Islands",
+                        "won": true,
+                        "venue": "Jimmy Powell Oval, Cayman Islands",
+                        "marginType": "wickets",
+                        "marginValue": 9.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2026-03-09",
+                        "winner": "Cayman Islands",
+                        "won": true,
+                        "venue": "Jimmy Powell Oval, Cayman Islands",
+                        "marginType": "wickets",
+                        "marginValue": 9.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2026-03-08",
+                        "winner": "Cayman Islands",
+                        "won": true,
+                        "venue": "Jimmy Powell Oval, Cayman Islands",
+                        "marginType": "wickets",
+                        "marginValue": 10.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2025-06-22",
+                        "winner": "Cayman Islands",
+                        "won": true,
+                        "venue": "Maple Leaf North-West Ground, King City",
+                        "marginType": "runs",
+                        "marginValue": 49.0,
+                        "marginImpact": 0.817
+                    },
+                    {
+                        "date": "2025-06-21",
+                        "winner": "Cayman Islands",
+                        "won": true,
+                        "venue": "Maple Leaf North-West Ground, King City",
+                        "marginType": "wickets",
+                        "marginValue": 9.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2025-06-19",
+                        "winner": "Canada",
+                        "won": false,
+                        "venue": "Maple Leaf North-West Ground, King City",
+                        "marginType": "runs",
+                        "marginValue": 42.0,
+                        "marginImpact": -0.7
+                    },
+                    {
+                        "date": "2025-06-18",
+                        "winner": "Bermuda",
+                        "won": false,
+                        "venue": "Maple Leaf North-West Ground, King City",
+                        "marginType": "wickets",
+                        "marginValue": 7.0,
+                        "marginImpact": -0.875
+                    }
+                ]
+            },
+            "formB": {
+                "matches": 10,
+                "wins": 2,
+                "losses": 7,
+                "winRatePct": 22.2,
+                "avgMarginImpact": -0.446,
+                "recent": [
+                    {
+                        "date": "2026-06-27",
+                        "winner": "Bahamas",
+                        "won": true,
+                        "venue": "White Hill Field, Sandys Parish",
+                        "marginType": "runs",
+                        "marginValue": 22.0,
+                        "marginImpact": 0.367
+                    },
+                    {
+                        "date": "2026-06-25",
+                        "winner": "Bahamas",
+                        "won": true,
+                        "venue": "White Hill Field, Sandys Parish",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": 0.75
+                    },
+                    {
+                        "date": "2026-06-24",
+                        "winner": "Panama",
+                        "won": false,
+                        "venue": "White Hill Field, Sandys Parish",
+                        "marginType": "wickets",
+                        "marginValue": 4.0,
+                        "marginImpact": -0.5
+                    },
+                    {
+                        "date": "2026-06-21",
+                        "winner": null,
+                        "won": null,
+                        "venue": "White Hill Field, Sandys Parish",
+                        "marginType": null,
+                        "marginValue": null,
+                        "marginImpact": 0.0
+                    },
+                    {
+                        "date": "2025-06-22",
+                        "winner": "Cayman Islands",
+                        "won": false,
+                        "venue": "Maple Leaf North-West Ground, King City",
+                        "marginType": "runs",
+                        "marginValue": 49.0,
+                        "marginImpact": -0.817
+                    },
+                    {
+                        "date": "2025-06-21",
+                        "winner": "Canada",
+                        "won": false,
+                        "venue": "Maple Leaf North-West Ground, King City",
+                        "marginType": "wickets",
+                        "marginValue": 7.0,
+                        "marginImpact": -0.875
+                    },
+                    {
+                        "date": "2025-06-19",
+                        "winner": "Bermuda",
+                        "won": false,
+                        "venue": "Maple Leaf North-West Ground, King City",
+                        "marginType": "runs",
+                        "marginValue": 26.0,
+                        "marginImpact": -0.433
+                    },
+                    {
+                        "date": "2025-06-18",
+                        "winner": "Canada",
+                        "won": false,
+                        "venue": "Maple Leaf North-West Ground, King City",
+                        "marginType": "wickets",
+                        "marginValue": 10.0,
+                        "marginImpact": -1.0
+                    },
+                    {
+                        "date": "2025-06-16",
+                        "winner": "Bermuda",
+                        "won": false,
+                        "venue": "Maple Leaf North-West Ground, King City",
+                        "marginType": "wickets",
+                        "marginValue": 7.0,
+                        "marginImpact": -0.875
+                    },
+                    {
+                        "date": "2025-06-15",
+                        "winner": "Cayman Islands",
+                        "won": false,
+                        "venue": "Maple Leaf North-West Ground, King City",
+                        "marginType": "runs",
+                        "marginValue": 38.0,
+                        "marginImpact": -0.633
+                    }
+                ]
+            },
+            "weather": {
+                "status": "OK",
+                "local_time": "2026-09-24T23:00:00+08:00",
+                "temperature_c": 26.0,
+                "humidity_pct": 98,
+                "dew_point_c": 25.6,
+                "rain_probability_pct": 24,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 3.2,
+                "dew_risk": "HIGH",
+                "rain_risk": "LOW"
+            },
+            "weatherText": "26.0°C | RH 98% | Rain 24% | Wind 3.2 km/h",
+            "dewRisk": "HIGH",
+            "tossBias": "UNKNOWN",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "UNKNOWN",
+            "ppRunRate": "Historical first-innings PP",
+            "spinIndex": "UNKNOWN",
+            "spinNote": "UNKNOWN",
+            "venueIntel": {
+                "status": "NO DATA / UNKNOWN VENUE",
+                "matches": 0,
+                "venue_confidence": 0.656
+            },
+            "midOversWickets": null,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": null,
+            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "noBetReasons": [
+                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                "NO DATA / UNKNOWN VENUE",
+                "PLAYING XI NOT CONFIRMED",
+                "HIGH DEW RISK"
+            ],
+            "warnings": [
+                "STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE",
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-red",
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK"
+        },
         {
             "teamA": "Japan",
             "teamB": "Afghanistan",
@@ -158,7 +1074,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-09-24T00:46:59.905121+00:00",
+                "capturedAt": "2026-09-24T06:47:17.667993+00:00",
                 "matchDate": "2026-09-24",
                 "report": {
                     "teamA": "Japan",
@@ -173,7 +1089,7 @@
                     "series": "Asian Games 2026",
                     "sourceName": "Cricbuzz via text relay",
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/170973/jpn-vs-afg-1st-match-group-a-asian-games-2026",
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "LOW/UNKNOWN MARKET TIER",
                     "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
                     "liquidityProxyOnly": true,
@@ -408,7 +1324,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-red",
-                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Afghanistan"
+                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Afghanistan",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -566,655 +1483,6 @@
             "badgeClass": "badge-red",
             "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Afghanistan",
             "archivedOnly": true
-        },
-        {
-            "teamA": "Cayman Islands",
-            "teamB": "Bahamas",
-            "name": "Cayman Islands vs Bahamas,3rd Match(Rescheduled match) Jimmy Powell Oval , George Town Live Cricket Score\")",
-            "matchType": "T20",
-            "venue": "(Rescheduled match) Jimmy Powell Oval , George Town Live Cricket Score\")",
-            "dateTimeGMT": "2026-09-24T15:00:00+00:00",
-            "sourceDate": "2026-09-24",
-            "matchTimeIST": "2026-09-24T20:30:00+05:30",
-            "indiaDate": "2026-09-24",
-            "series": "North American Cup, 2026",
-            "sourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/174174/caym-vs-bhm-3rd-matchrescheduled-match-north-american-cup-2026",
-            "sourceStatus": "Scheduled",
-            "marketTier": "LOW/UNKNOWN MARKET TIER",
-            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
-            "liquidityProxyOnly": true,
-            "premiumMarketProxy": false,
-            "competitiveBalance": {
-                "label": "STRONG GAP",
-                "balanceScore": 46.0,
-                "teamAElo": 1536.9,
-                "teamBElo": 1419.0,
-                "eloMatchesA": 41,
-                "eloMatchesB": 31,
-                "eloGap": 117.9,
-                "recentWinRateA": 80.0,
-                "recentWinRateB": 22.2,
-                "recentFormGapPct": 57.8,
-                "headToHead": {
-                    "matches": 5,
-                    "teamAWins": 5,
-                    "teamBWins": 0,
-                    "recent": [
-                        {
-                            "date": "2025-06-22",
-                            "winner": "Cayman Islands",
-                            "marginType": "runs",
-                            "marginValue": 49.0
-                        },
-                        {
-                            "date": "2025-06-15",
-                            "winner": "Cayman Islands",
-                            "marginType": "runs",
-                            "marginValue": 38.0
-                        },
-                        {
-                            "date": "2025-04-24",
-                            "winner": "Cayman Islands",
-                            "marginType": "runs",
-                            "marginValue": 79.0
-                        },
-                        {
-                            "date": "2024-12-12",
-                            "winner": "Cayman Islands",
-                            "marginType": "wickets",
-                            "marginValue": 10.0
-                        },
-                        {
-                            "date": "2023-02-28",
-                            "winner": "Cayman Islands",
-                            "marginType": "runs",
-                            "marginValue": 31.0
-                        }
-                    ]
-                },
-                "headToHeadGapPct": 100.0,
-                "historicallyStrongerSide": "Cayman Islands",
-                "signals": [
-                    "Derived Elo gap 117.9",
-                    "Recent win-rate gap 57.8 percentage points",
-                    "Recent H2H win-share gap 100.0 percentage points"
-                ],
-                "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
-                "officialRanking": "UNKNOWN / NOT CONNECTED"
-            },
-            "skillGap": "STRONG GAP",
-            "swingScore": 27.9,
-            "strategyLabel": "POOR FIT / SKILL-GAP OR DATA CAUTION",
-            "tradeProfile": {
-                "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 33,
-                "swingProfile": "STRONG SKILL-GAP CAUTION",
-                "swingScore": 27.9,
-                "strategyLabel": "POOR FIT / SKILL-GAP OR DATA CAUTION",
-                "competitiveBalance": {
-                    "label": "STRONG GAP",
-                    "balanceScore": 46.0,
-                    "teamAElo": 1536.9,
-                    "teamBElo": 1419.0,
-                    "eloMatchesA": 41,
-                    "eloMatchesB": 31,
-                    "eloGap": 117.9,
-                    "recentWinRateA": 80.0,
-                    "recentWinRateB": 22.2,
-                    "recentFormGapPct": 57.8,
-                    "headToHead": {
-                        "matches": 5,
-                        "teamAWins": 5,
-                        "teamBWins": 0,
-                        "recent": [
-                            {
-                                "date": "2025-06-22",
-                                "winner": "Cayman Islands",
-                                "marginType": "runs",
-                                "marginValue": 49.0
-                            },
-                            {
-                                "date": "2025-06-15",
-                                "winner": "Cayman Islands",
-                                "marginType": "runs",
-                                "marginValue": 38.0
-                            },
-                            {
-                                "date": "2025-04-24",
-                                "winner": "Cayman Islands",
-                                "marginType": "runs",
-                                "marginValue": 79.0
-                            },
-                            {
-                                "date": "2024-12-12",
-                                "winner": "Cayman Islands",
-                                "marginType": "wickets",
-                                "marginValue": 10.0
-                            },
-                            {
-                                "date": "2023-02-28",
-                                "winner": "Cayman Islands",
-                                "marginType": "runs",
-                                "marginValue": 31.0
-                            }
-                        ]
-                    },
-                    "headToHeadGapPct": 100.0,
-                    "historicallyStrongerSide": "Cayman Islands",
-                    "signals": [
-                        "Derived Elo gap 117.9",
-                        "Recent win-rate gap 57.8 percentage points",
-                        "Recent H2H win-share gap 100.0 percentage points"
-                    ],
-                    "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
-                    "officialRanking": "UNKNOWN / NOT CONNECTED"
-                },
-                "swingCatalysts": [],
-                "swingPenalties": [
-                    "Strong skill gap reduces reliable two-way movement",
-                    "Liquidity/market depth is not verified"
-                ],
-                "scoreComponents": [
-                    {
-                        "name": "competitive_balance",
-                        "score": 46.0,
-                        "weight": 0.35
-                    },
-                    {
-                        "name": "market_proxy",
-                        "score": 35.0,
-                        "weight": 0.2
-                    }
-                ],
-                "equalProfitTargetRequiresEntryOdds": true,
-                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
-            },
-            "preMatchSnapshot": null,
-            "standardT20": true,
-            "playingXI": {
-                "status": "NOT CONFIRMED",
-                "teams": {},
-                "source": "Not queried"
-            },
-            "formA": {
-                "matches": 10,
-                "wins": 8,
-                "losses": 2,
-                "winRatePct": 80.0,
-                "avgMarginImpact": 0.599,
-                "recent": [
-                    {
-                        "date": "2026-03-15",
-                        "winner": "Cayman Islands",
-                        "won": true,
-                        "venue": "Jimmy Powell Oval, Cayman Islands",
-                        "marginType": "wickets",
-                        "marginValue": 6.0,
-                        "marginImpact": 0.75
-                    },
-                    {
-                        "date": "2026-03-14",
-                        "winner": "Cayman Islands",
-                        "won": true,
-                        "venue": "Jimmy Powell Oval, Cayman Islands",
-                        "marginType": "wickets",
-                        "marginValue": 9.0,
-                        "marginImpact": 1.0
-                    },
-                    {
-                        "date": "2026-03-12",
-                        "winner": "Cayman Islands",
-                        "won": true,
-                        "venue": "Jimmy Powell Oval, Cayman Islands",
-                        "marginType": "runs",
-                        "marginValue": 93.0,
-                        "marginImpact": 1.0
-                    },
-                    {
-                        "date": "2026-03-11",
-                        "winner": "Cayman Islands",
-                        "won": true,
-                        "venue": "Jimmy Powell Oval, Cayman Islands",
-                        "marginType": "wickets",
-                        "marginValue": 9.0,
-                        "marginImpact": 1.0
-                    },
-                    {
-                        "date": "2026-03-09",
-                        "winner": "Cayman Islands",
-                        "won": true,
-                        "venue": "Jimmy Powell Oval, Cayman Islands",
-                        "marginType": "wickets",
-                        "marginValue": 9.0,
-                        "marginImpact": 1.0
-                    },
-                    {
-                        "date": "2026-03-08",
-                        "winner": "Cayman Islands",
-                        "won": true,
-                        "venue": "Jimmy Powell Oval, Cayman Islands",
-                        "marginType": "wickets",
-                        "marginValue": 10.0,
-                        "marginImpact": 1.0
-                    },
-                    {
-                        "date": "2025-06-22",
-                        "winner": "Cayman Islands",
-                        "won": true,
-                        "venue": "Maple Leaf North-West Ground, King City",
-                        "marginType": "runs",
-                        "marginValue": 49.0,
-                        "marginImpact": 0.817
-                    },
-                    {
-                        "date": "2025-06-21",
-                        "winner": "Cayman Islands",
-                        "won": true,
-                        "venue": "Maple Leaf North-West Ground, King City",
-                        "marginType": "wickets",
-                        "marginValue": 9.0,
-                        "marginImpact": 1.0
-                    },
-                    {
-                        "date": "2025-06-19",
-                        "winner": "Canada",
-                        "won": false,
-                        "venue": "Maple Leaf North-West Ground, King City",
-                        "marginType": "runs",
-                        "marginValue": 42.0,
-                        "marginImpact": -0.7
-                    },
-                    {
-                        "date": "2025-06-18",
-                        "winner": "Bermuda",
-                        "won": false,
-                        "venue": "Maple Leaf North-West Ground, King City",
-                        "marginType": "wickets",
-                        "marginValue": 7.0,
-                        "marginImpact": -0.875
-                    }
-                ]
-            },
-            "formB": {
-                "matches": 10,
-                "wins": 2,
-                "losses": 7,
-                "winRatePct": 22.2,
-                "avgMarginImpact": -0.446,
-                "recent": [
-                    {
-                        "date": "2026-06-27",
-                        "winner": "Bahamas",
-                        "won": true,
-                        "venue": "White Hill Field, Sandys Parish",
-                        "marginType": "runs",
-                        "marginValue": 22.0,
-                        "marginImpact": 0.367
-                    },
-                    {
-                        "date": "2026-06-25",
-                        "winner": "Bahamas",
-                        "won": true,
-                        "venue": "White Hill Field, Sandys Parish",
-                        "marginType": "wickets",
-                        "marginValue": 6.0,
-                        "marginImpact": 0.75
-                    },
-                    {
-                        "date": "2026-06-24",
-                        "winner": "Panama",
-                        "won": false,
-                        "venue": "White Hill Field, Sandys Parish",
-                        "marginType": "wickets",
-                        "marginValue": 4.0,
-                        "marginImpact": -0.5
-                    },
-                    {
-                        "date": "2026-06-21",
-                        "winner": null,
-                        "won": null,
-                        "venue": "White Hill Field, Sandys Parish",
-                        "marginType": null,
-                        "marginValue": null,
-                        "marginImpact": 0.0
-                    },
-                    {
-                        "date": "2025-06-22",
-                        "winner": "Cayman Islands",
-                        "won": false,
-                        "venue": "Maple Leaf North-West Ground, King City",
-                        "marginType": "runs",
-                        "marginValue": 49.0,
-                        "marginImpact": -0.817
-                    },
-                    {
-                        "date": "2025-06-21",
-                        "winner": "Canada",
-                        "won": false,
-                        "venue": "Maple Leaf North-West Ground, King City",
-                        "marginType": "wickets",
-                        "marginValue": 7.0,
-                        "marginImpact": -0.875
-                    },
-                    {
-                        "date": "2025-06-19",
-                        "winner": "Bermuda",
-                        "won": false,
-                        "venue": "Maple Leaf North-West Ground, King City",
-                        "marginType": "runs",
-                        "marginValue": 26.0,
-                        "marginImpact": -0.433
-                    },
-                    {
-                        "date": "2025-06-18",
-                        "winner": "Canada",
-                        "won": false,
-                        "venue": "Maple Leaf North-West Ground, King City",
-                        "marginType": "wickets",
-                        "marginValue": 10.0,
-                        "marginImpact": -1.0
-                    },
-                    {
-                        "date": "2025-06-16",
-                        "winner": "Bermuda",
-                        "won": false,
-                        "venue": "Maple Leaf North-West Ground, King City",
-                        "marginType": "wickets",
-                        "marginValue": 7.0,
-                        "marginImpact": -0.875
-                    },
-                    {
-                        "date": "2025-06-15",
-                        "winner": "Cayman Islands",
-                        "won": false,
-                        "venue": "Maple Leaf North-West Ground, King City",
-                        "marginType": "runs",
-                        "marginValue": 38.0,
-                        "marginImpact": -0.633
-                    }
-                ]
-            },
-            "weather": {
-                "status": "UNKNOWN",
-                "reason": "Venue could not be geocoded"
-            },
-            "weatherText": "NO DATA",
-            "dewRisk": "UNKNOWN",
-            "tossBias": "UNKNOWN",
-            "tossTrend": "Historical venue trend",
-            "ppScoreAvg": "UNKNOWN",
-            "ppRunRate": "Historical first-innings PP",
-            "spinIndex": "UNKNOWN",
-            "spinNote": "UNKNOWN",
-            "venueIntel": {
-                "status": "NO DATA / UNKNOWN VENUE",
-                "matches": 0,
-                "venue_confidence": 0.449
-            },
-            "midOversWickets": null,
-            "spinnerWickets7to14": null,
-            "spinClassificationPct": null,
-            "verdict": "🔴 HIGH-CAUTION / NO-BET",
-            "noBetReasons": [
-                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
-                "NO DATA / UNKNOWN VENUE",
-                "PLAYING XI NOT CONFIRMED",
-                "WEATHER DATA UNKNOWN"
-            ],
-            "warnings": [
-                "STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE",
-                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
-            ],
-            "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN"
-        },
-        {
-            "teamA": "Hong Kong, China",
-            "teamB": "Malaysia",
-            "name": "Hong Kong, China vs Malaysia,2nd Match, Group B Korogi Sports Park , Nisshin",
-            "matchType": "T20",
-            "venue": ", Group B Korogi Sports Park , Nisshin",
-            "dateTimeGMT": "2026-09-24T05:00:00+00:00",
-            "sourceDate": "2026-09-24",
-            "matchTimeIST": "2026-09-24T10:30:00+05:30",
-            "indiaDate": "2026-09-24",
-            "series": "Asian Games 2026",
-            "sourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/170983/hkc-vs-mly-2nd-match-group-b-asian-games-2026",
-            "sourceStatus": "Scheduled",
-            "marketTier": "LOW/UNKNOWN MARKET TIER",
-            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
-            "liquidityProxyOnly": true,
-            "premiumMarketProxy": false,
-            "competitiveBalance": {
-                "label": "UNKNOWN",
-                "balanceScore": null,
-                "teamAElo": null,
-                "teamBElo": null,
-                "eloMatchesA": 0,
-                "eloMatchesB": 116,
-                "eloGap": null,
-                "recentWinRateA": null,
-                "recentWinRateB": 50.0,
-                "recentFormGapPct": null,
-                "headToHead": {
-                    "matches": 0,
-                    "teamAWins": 0,
-                    "teamBWins": 0,
-                    "recent": []
-                },
-                "headToHeadGapPct": null,
-                "historicallyStrongerSide": null,
-                "signals": [],
-                "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
-                "officialRanking": "UNKNOWN / NOT CONNECTED"
-            },
-            "skillGap": "UNKNOWN",
-            "swingScore": 27.3,
-            "strategyLabel": "INSUFFICIENT DATA",
-            "tradeProfile": {
-                "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 17,
-                "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 27.3,
-                "strategyLabel": "INSUFFICIENT DATA",
-                "competitiveBalance": {
-                    "label": "UNKNOWN",
-                    "balanceScore": null,
-                    "teamAElo": null,
-                    "teamBElo": null,
-                    "eloMatchesA": 0,
-                    "eloMatchesB": 116,
-                    "eloGap": null,
-                    "recentWinRateA": null,
-                    "recentWinRateB": 50.0,
-                    "recentFormGapPct": null,
-                    "headToHead": {
-                        "matches": 0,
-                        "teamAWins": 0,
-                        "teamBWins": 0,
-                        "recent": []
-                    },
-                    "headToHeadGapPct": null,
-                    "historicallyStrongerSide": null,
-                    "signals": [],
-                    "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
-                    "officialRanking": "UNKNOWN / NOT CONNECTED"
-                },
-                "swingCatalysts": [],
-                "swingPenalties": [
-                    "Liquidity/market depth is not verified"
-                ],
-                "scoreComponents": [
-                    {
-                        "name": "weather",
-                        "score": 70.0,
-                        "weight": 0.1
-                    },
-                    {
-                        "name": "market_proxy",
-                        "score": 35.0,
-                        "weight": 0.2
-                    }
-                ],
-                "equalProfitTargetRequiresEntryOdds": true,
-                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
-            },
-            "preMatchSnapshot": null,
-            "standardT20": true,
-            "playingXI": {
-                "status": "NOT CONFIRMED",
-                "teams": {},
-                "source": "Not queried"
-            },
-            "formA": {
-                "matches": 0,
-                "wins": 0,
-                "losses": 0,
-                "winRatePct": null,
-                "avgMarginImpact": null,
-                "recent": []
-            },
-            "formB": {
-                "matches": 10,
-                "wins": 5,
-                "losses": 5,
-                "winRatePct": 50.0,
-                "avgMarginImpact": -0.053,
-                "recent": [
-                    {
-                        "date": "2026-09-17",
-                        "winner": "United Arab Emirates",
-                        "won": false,
-                        "venue": "Bayuemas Oval, Kuala Lumpur",
-                        "marginType": "runs",
-                        "marginValue": 59.0,
-                        "marginImpact": -0.983
-                    },
-                    {
-                        "date": "2026-09-16",
-                        "winner": "United Arab Emirates",
-                        "won": false,
-                        "venue": "Bayuemas Oval, Kuala Lumpur",
-                        "marginType": "wickets",
-                        "marginValue": 7.0,
-                        "marginImpact": -0.875
-                    },
-                    {
-                        "date": "2026-09-14",
-                        "winner": "United Arab Emirates",
-                        "won": false,
-                        "venue": "Bayuemas Oval, Kuala Lumpur",
-                        "marginType": "wickets",
-                        "marginValue": 6.0,
-                        "marginImpact": -0.75
-                    },
-                    {
-                        "date": "2026-06-08",
-                        "winner": "Malaysia",
-                        "won": true,
-                        "venue": "Singapore National Cricket Ground",
-                        "marginType": "wickets",
-                        "marginValue": 8.0,
-                        "marginImpact": 1.0
-                    },
-                    {
-                        "date": "2026-06-07",
-                        "winner": "Hong Kong",
-                        "won": false,
-                        "venue": "Singapore National Cricket Ground",
-                        "marginType": "wickets",
-                        "marginValue": 6.0,
-                        "marginImpact": -0.75
-                    },
-                    {
-                        "date": "2026-06-04",
-                        "winner": "Nepal",
-                        "won": false,
-                        "venue": "Singapore National Cricket Ground",
-                        "marginType": "runs",
-                        "marginValue": 167.0,
-                        "marginImpact": -1.0
-                    },
-                    {
-                        "date": "2026-06-02",
-                        "winner": "Malaysia",
-                        "won": true,
-                        "venue": "Singapore National Cricket Ground",
-                        "marginType": "wickets",
-                        "marginValue": 9.0,
-                        "marginImpact": 1.0
-                    },
-                    {
-                        "date": "2026-05-05",
-                        "winner": "Malaysia",
-                        "won": true,
-                        "venue": "Bayuemas Oval, Kuala Lumpur",
-                        "marginType": "wickets",
-                        "marginValue": 5.0,
-                        "marginImpact": 0.625
-                    },
-                    {
-                        "date": "2026-05-04",
-                        "winner": "Malaysia",
-                        "won": true,
-                        "venue": "Bayuemas Oval, Kuala Lumpur",
-                        "marginType": "runs",
-                        "marginValue": 104.0,
-                        "marginImpact": 1.0
-                    },
-                    {
-                        "date": "2026-05-02",
-                        "winner": "Malaysia",
-                        "won": true,
-                        "venue": "Bayuemas Oval, Kuala Lumpur",
-                        "marginType": "runs",
-                        "marginValue": 12.0,
-                        "marginImpact": 0.2
-                    }
-                ]
-            },
-            "weather": {
-                "status": "OK",
-                "local_time": "2026-09-24T14:00:00+09:00",
-                "temperature_c": 29.7,
-                "humidity_pct": 52,
-                "dew_point_c": 18.8,
-                "rain_probability_pct": 0,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 10.1,
-                "dew_risk": "LOW",
-                "rain_risk": "LOW"
-            },
-            "weatherText": "29.7°C | RH 52% | Rain 0% | Wind 10.1 km/h",
-            "dewRisk": "LOW",
-            "tossBias": "UNKNOWN",
-            "tossTrend": "Historical venue trend",
-            "ppScoreAvg": "UNKNOWN",
-            "ppRunRate": "Historical first-innings PP",
-            "spinIndex": "UNKNOWN",
-            "spinNote": "UNKNOWN",
-            "venueIntel": {
-                "status": "NO DATA / UNKNOWN VENUE",
-                "matches": 0,
-                "venue_confidence": 0.867
-            },
-            "midOversWickets": null,
-            "spinnerWickets7to14": null,
-            "spinClassificationPct": null,
-            "verdict": "🔴 HIGH-CAUTION / NO-BET",
-            "noBetReasons": [
-                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
-                "NO DATA / UNKNOWN VENUE",
-                "PLAYING XI NOT CONFIRMED",
-                "LIMITED RECENT T20 DATA FOR Hong Kong, China"
-            ],
-            "warnings": [
-                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
-            ],
-            "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Hong Kong, China"
         }
     ]
 }
