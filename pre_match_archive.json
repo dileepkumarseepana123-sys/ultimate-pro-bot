@@ -2266,7 +2266,7 @@
         }
     },
     "bahamas|cayman islands|2026-09-24": {
-        "capturedAt": "2026-09-24T07:13:31.447376+00:00",
+        "capturedAt": "2026-09-24T07:16:30.935285+00:00",
         "matchDate": "2026-09-24",
         "report": {
             "teamA": "Cayman Islands",
@@ -2347,15 +2347,15 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "STRONG GAP",
-            "swingScore": 48.0,
-            "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
+            "swingScore": 50.5,
+            "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
             "analysisEngineVersion": 2,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 67,
                 "swingProfile": "STRONG SKILL-GAP CAUTION",
-                "swingScore": 48.0,
-                "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
+                "swingScore": 50.5,
+                "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
                 "competitiveBalance": {
                     "label": "STRONG GAP",
                     "balanceScore": 45.3,
@@ -2418,10 +2418,10 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 56.0% chasing wins",
-                    "Middle-overs wicket volatility: 4.40 wickets/match in overs 7-14"
+                    "Middle-overs wicket volatility: 4.40 wickets/match in overs 7-14",
+                    "Medium dew can change second-innings conditions"
                 ],
                 "swingPenalties": [
-                    "High dew may create strong chase-side bias",
                     "Strong skill gap reduces reliable two-way movement",
                     "Liquidity/market depth is not verified"
                 ],
@@ -2443,7 +2443,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 60.0,
+                        "score": 90.0,
                         "weight": 0.1
                     },
                     {
@@ -2662,18 +2662,18 @@
             },
             "weather": {
                 "status": "OK",
-                "local_time": "2026-09-24T23:00:00+08:00",
-                "temperature_c": 26.0,
-                "humidity_pct": 98,
-                "dew_point_c": 25.6,
-                "rain_probability_pct": 24,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 3.2,
-                "dew_risk": "HIGH",
+                "local_time": "2026-09-24T10:00:00-05:00",
+                "temperature_c": 29.3,
+                "humidity_pct": 72,
+                "dew_point_c": 23.7,
+                "rain_probability_pct": 27,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 7.3,
+                "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.0°C | RH 98% | Rain 24% | Wind 3.2 km/h",
-            "dewRisk": "HIGH",
+            "weatherText": "29.3°C | RH 72% | Rain 27% | Wind 7.3 km/h",
+            "dewRisk": "MEDIUM",
             "tossBias": "56.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "39.16",
@@ -2699,19 +2699,19 @@
             "verdict": "🔴 HIGH-CAUTION / NO-BET",
             "noBetReasons": [
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
-                "PLAYING XI NOT CONFIRMED",
-                "HIGH DEW RISK"
+                "PLAYING XI NOT CONFIRMED"
             ],
             "warnings": [
+                "MEDIUM DEW RISK",
                 "STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; HIGH DEW RISK"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED"
         }
     },
     "afghanistan|japan|2026-09-24": {
-        "capturedAt": "2026-09-24T07:13:31.447397+00:00",
+        "capturedAt": "2026-09-24T07:16:30.935309+00:00",
         "matchDate": "2026-09-24",
         "report": {
             "teamA": "Japan",
