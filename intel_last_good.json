@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-24T00:46:59.909325+00:00",
+    "last_updated": "2026-09-24T06:47:17.672116+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -39,12 +39,12 @@
     },
     "discovery": {
         "live_text_relay_rows": 0,
-        "schedule_text_relay_rows": 3,
-        "text_relay_rows": 3,
-        "text_relay_t20_rows": 3,
-        "text_relay_today_t20_rows": 3,
-        "text_relay_match_url_rows": 3,
-        "text_relay_time_enriched_rows": 3,
+        "schedule_text_relay_rows": 2,
+        "text_relay_rows": 2,
+        "text_relay_t20_rows": 2,
+        "text_relay_today_t20_rows": 2,
+        "text_relay_match_url_rows": 2,
+        "text_relay_time_enriched_rows": 2,
         "final_reports_with_known_time": 3,
         "final_reports_with_weather": 2,
         "cricscore_rows": 0,
@@ -53,7 +53,7 @@
         "cricketdata_rows": 0,
         "cricketdata_t20_rows": 0,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 3,
+        "merged_candidates": 2,
         "final_reports": 3
     },
     "summary": {
@@ -76,7 +76,7 @@
             "series": "Asian Games 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/170973/jpn-vs-afg-1st-match-group-a-asian-games-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -157,7 +157,260 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-09-24T00:46:59.905121+00:00",
+                "matchDate": "2026-09-24",
+                "report": {
+                    "teamA": "Japan",
+                    "teamB": "Afghanistan",
+                    "name": "Japan vs Afghanistan,1st Match, Group A Korogi Sports Park , Nisshin",
+                    "matchType": "T20",
+                    "venue": ", Group A Korogi Sports Park , Nisshin",
+                    "dateTimeGMT": "2026-09-24T00:00:00+00:00",
+                    "sourceDate": "2026-09-24",
+                    "matchTimeIST": "2026-09-24T05:30:00+05:30",
+                    "indiaDate": "2026-09-24",
+                    "series": "Asian Games 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/170973/jpn-vs-afg-1st-match-group-a-asian-games-2026",
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 55,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": 88.9,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED"
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 31.2,
+                    "strategyLabel": "INSUFFICIENT DATA",
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 17,
+                        "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                        "swingScore": 31.2,
+                        "strategyLabel": "INSUFFICIENT DATA",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 55,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": 88.9,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED"
+                        },
+                        "swingCatalysts": [
+                            "Medium dew can change second-innings conditions"
+                        ],
+                        "swingPenalties": [
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "weather",
+                                "score": 90.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "formA": {
+                        "matches": 10,
+                        "wins": 8,
+                        "losses": 1,
+                        "winRatePct": 88.9,
+                        "avgMarginImpact": 0.651,
+                        "recent": [
+                            {
+                                "date": "2026-05-18",
+                                "winner": "Japan",
+                                "won": true,
+                                "venue": "Sano International Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 26.0,
+                                "marginImpact": 0.433
+                            },
+                            {
+                                "date": "2026-05-16",
+                                "winner": "Japan",
+                                "won": true,
+                                "venue": "Sano International Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 9.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-05-14",
+                                "winner": "Cook Islands",
+                                "won": false,
+                                "venue": "Sano International Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 3.0,
+                                "marginImpact": -0.375
+                            },
+                            {
+                                "date": "2026-05-12",
+                                "winner": "Japan",
+                                "won": true,
+                                "venue": "Sano International Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 41.0,
+                                "marginImpact": 0.683
+                            },
+                            {
+                                "date": "2026-05-10",
+                                "winner": "Japan",
+                                "won": true,
+                                "venue": "Korogi Sports Park, Nisshin",
+                                "marginType": "wickets",
+                                "marginValue": 8.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-05-09",
+                                "winner": "Japan",
+                                "won": true,
+                                "venue": "Korogi Sports Park, Nisshin",
+                                "marginType": "runs",
+                                "marginValue": 30.0,
+                                "marginImpact": 0.5
+                            },
+                            {
+                                "date": "2026-02-28",
+                                "winner": null,
+                                "won": null,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": null,
+                                "marginValue": null,
+                                "marginImpact": 0.0
+                            },
+                            {
+                                "date": "2026-02-27",
+                                "winner": "Japan",
+                                "won": true,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "runs",
+                                "marginValue": 77.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-02-26",
+                                "winner": "Japan",
+                                "won": true,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "wickets",
+                                "marginValue": 8.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-02-25",
+                                "winner": "Japan",
+                                "won": true,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "runs",
+                                "marginValue": 37.0,
+                                "marginImpact": 0.617
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-09-24T09:00:00+09:00",
+                        "temperature_c": 24.3,
+                        "humidity_pct": 77,
+                        "dew_point_c": 20.0,
+                        "rain_probability_pct": 12,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 5.0,
+                        "dew_risk": "MEDIUM",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "24.3°C | RH 77% | Rain 12% | Wind 5.0 km/h",
+                    "dewRisk": "MEDIUM",
+                    "tossBias": "UNKNOWN",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "UNKNOWN",
+                    "ppRunRate": "Historical first-innings PP",
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "UNKNOWN",
+                    "venueIntel": {
+                        "status": "NO DATA / UNKNOWN VENUE",
+                        "matches": 0,
+                        "venue_confidence": 0.867
+                    },
+                    "midOversWickets": null,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": null,
+                    "verdict": "🔴 HIGH-CAUTION / NO-BET",
+                    "noBetReasons": [
+                        "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                        "NO DATA / UNKNOWN VENUE",
+                        "PLAYING XI NOT CONFIRMED",
+                        "LIMITED RECENT T20 DATA FOR Afghanistan"
+                    ],
+                    "warnings": [
+                        "MEDIUM DEW RISK",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-red",
+                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Afghanistan"
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -311,7 +564,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Afghanistan"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Afghanistan",
+            "archivedOnly": true
         },
         {
             "teamA": "Cayman Islands",
@@ -929,11 +1183,11 @@
                 "dew_point_c": 18.8,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.6,
+                "wind_kmh": 10.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.7°C | RH 52% | Rain 0% | Wind 10.6 km/h",
+            "weatherText": "29.7°C | RH 52% | Rain 0% | Wind 10.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",

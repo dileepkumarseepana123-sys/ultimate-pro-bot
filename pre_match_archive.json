@@ -2266,7 +2266,7 @@
         }
     },
     "bahamas|cayman islands|2026-09-24": {
-        "capturedAt": "2026-09-24T00:46:59.905161+00:00",
+        "capturedAt": "2026-09-24T06:47:17.667968+00:00",
         "matchDate": "2026-09-24",
         "report": {
             "teamA": "Cayman Islands",
@@ -2672,7 +2672,7 @@
         }
     },
     "afghanistan|japan|2026-09-24": {
-        "capturedAt": "2026-09-24T00:46:59.905121+00:00",
+        "capturedAt": "2026-09-24T06:47:17.667993+00:00",
         "matchDate": "2026-09-24",
         "report": {
             "teamA": "Japan",
@@ -2687,7 +2687,7 @@
             "series": "Asian Games 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/170973/jpn-vs-afg-1st-match-group-a-asian-games-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -2922,11 +2922,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Afghanistan"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Afghanistan",
+            "archivedOnly": true
         }
     },
     "hong kong china|malaysia|2026-09-24": {
-        "capturedAt": "2026-09-24T00:46:59.905151+00:00",
+        "capturedAt": "2026-09-24T06:47:17.667954+00:00",
         "matchDate": "2026-09-24",
         "report": {
             "teamA": "Hong Kong, China",
@@ -3142,11 +3143,11 @@
                 "dew_point_c": 18.8,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.6,
+                "wind_kmh": 10.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.7°C | RH 52% | Rain 0% | Wind 10.6 km/h",
+            "weatherText": "29.7°C | RH 52% | Rain 0% | Wind 10.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
