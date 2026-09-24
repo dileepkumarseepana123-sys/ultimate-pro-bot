@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-24T07:10:56.955581+00:00",
+    "last_updated": "2026-09-24T07:13:31.450915+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -83,12 +83,12 @@
             "premiumMarketProxy": false,
             "competitiveBalance": {
                 "label": "STRONG GAP",
-                "balanceScore": 45.4,
-                "teamAElo": 1527.6,
-                "teamBElo": 1406.1,
+                "balanceScore": 45.3,
+                "teamAElo": 1527.7,
+                "teamBElo": 1405.9,
                 "eloMatchesA": 42,
                 "eloMatchesB": 32,
-                "eloGap": 121.5,
+                "eloGap": 121.8,
                 "recentWinRateA": 80.0,
                 "recentWinRateB": 22.2,
                 "recentFormGapPct": 57.8,
@@ -132,7 +132,7 @@
                 "headToHeadGapPct": 100.0,
                 "historicallyStrongerSide": "Cayman Islands",
                 "signals": [
-                    "Derived Elo gap 121.5",
+                    "Derived Elo gap 121.8",
                     "Recent win-rate gap 57.8 percentage points",
                     "Recent H2H win-share gap 100.0 percentage points"
                 ],
@@ -153,12 +153,12 @@
                 "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
                 "competitiveBalance": {
                     "label": "STRONG GAP",
-                    "balanceScore": 45.4,
-                    "teamAElo": 1527.6,
-                    "teamBElo": 1406.1,
+                    "balanceScore": 45.3,
+                    "teamAElo": 1527.7,
+                    "teamBElo": 1405.9,
                     "eloMatchesA": 42,
                     "eloMatchesB": 32,
-                    "eloGap": 121.5,
+                    "eloGap": 121.8,
                     "recentWinRateA": 80.0,
                     "recentWinRateB": 22.2,
                     "recentFormGapPct": 57.8,
@@ -202,7 +202,7 @@
                     "headToHeadGapPct": 100.0,
                     "historicallyStrongerSide": "Cayman Islands",
                     "signals": [
-                        "Derived Elo gap 121.5",
+                        "Derived Elo gap 121.8",
                         "Recent win-rate gap 57.8 percentage points",
                         "Recent H2H win-share gap 100.0 percentage points"
                     ],
@@ -223,7 +223,7 @@
                 "scoreComponents": [
                     {
                         "name": "competitive_balance",
-                        "score": 45.4,
+                        "score": 45.3,
                         "weight": 0.35
                     },
                     {
@@ -525,11 +525,11 @@
             "competitiveBalance": {
                 "label": "BALANCED",
                 "balanceScore": 92.1,
-                "teamAElo": 1583.9,
-                "teamBElo": 1594.4,
+                "teamAElo": 1584.1,
+                "teamBElo": 1594.3,
                 "eloMatchesA": 133,
                 "eloMatchesB": 128,
-                "eloGap": 10.5,
+                "eloGap": 10.2,
                 "recentWinRateA": 60.0,
                 "recentWinRateB": 50.0,
                 "recentFormGapPct": 10.0,
@@ -603,7 +603,7 @@
                 "headToHeadGapPct": 20.0,
                 "historicallyStrongerSide": null,
                 "signals": [
-                    "Derived Elo gap 10.5",
+                    "Derived Elo gap 10.2",
                     "Recent win-rate gap 10.0 percentage points",
                     "Recent H2H win-share gap 20.0 percentage points"
                 ],
@@ -625,11 +625,11 @@
                 "competitiveBalance": {
                     "label": "BALANCED",
                     "balanceScore": 92.1,
-                    "teamAElo": 1583.9,
-                    "teamBElo": 1594.4,
+                    "teamAElo": 1584.1,
+                    "teamBElo": 1594.3,
                     "eloMatchesA": 133,
                     "eloMatchesB": 128,
-                    "eloGap": 10.5,
+                    "eloGap": 10.2,
                     "recentWinRateA": 60.0,
                     "recentWinRateB": 50.0,
                     "recentFormGapPct": 10.0,
@@ -703,7 +703,7 @@
                     "headToHeadGapPct": 20.0,
                     "historicallyStrongerSide": null,
                     "signals": [
-                        "Derived Elo gap 10.5",
+                        "Derived Elo gap 10.2",
                         "Recent win-rate gap 10.0 percentage points",
                         "Recent H2H win-share gap 20.0 percentage points"
                     ],

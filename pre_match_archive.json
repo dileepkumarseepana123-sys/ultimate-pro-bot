@@ -2266,7 +2266,7 @@
         }
     },
     "bahamas|cayman islands|2026-09-24": {
-        "capturedAt": "2026-09-24T07:10:56.950836+00:00",
+        "capturedAt": "2026-09-24T07:13:31.447376+00:00",
         "matchDate": "2026-09-24",
         "report": {
             "teamA": "Cayman Islands",
@@ -2288,12 +2288,12 @@
             "premiumMarketProxy": false,
             "competitiveBalance": {
                 "label": "STRONG GAP",
-                "balanceScore": 45.4,
-                "teamAElo": 1527.6,
-                "teamBElo": 1406.1,
+                "balanceScore": 45.3,
+                "teamAElo": 1527.7,
+                "teamBElo": 1405.9,
                 "eloMatchesA": 42,
                 "eloMatchesB": 32,
-                "eloGap": 121.5,
+                "eloGap": 121.8,
                 "recentWinRateA": 80.0,
                 "recentWinRateB": 22.2,
                 "recentFormGapPct": 57.8,
@@ -2337,7 +2337,7 @@
                 "headToHeadGapPct": 100.0,
                 "historicallyStrongerSide": "Cayman Islands",
                 "signals": [
-                    "Derived Elo gap 121.5",
+                    "Derived Elo gap 121.8",
                     "Recent win-rate gap 57.8 percentage points",
                     "Recent H2H win-share gap 100.0 percentage points"
                 ],
@@ -2358,12 +2358,12 @@
                 "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
                 "competitiveBalance": {
                     "label": "STRONG GAP",
-                    "balanceScore": 45.4,
-                    "teamAElo": 1527.6,
-                    "teamBElo": 1406.1,
+                    "balanceScore": 45.3,
+                    "teamAElo": 1527.7,
+                    "teamBElo": 1405.9,
                     "eloMatchesA": 42,
                     "eloMatchesB": 32,
-                    "eloGap": 121.5,
+                    "eloGap": 121.8,
                     "recentWinRateA": 80.0,
                     "recentWinRateB": 22.2,
                     "recentFormGapPct": 57.8,
@@ -2407,7 +2407,7 @@
                     "headToHeadGapPct": 100.0,
                     "historicallyStrongerSide": "Cayman Islands",
                     "signals": [
-                        "Derived Elo gap 121.5",
+                        "Derived Elo gap 121.8",
                         "Recent win-rate gap 57.8 percentage points",
                         "Recent H2H win-share gap 100.0 percentage points"
                     ],
@@ -2428,7 +2428,7 @@
                 "scoreComponents": [
                     {
                         "name": "competitive_balance",
-                        "score": 45.4,
+                        "score": 45.3,
                         "weight": 0.35
                     },
                     {
@@ -2711,7 +2711,7 @@
         }
     },
     "afghanistan|japan|2026-09-24": {
-        "capturedAt": "2026-09-24T07:10:56.950864+00:00",
+        "capturedAt": "2026-09-24T07:13:31.447397+00:00",
         "matchDate": "2026-09-24",
         "report": {
             "teamA": "Japan",
