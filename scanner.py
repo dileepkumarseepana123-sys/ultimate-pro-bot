@@ -899,18 +899,23 @@ def check_cricbuzz_xi(url):
 # ==========================================
 def geocode_venue(venue):
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    raw = clean_text(venue)
+    venue_norm = norm(raw)
+    hint = next((q for hint_key, q in VENUE_GEOCODE_HINTS.items() if hint_key in venue_norm), None)
+
     key = re.sub(r"[^a-z0-9]+", "_", str(venue).lower()).strip("_")
     cache = CACHE_DIR / f"geo_{key}.json"
     if cache.exists():
         try:
-            return json.loads(cache.read_text(encoding="utf-8"))
+            cached = json.loads(cache.read_text(encoding="utf-8"))
+            # If a new explicit hint exists, invalidate an older ambiguous cache
+            # (e.g. George Town, Malaysia instead of Cayman Islands).
+            if not hint or norm(cached.get("query")) == norm(hint):
+                return cached
         except Exception:
             pass
 
-    raw = clean_text(venue)
     parts = [clean_text(x) for x in str(venue).split(",") if clean_text(x)]
-    venue_norm = norm(raw)
-    hint = next((q for key, q in VENUE_GEOCODE_HINTS.items() if key in venue_norm), None)
     queries = [hint, raw] if hint else [raw]
     if len(parts) >= 2:
         # Ground, City, Region -> city is usually more useful than the region.
