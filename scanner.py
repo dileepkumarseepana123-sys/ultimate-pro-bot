@@ -49,6 +49,15 @@ VENUE_GEOCODE_HINTS = {
     "diamond oval": "Kimberley South Africa",
 }
 
+VENUE_DIRECT_COORDS = {
+    "jimmy powell oval": {
+        "lat": 19.38000,
+        "lon": -81.40250,
+        "tz": "America/Cayman",
+        "query": "Jimmy Powell Oval verified coordinates",
+    },
+}
+
 API_USAGE = {"hitsToday": None, "hitsLimit": None, "quota_exhausted": False, "last_error": None}
 PREMATCH_ARCHIVE_PATH = Path("pre_match_archive.json")
 
@@ -901,6 +910,14 @@ def geocode_venue(venue):
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     raw = clean_text(venue)
     venue_norm = norm(raw)
+
+    direct = next(
+        (dict(value) for ground_key, value in VENUE_DIRECT_COORDS.items() if ground_key in venue_norm),
+        None,
+    )
+    if direct:
+        return direct
+
     hint = next((q for hint_key, q in VENUE_GEOCODE_HINTS.items() if hint_key in venue_norm), None)
 
     key = re.sub(r"[^a-z0-9]+", "_", str(venue).lower()).strip("_")
@@ -1405,9 +1422,12 @@ def _parse_cricbuzz_live_title(line, current_series, context=""):
         return None
 
     current = clean_text(current_series)
-    series_name = tail_series
-    if current and current != "UNKNOWN SERIES" and _is_t20_series_name(current):
+    if _is_t20_series_name(tail_series):
+        series_name = tail_series
+    elif current and current != "UNKNOWN SERIES" and _is_t20_series_name(current):
         series_name = current
+    else:
+        series_name = tail_series
 
     if not _is_t20_series_name(series_name) and not _is_t20_series_name(tail_series):
         return None
@@ -1895,7 +1915,32 @@ def run_scanner():
     # 1) no-key Cricbuzz text relay; 2) CricketData cricScore; 3) small Match List fallback.
     live_relay_rows = scrape_cricbuzz_live_via_text_relay()
     schedule_relay_rows = scrape_cricbuzz_via_text_relay()
-    relay_rows = live_relay_rows + schedule_relay_rows
+
+    # Schedule rows usually have the cleanest venue/time metadata. Merge live
+    # status into them by team pair rather than letting a noisy live-page card
+    # replace the schedule metadata.
+    relay_rows = [dict(x) for x in schedule_relay_rows]
+    schedule_index = {}
+    for idx, row in enumerate(relay_rows):
+        teams = row.get("teams") or [row.get("teamA"), row.get("teamB")]
+        pair = tuple(sorted(norm(t) for t in teams if t))
+        if len(pair) == 2:
+            schedule_index[pair] = idx
+
+    for live in live_relay_rows:
+        teams = live.get("teams") or [live.get("teamA"), live.get("teamB")]
+        pair = tuple(sorted(norm(t) for t in teams if t))
+        existing_idx = schedule_index.get(pair) if len(pair) == 2 else None
+        if existing_idx is not None:
+            base = relay_rows[existing_idx]
+            base["status"] = "LIVE / CURRENT"
+            base["source_name"] = "Cricbuzz schedule + live relay"
+            base["live_source_name"] = live.get("source_name")
+            if live.get("source_match_url") and not base.get("source_match_url"):
+                base["source_match_url"] = live.get("source_match_url")
+        else:
+            relay_rows.append(dict(live))
+
     score_rows = get_cricscore_matches() if API_KEY and not relay_rows else []
 
     score_today_probe = [
