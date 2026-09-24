@@ -1365,37 +1365,64 @@ def _parse_cricbuzz_live_title(line, current_series, context=""):
     live_marker = re.search(r"\bLIVE:\s*", text, re.I)
     if live_marker:
         text = text[live_marker.end():].strip()
+
+    team_a = team_b = stage = tail_series = None
+
+    # Format A: Team A vs Team B | Final | CPL 2026
     m = re.search(
-        r"(?:LIVE:\s*)?(.+?)\s+vs\s+(.+?)\s*\|\s*"
+        r"(.+?)\s+vs\s+(.+?)\s*\|\s*"
         r"(Final|Semi[- ]?Final|Qualifier|Eliminator|[^|]+?)\s*\|\s*(.+)$",
         text,
         re.I,
     )
-    if not m:
+    if m:
+        team_a = clean_text(m.group(1))
+        team_b = clean_text(m.group(2))
+        stage = clean_text(m.group(3))
+        tail_series = clean_text(m.group(4))
+    else:
+        # Format B: Team A vs Team B, 2nd Match | Group B, Asian Games 2026
+        m = re.search(
+            r"(.+?)\s+vs\s+(.+?),\s*"
+            r"((?:\d+(?:st|nd|rd|th)\s+Match)|Final|Semi[- ]?Final|Qualifier|Eliminator)"
+            r"\s*\|\s*(.+)$",
+            text,
+            re.I,
+        )
+        if m:
+            team_a = clean_text(m.group(1))
+            team_b = clean_text(m.group(2))
+            stage = clean_text(m.group(3))
+            tail = clean_text(m.group(4))
+            group_match = re.match(r"(Group\s+[A-Z0-9]+)\s*,\s*(.+)$", tail, re.I)
+            if group_match:
+                stage = f"{stage}, {clean_text(group_match.group(1))}"
+                tail_series = clean_text(group_match.group(2))
+            else:
+                tail_series = tail
+
+    if not all((team_a, team_b, stage, tail_series)):
         return None
 
-    team_a = clean_text(m.group(1))
-    team_b = clean_text(m.group(2))
-    stage = clean_text(m.group(3))
-    tail_series = clean_text(m.group(4))
-    series_name = (
-        clean_text(current_series)
-        if current_series and current_series != "UNKNOWN SERIES"
-        else tail_series
-    )
+    current = clean_text(current_series)
+    series_name = tail_series
+    if current and current != "UNKNOWN SERIES" and _is_t20_series_name(current):
+        series_name = current
+
     if not _is_t20_series_name(series_name) and not _is_t20_series_name(tail_series):
         return None
 
     venue = "UNKNOWN VENUE"
     ctx = clean_text(context)
     vm = re.search(
-        r"(?:Final|Semi[- ]?Final|Qualifier|Eliminator)\s*•\s*"
+        r"(?:Final|Semi[- ]?Final|Qualifier|Eliminator|\d+(?:st|nd|rd|th)\s+Match)"
+        r"(?:,\s*Group\s+[A-Z0-9]+)?\s*•\s*"
         r"(.+?)(?:\s+Image\s+\d+:|\s+[A-Z]{2,5}\s+\d)",
         ctx,
         re.I,
     )
     if vm:
-        venue = clean_text(vm.group(1))
+        venue = _clean_schedule_venue(vm.group(1))
 
     return {
         "id": None,
@@ -2036,10 +2063,13 @@ def run_scanner():
         balance = build_competitive_balance(team_a, team_b, form_a, form_b, h2h, elo_model)
         reasons, warnings = [], []
 
-        # This scanner is pre-match only. Keep live matches visible, but do not
-        # treat them as fresh pre-match candidates.
-        if "LIVE" in str(m.get("status") or "").upper():
+        source_status = str(m.get("status") or "UNKNOWN")
+        start_passed = bool(dt and datetime.now(timezone.utc) >= dt)
+        if "LIVE" in source_status.upper():
             reasons.append("MATCH ALREADY LIVE — PRE-MATCH WINDOW CLOSED")
+        elif start_passed:
+            source_status = "START TIME PASSED / LIVE STATUS UNVERIFIED"
+            reasons.append("START TIME PASSED — PRE-MATCH WINDOW CLOSED")
 
         # Liquidity is not directly supplied by CricketData. Premium competition is only a proxy.
         if not premium:
@@ -2071,8 +2101,11 @@ def run_scanner():
         if venue_stats.get("spin_index_status") != "OK":
             warnings.append("SPIN CHOKE INDEX NOT FULLY CLASSIFIED")
 
-        if "MATCH ALREADY LIVE — PRE-MATCH WINDOW CLOSED" in reasons:
-            verdict = "🔴 LIVE — PRE-MATCH WINDOW CLOSED"
+        if (
+            "MATCH ALREADY LIVE — PRE-MATCH WINDOW CLOSED" in reasons
+            or "START TIME PASSED — PRE-MATCH WINDOW CLOSED" in reasons
+        ):
+            verdict = "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY"
         elif "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER" in reasons:
             verdict = "🔴 HIGH-CAUTION / NO-BET"
         elif not reasons:
@@ -2107,7 +2140,7 @@ def run_scanner():
             "series": m.get("series_name") or m.get("series") or "UNKNOWN SERIES",
             "sourceName": m.get("source_name") or "UNKNOWN SOURCE",
             "sourceMatchUrl": m.get("source_match_url"),
-            "sourceStatus": m.get("status") or "UNKNOWN",
+            "sourceStatus": source_status,
             "marketTier": tier,
             "marketVisibility": "PREMIUM / LIKELY LISTED" if premium else "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": True,
