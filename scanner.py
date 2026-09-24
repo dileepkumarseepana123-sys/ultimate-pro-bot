@@ -34,6 +34,13 @@ PREMIUM_KEYWORDS = ["indian premier league", "ipl", "big bash league", "bbl", "c
 MAJOR_TEAMS = ["england", "india", "australia", "sri lanka", "west indies", "south africa", "new zealand", "pakistan", "bangladesh", "afghanistan", "ireland", "zimbabwe"]
 JUNK_WORDS = ["test", "tests", "odi", "one day", "t10", "hundred", "100 ball", "women's club", "under-19", "u19", "county championship"]
 
+TEAM_ALIASES = {
+    "hong kong china": "hong kong",
+    "united states of america": "united states",
+    "usa": "united states",
+}
+CRICSHEET_WITHHELD_TEAMS = {"afghanistan"}
+
 API_USAGE = {"hitsToday": None, "hitsLimit": None, "quota_exhausted": False, "last_error": None}
 PREMATCH_ARCHIVE_PATH = Path("pre_match_archive.json")
 
@@ -592,10 +599,16 @@ def is_spin_style(style):
     return bool(s) and any(k in s for k in ("spin", "orthodox", "off break", "leg break", "googly", "chinaman", "carrom"))
 
 
+def canonical_team_name(value):
+    value = norm(value)
+    return TEAM_ALIASES.get(value, value)
+
+
 def _requested_team_pool(team):
     raw = norm(team)
     female = raw.endswith(" women")
     base = re.sub(r"\s+women$", "", raw).strip() if female else raw
+    base = canonical_team_name(base)
     return ("female" if female else "male"), base
 
 
@@ -624,14 +637,14 @@ def team_form(history, team, limit=10):
         if _cricsheet_pool(meta) != pool:
             continue
 
-        teams = [norm(t) for t in meta.get("teams", [])]
+        teams = [canonical_team_name(t) for t in meta.get("teams", [])]
         if target not in teams:
             continue
 
         date_value = (meta.get("dates") or [None])[0]
         dt = parse_dt(date_value) or datetime.min.replace(tzinfo=timezone.utc)
         outcome = meta.get("outcome", {})
-        winner = norm(outcome.get("winner", ""))
+        winner = canonical_team_name(outcome.get("winner", ""))
         margin = _margin_from_outcome(outcome)
         won = winner == target if winner else None
         impact = margin["strength"] * (1 if won is True else -1 if won is False else 0)
@@ -674,11 +687,12 @@ def build_t20_elo(history):
         if len(teams) != 2:
             continue
         outcome = meta.get("outcome", {})
-        winner = norm(outcome.get("winner", ""))
+        winner = canonical_team_name(outcome.get("winner", ""))
         if not winner:
             continue
         pool = _cricsheet_pool(meta)
-        a, b = norm(teams[0]), norm(teams[1])
+        a, b = canonical_team_name(teams[0]), canonical_team_name(teams[1])
+        winner = canonical_team_name(outcome.get("winner", ""))
         if winner not in {a, b}:
             continue
         date_value = (meta.get("dates") or [None])[0]
@@ -713,7 +727,7 @@ def head_to_head(history, team_a, team_b, limit=10):
         meta = m.get("info", {})
         if _cricsheet_pool(meta) != pool_a:
             continue
-        teams = {norm(t) for t in meta.get("teams", [])}
+        teams = {canonical_team_name(t) for t in meta.get("teams", [])}
         if a not in teams or b not in teams:
             continue
         outcome = meta.get("outcome", {})
@@ -778,7 +792,19 @@ def build_competitive_balance(team_a, team_b, form_a, form_b, h2h, elo_model):
     else:
         balance_score = None
 
-    if balance_score is None:
+    source_limitations = []
+    if a in CRICSHEET_WITHHELD_TEAMS or b in CRICSHEET_WITHHELD_TEAMS:
+        source_limitations.append("Cricsheet withholds Afghanistan match data; historical rating may be unavailable.")
+
+    major_a = any(a == x or a.startswith(x + " ") for x in MAJOR_TEAMS)
+    major_b = any(b == x or b.startswith(x + " ") for x in MAJOR_TEAMS)
+
+    if balance_score is None and major_a != major_b:
+        # Explicit proxy only: used when historical source coverage is missing.
+        balance_score = 40.0
+        label = "STRONG GAP"
+        signals.append("Major-team asymmetry proxy used because historical comparison data is incomplete")
+    elif balance_score is None:
         label = "UNKNOWN"
     elif balance_score >= 75:
         label = "BALANCED"
@@ -815,6 +841,8 @@ def build_competitive_balance(team_a, team_b, form_a, form_b, h2h, elo_model):
         "signals": signals,
         "ratingSource": elo_model.get("source"),
         "officialRanking": "UNKNOWN / NOT CONNECTED",
+        "sourceLimitations": source_limitations,
+        "majorTeamAsymmetryProxyUsed": bool(source_limitations and major_a != major_b and elo_gap is None),
     }
 
 
@@ -1002,7 +1030,7 @@ def load_t20_history():
         try:
             with p.open("r", encoding="utf-8") as f:
                 data = json.load(f)
-                if str(data.get("info", {}).get("match_type", "")).lower() in ["t20", "t20i", "twenty20"]:
+                if str(data.get("info", {}).get("match_type", "")).lower() in ["t20", "t20i", "it20", "twenty20"]:
                     history.append(data)
         except: continue
     return history
@@ -1134,6 +1162,16 @@ def _is_t20_series_name(series_name):
     )
 
 
+def _clean_schedule_venue(value):
+    text = clean_text(value)
+    text = re.sub(r"^[,\s]+", "", text)
+    text = re.sub(r"^Group\s+[A-Z0-9]+\s+", "", text, flags=re.I)
+    text = re.sub(r"^\([^)]*rescheduled[^)]*\)\s*", "", text, flags=re.I)
+    text = re.sub(r"\s+Live Cricket Score.*$", "", text, flags=re.I)
+    text = text.strip(' \\"\'')
+    return clean_text(text) or "UNKNOWN VENUE"
+
+
 def _parse_cricbuzz_match_line(line, series_name):
     lower = line.lower()
     if " vs " not in lower or has_non_t20_format_marker(line):
@@ -1151,7 +1189,7 @@ def _parse_cricbuzz_match_line(line, series_name):
         r"1st\s+semi[- ]?final|2nd\s+semi[- ]?final|"
         r"qualifier(?:\s+\d+)?|eliminator|"
         r"\d+(?:st|nd|rd|th)\s+match"
-        r")\b",
+        r")\b(?:\s*\([^)]*\))?(?:\s*,\s*Group\s+[A-Z0-9]+)?",
         re.I,
     )
     stage_match = stage_re.search(line)
@@ -1173,11 +1211,11 @@ def _parse_cricbuzz_match_line(line, series_name):
 
     venue = "UNKNOWN VENUE"
     if stage_match:
-        after = clean_text(line[stage_match.end():])
+        after = _clean_schedule_venue(line[stage_match.end():])
         if after:
             venue = after
     elif "," in line:
-        after = clean_text(line.split(",", 1)[1])
+        after = _clean_schedule_venue(line.split(",", 1)[1])
         if after:
             venue = after
 
@@ -1723,6 +1761,9 @@ def build_trade_profile(premium, venue_stats, weather, form_a, form_b, xi, balan
     # Hard caps: a large quality gap or unverified market should never be
     # presented as a top equal-profit candidate just because other inputs look good.
     gap_label = balance.get("label")
+    for limitation in balance.get("sourceLimitations") or []:
+        penalties.append(limitation)
+
     if gap_label == "EXTREME GAP":
         swing_score = min(swing_score, 35.0)
         penalties.append("Extreme skill gap: one-sided price path risk")
@@ -2007,6 +2048,8 @@ def run_scanner():
             warnings.append("STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE")
         elif balance.get("label") == "MODERATE GAP":
             warnings.append("MODERATE SKILL GAP")
+        if balance.get("sourceLimitations"):
+            warnings.extend(balance.get("sourceLimitations"))
         if venue_stats.get("spin_index_status") != "OK":
             warnings.append("SPIN CHOKE INDEX NOT FULLY CLASSIFIED")
 
