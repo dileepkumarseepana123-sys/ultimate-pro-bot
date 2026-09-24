@@ -62,10 +62,24 @@ jobs:
         run: |
           git config user.name "Scanner-Bot"
           git config user.email "bot@ultimatepro.com"
+
+          # Preserve generated outputs, move the checkout to the latest main,
+          # then apply only the generated files. This avoids rebase conflicts
+          # when scanner.py or the dashboard changes while a scan is running.
+          cp intel.json /tmp/intel.json
+          if [ -f intel_last_good.json ]; then cp intel_last_good.json /tmp/intel_last_good.json; fi
+          if [ -f pre_match_archive.json ]; then cp pre_match_archive.json /tmp/pre_match_archive.json; fi
+
+          git fetch origin main
+          git reset --hard origin/main
+
+          cp /tmp/intel.json intel.json
+          if [ -f /tmp/intel_last_good.json ]; then cp /tmp/intel_last_good.json intel_last_good.json; fi
+          if [ -f /tmp/pre_match_archive.json ]; then cp /tmp/pre_match_archive.json pre_match_archive.json; fi
+
           git add intel.json
           if [ -f intel_last_good.json ]; then git add intel_last_good.json; fi
           if [ -f pre_match_archive.json ]; then git add pre_match_archive.json; fi
           git diff --cached --quiet && exit 0
           git commit -m "Auto-update T20 deep match intel"
-          git pull --rebase origin main
-          git push
+          git push origin main
