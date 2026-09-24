@@ -2266,7 +2266,7 @@
         }
     },
     "bahamas|cayman islands|2026-09-24": {
-        "capturedAt": "2026-09-24T07:16:30.935285+00:00",
+        "capturedAt": "2026-09-24T12:47:46.448879+00:00",
         "matchDate": "2026-09-24",
         "report": {
             "teamA": "Cayman Islands",
@@ -2347,15 +2347,15 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "STRONG GAP",
-            "swingScore": 50.5,
-            "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+            "swingScore": 42.9,
+            "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
             "analysisEngineVersion": 2,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 67,
+                "dataCompletenessPct": 50,
                 "swingProfile": "STRONG SKILL-GAP CAUTION",
-                "swingScore": 50.5,
-                "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                "swingScore": 42.9,
+                "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
                 "competitiveBalance": {
                     "label": "STRONG GAP",
                     "balanceScore": 45.3,
@@ -2418,8 +2418,7 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 56.0% chasing wins",
-                    "Middle-overs wicket volatility: 4.40 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.40 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
                     "Strong skill gap reduces reliable two-way movement",
@@ -2440,11 +2439,6 @@
                         "name": "middle_over_volatility",
                         "score": 73.3,
                         "weight": 0.15
-                    },
-                    {
-                        "name": "weather",
-                        "score": 90.0,
-                        "weight": 0.1
                     },
                     {
                         "name": "market_proxy",
@@ -2661,19 +2655,11 @@
                 ]
             },
             "weather": {
-                "status": "OK",
-                "local_time": "2026-09-24T10:00:00-05:00",
-                "temperature_c": 29.3,
-                "humidity_pct": 72,
-                "dew_point_c": 23.7,
-                "rain_probability_pct": 27,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 7.3,
-                "dew_risk": "MEDIUM",
-                "rain_risk": "LOW"
+                "status": "UNKNOWN",
+                "reason": "Weather API error: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
             },
-            "weatherText": "29.3°C | RH 72% | Rain 27% | Wind 7.3 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
             "tossBias": "56.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "39.16",
@@ -2699,19 +2685,19 @@
             "verdict": "🔴 HIGH-CAUTION / NO-BET",
             "noBetReasons": [
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
-                "PLAYING XI NOT CONFIRMED"
+                "PLAYING XI NOT CONFIRMED",
+                "WEATHER DATA UNKNOWN"
             ],
             "warnings": [
-                "MEDIUM DEW RISK",
                 "STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN"
         }
     },
     "afghanistan|japan|2026-09-24": {
-        "capturedAt": "2026-09-24T07:16:30.935309+00:00",
+        "capturedAt": "2026-09-24T12:47:46.448905+00:00",
         "matchDate": "2026-09-24",
         "report": {
             "teamA": "Japan",
@@ -2966,7 +2952,7 @@
         }
     },
     "hong kong china|malaysia|2026-09-24": {
-        "capturedAt": "2026-09-24T07:05:10.665940+00:00",
+        "capturedAt": "2026-09-24T12:47:46.448914+00:00",
         "matchDate": "2026-09-24",
         "report": {
             "teamA": "Hong Kong, China",
@@ -2981,7 +2967,7 @@
             "series": "Asian Games 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/170983/hkc-vs-mly-2nd-match-group-b-asian-games-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -3463,7 +3449,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED",
+            "archivedOnly": true
         }
     }
 }
