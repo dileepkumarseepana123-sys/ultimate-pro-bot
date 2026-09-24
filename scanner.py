@@ -41,6 +41,14 @@ TEAM_ALIASES = {
 }
 CRICSHEET_WITHHELD_TEAMS = {"afghanistan"}
 
+VENUE_GEOCODE_HINTS = {
+    "jimmy powell oval": "George Town Cayman Islands",
+    "korogi sports park": "Nisshin Japan",
+    "sano international cricket ground": "Sano Japan",
+    "tafawa balewa square cricket oval": "Lagos Nigeria",
+    "diamond oval": "Kimberley South Africa",
+}
+
 API_USAGE = {"hitsToday": None, "hitsLimit": None, "quota_exhausted": False, "last_error": None}
 PREMATCH_ARCHIVE_PATH = Path("pre_match_archive.json")
 
@@ -901,7 +909,9 @@ def geocode_venue(venue):
 
     raw = clean_text(venue)
     parts = [clean_text(x) for x in str(venue).split(",") if clean_text(x)]
-    queries = [raw]
+    venue_norm = norm(raw)
+    hint = next((q for key, q in VENUE_GEOCODE_HINTS.items() if key in venue_norm), None)
+    queries = [hint, raw] if hint else [raw]
     if len(parts) >= 2:
         # Ground, City, Region -> city is usually more useful than the region.
         queries.append(parts[-2] if len(parts) >= 3 else parts[-1])
@@ -1039,17 +1049,22 @@ def analyze_venue(history, target_venue, dynamic_styles=None):
     dynamic_styles = dynamic_styles or {}
     static_styles = load_spin_bowler_db()
     target = norm(target_venue)
+    target_ground = norm(str(target_venue).split(",", 1)[0])
     matched, best = [], 0.0
     for m in history:
         venue = str(m.get("info", {}).get("venue", ""))
-        a, b = target, norm(venue)
-        if not a or not b:
-            score = 0.0
-        elif a == b:
-            score = 1.0
-        else:
-            token_overlap = len(set(a.split()) & set(b.split())) / max(1, len(set(a.split()) | set(b.split())))
-            score = max(SequenceMatcher(None, a, b).ratio(), token_overlap * 0.95)
+        b = norm(venue)
+        b_ground = norm(venue.split(",", 1)[0])
+        scores = []
+        for a0, b0 in ((target, b), (target_ground, b_ground)):
+            if not a0 or not b0:
+                scores.append(0.0)
+            elif a0 == b0:
+                scores.append(1.0)
+            else:
+                token_overlap = len(set(a0.split()) & set(b0.split())) / max(1, len(set(a0.split()) | set(b0.split())))
+                scores.append(max(SequenceMatcher(None, a0, b0).ratio(), token_overlap * 0.95))
+        score = max(scores)
         best = max(best, score)
         if score >= 0.90:
             matched.append(m)
@@ -1440,10 +1455,8 @@ def scrape_cricbuzz_live_via_text_relay():
                         current_series = line
                     continue
 
-                context = " ".join(lines[max(0, i-3):min(len(lines), i+4)])
-                if has_non_t20_format_marker(context):
-                    continue
-
+                # Do not classify from neighbouring live cards: an adjacent ODI/Test
+                # must not cause a valid T20 live card to be rejected.
                 # The live page also contains highlight/video titles with "vs".
                 # Only the actual current-match card carries a LIVE: marker.
                 if "live:" not in low:
@@ -2098,6 +2111,7 @@ def run_scanner():
             "skillGap": balance.get("label"),
             "swingScore": trade_profile.get("swingScore"),
             "strategyLabel": trade_profile.get("strategyLabel"),
+            "analysisEngineVersion": 2,
             "tradeProfile": trade_profile,
             "preMatchSnapshot": None,
             "standardT20": True,
