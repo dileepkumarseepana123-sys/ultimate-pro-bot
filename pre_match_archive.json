@@ -3454,7 +3454,7 @@
         }
     },
     "bahamas|bermuda|2026-09-25": {
-        "capturedAt": "2026-09-24T18:46:44.721255+00:00",
+        "capturedAt": "2026-09-25T00:47:39.997369+00:00",
         "matchDate": "2026-09-25",
         "report": {
             "teamA": "Bahamas",
@@ -3654,8 +3654,7 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 56.0% chasing wins",
-                    "Middle-overs wicket volatility: 4.40 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.40 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
                     "Extreme skill gap: one-sided price path risk",
@@ -3679,7 +3678,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 90.0,
+                        "score": 70.0,
                         "weight": 0.1
                     },
                     {
@@ -3899,17 +3898,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-25T10:00:00-05:00",
-                "temperature_c": 28.9,
-                "humidity_pct": 75,
-                "dew_point_c": 24.1,
-                "rain_probability_pct": 16,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 7.6,
-                "dew_risk": "MEDIUM",
+                "temperature_c": 29.2,
+                "humidity_pct": 73,
+                "dew_point_c": 24.0,
+                "rain_probability_pct": 10,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 12.1,
+                "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "28.9°C | RH 75% | Rain 16% | Wind 7.6 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "29.2°C | RH 73% | Rain 10% | Wind 12.1 km/h",
+            "dewRisk": "LOW",
             "tossBias": "56.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "39.16",
@@ -3939,7 +3938,6 @@
                 "EXTREME SKILL GAP / ONE-SIDED MARKET PATH RISK"
             ],
             "warnings": [
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
@@ -4439,7 +4437,7 @@
         }
     },
     "afghanistan|nepal|2026-09-25": {
-        "capturedAt": "2026-09-24T18:46:44.721274+00:00",
+        "capturedAt": "2026-09-25T00:47:39.997282+00:00",
         "matchDate": "2026-09-25",
         "report": {
             "teamA": "Afghanistan",
@@ -4683,16 +4681,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-25T14:00:00+09:00",
-                "temperature_c": 26.7,
-                "humidity_pct": 69,
-                "dew_point_c": 20.6,
-                "rain_probability_pct": 25,
+                "temperature_c": 27.2,
+                "humidity_pct": 67,
+                "dew_point_c": 20.5,
+                "rain_probability_pct": 21,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.3,
+                "wind_kmh": 7.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.7°C | RH 69% | Rain 25% | Wind 7.3 km/h",
+            "weatherText": "27.2°C | RH 67% | Rain 21% | Wind 7.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "42.86% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -4732,7 +4730,7 @@
         }
     },
     "ghana|sierra leone|2026-09-25": {
-        "capturedAt": "2026-09-24T18:46:44.721282+00:00",
+        "capturedAt": "2026-09-25T00:47:39.997304+00:00",
         "matchDate": "2026-09-25",
         "report": {
             "teamA": "Ghana",
@@ -5128,16 +5126,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-25T10:00:00+01:00",
-                "temperature_c": 26.3,
-                "humidity_pct": 84,
-                "dew_point_c": 23.4,
-                "rain_probability_pct": 57,
+                "temperature_c": 27.0,
+                "humidity_pct": 80,
+                "dew_point_c": 23.3,
+                "rain_probability_pct": 39,
                 "precipitation_mm": 0.3,
-                "wind_kmh": 10.5,
+                "wind_kmh": 13.1,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "MEDIUM"
             },
-            "weatherText": "26.3°C | RH 84% | Rain 57% | Wind 10.5 km/h",
+            "weatherText": "27.0°C | RH 80% | Rain 39% | Wind 13.1 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "32.26% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -5176,7 +5174,7 @@
         }
     },
     "chile women|costa rica women|2026-09-25": {
-        "capturedAt": "2026-09-24T18:46:44.721292+00:00",
+        "capturedAt": "2026-09-25T00:47:39.997328+00:00",
         "matchDate": "2026-09-25",
         "report": {
             "teamA": "Costa Rica Women",
@@ -5411,16 +5409,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-25T09:00:00-03:00",
-                "temperature_c": 17.7,
+                "temperature_c": 17.2,
                 "humidity_pct": 88,
-                "dew_point_c": 15.6,
-                "rain_probability_pct": 4,
+                "dew_point_c": 15.2,
+                "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 6.4,
+                "wind_kmh": 4.7,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "17.7°C | RH 88% | Rain 4% | Wind 6.4 km/h",
+            "weatherText": "17.2°C | RH 88% | Rain 0% | Wind 4.7 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -5452,7 +5450,7 @@
         }
     },
     "north west eastvaal renault dragons pool a supersport park centurion|warriors|2026-09-25": {
-        "capturedAt": "2026-09-24T18:46:44.721305+00:00",
+        "capturedAt": "2026-09-25T00:47:39.997346+00:00",
         "matchDate": "2026-09-25",
         "report": {
             "teamA": "Warriors",
@@ -5668,16 +5666,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-25T14:00:00+02:00",
-                "temperature_c": 27.5,
-                "humidity_pct": 29,
-                "dew_point_c": 8.0,
-                "rain_probability_pct": 6,
+                "temperature_c": 26.8,
+                "humidity_pct": 31,
+                "dew_point_c": 8.2,
+                "rain_probability_pct": 2,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 3.7,
+                "wind_kmh": 5.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.5°C | RH 29% | Rain 6% | Wind 3.7 km/h",
+            "weatherText": "26.8°C | RH 31% | Rain 2% | Wind 5.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -5708,7 +5706,7 @@
         }
     },
     "titans|western province pool b supersport park centurion|2026-09-25": {
-        "capturedAt": "2026-09-24T18:46:44.721316+00:00",
+        "capturedAt": "2026-09-25T00:47:39.997363+00:00",
         "matchDate": "2026-09-25",
         "report": {
             "teamA": "Titans",
@@ -5924,16 +5922,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-25T18:00:00+02:00",
-                "temperature_c": 24.2,
-                "humidity_pct": 38,
-                "dew_point_c": 9.0,
-                "rain_probability_pct": 3,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 7.1,
+                "temperature_c": 24.6,
+                "humidity_pct": 34,
+                "dew_point_c": 7.8,
+                "rain_probability_pct": 1,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 6.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "24.2°C | RH 38% | Rain 3% | Wind 7.1 km/h",
+            "weatherText": "24.6°C | RH 34% | Rain 1% | Wind 6.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
