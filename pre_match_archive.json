@@ -3454,7 +3454,7 @@
         }
     },
     "bahamas|bermuda|2026-09-25": {
-        "capturedAt": "2026-09-25T06:48:54.016207+00:00",
+        "capturedAt": "2026-09-25T12:48:28.224575+00:00",
         "matchDate": "2026-09-25",
         "report": {
             "teamA": "Bahamas",
@@ -3898,16 +3898,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-25T10:00:00-05:00",
-                "temperature_c": 29.2,
-                "humidity_pct": 73,
-                "dew_point_c": 24.0,
+                "temperature_c": 29.0,
+                "humidity_pct": 76,
+                "dew_point_c": 24.2,
                 "rain_probability_pct": 8,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 12.1,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 11.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.2°C | RH 73% | Rain 8% | Wind 12.1 km/h",
+            "weatherText": "29.0°C | RH 76% | Rain 8% | Wind 11.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "56.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -3945,7 +3945,7 @@
         }
     },
     "hong kong china|oman|2026-09-25": {
-        "capturedAt": "2026-09-25T06:48:54.016231+00:00",
+        "capturedAt": "2026-09-25T12:48:28.224600+00:00",
         "matchDate": "2026-09-25",
         "report": {
             "teamA": "Hong Kong, China",
@@ -4438,7 +4438,7 @@
         }
     },
     "afghanistan|nepal|2026-09-25": {
-        "capturedAt": "2026-09-25T00:47:39.997282+00:00",
+        "capturedAt": "2026-09-25T12:48:28.224605+00:00",
         "matchDate": "2026-09-25",
         "report": {
             "teamA": "Afghanistan",
@@ -4453,7 +4453,7 @@
             "series": "Asian Games 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/170993/afg-vs-nep-4th-match-group-a-asian-games-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -4727,7 +4727,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Afghanistan"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Afghanistan",
+            "archivedOnly": true
         }
     },
     "ghana|sierra leone|2026-09-25": {
@@ -5707,7 +5708,7 @@
         }
     },
     "titans|western province pool b supersport park centurion|2026-09-25": {
-        "capturedAt": "2026-09-25T06:48:54.016198+00:00",
+        "capturedAt": "2026-09-25T12:48:28.224569+00:00",
         "matchDate": "2026-09-25",
         "report": {
             "teamA": "Titans",
@@ -5923,16 +5924,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-25T18:00:00+02:00",
-                "temperature_c": 24.6,
-                "humidity_pct": 34,
-                "dew_point_c": 7.8,
+                "temperature_c": 24.2,
+                "humidity_pct": 37,
+                "dew_point_c": 8.5,
                 "rain_probability_pct": 7,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 6.1,
+                "wind_kmh": 5.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "24.6°C | RH 34% | Rain 7% | Wind 6.1 km/h",
+            "weatherText": "24.2°C | RH 37% | Rain 7% | Wind 5.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
