@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-26T06:45:56.200532+00:00",
+    "last_updated": "2026-09-26T12:46:06.282181+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -201,7 +201,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-09-25T18:45:21.328733+00:00",
+                "capturedAt": "2026-09-26T06:45:56.191524+00:00",
                 "matchDate": "2026-09-26",
                 "report": {
                     "teamA": "Japan",
@@ -216,7 +216,7 @@
                     "series": "Asian Games 2026",
                     "sourceName": "Cricbuzz via text relay",
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171001/jpn-vs-nep-5th-match-group-a-asian-games-2026",
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "LOW/UNKNOWN MARKET TIER",
                     "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
                     "liquidityProxyOnly": true,
@@ -592,7 +592,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-red",
-                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK"
+                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -1013,7 +1014,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-09-26T00:47:07.752439+00:00",
+                "capturedAt": "2026-09-26T06:45:56.191532+00:00",
                 "matchDate": "2026-09-26",
                 "report": {
                     "teamA": "Malaysia",
@@ -1028,7 +1029,7 @@
                     "series": "Asian Games 2026",
                     "sourceName": "Cricbuzz via text relay",
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171011/mly-vs-oman-6th-match-group-b-asian-games-2026",
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "LOW/UNKNOWN MARKET TIER",
                     "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
                     "liquidityProxyOnly": true,
@@ -1430,7 +1431,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-red",
-                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK"
+                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -1836,7 +1838,8 @@
                     "majorTeamAsymmetryProxyUsed": false
                 },
                 "swingCatalysts": [
-                    "Middle-overs wicket volatility: 5.53 wickets/match in overs 7-14"
+                    "Middle-overs wicket volatility: 5.53 wickets/match in overs 7-14",
+                    "Medium dew can change second-innings conditions"
                 ],
                 "swingPenalties": [
                     "Strong venue side-bias: 32.3% chasing wins",
@@ -2081,17 +2084,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-26T14:00:00+01:00",
-                "temperature_c": 27.8,
-                "humidity_pct": 78,
-                "dew_point_c": 23.6,
-                "rain_probability_pct": 87,
-                "precipitation_mm": 0.2,
-                "wind_kmh": 18.5,
-                "dew_risk": "LOW",
+                "temperature_c": 27.4,
+                "humidity_pct": 79,
+                "dew_point_c": 23.4,
+                "rain_probability_pct": 84,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 18.6,
+                "dew_risk": "MEDIUM",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "27.8°C | RH 78% | Rain 87% | Wind 18.5 km/h",
-            "dewRisk": "LOW",
+            "weatherText": "27.4°C | RH 79% | Rain 84% | Wind 18.6 km/h",
+            "dewRisk": "MEDIUM",
             "tossBias": "32.26% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "35.94",
@@ -2121,6 +2124,7 @@
                 "HIGH RAIN INTERRUPTION RISK"
             ],
             "warnings": [
+                "MEDIUM DEW RISK",
                 "MODERATE SKILL GAP",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
@@ -2140,7 +2144,7 @@
             "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173001/ncape-vs-bor-pool-a-csa-t20-challenge-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -2227,7 +2231,177 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-09-26T06:45:56.191497+00:00",
+                "matchDate": "2026-09-26",
+                "report": {
+                    "teamA": "Northern Cape",
+                    "teamB": "Border,Pool A Diamond Oval , Kimberley",
+                    "name": "Northern Cape vs Border,Pool A Diamond Oval , Kimberley",
+                    "matchType": "T20",
+                    "venue": "Pool A Diamond Oval , Kimberley",
+                    "dateTimeGMT": "2026-09-26T11:00:00+00:00",
+                    "sourceDate": "2026-09-26",
+                    "matchTimeIST": "2026-09-26T16:30:00+05:30",
+                    "indiaDate": "2026-09-26",
+                    "series": "CSA T20 Challenge 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173001/ncape-vs-bor-pool-a-csa-t20-challenge-2026",
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 0,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": null,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 17.5,
+                    "strategyLabel": "INSUFFICIENT DATA",
+                    "analysisEngineVersion": 2,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 17,
+                        "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                        "swingScore": 17.5,
+                        "strategyLabel": "INSUFFICIENT DATA",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 0,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": null,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [
+                            "Medium dew can change second-innings conditions"
+                        ],
+                        "swingPenalties": [
+                            "High rain-interruption risk",
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "weather",
+                                "score": 20.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "formA": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-09-26T13:00:00+02:00",
+                        "temperature_c": 17.8,
+                        "humidity_pct": 89,
+                        "dew_point_c": 16.0,
+                        "rain_probability_pct": 93,
+                        "precipitation_mm": 3.5,
+                        "wind_kmh": 21.2,
+                        "dew_risk": "MEDIUM",
+                        "rain_risk": "HIGH"
+                    },
+                    "weatherText": "17.8°C | RH 89% | Rain 93% | Wind 21.2 km/h",
+                    "dewRisk": "MEDIUM",
+                    "tossBias": "UNKNOWN",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "UNKNOWN",
+                    "ppRunRate": "Historical first-innings PP",
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "UNKNOWN",
+                    "venueIntel": {
+                        "status": "NO DATA / UNKNOWN VENUE",
+                        "matches": 0,
+                        "venue_confidence": 0.863
+                    },
+                    "midOversWickets": null,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": null,
+                    "verdict": "🔴 HIGH-CAUTION / NO-BET",
+                    "noBetReasons": [
+                        "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                        "NO DATA / UNKNOWN VENUE",
+                        "PLAYING XI NOT CONFIRMED",
+                        "HIGH RAIN INTERRUPTION RISK",
+                        "LIMITED RECENT T20 DATA FOR Northern Cape",
+                        "LIMITED RECENT T20 DATA FOR Border,Pool A Diamond Oval , Kimberley"
+                    ],
+                    "warnings": [
+                        "MEDIUM DEW RISK",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-red",
+                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Northern Cape; LIMITED RECENT T20 DATA FOR Border,Pool A Diamond Oval , Kimberley"
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -2253,16 +2427,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-26T13:00:00+02:00",
-                "temperature_c": 17.8,
-                "humidity_pct": 89,
-                "dew_point_c": 16.0,
-                "rain_probability_pct": 93,
-                "precipitation_mm": 3.5,
-                "wind_kmh": 21.2,
+                "temperature_c": 16.9,
+                "humidity_pct": 94,
+                "dew_point_c": 15.9,
+                "rain_probability_pct": 97,
+                "precipitation_mm": 5.3,
+                "wind_kmh": 14.4,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "17.8°C | RH 89% | Rain 93% | Wind 21.2 km/h",
+            "weatherText": "16.9°C | RH 94% | Rain 97% | Wind 14.4 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -2278,8 +2452,9 @@
             "midOversWickets": null,
             "spinnerWickets7to14": null,
             "spinClassificationPct": null,
-            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
                 "NO DATA / UNKNOWN VENUE",
                 "PLAYING XI NOT CONFIRMED",
@@ -2292,7 +2467,7 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Northern Cape; LIMITED RECENT T20 DATA FOR Border,Pool A Diamond Oval , Kimberley"
+            "strategyText": "START TIME PASSED — PRE-MATCH WINDOW CLOSED; LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Northern Cape; LIMITED RECENT T20 DATA FOR Border,Pool A Diamond Oval , Kimberley"
         }
     ]
 }

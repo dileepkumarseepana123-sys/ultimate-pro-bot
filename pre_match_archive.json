@@ -5964,7 +5964,7 @@
         }
     },
     "japan|nepal|2026-09-26": {
-        "capturedAt": "2026-09-26T06:45:56.191524+00:00",
+        "capturedAt": "2026-09-26T12:46:06.273191+00:00",
         "matchDate": "2026-09-26",
         "report": {
             "teamA": "Japan",
@@ -6360,7 +6360,7 @@
         }
     },
     "malaysia|oman|2026-09-26": {
-        "capturedAt": "2026-09-26T06:45:56.191532+00:00",
+        "capturedAt": "2026-09-26T12:46:06.273199+00:00",
         "matchDate": "2026-09-26",
         "report": {
             "teamA": "Malaysia",
@@ -6953,7 +6953,7 @@
         }
     },
     "ghana|nigeria|2026-09-26": {
-        "capturedAt": "2026-09-26T06:45:56.191514+00:00",
+        "capturedAt": "2026-09-26T12:46:06.273180+00:00",
         "matchDate": "2026-09-26",
         "report": {
             "teamA": "Nigeria",
@@ -7104,7 +7104,8 @@
                     "majorTeamAsymmetryProxyUsed": false
                 },
                 "swingCatalysts": [
-                    "Middle-overs wicket volatility: 5.53 wickets/match in overs 7-14"
+                    "Middle-overs wicket volatility: 5.53 wickets/match in overs 7-14",
+                    "Medium dew can change second-innings conditions"
                 ],
                 "swingPenalties": [
                     "Strong venue side-bias: 32.3% chasing wins",
@@ -7349,17 +7350,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-26T14:00:00+01:00",
-                "temperature_c": 27.8,
-                "humidity_pct": 78,
-                "dew_point_c": 23.6,
-                "rain_probability_pct": 87,
-                "precipitation_mm": 0.2,
-                "wind_kmh": 18.5,
-                "dew_risk": "LOW",
+                "temperature_c": 27.4,
+                "humidity_pct": 79,
+                "dew_point_c": 23.4,
+                "rain_probability_pct": 84,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 18.6,
+                "dew_risk": "MEDIUM",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "27.8°C | RH 78% | Rain 87% | Wind 18.5 km/h",
-            "dewRisk": "LOW",
+            "weatherText": "27.4°C | RH 79% | Rain 84% | Wind 18.6 km/h",
+            "dewRisk": "MEDIUM",
             "tossBias": "32.26% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "35.94",
@@ -7389,6 +7390,7 @@
                 "HIGH RAIN INTERRUPTION RISK"
             ],
             "warnings": [
+                "MEDIUM DEW RISK",
                 "MODERATE SKILL GAP",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
