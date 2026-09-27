@@ -7399,7 +7399,7 @@
         }
     },
     "mpumalanga rhinos|titans pool b uplands college white river mpumalanga|2026-09-27": {
-        "capturedAt": "2026-09-27T00:48:33.413120+00:00",
+        "capturedAt": "2026-09-27T06:47:04.201712+00:00",
         "matchDate": "2026-09-27",
         "report": {
             "teamA": "Mpumalanga Rhinos",
@@ -7525,16 +7525,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-27T06:00:00-05:00",
-                "temperature_c": 15.7,
-                "humidity_pct": 97,
-                "dew_point_c": 15.3,
+                "temperature_c": 14.9,
+                "humidity_pct": 99,
+                "dew_point_c": 14.7,
                 "rain_probability_pct": 1,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 4.0,
+                "wind_kmh": 3.7,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "15.7°C | RH 97% | Rain 1% | Wind 4.0 km/h",
+            "weatherText": "14.9°C | RH 99% | Rain 1% | Wind 3.7 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -7567,7 +7567,7 @@
         }
     },
     "dolphins|lions pool a kingsmead durban|2026-09-27": {
-        "capturedAt": "2026-09-27T00:48:33.413141+00:00",
+        "capturedAt": "2026-09-27T06:47:04.201735+00:00",
         "matchDate": "2026-09-27",
         "report": {
             "teamA": "Dolphins",
@@ -7823,7 +7823,7 @@
         }
     },
     "knights pool b newlands cape town|western province|2026-09-27": {
-        "capturedAt": "2026-09-27T00:48:33.413163+00:00",
+        "capturedAt": "2026-09-27T06:47:04.201762+00:00",
         "matchDate": "2026-09-27",
         "report": {
             "teamA": "Western Province",
@@ -8079,7 +8079,7 @@
         }
     },
     "nigeria|sierra leone|2026-09-27": {
-        "capturedAt": "2026-09-27T00:48:33.413181+00:00",
+        "capturedAt": "2026-09-27T06:47:04.201785+00:00",
         "matchDate": "2026-09-27",
         "report": {
             "teamA": "Nigeria",
@@ -8539,13 +8539,13 @@
                 "temperature_c": 27.7,
                 "humidity_pct": 77,
                 "dew_point_c": 23.2,
-                "rain_probability_pct": 100,
+                "rain_probability_pct": 99,
                 "precipitation_mm": 0.4,
                 "wind_kmh": 22.2,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "27.7°C | RH 77% | Rain 100% | Wind 22.2 km/h",
+            "weatherText": "27.7°C | RH 77% | Rain 99% | Wind 22.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "32.26% Chasing Wins",
             "tossTrend": "Historical venue trend",
