@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-27T06:47:04.212738+00:00",
+    "last_updated": "2026-09-27T12:46:18.304548+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -518,16 +518,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-27T14:00:00+01:00",
-                "temperature_c": 27.7,
+                "temperature_c": 27.6,
                 "humidity_pct": 77,
-                "dew_point_c": 23.2,
-                "rain_probability_pct": 99,
-                "precipitation_mm": 0.4,
-                "wind_kmh": 22.2,
+                "dew_point_c": 23.1,
+                "rain_probability_pct": 90,
+                "precipitation_mm": 0.6,
+                "wind_kmh": 22.8,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "27.7°C | RH 77% | Rain 99% | Wind 22.2 km/h",
+            "weatherText": "27.6°C | RH 77% | Rain 90% | Wind 22.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "32.26% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -577,7 +577,7 @@
             "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173010/dol-vs-lions-pool-a-csa-t20-challenge-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -661,7 +661,262 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-09-27T06:47:04.201735+00:00",
+                "matchDate": "2026-09-27",
+                "report": {
+                    "teamA": "Dolphins",
+                    "teamB": "Lions,Pool A Kingsmead , Durban",
+                    "name": "Dolphins vs Lions,Pool A Kingsmead , Durban",
+                    "matchType": "T20",
+                    "venue": "Pool A Kingsmead , Durban",
+                    "dateTimeGMT": "2026-09-27T11:00:00+00:00",
+                    "sourceDate": "2026-09-27",
+                    "matchTimeIST": "2026-09-27T16:30:00+05:30",
+                    "indiaDate": "2026-09-27",
+                    "series": "CSA T20 Challenge 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173010/dol-vs-lions-pool-a-csa-t20-challenge-2026",
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 89,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": 30.0,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 27.3,
+                    "strategyLabel": "INSUFFICIENT DATA",
+                    "analysisEngineVersion": 2,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 17,
+                        "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                        "swingScore": 27.3,
+                        "strategyLabel": "INSUFFICIENT DATA",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 89,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": 30.0,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [],
+                        "swingPenalties": [
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "weather",
+                                "score": 70.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "formA": {
+                        "matches": 10,
+                        "wins": 3,
+                        "losses": 7,
+                        "winRatePct": 30.0,
+                        "avgMarginImpact": -0.148,
+                        "recent": [
+                            {
+                                "date": "2024-10-19",
+                                "winner": "Boland",
+                                "won": false,
+                                "venue": "Kingsmead, Durban",
+                                "marginType": "runs",
+                                "marginValue": 4.0,
+                                "marginImpact": -0.067
+                            },
+                            {
+                                "date": "2024-10-16",
+                                "winner": "Dolphins",
+                                "won": true,
+                                "venue": "Mangaung Oval, Bloemfontein",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": 0.75
+                            },
+                            {
+                                "date": "2024-10-13",
+                                "winner": "Dolphins",
+                                "won": true,
+                                "venue": "Kingsmead, Durban",
+                                "marginType": "wickets",
+                                "marginValue": 4.0,
+                                "marginImpact": 0.5
+                            },
+                            {
+                                "date": "2024-10-09",
+                                "winner": "North West",
+                                "won": false,
+                                "venue": "Kingsmead, Durban",
+                                "marginType": "runs",
+                                "marginValue": 43.0,
+                                "marginImpact": -0.717
+                            },
+                            {
+                                "date": "2024-10-06",
+                                "winner": "Lions",
+                                "won": false,
+                                "venue": "The Wanderers Stadium, Johannesburg",
+                                "marginType": "runs",
+                                "marginValue": 9.0,
+                                "marginImpact": -0.15
+                            },
+                            {
+                                "date": "2024-10-04",
+                                "winner": "Titans",
+                                "won": false,
+                                "venue": "Kingsmead, Durban",
+                                "marginType": "runs",
+                                "marginValue": 51.0,
+                                "marginImpact": -0.85
+                            },
+                            {
+                                "date": "2024-09-29",
+                                "winner": "Warriors",
+                                "won": false,
+                                "venue": "St George's Park, Gqeberha",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.75
+                            },
+                            {
+                                "date": "2024-03-08",
+                                "winner": "Western Province",
+                                "won": false,
+                                "venue": "Kingsmead, Durban",
+                                "marginType": "runs",
+                                "marginValue": 2.0,
+                                "marginImpact": -0.033
+                            },
+                            {
+                                "date": "2022-11-05",
+                                "winner": "Titans",
+                                "won": false,
+                                "venue": "Senwes Park, Potchefstroom",
+                                "marginType": "wickets",
+                                "marginValue": 4.0,
+                                "marginImpact": -0.5
+                            },
+                            {
+                                "date": "2022-11-02",
+                                "winner": "Dolphins",
+                                "won": true,
+                                "venue": "Senwes Park, Potchefstroom",
+                                "marginType": "runs",
+                                "marginValue": 20.0,
+                                "marginImpact": 0.333
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-09-27T13:00:00+02:00",
+                        "temperature_c": 23.1,
+                        "humidity_pct": 70,
+                        "dew_point_c": 17.3,
+                        "rain_probability_pct": 13,
+                        "precipitation_mm": 0.1,
+                        "wind_kmh": 29.7,
+                        "dew_risk": "LOW",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "23.1°C | RH 70% | Rain 13% | Wind 29.7 km/h",
+                    "dewRisk": "LOW",
+                    "tossBias": "UNKNOWN",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "UNKNOWN",
+                    "ppRunRate": "Historical first-innings PP",
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "UNKNOWN",
+                    "venueIntel": {
+                        "status": "NO DATA / UNKNOWN VENUE",
+                        "matches": 0,
+                        "venue_confidence": 0.821
+                    },
+                    "midOversWickets": null,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": null,
+                    "verdict": "🔴 HIGH-CAUTION / NO-BET",
+                    "noBetReasons": [
+                        "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                        "NO DATA / UNKNOWN VENUE",
+                        "PLAYING XI NOT CONFIRMED",
+                        "LIMITED RECENT T20 DATA FOR Lions,Pool A Kingsmead , Durban"
+                    ],
+                    "warnings": [
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-red",
+                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Lions,Pool A Kingsmead , Durban"
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -778,16 +1033,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-27T13:00:00+02:00",
-                "temperature_c": 23.1,
+                "temperature_c": 23.0,
                 "humidity_pct": 70,
                 "dew_point_c": 17.3,
-                "rain_probability_pct": 13,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 29.7,
+                "rain_probability_pct": 9,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 31.3,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "23.1°C | RH 70% | Rain 13% | Wind 29.7 km/h",
+            "weatherText": "23.0°C | RH 70% | Rain 9% | Wind 31.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -803,8 +1058,9 @@
             "midOversWickets": null,
             "spinnerWickets7to14": null,
             "spinClassificationPct": null,
-            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
                 "NO DATA / UNKNOWN VENUE",
                 "PLAYING XI NOT CONFIRMED",
@@ -814,7 +1070,7 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Lions,Pool A Kingsmead , Durban"
+            "strategyText": "START TIME PASSED — PRE-MATCH WINDOW CLOSED; LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Lions,Pool A Kingsmead , Durban"
         },
         {
             "teamA": "Western Province",
@@ -1030,16 +1286,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-27T18:00:00+02:00",
-                "temperature_c": 14.7,
-                "humidity_pct": 62,
-                "dew_point_c": 7.5,
+                "temperature_c": 14.6,
+                "humidity_pct": 63,
+                "dew_point_c": 7.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 27.3,
+                "wind_kmh": 25.9,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "14.7°C | RH 62% | Rain 0% | Wind 27.3 km/h",
+            "weatherText": "14.6°C | RH 63% | Rain 0% | Wind 25.9 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -1081,7 +1337,7 @@
             "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173027/mpr-vs-tit-pool-b-csa-t20-challenge-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -1166,7 +1422,174 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-09-27T06:47:04.201712+00:00",
+                "matchDate": "2026-09-27",
+                "report": {
+                    "teamA": "Mpumalanga Rhinos",
+                    "teamB": "Titans,Pool B Uplands College, White River , Mpumalanga",
+                    "name": "Mpumalanga Rhinos vs Titans,Pool B Uplands College, White River , Mpumalanga",
+                    "matchType": "T20",
+                    "venue": "Pool B Uplands College, White River , Mpumalanga",
+                    "dateTimeGMT": "2026-09-27T11:00:00+00:00",
+                    "sourceDate": "2026-09-27",
+                    "matchTimeIST": "2026-09-27T16:30:00+05:30",
+                    "indiaDate": "2026-09-27",
+                    "series": "CSA T20 Challenge 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173027/mpr-vs-tit-pool-b-csa-t20-challenge-2026",
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 0,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": null,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 25.3,
+                    "strategyLabel": "INSUFFICIENT DATA",
+                    "analysisEngineVersion": 2,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 17,
+                        "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                        "swingScore": 25.3,
+                        "strategyLabel": "INSUFFICIENT DATA",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 0,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": null,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [],
+                        "swingPenalties": [
+                            "High dew may create strong chase-side bias",
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "weather",
+                                "score": 60.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "formA": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-09-27T06:00:00-05:00",
+                        "temperature_c": 14.9,
+                        "humidity_pct": 99,
+                        "dew_point_c": 14.7,
+                        "rain_probability_pct": 1,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 3.7,
+                        "dew_risk": "HIGH",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "14.9°C | RH 99% | Rain 1% | Wind 3.7 km/h",
+                    "dewRisk": "HIGH",
+                    "tossBias": "UNKNOWN",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "UNKNOWN",
+                    "ppRunRate": "Historical first-innings PP",
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "UNKNOWN",
+                    "venueIntel": {
+                        "status": "NO DATA / UNKNOWN VENUE",
+                        "matches": 0,
+                        "venue_confidence": 0.526
+                    },
+                    "midOversWickets": null,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": null,
+                    "verdict": "🔴 HIGH-CAUTION / NO-BET",
+                    "noBetReasons": [
+                        "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                        "NO DATA / UNKNOWN VENUE",
+                        "PLAYING XI NOT CONFIRMED",
+                        "HIGH DEW RISK",
+                        "LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos",
+                        "LIMITED RECENT T20 DATA FOR Titans,Pool B Uplands College, White River , Mpumalanga"
+                    ],
+                    "warnings": [
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-red",
+                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos; LIMITED RECENT T20 DATA FOR Titans,Pool B Uplands College, White River , Mpumalanga"
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -1192,16 +1615,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-27T06:00:00-05:00",
-                "temperature_c": 14.9,
-                "humidity_pct": 99,
-                "dew_point_c": 14.7,
-                "rain_probability_pct": 1,
+                "temperature_c": 14.5,
+                "humidity_pct": 91,
+                "dew_point_c": 13.0,
+                "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 3.7,
+                "wind_kmh": 3.1,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "14.9°C | RH 99% | Rain 1% | Wind 3.7 km/h",
+            "weatherText": "14.5°C | RH 91% | Rain 0% | Wind 3.1 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -1217,8 +1640,9 @@
             "midOversWickets": null,
             "spinnerWickets7to14": null,
             "spinClassificationPct": null,
-            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
                 "NO DATA / UNKNOWN VENUE",
                 "PLAYING XI NOT CONFIRMED",
@@ -1230,7 +1654,7 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos; LIMITED RECENT T20 DATA FOR Titans,Pool B Uplands College, White River , Mpumalanga"
+            "strategyText": "START TIME PASSED — PRE-MATCH WINDOW CLOSED; LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos; LIMITED RECENT T20 DATA FOR Titans,Pool B Uplands College, White River , Mpumalanga"
         }
     ]
 }

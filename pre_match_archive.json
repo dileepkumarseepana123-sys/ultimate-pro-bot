@@ -7823,7 +7823,7 @@
         }
     },
     "knights pool b newlands cape town|western province|2026-09-27": {
-        "capturedAt": "2026-09-27T06:47:04.201762+00:00",
+        "capturedAt": "2026-09-27T12:46:18.294106+00:00",
         "matchDate": "2026-09-27",
         "report": {
             "teamA": "Western Province",
@@ -8039,16 +8039,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-27T18:00:00+02:00",
-                "temperature_c": 14.7,
-                "humidity_pct": 62,
-                "dew_point_c": 7.5,
+                "temperature_c": 14.6,
+                "humidity_pct": 63,
+                "dew_point_c": 7.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 27.3,
+                "wind_kmh": 25.9,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "14.7°C | RH 62% | Rain 0% | Wind 27.3 km/h",
+            "weatherText": "14.6°C | RH 63% | Rain 0% | Wind 25.9 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -8079,7 +8079,7 @@
         }
     },
     "nigeria|sierra leone|2026-09-27": {
-        "capturedAt": "2026-09-27T06:47:04.201785+00:00",
+        "capturedAt": "2026-09-27T12:46:18.294129+00:00",
         "matchDate": "2026-09-27",
         "report": {
             "teamA": "Nigeria",
@@ -8536,16 +8536,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-27T14:00:00+01:00",
-                "temperature_c": 27.7,
+                "temperature_c": 27.6,
                 "humidity_pct": 77,
-                "dew_point_c": 23.2,
-                "rain_probability_pct": 99,
-                "precipitation_mm": 0.4,
-                "wind_kmh": 22.2,
+                "dew_point_c": 23.1,
+                "rain_probability_pct": 90,
+                "precipitation_mm": 0.6,
+                "wind_kmh": 22.8,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "27.7°C | RH 77% | Rain 99% | Wind 22.2 km/h",
+            "weatherText": "27.6°C | RH 77% | Rain 90% | Wind 22.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "32.26% Chasing Wins",
             "tossTrend": "Historical venue trend",
