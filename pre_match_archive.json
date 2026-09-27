@@ -7399,7 +7399,7 @@
         }
     },
     "mpumalanga rhinos|titans pool b uplands college white river mpumalanga|2026-09-27": {
-        "capturedAt": "2026-09-26T18:45:33.719012+00:00",
+        "capturedAt": "2026-09-27T00:48:33.413120+00:00",
         "matchDate": "2026-09-27",
         "report": {
             "teamA": "Mpumalanga Rhinos",
@@ -7445,14 +7445,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 17.5,
+            "swingScore": 25.3,
             "strategyLabel": "INSUFFICIENT DATA",
             "analysisEngineVersion": 2,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 0,
+                "dataCompletenessPct": 17,
                 "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 17.5,
+                "swingScore": 25.3,
                 "strategyLabel": "INSUFFICIENT DATA",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -7481,9 +7481,15 @@
                 },
                 "swingCatalysts": [],
                 "swingPenalties": [
+                    "High dew may create strong chase-side bias",
                     "Liquidity/market depth is not verified"
                 ],
                 "scoreComponents": [
+                    {
+                        "name": "weather",
+                        "score": 60.0,
+                        "weight": 0.1
+                    },
                     {
                         "name": "market_proxy",
                         "score": 35.0,
@@ -7517,11 +7523,19 @@
                 "recent": []
             },
             "weather": {
-                "status": "UNKNOWN",
-                "reason": "Weather API error: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
+                "status": "OK",
+                "local_time": "2026-09-27T06:00:00-05:00",
+                "temperature_c": 15.7,
+                "humidity_pct": 97,
+                "dew_point_c": 15.3,
+                "rain_probability_pct": 1,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 4.0,
+                "dew_risk": "HIGH",
+                "rain_risk": "LOW"
             },
-            "weatherText": "NO DATA",
-            "dewRisk": "UNKNOWN",
+            "weatherText": "15.7°C | RH 97% | Rain 1% | Wind 4.0 km/h",
+            "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "UNKNOWN",
@@ -7541,7 +7555,7 @@
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
                 "NO DATA / UNKNOWN VENUE",
                 "PLAYING XI NOT CONFIRMED",
-                "WEATHER DATA UNKNOWN",
+                "HIGH DEW RISK",
                 "LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos",
                 "LIMITED RECENT T20 DATA FOR Titans,Pool B Uplands College, White River , Mpumalanga"
             ],
@@ -7549,11 +7563,11 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; WEATHER DATA UNKNOWN; LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos; LIMITED RECENT T20 DATA FOR Titans,Pool B Uplands College, White River , Mpumalanga"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos; LIMITED RECENT T20 DATA FOR Titans,Pool B Uplands College, White River , Mpumalanga"
         }
     },
     "dolphins|lions pool a kingsmead durban|2026-09-27": {
-        "capturedAt": "2026-09-26T18:45:33.719026+00:00",
+        "capturedAt": "2026-09-27T00:48:33.413141+00:00",
         "matchDate": "2026-09-27",
         "report": {
             "teamA": "Dolphins",
@@ -7770,15 +7784,15 @@
                 "status": "OK",
                 "local_time": "2026-09-27T13:00:00+02:00",
                 "temperature_c": 23.1,
-                "humidity_pct": 75,
-                "dew_point_c": 18.4,
-                "rain_probability_pct": 14,
+                "humidity_pct": 70,
+                "dew_point_c": 17.3,
+                "rain_probability_pct": 13,
                 "precipitation_mm": 0.1,
-                "wind_kmh": 27.9,
+                "wind_kmh": 29.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "23.1°C | RH 75% | Rain 14% | Wind 27.9 km/h",
+            "weatherText": "23.1°C | RH 70% | Rain 13% | Wind 29.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -7809,7 +7823,7 @@
         }
     },
     "knights pool b newlands cape town|western province|2026-09-27": {
-        "capturedAt": "2026-09-26T18:45:33.719040+00:00",
+        "capturedAt": "2026-09-27T00:48:33.413163+00:00",
         "matchDate": "2026-09-27",
         "report": {
             "teamA": "Western Province",
@@ -8025,16 +8039,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-27T18:00:00+02:00",
-                "temperature_c": 14.6,
-                "humidity_pct": 63,
-                "dew_point_c": 7.6,
+                "temperature_c": 14.7,
+                "humidity_pct": 62,
+                "dew_point_c": 7.5,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 26.4,
+                "wind_kmh": 27.3,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "14.6°C | RH 63% | Rain 0% | Wind 26.4 km/h",
+            "weatherText": "14.7°C | RH 62% | Rain 0% | Wind 27.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -8065,7 +8079,7 @@
         }
     },
     "nigeria|sierra leone|2026-09-27": {
-        "capturedAt": "2026-09-26T18:45:33.719051+00:00",
+        "capturedAt": "2026-09-27T00:48:33.413181+00:00",
         "matchDate": "2026-09-27",
         "report": {
             "teamA": "Nigeria",
@@ -8276,8 +8290,7 @@
                     "majorTeamAsymmetryProxyUsed": false
                 },
                 "swingCatalysts": [
-                    "Middle-overs wicket volatility: 5.53 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 5.53 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
                     "Strong venue side-bias: 32.3% chasing wins",
@@ -8523,17 +8536,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-27T14:00:00+01:00",
-                "temperature_c": 27.1,
-                "humidity_pct": 81,
-                "dew_point_c": 23.5,
+                "temperature_c": 27.7,
+                "humidity_pct": 77,
+                "dew_point_c": 23.2,
                 "rain_probability_pct": 100,
                 "precipitation_mm": 0.4,
-                "wind_kmh": 20.8,
-                "dew_risk": "MEDIUM",
+                "wind_kmh": 22.2,
+                "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "27.1°C | RH 81% | Rain 100% | Wind 20.8 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "27.7°C | RH 77% | Rain 100% | Wind 22.2 km/h",
+            "dewRisk": "LOW",
             "tossBias": "32.26% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "35.94",
@@ -8563,7 +8576,6 @@
                 "HIGH RAIN INTERRUPTION RISK"
             ],
             "warnings": [
-                "MEDIUM DEW RISK",
                 "STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
