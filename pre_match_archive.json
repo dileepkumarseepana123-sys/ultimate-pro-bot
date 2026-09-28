@@ -8584,7 +8584,7 @@
         }
     },
     "hong kong china 1st quarter final korogi sports park nisshin|pakistan|2026-09-28": {
-        "capturedAt": "2026-09-27T18:45:42.077414+00:00",
+        "capturedAt": "2026-09-28T00:48:46.414365+00:00",
         "matchDate": "2026-09-28",
         "report": {
             "teamA": "Pakistan",
@@ -8599,7 +8599,7 @@
             "series": "Asian Games 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171021/pak-vs-hkc-1st-quarter-final-asian-games-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -8851,11 +8851,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Hong Kong, China,1st Quarter-Final Korogi Sports Park , Nisshin"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Hong Kong, China,1st Quarter-Final Korogi Sports Park , Nisshin",
+            "archivedOnly": true
         }
     },
     "afghanistan 2nd quarter final korogi sports park nisshin|india|2026-09-28": {
-        "capturedAt": "2026-09-27T18:45:42.077430+00:00",
+        "capturedAt": "2026-09-28T00:48:46.414323+00:00",
         "matchDate": "2026-09-28",
         "report": {
             "teamA": "India",
@@ -9072,16 +9073,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-28T14:00:00+09:00",
-                "temperature_c": 25.0,
-                "humidity_pct": 92,
-                "dew_point_c": 23.6,
+                "temperature_c": 24.7,
+                "humidity_pct": 93,
+                "dew_point_c": 23.5,
                 "rain_probability_pct": 99,
-                "precipitation_mm": 0.6,
-                "wind_kmh": 4.8,
+                "precipitation_mm": 0.3,
+                "wind_kmh": 4.0,
                 "dew_risk": "HIGH",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "25.0°C | RH 92% | Rain 99% | Wind 4.8 km/h",
+            "weatherText": "24.7°C | RH 93% | Rain 99% | Wind 4.0 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -9113,7 +9114,7 @@
         }
     },
     "border|north west eastvaal renault dragons pool a buffalo park east london|2026-09-28": {
-        "capturedAt": "2026-09-27T18:45:42.077445+00:00",
+        "capturedAt": "2026-09-28T00:48:46.414350+00:00",
         "matchDate": "2026-09-28",
         "report": {
             "teamA": "Border",
@@ -9239,16 +9240,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-28T13:00:00+02:00",
-                "temperature_c": 18.2,
-                "humidity_pct": 56,
-                "dew_point_c": 9.3,
-                "rain_probability_pct": 67,
-                "precipitation_mm": 0.3,
-                "wind_kmh": 25.2,
+                "temperature_c": 18.1,
+                "humidity_pct": 60,
+                "dew_point_c": 10.3,
+                "rain_probability_pct": 60,
+                "precipitation_mm": 0.2,
+                "wind_kmh": 25.1,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "18.2°C | RH 56% | Rain 67% | Wind 25.2 km/h",
+            "weatherText": "18.1°C | RH 60% | Rain 60% | Wind 25.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",

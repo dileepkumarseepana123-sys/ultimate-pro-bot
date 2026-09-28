@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-27T18:45:42.088820+00:00",
+    "last_updated": "2026-09-28T00:48:46.424690+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -39,12 +39,12 @@
     },
     "discovery": {
         "live_text_relay_rows": 0,
-        "schedule_text_relay_rows": 4,
-        "text_relay_rows": 4,
-        "text_relay_t20_rows": 4,
-        "text_relay_today_t20_rows": 3,
-        "text_relay_match_url_rows": 4,
-        "text_relay_time_enriched_rows": 4,
+        "schedule_text_relay_rows": 3,
+        "text_relay_rows": 3,
+        "text_relay_t20_rows": 3,
+        "text_relay_today_t20_rows": 2,
+        "text_relay_match_url_rows": 3,
+        "text_relay_time_enriched_rows": 3,
         "final_reports_with_known_time": 3,
         "final_reports_with_weather": 3,
         "cricscore_rows": 0,
@@ -53,7 +53,7 @@
         "cricketdata_rows": 0,
         "cricketdata_t20_rows": 0,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 4,
+        "merged_candidates": 3,
         "final_reports": 3
     },
     "summary": {
@@ -278,16 +278,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-28T14:00:00+09:00",
-                "temperature_c": 25.0,
-                "humidity_pct": 92,
-                "dew_point_c": 23.6,
+                "temperature_c": 24.7,
+                "humidity_pct": 93,
+                "dew_point_c": 23.5,
                 "rain_probability_pct": 99,
-                "precipitation_mm": 0.6,
-                "wind_kmh": 4.8,
+                "precipitation_mm": 0.3,
+                "wind_kmh": 4.0,
                 "dew_risk": "HIGH",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "25.0°C | RH 92% | Rain 99% | Wind 4.8 km/h",
+            "weatherText": "24.7°C | RH 93% | Rain 99% | Wind 4.0 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -330,7 +330,7 @@
             "series": "Asian Games 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171021/pak-vs-hkc-1st-quarter-final-asian-games-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -426,7 +426,277 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-09-27T18:45:42.077414+00:00",
+                "matchDate": "2026-09-28",
+                "report": {
+                    "teamA": "Pakistan",
+                    "teamB": "Hong Kong, China,1st Quarter-Final Korogi Sports Park , Nisshin",
+                    "name": "Pakistan vs Hong Kong, China,1st Quarter-Final Korogi Sports Park , Nisshin",
+                    "matchType": "T20",
+                    "venue": "China,1st Quarter-Final Korogi Sports Park , Nisshin",
+                    "dateTimeGMT": "2026-09-28T00:00:00+00:00",
+                    "sourceDate": "2026-09-28",
+                    "matchTimeIST": "2026-09-28T05:30:00+05:30",
+                    "indiaDate": "2026-09-28",
+                    "series": "Asian Games 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171021/pak-vs-hkc-1st-quarter-final-asian-games-2026",
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "STRONG GAP",
+                        "balanceScore": 40.0,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 274,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": 70.0,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [
+                            "Major-team asymmetry proxy used because historical comparison data is incomplete"
+                        ],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "STRONG GAP",
+                    "swingScore": 23.5,
+                    "strategyLabel": "POOR FIT / SKILL-GAP OR DATA CAUTION",
+                    "analysisEngineVersion": 2,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 33,
+                        "swingProfile": "STRONG SKILL-GAP CAUTION",
+                        "swingScore": 23.5,
+                        "strategyLabel": "POOR FIT / SKILL-GAP OR DATA CAUTION",
+                        "competitiveBalance": {
+                            "label": "STRONG GAP",
+                            "balanceScore": 40.0,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 274,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": 70.0,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [
+                                "Major-team asymmetry proxy used because historical comparison data is incomplete"
+                            ],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [],
+                        "swingPenalties": [
+                            "High dew may create strong chase-side bias",
+                            "High rain-interruption risk",
+                            "Strong skill gap reduces reliable two-way movement",
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "competitive_balance",
+                                "score": 40.0,
+                                "weight": 0.35
+                            },
+                            {
+                                "name": "weather",
+                                "score": 20.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "formA": {
+                        "matches": 10,
+                        "wins": 7,
+                        "losses": 3,
+                        "winRatePct": 70.0,
+                        "avgMarginImpact": 0.287,
+                        "recent": [
+                            {
+                                "date": "2026-02-28",
+                                "winner": "Pakistan",
+                                "won": true,
+                                "venue": "Pallekele International Cricket Stadium",
+                                "marginType": "runs",
+                                "marginValue": 5.0,
+                                "marginImpact": 0.083
+                            },
+                            {
+                                "date": "2026-02-24",
+                                "winner": "England",
+                                "won": false,
+                                "venue": "Pallekele International Cricket Stadium",
+                                "marginType": "wickets",
+                                "marginValue": 2.0,
+                                "marginImpact": -0.25
+                            },
+                            {
+                                "date": "2026-02-18",
+                                "winner": "Pakistan",
+                                "won": true,
+                                "venue": "Sinhalese Sports Club Ground, Colombo",
+                                "marginType": "runs",
+                                "marginValue": 102.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-02-15",
+                                "winner": "India",
+                                "won": false,
+                                "venue": "R Premadasa Stadium, Colombo",
+                                "marginType": "runs",
+                                "marginValue": 61.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-02-10",
+                                "winner": "Pakistan",
+                                "won": true,
+                                "venue": "Sinhalese Sports Club Ground, Colombo",
+                                "marginType": "runs",
+                                "marginValue": 32.0,
+                                "marginImpact": 0.533
+                            },
+                            {
+                                "date": "2026-02-07",
+                                "winner": "Pakistan",
+                                "won": true,
+                                "venue": "Sinhalese Sports Club Ground, Colombo",
+                                "marginType": "wickets",
+                                "marginValue": 3.0,
+                                "marginImpact": 0.375
+                            },
+                            {
+                                "date": "2026-02-01",
+                                "winner": "Pakistan",
+                                "won": true,
+                                "venue": "Gaddafi Stadium, Lahore",
+                                "marginType": "runs",
+                                "marginValue": 111.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-01-31",
+                                "winner": "Pakistan",
+                                "won": true,
+                                "venue": "Gaddafi Stadium, Lahore",
+                                "marginType": "runs",
+                                "marginValue": 90.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-01-29",
+                                "winner": "Pakistan",
+                                "won": true,
+                                "venue": "Gaddafi Stadium, Lahore",
+                                "marginType": "runs",
+                                "marginValue": 22.0,
+                                "marginImpact": 0.367
+                            },
+                            {
+                                "date": "2026-01-11",
+                                "winner": "Sri Lanka",
+                                "won": false,
+                                "venue": "Rangiri Dambulla International Stadium",
+                                "marginType": "runs",
+                                "marginValue": 14.0,
+                                "marginImpact": -0.233
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-09-28T09:00:00+09:00",
+                        "temperature_c": 23.8,
+                        "humidity_pct": 96,
+                        "dew_point_c": 23.1,
+                        "rain_probability_pct": 98,
+                        "precipitation_mm": 0.5,
+                        "wind_kmh": 3.4,
+                        "dew_risk": "HIGH",
+                        "rain_risk": "HIGH"
+                    },
+                    "weatherText": "23.8°C | RH 96% | Rain 98% | Wind 3.4 km/h",
+                    "dewRisk": "HIGH",
+                    "tossBias": "UNKNOWN",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "UNKNOWN",
+                    "ppRunRate": "Historical first-innings PP",
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "UNKNOWN",
+                    "venueIntel": {
+                        "status": "NO DATA / UNKNOWN VENUE",
+                        "matches": 0,
+                        "venue_confidence": 0.684
+                    },
+                    "midOversWickets": null,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": null,
+                    "verdict": "🔴 HIGH-CAUTION / NO-BET",
+                    "noBetReasons": [
+                        "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                        "NO DATA / UNKNOWN VENUE",
+                        "PLAYING XI NOT CONFIRMED",
+                        "HIGH DEW RISK",
+                        "HIGH RAIN INTERRUPTION RISK",
+                        "LIMITED RECENT T20 DATA FOR Hong Kong, China,1st Quarter-Final Korogi Sports Park , Nisshin"
+                    ],
+                    "warnings": [
+                        "STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-red",
+                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Hong Kong, China,1st Quarter-Final Korogi Sports Park , Nisshin"
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -582,7 +852,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Hong Kong, China,1st Quarter-Final Korogi Sports Park , Nisshin"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Hong Kong, China,1st Quarter-Final Korogi Sports Park , Nisshin",
+            "archivedOnly": true
         },
         {
             "teamA": "Border",
@@ -708,16 +979,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-28T13:00:00+02:00",
-                "temperature_c": 18.2,
-                "humidity_pct": 56,
-                "dew_point_c": 9.3,
-                "rain_probability_pct": 67,
-                "precipitation_mm": 0.3,
-                "wind_kmh": 25.2,
+                "temperature_c": 18.1,
+                "humidity_pct": 60,
+                "dew_point_c": 10.3,
+                "rain_probability_pct": 60,
+                "precipitation_mm": 0.2,
+                "wind_kmh": 25.1,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "18.2°C | RH 56% | Rain 67% | Wind 25.2 km/h",
+            "weatherText": "18.1°C | RH 60% | Rain 60% | Wind 25.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
