@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-28T06:50:19.287433+00:00",
+    "last_updated": "2026-09-28T12:49:48.156041+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -162,7 +162,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-09-28T00:48:46.414323+00:00",
+                "capturedAt": "2026-09-28T06:50:19.276084+00:00",
                 "matchDate": "2026-09-28",
                 "report": {
                     "teamA": "India",
@@ -177,7 +177,7 @@
                     "series": "Asian Games 2026",
                     "sourceName": "Cricbuzz via text relay",
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171030/ind-vs-afg-2nd-quarter-final-asian-games-2026",
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
                     "marketVisibility": "PREMIUM / LIKELY LISTED",
                     "liquidityProxyOnly": true,
@@ -416,7 +416,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-yellow",
-                    "strategyText": "NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Afghanistan,2nd Quarter-Final Korogi Sports Park , Nisshin"
+                    "strategyText": "NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Afghanistan,2nd Quarter-Final Korogi Sports Park , Nisshin",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -685,7 +686,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-09-28T00:48:46.414365+00:00",
+                "capturedAt": "2026-09-28T06:50:19.276070+00:00",
                 "matchDate": "2026-09-28",
                 "report": {
                     "teamA": "Pakistan",
@@ -1127,7 +1128,7 @@
             "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173031/bor-vs-nwest-pool-a-csa-t20-challenge-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -1212,7 +1213,174 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-09-28T06:50:19.276052+00:00",
+                "matchDate": "2026-09-28",
+                "report": {
+                    "teamA": "Border",
+                    "teamB": "North West - Eastvaal Renault Dragons,Pool A Buffalo Park , East London",
+                    "name": "Border vs North West - Eastvaal Renault Dragons,Pool A Buffalo Park , East London",
+                    "matchType": "T20",
+                    "venue": "Pool A Buffalo Park , East London",
+                    "dateTimeGMT": "2026-09-28T11:00:00+00:00",
+                    "sourceDate": "2026-09-28",
+                    "matchTimeIST": "2026-09-28T16:30:00+05:30",
+                    "indiaDate": "2026-09-28",
+                    "series": "CSA T20 Challenge 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173031/bor-vs-nwest-pool-a-csa-t20-challenge-2026",
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 0,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": null,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 17.5,
+                    "strategyLabel": "INSUFFICIENT DATA",
+                    "analysisEngineVersion": 2,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 17,
+                        "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                        "swingScore": 17.5,
+                        "strategyLabel": "INSUFFICIENT DATA",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 0,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": null,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [],
+                        "swingPenalties": [
+                            "High rain-interruption risk",
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "weather",
+                                "score": 20.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "formA": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-09-28T13:00:00+02:00",
+                        "temperature_c": 18.1,
+                        "humidity_pct": 60,
+                        "dew_point_c": 10.3,
+                        "rain_probability_pct": 63,
+                        "precipitation_mm": 0.2,
+                        "wind_kmh": 25.1,
+                        "dew_risk": "LOW",
+                        "rain_risk": "HIGH"
+                    },
+                    "weatherText": "18.1°C | RH 60% | Rain 63% | Wind 25.1 km/h",
+                    "dewRisk": "LOW",
+                    "tossBias": "UNKNOWN",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "UNKNOWN",
+                    "ppRunRate": "Historical first-innings PP",
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "UNKNOWN",
+                    "venueIntel": {
+                        "status": "NO DATA / UNKNOWN VENUE",
+                        "matches": 0,
+                        "venue_confidence": 0.873
+                    },
+                    "midOversWickets": null,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": null,
+                    "verdict": "🔴 HIGH-CAUTION / NO-BET",
+                    "noBetReasons": [
+                        "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                        "NO DATA / UNKNOWN VENUE",
+                        "PLAYING XI NOT CONFIRMED",
+                        "HIGH RAIN INTERRUPTION RISK",
+                        "LIMITED RECENT T20 DATA FOR Border",
+                        "LIMITED RECENT T20 DATA FOR North West - Eastvaal Renault Dragons,Pool A Buffalo Park , East London"
+                    ],
+                    "warnings": [
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-red",
+                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Border; LIMITED RECENT T20 DATA FOR North West - Eastvaal Renault Dragons,Pool A Buffalo Park , East London"
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -1238,16 +1406,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-28T13:00:00+02:00",
-                "temperature_c": 18.1,
+                "temperature_c": 18.3,
                 "humidity_pct": 60,
-                "dew_point_c": 10.3,
-                "rain_probability_pct": 63,
-                "precipitation_mm": 0.2,
-                "wind_kmh": 25.1,
+                "dew_point_c": 10.4,
+                "rain_probability_pct": 62,
+                "precipitation_mm": 0.4,
+                "wind_kmh": 24.6,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "18.1°C | RH 60% | Rain 63% | Wind 25.1 km/h",
+            "weatherText": "18.3°C | RH 60% | Rain 62% | Wind 24.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -1263,8 +1431,9 @@
             "midOversWickets": null,
             "spinnerWickets7to14": null,
             "spinClassificationPct": null,
-            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
                 "NO DATA / UNKNOWN VENUE",
                 "PLAYING XI NOT CONFIRMED",
@@ -1276,7 +1445,7 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Border; LIMITED RECENT T20 DATA FOR North West - Eastvaal Renault Dragons,Pool A Buffalo Park , East London"
+            "strategyText": "START TIME PASSED — PRE-MATCH WINDOW CLOSED; LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Border; LIMITED RECENT T20 DATA FOR North West - Eastvaal Renault Dragons,Pool A Buffalo Park , East London"
         }
     ]
 }
