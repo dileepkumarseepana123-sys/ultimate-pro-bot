@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-28T00:48:46.424690+00:00",
+    "last_updated": "2026-09-28T06:50:19.287433+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -39,12 +39,12 @@
     },
     "discovery": {
         "live_text_relay_rows": 0,
-        "schedule_text_relay_rows": 3,
-        "text_relay_rows": 3,
-        "text_relay_t20_rows": 3,
-        "text_relay_today_t20_rows": 2,
-        "text_relay_match_url_rows": 3,
-        "text_relay_time_enriched_rows": 3,
+        "schedule_text_relay_rows": 1,
+        "text_relay_rows": 1,
+        "text_relay_t20_rows": 1,
+        "text_relay_today_t20_rows": 1,
+        "text_relay_match_url_rows": 1,
+        "text_relay_time_enriched_rows": 1,
         "final_reports_with_known_time": 3,
         "final_reports_with_weather": 3,
         "cricscore_rows": 0,
@@ -53,7 +53,7 @@
         "cricketdata_rows": 0,
         "cricketdata_t20_rows": 0,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 3,
+        "merged_candidates": 1,
         "final_reports": 3
     },
     "summary": {
@@ -76,7 +76,7 @@
             "series": "Asian Games 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171030/ind-vs-afg-2nd-quarter-final-asian-games-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -161,7 +161,264 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-09-28T00:48:46.414323+00:00",
+                "matchDate": "2026-09-28",
+                "report": {
+                    "teamA": "India",
+                    "teamB": "Afghanistan,2nd Quarter-Final Korogi Sports Park , Nisshin",
+                    "name": "India vs Afghanistan,2nd Quarter-Final Korogi Sports Park , Nisshin",
+                    "matchType": "T20",
+                    "venue": "2nd Quarter-Final Korogi Sports Park , Nisshin",
+                    "dateTimeGMT": "2026-09-28T05:00:00+00:00",
+                    "sourceDate": "2026-09-28",
+                    "matchTimeIST": "2026-09-28T10:30:00+05:30",
+                    "indiaDate": "2026-09-28",
+                    "series": "Asian Games 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171030/ind-vs-afg-2nd-quarter-final-asian-games-2026",
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
+                    "marketVisibility": "PREMIUM / LIKELY LISTED",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": true,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 264,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": 33.3,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 35.0,
+                    "strategyLabel": "INSUFFICIENT DATA",
+                    "analysisEngineVersion": 2,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 33,
+                        "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                        "swingScore": 35.0,
+                        "strategyLabel": "INSUFFICIENT DATA",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 264,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": 33.3,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [],
+                        "swingPenalties": [
+                            "High dew may create strong chase-side bias",
+                            "High rain-interruption risk"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "weather",
+                                "score": 20.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 100.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "formA": {
+                        "matches": 10,
+                        "wins": 3,
+                        "losses": 6,
+                        "winRatePct": 33.3,
+                        "avgMarginImpact": -0.173,
+                        "recent": [
+                            {
+                                "date": "2026-07-26",
+                                "winner": "India",
+                                "won": true,
+                                "venue": "Harare Sports Club",
+                                "marginType": "runs",
+                                "marginValue": 35.0,
+                                "marginImpact": 0.583
+                            },
+                            {
+                                "date": "2026-07-25",
+                                "winner": "India",
+                                "won": true,
+                                "venue": "Harare Sports Club",
+                                "marginType": "runs",
+                                "marginValue": 90.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-07-23",
+                                "winner": "India",
+                                "won": true,
+                                "venue": "Harare Sports Club",
+                                "marginType": "wickets",
+                                "marginValue": 7.0,
+                                "marginImpact": 0.875
+                            },
+                            {
+                                "date": "2026-07-11",
+                                "winner": "England",
+                                "won": false,
+                                "venue": "The Rose Bowl, Southampton",
+                                "marginType": "runs",
+                                "marginValue": 56.0,
+                                "marginImpact": -0.933
+                            },
+                            {
+                                "date": "2026-07-09",
+                                "winner": "England",
+                                "won": false,
+                                "venue": "County Ground, Bristol",
+                                "marginType": "wickets",
+                                "marginValue": 9.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-07-07",
+                                "winner": "England",
+                                "won": false,
+                                "venue": "Trent Bridge, Nottingham",
+                                "marginType": "runs",
+                                "marginValue": 125.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-07-04",
+                                "winner": "England",
+                                "won": false,
+                                "venue": "Old Trafford, Manchester",
+                                "marginType": "wickets",
+                                "marginValue": 4.0,
+                                "marginImpact": -0.5
+                            },
+                            {
+                                "date": "2026-07-01",
+                                "winner": null,
+                                "won": null,
+                                "venue": "Riverside Ground, Chester-le-Street",
+                                "marginType": null,
+                                "marginValue": null,
+                                "marginImpact": 0.0
+                            },
+                            {
+                                "date": "2026-06-28",
+                                "winner": "Ireland",
+                                "won": false,
+                                "venue": "Civil Service Cricket Club, Stormont, Belfast",
+                                "marginType": "runs",
+                                "marginValue": 1.0,
+                                "marginImpact": -0.017
+                            },
+                            {
+                                "date": "2026-06-26",
+                                "winner": "Ireland",
+                                "won": false,
+                                "venue": "Civil Service Cricket Club, Stormont, Belfast",
+                                "marginType": "runs",
+                                "marginValue": 34.0,
+                                "marginImpact": -0.567
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-09-28T14:00:00+09:00",
+                        "temperature_c": 24.7,
+                        "humidity_pct": 93,
+                        "dew_point_c": 23.5,
+                        "rain_probability_pct": 99,
+                        "precipitation_mm": 0.3,
+                        "wind_kmh": 4.0,
+                        "dew_risk": "HIGH",
+                        "rain_risk": "HIGH"
+                    },
+                    "weatherText": "24.7°C | RH 93% | Rain 99% | Wind 4.0 km/h",
+                    "dewRisk": "HIGH",
+                    "tossBias": "UNKNOWN",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "UNKNOWN",
+                    "ppRunRate": "Historical first-innings PP",
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "UNKNOWN",
+                    "venueIntel": {
+                        "status": "NO DATA / UNKNOWN VENUE",
+                        "matches": 0,
+                        "venue_confidence": 0.743
+                    },
+                    "midOversWickets": null,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": null,
+                    "verdict": "🟡 WAIT — KEY DATA PENDING",
+                    "noBetReasons": [
+                        "NO DATA / UNKNOWN VENUE",
+                        "PLAYING XI NOT CONFIRMED",
+                        "HIGH DEW RISK",
+                        "HIGH RAIN INTERRUPTION RISK",
+                        "LIMITED RECENT T20 DATA FOR Afghanistan,2nd Quarter-Final Korogi Sports Park , Nisshin"
+                    ],
+                    "warnings": [
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-yellow",
+                    "strategyText": "NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Afghanistan,2nd Quarter-Final Korogi Sports Park , Nisshin"
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -315,7 +572,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Afghanistan,2nd Quarter-Final Korogi Sports Park , Nisshin"
+            "strategyText": "NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Afghanistan,2nd Quarter-Final Korogi Sports Park , Nisshin",
+            "archivedOnly": true
         },
         {
             "teamA": "Pakistan",
@@ -427,7 +685,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-09-27T18:45:42.077414+00:00",
+                "capturedAt": "2026-09-28T00:48:46.414365+00:00",
                 "matchDate": "2026-09-28",
                 "report": {
                     "teamA": "Pakistan",
@@ -442,7 +700,7 @@
                     "series": "Asian Games 2026",
                     "sourceName": "Cricbuzz via text relay",
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171021/pak-vs-hkc-1st-quarter-final-asian-games-2026",
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "LOW/UNKNOWN MARKET TIER",
                     "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
                     "liquidityProxyOnly": true,
@@ -694,7 +952,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-red",
-                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Hong Kong, China,1st Quarter-Final Korogi Sports Park , Nisshin"
+                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Hong Kong, China,1st Quarter-Final Korogi Sports Park , Nisshin",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -982,13 +1241,13 @@
                 "temperature_c": 18.1,
                 "humidity_pct": 60,
                 "dew_point_c": 10.3,
-                "rain_probability_pct": 60,
+                "rain_probability_pct": 63,
                 "precipitation_mm": 0.2,
                 "wind_kmh": 25.1,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "18.1°C | RH 60% | Rain 60% | Wind 25.1 km/h",
+            "weatherText": "18.1°C | RH 60% | Rain 63% | Wind 25.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
