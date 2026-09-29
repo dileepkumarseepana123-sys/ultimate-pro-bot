@@ -9283,7 +9283,7 @@
         }
     },
     "nepal 3rd quarter final korogi sports park nisshin|sri lanka|2026-09-29": {
-        "capturedAt": "2026-09-29T06:49:36.100493+00:00",
+        "capturedAt": "2026-09-29T12:50:03.207248+00:00",
         "matchDate": "2026-09-29",
         "report": {
             "teamA": "Sri Lanka",
@@ -9555,7 +9555,7 @@
         }
     },
     "bangladesh|malaysia 4th quarter final korogi sports park nisshin|2026-09-29": {
-        "capturedAt": "2026-09-29T06:49:36.100507+00:00",
+        "capturedAt": "2026-09-29T12:50:03.207260+00:00",
         "matchDate": "2026-09-29",
         "report": {
             "teamA": "Bangladesh",
@@ -10265,7 +10265,7 @@
         }
     },
     "boland|knights pool b boland park paarl|2026-09-29": {
-        "capturedAt": "2026-09-29T06:49:36.100478+00:00",
+        "capturedAt": "2026-09-29T12:50:03.207234+00:00",
         "matchDate": "2026-09-29",
         "report": {
             "teamA": "Boland",
@@ -10481,16 +10481,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-29T18:00:00+02:00",
-                "temperature_c": 25.8,
-                "humidity_pct": 32,
-                "dew_point_c": 7.7,
+                "temperature_c": 25.5,
+                "humidity_pct": 39,
+                "dew_point_c": 10.4,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 8.4,
+                "wind_kmh": 6.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "25.8°C | RH 32% | Rain 0% | Wind 8.4 km/h",
+            "weatherText": "25.5°C | RH 39% | Rain 0% | Wind 6.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
