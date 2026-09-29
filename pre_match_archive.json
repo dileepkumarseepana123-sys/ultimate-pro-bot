@@ -9283,7 +9283,7 @@
         }
     },
     "nepal 3rd quarter final korogi sports park nisshin|sri lanka|2026-09-29": {
-        "capturedAt": "2026-09-29T00:50:06.752831+00:00",
+        "capturedAt": "2026-09-29T06:49:36.100493+00:00",
         "matchDate": "2026-09-29",
         "report": {
             "teamA": "Sri Lanka",
@@ -9555,7 +9555,7 @@
         }
     },
     "bangladesh|malaysia 4th quarter final korogi sports park nisshin|2026-09-29": {
-        "capturedAt": "2026-09-29T00:50:06.752756+00:00",
+        "capturedAt": "2026-09-29T06:49:36.100507+00:00",
         "matchDate": "2026-09-29",
         "report": {
             "teamA": "Bangladesh",
@@ -9570,7 +9570,7 @@
             "series": "Asian Games 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171041/ban-vs-mly-4th-quarter-final-asian-games-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -9822,11 +9822,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Malaysia,4th Quarter-Final Korogi Sports Park , Nisshin"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Malaysia,4th Quarter-Final Korogi Sports Park , Nisshin",
+            "archivedOnly": true
         }
     },
     "kwazulu natal inland tuskers pool b lc de villiers oval pretoria|south africa emerging players|2026-09-29": {
-        "capturedAt": "2026-09-29T00:50:06.752786+00:00",
+        "capturedAt": "2026-09-29T06:49:36.100431+00:00",
         "matchDate": "2026-09-29",
         "report": {
             "teamA": "South Africa Emerging Players",
@@ -9967,13 +9968,13 @@
                 "temperature_c": 16.4,
                 "humidity_pct": 78,
                 "dew_point_c": 12.7,
-                "rain_probability_pct": 97,
+                "rain_probability_pct": 89,
                 "precipitation_mm": 0.4,
                 "wind_kmh": 13.6,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "16.4°C | RH 78% | Rain 97% | Wind 13.6 km/h",
+            "weatherText": "16.4°C | RH 78% | Rain 89% | Wind 13.6 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -10008,7 +10009,7 @@
         }
     },
     "limpopo pool a st george s park gqeberha|warriors|2026-09-29": {
-        "capturedAt": "2026-09-29T00:50:06.752803+00:00",
+        "capturedAt": "2026-09-29T06:49:36.100457+00:00",
         "matchDate": "2026-09-29",
         "report": {
             "teamA": "Warriors",
@@ -10227,13 +10228,13 @@
                 "temperature_c": 18.2,
                 "humidity_pct": 62,
                 "dew_point_c": 10.7,
-                "rain_probability_pct": 2,
+                "rain_probability_pct": 10,
                 "precipitation_mm": 0.0,
                 "wind_kmh": 23.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "18.2°C | RH 62% | Rain 2% | Wind 23.8 km/h",
+            "weatherText": "18.2°C | RH 62% | Rain 10% | Wind 23.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -10264,7 +10265,7 @@
         }
     },
     "boland|knights pool b boland park paarl|2026-09-29": {
-        "capturedAt": "2026-09-29T00:50:06.752819+00:00",
+        "capturedAt": "2026-09-29T06:49:36.100478+00:00",
         "matchDate": "2026-09-29",
         "report": {
             "teamA": "Boland",
