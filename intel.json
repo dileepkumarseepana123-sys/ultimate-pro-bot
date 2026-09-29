@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-28T18:48:32.399300+00:00",
+    "last_updated": "2026-09-29T00:50:06.762721+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -39,12 +39,12 @@
     },
     "discovery": {
         "live_text_relay_rows": 0,
-        "schedule_text_relay_rows": 5,
-        "text_relay_rows": 5,
-        "text_relay_t20_rows": 5,
-        "text_relay_today_t20_rows": 5,
-        "text_relay_match_url_rows": 5,
-        "text_relay_time_enriched_rows": 5,
+        "schedule_text_relay_rows": 4,
+        "text_relay_rows": 4,
+        "text_relay_t20_rows": 4,
+        "text_relay_today_t20_rows": 4,
+        "text_relay_match_url_rows": 4,
+        "text_relay_time_enriched_rows": 4,
         "final_reports_with_known_time": 5,
         "final_reports_with_weather": 5,
         "cricscore_rows": 0,
@@ -53,7 +53,7 @@
         "cricketdata_rows": 0,
         "cricketdata_t20_rows": 0,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 5,
+        "merged_candidates": 4,
         "final_reports": 5
     },
     "summary": {
@@ -277,16 +277,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-29T14:00:00+02:00",
-                "temperature_c": 17.9,
-                "humidity_pct": 65,
-                "dew_point_c": 11.3,
-                "rain_probability_pct": 8,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 24.1,
+                "temperature_c": 18.2,
+                "humidity_pct": 62,
+                "dew_point_c": 10.7,
+                "rain_probability_pct": 2,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 23.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "17.9°C | RH 65% | Rain 8% | Wind 24.1 km/h",
+            "weatherText": "18.2°C | RH 62% | Rain 2% | Wind 23.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -529,16 +529,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-29T18:00:00+02:00",
-                "temperature_c": 25.6,
-                "humidity_pct": 35,
-                "dew_point_c": 8.9,
+                "temperature_c": 25.8,
+                "humidity_pct": 32,
+                "dew_point_c": 7.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.5,
+                "wind_kmh": 8.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "25.6°C | RH 35% | Rain 0% | Wind 7.5 km/h",
+            "weatherText": "25.8°C | RH 32% | Rain 0% | Wind 8.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -580,7 +580,7 @@
             "series": "Asian Games 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171040/sl-vs-nep-3rd-quarter-final-asian-games-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -676,7 +676,277 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-09-28T18:48:32.389493+00:00",
+                "matchDate": "2026-09-29",
+                "report": {
+                    "teamA": "Sri Lanka",
+                    "teamB": "Nepal,3rd Quarter-Final Korogi Sports Park , Nisshin",
+                    "name": "Sri Lanka vs Nepal,3rd Quarter-Final Korogi Sports Park , Nisshin",
+                    "matchType": "T20",
+                    "venue": "3rd Quarter-Final Korogi Sports Park , Nisshin",
+                    "dateTimeGMT": "2026-09-29T00:00:00+00:00",
+                    "sourceDate": "2026-09-29",
+                    "matchTimeIST": "2026-09-29T05:30:00+05:30",
+                    "indiaDate": "2026-09-29",
+                    "series": "Asian Games 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171040/sl-vs-nep-3rd-quarter-final-asian-games-2026",
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "STRONG GAP",
+                        "balanceScore": 40.0,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 219,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": 20.0,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [
+                            "Major-team asymmetry proxy used because historical comparison data is incomplete"
+                        ],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "STRONG GAP",
+                    "swingScore": 23.5,
+                    "strategyLabel": "POOR FIT / SKILL-GAP OR DATA CAUTION",
+                    "analysisEngineVersion": 2,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 33,
+                        "swingProfile": "STRONG SKILL-GAP CAUTION",
+                        "swingScore": 23.5,
+                        "strategyLabel": "POOR FIT / SKILL-GAP OR DATA CAUTION",
+                        "competitiveBalance": {
+                            "label": "STRONG GAP",
+                            "balanceScore": 40.0,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 219,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": 20.0,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [
+                                "Major-team asymmetry proxy used because historical comparison data is incomplete"
+                            ],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [],
+                        "swingPenalties": [
+                            "High dew may create strong chase-side bias",
+                            "High rain-interruption risk",
+                            "Strong skill gap reduces reliable two-way movement",
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "competitive_balance",
+                                "score": 40.0,
+                                "weight": 0.35
+                            },
+                            {
+                                "name": "weather",
+                                "score": 20.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "formA": {
+                        "matches": 10,
+                        "wins": 2,
+                        "losses": 8,
+                        "winRatePct": 20.0,
+                        "avgMarginImpact": -0.432,
+                        "recent": [
+                            {
+                                "date": "2026-09-17",
+                                "winner": "England",
+                                "won": false,
+                                "venue": "Sophia Gardens, Cardiff",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.75
+                            },
+                            {
+                                "date": "2026-09-15",
+                                "winner": "England",
+                                "won": false,
+                                "venue": "The Rose Bowl, Southampton",
+                                "marginType": "runs",
+                                "marginValue": 119.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-06-14",
+                                "winner": "West Indies",
+                                "won": false,
+                                "venue": "Sabina Park, Kingston, Jamaica",
+                                "marginType": "wickets",
+                                "marginValue": 5.0,
+                                "marginImpact": -0.625
+                            },
+                            {
+                                "date": "2026-06-13",
+                                "winner": "Sri Lanka",
+                                "won": true,
+                                "venue": "Sabina Park, Kingston, Jamaica",
+                                "marginType": "runs",
+                                "marginValue": 37.0,
+                                "marginImpact": 0.617
+                            },
+                            {
+                                "date": "2026-06-11",
+                                "winner": "West Indies",
+                                "won": false,
+                                "venue": "Sabina Park, Kingston, Jamaica",
+                                "marginType": "wickets",
+                                "marginValue": 7.0,
+                                "marginImpact": -0.875
+                            },
+                            {
+                                "date": "2026-02-28",
+                                "winner": "Pakistan",
+                                "won": false,
+                                "venue": "Pallekele International Cricket Stadium",
+                                "marginType": "runs",
+                                "marginValue": 5.0,
+                                "marginImpact": -0.083
+                            },
+                            {
+                                "date": "2026-02-25",
+                                "winner": "New Zealand",
+                                "won": false,
+                                "venue": "R Premadasa Stadium, Colombo",
+                                "marginType": "runs",
+                                "marginValue": 61.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-02-22",
+                                "winner": "England",
+                                "won": false,
+                                "venue": "Pallekele International Cricket Stadium",
+                                "marginType": "runs",
+                                "marginValue": 51.0,
+                                "marginImpact": -0.85
+                            },
+                            {
+                                "date": "2026-02-19",
+                                "winner": "Zimbabwe",
+                                "won": false,
+                                "venue": "R Premadasa Stadium, Colombo",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.75
+                            },
+                            {
+                                "date": "2026-02-16",
+                                "winner": "Sri Lanka",
+                                "won": true,
+                                "venue": "Pallekele International Cricket Stadium",
+                                "marginType": "wickets",
+                                "marginValue": 8.0,
+                                "marginImpact": 1.0
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-09-29T09:00:00+09:00",
+                        "temperature_c": 20.5,
+                        "humidity_pct": 97,
+                        "dew_point_c": 20.0,
+                        "rain_probability_pct": 100,
+                        "precipitation_mm": 8.6,
+                        "wind_kmh": 5.5,
+                        "dew_risk": "HIGH",
+                        "rain_risk": "HIGH"
+                    },
+                    "weatherText": "20.5°C | RH 97% | Rain 100% | Wind 5.5 km/h",
+                    "dewRisk": "HIGH",
+                    "tossBias": "UNKNOWN",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "UNKNOWN",
+                    "ppRunRate": "Historical first-innings PP",
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "UNKNOWN",
+                    "venueIntel": {
+                        "status": "NO DATA / UNKNOWN VENUE",
+                        "matches": 0,
+                        "venue_confidence": 0.743
+                    },
+                    "midOversWickets": null,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": null,
+                    "verdict": "🔴 HIGH-CAUTION / NO-BET",
+                    "noBetReasons": [
+                        "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                        "NO DATA / UNKNOWN VENUE",
+                        "PLAYING XI NOT CONFIRMED",
+                        "HIGH DEW RISK",
+                        "HIGH RAIN INTERRUPTION RISK",
+                        "LIMITED RECENT T20 DATA FOR Nepal,3rd Quarter-Final Korogi Sports Park , Nisshin"
+                    ],
+                    "warnings": [
+                        "STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-red",
+                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Nepal,3rd Quarter-Final Korogi Sports Park , Nisshin"
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -832,7 +1102,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Nepal,3rd Quarter-Final Korogi Sports Park , Nisshin"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Nepal,3rd Quarter-Final Korogi Sports Park , Nisshin",
+            "archivedOnly": true
         },
         {
             "teamA": "Bangladesh",
@@ -1060,16 +1331,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-29T13:30:00+09:00",
-                "temperature_c": 21.1,
-                "humidity_pct": 96,
-                "dew_point_c": 20.5,
-                "rain_probability_pct": 97,
-                "precipitation_mm": 3.4,
-                "wind_kmh": 4.7,
+                "temperature_c": 20.1,
+                "humidity_pct": 94,
+                "dew_point_c": 19.1,
+                "rain_probability_pct": 99,
+                "precipitation_mm": 5.4,
+                "wind_kmh": 6.0,
                 "dew_risk": "HIGH",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "21.1°C | RH 96% | Rain 97% | Wind 4.7 km/h",
+            "weatherText": "20.1°C | RH 94% | Rain 99% | Wind 6.0 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -1237,16 +1508,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-29T13:00:00+02:00",
-                "temperature_c": 16.0,
-                "humidity_pct": 83,
-                "dew_point_c": 13.2,
-                "rain_probability_pct": 91,
-                "precipitation_mm": 1.2,
-                "wind_kmh": 12.4,
+                "temperature_c": 16.4,
+                "humidity_pct": 78,
+                "dew_point_c": 12.7,
+                "rain_probability_pct": 97,
+                "precipitation_mm": 0.4,
+                "wind_kmh": 13.6,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "16.0°C | RH 83% | Rain 91% | Wind 12.4 km/h",
+            "weatherText": "16.4°C | RH 78% | Rain 97% | Wind 13.6 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",

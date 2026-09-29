@@ -9283,7 +9283,7 @@
         }
     },
     "nepal 3rd quarter final korogi sports park nisshin|sri lanka|2026-09-29": {
-        "capturedAt": "2026-09-28T18:48:32.389493+00:00",
+        "capturedAt": "2026-09-29T00:50:06.752831+00:00",
         "matchDate": "2026-09-29",
         "report": {
             "teamA": "Sri Lanka",
@@ -9298,7 +9298,7 @@
             "series": "Asian Games 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171040/sl-vs-nep-3rd-quarter-final-asian-games-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -9550,11 +9550,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Nepal,3rd Quarter-Final Korogi Sports Park , Nisshin"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Nepal,3rd Quarter-Final Korogi Sports Park , Nisshin",
+            "archivedOnly": true
         }
     },
     "bangladesh|malaysia 4th quarter final korogi sports park nisshin|2026-09-29": {
-        "capturedAt": "2026-09-28T18:48:32.389505+00:00",
+        "capturedAt": "2026-09-29T00:50:06.752756+00:00",
         "matchDate": "2026-09-29",
         "report": {
             "teamA": "Bangladesh",
@@ -9782,16 +9783,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-29T13:30:00+09:00",
-                "temperature_c": 21.1,
-                "humidity_pct": 96,
-                "dew_point_c": 20.5,
-                "rain_probability_pct": 97,
-                "precipitation_mm": 3.4,
-                "wind_kmh": 4.7,
+                "temperature_c": 20.1,
+                "humidity_pct": 94,
+                "dew_point_c": 19.1,
+                "rain_probability_pct": 99,
+                "precipitation_mm": 5.4,
+                "wind_kmh": 6.0,
                 "dew_risk": "HIGH",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "21.1°C | RH 96% | Rain 97% | Wind 4.7 km/h",
+            "weatherText": "20.1°C | RH 94% | Rain 99% | Wind 6.0 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -9825,7 +9826,7 @@
         }
     },
     "kwazulu natal inland tuskers pool b lc de villiers oval pretoria|south africa emerging players|2026-09-29": {
-        "capturedAt": "2026-09-28T18:48:32.389519+00:00",
+        "capturedAt": "2026-09-29T00:50:06.752786+00:00",
         "matchDate": "2026-09-29",
         "report": {
             "teamA": "South Africa Emerging Players",
@@ -9963,16 +9964,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-29T13:00:00+02:00",
-                "temperature_c": 16.0,
-                "humidity_pct": 83,
-                "dew_point_c": 13.2,
-                "rain_probability_pct": 91,
-                "precipitation_mm": 1.2,
-                "wind_kmh": 12.4,
+                "temperature_c": 16.4,
+                "humidity_pct": 78,
+                "dew_point_c": 12.7,
+                "rain_probability_pct": 97,
+                "precipitation_mm": 0.4,
+                "wind_kmh": 13.6,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "16.0°C | RH 83% | Rain 91% | Wind 12.4 km/h",
+            "weatherText": "16.4°C | RH 78% | Rain 97% | Wind 13.6 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -10007,7 +10008,7 @@
         }
     },
     "limpopo pool a st george s park gqeberha|warriors|2026-09-29": {
-        "capturedAt": "2026-09-28T18:48:32.389529+00:00",
+        "capturedAt": "2026-09-29T00:50:06.752803+00:00",
         "matchDate": "2026-09-29",
         "report": {
             "teamA": "Warriors",
@@ -10223,16 +10224,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-29T14:00:00+02:00",
-                "temperature_c": 17.9,
-                "humidity_pct": 65,
-                "dew_point_c": 11.3,
-                "rain_probability_pct": 8,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 24.1,
+                "temperature_c": 18.2,
+                "humidity_pct": 62,
+                "dew_point_c": 10.7,
+                "rain_probability_pct": 2,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 23.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "17.9°C | RH 65% | Rain 8% | Wind 24.1 km/h",
+            "weatherText": "18.2°C | RH 62% | Rain 2% | Wind 23.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -10263,7 +10264,7 @@
         }
     },
     "boland|knights pool b boland park paarl|2026-09-29": {
-        "capturedAt": "2026-09-28T18:48:32.389536+00:00",
+        "capturedAt": "2026-09-29T00:50:06.752819+00:00",
         "matchDate": "2026-09-29",
         "report": {
             "teamA": "Boland",
@@ -10479,16 +10480,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-29T18:00:00+02:00",
-                "temperature_c": 25.6,
-                "humidity_pct": 35,
-                "dew_point_c": 8.9,
+                "temperature_c": 25.8,
+                "humidity_pct": 32,
+                "dew_point_c": 7.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.5,
+                "wind_kmh": 8.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "25.6°C | RH 35% | Rain 0% | Wind 7.5 km/h",
+            "weatherText": "25.8°C | RH 32% | Rain 0% | Wind 8.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
