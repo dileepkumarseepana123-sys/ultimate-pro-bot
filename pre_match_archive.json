@@ -10521,7 +10521,7 @@
         }
     },
     "dolphins|northern cape pool a kingsmead durban|2026-09-30": {
-        "capturedAt": "2026-09-29T18:47:33.130779+00:00",
+        "capturedAt": "2026-09-30T00:50:50.898864+00:00",
         "matchDate": "2026-09-30",
         "report": {
             "teamA": "Dolphins",
@@ -10738,15 +10738,15 @@
                 "status": "OK",
                 "local_time": "2026-09-30T18:00:00+02:00",
                 "temperature_c": 18.8,
-                "humidity_pct": 66,
+                "humidity_pct": 65,
                 "dew_point_c": 12.2,
-                "rain_probability_pct": 9,
+                "rain_probability_pct": 1,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 9.7,
+                "wind_kmh": 9.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "18.8°C | RH 66% | Rain 9% | Wind 9.7 km/h",
+            "weatherText": "18.8°C | RH 65% | Rain 1% | Wind 9.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -10777,7 +10777,7 @@
         }
     },
     "eastern storm|mpumalanga rhinos pool b willowmoore park benoni|2026-09-30": {
-        "capturedAt": "2026-09-29T18:47:33.130797+00:00",
+        "capturedAt": "2026-09-30T00:50:50.898892+00:00",
         "matchDate": "2026-09-30",
         "report": {
             "teamA": "Eastern Storm",
@@ -10823,14 +10823,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 17.5,
+            "swingScore": 27.3,
             "strategyLabel": "INSUFFICIENT DATA",
             "analysisEngineVersion": 2,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 17,
                 "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 17.5,
+                "swingScore": 27.3,
                 "strategyLabel": "INSUFFICIENT DATA",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -10859,14 +10859,12 @@
                 },
                 "swingCatalysts": [],
                 "swingPenalties": [
-                    "High dew may create strong chase-side bias",
-                    "High rain-interruption risk",
                     "Liquidity/market depth is not verified"
                 ],
                 "scoreComponents": [
                     {
                         "name": "weather",
-                        "score": 20.0,
+                        "score": 70.0,
                         "weight": 0.1
                     },
                     {
@@ -10904,17 +10902,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-30T18:00:00+02:00",
-                "temperature_c": 9.4,
-                "humidity_pct": 91,
-                "dew_point_c": 8.0,
-                "rain_probability_pct": 78,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 13.7,
-                "dew_risk": "HIGH",
-                "rain_risk": "HIGH"
+                "temperature_c": 11.0,
+                "humidity_pct": 73,
+                "dew_point_c": 6.4,
+                "rain_probability_pct": 44,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 11.8,
+                "dew_risk": "LOW",
+                "rain_risk": "MEDIUM"
             },
-            "weatherText": "9.4°C | RH 91% | Rain 78% | Wind 13.7 km/h",
-            "dewRisk": "HIGH",
+            "weatherText": "11.0°C | RH 73% | Rain 44% | Wind 11.8 km/h",
+            "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "UNKNOWN",
@@ -10934,8 +10932,6 @@
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
                 "NO DATA / UNKNOWN VENUE",
                 "PLAYING XI NOT CONFIRMED",
-                "HIGH DEW RISK",
-                "HIGH RAIN INTERRUPTION RISK",
                 "LIMITED RECENT T20 DATA FOR Eastern Storm",
                 "LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos,Pool B Willowmoore Park , Benoni"
             ],
@@ -10943,7 +10939,7 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; HIGH DEW RISK; HIGH RAIN INTERRUPTION RISK; LIMITED RECENT T20 DATA FOR Eastern Storm; LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos,Pool B Willowmoore Park , Benoni"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Eastern Storm; LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos,Pool B Willowmoore Park , Benoni"
         }
     }
 }
