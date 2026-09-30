@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-09-30T00:50:50.913040+00:00",
+    "last_updated": "2026-09-30T06:49:53.137744+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -277,16 +277,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-30T18:00:00+02:00",
-                "temperature_c": 18.8,
-                "humidity_pct": 65,
+                "temperature_c": 18.7,
+                "humidity_pct": 66,
                 "dew_point_c": 12.2,
-                "rain_probability_pct": 1,
+                "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 9.0,
+                "wind_kmh": 8.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "18.8°C | RH 65% | Rain 1% | Wind 9.0 km/h",
+            "weatherText": "18.7°C | RH 66% | Rain 0% | Wind 8.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -438,16 +438,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-09-30T18:00:00+02:00",
-                "temperature_c": 11.0,
-                "humidity_pct": 73,
-                "dew_point_c": 6.4,
-                "rain_probability_pct": 44,
+                "temperature_c": 11.9,
+                "humidity_pct": 70,
+                "dew_point_c": 6.5,
+                "rain_probability_pct": 27,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 11.8,
+                "wind_kmh": 11.3,
                 "dew_risk": "LOW",
-                "rain_risk": "MEDIUM"
+                "rain_risk": "LOW"
             },
-            "weatherText": "11.0°C | RH 73% | Rain 44% | Wind 11.8 km/h",
+            "weatherText": "11.9°C | RH 70% | Rain 27% | Wind 11.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
