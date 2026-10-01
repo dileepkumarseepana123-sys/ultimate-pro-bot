@@ -164,7 +164,9 @@
         <!-- Custom Profit Goal -->
         <div class="goal-box">
             <label style="margin-top: 0; color: #c084fc;">5. Custom Profit Goal (₹):</label>
-            <input type="number" id="customTargetProfit" placeholder="Defaults to 100% Risk ROI" min="1" step="1" oninput="updateUI()">
+            <input type="number" id="customTargetProfit" placeholder="Defaults to 100% Risk ROI" min="0.01" step="0.01" oninput="updateUI()">
+            <label style="margin-top:10px; color:#94a3b8;">Exchange Commission on Net Winnings (%):</label>
+            <input type="number" id="commissionPct" value="0" min="0" max="20" step="0.1" oninput="updateUI()">
         </div>
         <div id="equalProfitTargetBox" style="margin-top:15px; padding:14px; border-radius:8px; background:#0f172a; border:1px solid #475569; font-size:0.88em; display:none;"></div>
 
@@ -230,8 +232,13 @@
         
         <!-- PHASE 2: CUSTOM LOCK-IN -->
         <h2 class="h2-blue">Phase 2: Custom Live Lock-In</h2>
-        <label>Current Live Odds for <strong class="dynamic-team opp-team back-text"></strong>:</label>
-        <input type="number" id="odds2" placeholder="e.g., 1.95" step="0.01">
+        <label>Actual LAY Odds for <strong class="dynamic-team sided-team lay-text"></strong> (recommended / exact):</label>
+        <input type="number" id="actualLayOdds" placeholder="e.g., 1.48" step="0.01">
+        <label style="margin-top:10px;">OR Current BACK Odds for <strong class="dynamic-team opp-team back-text"></strong> (fallback estimate):</label>
+        <input type="number" id="odds2" placeholder="e.g., 3.08" step="0.01">
+        <div style="font-size:0.75em;color:#94a3b8;margin-top:4px;">
+            Use actual same-team LAY odds whenever available. Opponent BACK → LAY conversion is only an estimate because real markets have a spread.
+        </div>
         <button class="btn-blue" onclick="calculateTrade()">Calculate Custom Exit</button>
 
         <div id="errorBox1" class="section-box" style="background:#450a0a; border-left:4px solid #f87171; color:#fecaca;"></div>
@@ -424,6 +431,16 @@
         // ==========================================
         // STATE EVALUATOR & MATHEMATICAL ENGINE
         // ==========================================
+        function money2(value) {
+            return Math.round((Number(value) + Number.EPSILON) * 100) / 100;
+        }
+
+        function getCommissionRate() {
+            const v = parseFloat(document.getElementById('commissionPct')?.value);
+            if (isNaN(v) || v <= 0) return 0;
+            return Math.min(0.20, Math.max(0, v / 100));
+        }
+
         function getGameState() {
             let selectedTeam = document.querySelector('input[name="initTeam"]:checked').value; 
             let betType = document.querySelector('input[name="initType"]:checked').value; 
@@ -444,11 +461,11 @@
                 if (!isNaN(rawOdds) && rawOdds > 1) {
                     effOdds = rawOdds / (rawOdds - 1); 
                     if (layInputType === 'actualStake') {
-                        rawStake = Math.round(enteredValue * (rawOdds - 1));
+                        rawStake = money2(enteredValue * (rawOdds - 1));
                     }
                 }
             }
-            rawStake = isNaN(rawStake) ? NaN : Math.round(rawStake);
+            rawStake = isNaN(rawStake) ? NaN : money2(rawStake);
             let targetProfit = parseFloat(document.getElementById('customTargetProfit').value);
             if (isNaN(targetProfit) && !isNaN(rawStake)) targetProfit = rawStake; 
 
@@ -459,6 +476,7 @@
             const box = document.getElementById('equalProfitTargetBox');
             const O = state.rawOdds;
             const risk = state.stake;
+            const commission = getCommissionRate();
             if (isNaN(O) || O <= 1 || isNaN(risk) || risk <= 0) {
                 box.style.display = 'none';
                 return;
@@ -466,31 +484,46 @@
 
             let html = '';
             if (state.betType === 'BACK') {
-                const targetLay = O / 2;
-                const maxProfit = risk * ((O / 1.01) - 1);
+                const grossTarget = risk / (1 - commission);
+                const targetLay = (O * risk) / (risk + grossTarget);
+                const maxGross = risk * ((O / 1.01) - 1);
+                const maxNet = maxGross > 0 ? maxGross * (1 - commission) : maxGross;
                 const feasible = targetLay >= 1.01;
+
                 html += '<strong>100% Equal-Profit Target</strong><br>';
-                html += 'Risk basis: ₹' + Math.round(risk) + ' BACK stake.<br>';
+                html += 'Risk basis: ₹' + money2(risk).toFixed(2) + ' BACK stake.<br>';
                 if (feasible) {
-                    html += 'For equal profit of about <strong>₹' + Math.round(risk) + ' on both outcomes</strong>, ' +
-                            'the same-team LAY price would need to reach approximately <strong>' + targetLay.toFixed(2) + '</strong>.';
+                    html += 'Required actual same-team LAY price: approximately <strong>' + targetLay.toFixed(2) + '</strong>';
+                    if (commission > 0) {
+                        html += ' for about <strong>₹' + money2(risk).toFixed(2) + ' net profit</strong> on either outcome after ' +
+                                (commission * 100).toFixed(1) + '% commission.';
+                    } else {
+                        html += ' for about <strong>₹' + money2(risk).toFixed(2) + ' profit</strong> on either outcome before commission.';
+                    }
                 } else {
                     html += '<strong>Not mathematically reachable at standard exchange odds.</strong> ' +
-                            'Even at 1.01, theoretical equalized profit is only about ₹' + Math.max(0, Math.round(maxProfit)) +
-                            ' (' + Math.max(0, (maxProfit / risk * 100)).toFixed(1) + '% of initial risk).';
+                            'Even at 1.01, theoretical net equalized profit is about ₹' +
+                            Math.max(0, money2(maxNet)).toFixed(2) + '.';
                 }
             } else {
                 const L = O;
                 html += '<strong>100% Equal-Profit Target</strong><br>';
-                html += 'Risk basis: ₹' + Math.round(risk) + ' LAY liability.<br>';
-                if (L < 2) {
-                    const targetBack = L / (2 - L);
-                    html += 'For equal profit of about <strong>₹' + Math.round(risk) + ' on both outcomes</strong>, ' +
-                            'the same-team BACK price would need to drift to approximately <strong>' + targetBack.toFixed(2) + '</strong>.';
+                html += 'Risk basis: ₹' + money2(risk).toFixed(2) + ' LAY liability.<br>';
+
+                const denom = 2 - commission - L;
+                if (denom > 0) {
+                    const targetBack = (L * (1 - commission)) / denom;
+                    html += 'Required actual same-team BACK price: approximately <strong>' + targetBack.toFixed(2) + '</strong>';
+                    if (commission > 0) {
+                        html += ' for about ₹' + money2(risk).toFixed(2) + ' net profit after commission.';
+                    } else {
+                        html += ' for about ₹' + money2(risk).toFixed(2) + ' profit before commission.';
+                    }
                 } else {
-                    const maxPct = (1 / (L - 1)) * 100;
+                    const maxGrossPct = (1 / (L - 1)) * 100;
+                    const maxNetPct = maxGrossPct * (1 - commission);
                     html += '<strong>Not mathematically reachable relative to the full liability.</strong> ' +
-                            'The theoretical maximum equalized profit is below 100% of liability (about ' + maxPct.toFixed(1) + '% before market/friction limits).';
+                            'The theoretical maximum net equalized profit is about ' + maxNetPct.toFixed(1) + '% of liability.';
                 }
             }
 
@@ -504,7 +537,7 @@
                 }
             }
 
-            html += '<br><span style="color:#94a3b8;">This is a mathematical hedge threshold, not a guarantee that the market will reach it.</span>';
+            html += '<br><span style="color:#94a3b8;">Use the actual matched LAY/BACK price. Opposite-team odds are not an exact substitute when a spread exists.</span>';
             box.innerHTML = html;
             box.style.display = 'block';
         }
@@ -549,7 +582,7 @@
             }
             trackerBox.style.display = 'block';
             let O1 = state.rawOdds;
-            let S_app = state.betType === 'LAY' ? Math.round(state.stake / (O1 - 1)) : state.stake;
+            let S_app = state.betType === 'LAY' ? money2(state.stake / (O1 - 1)) : state.stake;
 
             let slOdds = state.betType === 'LAY' ? Math.max(1.02, O1 - 0.15) : O1 + 1.00;
             let fbOdds = state.betType === 'LAY' ? O1 + 0.30 : Math.max(1.05, O1 * 0.75);
@@ -558,19 +591,19 @@
 
             // CUT LOSS
             document.getElementById('txtSlOdds').innerText = slOdds;
-            let slExitStake = Math.round((S_app * O1) / slOdds);
+            let slExitStake = money2((S_app * O1) / slOdds);
             let slActionSame = state.betType === 'LAY' ? 'BACK' : 'LAY';
             document.getElementById('slSameAction').innerHTML = `<span class="${slActionSame==='BACK'?'back-text':'lay-text'}">${slActionSame}</span> ${state.selectedTeam}`;
             document.getElementById('slSameStake').innerText = slExitStake;
             document.getElementById('slOppAction').innerHTML = `<span class="${state.betType==='BACK'?'back-text':'lay-text'}">${state.betType}</span> ${state.oppTeam}`;
-            document.getElementById('slOppStake').innerText = Math.round(slExitStake * (slOdds - 1));
+            document.getElementById('slOppStake').innerText = money2(slExitStake * (slOdds - 1)).toFixed(2);
 
             // FREE BET
             document.getElementById('txtFbOdds').innerText = fbOdds;
             document.getElementById('fbSameAction').innerHTML = `<span class="${slActionSame==='BACK'?'back-text':'lay-text'}">${slActionSame}</span> ${state.selectedTeam}`;
             document.getElementById('fbSameStake').innerText = S_app;
             document.getElementById('fbOppAction').innerHTML = `<span class="${state.betType==='BACK'?'back-text':'lay-text'}">${state.betType}</span> ${state.oppTeam}`;
-            document.getElementById('fbOppStake').innerText = Math.round(S_app * (fbOdds - 1));
+            document.getElementById('fbOppStake').innerText = money2(S_app * (fbOdds - 1)).toFixed(2);
         }
 
         function generateCheatSheet(state) {
@@ -617,36 +650,68 @@
         }
 
         function calculateTrade() {
-            let state = getGameState();
-            let o2 = parseFloat(document.getElementById('odds2').value); 
-            let res = document.getElementById('resultBox1');
-            let err = document.getElementById('errorBox1');
-            err.style.display = 'none'; res.style.display = 'none';
+            const state = getGameState();
+            const oppBack = parseFloat(document.getElementById('odds2').value);
+            const actualLayInput = parseFloat(document.getElementById('actualLayOdds').value);
+            const commission = getCommissionRate();
+            const res = document.getElementById('resultBox1');
+            const err = document.getElementById('errorBox1');
+            err.style.display = 'none';
+            res.style.display = 'none';
 
-            if (isNaN(state.stake) || isNaN(state.effOdds) || isNaN(o2)) return;
-            let minO2 = state.effOdds / (state.effOdds - 1);
-            if (o2 <= minO2) {
-                err.innerHTML = `Live odds must be higher than ${minO2.toFixed(2)} to guarantee profit.`;
-                err.style.display = 'block'; return;
+            if (isNaN(state.stake) || isNaN(state.effOdds) || state.effOdds <= 1) return;
+
+            let layOdds = NaN;
+            let laySource = '';
+            if (!isNaN(actualLayInput) && actualLayInput > 1) {
+                layOdds = actualLayInput;
+                laySource = 'actual same-team LAY';
+            } else if (!isNaN(oppBack) && oppBack > 1) {
+                layOdds = oppBack / (oppBack - 1);
+                laySource = 'estimated from opposite-team BACK';
+            } else {
+                err.innerHTML = 'Enter either the actual same-team LAY odds or the opposite-team BACK odds.';
+                err.style.display = 'block';
+                return;
             }
 
-            let backStake = Math.max(100, Math.round((state.stake * state.effOdds) / o2));
-            let layOdds = o2 / (o2 - 1);
-            let layStake = Math.max(100, Math.round((state.stake * state.effOdds) / layOdds)); 
-            let finalLayProfit = Math.min(
-                Math.round((state.stake * state.effOdds) - state.stake - Math.round(layStake * (layOdds - 1))),
-                Math.round(layStake - state.stake)
-            );
+            if (layOdds >= state.effOdds) {
+                err.innerHTML = 'At LAY ' + layOdds.toFixed(2) + ', this does not lock a positive equal profit from your entry at ' +
+                                state.effOdds.toFixed(2) + '.';
+                err.style.display = 'block';
+                return;
+            }
 
-            document.getElementById('outBackStake').innerText = '₹' + backStake;
-            document.getElementById('outLayOdds').innerText = layOdds.toFixed(2);
-            document.getElementById('outLayStake').innerText = '₹' + layStake;
-            document.getElementById('outTradeProfit').innerText = '+₹' + finalLayProfit;
-            
+            const layStake = (state.stake * state.effOdds) / layOdds;
+            const grossProfitWin = (state.stake * state.effOdds) - state.stake - (layStake * (layOdds - 1));
+            const grossProfitLose = layStake - state.stake;
+            const grossGreen = Math.min(grossProfitWin, grossProfitLose);
+            const netGreen = grossGreen > 0 ? grossGreen * (1 - commission) : grossGreen;
+
+            let backStake = NaN;
+            if (!isNaN(oppBack) && oppBack > 1) {
+                backStake = (state.stake * state.effOdds) / oppBack;
+            }
+
+            document.getElementById('outBackStake').innerText =
+                isNaN(backStake) ? 'Enter opponent BACK odds' : '₹' + money2(backStake).toFixed(2);
+            document.getElementById('outLayOdds').innerText = layOdds.toFixed(2) +
+                (laySource.includes('estimated') ? ' (est.)' : '');
+            document.getElementById('outLayStake').innerText = '₹' + money2(layStake).toFixed(2);
+            document.getElementById('outTradeProfit').innerText =
+                '+₹' + money2(netGreen).toFixed(2) + (commission > 0 ? ' net' : '');
+
             let bookedInput = document.getElementById('actualBookedProfit');
-            if (bookedInput) bookedInput.value = finalLayProfit;
+            if (bookedInput) bookedInput.value = money2(netGreen).toFixed(2);
+
+            if (laySource.includes('estimated')) {
+                err.innerHTML = 'Estimate only: opposite-team BACK odds were converted to a theoretical LAY price. ' +
+                                'For exact hedging, enter the actual same-team LAY price.';
+                err.style.display = 'block';
+            }
             res.style.display = 'block';
         }
+
 
         function calculateSafeTwist() {
             let booked = Math.round(parseFloat(document.getElementById('actualBookedProfit').value));
@@ -662,8 +727,8 @@
             }
 
             let excessRisk = booked - safeTarget;
-            let layStake = Math.max(100, Math.round(excessRisk / (layOdds - 1))); 
-            let actualLiability = Math.round(layStake * (layOdds - 1));
+            let layStake = money2(excessRisk / (layOdds - 1));
+            let actualLiability = money2(layStake * (layOdds - 1));
             let baseOutcome = booked - actualLiability; 
             let jackpotOutcome = booked + layStake;
 
