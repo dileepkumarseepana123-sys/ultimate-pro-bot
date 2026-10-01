@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-01T06:50:26.657270+00:00",
+    "last_updated": "2026-10-01T12:51:05.030939+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -38,13 +38,13 @@
         "swing_score_is_not_profit_probability": true
     },
     "discovery": {
-        "live_text_relay_rows": 1,
-        "schedule_text_relay_rows": 2,
-        "text_relay_rows": 2,
-        "text_relay_t20_rows": 2,
-        "text_relay_today_t20_rows": 2,
-        "text_relay_match_url_rows": 2,
-        "text_relay_time_enriched_rows": 2,
+        "live_text_relay_rows": 0,
+        "schedule_text_relay_rows": 1,
+        "text_relay_rows": 1,
+        "text_relay_t20_rows": 1,
+        "text_relay_today_t20_rows": 1,
+        "text_relay_match_url_rows": 1,
+        "text_relay_time_enriched_rows": 1,
         "final_reports_with_known_time": 3,
         "final_reports_with_weather": 3,
         "cricscore_rows": 0,
@@ -53,13 +53,13 @@
         "cricketdata_rows": 0,
         "cricketdata_t20_rows": 0,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 2,
+        "merged_candidates": 1,
         "final_reports": 3
     },
     "summary": {
         "today_t20_count": 3,
-        "no_bet_or_high_caution": 2,
-        "wait": 1,
+        "no_bet_or_high_caution": 1,
+        "wait": 2,
         "data_clear": 0
     },
     "matches": [
@@ -308,7 +308,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-09-30T18:48:33.356555+00:00",
+                "capturedAt": "2026-10-01T06:50:26.641670+00:00",
                 "matchDate": "2026-10-01",
                 "report": {
                     "teamA": "Pakistan",
@@ -323,7 +323,7 @@
                     "series": "Asian Games 2026",
                     "sourceName": "Cricbuzz via text relay",
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171051/pak-vs-ban-1st-semi-final-asian-games-2026",
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
                     "marketVisibility": "PREMIUM / LIKELY LISTED",
                     "liquidityProxyOnly": true,
@@ -805,7 +805,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-yellow",
-                    "strategyText": "PLAYING XI NOT CONFIRMED"
+                    "strategyText": "PLAYING XI NOT CONFIRMED",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -1072,9 +1073,9 @@
             "matchTimeIST": "2026-10-01T10:00:00+05:30",
             "indiaDate": "2026-10-01",
             "series": "Asian Games 2026",
-            "sourceName": "Cricbuzz schedule + live relay",
+            "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171060/ind-vs-sl-2nd-semi-final-asian-games-2026",
-            "sourceStatus": "LIVE / CURRENT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -2014,16 +2015,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-01T13:30:00+09:00",
-                "temperature_c": 30.0,
-                "humidity_pct": 35,
-                "dew_point_c": 12.9,
+                "temperature_c": 29.4,
+                "humidity_pct": 37,
+                "dew_point_c": 13.2,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.0,
+                "wind_kmh": 11.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "30.0°C | RH 35% | Rain 0% | Wind 10.0 km/h",
+            "weatherText": "29.4°C | RH 37% | Rain 0% | Wind 11.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "42.86% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -2047,17 +2048,17 @@
             "midOversWickets": 32,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.0,
-            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
+            "verdict": "🟡 WAIT — KEY DATA PENDING",
             "noBetReasons": [
-                "MATCH ALREADY LIVE — PRE-MATCH WINDOW CLOSED",
                 "PLAYING XI NOT CONFIRMED"
             ],
             "warnings": [
                 "STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-red",
-            "strategyText": "MATCH ALREADY LIVE — PRE-MATCH WINDOW CLOSED; PLAYING XI NOT CONFIRMED"
+            "badgeClass": "badge-yellow",
+            "strategyText": "PLAYING XI NOT CONFIRMED",
+            "archivedOnly": true
         },
         {
             "teamA": "South Western Districts",
@@ -2072,7 +2073,7 @@
             "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173170/swd-vs-bor-pool-a-csa-t20-challenge-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -2156,7 +2157,172 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-10-01T06:50:26.641658+00:00",
+                "matchDate": "2026-10-01",
+                "report": {
+                    "teamA": "South Western Districts",
+                    "teamB": "Border,Pool A Recreation Ground , Oudtshoorn",
+                    "name": "South Western Districts vs Border,Pool A Recreation Ground , Oudtshoorn",
+                    "matchType": "T20",
+                    "venue": "Pool A Recreation Ground , Oudtshoorn",
+                    "dateTimeGMT": "2026-10-01T11:00:00+00:00",
+                    "sourceDate": "2026-10-01",
+                    "matchTimeIST": "2026-10-01T16:30:00+05:30",
+                    "indiaDate": "2026-10-01",
+                    "series": "CSA T20 Challenge 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173170/swd-vs-bor-pool-a-csa-t20-challenge-2026",
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 0,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": null,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 27.3,
+                    "strategyLabel": "INSUFFICIENT DATA",
+                    "analysisEngineVersion": 2,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 17,
+                        "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                        "swingScore": 27.3,
+                        "strategyLabel": "INSUFFICIENT DATA",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 0,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": null,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [],
+                        "swingPenalties": [
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "weather",
+                                "score": 70.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "formA": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-10-01T13:00:00+02:00",
+                        "temperature_c": 32.6,
+                        "humidity_pct": 24,
+                        "dew_point_c": 9.5,
+                        "rain_probability_pct": 0,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 20.6,
+                        "dew_risk": "LOW",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "32.6°C | RH 24% | Rain 0% | Wind 20.6 km/h",
+                    "dewRisk": "LOW",
+                    "tossBias": "UNKNOWN",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "UNKNOWN",
+                    "ppRunRate": "Historical first-innings PP",
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "UNKNOWN",
+                    "venueIntel": {
+                        "status": "NO DATA / UNKNOWN VENUE",
+                        "matches": 0,
+                        "venue_confidence": 0.776
+                    },
+                    "midOversWickets": null,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": null,
+                    "verdict": "🔴 HIGH-CAUTION / NO-BET",
+                    "noBetReasons": [
+                        "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                        "NO DATA / UNKNOWN VENUE",
+                        "PLAYING XI NOT CONFIRMED",
+                        "LIMITED RECENT T20 DATA FOR South Western Districts",
+                        "LIMITED RECENT T20 DATA FOR Border,Pool A Recreation Ground , Oudtshoorn"
+                    ],
+                    "warnings": [
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-red",
+                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR South Western Districts; LIMITED RECENT T20 DATA FOR Border,Pool A Recreation Ground , Oudtshoorn"
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -2182,16 +2348,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-01T13:00:00+02:00",
-                "temperature_c": 32.6,
+                "temperature_c": 33.2,
                 "humidity_pct": 24,
-                "dew_point_c": 9.5,
+                "dew_point_c": 9.8,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 20.6,
+                "wind_kmh": 23.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "32.6°C | RH 24% | Rain 0% | Wind 20.6 km/h",
+            "weatherText": "33.2°C | RH 24% | Rain 0% | Wind 23.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -2207,8 +2373,9 @@
             "midOversWickets": null,
             "spinnerWickets7to14": null,
             "spinClassificationPct": null,
-            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
                 "NO DATA / UNKNOWN VENUE",
                 "PLAYING XI NOT CONFIRMED",
@@ -2219,7 +2386,7 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR South Western Districts; LIMITED RECENT T20 DATA FOR Border,Pool A Recreation Ground , Oudtshoorn"
+            "strategyText": "START TIME PASSED — PRE-MATCH WINDOW CLOSED; LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR South Western Districts; LIMITED RECENT T20 DATA FOR Border,Pool A Recreation Ground , Oudtshoorn"
         }
     ]
 }

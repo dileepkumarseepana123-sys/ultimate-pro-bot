@@ -10945,7 +10945,7 @@
         }
     },
     "bangladesh|pakistan|2026-10-01": {
-        "capturedAt": "2026-10-01T06:50:26.641670+00:00",
+        "capturedAt": "2026-10-01T12:51:05.016089+00:00",
         "matchDate": "2026-10-01",
         "report": {
             "teamA": "Pakistan",
@@ -11447,7 +11447,7 @@
         }
     },
     "india|sri lanka|2026-10-01": {
-        "capturedAt": "2026-10-01T00:51:53.791198+00:00",
+        "capturedAt": "2026-10-01T12:51:05.016116+00:00",
         "matchDate": "2026-10-01",
         "report": {
             "teamA": "India",
@@ -11462,7 +11462,7 @@
             "series": "Asian Games 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171060/ind-vs-sl-2nd-semi-final-asian-games-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -11944,7 +11944,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "PLAYING XI NOT CONFIRMED"
+            "strategyText": "PLAYING XI NOT CONFIRMED",
+            "archivedOnly": true
         }
     },
     "border pool a recreation ground oudtshoorn|south western districts|2026-10-01": {
