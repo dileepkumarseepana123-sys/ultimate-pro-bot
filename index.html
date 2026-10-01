@@ -176,13 +176,16 @@
             <table id="cheatSheetTable">
                 <thead>
                     <tr>
-                        <th><span class="dynamic-team opp-team"></span> Hits (BACK)</th>
-                        <th>= Lay <span class="dynamic-team sided-team"></span> at</th>
-                        <th>Guaranteed Profit</th>
+                        <th><span class="dynamic-team opp-team"></span> BACK equiv. (est.)</th>
+                        <th>Actual LAY <span class="dynamic-team sided-team"></span> target</th>
+                        <th>Net Equal Profit</th>
                     </tr>
                 </thead>
                 <tbody id="cheatSheetBody"></tbody>
             </table>
+            <div style="font-size:0.72em;color:#94a3b8;margin-top:6px;">
+                Opponent BACK equivalent is theoretical only. Use the actual same-team LAY price for exact execution.
+            </div>
         </div>
 
         <!-- ZERO-CLICK INSTANT ACTION TRACKERS -->
@@ -607,47 +610,50 @@
         }
 
         function generateCheatSheet(state) {
-            let section = document.getElementById('cheatSheetSection');
-            let tbody = document.getElementById('cheatSheetBody');
-            if (isNaN(state.stake) || isNaN(state.effOdds) || state.effOdds <= 1 || isNaN(state.targetProfit)) {
-                section.style.display = 'none'; return;
+            const section = document.getElementById('cheatSheetSection');
+            const tbody = document.getElementById('cheatSheetBody');
+            const commission = getCommissionRate();
+
+            if (isNaN(state.stake) || isNaN(state.effOdds) || state.effOdds <= 1 || isNaN(state.targetProfit) || state.targetProfit < 0) {
+                section.style.display = 'none';
+                return;
             }
-            
-            let targets = []; let matchOdds = 0; let minO2 = state.effOdds / (state.effOdds - 1);
-            let testTarget = parseFloat((minO2 + 0.01).toFixed(2));
-            
-            while(testTarget < 10) {
-                let testLay = testTarget / (testTarget - 1);
-                let testStake = Math.max(100, Math.round((state.stake * state.effOdds) / testLay));
-                let testProfit = Math.min(
-                    Math.round((state.stake * state.effOdds) - state.stake - Math.round(testStake * (testLay - 1))),
-                    Math.round(testStake - state.stake)
-                );
-                if (testProfit >= state.targetProfit) { matchOdds = testTarget; break; }
-                testTarget += 0.01;
-                testTarget = parseFloat(testTarget.toFixed(2));
-            }
-            if(matchOdds > 0) {
-                targets.push(matchOdds);
-                targets.push(matchOdds + 0.15);
-                targets.push(matchOdds + 0.35);
-            }
-            
+
+            const baseTarget = state.targetProfit;
+            const targetMultipliers = [1, 1.25, 1.5];
             tbody.innerHTML = '';
-            targets.forEach(target => {
-                let layOdds = target / (target - 1);
-                let layStake = Math.max(100, Math.round((state.stake * state.effOdds) / layOdds));
-                let guaranteedMinProfit = Math.min(
-                    Math.round((state.stake * state.effOdds) - state.stake - Math.round(layStake * (layOdds - 1))),
-                    Math.round(layStake - state.stake)
-                );
-                let tr = document.createElement('tr');
-                if (Math.abs(target - matchOdds) < 0.001) tr.className = "highlight-row";
-                tr.innerHTML = `<td class="back-text">${target.toFixed(2)}</td><td class="lay-text">${layOdds.toFixed(2)}</td><td class="profit-text">+₹${guaranteedMinProfit}</td>`;
+
+            let rowsAdded = 0;
+            targetMultipliers.forEach((mult, idx) => {
+                const netTarget = baseTarget * mult;
+                const grossTarget = commission < 1 ? netTarget / (1 - commission) : Infinity;
+                const layOdds = (state.stake * state.effOdds) / (state.stake + grossTarget);
+
+                if (!isFinite(layOdds) || layOdds <= 1.01 || layOdds >= state.effOdds) return;
+
+                const layStake = (state.stake * state.effOdds) / layOdds;
+                const grossProfit = layStake - state.stake;
+                const netProfit = grossProfit > 0 ? grossProfit * (1 - commission) : grossProfit;
+                const oppBackEquivalent = layOdds / (layOdds - 1);
+
+                const tr = document.createElement('tr');
+                if (idx === 0) tr.className = 'highlight-row';
+                tr.innerHTML =
+                    '<td class="back-text">' + oppBackEquivalent.toFixed(2) + '</td>' +
+                    '<td class="lay-text">' + layOdds.toFixed(2) + '</td>' +
+                    '<td class="profit-text">+₹' + money2(netProfit).toFixed(2) + '</td>';
                 tbody.appendChild(tr);
+                rowsAdded++;
             });
+
+            if (rowsAdded === 0) {
+                section.style.display = 'none';
+                return;
+            }
+
             section.style.display = 'block';
         }
+
 
         function calculateTrade() {
             const state = getGameState();
