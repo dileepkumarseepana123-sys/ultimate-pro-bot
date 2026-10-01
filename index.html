@@ -415,11 +415,14 @@
             let s2 = parseFloat(document.getElementById('splitStake2').value);
             let o2 = parseFloat(document.getElementById('splitOdd2').value);
             if(isNaN(s1) || isNaN(o1) || isNaN(s2) || isNaN(o2) || o1<=1 || o2<=1) return;
-            let totalLiab = (s1 * (o1 - 1)) + (s2 * (o2 - 1));
+            let weightedExposure = (s1 * (o1 - 1)) + (s2 * (o2 - 1));
             let totalStake = s1 + s2;
-            tempAvgOdds = (totalLiab / totalStake) + 1;
+            tempAvgOdds = (weightedExposure / totalStake) + 1;
             tempTotalStake = totalStake;
-            document.getElementById('splitResult').innerHTML = `Total App Stake: ₹${totalStake}<br>Total Risk (Liability): ₹${Math.round(totalLiab)}<br><strong>Combined Entry Odds: ${tempAvgOdds.toFixed(2)}</strong>`;
+            const splitBetType = document.querySelector('input[name="initType"]:checked')?.value || 'BACK';
+            const exposureLabel = splitBetType === 'LAY' ? 'Total Liability' : 'Combined Potential Profit';
+            document.getElementById('splitResult').innerHTML =
+                `Total App Stake: ₹${money2(totalStake).toFixed(2)}<br>${exposureLabel}: ₹${money2(weightedExposure).toFixed(2)}<br><strong>Combined Entry Odds: ${tempAvgOdds.toFixed(2)}</strong>`;
         }
         function applySplit() {
             if(tempAvgOdds > 0) {
@@ -540,7 +543,7 @@
                 }
             }
 
-            html += '<br><span style="color:#94a3b8;">Use the actual matched LAY/BACK price. Opposite-team odds are not an exact substitute when a spread exists.</span>';
+            html += '<br><span style="color:#94a3b8;">Use the actual matched LAY/BACK price. Opposite-team odds are not an exact substitute when a spread exists. Commission math assumes one commission charge on final positive market P/L.</span>';
             box.innerHTML = html;
             box.style.display = 'block';
         }
@@ -567,7 +570,9 @@
                 layInputTypeDropdown.style.display = 'block';
                 if (!isNaN(state.rawOdds) && state.rawOdds > 1 && !isNaN(state.enteredValue)) {
                     if (state.layInputType === 'liability') {
-                        entryBox.innerHTML = `<strong>App Entry:</strong> To risk exactly ₹${state.enteredValue}, type <strong class="lay-text">₹${Math.round(state.enteredValue / (state.rawOdds - 1))}</strong> in the LAY box.`;
+                        const appLayStake = money2(state.enteredValue / (state.rawOdds - 1));
+                        const executionLiability = money2(appLayStake * (state.rawOdds - 1));
+                        entryBox.innerHTML = `<strong>App Entry:</strong> To target about ₹${money2(state.enteredValue).toFixed(2)} liability, type <strong class="lay-text">₹${appLayStake.toFixed(2)}</strong> in the LAY box.<br><span style="font-size:0.8em;color:#94a3b8;">Resulting liability after 2-decimal stake rounding: ₹${executionLiability.toFixed(2)}</span>`;
                     } else {
                         entryBox.innerHTML = `<strong>Matched Bet:</strong> By typing ₹${state.enteredValue} stake at ${state.rawOdds} odds, your actual risk is <strong class="lay-text">₹${state.stake}</strong>.`;
                     }
@@ -720,31 +725,48 @@
 
 
         function calculateSafeTwist() {
-            let booked = Math.round(parseFloat(document.getElementById('actualBookedProfit').value));
-            let safeTarget = Math.round(parseFloat(document.getElementById('safeProfitTarget').value));
-            let layOdds = parseFloat(document.getElementById('favoriteLayOdds').value);
-            let err = document.getElementById('twistErrorBox');
-            let res = document.getElementById('twistResultBox');
-            err.style.display = 'none'; res.style.display = 'none';
+            const bookedNet = money2(parseFloat(document.getElementById('actualBookedProfit').value));
+            const safeTargetNet = money2(parseFloat(document.getElementById('safeProfitTarget').value));
+            const layOdds = parseFloat(document.getElementById('favoriteLayOdds').value);
+            const commission = getCommissionRate();
+            const err = document.getElementById('twistErrorBox');
+            const res = document.getElementById('twistResultBox');
+            err.style.display = 'none';
+            res.style.display = 'none';
 
-            if (isNaN(booked) || isNaN(safeTarget) || isNaN(layOdds) || safeTarget >= booked || layOdds <= 1) {
-                err.innerHTML = "Verify fields: Safe base must be less than booked profit, odds > 1.00.";
-                err.style.display = 'block'; return;
+            if (
+                isNaN(bookedNet) || isNaN(safeTargetNet) || isNaN(layOdds) ||
+                bookedNet <= 0 || safeTargetNet < 0 || safeTargetNet >= bookedNet || layOdds <= 1
+            ) {
+                err.innerHTML = "Verify fields: booked profit > safe base ≥ 0, and odds > 1.00.";
+                err.style.display = 'block';
+                return;
             }
 
-            let excessRisk = booked - safeTarget;
-            let layStake = money2(excessRisk / (layOdds - 1));
-            let actualLiability = money2(layStake * (layOdds - 1));
-            let baseOutcome = booked - actualLiability; 
-            let jackpotOutcome = booked + layStake;
+            // Commission is normally settled on the final positive market P/L.
+            // actualBookedProfit is stored/displayed as NET profit, so convert
+            // it back to gross before adding another LAY position in the same market.
+            const keepFactor = 1 - commission;
+            const grossBooked = bookedNet / keepFactor;
+            const grossSafeTarget = safeTargetNet / keepFactor;
+            const grossRiskBudget = grossBooked - grossSafeTarget;
+
+            const layStake = money2(grossRiskBudget / (layOdds - 1));
+            const actualLiability = money2(layStake * (layOdds - 1));
+
+            const grossFavoriteHolds = grossBooked - actualLiability;
+            const grossUnderdogWins = grossBooked + layStake;
+            const netFavoriteHolds = money2(Math.max(0, grossFavoriteHolds) * keepFactor);
+            const netUnderdogWins = money2(Math.max(0, grossUnderdogWins) * keepFactor);
 
             res.innerHTML = `
-                <div style="background-color: #0f172a; border: 1px dashed #ea580c; padding: 10px; text-align: center;">
-                    <strong>Execution Bet:</strong> Type <strong class="lay-text">₹${layStake}</strong> in the LAY box for the winning favorite.<br>
-                    <span style="font-size: 0.8em; color: #94a3b8;">(Actual Risk Liability: ₹${actualLiability})</span>
+                <div style="background-color:#0f172a;border:1px dashed #ea580c;padding:10px;text-align:center;">
+                    <strong>Execution Bet:</strong> Type <strong class="lay-text">₹${layStake.toFixed(2)}</strong> in the LAY box for the current favorite.<br>
+                    <span style="font-size:0.8em;color:#94a3b8;">Actual liability: ₹${actualLiability.toFixed(2)}</span>
                 </div>
-                <p style="margin-top:10px;">🏏 <strong>If favorite holds on:</strong> You keep <strong class="profit-text">+₹${baseOutcome}</strong> safely.</p>
-                <p>🔥 <strong>If underdog pulls miracle:</strong> Payout jumps to <strong style="color: #c084fc; font-weight: bold; font-size: 1.15em;">+₹${jackpotOutcome}</strong>!</p>
+                <p style="margin-top:10px;">🏏 <strong>If favorite holds on:</strong> estimated final net profit <strong class="profit-text">+₹${netFavoriteHolds.toFixed(2)}</strong>.</p>
+                <p>🔥 <strong>If underdog wins:</strong> estimated final net profit <strong style="color:#c084fc;font-weight:bold;font-size:1.15em;">+₹${netUnderdogWins.toFixed(2)}</strong>.</p>
+                <p style="font-size:0.75em;color:#94a3b8;margin-bottom:0;">Assumes the entered commission is charged once on final positive market P/L. If your app uses a different fee/tax model, results will differ.</p>
             `;
             res.style.display = 'block';
         }
