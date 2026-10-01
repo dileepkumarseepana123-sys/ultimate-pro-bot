@@ -11446,7 +11446,7 @@
         }
     },
     "india|sri lanka|2026-10-01": {
-        "capturedAt": "2026-09-30T18:48:33.356567+00:00",
+        "capturedAt": "2026-10-01T00:51:53.791198+00:00",
         "matchDate": "2026-10-01",
         "report": {
             "teamA": "India",
@@ -11901,16 +11901,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-01T13:30:00+09:00",
-                "temperature_c": 29.5,
-                "humidity_pct": 36,
-                "dew_point_c": 12.8,
+                "temperature_c": 29.4,
+                "humidity_pct": 37,
+                "dew_point_c": 13.2,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 12.3,
+                "wind_kmh": 11.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.5°C | RH 36% | Rain 0% | Wind 12.3 km/h",
+            "weatherText": "29.4°C | RH 37% | Rain 0% | Wind 11.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "42.86% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -11947,7 +11947,7 @@
         }
     },
     "border pool a recreation ground oudtshoorn|south western districts|2026-10-01": {
-        "capturedAt": "2026-09-30T18:48:33.356581+00:00",
+        "capturedAt": "2026-10-01T00:51:53.791236+00:00",
         "matchDate": "2026-10-01",
         "report": {
             "teamA": "South Western Districts",
@@ -12072,16 +12072,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-01T13:00:00+02:00",
-                "temperature_c": 32.2,
-                "humidity_pct": 27,
-                "dew_point_c": 10.9,
+                "temperature_c": 32.6,
+                "humidity_pct": 24,
+                "dew_point_c": 9.5,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 25.6,
+                "wind_kmh": 20.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "32.2°C | RH 27% | Rain 0% | Wind 25.6 km/h",
+            "weatherText": "32.6°C | RH 24% | Rain 0% | Wind 20.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
