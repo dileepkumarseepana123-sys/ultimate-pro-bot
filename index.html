@@ -693,24 +693,32 @@
                 return;
             }
 
-            const layStake = (state.stake * state.effOdds) / layOdds;
+            const theoreticalLayStake = (state.stake * state.effOdds) / layOdds;
+            const layStake = money2(theoreticalLayStake); // actual app stake is 2-decimal execution
+
             const grossProfitWin = (state.stake * state.effOdds) - state.stake - (layStake * (layOdds - 1));
             const grossProfitLose = layStake - state.stake;
-            const grossGreen = Math.min(grossProfitWin, grossProfitLose);
-            const netGreen = grossGreen > 0 ? grossGreen * (1 - commission) : grossGreen;
+
+            const netProfitWin = grossProfitWin > 0 ? grossProfitWin * (1 - commission) : grossProfitWin;
+            const netProfitLose = grossProfitLose > 0 ? grossProfitLose * (1 - commission) : grossProfitLose;
+            const netGreen = Math.min(netProfitWin, netProfitLose);
 
             let backStake = NaN;
             if (!isNaN(oppBack) && oppBack > 1) {
-                backStake = (state.stake * state.effOdds) / oppBack;
+                backStake = money2((state.stake * state.effOdds) / oppBack);
             }
 
             document.getElementById('outBackStake').innerText =
-                isNaN(backStake) ? 'Enter opponent BACK odds' : '₹' + money2(backStake).toFixed(2);
+                isNaN(backStake) ? 'Enter opponent BACK odds' : '₹' + backStake.toFixed(2);
             document.getElementById('outLayOdds').innerText = layOdds.toFixed(2) +
                 (laySource.includes('estimated') ? ' (est.)' : '');
-            document.getElementById('outLayStake').innerText = '₹' + money2(layStake).toFixed(2);
-            document.getElementById('outTradeProfit').innerText =
-                '+₹' + money2(netGreen).toFixed(2) + (commission > 0 ? ' net' : '');
+            document.getElementById('outLayStake').innerText = '₹' + layStake.toFixed(2);
+            document.getElementById('outTradeProfit').innerHTML =
+                '+₹' + money2(netGreen).toFixed(2) + (commission > 0 ? ' net' : '') +
+                '<div style="font-size:0.72em;color:#94a3b8;margin-top:4px;">' +
+                'If ' + state.sidedTeam + ' wins: ₹' + money2(netProfitWin).toFixed(2) +
+                ' | If ' + state.oppTeam + ' wins: ₹' + money2(netProfitLose).toFixed(2) +
+                '</div>';
 
             let bookedInput = document.getElementById('actualBookedProfit');
             if (bookedInput) bookedInput.value = money2(netGreen).toFixed(2);
