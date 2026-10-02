@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-02T15:08:52.029504+00:00",
+    "last_updated": "2026-10-02T15:13:13.518955+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -21,13 +21,19 @@
         "max_match_list_calls_per_run": 2,
         "cricscore_calls_this_run": 1,
         "match_list_calls_this_run": 2,
+        "match_info_calls_this_run": 8,
+        "match_info_cache_hits_this_run": 0,
+        "match_info_enriched_rows": 8,
+        "match_info_cache_size": 8,
+        "max_match_info_lookups_per_run": 12,
         "squad_calls_this_run": 0,
         "endpoint_calls_this_run": {
             "cricScore": 1,
+            "match_info": 8,
             "matches": 2
         },
         "max_squad_calls_per_run": 0,
-        "hits_today_reported": 6,
+        "hits_today_reported": 17,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null

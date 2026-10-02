@@ -1,0 +1,138 @@
+{
+  "90ae280c-cb10-4d58-9bcc-ec95294819e6": {
+    "cachedAt": "2026-10-02T15:11:20.852286+00:00",
+    "data": {
+      "id": "90ae280c-cb10-4d58-9bcc-ec95294819e6",
+      "name": "India vs West Indies, 1st ODI, West Indies tour of India, 2026",
+      "matchType": "odi",
+      "status": "India won by 8 wkts",
+      "venue": "Greenfield International Stadium, Thiruvananthapuram",
+      "date": "2026-09-27",
+      "dateTimeGMT": "2026-09-27T08:30:00",
+      "teams": [
+        "India",
+        "West Indies"
+      ],
+      "series_id": "702ce6cb-a551-4aab-961e-0ed1548a3c74"
+    }
+  },
+  "56d07759-19dd-4a8c-a3d5-58bfd6a142a1": {
+    "cachedAt": "2026-10-02T15:11:21.038610+00:00",
+    "data": {
+      "id": "56d07759-19dd-4a8c-a3d5-58bfd6a142a1",
+      "name": "India vs West Indies, 2nd ODI, West Indies tour of India, 2026",
+      "matchType": "odi",
+      "status": "India won by 8 wkts",
+      "venue": "Barsapara Cricket Stadium, Guwahati",
+      "date": "2026-09-30",
+      "dateTimeGMT": "2026-09-30T08:30:00",
+      "teams": [
+        "India",
+        "West Indies"
+      ],
+      "series_id": "702ce6cb-a551-4aab-961e-0ed1548a3c74"
+    }
+  },
+  "da91f633-acac-4449-86f8-9bff6244053f": {
+    "cachedAt": "2026-10-02T15:11:21.223512+00:00",
+    "data": {
+      "id": "da91f633-acac-4449-86f8-9bff6244053f",
+      "name": "India vs West Indies, 3rd ODI, West Indies tour of India, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 03, 08:30 GMT",
+      "venue": "PCA International Cricket Stadium, Ground A, New Chandigarh",
+      "date": "2026-10-03",
+      "dateTimeGMT": "2026-10-03T08:30:00",
+      "teams": [
+        "India",
+        "West Indies"
+      ],
+      "series_id": "702ce6cb-a551-4aab-961e-0ed1548a3c74"
+    }
+  },
+  "0643db2e-fd71-41d6-bad1-df3513607f3f": {
+    "cachedAt": "2026-10-02T15:11:21.409209+00:00",
+    "data": {
+      "id": "0643db2e-fd71-41d6-bad1-df3513607f3f",
+      "name": "India vs West Indies, 1st T20I, West Indies tour of India, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 06, 13:30 GMT",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "date": "2026-10-06",
+      "dateTimeGMT": "2026-10-06T13:30:00",
+      "teams": [
+        "India",
+        "West Indies"
+      ],
+      "series_id": "702ce6cb-a551-4aab-961e-0ed1548a3c74"
+    }
+  },
+  "956f3a64-cc60-437f-a96d-20f68f72874f": {
+    "cachedAt": "2026-10-02T15:11:21.596752+00:00",
+    "data": {
+      "id": "956f3a64-cc60-437f-a96d-20f68f72874f",
+      "name": "Victoria vs South Australia, 1st Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 07, 23:30 GMT",
+      "venue": "Junction Oval, Melbourne",
+      "date": "2026-10-07",
+      "dateTimeGMT": "2026-10-07T23:30:00",
+      "teams": [
+        "Victoria",
+        "South Australia"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
+  },
+  "f7e74b46-d393-4066-b161-738f6ac287b7": {
+    "cachedAt": "2026-10-02T15:11:21.785078+00:00",
+    "data": {
+      "id": "f7e74b46-d393-4066-b161-738f6ac287b7",
+      "name": "Western Australia vs Queensland, 3rd Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 08, 02:30 GMT",
+      "venue": "W.A.C.A. Ground, Perth",
+      "date": "2026-10-08",
+      "dateTimeGMT": "2026-10-08T02:30:00",
+      "teams": [
+        "Western Australia",
+        "Queensland"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
+  },
+  "f86a1b5e-83be-41b0-b2d3-4f1ae4e12a03": {
+    "cachedAt": "2026-10-02T15:11:21.972443+00:00",
+    "data": {
+      "id": "f86a1b5e-83be-41b0-b2d3-4f1ae4e12a03",
+      "name": "New South Wales vs Tasmania, 2nd Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 08, 23:30 GMT",
+      "venue": "Cricket Central, Sydney",
+      "date": "2026-10-08",
+      "dateTimeGMT": "2026-10-08T23:30:00",
+      "teams": [
+        "New South Wales",
+        "Tasmania"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
+  },
+  "ff0a0eb6-4abf-474b-9aa6-99fac469b2f2": {
+    "cachedAt": "2026-10-02T15:11:22.159164+00:00",
+    "data": {
+      "id": "ff0a0eb6-4abf-474b-9aa6-99fac469b2f2",
+      "name": "India vs West Indies, 2nd T20I, West Indies tour of India, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 09, 13:30 GMT",
+      "venue": "JSCA International Stadium Complex, Ranchi",
+      "date": "2026-10-09",
+      "dateTimeGMT": "2026-10-09T13:30:00",
+      "teams": [
+        "India",
+        "West Indies"
+      ],
+      "series_id": "702ce6cb-a551-4aab-961e-0ed1548a3c74"
+    }
+  }
+}
