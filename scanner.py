@@ -1371,24 +1371,28 @@ def analyze_venue(history, target_venue, dynamic_styles=None):
     if len(matched) < MIN_VENUE_MATCHES:
         return {"status": "NO DATA / UNKNOWN VENUE", "matches": len(matched), "venue_confidence": round(best, 3)}
 
-    first_scores, pp_scores = [], []
+    first_scores, pp_scores, pp_wickets = [], [], []
     chase_wins = completed = 0
     mid_wickets = spinner_wickets = mid_balls = classified_balls = 0
+    over16_runs = over16_wickets = over16_innings = over16_wicket_innings = 0
 
     for m in matched:
         innings = m.get("innings", [])
         if not innings:
             continue
-        first_total = pp = 0
+        first_total = pp = ppw = 0
         for over in innings[0].get("overs", []):
             ono = int(over.get("over", -1))
             for d in over.get("deliveries", []):
                 runs = int(d.get("runs", {}).get("total", 0))
+                wickets = len(d.get("wickets") or [])
                 first_total += runs
                 if 0 <= ono <= 5:
                     pp += runs
+                    ppw += wickets
         first_scores.append(first_total)
         pp_scores.append(pp)
+        pp_wickets.append(ppw)
 
         winner = norm(m.get("info", {}).get("outcome", {}).get("winner", ""))
         if len(innings) >= 2 and winner:
@@ -1399,6 +1403,18 @@ def analyze_venue(history, target_venue, dynamic_styles=None):
         for inn in innings:
             for over in inn.get("overs", []):
                 ono = int(over.get("over", -1))
+                if ono == 15:
+                    over16_innings += 1
+                    over_runs = 0
+                    over_wkts = 0
+                    for d in over.get("deliveries", []):
+                        over_runs += int(d.get("runs", {}).get("total", 0))
+                        over_wkts += len(d.get("wickets") or [])
+                    over16_runs += over_runs
+                    over16_wickets += over_wkts
+                    if over_wkts > 0:
+                        over16_wicket_innings += 1
+
                 if not 6 <= ono <= 13:
                     continue
                 for d in over.get("deliveries", []):
@@ -1417,7 +1433,12 @@ def analyze_venue(history, target_venue, dynamic_styles=None):
         "status": "OK", "matches": len(matched), "venue_confidence": round(best, 3),
         "avg_first_innings": round(statistics.mean(first_scores), 2) if first_scores else None,
         "powerplay_avg": round(statistics.mean(pp_scores), 2) if pp_scores else None,
+        "powerplay_wickets_avg": round(statistics.mean(pp_wickets), 2) if pp_wickets else None,
         "chasing_win_pct": round((chase_wins / completed) * 100, 2) if completed else None,
+        "over16_sample_innings": over16_innings,
+        "over16_avg_runs": round(over16_runs / over16_innings, 2) if over16_innings else None,
+        "over16_wickets_per_innings": round(over16_wickets / over16_innings, 3) if over16_innings else None,
+        "over16_wicket_event_pct": round((over16_wicket_innings / over16_innings) * 100, 2) if over16_innings else None,
         "mid_overs_7_14_wickets": mid_wickets,
         "mid_overs_7_14_wickets_per_match": round(mid_wickets / len(matched), 2) if matched else None,
         "spin_classification_pct": classification_pct,
@@ -2234,14 +2255,20 @@ def build_pre_toss_analysis(team_a, team_b, venue_stats, weather, form_a, form_b
     conditions = []
     first_innings = venue_stats.get("avg_first_innings")
     pp = venue_stats.get("powerplay_avg")
+    pp_wickets = venue_stats.get("powerplay_wickets_avg")
     chasing = venue_stats.get("chasing_win_pct")
     mid = venue_stats.get("mid_overs_7_14_wickets_per_match")
     spin_share = venue_stats.get("spin_wicket_share_pct")
+    over16_runs = venue_stats.get("over16_avg_runs")
+    over16_wicket_event = venue_stats.get("over16_wicket_event_pct")
 
     if isinstance(first_innings, (int, float)):
         conditions.append(f"Historical first-innings baseline: {first_innings:.1f}")
     if isinstance(pp, (int, float)):
-        conditions.append(f"Powerplay baseline: {pp:.1f}")
+        if isinstance(pp_wickets, (int, float)):
+            conditions.append(f"Powerplay baseline: {pp:.1f} runs / {pp_wickets:.2f} wickets")
+        else:
+            conditions.append(f"Powerplay baseline: {pp:.1f} runs")
     if isinstance(chasing, (int, float)):
         if chasing >= 58:
             conditions.append(f"Chase-lean venue: {chasing:.1f}% chasing wins")
@@ -2253,6 +2280,11 @@ def build_pre_toss_analysis(team_a, team_b, venue_stats, weather, form_a, form_b
         conditions.append(f"Overs 7-14 wicket pressure: {mid:.2f} wickets/match")
     if isinstance(spin_share, (int, float)):
         conditions.append(f"Spinner share of 7-14 wickets: {spin_share:.1f}%")
+    if isinstance(over16_runs, (int, float)):
+        if isinstance(over16_wicket_event, (int, float)):
+            conditions.append(f"16th-over baseline: {over16_runs:.1f} runs; wicket in {over16_wicket_event:.1f}% of sampled innings")
+        else:
+            conditions.append(f"16th-over baseline: {over16_runs:.1f} runs")
     if weather.get("status") == "OK":
         conditions.append(
             f"Weather: rain {weather.get('rain_probability_pct')}%, dew {weather.get('dew_risk', 'UNKNOWN')}"
@@ -2301,8 +2333,11 @@ def build_pre_toss_analysis(team_a, team_b, venue_stats, weather, form_a, form_b
         "tossCheckpoints": checkpoints,
         "firstInningsBaseline": first_innings,
         "powerplayBaseline": pp,
+        "powerplayWicketsBaseline": pp_wickets,
         "chasingWinPct": chasing,
         "middleOversWicketsPerMatch": mid,
+        "over16AvgRuns": over16_runs,
+        "over16WicketEventPct": over16_wicket_event,
         "spinWicketSharePct": spin_share,
         "squadStatus": squad_summary.get("status"),
         "summary": f"{initial_prediction} {swing_read}",
@@ -2700,7 +2735,12 @@ def run_scanner():
             "tossBias": f"{venue_stats.get('chasing_win_pct')}% Chasing Wins" if venue_stats.get("chasing_win_pct") is not None else "UNKNOWN",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": f"{pp:.2f}" if isinstance(pp, (int, float)) else "UNKNOWN",
+            "ppWicketsAvg": venue_stats.get("powerplay_wickets_avg"),
             "ppRunRate": "Historical first-innings PP",
+            "over16AvgRuns": venue_stats.get("over16_avg_runs"),
+            "over16WicketsPerInnings": venue_stats.get("over16_wickets_per_innings"),
+            "over16WicketEventPct": venue_stats.get("over16_wicket_event_pct"),
+            "over16SampleInnings": venue_stats.get("over16_sample_innings"),
             "spinIndex": f"{spin_share:.2f}% Spinner Wicket Share (7-14)" if isinstance(spin_share, (int, float)) else "UNKNOWN",
             "spinNote": (
                 venue_stats.get("spin_index_status", "UNKNOWN")
@@ -2720,6 +2760,10 @@ def run_scanner():
                 "powerplay": (
                     f"Cricsheet first-innings overs 1-6 (n={venue_stats.get('matches')})"
                     if venue_stats.get("status") == "OK" else "Cricsheet venue history insufficient/UNKNOWN"
+                ),
+                "over16": (
+                    f"Cricsheet 16th-over history (n={venue_stats.get('over16_sample_innings')})"
+                    if venue_stats.get("over16_sample_innings") else "Cricsheet 16th-over history insufficient/UNKNOWN"
                 ),
                 "spinChoke": (
                     f"Cricsheet overs 7-14; bowler-style classification {venue_stats.get('spin_classification_pct')}%"
