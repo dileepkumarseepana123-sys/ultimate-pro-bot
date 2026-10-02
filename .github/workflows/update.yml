@@ -14,7 +14,7 @@ permissions:
 
 concurrency:
   group: match-deep-intel-scanner
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   run-scanner:
@@ -29,7 +29,7 @@ jobs:
       XI_LOOKAHEAD_MIN: '180'
       ALLOW_FANTASY_SQUAD: '0'
       MAX_XI_LOOKUPS_PER_RUN: '0'
-      MAX_MATCH_PAGES_PER_RUN: '2'
+      MAX_MATCH_PAGES_PER_RUN: '8'
       MAX_MATCH_INFO_LOOKUPS_PER_RUN: '12'
       PAUSE_UNTIL_IST: '2026-09-21'
     steps:
