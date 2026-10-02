@@ -12813,7 +12813,7 @@
         }
     },
     "knights|titans|2026-10-02": {
-        "capturedAt": "2026-10-02T15:27:45.101935+00:00",
+        "capturedAt": "2026-10-02T15:54:30.748577+00:00",
         "matchDate": "2026-10-02",
         "report": {
             "teamA": "Knights",
@@ -12929,7 +12929,7 @@
             "skillGap": "EXTREME GAP",
             "swingScore": 35.0,
             "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
-            "analysisEngineVersion": 3,
+            "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 67,
@@ -13068,6 +13068,61 @@
                 "teams": {},
                 "source": "Not queried"
             },
+            "squadSummary": {
+                "status": "NO SQUAD DATA",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "initialAnalysis": {
+                "phase": "INITIAL PRE-TOSS READ",
+                "preTossStatus": "PRE-TOSS POOR FIT",
+                "dataConfidencePct": 71,
+                "initialPrediction": "Titans has a strong edge on the available pre-toss historical evidence.",
+                "edgeTeam": "Titans",
+                "edgeStrength": "STRONG EDGE",
+                "edgeScore": -5.7,
+                "swingRead": "ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+                "conditions": [
+                    "Historical first-innings baseline: 146.8",
+                    "Powerplay baseline: 44.9 runs / 1.21 wickets",
+                    "Defend-lean venue: 38.5% chasing wins",
+                    "Overs 7-14 wicket pressure: 3.64 wickets/match",
+                    "16th-over baseline: 8.8 runs; wicket in 20.8% of sampled innings",
+                    "Weather: rain 0%, dew LOW"
+                ],
+                "evidence": [
+                    "Elo: Knights 1410.5 vs Titans 1639.8",
+                    "Recent form: 22.2% vs 70.0% wins",
+                    "H2H: 1-9 across 10 recent meetings"
+                ],
+                "pendingGates": [
+                    "Toss result and batting/fielding decision",
+                    "Confirmed Playing XI",
+                    "Actual exchange BACK/LAY prices and matched liquidity",
+                    "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                ],
+                "tossCheckpoints": [
+                    "Compare the toss decision with the venue chasing/defending bias.",
+                    "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                    "Only calculate equal-profit targets from the actual matched exchange entry price."
+                ],
+                "firstInningsBaseline": 146.79,
+                "powerplayBaseline": 44.86,
+                "powerplayWicketsBaseline": 1.21,
+                "chasingWinPct": 38.46,
+                "middleOversWicketsPerMatch": 3.64,
+                "over16AvgRuns": 8.79,
+                "over16WicketEventPct": 20.83,
+                "spinWicketSharePct": null,
+                "squadStatus": "NO SQUAD DATA",
+                "summary": "Titans has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            },
+            "pendingGates": [
+                "Toss result and batting/fielding decision",
+                "Confirmed Playing XI",
+                "Actual exchange BACK/LAY prices and matched liquidity",
+                "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+            ],
             "formA": {
                 "matches": 10,
                 "wins": 2,
@@ -13283,7 +13338,12 @@
             "tossBias": "38.46% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "44.86",
+            "ppWicketsAvg": 1.21,
             "ppRunRate": "Historical first-innings PP",
+            "over16AvgRuns": 8.79,
+            "over16WicketsPerInnings": 0.292,
+            "over16WicketEventPct": 20.83,
+            "over16SampleInnings": 24,
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 3.64/match",
             "metricSources": {
@@ -13291,6 +13351,7 @@
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=14)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=14)",
+                "over16": "Cricsheet 16th-over history (n=24)",
                 "spinChoke": "Cricsheet overs 7-14; bowler-style classification 3.75%"
             },
             "venueIntel": {
@@ -13299,7 +13360,12 @@
                 "venue_confidence": 1.0,
                 "avg_first_innings": 146.79,
                 "powerplay_avg": 44.86,
+                "powerplay_wickets_avg": 1.21,
                 "chasing_win_pct": 38.46,
+                "over16_sample_innings": 24,
+                "over16_avg_runs": 8.79,
+                "over16_wickets_per_innings": 0.292,
+                "over16_wicket_event_pct": 20.83,
                 "mid_overs_7_14_wickets": 51,
                 "mid_overs_7_14_wickets_per_match": 3.64,
                 "spin_classification_pct": 3.75,
@@ -13311,22 +13377,21 @@
             "midOversWicketsPerMatch": 3.64,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 3.75,
-            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "verdict": "🔴 PRE-TOSS POOR FIT / ONE-SIDED RISK",
             "noBetReasons": [
-                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
-                "PLAYING XI NOT CONFIRMED",
                 "EXTREME SKILL GAP / ONE-SIDED MARKET PATH RISK"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; EXTREME SKILL GAP / ONE-SIDED MARKET PATH RISK"
+            "strategyText": "Titans has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
         }
     },
     "lions|north west eastvaal renault dragons|2026-10-02": {
-        "capturedAt": "2026-10-02T15:27:45.101973+00:00",
+        "capturedAt": "2026-10-02T15:54:30.748604+00:00",
         "matchDate": "2026-10-02",
         "report": {
             "teamA": "Lions",
@@ -13400,7 +13465,7 @@
             "skillGap": "MODERATE GAP",
             "swingScore": 56.6,
             "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
-            "analysisEngineVersion": 3,
+            "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 67,
@@ -13499,6 +13564,61 @@
                 "teams": {},
                 "source": "Not queried"
             },
+            "squadSummary": {
+                "status": "NO SQUAD DATA",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "initialAnalysis": {
+                "phase": "INITIAL PRE-TOSS READ",
+                "preTossStatus": "PRE-TOSS CONDITIONAL",
+                "dataConfidencePct": 71,
+                "initialPrediction": "Lions has a moderate edge on the available pre-toss historical evidence.",
+                "edgeTeam": "Lions",
+                "edgeStrength": "MODERATE EDGE",
+                "edgeScore": 2.06,
+                "swingRead": "CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+                "conditions": [
+                    "Historical first-innings baseline: 166.6",
+                    "Powerplay baseline: 47.1 runs / 1.60 wickets",
+                    "Two-way venue: 47.7% chasing wins",
+                    "Overs 7-14 wicket pressure: 4.04 wickets/match",
+                    "16th-over baseline: 8.8 runs; wicket in 32.2% of sampled innings",
+                    "Weather: rain 0%, dew LOW"
+                ],
+                "evidence": [
+                    "Elo: Lions 1571.4 vs North West - Eastvaal Renault Dragons 1487.0",
+                    "Recent form: 80.0% vs 50.0% wins",
+                    "H2H: 1-2 across 3 recent meetings"
+                ],
+                "pendingGates": [
+                    "Toss result and batting/fielding decision",
+                    "Confirmed Playing XI",
+                    "Actual exchange BACK/LAY prices and matched liquidity",
+                    "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                ],
+                "tossCheckpoints": [
+                    "Compare the toss decision with the venue chasing/defending bias.",
+                    "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                    "Only calculate equal-profit targets from the actual matched exchange entry price."
+                ],
+                "firstInningsBaseline": 166.58,
+                "powerplayBaseline": 47.12,
+                "powerplayWicketsBaseline": 1.6,
+                "chasingWinPct": 47.66,
+                "middleOversWicketsPerMatch": 4.04,
+                "over16AvgRuns": 8.76,
+                "over16WicketEventPct": 32.16,
+                "spinWicketSharePct": null,
+                "squadStatus": "NO SQUAD DATA",
+                "summary": "Lions has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            },
+            "pendingGates": [
+                "Toss result and batting/fielding decision",
+                "Confirmed Playing XI",
+                "Actual exchange BACK/LAY prices and matched liquidity",
+                "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+            ],
             "formA": {
                 "matches": 10,
                 "wins": 8,
@@ -13714,7 +13834,12 @@
             "tossBias": "47.66% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "47.12",
+            "ppWicketsAvg": 1.6,
             "ppRunRate": "Historical first-innings PP",
+            "over16AvgRuns": 8.76,
+            "over16WicketsPerInnings": 0.372,
+            "over16WicketEventPct": 32.16,
+            "over16SampleInnings": 199,
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.04/match",
             "metricSources": {
@@ -13722,6 +13847,7 @@
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=113)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=113)",
+                "over16": "Cricsheet 16th-over history (n=199)",
                 "spinChoke": "Cricsheet overs 7-14; bowler-style classification 5.01%"
             },
             "venueIntel": {
@@ -13730,7 +13856,12 @@
                 "venue_confidence": 1.0,
                 "avg_first_innings": 166.58,
                 "powerplay_avg": 47.12,
+                "powerplay_wickets_avg": 1.6,
                 "chasing_win_pct": 47.66,
+                "over16_sample_innings": 199,
+                "over16_avg_runs": 8.76,
+                "over16_wickets_per_innings": 0.372,
+                "over16_wicket_event_pct": 32.16,
                 "mid_overs_7_14_wickets": 457,
                 "mid_overs_7_14_wickets_per_match": 4.04,
                 "spin_classification_pct": 5.01,
@@ -13742,18 +13873,16 @@
             "midOversWicketsPerMatch": 4.04,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 5.01,
-            "verdict": "🔴 HIGH-CAUTION / NO-BET",
-            "noBetReasons": [
-                "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
-                "PLAYING XI NOT CONFIRMED"
-            ],
+            "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
+            "noBetReasons": [],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "MODERATE SKILL GAP",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED"
+            "badgeClass": "badge-yellow",
+            "strategyText": "Lions has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
         }
     }
 }
