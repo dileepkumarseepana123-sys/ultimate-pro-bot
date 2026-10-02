@@ -129,7 +129,7 @@
         <div class="grid-2">
             <div>
                 <label>3. Matched Odds:</label>
-                <input type="number" id="odds1" placeholder="e.g., 1.35" step="0.01" oninput="updateUI()">
+                <input type="number" id="odds1" placeholder="e.g., 1.35" min="1.01" step="0.01" oninput="clearSplitOverride(); updateUI()">
                 <button class="split-btn" onclick="toggleSplitTool()">+ Dual Entry Helper</button>
             </div>
             <div>
@@ -147,12 +147,12 @@
             <strong style="font-size:0.85em; color:#94a3b8; text-transform:uppercase;">Dual Entry Split (App Stake Amounts)</strong>
             <div class="grid-2" style="margin-top:10px;">
                 <div>
-                    <input type="number" id="splitStake1" placeholder="Stake 1 (e.g. 100)" min="0.01" step="0.01" oninput="calcSplit()">
-                    <input type="number" id="splitOdd1" placeholder="Odds 1" step="0.01" oninput="calcSplit()">
+                    <input type="number" id="splitStake1" placeholder="Stake 1 (whole ₹)" min="1" step="1" oninput="calcSplit()">
+                    <input type="number" id="splitOdd1" placeholder="Odds 1 (max 2 dp)" min="1.01" step="0.01" oninput="calcSplit()">
                 </div>
                 <div>
-                    <input type="number" id="splitStake2" placeholder="Stake 2 (e.g. 100)" min="0.01" step="0.01" oninput="calcSplit()">
-                    <input type="number" id="splitOdd2" placeholder="Odds 2" step="0.01" oninput="calcSplit()">
+                    <input type="number" id="splitStake2" placeholder="Stake 2 (whole ₹)" min="1" step="1" oninput="calcSplit()">
+                    <input type="number" id="splitOdd2" placeholder="Odds 2 (max 2 dp)" min="1.01" step="0.01" oninput="calcSplit()">
                 </div>
             </div>
             <div id="splitResult" style="margin-top:10px; font-size: 0.9em; font-weight:bold; color:#38bdf8;"></div>
@@ -237,9 +237,9 @@
         <!-- PHASE 2: CUSTOM LOCK-IN -->
         <h2 class="h2-blue">Phase 2: Custom Live Lock-In</h2>
         <label>Actual LAY Odds for <strong class="dynamic-team sided-team lay-text"></strong> (recommended / exact):</label>
-        <input type="number" id="actualLayOdds" placeholder="e.g., 1.48" step="0.01">
+        <input type="number" id="actualLayOdds" placeholder="e.g., 1.48" min="1.01" step="0.01">
         <label style="margin-top:10px;">OR Current BACK Odds for <strong class="dynamic-team opp-team back-text"></strong> (fallback estimate):</label>
-        <input type="number" id="odds2" placeholder="e.g., 3.08" step="0.01">
+        <input type="number" id="odds2" placeholder="e.g., 3.08" min="1.01" step="0.01">
         <div style="font-size:0.75em;color:#94a3b8;margin-top:4px;">
             Use actual same-team LAY odds whenever available. Opponent BACK → LAY conversion is only an estimate because real markets have a spread.
         </div>
@@ -276,7 +276,7 @@
                 </div>
             </div>
             <label>16th Over LAY Odds (Favorite):</label>
-            <input type="number" id="favoriteLayOdds" placeholder="e.g., 1.01" step="0.01">
+            <input type="number" id="favoriteLayOdds" placeholder="e.g., 1.01" min="1.01" step="0.01">
             <button class="btn-orange" onclick="calculateSafeTwist()">Calculate Risk-Free Lottery Ticket</button>
             <div id="twistErrorBox" class="section-box" style="background:#450a0a; border-left:4px solid #f87171; color:#fecaca;"></div>
             <div id="twistResultBox" class="result-panel" style="display:none; border-color: #f97316; padding: 15px; margin-top:15px;"></div>
@@ -447,29 +447,46 @@
         // ==========================================
         // DUAL ENTRY SPLIT HELPER
         // ==========================================
-        let tempAvgOdds = 0; let tempTotalStake = 0;
+        let tempAvgOdds = 0; let tempTotalStake = 0; let appliedSplitExactOdds = null;
         function toggleSplitTool() {
             let box = document.getElementById('splitToolBox');
             box.style.display = box.style.display === 'none' ? 'block' : 'none';
         }
+        function clearSplitOverride() {
+            appliedSplitExactOdds = null;
+        }
         function calcSplit() {
-            let s1 = parseFloat(document.getElementById('splitStake1').value);
-            let o1 = parseFloat(document.getElementById('splitOdd1').value);
-            let s2 = parseFloat(document.getElementById('splitStake2').value);
-            let o2 = parseFloat(document.getElementById('splitOdd2').value);
-            if(isNaN(s1) || isNaN(o1) || isNaN(s2) || isNaN(o2) || s1<=0 || s2<=0 || o1<=1 || o2<=1) { tempAvgOdds = 0; tempTotalStake = 0; document.getElementById('splitResult').innerHTML = '<span style="color:#fca5a5;">Enter positive stakes and odds above 1.00.</span>'; return; }
+            const s1Raw = document.getElementById('splitStake1').value;
+            const o1Raw = document.getElementById('splitOdd1').value;
+            const s2Raw = document.getElementById('splitStake2').value;
+            const o2Raw = document.getElementById('splitOdd2').value;
+            let s1 = parseFloat(s1Raw);
+            let o1 = parseFloat(o1Raw);
+            let s2 = parseFloat(s2Raw);
+            let o2 = parseFloat(o2Raw);
+            if (
+                isNaN(s1) || isNaN(o1) || isNaN(s2) || isNaN(o2) ||
+                s1 <= 0 || s2 <= 0 || !Number.isInteger(s1) || !Number.isInteger(s2) ||
+                o1 <= 1 || o2 <= 1 || !hasAtMostTwoDecimals(o1Raw) || !hasAtMostTwoDecimals(o2Raw)
+            ) {
+                tempAvgOdds = 0; tempTotalStake = 0;
+                document.getElementById('splitResult').innerHTML =
+                    '<span style="color:#fca5a5;">Stakes must be whole rupees; odds must be above 1.00 with max 2 decimal places.</span>';
+                return;
+            }
             let weightedExposure = (s1 * (o1 - 1)) + (s2 * (o2 - 1));
             let totalStake = s1 + s2;
             tempAvgOdds = (weightedExposure / totalStake) + 1;
-            tempTotalStake = money2(totalStake);
+            tempTotalStake = totalStake;
             const splitBetType = document.querySelector('input[name="initType"]:checked')?.value || 'BACK';
             const exposureLabel = splitBetType === 'LAY' ? 'Total Liability' : 'Combined Potential Profit';
             document.getElementById('splitResult').innerHTML =
-                `Total App Stake: ₹${money2(totalStake).toFixed(2)}<br>${exposureLabel}: ₹${money2(weightedExposure).toFixed(2)}<br><strong>Combined Entry Odds: ${formatOdds4(tempAvgOdds)}</strong>`;
+                `Total App Stake: ₹${totalStake}<br>${exposureLabel}: ₹${money2(weightedExposure).toFixed(2)}<br><strong>Combined Effective Odds: ${formatOdds2(tempAvgOdds)}</strong>`;
         }
         function applySplit() {
             if(tempAvgOdds > 0) {
-                document.getElementById('odds1').value = tempAvgOdds.toFixed(8).replace(/0+$/, '').replace(/\.$/, '');
+                appliedSplitExactOdds = tempAvgOdds;
+                document.getElementById('odds1').value = formatOdds2(tempAvgOdds);
                 document.getElementById('stake1').value = tempTotalStake;
                 document.getElementById('layInputType').value = "actualStake";
                 updateUI();
@@ -486,9 +503,26 @@
             return Math.round((Number(value) + Number.EPSILON) * 100) / 100;
         }
 
-        function formatOdds4(value) {
+        function formatOdds2(value) {
             if (!isFinite(value)) return 'UNKNOWN';
-            return Number(value).toFixed(4).replace(/0+$/, '').replace(/\.$/, '');
+            return Number(value).toFixed(2);
+        }
+
+        function floorOdds2(value) {
+            return Math.floor((Number(value) + 1e-10) * 100) / 100;
+        }
+
+        function ceilOdds2(value) {
+            return Math.ceil((Number(value) - 1e-10) * 100) / 100;
+        }
+
+        function hasAtMostTwoDecimals(rawValue) {
+            const text = String(rawValue ?? '').trim();
+            return /^\d+(?:\.\d{0,2})?$/.test(text);
+        }
+
+        function isWholeRupee(value) {
+            return Number.isFinite(value) && value > 0 && Number.isInteger(value);
         }
 
         function signedMoney(value) {
@@ -506,20 +540,18 @@
             return { win, lose };
         }
 
-        function bestCentLayHedge(backStake, backOdds, layOdds) {
+        function bestWholeLayHedge(backStake, backOdds, layOdds) {
             const theoretical = (backStake * backOdds) / layOdds;
             if (!isFinite(theoretical) || theoretical <= 0) return null;
 
-            const rawCents = theoretical * 100;
-            const centCandidates = [...new Set([
-                Math.floor(rawCents),
-                Math.round(rawCents),
-                Math.ceil(rawCents)
+            const wholeCandidates = [...new Set([
+                Math.floor(theoretical),
+                Math.round(theoretical),
+                Math.ceil(theoretical)
             ])].filter(x => x > 0);
 
             let best = null;
-            centCandidates.forEach(cents => {
-                const stake = cents / 100;
+            wholeCandidates.forEach(stake => {
                 const outcomes = grossBackLayOutcomes(backStake, backOdds, layOdds, stake);
                 const minGross = Math.min(outcomes.win, outcomes.lose);
                 const imbalance = Math.abs(outcomes.win - outcomes.lose);
@@ -544,9 +576,12 @@
         function getGameState() {
             let selectedTeam = document.querySelector('input[name="initTeam"]:checked').value;
             let betType = document.querySelector('input[name="initType"]:checked').value;
-            let rawOdds = parseFloat(document.getElementById('odds1').value);
+            const rawOddsText = document.getElementById('odds1').value;
+            const displayedOdds = parseFloat(rawOddsText);
+            let rawOdds = appliedSplitExactOdds !== null ? appliedSplitExactOdds : displayedOdds;
             let enteredValue = parseFloat(document.getElementById('stake1').value);
             let layInputType = document.getElementById('layInputType').value;
+            const oddsFormatValid = appliedSplitExactOdds !== null || hasAtMostTwoDecimals(rawOddsText);
             let teamAVal = document.getElementById('teamA').value;
             let teamBVal = document.getElementById('teamB').value;
 
@@ -558,24 +593,30 @@
             let requestedLiability = NaN;
             let actualLiability = NaN;
 
+            if (!oddsFormatValid) rawOdds = NaN;
+
             if (!isNaN(enteredValue) && enteredValue > 0) {
                 if (betType === 'BACK') {
-                    entryAppStake = money2(enteredValue);
-                    rawStake = entryAppStake;
+                    if (isWholeRupee(enteredValue)) {
+                        entryAppStake = enteredValue;
+                        rawStake = entryAppStake;
+                    }
                 } else if (!isNaN(rawOdds) && rawOdds > 1) {
                     sidedTeam = (selectedTeam === teamAVal) ? teamBVal : teamAVal;
                     oppTeam = selectedTeam;
                     effOdds = rawOdds / (rawOdds - 1);
 
                     if (layInputType === 'actualStake') {
-                        entryAppStake = money2(enteredValue);
+                        if (isWholeRupee(enteredValue)) entryAppStake = enteredValue;
                     } else {
                         requestedLiability = enteredValue;
-                        entryAppStake = money2(enteredValue / (rawOdds - 1));
+                        entryAppStake = Math.max(1, Math.round(enteredValue / (rawOdds - 1)));
                     }
 
-                    actualLiability = entryAppStake * (rawOdds - 1);
-                    rawStake = actualLiability;
+                    if (isWholeRupee(entryAppStake)) {
+                        actualLiability = entryAppStake * (rawOdds - 1);
+                        rawStake = actualLiability;
+                    }
                 }
             }
 
@@ -584,7 +625,7 @@
 
             return {
                 selectedTeam, betType, layInputType, sidedTeam, oppTeam,
-                effOdds, rawOdds, enteredValue, stake: rawStake, targetProfit,
+                effOdds, rawOdds, displayedOdds, oddsFormatValid, enteredValue, stake: rawStake, targetProfit,
                 entryAppStake, requestedLiability, actualLiability
             };
         }
@@ -609,9 +650,9 @@
                 const feasible = targetLay >= MIN_EXCHANGE_ODDS;
 
                 html += '<strong>100% Equal-Profit Target</strong><br>';
-                html += 'Risk basis: ₹' + money2(risk).toFixed(2) + ' BACK stake.<br>';
+                html += 'Risk basis: ₹' + Math.round(risk) + ' BACK stake.<br>';
                 if (feasible) {
-                    html += 'Mathematical same-team LAY threshold: <strong>' + formatOdds4(targetLay) + '</strong> or lower';
+                    html += 'Executable same-team LAY threshold: <strong>' + formatOdds2(floorOdds2(targetLay)) + '</strong> or lower';
                     if (commission > 0) {
                         html += ' for about <strong>₹' + money2(risk).toFixed(2) + ' net profit</strong> on either outcome after ' +
                                 (commission * 100).toFixed(1) + '% commission.';
@@ -631,7 +672,7 @@
                 const denom = 2 - commission - L;
                 if (denom > 0) {
                     const targetBack = (L * (1 - commission)) / denom;
-                    html += 'Mathematical same-team BACK threshold: <strong>' + formatOdds4(targetBack) + '</strong> or higher';
+                    html += 'Executable same-team BACK threshold: <strong>' + formatOdds2(ceilOdds2(targetBack)) + '</strong> or higher';
                     if (commission > 0) {
                         html += ' for about ₹' + money2(risk).toFixed(2) + ' net profit after commission.';
                     } else {
@@ -674,7 +715,7 @@
                 stakeLabel.innerText = "4. Amount to Bet (Stake):";
                 layInputTypeDropdown.style.display = 'none';
                 if (!isNaN(state.stake)) {
-                    entryBox.innerHTML = `<strong>App Entry:</strong> Type <strong class="back-text">₹${money2(state.entryAppStake).toFixed(2)}</strong> in the BACK box for ${state.selectedTeam}.`;
+                    entryBox.innerHTML = `<strong>App Entry:</strong> Type <strong class="back-text">₹${Math.round(state.entryAppStake)}</strong> in the BACK box for ${state.selectedTeam}.`;
                     entryBox.style.display = 'block';
                 } else { entryBox.style.display = 'none'; }
             } else {
@@ -684,9 +725,9 @@
                     if (state.layInputType === 'liability') {
                         const appLayStake = state.entryAppStake;
                         const executionLiability = state.stake;
-                        entryBox.innerHTML = `<strong>App Entry:</strong> Requested liability ₹${money2(state.requestedLiability).toFixed(2)} → type <strong class="lay-text">₹${money2(appLayStake).toFixed(2)}</strong> in the LAY box.<br><span style="font-size:0.8em;color:#94a3b8;">Actual mathematical liability from that 2-decimal app stake: ₹${money2(executionLiability).toFixed(2)}. All later calculations use this actual execution exposure.</span>`;
+                        entryBox.innerHTML = `<strong>App Entry:</strong> Requested liability ₹${money2(state.requestedLiability).toFixed(2)} → type <strong class="lay-text">₹${Math.round(appLayStake)}</strong> in the LAY box.<br><span style="font-size:0.8em;color:#94a3b8;">Actual mathematical liability from that whole-rupee app stake: ₹${money2(executionLiability).toFixed(2)}. All later calculations use this actual execution exposure.</span>`;
                     } else {
-                        entryBox.innerHTML = `<strong>Matched Bet:</strong> LAY stake ₹${money2(state.entryAppStake).toFixed(2)} at ${formatOdds4(state.rawOdds)} → mathematical liability <strong class="lay-text">₹${money2(state.stake).toFixed(2)}</strong>.`;
+                        entryBox.innerHTML = `<strong>Matched Bet:</strong> LAY stake ₹${Math.round(state.entryAppStake)} at ${formatOdds2(state.rawOdds)} → mathematical liability <strong class="lay-text">₹${money2(state.stake).toFixed(2)}</strong>.`;
                     }
                     entryBox.style.display = 'block';
                 } else { entryBox.style.display = 'none'; }
@@ -711,7 +752,7 @@
 
             // CUT LOSS
             document.getElementById('txtSlOdds').innerText = slOdds;
-            let slExitStake = money2((S_app * O1) / slOdds);
+            let slExitStake = Math.max(1, Math.round((S_app * O1) / slOdds));
             let slActionSame = state.betType === 'LAY' ? 'BACK' : 'LAY';
             document.getElementById('slSameAction').innerHTML = `<span class="${slActionSame==='BACK'?'back-text':'lay-text'}">${slActionSame}</span> ${state.selectedTeam}`;
             document.getElementById('slSameStake').innerText = slExitStake;
@@ -721,9 +762,9 @@
             // FREE BET
             document.getElementById('txtFbOdds').innerText = fbOdds;
             document.getElementById('fbSameAction').innerHTML = `<span class="${slActionSame==='BACK'?'back-text':'lay-text'}">${slActionSame}</span> ${state.selectedTeam}`;
-            document.getElementById('fbSameStake').innerText = S_app;
+            document.getElementById('fbSameStake').innerText = Math.round(S_app);
             document.getElementById('fbOppAction').innerHTML = `<span class="${state.betType==='BACK'?'back-text':'lay-text'}">${state.betType}</span> ${state.oppTeam}`;
-            document.getElementById('fbOppStake').innerText = money2(S_app * (fbOdds - 1)).toFixed(2);
+            document.getElementById('fbOppStake').innerText = Math.max(1, Math.round(S_app * (fbOdds - 1)));
         }
 
         function generateCheatSheet(state) {
@@ -760,12 +801,13 @@
                     return;
                 }
 
-                const oppBackEquivalent = layOdds / (layOdds - 1);
+                const executableLayOdds = floorOdds2(layOdds);
+                const oppBackEquivalent = executableLayOdds / (executableLayOdds - 1);
                 const tr = document.createElement('tr');
                 if (rowsAdded === 0) tr.className = 'highlight-row';
                 tr.innerHTML =
-                    '<td class="back-text">' + formatOdds4(oppBackEquivalent) + '</td>' +
-                    '<td class="lay-text">≤ ' + formatOdds4(layOdds) + '</td>' +
+                    '<td class="back-text">' + formatOdds2(ceilOdds2(oppBackEquivalent)) + '</td>' +
+                    '<td class="lay-text">≤ ' + formatOdds2(executableLayOdds) + '</td>' +
                     '<td class="profit-text">+₹' + money2(netTarget).toFixed(2) + ' target</td>';
                 tbody.appendChild(tr);
                 rowsAdded++;
@@ -791,8 +833,10 @@
 
         function calculateTrade() {
             const state = getGameState();
-            const oppBack = parseFloat(document.getElementById('odds2').value);
-            const actualLayInput = parseFloat(document.getElementById('actualLayOdds').value);
+            const oppBackText = document.getElementById('odds2').value;
+            const actualLayText = document.getElementById('actualLayOdds').value;
+            const oppBack = parseFloat(oppBackText);
+            const actualLayInput = parseFloat(actualLayText);
             const commission = getCommissionRate();
             const res = document.getElementById('resultBox1');
             const err = document.getElementById('errorBox1');
@@ -800,18 +844,18 @@
             res.style.display = 'none';
 
             if (isNaN(state.stake) || state.stake <= 0 || isNaN(state.effOdds) || state.effOdds <= 1) {
-                err.innerHTML = 'Enter a valid positive entry stake/exposure and entry odds above 1.00.';
+                err.innerHTML = 'Entry stake must be a whole rupee amount and odds must be above 1.00 with max 2 decimal places.';
                 err.style.display = 'block';
                 return;
             }
 
             let layOdds = NaN;
             let laySource = '';
-            if (!isNaN(actualLayInput) && actualLayInput > 1) {
+            if (!isNaN(actualLayInput) && actualLayInput > 1 && hasAtMostTwoDecimals(actualLayText)) {
                 layOdds = actualLayInput;
                 laySource = 'actual same-team LAY';
-            } else if (!isNaN(oppBack) && oppBack > 1) {
-                layOdds = oppBack / (oppBack - 1);
+            } else if (!isNaN(oppBack) && oppBack > 1 && hasAtMostTwoDecimals(oppBackText)) {
+                layOdds = Number((oppBack / (oppBack - 1)).toFixed(2));
                 laySource = 'estimated from opposite-team BACK';
             } else {
                 err.innerHTML = 'Enter either the actual same-team LAY odds or the opposite-team BACK odds.';
@@ -820,15 +864,15 @@
             }
 
             if (layOdds >= state.effOdds) {
-                err.innerHTML = 'At LAY ' + formatOdds4(layOdds) + ', this does not lock a positive theoretical equal profit from your effective entry at ' +
-                                formatOdds4(state.effOdds) + '.';
+                err.innerHTML = 'At LAY ' + formatOdds2(layOdds) + ', this does not lock a positive theoretical equal profit from your effective entry at ' +
+                                formatOdds2(state.effOdds) + '.';
                 err.style.display = 'block';
                 return;
             }
 
-            const hedge = bestCentLayHedge(state.stake, state.effOdds, layOdds);
+            const hedge = bestWholeLayHedge(state.stake, state.effOdds, layOdds);
             if (!hedge) {
-                err.innerHTML = 'Could not produce a valid 2-decimal LAY stake for this exit.';
+                err.innerHTML = 'Could not produce a valid whole-rupee LAY stake for this exit.';
                 err.style.display = 'block';
                 return;
             }
@@ -847,19 +891,19 @@
 
             let backStake = NaN;
             if (!isNaN(oppBack) && oppBack > 1) {
-                backStake = money2((state.stake * state.effOdds) / oppBack);
+                backStake = Math.max(1, Math.round((state.stake * state.effOdds) / oppBack));
             }
 
             document.getElementById('outBackStake').innerText =
-                isNaN(backStake) ? 'Enter opponent BACK odds' : '₹' + backStake.toFixed(2);
-            document.getElementById('outLayOdds').innerText = formatOdds4(layOdds) +
+                isNaN(backStake) ? 'Enter opponent BACK odds' : '₹' + backStake;
+            document.getElementById('outLayOdds').innerText = formatOdds2(layOdds) +
                 (laySource.includes('estimated') ? ' (est.)' : '');
-            document.getElementById('outLayStake').innerText = '₹' + layStake.toFixed(2);
+            document.getElementById('outLayStake').innerText = '₹' + layStake;
             document.getElementById('outLayLiability').innerText = '₹' + money2(layLiability).toFixed(2);
 
             let headline = '';
             if (shownMin < 0) {
-                headline = 'Not fully green after 2-decimal stake rounding: ' + signedMoney(shownMin);
+                headline = 'Not fully green after whole-rupee stake rounding: ' + signedMoney(shownMin);
             } else if (shownDiff <= 0.01) {
                 headline = '≈ Equal profit ' + signedMoney(shownMin);
             } else {
@@ -871,15 +915,15 @@
                 '<div style="font-size:0.72em;color:#94a3b8;margin-top:4px;">' +
                 'If ' + state.sidedTeam + ' wins: ' + signedMoney(shownWin) +
                 ' | If ' + state.oppTeam + ' wins: ' + signedMoney(shownLose) +
-                '<br>Theoretical exact hedge stake: ₹' + hedge.theoretical.toFixed(4) +
-                ' | Executable 2-decimal stake chosen: ₹' + layStake.toFixed(2) +
+                '<br>Theoretical exact hedge stake: ₹' + hedge.theoretical.toFixed(2) +
+                ' | Executable whole-rupee stake chosen: ₹' + layStake +
                 '</div>';
 
             let bookedInput = document.getElementById('actualBookedProfit');
             if (bookedInput && shownMin > 0) bookedInput.value = shownMin.toFixed(2);
 
             if (shownMin < 0) {
-                err.innerHTML = 'The theoretical hedge is profitable, but 2-decimal stake execution leaves one outcome slightly negative. Do not treat this as a guaranteed green.';
+                err.innerHTML = 'The theoretical hedge is profitable, but whole-rupee stake execution leaves one outcome slightly negative. Do not treat this as a guaranteed green.';
                 err.style.display = 'block';
             } else if (laySource.includes('estimated')) {
                 err.innerHTML = 'Estimate only: opposite-team BACK odds were converted to a theoretical LAY price. For exact hedging, enter the actual same-team LAY price.';
@@ -917,7 +961,13 @@
             const grossSafeTarget = safeTargetNet / keepFactor;
             const grossRiskBudget = grossBooked - grossSafeTarget;
 
-            const layStake = money2(grossRiskBudget / (layOdds - 1));
+            if (!hasAtMostTwoDecimals(document.getElementById('favoriteLayOdds').value)) {
+                err.innerHTML = "Odds must have no more than 2 decimal places.";
+                err.style.display = 'block';
+                return;
+            }
+
+            const layStake = Math.max(1, Math.floor(grossRiskBudget / (layOdds - 1)));
             const actualLiability = money2(layStake * (layOdds - 1));
 
             const grossFavoriteHolds = grossBooked - actualLiability;
@@ -927,7 +977,7 @@
 
             res.innerHTML = `
                 <div style="background-color:#0f172a;border:1px dashed #ea580c;padding:10px;text-align:center;">
-                    <strong>Execution Bet:</strong> Type <strong class="lay-text">₹${layStake.toFixed(2)}</strong> in the LAY box for the current favorite.<br>
+                    <strong>Execution Bet:</strong> Type <strong class="lay-text">₹${layStake}</strong> in the LAY box for the current favorite.<br>
                     <span style="font-size:0.8em;color:#94a3b8;">Actual liability: ₹${actualLiability.toFixed(2)}</span>
                 </div>
                 <p style="margin-top:10px;">🏏 <strong>If favorite holds on:</strong> estimated final net profit <strong class="profit-text">+₹${netFavoriteHolds.toFixed(2)}</strong>.</p>
