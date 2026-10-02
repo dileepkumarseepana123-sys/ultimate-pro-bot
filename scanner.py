@@ -2438,7 +2438,7 @@ def run_scanner():
             "skillGap": balance.get("label"),
             "swingScore": trade_profile.get("swingScore"),
             "strategyLabel": trade_profile.get("strategyLabel"),
-            "analysisEngineVersion": 2,
+            "analysisEngineVersion": 3,
             "tradeProfile": trade_profile,
             "preMatchSnapshot": None,
             "standardT20": True,
