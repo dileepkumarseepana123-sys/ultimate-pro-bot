@@ -368,17 +368,30 @@
                 data.matchTimeIST && data.matchTimeIST !== 'UNKNOWN' ? ('IST ' + data.matchTimeIST) : 'TIME UNKNOWN',
                 data.venue || 'UNKNOWN VENUE'
             ].join(' | ');
+            const initial = data.initialAnalysis || {};
+            const matchIdLine = data.cricketDataMatchId ? (' | CricketData ID ' + data.cricketDataMatchId) : '';
             document.getElementById('metricStrategyNote').innerHTML =
                 `🏏 <strong>Match:</strong> ${matchMeta}<br>` +
-                `🔎 <strong>Fixture source:</strong> ${metricSources.fixture || data.sourceName || 'UNKNOWN'}<br>` +
-                `💡 <strong>Data status:</strong> ${data.strategyText || 'NO DATA'}`;
+                `🔎 <strong>Fixture source:</strong> ${metricSources.fixture || data.sourceName || 'UNKNOWN'}${matchIdLine}<br>` +
+                `🧠 <strong>Initial Match Read:</strong> ${initial.initialPrediction || data.strategyText || 'NO DATA'}<br>` +
+                `🔄 <strong>Pre-toss swing read:</strong> ${initial.swingRead || 'UNKNOWN'}<br>` +
+                `📊 <strong>Pre-toss data confidence:</strong> ${initial.dataConfidencePct ?? 'UNKNOWN'}%`;
             const reasons = (data.noBetReasons || []).map(x => `<li>🔴 ${x}</li>`).join('');
             const warnings = (data.warnings || []).map(x => `<li>🟡 ${x}</li>`).join('');
+            const pending = ((data.initialAnalysis || {}).pendingGates || data.pendingGates || []).map(x => `<li>⏳ ${x}</li>`).join('');
             const xi = data.playingXI ? data.playingXI.status : 'UNKNOWN';
+            const squad = data.squadSummary || {};
+            const squadTeams = Object.entries(squad.teams || {}).map(([team, info]) =>
+                `<li>${team}: ${info.players ?? 0} players | spin ${info.spinOptions ?? 0} | pace ${info.paceOptions ?? 0} | known styles ${info.knownBowlingStyles ?? 0}</li>`
+            ).join('');
             document.getElementById('metricRiskReasons').innerHTML =
-                `<strong>Playing XI:</strong> ${xi}<br>
-                 <strong>NO-BET / WAIT reasons:</strong>
-                 <ul style="margin:6px 0 0 18px;">${reasons || '<li>None from current data</li>'}${warnings}</ul>`;
+                `<strong>Squad status:</strong> ${squad.status || 'UNKNOWN'}<br>
+                 <strong>Playing XI:</strong> ${xi}<br>` +
+                (squadTeams ? `<strong>Squad resources:</strong><ul style="margin:6px 0 8px 18px;">${squadTeams}</ul>` : '') +
+                `<strong>Pre-toss risks / data gaps:</strong>
+                 <ul style="margin:6px 0 8px 18px;">${reasons || '<li>None critical from stable pre-toss data</li>'}${warnings}</ul>
+                 <strong>Pending gates before entry:</strong>
+                 <ul style="margin:6px 0 0 18px;">${pending || '<li>Actual exchange price/liquidity check</li>'}</ul>`;
 
             const profile = data.tradeProfile || {};
             const balance = data.competitiveBalance || profile.competitiveBalance || {};
@@ -401,7 +414,21 @@
                 balanceLines += '<strong>Historically stronger in available data:</strong> ' + balance.historicallyStrongerSide + '<br>';
             }
 
+            const initialConditions = ((data.initialAnalysis || {}).conditions || []).map(x => '<li>📌 ' + x + '</li>').join('');
+            const initialEvidence = ((data.initialAnalysis || {}).evidence || []).map(x => '<li>🔹 ' + x + '</li>').join('');
+            const tossChecks = ((data.initialAnalysis || {}).tossCheckpoints || []).map(x => '<li>✅ ' + x + '</li>').join('');
             document.getElementById('metricTradeProfile').innerHTML =
+                '<div style="padding:10px;border:1px solid #334155;border-radius:8px;margin-bottom:10px;background:#0f172a;">' +
+                '<strong>🧠 Initial pre-toss analysis</strong><br>' +
+                '<strong>Status:</strong> ' + ((data.initialAnalysis || {}).preTossStatus || 'UNKNOWN') + '<br>' +
+                '<strong>Historical edge:</strong> ' + ((data.initialAnalysis || {}).edgeTeam || 'No clear side') +
+                ' — ' + ((data.initialAnalysis || {}).edgeStrength || 'UNKNOWN') + '<br>' +
+                '<strong>Initial prediction:</strong> ' + ((data.initialAnalysis || {}).initialPrediction || 'UNKNOWN') + '<br>' +
+                '<strong>Swing read:</strong> ' + ((data.initialAnalysis || {}).swingRead || 'UNKNOWN') + '<br>' +
+                '<strong>Expected match shape:</strong><ul style="margin:6px 0 8px 18px;">' + (initialConditions || '<li>Insufficient stable venue/conditions data</li>') + '</ul>' +
+                '<strong>Evidence used:</strong><ul style="margin:6px 0 8px 18px;">' + (initialEvidence || '<li>Historical team comparison limited</li>') + '</ul>' +
+                '<strong>Toss-time checks:</strong><ul style="margin:6px 0 0 18px;">' + (tossChecks || '<li>Confirm XI, toss and actual exchange prices</li>') + '</ul>' +
+                '</div>' +
                 '<div style="font-size:1.05em; margin-bottom:6px;"><strong>Swing Score:</strong> ' +
                 (profile.swingScore ?? data.swingScore ?? 'UNKNOWN') + '/100</div>' +
                 '<strong>Strategy label:</strong> ' + (profile.strategyLabel || data.strategyLabel || 'UNKNOWN') + '<br>' +
