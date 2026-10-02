@@ -66,6 +66,7 @@ VENUE_DIRECT_COORDS = {
 API_USAGE = {"hitsToday": None, "hitsLimit": None, "quota_exhausted": False, "last_error": None, "endpoint_calls": {}}
 PREMATCH_ARCHIVE_PATH = Path("pre_match_archive.json")
 CRICKETDATA_MATCH_CACHE_PATH = Path("cricketdata_match_cache.json")
+CRICKETDATA_SQUAD_CACHE_PATH = Path("cricketdata_squad_cache.json")
 
 
 def clean_text(value):
@@ -741,20 +742,56 @@ def cache_key(prefix, value):
     return CACHE_DIR / f"{prefix}_{key}.json"
 
 
-def get_match_squad(match_id):
-    if not API_KEY or not match_id:
-        return None
-    cache = cache_key("squad", match_id)
+def load_cricketdata_squad_cache():
     try:
-        if cache.exists() and (datetime.now().timestamp() - cache.stat().st_mtime) < 6 * 3600:
-            return json.loads(cache.read_text(encoding="utf-8"))
-    except Exception:
-        pass
-    data = api_get("match_squad", {"id": match_id})
-    if data and data.get("status") == "success":
-        cache.write_text(json.dumps(data), encoding="utf-8")
-        return data
-    return None
+        if CRICKETDATA_SQUAD_CACHE_PATH.exists():
+            data = json.loads(CRICKETDATA_SQUAD_CACHE_PATH.read_text(encoding="utf-8"))
+            return data if isinstance(data, dict) else {}
+    except Exception as exc:
+        print(f"[WARN] Could not read CricketData squad cache: {exc}")
+    return {}
+
+
+def save_cricketdata_squad_cache(cache):
+    try:
+        CRICKETDATA_SQUAD_CACHE_PATH.write_text(
+            json.dumps(cache, indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )
+    except Exception as exc:
+        print(f"[WARN] Could not save CricketData squad cache: {exc}")
+
+
+def get_match_squad_cached(match_id, cache, allow_fetch=True):
+    key = str(match_id or "")
+    if not key:
+        return None, False
+
+    existing = cache.get(key)
+    if isinstance(existing, dict):
+        payload = existing.get("payload") if isinstance(existing.get("payload"), dict) else None
+        cached_at = parse_dt(existing.get("cachedAt"))
+        if payload and cached_at:
+            groups, _ = extract_squad(payload)
+            has_players = any(group.get("players") for group in groups)
+            # Published squads are stable enough for 6h; an empty response is
+            # retried after 90 minutes so a later pre-toss scan can pick it up.
+            ttl_hours = 6.0 if has_players else 1.5
+            age_hours = (datetime.now(timezone.utc) - cached_at.astimezone(timezone.utc)).total_seconds() / 3600.0
+            if age_hours <= ttl_hours:
+                return payload, True
+
+    if not allow_fetch or not API_KEY or API_USAGE.get("quota_exhausted"):
+        return None, False
+
+    data = api_get("match_squad", {"id": key})
+    if isinstance(data, dict) and data.get("status") == "success":
+        cache[key] = {
+            "cachedAt": datetime.now(timezone.utc).isoformat(),
+            "payload": data,
+        }
+        return data, False
+    return None, False
 
 
 def extract_squad(payload):
@@ -804,6 +841,57 @@ def confirmed_xi_status(payload):
 def is_spin_style(style):
     s = norm(style)
     return bool(s) and any(k in s for k in ("spin", "orthodox", "off break", "leg break", "googly", "chinaman", "carrom"))
+
+
+def summarize_squad(payload):
+    groups, _ = extract_squad(payload)
+    teams = {}
+    for group in groups:
+        players = group.get("players") or []
+        known_styles = [p.get("bowlingStyle") for p in players if p.get("bowlingStyle")]
+        spin_options = sum(1 for style in known_styles if is_spin_style(style))
+        pace_options = sum(
+            1 for style in known_styles
+            if not is_spin_style(style)
+            and any(k in norm(style) for k in ("fast", "medium", "pace", "seam"))
+        )
+        role_counts = {"batters": 0, "allRounders": 0, "bowlers": 0, "keepers": 0}
+        playing_flags = 0
+        for p in players:
+            role = norm(p.get("role"))
+            if isinstance(p.get("isPlaying"), bool):
+                playing_flags += 1
+            if "keeper" in role or "wicket" in role:
+                role_counts["keepers"] += 1
+            elif "allround" in role or "all round" in role:
+                role_counts["allRounders"] += 1
+            elif "bowl" in role:
+                role_counts["bowlers"] += 1
+            elif "bat" in role:
+                role_counts["batters"] += 1
+
+        teams[group.get("team") or "Unknown"] = {
+            "players": len(players),
+            "knownBowlingStyles": len(known_styles),
+            "spinOptions": spin_options,
+            "paceOptions": pace_options,
+            "roleCounts": role_counts,
+            "playingFlagsPublished": playing_flags,
+        }
+
+    xi = confirmed_xi_status(payload)
+    if xi.get("status") == "CONFIRMED":
+        status = "CONFIRMED XI"
+    elif teams:
+        status = "SQUAD AVAILABLE — XI PENDING"
+    else:
+        status = "NO SQUAD DATA"
+
+    return {
+        "status": status,
+        "teams": teams,
+        "source": "CricketData match_squad" if groups else "No squad data",
+    }
 
 
 def canonical_team_name(value):
@@ -2075,6 +2163,152 @@ def build_trade_profile(premium, venue_stats, weather, form_a, form_b, xi, balan
     }
 
 
+def build_pre_toss_analysis(team_a, team_b, venue_stats, weather, form_a, form_b, balance, squad_summary, premium):
+    h2h = balance.get("headToHead") or {}
+    edge_points = 0.0
+    edge_inputs = 0
+    evidence = []
+
+    ra, rb = balance.get("teamAElo"), balance.get("teamBElo")
+    if isinstance(ra, (int, float)) and isinstance(rb, (int, float)):
+        diff = ra - rb
+        edge_points += max(-2.5, min(2.5, diff / 80.0))
+        edge_inputs += 1
+        evidence.append(f"Elo: {team_a} {ra:.1f} vs {team_b} {rb:.1f}")
+
+    wa, wb = form_a.get("winRatePct"), form_b.get("winRatePct")
+    if (
+        form_a.get("matches", 0) >= 5 and form_b.get("matches", 0) >= 5
+        and isinstance(wa, (int, float)) and isinstance(wb, (int, float))
+    ):
+        diff = wa - wb
+        edge_points += max(-2.0, min(2.0, diff / 20.0))
+        edge_inputs += 1
+        evidence.append(f"Recent form: {wa:.1f}% vs {wb:.1f}% wins")
+
+    if h2h.get("matches", 0) >= 3:
+        a_wins = h2h.get("teamAWins", 0)
+        b_wins = h2h.get("teamBWins", 0)
+        decided = a_wins + b_wins
+        if decided:
+            edge_points += max(-1.5, min(1.5, ((a_wins - b_wins) / decided) * 1.5))
+            edge_inputs += 1
+            evidence.append(f"H2H: {a_wins}-{b_wins} across {h2h.get('matches')} recent meetings")
+
+    abs_edge = abs(edge_points)
+    edge_team = None
+    if edge_inputs < 2:
+        edge_strength = "DATA LIMITED"
+        initial_prediction = "No reliable pre-toss team edge yet from the available historical inputs."
+    elif abs_edge < 0.75:
+        edge_strength = "BALANCED"
+        initial_prediction = "Pre-toss evidence is broadly balanced; no clear historical side edge."
+    else:
+        edge_team = team_a if edge_points > 0 else team_b
+        if abs_edge < 1.75:
+            edge_strength = "SLIGHT EDGE"
+        elif abs_edge < 3.0:
+            edge_strength = "MODERATE EDGE"
+        else:
+            edge_strength = "STRONG EDGE"
+        initial_prediction = f"{edge_team} has a {edge_strength.lower()} on the available pre-toss historical evidence."
+
+    known = 0
+    total = 7
+    if venue_stats.get("status") == "OK":
+        known += 1
+    if weather.get("status") == "OK":
+        known += 1
+    if form_a.get("matches", 0) >= 5 and form_b.get("matches", 0) >= 5:
+        known += 1
+    if isinstance(ra, (int, float)) and isinstance(rb, (int, float)):
+        known += 1
+    if h2h.get("matches", 0) >= 3:
+        known += 1
+    if squad_summary.get("status") != "NO SQUAD DATA":
+        known += 1
+    if venue_stats.get("spin_index_status") == "OK":
+        known += 1
+    confidence = round((known / total) * 100)
+
+    conditions = []
+    first_innings = venue_stats.get("avg_first_innings")
+    pp = venue_stats.get("powerplay_avg")
+    chasing = venue_stats.get("chasing_win_pct")
+    mid = venue_stats.get("mid_overs_7_14_wickets_per_match")
+    spin_share = venue_stats.get("spin_wicket_share_pct")
+
+    if isinstance(first_innings, (int, float)):
+        conditions.append(f"Historical first-innings baseline: {first_innings:.1f}")
+    if isinstance(pp, (int, float)):
+        conditions.append(f"Powerplay baseline: {pp:.1f}")
+    if isinstance(chasing, (int, float)):
+        if chasing >= 58:
+            conditions.append(f"Chase-lean venue: {chasing:.1f}% chasing wins")
+        elif chasing <= 42:
+            conditions.append(f"Defend-lean venue: {chasing:.1f}% chasing wins")
+        else:
+            conditions.append(f"Two-way venue: {chasing:.1f}% chasing wins")
+    if isinstance(mid, (int, float)):
+        conditions.append(f"Overs 7-14 wicket pressure: {mid:.2f} wickets/match")
+    if isinstance(spin_share, (int, float)):
+        conditions.append(f"Spinner share of 7-14 wickets: {spin_share:.1f}%")
+    if weather.get("status") == "OK":
+        conditions.append(
+            f"Weather: rain {weather.get('rain_probability_pct')}%, dew {weather.get('dew_risk', 'UNKNOWN')}"
+        )
+
+    gap = balance.get("label")
+    two_way_venue = isinstance(chasing, (int, float)) and 42 <= chasing <= 58
+    middle_volatility = isinstance(mid, (int, float)) and mid >= 3.5
+    if gap in {"EXTREME GAP", "STRONG GAP"}:
+        swing_read = "ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+        pre_toss_status = "PRE-TOSS POOR FIT"
+    elif balance.get("label") == "BALANCED" and two_way_venue and middle_volatility:
+        swing_read = "GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+        pre_toss_status = "PRE-TOSS WATCHLIST"
+    elif confidence >= 50 and (two_way_venue or middle_volatility):
+        swing_read = "CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+        pre_toss_status = "PRE-TOSS CONDITIONAL"
+    else:
+        swing_read = "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+        pre_toss_status = "PRE-TOSS DATA LIMITED"
+
+    pending = ["Toss result and batting/fielding decision", "Actual exchange BACK/LAY prices and matched liquidity"]
+    if squad_summary.get("status") != "CONFIRMED XI":
+        pending.insert(1, "Confirmed Playing XI")
+    if not premium:
+        pending.append("Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy")
+
+    checkpoints = [
+        "Compare the toss decision with the venue chasing/defending bias.",
+        "Check whether final XI changes strengthen or weaken spin/pace resources.",
+        "Only calculate equal-profit targets from the actual matched exchange entry price.",
+    ]
+
+    return {
+        "phase": "INITIAL PRE-TOSS READ",
+        "preTossStatus": pre_toss_status,
+        "dataConfidencePct": confidence,
+        "initialPrediction": initial_prediction,
+        "edgeTeam": edge_team,
+        "edgeStrength": edge_strength,
+        "edgeScore": round(edge_points, 2) if edge_inputs >= 2 else None,
+        "swingRead": swing_read,
+        "conditions": conditions,
+        "evidence": evidence,
+        "pendingGates": pending,
+        "tossCheckpoints": checkpoints,
+        "firstInningsBaseline": first_innings,
+        "powerplayBaseline": pp,
+        "chasingWinPct": chasing,
+        "middleOversWicketsPerMatch": mid,
+        "spinWicketSharePct": spin_share,
+        "squadStatus": squad_summary.get("status"),
+        "summary": f"{initial_prediction} {swing_read}",
+    }
+
+
 # ==========================================
 # CORE TERMINAL LOGIC
 # Relay source_date is accepted by final India-today filtering.
@@ -2093,6 +2327,8 @@ def run_scanner():
     elo_model = build_t20_elo(history)
     today = local_today()
     prematch_archive = load_prematch_archive()
+    squad_cache = load_cricketdata_squad_cache()
+    squad_cache_hits = 0
 
     if PAUSE_UNTIL_IST:
         try:
@@ -2325,15 +2561,22 @@ def run_scanner():
         })
 
         xi = {"status": "NOT CONFIRMED", "teams": {}, "source": "Not queried"}
+        squad_summary = {"status": "NO SQUAD DATA", "teams": {}, "source": "Not queried"}
         dynamic_styles = {}
         if standard := True:
-            if ALLOW_FANTASY_SQUAD and API_KEY and m.get("id") and dt and dt <= datetime.now(timezone.utc) + timedelta(minutes=XI_LOOKAHEAD_MIN) and xi_lookups < MAX_XI_LOOKUPS_PER_RUN:
-                squad = get_match_squad(m.get("id"))
-                xi_lookups += 1
+            if ALLOW_FANTASY_SQUAD and API_KEY and m.get("id") and dt and dt <= datetime.now(timezone.utc) + timedelta(minutes=XI_LOOKAHEAD_MIN):
+                allow_fetch = xi_lookups < MAX_XI_LOOKUPS_PER_RUN
+                before_calls = (API_USAGE.get("endpoint_calls") or {}).get("match_squad", 0)
+                squad, from_cache = get_match_squad_cached(m.get("id"), squad_cache, allow_fetch=allow_fetch)
+                after_calls = (API_USAGE.get("endpoint_calls") or {}).get("match_squad", 0)
+                xi_lookups += max(0, after_calls - before_calls)
+                if from_cache and squad:
+                    squad_cache_hits += 1
                 _, dynamic_styles = extract_squad(squad)
                 xi = confirmed_xi_status(squad)
+                squad_summary = summarize_squad(squad)
         # We only mark XI as CONFIRMED when match_squad returns explicit playing flags.
-        # A page mention is not enough evidence for a confirmed XI.
+        # Published squad data is still retained for the pre-toss report.
 
         venue_stats = analyze_venue(history, venue, dynamic_styles) if venue != "UNKNOWN VENUE" else {"status": "NO DATA / UNKNOWN VENUE"}
         weather = get_match_weather(venue, dt) if venue != "UNKNOWN VENUE" else {"status": "UNKNOWN", "reason": "No usable venue"}
@@ -2341,6 +2584,9 @@ def run_scanner():
         form_a, form_b = team_form(history, team_a), team_form(history, team_b)
         h2h = head_to_head(history, team_a, team_b)
         balance = build_competitive_balance(team_a, team_b, form_a, form_b, h2h, elo_model)
+        initial_analysis = build_pre_toss_analysis(
+            team_a, team_b, venue_stats, weather, form_a, form_b, balance, squad_summary, premium
+        )
         reasons, warnings = [], []
         if match_type_source_conflict(m):
             warnings.append(
@@ -2357,13 +2603,12 @@ def run_scanner():
             source_status = "START TIME PASSED / LIVE STATUS UNVERIFIED"
             reasons.append("START TIME PASSED — PRE-MATCH WINDOW CLOSED")
 
-        # Liquidity is not directly supplied by CricketData. Premium competition is only a proxy.
-        if not premium:
-            reasons.append("LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER")
+        # Liquidity and final XI are late gates, not reasons to erase the noon pre-toss read.
+        # They remain explicit in initialAnalysis.pendingGates.
         if venue_stats.get("status") != "OK":
             reasons.append("NO DATA / UNKNOWN VENUE")
         if xi.get("status") != "CONFIRMED":
-            reasons.append("PLAYING XI NOT CONFIRMED")
+            warnings.append("PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY")
         if weather.get("status") != "OK":
             reasons.append("WEATHER DATA UNKNOWN")
         elif weather.get("dew_risk") == "HIGH":
@@ -2392,14 +2637,14 @@ def run_scanner():
             or "START TIME PASSED — PRE-MATCH WINDOW CLOSED" in reasons
         ):
             verdict = "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY"
-        elif "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER" in reasons:
-            verdict = "🔴 HIGH-CAUTION / NO-BET"
-        elif not reasons:
-            verdict = "🟢 DATA CLEAR FOR FURTHER PRICE CHECK"
-        elif "PLAYING XI NOT CONFIRMED" in reasons:
-            verdict = "🟡 WAIT — KEY DATA PENDING"
+        elif initial_analysis.get("preTossStatus") == "PRE-TOSS WATCHLIST":
+            verdict = "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED"
+        elif initial_analysis.get("preTossStatus") == "PRE-TOSS POOR FIT":
+            verdict = "🔴 PRE-TOSS POOR FIT / ONE-SIDED RISK"
+        elif initial_analysis.get("preTossStatus") == "PRE-TOSS CONDITIONAL":
+            verdict = "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED"
         else:
-            verdict = "🔴 HIGH-CAUTION / NO-BET"
+            verdict = "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING"
 
         weather_text = "NO DATA"
         if weather.get("status") == "OK":
@@ -2443,6 +2688,9 @@ def run_scanner():
             "preMatchSnapshot": None,
             "standardT20": True,
             "playingXI": xi,
+            "squadSummary": squad_summary,
+            "initialAnalysis": initial_analysis,
+            "pendingGates": initial_analysis.get("pendingGates") or [],
             "formA": form_a,
             "formB": form_b,
             "weather": weather,
@@ -2487,8 +2735,11 @@ def run_scanner():
             "noBetReasons": reasons,
             "warnings": warnings,
             "badgeClass": "badge-green" if verdict.startswith("🟢") else "badge-red" if verdict.startswith("🔴") else "badge-yellow",
-            "strategyText": "; ".join(reasons) if reasons else "No critical pre-match data issues from available sources."
+            "strategyText": initial_analysis.get("summary") or "Initial pre-toss analysis unavailable."
         })
+
+    if squad_cache:
+        save_cricketdata_squad_cache(squad_cache)
 
     # Re-add same-IST-day archived pre-match reports that have disappeared
     # from the current upcoming/live source, so the dashboard remains complete.
@@ -2596,6 +2847,8 @@ def run_scanner():
             "match_info_cache_size": len(match_info_cache),
             "max_match_info_lookups_per_run": MAX_MATCH_INFO_LOOKUPS_PER_RUN,
             "squad_calls_this_run": (API_USAGE.get("endpoint_calls") or {}).get("match_squad", 0),
+            "squad_cache_hits_this_run": squad_cache_hits,
+            "squad_cache_size": len(squad_cache),
             "endpoint_calls_this_run": API_USAGE.get("endpoint_calls") or {},
             "max_squad_calls_per_run": MAX_XI_LOOKUPS_PER_RUN,
             "hits_today_reported": API_USAGE.get("hitsToday"),
