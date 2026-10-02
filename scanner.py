@@ -1310,6 +1310,7 @@ def analyze_venue(history, target_venue, dynamic_styles=None):
         "powerplay_avg": round(statistics.mean(pp_scores), 2) if pp_scores else None,
         "chasing_win_pct": round((chase_wins / completed) * 100, 2) if completed else None,
         "mid_overs_7_14_wickets": mid_wickets,
+        "mid_overs_7_14_wickets_per_match": round(mid_wickets / len(matched), 2) if matched else None,
         "spin_classification_pct": classification_pct,
         "spinner_7_14_wickets": spinner_wickets if spin_ok else None,
         "spin_wicket_share_pct": round((spinner_wickets / mid_wickets) * 100, 2) if mid_wickets and spin_ok else None,
@@ -2427,7 +2428,14 @@ def run_scanner():
             "ppScoreAvg": f"{pp:.2f}" if isinstance(pp, (int, float)) else "UNKNOWN",
             "ppRunRate": "Historical first-innings PP",
             "spinIndex": f"{spin_share:.2f}% Spinner Wicket Share (7-14)" if isinstance(spin_share, (int, float)) else "UNKNOWN",
-            "spinNote": venue_stats.get("spin_index_status", "UNKNOWN"),
+            "spinNote": (
+                venue_stats.get("spin_index_status", "UNKNOWN")
+                + (
+                    f" | 7-14 wicket pressure {venue_stats.get('mid_overs_7_14_wickets_per_match'):.2f}/match"
+                    if isinstance(venue_stats.get("mid_overs_7_14_wickets_per_match"), (int, float))
+                    else ""
+                )
+            ),
             "metricSources": {
                 "fixture": m.get("source_name") or "UNKNOWN SOURCE",
                 "weather": "Open-Meteo match-hour forecast" if weather.get("status") == "OK" else "Open-Meteo unavailable/UNKNOWN",
@@ -2447,6 +2455,7 @@ def run_scanner():
             },
             "venueIntel": venue_stats,
             "midOversWickets": venue_stats.get("mid_overs_7_14_wickets"),
+            "midOversWicketsPerMatch": venue_stats.get("mid_overs_7_14_wickets_per_match"),
             "spinnerWickets7to14": venue_stats.get("spinner_7_14_wickets"),
             "spinClassificationPct": venue_stats.get("spin_classification_pct"),
             "verdict": verdict,
