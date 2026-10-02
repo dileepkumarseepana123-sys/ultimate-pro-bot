@@ -33,7 +33,7 @@ jobs:
       ALLOW_FANTASY_SQUAD: '1'
       MAX_XI_LOOKUPS_PER_RUN: '4'
       MAX_MATCH_PAGES_PER_RUN: '2'
-      MAX_MATCH_INFO_LOOKUPS_PER_RUN: '12'
+      MAX_MATCH_INFO_LOOKUPS_PER_RUN: '8'
       PAUSE_UNTIL_IST: '2026-09-21'
     steps:
       - name: Checkout Code
