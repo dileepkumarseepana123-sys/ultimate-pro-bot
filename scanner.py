@@ -2327,7 +2327,7 @@ def run_scanner():
         xi = {"status": "NOT CONFIRMED", "teams": {}, "source": "Not queried"}
         dynamic_styles = {}
         if standard := True:
-            if ALLOW_FANTASY_SQUAD and premium and API_KEY and m.get("id") and dt and dt <= datetime.now(timezone.utc) + timedelta(minutes=XI_LOOKAHEAD_MIN) and xi_lookups < MAX_XI_LOOKUPS_PER_RUN:
+            if ALLOW_FANTASY_SQUAD and API_KEY and m.get("id") and dt and dt <= datetime.now(timezone.utc) + timedelta(minutes=XI_LOOKAHEAD_MIN) and xi_lookups < MAX_XI_LOOKUPS_PER_RUN:
                 squad = get_match_squad(m.get("id"))
                 xi_lookups += 1
                 _, dynamic_styles = extract_squad(squad)
