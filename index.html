@@ -138,7 +138,7 @@
                     <option value="liability">Target Risk (Liability)</option>
                     <option value="actualStake">Actual App Entry (Stake)</option>
                 </select>
-                <input type="number" id="stake1" placeholder="e.g., 100" min="1" step="1" oninput="updateUI()">
+                <input type="number" id="stake1" placeholder="e.g., 100" min="1" step="1" oninput="clearSplitOverride(); updateUI()">
             </div>
         </div>
 
@@ -751,16 +751,16 @@
             fbOdds = parseFloat(fbOdds.toFixed(2));
 
             // CUT LOSS
-            document.getElementById('txtSlOdds').innerText = slOdds;
+            document.getElementById('txtSlOdds').innerText = formatOdds2(slOdds);
             let slExitStake = Math.max(1, Math.round((S_app * O1) / slOdds));
             let slActionSame = state.betType === 'LAY' ? 'BACK' : 'LAY';
             document.getElementById('slSameAction').innerHTML = `<span class="${slActionSame==='BACK'?'back-text':'lay-text'}">${slActionSame}</span> ${state.selectedTeam}`;
             document.getElementById('slSameStake').innerText = slExitStake;
             document.getElementById('slOppAction').innerHTML = `<span class="${state.betType==='BACK'?'back-text':'lay-text'}">${state.betType}</span> ${state.oppTeam}`;
-            document.getElementById('slOppStake').innerText = money2(slExitStake * (slOdds - 1)).toFixed(2);
+            document.getElementById('slOppStake').innerText = Math.max(1, Math.round(slExitStake * (slOdds - 1)));
 
             // FREE BET
-            document.getElementById('txtFbOdds').innerText = fbOdds;
+            document.getElementById('txtFbOdds').innerText = formatOdds2(fbOdds);
             document.getElementById('fbSameAction').innerHTML = `<span class="${slActionSame==='BACK'?'back-text':'lay-text'}">${slActionSame}</span> ${state.selectedTeam}`;
             document.getElementById('fbSameStake').innerText = Math.round(S_app);
             document.getElementById('fbOppAction').innerHTML = `<span class="${state.betType==='BACK'?'back-text':'lay-text'}">${state.betType}</span> ${state.oppTeam}`;
