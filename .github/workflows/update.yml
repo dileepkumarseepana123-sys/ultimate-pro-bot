@@ -6,7 +6,10 @@ on:
     paths:
       - 'scanner.py'
   schedule:
-    - cron: '30 0,6,12,18 * * *'
+    # IST refreshes: 06:00, 12:00, 15:30, 18:00, 20:30, 00:00
+    # Extra pre-match refreshes improve CricketData Playing XI capture while
+    # keeping the free-tier API budget bounded by cache + per-run limits.
+    - cron: '30 0,6,10,12,15,18 * * *'
   workflow_dispatch:
 
 permissions:
