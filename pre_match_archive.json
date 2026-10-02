@@ -12813,7 +12813,7 @@
         }
     },
     "knights|titans|2026-10-02": {
-        "capturedAt": "2026-10-02T15:18:16.325188+00:00",
+        "capturedAt": "2026-10-02T15:27:45.101935+00:00",
         "matchDate": "2026-10-02",
         "report": {
             "teamA": "Knights",
@@ -12929,7 +12929,7 @@
             "skillGap": "EXTREME GAP",
             "swingScore": 35.0,
             "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
-            "analysisEngineVersion": 2,
+            "analysisEngineVersion": 3,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 67,
@@ -13285,7 +13285,7 @@
             "ppScoreAvg": "44.86",
             "ppRunRate": "Historical first-innings PP",
             "spinIndex": "UNKNOWN",
-            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
+            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 3.64/match",
             "metricSources": {
                 "fixture": "Cricbuzz via text relay",
                 "weather": "Open-Meteo match-hour forecast",
@@ -13301,12 +13301,14 @@
                 "powerplay_avg": 44.86,
                 "chasing_win_pct": 38.46,
                 "mid_overs_7_14_wickets": 51,
+                "mid_overs_7_14_wickets_per_match": 3.64,
                 "spin_classification_pct": 3.75,
                 "spinner_7_14_wickets": null,
                 "spin_wicket_share_pct": null,
                 "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
             },
             "midOversWickets": 51,
+            "midOversWicketsPerMatch": 3.64,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 3.75,
             "verdict": "🔴 HIGH-CAUTION / NO-BET",
@@ -13324,7 +13326,7 @@
         }
     },
     "lions|north west eastvaal renault dragons|2026-10-02": {
-        "capturedAt": "2026-10-02T15:18:16.325227+00:00",
+        "capturedAt": "2026-10-02T15:27:45.101973+00:00",
         "matchDate": "2026-10-02",
         "report": {
             "teamA": "Lions",
@@ -13348,60 +13350,106 @@
             "liquidityProxyOnly": true,
             "premiumMarketProxy": false,
             "competitiveBalance": {
-                "label": "UNKNOWN",
-                "balanceScore": null,
-                "teamAElo": null,
-                "teamBElo": null,
+                "label": "MODERATE GAP",
+                "balanceScore": 70.5,
+                "teamAElo": 1571.4,
+                "teamBElo": 1487.0,
                 "eloMatchesA": 88,
-                "eloMatchesB": 0,
-                "eloGap": null,
+                "eloMatchesB": 20,
+                "eloGap": 84.4,
                 "recentWinRateA": 80.0,
-                "recentWinRateB": null,
-                "recentFormGapPct": null,
+                "recentWinRateB": 50.0,
+                "recentFormGapPct": 30.0,
                 "headToHead": {
-                    "matches": 0,
-                    "teamAWins": 0,
-                    "teamBWins": 0,
-                    "recent": []
+                    "matches": 3,
+                    "teamAWins": 1,
+                    "teamBWins": 2,
+                    "recent": [
+                        {
+                            "date": "2024-10-19",
+                            "winner": "Lions",
+                            "marginType": "runs",
+                            "marginValue": 5.0
+                        },
+                        {
+                            "date": "2022-10-17",
+                            "winner": "North West",
+                            "marginType": "wickets",
+                            "marginValue": 4.0
+                        },
+                        {
+                            "date": "2022-02-08",
+                            "winner": "North West",
+                            "marginType": "runs",
+                            "marginValue": 11.0
+                        }
+                    ]
                 },
-                "headToHeadGapPct": null,
-                "historicallyStrongerSide": null,
-                "signals": [],
+                "headToHeadGapPct": 33.3,
+                "historicallyStrongerSide": "Lions",
+                "signals": [
+                    "Derived Elo gap 84.4",
+                    "Recent win-rate gap 30.0 percentage points",
+                    "Recent H2H win-share gap 33.3 percentage points"
+                ],
                 "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
                 "officialRanking": "UNKNOWN / NOT CONNECTED",
                 "sourceLimitations": [],
                 "majorTeamAsymmetryProxyUsed": false
             },
-            "skillGap": "UNKNOWN",
-            "swingScore": 44.2,
-            "strategyLabel": "INSUFFICIENT DATA",
-            "analysisEngineVersion": 2,
+            "skillGap": "MODERATE GAP",
+            "swingScore": 56.6,
+            "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+            "analysisEngineVersion": 3,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 33,
-                "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 44.2,
-                "strategyLabel": "INSUFFICIENT DATA",
+                "dataCompletenessPct": 67,
+                "swingProfile": "CONDITIONAL SWING PROFILE",
+                "swingScore": 56.6,
+                "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
                 "competitiveBalance": {
-                    "label": "UNKNOWN",
-                    "balanceScore": null,
-                    "teamAElo": null,
-                    "teamBElo": null,
+                    "label": "MODERATE GAP",
+                    "balanceScore": 70.5,
+                    "teamAElo": 1571.4,
+                    "teamBElo": 1487.0,
                     "eloMatchesA": 88,
-                    "eloMatchesB": 0,
-                    "eloGap": null,
+                    "eloMatchesB": 20,
+                    "eloGap": 84.4,
                     "recentWinRateA": 80.0,
-                    "recentWinRateB": null,
-                    "recentFormGapPct": null,
+                    "recentWinRateB": 50.0,
+                    "recentFormGapPct": 30.0,
                     "headToHead": {
-                        "matches": 0,
-                        "teamAWins": 0,
-                        "teamBWins": 0,
-                        "recent": []
+                        "matches": 3,
+                        "teamAWins": 1,
+                        "teamBWins": 2,
+                        "recent": [
+                            {
+                                "date": "2024-10-19",
+                                "winner": "Lions",
+                                "marginType": "runs",
+                                "marginValue": 5.0
+                            },
+                            {
+                                "date": "2022-10-17",
+                                "winner": "North West",
+                                "marginType": "wickets",
+                                "marginValue": 4.0
+                            },
+                            {
+                                "date": "2022-02-08",
+                                "winner": "North West",
+                                "marginType": "runs",
+                                "marginValue": 11.0
+                            }
+                        ]
                     },
-                    "headToHeadGapPct": null,
-                    "historicallyStrongerSide": null,
-                    "signals": [],
+                    "headToHeadGapPct": 33.3,
+                    "historicallyStrongerSide": "Lions",
+                    "signals": [
+                        "Derived Elo gap 84.4",
+                        "Recent win-rate gap 30.0 percentage points",
+                        "Recent H2H win-share gap 33.3 percentage points"
+                    ],
                     "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
                     "officialRanking": "UNKNOWN / NOT CONNECTED",
                     "sourceLimitations": [],
@@ -13415,6 +13463,11 @@
                     "Liquidity/market depth is not verified"
                 ],
                 "scoreComponents": [
+                    {
+                        "name": "competitive_balance",
+                        "score": 70.5,
+                        "weight": 0.35
+                    },
                     {
                         "name": "venue_two_way",
                         "score": 95.3,
@@ -13546,12 +13599,103 @@
                 ]
             },
             "formB": {
-                "matches": 0,
-                "wins": 0,
-                "losses": 0,
-                "winRatePct": null,
-                "avgMarginImpact": null,
-                "recent": []
+                "matches": 10,
+                "wins": 5,
+                "losses": 5,
+                "winRatePct": 50.0,
+                "avgMarginImpact": -0.022,
+                "recent": [
+                    {
+                        "date": "2024-10-23",
+                        "winner": "Western Province",
+                        "won": false,
+                        "venue": "The Wanderers Stadium, Johannesburg",
+                        "marginType": "runs",
+                        "marginValue": 41.0,
+                        "marginImpact": -0.683
+                    },
+                    {
+                        "date": "2024-10-19",
+                        "winner": "Lions",
+                        "won": false,
+                        "venue": "Senwes Park, Potchefstroom",
+                        "marginType": "runs",
+                        "marginValue": 5.0,
+                        "marginImpact": -0.083
+                    },
+                    {
+                        "date": "2024-10-09",
+                        "winner": "North West",
+                        "won": true,
+                        "venue": "Kingsmead, Durban",
+                        "marginType": "runs",
+                        "marginValue": 43.0,
+                        "marginImpact": 0.717
+                    },
+                    {
+                        "date": "2024-10-06",
+                        "winner": "North West",
+                        "won": true,
+                        "venue": "Senwes Park, Potchefstroom",
+                        "marginType": "runs",
+                        "marginValue": 3.0,
+                        "marginImpact": 0.05
+                    },
+                    {
+                        "date": "2024-10-04",
+                        "winner": "North West",
+                        "won": true,
+                        "venue": "Senwes Park, Potchefstroom",
+                        "marginType": "wickets",
+                        "marginValue": 3.0,
+                        "marginImpact": 0.375
+                    },
+                    {
+                        "date": "2024-09-28",
+                        "winner": "North West",
+                        "won": true,
+                        "venue": "Mangaung Oval, Bloemfontein",
+                        "marginType": "runs",
+                        "marginValue": 3.0,
+                        "marginImpact": 0.05
+                    },
+                    {
+                        "date": "2024-03-08",
+                        "winner": "Titans",
+                        "won": false,
+                        "venue": "SuperSport Park, Centurion",
+                        "marginType": "runs",
+                        "marginValue": 13.0,
+                        "marginImpact": -0.217
+                    },
+                    {
+                        "date": "2022-11-01",
+                        "winner": "North West",
+                        "won": true,
+                        "venue": "Senwes Park, Potchefstroom",
+                        "marginType": "runs",
+                        "marginValue": 22.0,
+                        "marginImpact": 0.367
+                    },
+                    {
+                        "date": "2022-10-30",
+                        "winner": "Warriors",
+                        "won": false,
+                        "venue": "Senwes Park, Potchefstroom",
+                        "marginType": "runs",
+                        "marginValue": 10.0,
+                        "marginImpact": -0.167
+                    },
+                    {
+                        "date": "2022-10-29",
+                        "winner": "Boland",
+                        "won": false,
+                        "venue": "Senwes Park, Potchefstroom",
+                        "marginType": "wickets",
+                        "marginValue": 5.0,
+                        "marginImpact": -0.625
+                    }
+                ]
             },
             "weather": {
                 "status": "OK",
@@ -13572,7 +13716,7 @@
             "ppScoreAvg": "47.12",
             "ppRunRate": "Historical first-innings PP",
             "spinIndex": "UNKNOWN",
-            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION",
+            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.04/match",
             "metricSources": {
                 "fixture": "Cricbuzz via text relay",
                 "weather": "Open-Meteo match-hour forecast",
@@ -13588,26 +13732,28 @@
                 "powerplay_avg": 47.12,
                 "chasing_win_pct": 47.66,
                 "mid_overs_7_14_wickets": 457,
+                "mid_overs_7_14_wickets_per_match": 4.04,
                 "spin_classification_pct": 5.01,
                 "spinner_7_14_wickets": null,
                 "spin_wicket_share_pct": null,
                 "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
             },
             "midOversWickets": 457,
+            "midOversWicketsPerMatch": 4.04,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 5.01,
             "verdict": "🔴 HIGH-CAUTION / NO-BET",
             "noBetReasons": [
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
-                "PLAYING XI NOT CONFIRMED",
-                "LIMITED RECENT T20 DATA FOR North West - Eastvaal Renault Dragons"
+                "PLAYING XI NOT CONFIRMED"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                "MODERATE SKILL GAP",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR North West - Eastvaal Renault Dragons"
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED"
         }
     }
 }
