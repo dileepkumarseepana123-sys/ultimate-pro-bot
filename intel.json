@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-02T06:51:22.834155+00:00",
+    "last_updated": "2026-10-02T12:50:27.308276+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -290,16 +290,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-02T18:00:00+02:00",
-                "temperature_c": 15.6,
-                "humidity_pct": 63,
-                "dew_point_c": 8.5,
+                "temperature_c": 15.9,
+                "humidity_pct": 62,
+                "dew_point_c": 8.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 1.9,
+                "wind_kmh": 2.9,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "15.6°C | RH 63% | Rain 0% | Wind 1.9 km/h",
+            "weatherText": "15.9°C | RH 62% | Rain 0% | Wind 2.9 km/h",
             "dewRisk": "LOW",
             "tossBias": "47.22% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -348,7 +348,7 @@
             "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173187/mpr-vs-kznin-pool-b-csa-t20-challenge-2026",
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -432,7 +432,172 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-10-02T06:51:22.818912+00:00",
+                "matchDate": "2026-10-02",
+                "report": {
+                    "teamA": "Mpumalanga Rhinos",
+                    "teamB": "KwaZulu-Natal Inland Tuskers,Pool B Uplands College, White River , Mpumalanga",
+                    "name": "Mpumalanga Rhinos vs KwaZulu-Natal Inland Tuskers,Pool B Uplands College, White River , Mpumalanga",
+                    "matchType": "T20",
+                    "venue": "Pool B Uplands College, White River , Mpumalanga",
+                    "dateTimeGMT": "2026-10-02T11:00:00+00:00",
+                    "sourceDate": "2026-10-02",
+                    "matchTimeIST": "2026-10-02T16:30:00+05:30",
+                    "indiaDate": "2026-10-02",
+                    "series": "CSA T20 Challenge 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173187/mpr-vs-kznin-pool-b-csa-t20-challenge-2026",
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 0,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": null,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 27.3,
+                    "strategyLabel": "INSUFFICIENT DATA",
+                    "analysisEngineVersion": 2,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 17,
+                        "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                        "swingScore": 27.3,
+                        "strategyLabel": "INSUFFICIENT DATA",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 0,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": null,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [],
+                        "swingPenalties": [
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "weather",
+                                "score": 70.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "formA": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-10-02T06:00:00-05:00",
+                        "temperature_c": 10.3,
+                        "humidity_pct": 63,
+                        "dew_point_c": 3.6,
+                        "rain_probability_pct": 22,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 5.9,
+                        "dew_risk": "LOW",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "10.3°C | RH 63% | Rain 22% | Wind 5.9 km/h",
+                    "dewRisk": "LOW",
+                    "tossBias": "UNKNOWN",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "UNKNOWN",
+                    "ppRunRate": "Historical first-innings PP",
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "UNKNOWN",
+                    "venueIntel": {
+                        "status": "NO DATA / UNKNOWN VENUE",
+                        "matches": 0,
+                        "venue_confidence": 0.526
+                    },
+                    "midOversWickets": null,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": null,
+                    "verdict": "🔴 HIGH-CAUTION / NO-BET",
+                    "noBetReasons": [
+                        "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
+                        "NO DATA / UNKNOWN VENUE",
+                        "PLAYING XI NOT CONFIRMED",
+                        "LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos",
+                        "LIMITED RECENT T20 DATA FOR KwaZulu-Natal Inland Tuskers,Pool B Uplands College, White River , Mpumalanga"
+                    ],
+                    "warnings": [
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-red",
+                    "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos; LIMITED RECENT T20 DATA FOR KwaZulu-Natal Inland Tuskers,Pool B Uplands College, White River , Mpumalanga"
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -458,16 +623,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-02T06:00:00-05:00",
-                "temperature_c": 10.3,
-                "humidity_pct": 63,
-                "dew_point_c": 3.6,
-                "rain_probability_pct": 22,
+                "temperature_c": 9.2,
+                "humidity_pct": 73,
+                "dew_point_c": 4.7,
+                "rain_probability_pct": 18,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 5.9,
+                "wind_kmh": 8.3,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "10.3°C | RH 63% | Rain 22% | Wind 5.9 km/h",
+            "weatherText": "9.2°C | RH 73% | Rain 18% | Wind 8.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -483,8 +648,9 @@
             "midOversWickets": null,
             "spinnerWickets7to14": null,
             "spinClassificationPct": null,
-            "verdict": "🔴 HIGH-CAUTION / NO-BET",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER",
                 "NO DATA / UNKNOWN VENUE",
                 "PLAYING XI NOT CONFIRMED",
@@ -495,7 +661,7 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos; LIMITED RECENT T20 DATA FOR KwaZulu-Natal Inland Tuskers,Pool B Uplands College, White River , Mpumalanga"
+            "strategyText": "START TIME PASSED — PRE-MATCH WINDOW CLOSED; LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos; LIMITED RECENT T20 DATA FOR KwaZulu-Natal Inland Tuskers,Pool B Uplands College, White River , Mpumalanga"
         },
         {
             "teamA": "Knights",
@@ -711,16 +877,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-02T18:00:00+02:00",
-                "temperature_c": 17.3,
-                "humidity_pct": 62,
-                "dew_point_c": 10.0,
+                "temperature_c": 17.4,
+                "humidity_pct": 59,
+                "dew_point_c": 9.2,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 4.2,
+                "wind_kmh": 4.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "17.3°C | RH 62% | Rain 0% | Wind 4.2 km/h",
+            "weatherText": "17.4°C | RH 59% | Rain 0% | Wind 4.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
