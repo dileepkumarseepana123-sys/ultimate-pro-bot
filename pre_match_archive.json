@@ -12115,7 +12115,7 @@
         }
     },
     "kwazulu natal inland tuskers pool b uplands college white river mpumalanga|mpumalanga rhinos|2026-10-02": {
-        "capturedAt": "2026-10-02T15:05:29.237717+00:00",
+        "capturedAt": "2026-10-02T06:51:22.818912+00:00",
         "matchDate": "2026-10-02",
         "report": {
             "teamA": "Mpumalanga Rhinos",
@@ -12130,7 +12130,7 @@
             "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173187/mpr-vs-kznin-pool-b-csa-t20-challenge-2026",
-            "sourceStatus": "ARCHIVED PRE-MATCH",
+            "sourceStatus": "Scheduled",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -12277,12 +12277,11 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos; LIMITED RECENT T20 DATA FOR KwaZulu-Natal Inland Tuskers,Pool B Uplands College, White River , Mpumalanga",
-            "archivedOnly": true
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos; LIMITED RECENT T20 DATA FOR KwaZulu-Natal Inland Tuskers,Pool B Uplands College, White River , Mpumalanga"
         }
     },
     "knights|titans pool b mangaung oval bloemfontein|2026-10-02": {
-        "capturedAt": "2026-10-02T15:05:29.237731+00:00",
+        "capturedAt": "2026-10-02T12:50:27.292794+00:00",
         "matchDate": "2026-10-02",
         "report": {
             "teamA": "Knights",
@@ -12297,7 +12296,7 @@
             "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173180/kng-vs-tit-pool-b-csa-t20-challenge-2026",
-            "sourceStatus": "ARCHIVED PRE-MATCH",
+            "sourceStatus": "Scheduled",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -12534,12 +12533,11 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Titans,Pool B Mangaung Oval , Bloemfontein",
-            "archivedOnly": true
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; NO DATA / UNKNOWN VENUE; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR Titans,Pool B Mangaung Oval , Bloemfontein"
         }
     },
     "lions|north west eastvaal renault dragons pool a the wanderers stadium johannesburg|2026-10-02": {
-        "capturedAt": "2026-10-02T15:05:29.237746+00:00",
+        "capturedAt": "2026-10-02T12:50:27.292824+00:00",
         "matchDate": "2026-10-02",
         "report": {
             "teamA": "Lions",
@@ -12554,7 +12552,7 @@
             "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173197/lions-vs-nwest-pool-a-csa-t20-challenge-2026",
-            "sourceStatus": "ARCHIVED PRE-MATCH",
+            "sourceStatus": "Scheduled",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -12811,12 +12809,11 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR North West - Eastvaal Renault Dragons,Pool A The Wanderers Stadium , Johannesburg",
-            "archivedOnly": true
+            "strategyText": "LIQUIDITY NOT VERIFIED: LOW/UNKNOWN MARKET TIER; PLAYING XI NOT CONFIRMED; LIMITED RECENT T20 DATA FOR North West - Eastvaal Renault Dragons,Pool A The Wanderers Stadium , Johannesburg"
         }
     },
     "knights|titans|2026-10-02": {
-        "capturedAt": "2026-10-02T15:05:29.237669+00:00",
+        "capturedAt": "2026-10-02T15:08:52.012925+00:00",
         "matchDate": "2026-10-02",
         "report": {
             "teamA": "Knights",
@@ -13327,7 +13324,7 @@
         }
     },
     "lions|north west eastvaal renault dragons|2026-10-02": {
-        "capturedAt": "2026-10-02T15:05:29.237684+00:00",
+        "capturedAt": "2026-10-02T15:08:52.012941+00:00",
         "matchDate": "2026-10-02",
         "report": {
             "teamA": "Lions",
