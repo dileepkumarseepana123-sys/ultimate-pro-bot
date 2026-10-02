@@ -58,7 +58,7 @@ VENUE_DIRECT_COORDS = {
     },
 }
 
-API_USAGE = {"hitsToday": None, "hitsLimit": None, "quota_exhausted": False, "last_error": None}
+API_USAGE = {"hitsToday": None, "hitsLimit": None, "quota_exhausted": False, "last_error": None, "endpoint_calls": {}}
 PREMATCH_ARCHIVE_PATH = Path("pre_match_archive.json")
 
 
@@ -470,6 +470,8 @@ def api_get(endpoint, params=None):
     q = {"apikey": API_KEY, "offset": 0}
     q.update(params or {})
     try:
+        calls = API_USAGE.setdefault("endpoint_calls", {})
+        calls[endpoint] = calls.get(endpoint, 0) + 1
         r = SESSION.get(f"https://api.cricapi.com/v1/{endpoint}", params=q, timeout=20)
         r.raise_for_status()
         data = r.json()
@@ -519,31 +521,103 @@ def strip_team_code(value):
 
 
 def get_cricscore_matches():
-    """Use CricketData's +/-7 day fixture/live/results feed for reliable date discovery."""
+    """Primary low-cost discovery feed: +/-7 day fixtures/live/results from CricketData."""
     if not API_KEY:
         return []
     data = api_get("cricScore")
     if not isinstance(data, dict) or data.get("status") != "success":
         return []
+
     rows_out = []
     for raw in data.get("data") or []:
         if not isinstance(raw, dict):
             continue
+
         team_a = strip_team_code(raw.get("t1"))
         team_b = strip_team_code(raw.get("t2"))
+        series_name = clean_text(
+            raw.get("series")
+            or raw.get("seriesName")
+            or raw.get("series_name")
+        )
+        date_time_gmt = raw.get("dateTimeGMT") or raw.get("dateTime") or raw.get("datetime")
+        source_date = raw.get("date") or raw.get("matchDate")
+        status = clean_text(raw.get("status") or raw.get("ms"))
+        score_parts = [clean_text(raw.get("t1s")), clean_text(raw.get("t2s"))]
+        live_score_text = " | ".join(x for x in score_parts if x)
+
         row = {
             "id": raw.get("id"),
             "name": f"{team_a} vs {team_b}" if team_a and team_b else clean_text(raw.get("name")),
-            "matchType": raw.get("matchType"),
-            "status": raw.get("status"),
-            "dateTimeGMT": raw.get("dateTimeGMT"),
+            "matchType": raw.get("matchType") or raw.get("match_type"),
+            "status": status,
+            "dateTimeGMT": date_time_gmt,
+            "date": source_date,
+            "source_date": source_date,
             "teams": [team_a, team_b] if team_a and team_b else [],
             "venue": clean_text(raw.get("venue")) or "UNKNOWN VENUE",
+            "series_name": series_name or "UNKNOWN SERIES",
             "source_name": "CricketData cricScore",
             "cricscore_status": raw.get("ms"),
+            "liveScoreText": live_score_text or None,
         }
         rows_out.append(row)
     return rows_out
+
+
+def _text_missing(value):
+    return not clean_text(value) or norm(value) in {"unknown", "unknown venue", "unknown series", "no data"}
+
+
+def _team_similarity(a, b):
+    a0, b0 = norm(a), norm(b)
+    if not a0 or not b0:
+        return 0.0
+    if a0 == b0:
+        return 1.0
+    if a0 in b0 or b0 in a0:
+        return 0.98
+
+    ta = {x for x in a0.split() if len(x) > 1}
+    tb = {x for x in b0.split() if len(x) > 1}
+    containment = len(ta & tb) / max(1, min(len(ta), len(tb)))
+    return max(SequenceMatcher(None, a0, b0).ratio(), containment * 0.95)
+
+
+def _find_supplemental_fixture(primary, rows):
+    teams = primary.get("teams") or []
+    if len(teams) < 2:
+        return None
+    best_row, best_score = None, 0.0
+    for row in rows:
+        rteams = row.get("teams") or [row.get("teamA"), row.get("teamB")]
+        if len(rteams) < 2:
+            continue
+        direct = (_team_similarity(teams[0], rteams[0]) + _team_similarity(teams[1], rteams[1])) / 2
+        swapped = (_team_similarity(teams[0], rteams[1]) + _team_similarity(teams[1], rteams[0])) / 2
+        score = max(direct, swapped)
+        if score > best_score:
+            best_score, best_row = score, row
+    return best_row if best_score >= 0.72 else None
+
+
+def _enrich_from_supplemental(primary, supplemental):
+    """Fill missing metadata only; never overwrite clean CricketData team identity."""
+    if not supplemental:
+        return primary
+    out = dict(primary)
+    for key in ("venue", "dateTimeGMT", "date", "source_date", "series_name", "series", "source_match_url"):
+        if _text_missing(out.get(key)) and not _text_missing(supplemental.get(key)):
+            out[key] = supplemental.get(key)
+
+    current_status = clean_text(out.get("status"))
+    supplemental_status = clean_text(supplemental.get("status"))
+    if ("live" in norm(supplemental_status) or "current" in norm(supplemental_status)) and "live" not in norm(current_status):
+        out["status"] = supplemental_status
+
+    if supplemental.get("source_name"):
+        out["supplemental_source_name"] = supplemental.get("source_name")
+    return out
 
 
 def cache_key(prefix, value):
@@ -1225,6 +1299,7 @@ def _parse_cricbuzz_match_line(line, series_name):
         r"final|semi[- ]?final|"
         r"1st\s+semi[- ]?final|2nd\s+semi[- ]?final|"
         r"qualifier(?:\s+\d+)?|eliminator|"
+        r"pool\s+[A-Z0-9]+|"
         r"\d+(?:st|nd|rd|th)\s+match"
         r")\b(?:\s*\([^)]*\))?(?:\s*,\s*Group\s+[A-Z0-9]+)?",
         re.I,
@@ -1912,13 +1987,19 @@ def run_scanner():
             print(f"[WARN] Invalid PAUSE_UNTIL_IST={PAUSE_UNTIL_IST!r}; ignoring.")
 
     # Production discovery path:
-    # 1) no-key Cricbuzz text relay; 2) CricketData cricScore; 3) small Match List fallback.
+    # 1) CricketData cricScore is primary for clean team identity and all +/-7 day fixtures.
+    # 2) CricketData Match List enriches venue/time/series with a small bounded page budget.
+    # 3) Cricbuzz text relay is supplemental/fallback only and must never overwrite clean teams.
+    score_rows = get_cricscore_matches() if API_KEY else []
+    api_rows = (
+        get_cricketdata_matches()
+        if API_KEY and not API_USAGE.get("quota_exhausted")
+        else []
+    )
+
     live_relay_rows = scrape_cricbuzz_live_via_text_relay()
     schedule_relay_rows = scrape_cricbuzz_via_text_relay()
 
-    # Schedule rows usually have the cleanest venue/time metadata. Merge live
-    # status into them by team pair rather than letting a noisy live-page card
-    # replace the schedule metadata.
     relay_rows = [dict(x) for x in schedule_relay_rows]
     schedule_index = {}
     for idx, row in enumerate(relay_rows):
@@ -1941,23 +2022,9 @@ def run_scanner():
         else:
             relay_rows.append(dict(live))
 
-    score_rows = get_cricscore_matches() if API_KEY and not relay_rows else []
-
-    score_today_probe = [
-        raw for raw in score_rows
-        if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"} and match_is_today(raw)[0]
-    ]
-    api_rows = (
-        get_cricketdata_matches()
-        if API_KEY and not relay_rows and not score_today_probe and not API_USAGE.get("quota_exhausted")
-        else []
-    )
-
-    # Legacy direct-site sources stay disabled in production because GitHub shared
-    # runners receive HTTP 403 from them.
+    # Legacy direct-site sources remain disabled on GitHub shared runners.
     sofa_rows, espn_rows, cb_rows = [], [], []
 
-    # Discovery diagnostics must be initialized before report generation.
     relay_t20_count = sum(
         1 for raw in relay_rows
         if infer_match_type(raw, source_t20=True) in {"T20", "T20I", "TWENTY20"}
@@ -1966,22 +2033,6 @@ def run_scanner():
         1 for raw in relay_rows
         if infer_match_type(raw, source_t20=True) in {"T20", "T20I", "TWENTY20"}
         and match_is_today(raw)[0]
-    )
-    sofa_t20_count = sum(
-        1 for raw in sofa_rows
-        if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"}
-    )
-    sofa_today_count = sum(
-        1 for raw in sofa_rows
-        if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"} and match_is_today(raw)[0]
-    )
-    espn_t20_count = sum(
-        1 for raw in espn_rows
-        if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"}
-    )
-    espn_today_count = sum(
-        1 for raw in espn_rows
-        if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"} and match_is_today(raw)[0]
     )
     score_t20_count = sum(
         1 for raw in score_rows
@@ -1999,58 +2050,50 @@ def run_scanner():
         1 for raw in api_rows
         if infer_match_type(raw) in {"T20", "T20I", "TWENTY20"} and match_is_today(raw)[0]
     )
-    cb_today_count = sum(
-        1 for raw in cb_rows
-        if infer_match_type(raw, source_t20=True) in {"T20", "T20I", "TWENTY20"}
-        and date_field_is_india_today(raw.get("source_date"))
-    )
 
     candidates = []
-
-    # No-key Cricbuzz text-relay rows are preferred on GitHub Actions.
-    for raw in relay_rows:
-        m = dict(raw)
-        m["matchType"] = "T20"
-        candidates.append(m)
-
-    # SofaScore is the first no-key, date-scoped discovery source.
-    for raw in sofa_rows:
-        m = dict(raw)
-        if infer_match_type(m) in {"T20", "T20I", "TWENTY20"}:
-            candidates.append(m)
-
-    # ESPNcricinfo is the second no-key date-scoped source.
-    for raw in espn_rows:
-        m = dict(raw)
-        if infer_match_type(m) in {"T20", "T20I", "TWENTY20"}:
-            candidates.append(m)
-
-    # cricScore is the date-aware secondary feed (+/-7 days). Match List is
-    # fallback-only; Cricbuzz remains a last-resort fallback.
     api_by_id = {str(x.get("id")): x for x in api_rows if x.get("id")}
+    score_ids = {str(x.get("id")) for x in score_rows if x.get("id")}
+
+    # PRIMARY: CricketData cricScore. Enrich by exact CricketData match id first.
     for raw in score_rows:
         m = dict(raw)
         richer = api_by_id.get(str(m.get("id"))) if m.get("id") else None
         if richer:
-            for key in ("venue", "series", "series_name", "date", "name"):
-                if richer.get(key):
+            for key in ("matchType", "venue", "series", "series_name", "date", "dateTimeGMT"):
+                if _text_missing(m.get(key)) and not _text_missing(richer.get(key)):
                     m[key] = richer.get(key)
             if richer.get("teams"):
-                m["teams"] = richer.get("teams")
+                m["teams"] = [clean_text(x) for x in richer.get("teams") if clean_text(x)]
+            if _text_missing(m.get("name")) and richer.get("name"):
+                m["name"] = richer.get("name")
+            m["source_name"] = "CricketData cricScore + Match List"
+
+        relay = _find_supplemental_fixture(m, relay_rows)
+        m = _enrich_from_supplemental(m, relay)
+
         t = infer_match_type(m)
         if t in {"T20", "T20I", "TWENTY20"}:
             candidates.append(m)
 
+    # SECONDARY: CricketData Match List rows absent from cricScore.
     for raw in api_rows:
+        if raw.get("id") and str(raw.get("id")) in score_ids:
+            continue
         m = dict(raw)
+        m["source_name"] = "CricketData Match List"
+        if not m.get("teams"):
+            a, b = parse_match_name(m.get("name"))
+            m["teams"] = [a, b] if a and b else []
+        relay = _find_supplemental_fixture(m, relay_rows)
+        m = _enrich_from_supplemental(m, relay)
         t = infer_match_type(m)
         if t in {"T20", "T20I", "TWENTY20"}:
-            if not m.get("teams"):
-                a, b = parse_match_name(m.get("name"))
-                m["teams"] = [a, b] if a and b else []
             candidates.append(m)
 
-    for raw in cb_rows:
+    # FALLBACK: no-key relay rows. These are considered only after CricketData,
+    # so later de-duplication preserves CricketData team names when both exist.
+    for raw in relay_rows:
         m = dict(raw)
         m["matchType"] = "T20"
         candidates.append(m)
@@ -2108,6 +2151,8 @@ def run_scanner():
         h2h = head_to_head(history, team_a, team_b)
         balance = build_competitive_balance(team_a, team_b, form_a, form_b, h2h, elo_model)
         reasons, warnings = [], []
+        if not str(m.get("source_name") or "").startswith("CricketData"):
+            warnings.append("CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED")
 
         source_status = str(m.get("status") or "UNKNOWN")
         start_passed = bool(dt and datetime.now(timezone.utc) >= dt)
@@ -2185,7 +2230,10 @@ def run_scanner():
             "indiaDate": date_key,
             "series": m.get("series_name") or m.get("series") or "UNKNOWN SERIES",
             "sourceName": m.get("source_name") or "UNKNOWN SOURCE",
+            "supplementalSourceName": m.get("supplemental_source_name"),
             "sourceMatchUrl": m.get("source_match_url"),
+            "cricketDataMatchId": m.get("id"),
+            "liveScoreText": m.get("liveScoreText"),
             "sourceStatus": source_status,
             "marketTier": tier,
             "marketVisibility": "PREMIUM / LIKELY LISTED" if premium else "SCHEDULE-ONLY / LOW-VISIBILITY",
@@ -2211,6 +2259,23 @@ def run_scanner():
             "ppRunRate": "Historical first-innings PP",
             "spinIndex": f"{spin_share:.2f}% Spinner Wicket Share (7-14)" if isinstance(spin_share, (int, float)) else "UNKNOWN",
             "spinNote": venue_stats.get("spin_index_status", "UNKNOWN"),
+            "metricSources": {
+                "fixture": m.get("source_name") or "UNKNOWN SOURCE",
+                "weather": "Open-Meteo match-hour forecast" if weather.get("status") == "OK" else "Open-Meteo unavailable/UNKNOWN",
+                "tossBias": (
+                    f"Cricsheet venue T20 history (n={venue_stats.get('matches')})"
+                    if venue_stats.get("status") == "OK" else "Cricsheet venue history insufficient/UNKNOWN"
+                ),
+                "powerplay": (
+                    f"Cricsheet first-innings overs 1-6 (n={venue_stats.get('matches')})"
+                    if venue_stats.get("status") == "OK" else "Cricsheet venue history insufficient/UNKNOWN"
+                ),
+                "spinChoke": (
+                    f"Cricsheet overs 7-14; bowler-style classification {venue_stats.get('spin_classification_pct')}%"
+                    if venue_stats.get("spin_classification_pct") is not None
+                    else "Cricsheet overs 7-14; bowler-style classification UNKNOWN"
+                ),
+            },
             "venueIntel": venue_stats,
             "midOversWickets": venue_stats.get("mid_overs_7_14_wickets"),
             "spinnerWickets7to14": venue_stats.get("spinner_7_14_wickets"),
@@ -2297,12 +2362,19 @@ def run_scanner():
                 else "No discovery source returned data."
             ),
         },
-        "source": {"primary": "Cricbuzz via text relay", "secondary": "CricketData cricScore", "fallback": "CricketData Match List"},
+        "source": {
+            "primary": "CricketData cricScore + Match List",
+            "secondary": "Cricsheet historical T20 + Open-Meteo",
+            "fallback": "Cricbuzz text relay metadata/schedule"
+        },
         "date_filter": {"timezone": "Asia/Kolkata", "today": today.isoformat(), "today_only": TODAY_ONLY, "method": "GMT timestamp when available; India date otherwise"},
         "api_budget": {
             "daily_limit_user_reported": 100,
             "max_match_list_calls_per_run": MAX_MATCH_PAGES_PER_RUN,
-            "cricscore_calls_this_run": 1 if (API_KEY and not relay_rows) else 0,
+            "cricscore_calls_this_run": (API_USAGE.get("endpoint_calls") or {}).get("cricScore", 0),
+            "match_list_calls_this_run": (API_USAGE.get("endpoint_calls") or {}).get("matches", 0),
+            "squad_calls_this_run": (API_USAGE.get("endpoint_calls") or {}).get("match_squad", 0),
+            "endpoint_calls_this_run": API_USAGE.get("endpoint_calls") or {},
             "max_squad_calls_per_run": MAX_XI_LOOKUPS_PER_RUN,
             "hits_today_reported": API_USAGE.get("hitsToday"),
             "hits_limit_reported": API_USAGE.get("hitsLimit"),
@@ -2318,6 +2390,10 @@ def run_scanner():
             "min_venue_matches": MIN_VENUE_MATCHES,
             "min_spin_classification": MIN_SPIN_CLASSIFICATION,
             "skill_gap_engine": "Cricsheet-derived Elo + recent form + head-to-head",
+            "fixture_identity_primary": "CricketData.org",
+            "weather_source": "Open-Meteo",
+            "venue_history_source": "Cricsheet",
+            "odds_source": "NOT PROVIDED BY CRICKETDATA — USER/EXCHANGE INPUT REQUIRED",
             "swing_score_is_not_profit_probability": True
         },
         "discovery": {
