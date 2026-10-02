@@ -26,6 +26,7 @@ XI_LOOKAHEAD_MIN = int(os.getenv("XI_LOOKAHEAD_MIN", "180"))
 ALLOW_FANTASY_SQUAD = os.getenv("ALLOW_FANTASY_SQUAD", "0").strip().lower() in {"1", "true", "yes"}
 MAX_XI_LOOKUPS_PER_RUN = int(os.getenv("MAX_XI_LOOKUPS_PER_RUN", "0" if not ALLOW_FANTASY_SQUAD else "2"))
 MAX_MATCH_PAGES_PER_RUN = int(os.getenv("MAX_MATCH_PAGES_PER_RUN", "8"))
+MAX_MATCH_INFO_LOOKUPS_PER_RUN = int(os.getenv("MAX_MATCH_INFO_LOOKUPS_PER_RUN", "12"))
 TODAY_ONLY = os.getenv("TODAY_ONLY", "1").strip().lower() not in {"0", "false", "no"}
 PAUSE_UNTIL_IST = os.getenv("PAUSE_UNTIL_IST", "").strip()
 
@@ -60,6 +61,7 @@ VENUE_DIRECT_COORDS = {
 
 API_USAGE = {"hitsToday": None, "hitsLimit": None, "quota_exhausted": False, "last_error": None, "endpoint_calls": {}}
 PREMATCH_ARCHIVE_PATH = Path("pre_match_archive.json")
+CRICKETDATA_MATCH_CACHE_PATH = Path("cricketdata_match_cache.json")
 
 
 def clean_text(value):
@@ -514,6 +516,86 @@ def get_cricketdata_matches():
         offset += len(rows)
     return rows_out
 
+
+
+def load_cricketdata_match_cache():
+    try:
+        if CRICKETDATA_MATCH_CACHE_PATH.exists():
+            data = json.loads(CRICKETDATA_MATCH_CACHE_PATH.read_text(encoding="utf-8"))
+            return data if isinstance(data, dict) else {}
+    except Exception as exc:
+        print(f"[WARN] Could not read CricketData match cache: {exc}")
+    return {}
+
+
+def save_cricketdata_match_cache(cache):
+    try:
+        CRICKETDATA_MATCH_CACHE_PATH.write_text(
+            json.dumps(cache, indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )
+    except Exception as exc:
+        print(f"[WARN] Could not save CricketData match cache: {exc}")
+
+
+def _compact_match_info(info):
+    if not isinstance(info, dict):
+        return {}
+    keys = (
+        "id", "name", "matchType", "status", "venue", "date", "dateTimeGMT",
+        "teams", "series_id", "series", "series_name"
+    )
+    compact = {k: info.get(k) for k in keys if info.get(k) not in (None, "", [])}
+    if compact.get("teams"):
+        compact["teams"] = [clean_text(x) for x in compact["teams"] if clean_text(x)]
+    return compact
+
+
+def get_match_info_cached(match_id, cache, allow_fetch=True):
+    key = str(match_id or "")
+    if not key:
+        return None, False
+    existing = cache.get(key)
+    if isinstance(existing, dict):
+        data = existing.get("data") if isinstance(existing.get("data"), dict) else existing
+        if isinstance(data, dict) and data:
+            return dict(data), True
+
+    if not allow_fetch or not API_KEY or API_USAGE.get("quota_exhausted"):
+        return None, False
+
+    payload = api_get("match_info", {"id": key})
+    if not isinstance(payload, dict) or payload.get("status") != "success":
+        return None, False
+    info = _compact_match_info(payload.get("data"))
+    if not info:
+        return None, False
+    cache[key] = {
+        "cachedAt": datetime.now(timezone.utc).isoformat(),
+        "data": info,
+    }
+    return dict(info), False
+
+
+def _enrich_from_cricketdata_info(primary, info):
+    if not info:
+        return primary
+    out = dict(primary)
+    for key in ("matchType", "venue", "date", "dateTimeGMT", "series", "series_name"):
+        if _text_missing(out.get(key)) and not _text_missing(info.get(key)):
+            out[key] = info.get(key)
+    if info.get("teams"):
+        out["teams"] = [clean_text(x) for x in info.get("teams") if clean_text(x)]
+        if len(out["teams"]) >= 2:
+            out["name"] = f"{out['teams'][0]} vs {out['teams'][1]}"
+    elif _text_missing(out.get("name")) and info.get("name"):
+        out["name"] = info.get("name")
+
+    # cricScore remains the live-status source; use match_info status only when missing.
+    if _text_missing(out.get("status")) and not _text_missing(info.get("status")):
+        out["status"] = info.get("status")
+    out["source_name"] = "CricketData cricScore + match_info"
+    return out
 
 
 def strip_team_code(value):
@@ -1989,13 +2071,53 @@ def run_scanner():
             print(f"[WARN] Invalid PAUSE_UNTIL_IST={PAUSE_UNTIL_IST!r}; ignoring.")
 
     # Production discovery path:
-    # 1) CricketData cricScore is primary for clean team identity and all +/-7 day fixtures.
-    # 2) CricketData Match List enriches venue/time/series with a small bounded page budget.
-    # 3) Cricbuzz text relay is supplemental/fallback only and must never overwrite clean teams.
+    # 1) CricketData cricScore discovers the nearby fixture/live IDs.
+    # 2) Cached CricketData match_info supplies stable match type, venue, date/time and teams.
+    # 3) A bounded Match List pass is fallback enrichment only.
+    # 4) Cricbuzz text relay is supplemental/fallback and never overwrites clean CricketData teams.
     score_rows = get_cricscore_matches() if API_KEY else []
+    match_info_cache = load_cricketdata_match_cache()
+    match_info_lookups = 0
+    match_info_cache_hits = 0
+    match_info_enriched = 0
+
+    # If cricScore already exposes a usable India date, prioritize today's rows
+    # before spending the bounded match_info lookup budget.
+    score_rows.sort(key=lambda row: (
+        0 if match_is_today(row)[0] else 1,
+        str(row.get("dateTimeGMT") or row.get("date") or ""),
+    ))
+
+    enriched_score_rows = []
+    for raw in score_rows:
+        m = dict(raw)
+        match_id = m.get("id")
+        allow_fetch = match_info_lookups < MAX_MATCH_INFO_LOOKUPS_PER_RUN
+        before_calls = (API_USAGE.get("endpoint_calls") or {}).get("match_info", 0)
+        info, from_cache = get_match_info_cached(match_id, match_info_cache, allow_fetch=allow_fetch)
+        after_calls = (API_USAGE.get("endpoint_calls") or {}).get("match_info", 0)
+        match_info_lookups += max(0, after_calls - before_calls)
+        if from_cache and info:
+            match_info_cache_hits += 1
+        if info:
+            m = _enrich_from_cricketdata_info(m, info)
+            match_info_enriched += 1
+        enriched_score_rows.append(m)
+
+    score_rows = enriched_score_rows
+    if match_info_cache:
+        save_cricketdata_match_cache(match_info_cache)
+
+    unresolved_score_rows = [
+        row for row in score_rows
+        if infer_match_type(row) not in {"T20", "T20I", "TWENTY20"}
+        or not match_is_today(row)[0]
+        or _text_missing(row.get("venue"))
+    ]
+
     api_rows = (
         get_cricketdata_matches()
-        if API_KEY and not API_USAGE.get("quota_exhausted")
+        if API_KEY and unresolved_score_rows and not API_USAGE.get("quota_exhausted")
         else []
     )
 
@@ -2024,8 +2146,24 @@ def run_scanner():
         else:
             relay_rows.append(dict(live))
 
-    # Legacy direct-site sources remain disabled on GitHub shared runners.
     sofa_rows, espn_rows, cb_rows = [], [], []
+
+    # Match List may resolve cricScore IDs not reached by the match_info budget.
+    api_by_id = {str(x.get("id")): x for x in api_rows if x.get("id")}
+    post_enriched_score_rows = []
+    for raw in score_rows:
+        m = dict(raw)
+        richer = api_by_id.get(str(m.get("id"))) if m.get("id") else None
+        if richer:
+            for key in ("matchType", "venue", "series", "series_name", "date", "dateTimeGMT"):
+                if _text_missing(m.get(key)) and not _text_missing(richer.get(key)):
+                    m[key] = richer.get(key)
+            if richer.get("teams") and (not m.get("teams") or len(m.get("teams") or []) < 2):
+                m["teams"] = [clean_text(x) for x in richer.get("teams") if clean_text(x)]
+            if str(m.get("source_name") or "").startswith("CricketData"):
+                m["source_name"] = "CricketData cricScore + Match List"
+        post_enriched_score_rows.append(m)
+    score_rows = post_enriched_score_rows
 
     relay_t20_count = sum(
         1 for raw in relay_rows
@@ -2054,26 +2192,13 @@ def run_scanner():
     )
 
     candidates = []
-    api_by_id = {str(x.get("id")): x for x in api_rows if x.get("id")}
     score_ids = {str(x.get("id")) for x in score_rows if x.get("id")}
 
-    # PRIMARY: CricketData cricScore. Enrich by exact CricketData match id first.
+    # PRIMARY: CricketData rows, then optional Cricbuzz metadata fill.
     for raw in score_rows:
         m = dict(raw)
-        richer = api_by_id.get(str(m.get("id"))) if m.get("id") else None
-        if richer:
-            for key in ("matchType", "venue", "series", "series_name", "date", "dateTimeGMT"):
-                if _text_missing(m.get(key)) and not _text_missing(richer.get(key)):
-                    m[key] = richer.get(key)
-            if richer.get("teams"):
-                m["teams"] = [clean_text(x) for x in richer.get("teams") if clean_text(x)]
-            if _text_missing(m.get("name")) and richer.get("name"):
-                m["name"] = richer.get("name")
-            m["source_name"] = "CricketData cricScore + Match List"
-
         relay = _find_supplemental_fixture(m, relay_rows)
         m = _enrich_from_supplemental(m, relay)
-
         t = infer_match_type(m)
         if t in {"T20", "T20I", "TWENTY20"}:
             candidates.append(m)
@@ -2093,8 +2218,7 @@ def run_scanner():
         if t in {"T20", "T20I", "TWENTY20"}:
             candidates.append(m)
 
-    # FALLBACK: no-key relay rows. These are considered only after CricketData,
-    # so later de-duplication preserves CricketData team names when both exist.
+    # FALLBACK only after CricketData.
     for raw in relay_rows:
         m = dict(raw)
         m["matchType"] = "T20"
@@ -2388,6 +2512,11 @@ def run_scanner():
             "max_match_list_calls_per_run": MAX_MATCH_PAGES_PER_RUN,
             "cricscore_calls_this_run": (API_USAGE.get("endpoint_calls") or {}).get("cricScore", 0),
             "match_list_calls_this_run": (API_USAGE.get("endpoint_calls") or {}).get("matches", 0),
+            "match_info_calls_this_run": (API_USAGE.get("endpoint_calls") or {}).get("match_info", 0),
+            "match_info_cache_hits_this_run": match_info_cache_hits,
+            "match_info_enriched_rows": match_info_enriched,
+            "match_info_cache_size": len(match_info_cache),
+            "max_match_info_lookups_per_run": MAX_MATCH_INFO_LOOKUPS_PER_RUN,
             "squad_calls_this_run": (API_USAGE.get("endpoint_calls") or {}).get("match_squad", 0),
             "endpoint_calls_this_run": API_USAGE.get("endpoint_calls") or {},
             "max_squad_calls_per_run": MAX_XI_LOOKUPS_PER_RUN,
