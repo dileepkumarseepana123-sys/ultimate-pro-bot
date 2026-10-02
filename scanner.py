@@ -584,18 +584,20 @@ def _team_similarity(a, b):
     return max(SequenceMatcher(None, a0, b0).ratio(), containment * 0.95)
 
 
+def _fixture_pair_similarity(left, right):
+    lteams = left.get("teams") or [left.get("teamA"), left.get("teamB")]
+    rteams = right.get("teams") or [right.get("teamA"), right.get("teamB")]
+    if len(lteams) < 2 or len(rteams) < 2 or not all(lteams[:2]) or not all(rteams[:2]):
+        return 0.0
+    direct = (_team_similarity(lteams[0], rteams[0]) + _team_similarity(lteams[1], rteams[1])) / 2
+    swapped = (_team_similarity(lteams[0], rteams[1]) + _team_similarity(lteams[1], rteams[0])) / 2
+    return max(direct, swapped)
+
+
 def _find_supplemental_fixture(primary, rows):
-    teams = primary.get("teams") or []
-    if len(teams) < 2:
-        return None
     best_row, best_score = None, 0.0
     for row in rows:
-        rteams = row.get("teams") or [row.get("teamA"), row.get("teamB")]
-        if len(rteams) < 2:
-            continue
-        direct = (_team_similarity(teams[0], rteams[0]) + _team_similarity(teams[1], rteams[1])) / 2
-        swapped = (_team_similarity(teams[0], rteams[1]) + _team_similarity(teams[1], rteams[0])) / 2
-        score = max(direct, swapped)
+        score = _fixture_pair_similarity(primary, row)
         if score > best_score:
             best_score, best_row = score, row
     return best_row if best_score >= 0.72 else None
@@ -2305,6 +2307,19 @@ def run_scanner():
         report = archived.get("report") or {}
         if not report.get("standardT20"):
             continue
+
+        # Old same-day snapshots may contain noisy relay team strings. If a
+        # clean current fixture matches the archived team pair, do not restore
+        # the old alias as a duplicate row.
+        archived_date = archived.get("matchDate") or report.get("indiaDate")
+        duplicate_of_current = any(
+            (current.get("indiaDate") == archived_date)
+            and _fixture_pair_similarity(report, current) >= 0.72
+            for current in output
+        )
+        if duplicate_of_current:
+            continue
+
         restored = dict(report)
         restored["sourceStatus"] = "ARCHIVED PRE-MATCH"
         restored["preMatchSnapshot"] = archived
