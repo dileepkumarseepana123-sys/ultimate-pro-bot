@@ -5,7 +5,8 @@ Strict standard T20/T20I only. The Hundred, T10, ODI and Test formats are reject
 ## Primary match discovery
 
 - **CricketData.org `cricScore`** is the primary fixture/live feed. It covers recent, live and upcoming matches around the current date.
-- **CricketData Match List** enriches CricketData match IDs with venue, start time, status and other clean metadata using a bounded page budget.
+- **CricketData `match_info`** enriches each nearby match ID with match type, clean teams, venue and GMT start time. Those stable fields are persisted in `cricketdata_match_cache.json`, so later scans reuse them instead of spending another API hit.
+- **CricketData Match List** is a bounded fallback enrichment pass when a nearby ID is still unresolved.
 - **Cricbuzz text relay** is supplemental/fallback only. It may fill missing venue/time/status but must never overwrite clean CricketData team identity.
 - Missing fields remain **UNKNOWN**. No dummy/default cricket data is permitted.
 
@@ -32,7 +33,7 @@ The dashboard calculator separately handles cent rounding, liability and optiona
 
 ## API budget
 
-The scanner records endpoint calls in `intel.json`. Normal discovery is designed to use one `cricScore` call plus a small bounded Match List pass per run. Fantasy squad lookups remain disabled by default to protect quota.
+The scanner records endpoint calls in `intel.json`. Normal discovery uses one `cricScore` call, cached `match_info` metadata, and only then a bounded Match List fallback. New `match_info` lookups are capped per run. Fantasy squad lookups remain disabled by default to protect quota.
 
 ## Pre-match archive
 
