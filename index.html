@@ -348,16 +348,30 @@
             document.getElementById('lblTeamB').innerText = data.teamB;
             document.getElementById('teamB').value = data.teamB;
 
+            const metricSources = data.metricSources || {};
             document.getElementById('verdictContainer').innerHTML = `<span class="verdict-badge ${data.badgeClass}">${data.verdict}</span>`;
-            document.getElementById('metricWeather').innerText = data.weatherText || data.weather || 'NO DATA';
-            document.getElementById('subWeather').innerText = data.dewRisk;
-            document.getElementById('metricToss').innerText = data.tossBias;
-            document.getElementById('subToss').innerText = data.tossTrend;
-            document.getElementById('metricPP').innerText = data.ppScoreAvg;
-            document.getElementById('subPP').innerText = data.ppRunRate;
-            document.getElementById('metricSpin').innerText = data.spinIndex;
-            document.getElementById('subSpin').innerText = data.spinNote || 'UNKNOWN';
-            document.getElementById('metricStrategyNote').innerHTML = `💡 <strong>Data status:</strong> ${data.strategyText || 'NO DATA'}`;
+            document.getElementById('metricWeather').innerText = data.weatherText || 'UNKNOWN';
+            document.getElementById('subWeather').innerText =
+                (data.dewRisk || 'UNKNOWN') + ' dew • ' + (metricSources.weather || 'SOURCE UNKNOWN');
+            document.getElementById('metricToss').innerText = data.tossBias || 'UNKNOWN';
+            document.getElementById('subToss').innerText =
+                (data.tossTrend || 'UNKNOWN') + ' • ' + (metricSources.tossBias || 'SOURCE UNKNOWN');
+            document.getElementById('metricPP').innerText = data.ppScoreAvg || 'UNKNOWN';
+            document.getElementById('subPP').innerText =
+                (data.ppRunRate || 'UNKNOWN') + ' • ' + (metricSources.powerplay || 'SOURCE UNKNOWN');
+            document.getElementById('metricSpin').innerText = data.spinIndex || 'UNKNOWN';
+            document.getElementById('subSpin').innerText =
+                (data.spinNote || 'UNKNOWN') + ' • ' + (metricSources.spinChoke || 'SOURCE UNKNOWN');
+
+            const matchMeta = [
+                data.series || 'UNKNOWN SERIES',
+                data.matchTimeIST && data.matchTimeIST !== 'UNKNOWN' ? ('IST ' + data.matchTimeIST) : 'TIME UNKNOWN',
+                data.venue || 'UNKNOWN VENUE'
+            ].join(' | ');
+            document.getElementById('metricStrategyNote').innerHTML =
+                `🏏 <strong>Match:</strong> ${matchMeta}<br>` +
+                `🔎 <strong>Fixture source:</strong> ${metricSources.fixture || data.sourceName || 'UNKNOWN'}<br>` +
+                `💡 <strong>Data status:</strong> ${data.strategyText || 'NO DATA'}`;
             const reasons = (data.noBetReasons || []).map(x => `<li>🔴 ${x}</li>`).join('');
             const warnings = (data.warnings || []).map(x => `<li>🟡 ${x}</li>`).join('');
             const xi = data.playingXI ? data.playingXI.status : 'UNKNOWN';
