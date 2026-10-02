@@ -30,6 +30,7 @@ jobs:
       ALLOW_FANTASY_SQUAD: '0'
       MAX_XI_LOOKUPS_PER_RUN: '0'
       MAX_MATCH_PAGES_PER_RUN: '2'
+      MAX_MATCH_INFO_LOOKUPS_PER_RUN: '12'
       PAUSE_UNTIL_IST: '2026-09-21'
     steps:
       - name: Checkout Code
@@ -69,6 +70,7 @@ jobs:
           cp intel.json /tmp/intel.json
           if [ -f intel_last_good.json ]; then cp intel_last_good.json /tmp/intel_last_good.json; fi
           if [ -f pre_match_archive.json ]; then cp pre_match_archive.json /tmp/pre_match_archive.json; fi
+          if [ -f cricketdata_match_cache.json ]; then cp cricketdata_match_cache.json /tmp/cricketdata_match_cache.json; fi
 
           git fetch origin main
           git reset --hard origin/main
@@ -76,10 +78,12 @@ jobs:
           cp /tmp/intel.json intel.json
           if [ -f /tmp/intel_last_good.json ]; then cp /tmp/intel_last_good.json intel_last_good.json; fi
           if [ -f /tmp/pre_match_archive.json ]; then cp /tmp/pre_match_archive.json pre_match_archive.json; fi
+          if [ -f /tmp/cricketdata_match_cache.json ]; then cp /tmp/cricketdata_match_cache.json cricketdata_match_cache.json; fi
 
           git add intel.json
           if [ -f intel_last_good.json ]; then git add intel_last_good.json; fi
           if [ -f pre_match_archive.json ]; then git add pre_match_archive.json; fi
+          if [ -f cricketdata_match_cache.json ]; then git add cricketdata_match_cache.json; fi
           git diff --cached --quiet && exit 0
           git commit -m "Auto-update T20 deep match intel"
           git push origin main
