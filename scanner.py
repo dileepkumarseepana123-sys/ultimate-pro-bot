@@ -497,6 +497,17 @@ def api_get(endpoint, params=None):
         return None
 
 
+def get_cricketdata_current_matches():
+    """Full current-match feed from CricketData; one call, no pagination by default."""
+    if not API_KEY:
+        return []
+    data = api_get("currentMatches", {"offset": 0})
+    if not isinstance(data, dict) or data.get("status") != "success":
+        return []
+    rows = data.get("data") or []
+    return [dict(x) for x in rows if isinstance(x, dict)]
+
+
 def get_cricketdata_matches():
     if not API_KEY:
         return []
@@ -2076,6 +2087,7 @@ def run_scanner():
     # 3) A bounded Match List pass is fallback enrichment only.
     # 4) Cricbuzz text relay is supplemental/fallback and never overwrites clean CricketData teams.
     score_rows = get_cricscore_matches() if API_KEY else []
+    current_rows = get_cricketdata_current_matches() if API_KEY and not API_USAGE.get("quota_exhausted") else []
     match_info_cache = load_cricketdata_match_cache()
     match_info_lookups = 0
     match_info_cache_hits = 0
@@ -2107,6 +2119,37 @@ def run_scanner():
     score_rows = enriched_score_rows
     if match_info_cache:
         save_cricketdata_match_cache(match_info_cache)
+
+    # Full currentMatches objects can carry richer match type/date/venue/status.
+    current_by_id = {str(x.get("id")): x for x in current_rows if x.get("id")}
+    merged_score_rows = []
+    score_ids_seen = set()
+    for raw in score_rows:
+        m = dict(raw)
+        rid = str(m.get("id")) if m.get("id") else None
+        richer = current_by_id.get(rid) if rid else None
+        if richer:
+            m = _enrich_from_cricketdata_info(m, _compact_match_info(richer))
+            m["source_name"] = "CricketData cricScore + currentMatches"
+            if richer.get("score"):
+                m["score"] = richer.get("score")
+        merged_score_rows.append(m)
+        if rid:
+            score_ids_seen.add(rid)
+
+    # Include currentMatches rows that cricScore did not list.
+    for raw in current_rows:
+        rid = str(raw.get("id")) if raw.get("id") else None
+        if rid and rid in score_ids_seen:
+            continue
+        m = dict(raw)
+        m["source_name"] = "CricketData currentMatches"
+        if not m.get("teams"):
+            a, b = parse_match_name(m.get("name"))
+            m["teams"] = [a, b] if a and b else []
+        merged_score_rows.append(m)
+
+    score_rows = merged_score_rows
 
     unresolved_score_rows = [
         row for row in score_rows
@@ -2502,7 +2545,7 @@ def run_scanner():
             ),
         },
         "source": {
-            "primary": "CricketData cricScore + Match List",
+            "primary": "CricketData cricScore + currentMatches + cached match_info",
             "secondary": "Cricsheet historical T20 + Open-Meteo",
             "fallback": "Cricbuzz text relay metadata/schedule"
         },
@@ -2511,6 +2554,7 @@ def run_scanner():
             "daily_limit_user_reported": 100,
             "max_match_list_calls_per_run": MAX_MATCH_PAGES_PER_RUN,
             "cricscore_calls_this_run": (API_USAGE.get("endpoint_calls") or {}).get("cricScore", 0),
+            "current_matches_calls_this_run": (API_USAGE.get("endpoint_calls") or {}).get("currentMatches", 0),
             "match_list_calls_this_run": (API_USAGE.get("endpoint_calls") or {}).get("matches", 0),
             "match_info_calls_this_run": (API_USAGE.get("endpoint_calls") or {}).get("match_info", 0),
             "match_info_cache_hits_this_run": match_info_cache_hits,
@@ -2534,7 +2578,7 @@ def run_scanner():
             "min_venue_matches": MIN_VENUE_MATCHES,
             "min_spin_classification": MIN_SPIN_CLASSIFICATION,
             "skill_gap_engine": "Cricsheet-derived Elo + recent form + head-to-head",
-            "fixture_identity_primary": "CricketData.org",
+            "fixture_identity_primary": "CricketData.org cricScore/currentMatches/match_info",
             "weather_source": "Open-Meteo",
             "venue_history_source": "Cricsheet",
             "odds_source": "NOT PROVIDED BY CRICKETDATA — USER/EXCHANGE INPUT REQUIRED",
@@ -2550,6 +2594,12 @@ def run_scanner():
             "text_relay_time_enriched_rows": sum(1 for x in relay_rows if x.get("dateTimeGMT")),
             "final_reports_with_known_time": sum(1 for x in output if x.get("matchTimeIST") not in (None, "UNKNOWN")),
             "final_reports_with_weather": sum(1 for x in output if (x.get("weather") or {}).get("status") == "OK"),
+            "current_matches_rows": len(current_rows),
+            "current_matches_t20_rows": sum(1 for x in current_rows if infer_match_type(x) in {"T20", "T20I", "TWENTY20"}),
+            "current_matches_today_t20_rows": sum(
+                1 for x in current_rows
+                if infer_match_type(x) in {"T20", "T20I", "TWENTY20"} and match_is_today(x)[0]
+            ),
             "cricscore_rows": len(score_rows),
             "cricscore_t20_rows": score_t20_count,
             "cricscore_today_t20_rows": score_today_count,
