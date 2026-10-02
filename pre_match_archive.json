@@ -12115,7 +12115,7 @@
         }
     },
     "kwazulu natal inland tuskers pool b uplands college white river mpumalanga|mpumalanga rhinos|2026-10-02": {
-        "capturedAt": "2026-10-02T00:49:29.682984+00:00",
+        "capturedAt": "2026-10-02T06:51:22.818912+00:00",
         "matchDate": "2026-10-02",
         "report": {
             "teamA": "Mpumalanga Rhinos",
@@ -12240,16 +12240,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-02T06:00:00-05:00",
-                "temperature_c": 9.6,
-                "humidity_pct": 57,
-                "dew_point_c": 1.5,
-                "rain_probability_pct": 3,
+                "temperature_c": 10.3,
+                "humidity_pct": 63,
+                "dew_point_c": 3.6,
+                "rain_probability_pct": 22,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 4.2,
+                "wind_kmh": 5.9,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "9.6°C | RH 57% | Rain 3% | Wind 4.2 km/h",
+            "weatherText": "10.3°C | RH 63% | Rain 22% | Wind 5.9 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -12281,7 +12281,7 @@
         }
     },
     "knights|titans pool b mangaung oval bloemfontein|2026-10-02": {
-        "capturedAt": "2026-10-02T00:49:29.683006+00:00",
+        "capturedAt": "2026-10-02T06:51:22.818952+00:00",
         "matchDate": "2026-10-02",
         "report": {
             "teamA": "Knights",
@@ -12537,7 +12537,7 @@
         }
     },
     "lions|north west eastvaal renault dragons pool a the wanderers stadium johannesburg|2026-10-02": {
-        "capturedAt": "2026-10-02T00:49:29.683030+00:00",
+        "capturedAt": "2026-10-02T06:51:22.818977+00:00",
         "matchDate": "2026-10-02",
         "report": {
             "teamA": "Lions",
