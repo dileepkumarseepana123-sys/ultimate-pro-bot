@@ -29,7 +29,7 @@ jobs:
       TODAY_ONLY: '1'
       MIN_VENUE_MATCHES: '5'
       MIN_SPIN_CLASSIFICATION: '0.90'
-      XI_LOOKAHEAD_MIN: '180'
+      XI_LOOKAHEAD_MIN: '720'
       ALLOW_FANTASY_SQUAD: '1'
       MAX_XI_LOOKUPS_PER_RUN: '4'
       MAX_MATCH_PAGES_PER_RUN: '2'
@@ -74,6 +74,7 @@ jobs:
           if [ -f intel_last_good.json ]; then cp intel_last_good.json /tmp/intel_last_good.json; fi
           if [ -f pre_match_archive.json ]; then cp pre_match_archive.json /tmp/pre_match_archive.json; fi
           if [ -f cricketdata_match_cache.json ]; then cp cricketdata_match_cache.json /tmp/cricketdata_match_cache.json; fi
+          if [ -f cricketdata_squad_cache.json ]; then cp cricketdata_squad_cache.json /tmp/cricketdata_squad_cache.json; fi
 
           git fetch origin main
           git reset --hard origin/main
@@ -82,11 +83,13 @@ jobs:
           if [ -f /tmp/intel_last_good.json ]; then cp /tmp/intel_last_good.json intel_last_good.json; fi
           if [ -f /tmp/pre_match_archive.json ]; then cp /tmp/pre_match_archive.json pre_match_archive.json; fi
           if [ -f /tmp/cricketdata_match_cache.json ]; then cp /tmp/cricketdata_match_cache.json cricketdata_match_cache.json; fi
+          if [ -f /tmp/cricketdata_squad_cache.json ]; then cp /tmp/cricketdata_squad_cache.json cricketdata_squad_cache.json; fi
 
           git add intel.json
           if [ -f intel_last_good.json ]; then git add intel_last_good.json; fi
           if [ -f pre_match_archive.json ]; then git add pre_match_archive.json; fi
           if [ -f cricketdata_match_cache.json ]; then git add cricketdata_match_cache.json; fi
+          if [ -f cricketdata_squad_cache.json ]; then git add cricketdata_squad_cache.json; fi
           git diff --cached --quiet && exit 0
           git commit -m "Auto-update T20 deep match intel"
           git push origin main
