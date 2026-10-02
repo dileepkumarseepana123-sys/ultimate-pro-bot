@@ -1,12 +1,12 @@
 {
-    "last_updated": "2026-10-02T15:13:13.518955+00:00",
+    "last_updated": "2026-10-02T15:18:16.344302+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
         "message": "Fresh scan completed."
     },
     "source": {
-        "primary": "CricketData cricScore + Match List",
+        "primary": "CricketData cricScore + currentMatches + cached match_info",
         "secondary": "Cricsheet historical T20 + Open-Meteo",
         "fallback": "Cricbuzz text relay metadata/schedule"
     },
@@ -20,20 +20,21 @@
         "daily_limit_user_reported": 100,
         "max_match_list_calls_per_run": 2,
         "cricscore_calls_this_run": 1,
+        "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
-        "match_info_calls_this_run": 8,
-        "match_info_cache_hits_this_run": 0,
+        "match_info_calls_this_run": 0,
+        "match_info_cache_hits_this_run": 8,
         "match_info_enriched_rows": 8,
         "match_info_cache_size": 8,
         "max_match_info_lookups_per_run": 12,
         "squad_calls_this_run": 0,
         "endpoint_calls_this_run": {
             "cricScore": 1,
-            "match_info": 8,
+            "currentMatches": 1,
             "matches": 2
         },
         "max_squad_calls_per_run": 0,
-        "hits_today_reported": 17,
+        "hits_today_reported": 21,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -47,7 +48,7 @@
         "min_venue_matches": 5,
         "min_spin_classification": 0.9,
         "skill_gap_engine": "Cricsheet-derived Elo + recent form + head-to-head",
-        "fixture_identity_primary": "CricketData.org",
+        "fixture_identity_primary": "CricketData.org cricScore/currentMatches/match_info",
         "weather_source": "Open-Meteo",
         "venue_history_source": "Cricsheet",
         "odds_source": "NOT PROVIDED BY CRICKETDATA — USER/EXCHANGE INPUT REQUIRED",
@@ -63,6 +64,9 @@
         "text_relay_time_enriched_rows": 3,
         "final_reports_with_known_time": 3,
         "final_reports_with_weather": 3,
+        "current_matches_rows": 1,
+        "current_matches_t20_rows": 0,
+        "current_matches_today_t20_rows": 0,
         "cricscore_rows": 8,
         "cricscore_t20_rows": 0,
         "cricscore_today_t20_rows": 0,
