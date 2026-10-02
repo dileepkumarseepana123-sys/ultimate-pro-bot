@@ -39,6 +39,10 @@ TEAM_ALIASES = {
     "hong kong china": "hong kong",
     "united states of america": "united states",
     "usa": "united states",
+    "north west eastvaal renault dragons": "north west",
+    "north west dragons": "north west",
+    "kwazulu natal inland tuskers": "kwazulu natal inland",
+    "kzn inland tuskers": "kwazulu natal inland",
 }
 CRICSHEET_WITHHELD_TEAMS = {"afghanistan"}
 
@@ -115,10 +119,27 @@ def parse_match_name(name):
     return team_a, team_b
 
 
+def _name_has_explicit_t20_marker(match):
+    raw_name = clean_text(match.get("name"))
+    return bool(re.search(r"\b(?:T20I|T20|TWENTY20)\b", raw_name, re.I))
+
+
+def match_type_source_conflict(match):
+    explicit = norm(match.get("matchType") or match.get("match_type") or match.get("type"))
+    return explicit in {"odi", "test", "t10"} and _name_has_explicit_t20_marker(match)
+
+
 def infer_match_type(match, source_t20=False):
     explicit = norm(match.get("matchType") or match.get("match_type") or match.get("type"))
     if explicit in {"t20", "t20i", "twenty20"}:
         return explicit.upper() if explicit else "T20"
+
+    # CricketData can occasionally return a contradictory matchType while its
+    # own match name explicitly says T20/T20I. Prefer the explicit format token
+    # in the match name, but surface the conflict in report warnings.
+    if match_type_source_conflict(match):
+        return "T20"
+
     if explicit in {"odi", "test", "t10"}:
         return explicit.upper()
     text_blob = norm(" ".join(str(match.get(k) or "") for k in ("name", "series_name", "series", "status")))
@@ -2321,6 +2342,10 @@ def run_scanner():
         h2h = head_to_head(history, team_a, team_b)
         balance = build_competitive_balance(team_a, team_b, form_a, form_b, h2h, elo_model)
         reasons, warnings = [], []
+        if match_type_source_conflict(m):
+            warnings.append(
+                "SOURCE TYPE CONFLICT — match name explicitly says T20/T20I but source matchType disagrees"
+            )
         if not str(m.get("source_name") or "").startswith("CricketData"):
             warnings.append("CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED")
 
