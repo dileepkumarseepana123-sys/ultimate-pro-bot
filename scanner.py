@@ -2564,7 +2564,8 @@ def run_scanner():
         squad_summary = {"status": "NO SQUAD DATA", "teams": {}, "source": "Not queried"}
         dynamic_styles = {}
         if standard := True:
-            if ALLOW_FANTASY_SQUAD and API_KEY and m.get("id") and dt and dt <= datetime.now(timezone.utc) + timedelta(minutes=XI_LOOKAHEAD_MIN):
+            now_utc = datetime.now(timezone.utc)
+            if ALLOW_FANTASY_SQUAD and API_KEY and m.get("id") and dt and now_utc < dt <= now_utc + timedelta(minutes=XI_LOOKAHEAD_MIN):
                 allow_fetch = xi_lookups < MAX_XI_LOOKUPS_PER_RUN
                 before_calls = (API_USAGE.get("endpoint_calls") or {}).get("match_squad", 0)
                 squad, from_cache = get_match_squad_cached(m.get("id"), squad_cache, allow_fetch=allow_fetch)
