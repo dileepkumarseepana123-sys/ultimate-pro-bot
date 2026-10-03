@@ -13886,7 +13886,7 @@
         }
     },
     "bangladesh|sri lanka|2026-10-03": {
-        "capturedAt": "2026-10-02T18:46:46.848625+00:00",
+        "capturedAt": "2026-10-03T06:58:00.524880+00:00",
         "matchDate": "2026-10-03",
         "report": {
             "teamA": "Bangladesh",
@@ -13904,7 +13904,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171061/ban-vs-sl-bronze-medal-match-asian-games-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -14456,7 +14456,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Bangladesh has a moderate edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Bangladesh has a moderate edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "india|pakistan|2026-10-03": {
@@ -15810,7 +15811,7 @@
         }
     },
     "west indies women 1st t20i takashinga sports club harare|zimbabwe women|2026-10-03": {
-        "capturedAt": "2026-10-03T00:48:22.040774+00:00",
+        "capturedAt": "2026-10-03T06:58:00.524854+00:00",
         "matchDate": "2026-10-03",
         "report": {
             "teamA": "Zimbabwe Women",
@@ -15932,7 +15933,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 11%, dew LOW"
+                    "Weather: rain 2%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -16072,15 +16073,15 @@
                 "status": "OK",
                 "local_time": "2026-10-03T13:00:00+02:00",
                 "temperature_c": 20.5,
-                "humidity_pct": 47,
-                "dew_point_c": 8.7,
-                "rain_probability_pct": 11,
+                "humidity_pct": 48,
+                "dew_point_c": 9.0,
+                "rain_probability_pct": 2,
                 "precipitation_mm": 0.0,
                 "wind_kmh": 4.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "20.5°C | RH 47% | Rain 11% | Wind 4.2 km/h",
+            "weatherText": "20.5°C | RH 48% | Rain 2% | Wind 4.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
