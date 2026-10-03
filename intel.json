@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-03T10:55:08.672488+00:00",
+    "last_updated": "2026-10-03T16:21:36.851413+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -36,7 +36,7 @@
             "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 16,
+        "hits_today_reported": 20,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -58,12 +58,12 @@
     },
     "discovery": {
         "live_text_relay_rows": 0,
-        "schedule_text_relay_rows": 1,
-        "text_relay_rows": 1,
-        "text_relay_t20_rows": 1,
-        "text_relay_today_t20_rows": 1,
-        "text_relay_match_url_rows": 1,
-        "text_relay_time_enriched_rows": 1,
+        "schedule_text_relay_rows": 0,
+        "text_relay_rows": 0,
+        "text_relay_t20_rows": 0,
+        "text_relay_today_t20_rows": 0,
+        "text_relay_match_url_rows": 0,
+        "text_relay_time_enriched_rows": 0,
         "final_reports_with_known_time": 5,
         "final_reports_with_weather": 5,
         "current_matches_rows": 2,
@@ -75,7 +75,7 @@
         "cricketdata_rows": 50,
         "cricketdata_t20_rows": 27,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 28,
+        "merged_candidates": 27,
         "final_reports": 5
     },
     "summary": {
@@ -332,7 +332,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-03T06:58:00.524880+00:00",
+                "capturedAt": "2026-10-03T10:55:08.652258+00:00",
                 "matchDate": "2026-10-03",
                 "report": {
                     "teamA": "Bangladesh",
@@ -1477,7 +1477,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-03T00:48:22.040671+00:00",
+                "capturedAt": "2026-10-03T10:55:08.652268+00:00",
                 "matchDate": "2026-10-03",
                 "report": {
                     "teamA": "Pakistan",
@@ -1495,7 +1495,7 @@
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/171070/pak-vs-ind-gold-medal-match-asian-games-2026",
                     "cricketDataMatchId": null,
                     "liveScoreText": null,
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
                     "marketVisibility": "PREMIUM / LIKELY LISTED",
                     "liquidityProxyOnly": true,
@@ -2048,7 +2048,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-yellow",
-                    "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                    "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -2392,7 +2393,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173107/zimw-vs-wiw-1st-t20i-west-indies-women-tour-of-zimbabwe-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -2474,7 +2475,321 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-10-03T10:55:08.652246+00:00",
+                "matchDate": "2026-10-03",
+                "report": {
+                    "teamA": "Zimbabwe Women",
+                    "teamB": "West Indies Women,1st T20I Takashinga Sports Club , Harare",
+                    "name": "Zimbabwe Women vs West Indies Women,1st T20I Takashinga Sports Club , Harare",
+                    "matchType": "T20",
+                    "venue": "1st T20I Takashinga Sports Club , Harare",
+                    "dateTimeGMT": "2026-10-03T11:00:00+00:00",
+                    "sourceDate": "2026-10-03",
+                    "matchTimeIST": "2026-10-03T16:30:00+05:30",
+                    "indiaDate": "2026-10-03",
+                    "series": "West Indies Women tour of Zimbabwe, 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "supplementalSourceName": null,
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173107/zimw-vs-wiw-1st-t20i-west-indies-women-tour-of-zimbabwe-2026",
+                    "cricketDataMatchId": null,
+                    "liveScoreText": null,
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
+                    "marketVisibility": "PREMIUM / LIKELY LISTED",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": true,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 0,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": 0.0,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 59.8,
+                    "strategyLabel": "INSUFFICIENT DATA",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 33,
+                        "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                        "swingScore": 59.8,
+                        "strategyLabel": "INSUFFICIENT DATA",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 0,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": 0.0,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [],
+                        "swingPenalties": [],
+                        "scoreComponents": [
+                            {
+                                "name": "weather",
+                                "score": 70.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 100.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "squadSummary": {
+                        "status": "NO SQUAD DATA",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS DATA LIMITED",
+                        "dataConfidencePct": 14,
+                        "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
+                        "edgeTeam": null,
+                        "edgeStrength": "DATA LIMITED",
+                        "edgeScore": null,
+                        "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                        "conditions": [
+                            "Weather: rain 2%, dew LOW"
+                        ],
+                        "evidence": [],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": null,
+                        "powerplayBaseline": null,
+                        "powerplayWicketsBaseline": null,
+                        "chasingWinPct": null,
+                        "middleOversWicketsPerMatch": null,
+                        "over16AvgRuns": null,
+                        "over16WicketEventPct": null,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "NO SQUAD DATA",
+                        "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity"
+                    ],
+                    "formA": {
+                        "matches": 10,
+                        "wins": 0,
+                        "losses": 10,
+                        "winRatePct": 0.0,
+                        "avgMarginImpact": -0.975,
+                        "recent": [
+                            {
+                                "date": "2026-09-17",
+                                "winner": "South Africa",
+                                "won": false,
+                                "venue": "Queens Sports Club, Bulawayo",
+                                "marginType": "runs",
+                                "marginValue": 80.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-09-15",
+                                "winner": "South Africa",
+                                "won": false,
+                                "venue": "Queens Sports Club, Bulawayo",
+                                "marginType": "runs",
+                                "marginValue": 80.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-09-13",
+                                "winner": "South Africa",
+                                "won": false,
+                                "venue": "Queens Sports Club, Bulawayo",
+                                "marginType": "runs",
+                                "marginValue": 64.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-09-11",
+                                "winner": "South Africa",
+                                "won": false,
+                                "venue": "Queens Sports Club, Bulawayo",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.75
+                            },
+                            {
+                                "date": "2026-05-15",
+                                "winner": "Pakistan",
+                                "won": false,
+                                "venue": "National Stadium, Karachi",
+                                "marginType": "runs",
+                                "marginValue": 133.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-05-14",
+                                "winner": "Pakistan",
+                                "won": false,
+                                "venue": "National Stadium, Karachi",
+                                "marginType": "runs",
+                                "marginValue": 67.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-05-12",
+                                "winner": "Pakistan",
+                                "won": false,
+                                "venue": "National Stadium, Karachi",
+                                "marginType": "runs",
+                                "marginValue": 153.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-03-01",
+                                "winner": "New Zealand",
+                                "won": false,
+                                "venue": "Seddon Park, Hamilton",
+                                "marginType": "wickets",
+                                "marginValue": 10.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-02-27",
+                                "winner": "New Zealand",
+                                "won": false,
+                                "venue": "Seddon Park, Hamilton",
+                                "marginType": "runs",
+                                "marginValue": 110.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-02-25",
+                                "winner": "New Zealand",
+                                "won": false,
+                                "venue": "Seddon Park, Hamilton",
+                                "marginType": "runs",
+                                "marginValue": 92.0,
+                                "marginImpact": -1.0
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-10-03T13:00:00+02:00",
+                        "temperature_c": 19.9,
+                        "humidity_pct": 49,
+                        "dew_point_c": 9.0,
+                        "rain_probability_pct": 2,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 5.1,
+                        "dew_risk": "LOW",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "19.9°C | RH 49% | Rain 2% | Wind 5.1 km/h",
+                    "dewRisk": "LOW",
+                    "tossBias": "UNKNOWN",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "UNKNOWN",
+                    "ppWicketsAvg": null,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": null,
+                    "over16WicketsPerInnings": null,
+                    "over16WicketEventPct": null,
+                    "over16SampleInnings": null,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "UNKNOWN",
+                    "metricSources": {
+                        "fixture": "Cricbuzz via text relay",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
+                        "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
+                        "over16": "Cricsheet 16th-over history insufficient/UNKNOWN",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification UNKNOWN"
+                    },
+                    "venueIntel": {
+                        "status": "NO DATA / UNKNOWN VENUE",
+                        "matches": 0,
+                        "venue_confidence": 0.83
+                    },
+                    "midOversWickets": null,
+                    "midOversWicketsPerMatch": null,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": null,
+                    "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+                    "noBetReasons": [
+                        "NO DATA / UNKNOWN VENUE",
+                        "LIMITED RECENT T20 DATA FOR West Indies Women,1st T20I Takashinga Sports Club , Harare"
+                    ],
+                    "warnings": [
+                        "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-yellow",
+                    "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -2685,7 +3000,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         },
         {
             "teamA": "Malaysia Women",
@@ -2813,7 +3129,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-03T00:48:22.040742+00:00",
+                "capturedAt": "2026-10-03T10:55:08.652290+00:00",
                 "matchDate": "2026-10-03",
                 "report": {
                     "teamA": "Malaysia Women",
@@ -2831,7 +3147,7 @@
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/174881/mlyw-vs-wsmw-1st-match-malaysia-womens-t20i-tri-series-2026",
                     "cricketDataMatchId": null,
                     "liveScoreText": null,
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "LOW/UNKNOWN MARKET TIER",
                     "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
                     "liquidityProxyOnly": true,
@@ -3265,7 +3581,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-yellow",
-                    "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                    "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -3696,7 +4013,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-03T00:48:22.040718+00:00",
+                "capturedAt": "2026-10-03T10:55:08.652281+00:00",
                 "matchDate": "2026-10-03",
                 "report": {
                     "teamA": "South Korea",
@@ -3714,7 +4031,7 @@
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/174108/skr-vs-idn-1st-t20i-indonesia-tour-of-south-korea-2026",
                     "cricketDataMatchId": null,
                     "liveScoreText": null,
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "LOW/UNKNOWN MARKET TIER",
                     "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
                     "liquidityProxyOnly": true,
@@ -4011,7 +4328,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-yellow",
-                    "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                    "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,

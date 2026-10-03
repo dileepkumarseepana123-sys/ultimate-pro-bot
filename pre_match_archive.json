@@ -13886,7 +13886,7 @@
         }
     },
     "bangladesh|sri lanka|2026-10-03": {
-        "capturedAt": "2026-10-03T10:55:08.652258+00:00",
+        "capturedAt": "2026-10-03T16:21:36.832475+00:00",
         "matchDate": "2026-10-03",
         "report": {
             "teamA": "Bangladesh",
@@ -14461,7 +14461,7 @@
         }
     },
     "india|pakistan|2026-10-03": {
-        "capturedAt": "2026-10-03T10:55:08.652268+00:00",
+        "capturedAt": "2026-10-03T16:21:36.832490+00:00",
         "matchDate": "2026-10-03",
         "report": {
             "teamA": "Pakistan",
@@ -15037,7 +15037,7 @@
         }
     },
     "indonesia 1st t20i yeonhui cricket ground incheon|south korea|2026-10-03": {
-        "capturedAt": "2026-10-03T10:55:08.652281+00:00",
+        "capturedAt": "2026-10-03T16:21:36.832505+00:00",
         "matchDate": "2026-10-03",
         "report": {
             "teamA": "South Korea",
@@ -15357,7 +15357,7 @@
         }
     },
     "malaysia women|samoa women|2026-10-03": {
-        "capturedAt": "2026-10-03T10:55:08.652290+00:00",
+        "capturedAt": "2026-10-03T16:21:36.832515+00:00",
         "matchDate": "2026-10-03",
         "report": {
             "teamA": "Malaysia Women",
@@ -15814,7 +15814,7 @@
         }
     },
     "west indies women 1st t20i takashinga sports club harare|zimbabwe women|2026-10-03": {
-        "capturedAt": "2026-10-03T10:55:08.652246+00:00",
+        "capturedAt": "2026-10-03T16:21:36.832530+00:00",
         "matchDate": "2026-10-03",
         "report": {
             "teamA": "Zimbabwe Women",
@@ -15832,7 +15832,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173107/zimw-vs-wiw-1st-t20i-west-indies-women-tour-of-zimbabwe-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -16125,7 +16125,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     }
 }
