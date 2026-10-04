@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-04T00:11:23.696384+00:00",
+    "last_updated": "2026-10-04T03:57:46.980867+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -22,10 +22,10 @@
         "cricscore_calls_this_run": 1,
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
-        "match_info_calls_this_run": 8,
-        "match_info_cache_hits_this_run": 8,
-        "match_info_enriched_rows": 16,
-        "match_info_cache_size": 16,
+        "match_info_calls_this_run": 1,
+        "match_info_cache_hits_this_run": 16,
+        "match_info_enriched_rows": 17,
+        "match_info_cache_size": 17,
         "max_match_info_lookups_per_run": 8,
         "squad_calls_this_run": 0,
         "squad_cache_hits_this_run": 0,
@@ -33,11 +33,11 @@
         "endpoint_calls_this_run": {
             "cricScore": 1,
             "currentMatches": 1,
-            "match_info": 8,
+            "match_info": 1,
             "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 12,
+        "hits_today_reported": 17,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -81,8 +81,8 @@
     },
     "summary": {
         "today_t20_count": 5,
-        "no_bet_or_high_caution": 1,
-        "wait": 4,
+        "no_bet_or_high_caution": 2,
+        "wait": 3,
         "data_clear": 0
     },
     "matches": [
@@ -603,11 +603,11 @@
                 "dew_point_c": 15.5,
                 "rain_probability_pct": 4,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 33.3,
+                "wind_kmh": 33.1,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "18.1°C | RH 85% | Rain 4% | Wind 33.3 km/h",
+            "weatherText": "18.1°C | RH 85% | Rain 4% | Wind 33.1 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "52.04% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -959,11 +959,11 @@
                 "dew_point_c": 8.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 13.7,
+                "wind_kmh": 14.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "25.8°C | RH 34% | Rain 0% | Wind 13.7 km/h",
+            "weatherText": "25.8°C | RH 34% | Rain 0% | Wind 14.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.06% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -1036,7 +1036,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/174123/skr-vs-idn-2nd-t20i-indonesia-tour-of-south-korea-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -1120,7 +1120,325 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-10-04T00:11:23.676216+00:00",
+                "matchDate": "2026-10-04",
+                "report": {
+                    "teamA": "South Korea",
+                    "teamB": "Indonesia,2nd T20I Yeonhui Cricket Ground , Incheon",
+                    "name": "South Korea vs Indonesia,2nd T20I Yeonhui Cricket Ground , Incheon",
+                    "matchType": "T20",
+                    "venue": "2nd T20I Yeonhui Cricket Ground , Incheon",
+                    "dateTimeGMT": "2026-10-04T01:00:00+00:00",
+                    "sourceDate": "2026-10-04",
+                    "matchTimeIST": "2026-10-04T06:30:00+05:30",
+                    "indiaDate": "2026-10-04",
+                    "series": "Indonesia tour of South Korea, 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "supplementalSourceName": null,
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/174123/skr-vs-idn-2nd-t20i-indonesia-tour-of-south-korea-2026",
+                    "cricketDataMatchId": null,
+                    "liveScoreText": null,
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 33,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": 40.0,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 27.3,
+                    "strategyLabel": "INSUFFICIENT DATA",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 17,
+                        "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                        "swingScore": 27.3,
+                        "strategyLabel": "INSUFFICIENT DATA",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 33,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": 40.0,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [],
+                        "swingPenalties": [
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "weather",
+                                "score": 70.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "squadSummary": {
+                        "status": "NO SQUAD DATA",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS DATA LIMITED",
+                        "dataConfidencePct": 14,
+                        "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
+                        "edgeTeam": null,
+                        "edgeStrength": "DATA LIMITED",
+                        "edgeScore": null,
+                        "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                        "conditions": [
+                            "Weather: rain 0%, dew LOW"
+                        ],
+                        "evidence": [],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": null,
+                        "powerplayBaseline": null,
+                        "powerplayWicketsBaseline": null,
+                        "chasingWinPct": null,
+                        "middleOversWicketsPerMatch": null,
+                        "over16AvgRuns": null,
+                        "over16WicketEventPct": null,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "NO SQUAD DATA",
+                        "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 10,
+                        "wins": 4,
+                        "losses": 6,
+                        "winRatePct": 40.0,
+                        "avgMarginImpact": -0.226,
+                        "recent": [
+                            {
+                                "date": "2026-05-17",
+                                "winner": "South Korea",
+                                "won": true,
+                                "venue": "Sano International Cricket Ground 2",
+                                "marginType": "wickets",
+                                "marginValue": 7.0,
+                                "marginImpact": 0.875
+                            },
+                            {
+                                "date": "2026-05-16",
+                                "winner": "South Korea",
+                                "won": true,
+                                "venue": "Sano International Cricket Ground 2",
+                                "marginType": "wickets",
+                                "marginValue": 8.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-05-13",
+                                "winner": "South Korea",
+                                "won": true,
+                                "venue": "Sano International Cricket Ground 2",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": 0.75
+                            },
+                            {
+                                "date": "2026-05-12",
+                                "winner": "Philippines",
+                                "won": false,
+                                "venue": "Sano International Cricket Ground 2",
+                                "marginType": "runs",
+                                "marginValue": 23.0,
+                                "marginImpact": -0.383
+                            },
+                            {
+                                "date": "2026-05-09",
+                                "winner": "Papua New Guinea",
+                                "won": false,
+                                "venue": "Korogi Sports Park, Nisshin",
+                                "marginType": "runs",
+                                "marginValue": 136.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-05-08",
+                                "winner": "Cook Islands",
+                                "won": false,
+                                "venue": "Korogi Sports Park, Nisshin",
+                                "marginType": "wickets",
+                                "marginValue": 9.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2025-07-13",
+                                "winner": "Indonesia",
+                                "won": false,
+                                "venue": "Udayana Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 7.0,
+                                "marginImpact": -0.875
+                            },
+                            {
+                                "date": "2025-07-12",
+                                "winner": "Philippines",
+                                "won": false,
+                                "venue": "Udayana Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 85.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2025-07-12",
+                                "winner": "South Korea",
+                                "won": true,
+                                "venue": "Udayana Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 3.0,
+                                "marginImpact": 0.375
+                            },
+                            {
+                                "date": "2025-07-10",
+                                "winner": "Philippines",
+                                "won": false,
+                                "venue": "Udayana Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 112.0,
+                                "marginImpact": -1.0
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-10-04T10:00:00+09:00",
+                        "temperature_c": 18.6,
+                        "humidity_pct": 70,
+                        "dew_point_c": 13.1,
+                        "rain_probability_pct": 0,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 10.7,
+                        "dew_risk": "LOW",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "18.6°C | RH 70% | Rain 0% | Wind 10.7 km/h",
+                    "dewRisk": "LOW",
+                    "tossBias": "UNKNOWN",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "UNKNOWN",
+                    "ppWicketsAvg": null,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": null,
+                    "over16WicketsPerInnings": null,
+                    "over16WicketEventPct": null,
+                    "over16SampleInnings": null,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "UNKNOWN",
+                    "metricSources": {
+                        "fixture": "Cricbuzz via text relay",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
+                        "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
+                        "over16": "Cricsheet 16th-over history insufficient/UNKNOWN",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification UNKNOWN"
+                    },
+                    "venueIntel": {
+                        "status": "NO DATA / UNKNOWN VENUE",
+                        "matches": 0,
+                        "venue_confidence": 0.87
+                    },
+                    "midOversWickets": null,
+                    "midOversWicketsPerMatch": null,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": null,
+                    "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+                    "noBetReasons": [
+                        "NO DATA / UNKNOWN VENUE",
+                        "LIMITED RECENT T20 DATA FOR Indonesia,2nd T20I Yeonhui Cricket Ground , Incheon"
+                    ],
+                    "warnings": [
+                        "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-yellow",
+                    "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -1283,16 +1601,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-04T10:00:00+09:00",
-                "temperature_c": 18.6,
-                "humidity_pct": 70,
+                "temperature_c": 18.5,
+                "humidity_pct": 71,
                 "dew_point_c": 13.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.7,
+                "wind_kmh": 11.3,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "18.6°C | RH 70% | Rain 0% | Wind 10.7 km/h",
+            "weatherText": "18.5°C | RH 71% | Rain 0% | Wind 11.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -1322,8 +1640,9 @@
             "midOversWicketsPerMatch": null,
             "spinnerWickets7to14": null,
             "spinClassificationPct": null,
-            "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "NO DATA / UNKNOWN VENUE",
                 "LIMITED RECENT T20 DATA FOR Indonesia,2nd T20I Yeonhui Cricket Ground , Incheon"
             ],
@@ -1332,7 +1651,7 @@
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-yellow",
+            "badgeClass": "badge-red",
             "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
         },
         {
@@ -1457,7 +1776,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 50%, dew LOW"
+                    "Weather: rain 30%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -1611,13 +1930,13 @@
                 "temperature_c": 22.6,
                 "humidity_pct": 48,
                 "dew_point_c": 11.0,
-                "rain_probability_pct": 50,
+                "rain_probability_pct": 30,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 14.2,
+                "wind_kmh": 12.3,
                 "dew_risk": "LOW",
                 "rain_risk": "MEDIUM"
             },
-            "weatherText": "22.6°C | RH 48% | Rain 50% | Wind 14.2 km/h",
+            "weatherText": "22.6°C | RH 48% | Rain 30% | Wind 12.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -1782,7 +2101,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 28%, dew LOW"
+                    "Weather: rain 9%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -1926,13 +2245,13 @@
                 "temperature_c": 22.4,
                 "humidity_pct": 37,
                 "dew_point_c": 7.1,
-                "rain_probability_pct": 28,
+                "rain_probability_pct": 9,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 15.7,
+                "wind_kmh": 15.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "22.4°C | RH 37% | Rain 28% | Wind 15.7 km/h",
+            "weatherText": "22.4°C | RH 37% | Rain 9% | Wind 15.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
