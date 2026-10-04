@@ -134,5 +134,141 @@
       ],
       "series_id": "702ce6cb-a551-4aab-961e-0ed1548a3c74"
     }
+  },
+  "38eb5d5a-556c-4d2d-8b39-6257f6e03593": {
+    "cachedAt": "2026-10-04T00:08:56.821923+00:00",
+    "data": {
+      "id": "38eb5d5a-556c-4d2d-8b39-6257f6e03593",
+      "name": "Border vs North West",
+      "matchType": "t20",
+      "status": "Border won by 13 runs",
+      "venue": "Buffalo Park, East London",
+      "date": "2026-09-28",
+      "dateTimeGMT": "2026-09-28T00:00:00",
+      "teams": [
+        "Border",
+        "North West - Eastvaal Renault Dragons"
+      ],
+      "series_id": "3010394d-4de6-4843-8782-f41ecadf17b7"
+    }
+  },
+  "0cd94ff6-61f1-4086-b618-ef192a0a1269": {
+    "cachedAt": "2026-10-04T00:08:56.963882+00:00",
+    "data": {
+      "id": "0cd94ff6-61f1-4086-b618-ef192a0a1269",
+      "name": "South Africa Emerging Players vs KwaZulu-Natal Inland Tuskers, Pool B, CSA T20 Challenge 2026",
+      "matchType": "t20",
+      "status": "Match abandoned due to rain (No toss)",
+      "venue": "LC de Villiers Oval, Pretoria",
+      "date": "2026-09-29",
+      "dateTimeGMT": "2026-09-29T00:00:00",
+      "teams": [
+        "South Africa Emerging Players",
+        "KwaZulu-Natal Inland Tuskers"
+      ],
+      "series_id": "3010394d-4de6-4843-8782-f41ecadf17b7"
+    }
+  },
+  "f7d2bef8-87e1-422f-b446-e27eeab1baf9": {
+    "cachedAt": "2026-10-04T00:08:57.102575+00:00",
+    "data": {
+      "id": "f7d2bef8-87e1-422f-b446-e27eeab1baf9",
+      "name": "Bhutan vs Myanmar, 1st Match,  ICC Mens T20 World Cup Sub Regional Asia Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 05, 01:15 GMT",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-10-05",
+      "dateTimeGMT": "2026-10-05T01:15:00",
+      "teams": [
+        "Bhutan",
+        "Myanmar"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
+  },
+  "611950b4-b02b-496f-be67-8134b73533a8": {
+    "cachedAt": "2026-10-04T00:08:57.245347+00:00",
+    "data": {
+      "id": "611950b4-b02b-496f-be67-8134b73533a8",
+      "name": "Bahrain vs Thailand, 2nd Match,  ICC Mens T20 World Cup Sub Regional Asia Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 05, 01:15 GMT",
+      "venue": "YSD-UKM Cricket Oval, Bangi",
+      "date": "2026-10-05",
+      "dateTimeGMT": "2026-10-05T01:15:00",
+      "teams": [
+        "Bahrain",
+        "Thailand"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
+  },
+  "b2f6d99e-9c3a-4a99-8a3f-c7b166b27f88": {
+    "cachedAt": "2026-10-04T00:08:57.387603+00:00",
+    "data": {
+      "id": "b2f6d99e-9c3a-4a99-8a3f-c7b166b27f88",
+      "name": "Kuwait vs Qatar, 3rd Match,  ICC Mens T20 World Cup Sub Regional Asia Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 05, 06:00 GMT",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-10-05",
+      "dateTimeGMT": "2026-10-05T06:00:00",
+      "teams": [
+        "Kuwait",
+        "Qatar"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
+  },
+  "12c2ca23-f69b-4854-a5fd-60a592c72384": {
+    "cachedAt": "2026-10-04T00:08:57.530440+00:00",
+    "data": {
+      "id": "12c2ca23-f69b-4854-a5fd-60a592c72384",
+      "name": "Qatar vs Thailand, 4th Match,  ICC Mens T20 World Cup Sub Regional Asia Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 06, 01:15 GMT",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-10-06",
+      "dateTimeGMT": "2026-10-06T01:15:00",
+      "teams": [
+        "Qatar",
+        "Thailand"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
+  },
+  "ab266c2d-8bb1-4439-9cd0-b6a3d5d38ceb": {
+    "cachedAt": "2026-10-04T00:08:57.673115+00:00",
+    "data": {
+      "id": "ab266c2d-8bb1-4439-9cd0-b6a3d5d38ceb",
+      "name": "Bahrain vs Bhutan, 5th Match,  ICC Mens T20 World Cup Sub Regional Asia Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 06, 06:00 GMT",
+      "venue": "YSD-UKM Cricket Oval, Bangi",
+      "date": "2026-10-06",
+      "dateTimeGMT": "2026-10-06T06:00:00",
+      "teams": [
+        "Bahrain",
+        "Bhutan"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
+  },
+  "2ecaf0d6-33fb-44c2-92e4-66f6b7a08d86": {
+    "cachedAt": "2026-10-04T00:08:57.806320+00:00",
+    "data": {
+      "id": "2ecaf0d6-33fb-44c2-92e4-66f6b7a08d86",
+      "name": "Kuwait vs Mongolia, 6th Match,  ICC Mens T20 World Cup Sub Regional Asia Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 06, 06:00 GMT",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-10-06",
+      "dateTimeGMT": "2026-10-06T06:00:00",
+      "teams": [
+        "Kuwait",
+        "Mongolia"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
   }
 }
