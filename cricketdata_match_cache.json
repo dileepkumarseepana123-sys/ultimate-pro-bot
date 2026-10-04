@@ -423,5 +423,136 @@
       ],
       "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
     }
+  },
+  "055a0f85-0cc8-4deb-a9f7-7884e6c537e9": {
+    "cachedAt": "2026-10-04T20:45:35.983136+00:00",
+    "data": {
+      "id": "055a0f85-0cc8-4deb-a9f7-7884e6c537e9",
+      "name": "India U19 vs Australia U19, 2nd unofficial Test, Australia U19 tour of India 2026",
+      "status": "Match starts at Oct 05, 04:00 GMT",
+      "venue": "Narendra Modi Stadium B Ground, Ahmedabad",
+      "date": "2026-10-05",
+      "dateTimeGMT": "2026-10-05T04:00:00",
+      "teams": [
+        "India U19",
+        "Australia U19"
+      ],
+      "series_id": "2c08c573-88b9-4c19-bf2d-45efabdaec56"
+    }
+  },
+  "81a1f789-cbdc-4303-8b8c-4e896653943f": {
+    "cachedAt": "2026-10-04T20:45:36.117251+00:00",
+    "data": {
+      "id": "81a1f789-cbdc-4303-8b8c-4e896653943f",
+      "name": "India A vs Australia A, 2nd unofficial Test, Australia A tour of India 2026",
+      "status": "Match drawn",
+      "venue": "Cricket Association Puducherry Siechem Ground, Puducherry",
+      "date": "2026-09-29",
+      "dateTimeGMT": "2026-09-29T00:00:00",
+      "teams": [
+        "India A",
+        "Australia A"
+      ],
+      "series_id": "1db21cd4-5fe2-4a93-a67f-d6d4e65b2ca3"
+    }
+  },
+  "81705c0b-e7e8-412b-a2bc-97c5b8fc93c3": {
+    "cachedAt": "2026-10-04T20:45:36.250009+00:00",
+    "data": {
+      "id": "81705c0b-e7e8-412b-a2bc-97c5b8fc93c3",
+      "name": "South Africa vs Australia, 3rd ODI, Australia tour of South Africa, 2026",
+      "status": "Australia won by 45 runs (DLS Method due to rain)",
+      "venue": "Senwes Park, Potchefstroom",
+      "date": "2026-09-30",
+      "dateTimeGMT": "2026-09-30T00:00:00",
+      "teams": [
+        "South Africa",
+        "Australia"
+      ],
+      "series_id": "0c2de514-946a-4b55-a6e3-4d1d6e892459"
+    }
+  },
+  "8c243510-2e8b-4577-be4e-ec2485e94d1b": {
+    "cachedAt": "2026-10-04T20:45:36.381954+00:00",
+    "data": {
+      "id": "8c243510-2e8b-4577-be4e-ec2485e94d1b",
+      "name": "Cricket South Africa Invitation XI vs Australia, 2 Days Warm-Up Match, Australia tour of South Africa, 2026",
+      "status": "Match drawn",
+      "venue": "Senwes Park, Potchefstroom",
+      "date": "2026-10-03",
+      "dateTimeGMT": "2026-10-03T00:00:00",
+      "teams": [
+        "Cricket South Africa Invitation XI",
+        "Australia"
+      ],
+      "series_id": "0c2de514-946a-4b55-a6e3-4d1d6e892459"
+    }
+  },
+  "99b12355-2d86-490e-ae12-1e1079c3db36": {
+    "cachedAt": "2026-10-04T20:45:36.514634+00:00",
+    "data": {
+      "id": "99b12355-2d86-490e-ae12-1e1079c3db36",
+      "name": "India A vs Australia A, 1st unofficial ODI, Australia A tour of India 2026",
+      "status": "Match starts at Oct 06, 08:30 GMT",
+      "venue": "Cricket Association Puducherry Siechem Ground, Puducherry",
+      "date": "2026-10-06",
+      "dateTimeGMT": "2026-10-06T08:30:00",
+      "teams": [
+        "India A",
+        "Australia A"
+      ],
+      "series_id": "1db21cd4-5fe2-4a93-a67f-d6d4e65b2ca3"
+    }
+  },
+  "785c8271-f338-4263-a991-d2898460132e": {
+    "cachedAt": "2026-10-04T20:45:36.646297+00:00",
+    "data": {
+      "id": "785c8271-f338-4263-a991-d2898460132e",
+      "name": "Bhutan vs Mongolia, 8th Match,  ICC Mens T20 World Cup Sub Regional Asia Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 08, 01:15 GMT",
+      "venue": "YSD-UKM Cricket Oval, Bangi",
+      "date": "2026-10-08",
+      "dateTimeGMT": "2026-10-08T01:15:00",
+      "teams": [
+        "Bhutan",
+        "Mongolia"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
+  },
+  "f282a0cb-51d5-4189-b067-aa50683d4f19": {
+    "cachedAt": "2026-10-04T20:45:36.777676+00:00",
+    "data": {
+      "id": "f282a0cb-51d5-4189-b067-aa50683d4f19",
+      "name": "Bahrain vs Myanmar, 9th Match,  ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 08, 01:15 GMT",
+      "venue": "Selangor Turf Club, Kuala Lumpur",
+      "date": "2026-10-08",
+      "dateTimeGMT": "2026-10-08T01:15:00",
+      "teams": [
+        "Bahrain",
+        "Myanmar"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
+  },
+  "586c0a37-7512-44c4-9e60-356a541d0ebb": {
+    "cachedAt": "2026-10-04T20:45:36.908890+00:00",
+    "data": {
+      "id": "586c0a37-7512-44c4-9e60-356a541d0ebb",
+      "name": "Kuwait vs Thailand, 7th Match,  ICC Mens T20 World Cup Sub Regional Asia Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 08, 01:15 GMT",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-10-08",
+      "dateTimeGMT": "2026-10-08T01:15:00",
+      "teams": [
+        "Kuwait",
+        "Thailand"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
   }
 }
