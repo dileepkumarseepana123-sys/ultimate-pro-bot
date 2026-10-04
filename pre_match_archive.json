@@ -16130,7 +16130,7 @@
         }
     },
     "indonesia 2nd t20i yeonhui cricket ground incheon|south korea|2026-10-04": {
-        "capturedAt": "2026-10-04T00:11:23.676216+00:00",
+        "capturedAt": "2026-10-04T14:08:40.499895+00:00",
         "matchDate": "2026-10-04",
         "report": {
             "teamA": "South Korea",
@@ -16148,7 +16148,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/174123/skr-vs-idn-2nd-t20i-indonesia-tour-of-south-korea-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -16445,7 +16445,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "boland|kwazulu natal inland tuskers|2026-10-04": {
@@ -17097,7 +17098,7 @@
         }
     },
     "lions|warriors|2026-10-04": {
-        "capturedAt": "2026-10-04T03:57:46.959173+00:00",
+        "capturedAt": "2026-10-04T14:08:40.499839+00:00",
         "matchDate": "2026-10-04",
         "report": {
             "teamA": "Warriors",
@@ -17375,7 +17376,7 @@
                     "Two-way venue: 52.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.26 wickets/match",
                     "16th-over baseline: 8.0 runs; wicket in 34.6% of sampled innings",
-                    "Weather: rain 4%, dew MEDIUM"
+                    "Weather: rain 18%, dew MEDIUM"
                 ],
                 "evidence": [
                     "Elo: Warriors 1483.2 vs Lions 1571.4",
@@ -17612,15 +17613,15 @@
                 "status": "OK",
                 "local_time": "2026-10-04T18:00:00+02:00",
                 "temperature_c": 18.1,
-                "humidity_pct": 85,
-                "dew_point_c": 15.5,
-                "rain_probability_pct": 4,
+                "humidity_pct": 83,
+                "dew_point_c": 15.1,
+                "rain_probability_pct": 18,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 33.1,
+                "wind_kmh": 31.7,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "18.1°C | RH 85% | Rain 4% | Wind 33.1 km/h",
+            "weatherText": "18.1°C | RH 83% | Rain 18% | Wind 31.7 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "52.04% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -17678,7 +17679,7 @@
         }
     },
     "south africa emerging players|western province|2026-10-04": {
-        "capturedAt": "2026-10-04T03:57:46.959202+00:00",
+        "capturedAt": "2026-10-04T14:08:40.499880+00:00",
         "matchDate": "2026-10-04",
         "report": {
             "teamA": "Western Province",
@@ -17971,16 +17972,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-04T18:00:00+02:00",
-                "temperature_c": 25.8,
-                "humidity_pct": 34,
-                "dew_point_c": 8.6,
+                "temperature_c": 25.5,
+                "humidity_pct": 33,
+                "dew_point_c": 8.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 14.2,
+                "wind_kmh": 12.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "25.8°C | RH 34% | Rain 0% | Wind 14.2 km/h",
+            "weatherText": "25.5°C | RH 33% | Rain 0% | Wind 12.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.06% Chasing Wins",
             "tossTrend": "Historical venue trend",
