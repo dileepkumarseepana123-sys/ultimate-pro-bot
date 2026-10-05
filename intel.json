@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-05T12:50:48.279741+00:00",
+    "last_updated": "2026-10-05T15:45:39.961915+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -36,7 +36,7 @@
             "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 76,
+        "hits_today_reported": 80,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -184,7 +184,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-05T06:54:46.477121+00:00",
+                "capturedAt": "2026-10-05T12:50:48.253465+00:00",
                 "matchDate": "2026-10-05",
                 "report": {
                     "teamA": "Zimbabwe Women",
@@ -202,7 +202,7 @@
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173113/zimw-vs-wiw-2nd-t20i-west-indies-women-tour-of-zimbabwe-2026",
                     "cricketDataMatchId": null,
                     "liveScoreText": null,
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
                     "marketVisibility": "PREMIUM / LIKELY LISTED",
                     "liquidityProxyOnly": true,
@@ -495,7 +495,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-yellow",
-                    "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                    "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -1498,7 +1499,7 @@
                     "Two-way venue: 53.6% chasing wins",
                     "Overs 7-14 wicket pressure: 4.63 wickets/match",
                     "16th-over baseline: 6.0 runs; wicket in 35.6% of sampled innings",
-                    "Weather: rain 10%, dew HIGH"
+                    "Weather: rain 12%, dew HIGH"
                 ],
                 "evidence": [
                     "Elo: Bhutan 1401.6 vs Myanmar 1303.7",
@@ -1737,13 +1738,13 @@
                 "temperature_c": 27.0,
                 "humidity_pct": 87,
                 "dew_point_c": 24.6,
-                "rain_probability_pct": 10,
+                "rain_probability_pct": 12,
                 "precipitation_mm": 0.0,
                 "wind_kmh": 2.2,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.0°C | RH 87% | Rain 10% | Wind 2.2 km/h",
+            "weatherText": "27.0°C | RH 87% | Rain 12% | Wind 2.2 km/h",
             "dewRisk": "HIGH",
             "tossBias": "53.57% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -3672,7 +3673,7 @@
                     "Two-way venue: 53.6% chasing wins",
                     "Overs 7-14 wicket pressure: 4.63 wickets/match",
                     "16th-over baseline: 6.0 runs; wicket in 35.6% of sampled innings",
-                    "Weather: rain 88%, dew LOW"
+                    "Weather: rain 80%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Kuwait 1563.1 vs Qatar 1568.4",
@@ -3909,15 +3910,15 @@
                 "status": "OK",
                 "local_time": "2026-10-05T14:00:00+08:00",
                 "temperature_c": 29.9,
-                "humidity_pct": 71,
-                "dew_point_c": 24.0,
-                "rain_probability_pct": 88,
+                "humidity_pct": 70,
+                "dew_point_c": 23.8,
+                "rain_probability_pct": 80,
                 "precipitation_mm": 1.1,
                 "wind_kmh": 7.4,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "29.9°C | RH 71% | Rain 88% | Wind 7.4 km/h",
+            "weatherText": "29.9°C | RH 70% | Rain 80% | Wind 7.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.57% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -4323,7 +4324,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 4%, dew LOW"
+                    "Weather: rain 15%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -4374,15 +4375,15 @@
                 "status": "OK",
                 "local_time": "2026-10-05T13:00:00+02:00",
                 "temperature_c": 21.6,
-                "humidity_pct": 46,
-                "dew_point_c": 9.5,
-                "rain_probability_pct": 4,
+                "humidity_pct": 44,
+                "dew_point_c": 8.9,
+                "rain_probability_pct": 15,
                 "precipitation_mm": 0.0,
                 "wind_kmh": 11.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "21.6°C | RH 46% | Rain 4% | Wind 11.0 km/h",
+            "weatherText": "21.6°C | RH 44% | Rain 15% | Wind 11.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -4528,7 +4529,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-05T10:45:00.112745+00:00",
+                "capturedAt": "2026-10-05T12:50:48.253445+00:00",
                 "matchDate": "2026-10-05",
                 "report": {
                     "teamA": "South Korea",
