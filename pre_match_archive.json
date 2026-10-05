@@ -20355,7 +20355,7 @@
         }
     },
     "west indies women 2nd t20i takashinga sports club harare|zimbabwe women|2026-10-05": {
-        "capturedAt": "2026-10-05T00:52:39.900913+00:00",
+        "capturedAt": "2026-10-05T06:54:46.477121+00:00",
         "matchDate": "2026-10-05",
         "report": {
             "teamA": "Zimbabwe Women",
@@ -20616,16 +20616,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-05T12:00:00+02:00",
-                "temperature_c": 21.0,
-                "humidity_pct": 66,
-                "dew_point_c": 14.5,
+                "temperature_c": 20.7,
+                "humidity_pct": 68,
+                "dew_point_c": 14.6,
                 "rain_probability_pct": 7,
                 "precipitation_mm": 0.0,
                 "wind_kmh": 17.5,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "21.0°C | RH 66% | Rain 7% | Wind 17.5 km/h",
+            "weatherText": "20.7°C | RH 68% | Rain 7% | Wind 17.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -20670,7 +20670,7 @@
         }
     },
     "limpopo|south western districts|2026-10-05": {
-        "capturedAt": "2026-10-05T00:52:39.900926+00:00",
+        "capturedAt": "2026-10-05T06:54:46.477144+00:00",
         "matchDate": "2026-10-05",
         "report": {
             "teamA": "Limpopo",
@@ -20794,7 +20794,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 22%, dew LOW"
+                    "Weather: rain 4%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -20844,16 +20844,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-05T13:00:00+02:00",
-                "temperature_c": 20.2,
-                "humidity_pct": 51,
-                "dew_point_c": 9.6,
-                "rain_probability_pct": 22,
+                "temperature_c": 20.5,
+                "humidity_pct": 49,
+                "dew_point_c": 9.5,
+                "rain_probability_pct": 4,
                 "precipitation_mm": 0.0,
                 "wind_kmh": 11.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "20.2°C | RH 51% | Rain 22% | Wind 11.1 km/h",
+            "weatherText": "20.5°C | RH 49% | Rain 4% | Wind 11.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",

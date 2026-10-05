@@ -687,5 +687,141 @@
       ],
       "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
     }
+  },
+  "e5cb5069-ff48-4161-ad48-57f92467dd67": {
+    "cachedAt": "2026-10-05T06:53:00.986092+00:00",
+    "data": {
+      "id": "e5cb5069-ff48-4161-ad48-57f92467dd67",
+      "name": "Mumbai vs Tamil Nadu, Elite Group D, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 11, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T04:00:00",
+      "teams": [
+        "Mumbai",
+        "Tamil Nadu"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "18241534-1dd0-4b4e-844d-4f524a288dcc": {
+    "cachedAt": "2026-10-05T06:53:01.152866+00:00",
+    "data": {
+      "id": "18241534-1dd0-4b4e-844d-4f524a288dcc",
+      "name": "Railways vs Uttarakhand, Elite Group D, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 11, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T04:00:00",
+      "teams": [
+        "Railways",
+        "Uttarakhand"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "24ed6f2b-e9ba-40d2-b3f1-38e7e961133a": {
+    "cachedAt": "2026-10-05T06:53:01.304405+00:00",
+    "data": {
+      "id": "24ed6f2b-e9ba-40d2-b3f1-38e7e961133a",
+      "name": "Arunachal Pradesh vs Nagaland, Plate, Ranji Trophy Plate 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 11, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T04:00:00",
+      "teams": [
+        "Arunachal Pradesh",
+        "Nagaland"
+      ],
+      "series_id": "df672a9f-a5eb-4526-901c-1a5e1d7d84a4"
+    }
+  },
+  "718cd34d-a825-4455-ae95-2f9d55dac416": {
+    "cachedAt": "2026-10-05T06:53:01.455089+00:00",
+    "data": {
+      "id": "718cd34d-a825-4455-ae95-2f9d55dac416",
+      "name": "Hyderabad vs Tripura, Elite Group B, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 11, 03:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T04:00:00",
+      "teams": [
+        "Hyderabad",
+        "Tripura"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "f32f9aad-f26e-4c2d-8dec-2e7e45ba0e82": {
+    "cachedAt": "2026-10-05T06:53:01.606470+00:00",
+    "data": {
+      "id": "f32f9aad-f26e-4c2d-8dec-2e7e45ba0e82",
+      "name": "Sikkim vs Meghalaya, Plate, Ranji Trophy Plate 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 11, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T04:00:00",
+      "teams": [
+        "Sikkim",
+        "Meghalaya"
+      ],
+      "series_id": "df672a9f-a5eb-4526-901c-1a5e1d7d84a4"
+    }
+  },
+  "3cd0f8b3-e9b2-4dbc-a9cd-1913eeb93618": {
+    "cachedAt": "2026-10-05T06:53:01.757620+00:00",
+    "data": {
+      "id": "3cd0f8b3-e9b2-4dbc-a9cd-1913eeb93618",
+      "name": "Vidarbha vs Puducherry, Elite Group A, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 11, 03:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T04:00:00",
+      "teams": [
+        "Vidarbha",
+        "Puducherry"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "6431c597-e765-4cc2-ad56-12cbc1819d0f": {
+    "cachedAt": "2026-10-05T06:53:01.908850+00:00",
+    "data": {
+      "id": "6431c597-e765-4cc2-ad56-12cbc1819d0f",
+      "name": "Haryana vs Himachal Pradesh, Elite Group D, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 11, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T04:00:00",
+      "teams": [
+        "Haryana",
+        "Himachal Pradesh"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "f2a1eeb2-0280-4ca4-aeb0-0683d6f45821": {
+    "cachedAt": "2026-10-05T06:53:02.062276+00:00",
+    "data": {
+      "id": "f2a1eeb2-0280-4ca4-aeb0-0683d6f45821",
+      "name": "Jammu And Kashmir vs Madhya Pradesh, Elite Group A, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 11, 03:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T04:00:00",
+      "teams": [
+        "Jammu And Kashmir",
+        "Madhya Pradesh"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
   }
 }
