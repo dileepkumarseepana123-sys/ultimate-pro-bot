@@ -823,5 +823,39 @@
       ],
       "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
     }
+  },
+  "8775724e-9bb6-4494-91ca-7822c201aec5": {
+    "cachedAt": "2026-10-05T10:43:54.003209+00:00",
+    "data": {
+      "id": "8775724e-9bb6-4494-91ca-7822c201aec5",
+      "name": "India vs West Indies, 3rd T20I, West Indies tour of India, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 11, 13:30 GMT",
+      "venue": "Holkar Stadium, Indore",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T13:30:00",
+      "teams": [
+        "India",
+        "West Indies"
+      ],
+      "series_id": "702ce6cb-a551-4aab-961e-0ed1548a3c74"
+    }
+  },
+  "0cb2b44c-69b3-4c50-b1a5-9af598ffecaf": {
+    "cachedAt": "2026-10-05T10:43:54.183769+00:00",
+    "data": {
+      "id": "0cb2b44c-69b3-4c50-b1a5-9af598ffecaf",
+      "name": "Pakistan vs Sri Lanka, 2nd T20I, Sri Lanka tour of Pakistan, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 11, 15:00 GMT",
+      "venue": "Rawalpindi Cricket Stadium, Rawalpindi",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T15:00:00",
+      "teams": [
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "series_id": "a67cb0af-300c-4449-8e80-e006301e5706"
+    }
   }
 }
