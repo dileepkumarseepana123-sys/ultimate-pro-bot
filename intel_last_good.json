@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-04T20:49:08.455838+00:00",
+    "last_updated": "2026-10-05T00:52:39.919896+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -23,22 +23,21 @@
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
         "match_info_calls_this_run": 8,
-        "match_info_cache_hits_this_run": 24,
-        "match_info_enriched_rows": 32,
-        "match_info_cache_size": 33,
+        "match_info_cache_hits_this_run": 31,
+        "match_info_enriched_rows": 39,
+        "match_info_cache_size": 41,
         "max_match_info_lookups_per_run": 8,
-        "squad_calls_this_run": 3,
-        "squad_cache_hits_this_run": 0,
+        "squad_calls_this_run": 0,
+        "squad_cache_hits_this_run": 3,
         "squad_cache_size": 3,
         "endpoint_calls_this_run": {
             "cricScore": 1,
             "currentMatches": 1,
             "match_info": 8,
-            "matches": 2,
-            "match_squad": 3
+            "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 42,
+        "hits_today_reported": 54,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -71,13 +70,13 @@
         "current_matches_rows": 6,
         "current_matches_t20_rows": 3,
         "current_matches_today_t20_rows": 0,
-        "cricscore_rows": 52,
-        "cricscore_t20_rows": 16,
+        "cricscore_rows": 51,
+        "cricscore_t20_rows": 15,
         "cricscore_today_t20_rows": 3,
         "cricketdata_rows": 50,
         "cricketdata_t20_rows": 16,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 44,
+        "merged_candidates": 43,
         "final_reports": 7
     },
     "summary": {
@@ -346,16 +345,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-05T12:00:00+02:00",
-                "temperature_c": 21.4,
-                "humidity_pct": 65,
-                "dew_point_c": 14.4,
+                "temperature_c": 21.0,
+                "humidity_pct": 66,
+                "dew_point_c": 14.5,
                 "rain_probability_pct": 7,
-                "precipitation_mm": 0.2,
-                "wind_kmh": 18.8,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 17.5,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "21.4°C | RH 65% | Rain 7% | Wind 18.8 km/h",
+            "weatherText": "21.0°C | RH 66% | Rain 7% | Wind 17.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -653,7 +652,7 @@
                     "Two-way venue: 53.6% chasing wins",
                     "Overs 7-14 wicket pressure: 4.63 wickets/match",
                     "16th-over baseline: 6.0 runs; wicket in 35.6% of sampled innings",
-                    "Weather: rain 8%, dew HIGH"
+                    "Weather: rain 20%, dew HIGH"
                 ],
                 "evidence": [
                     "Elo: Bhutan 1401.6 vs Myanmar 1303.7",
@@ -889,16 +888,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-05T09:15:00+08:00",
-                "temperature_c": 26.6,
-                "humidity_pct": 85,
+                "temperature_c": 26.8,
+                "humidity_pct": 84,
                 "dew_point_c": 24.0,
-                "rain_probability_pct": 8,
+                "rain_probability_pct": 20,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 1.9,
+                "wind_kmh": 4.1,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.6°C | RH 85% | Rain 8% | Wind 1.9 km/h",
+            "weatherText": "26.8°C | RH 84% | Rain 20% | Wind 4.1 km/h",
             "dewRisk": "HIGH",
             "tossBias": "53.57% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -1030,14 +1029,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "STRONG GAP",
-            "swingScore": 49.5,
+            "swingScore": 47.8,
             "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 67,
                 "swingProfile": "STRONG SKILL-GAP CAUTION",
-                "swingScore": 49.5,
+                "swingScore": 47.8,
                 "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
                 "competitiveBalance": {
                     "label": "STRONG GAP",
@@ -1095,8 +1094,7 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 54.5% chasing wins",
-                    "Middle-overs wicket volatility: 4.14 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.14 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
                     "Strong skill gap reduces reliable two-way movement",
@@ -1120,7 +1118,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 90.0,
+                        "score": 70.0,
                         "weight": 0.1
                     },
                     {
@@ -1186,7 +1184,7 @@
                     "Two-way venue: 54.5% chasing wins",
                     "Overs 7-14 wicket pressure: 4.14 wickets/match",
                     "16th-over baseline: 6.0 runs; wicket in 25.0% of sampled innings",
-                    "Weather: rain 12%, dew MEDIUM"
+                    "Weather: rain 15%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Bahrain 1626.3 vs Thailand 1395.2",
@@ -1422,17 +1420,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-05T09:15:00+08:00",
-                "temperature_c": 30.4,
-                "humidity_pct": 74,
-                "dew_point_c": 25.3,
-                "rain_probability_pct": 12,
+                "temperature_c": 30.3,
+                "humidity_pct": 73,
+                "dew_point_c": 25.0,
+                "rain_probability_pct": 15,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 4.2,
-                "dew_risk": "MEDIUM",
+                "wind_kmh": 9.2,
+                "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "30.4°C | RH 74% | Rain 12% | Wind 4.2 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "30.3°C | RH 73% | Rain 15% | Wind 9.2 km/h",
+            "dewRisk": "LOW",
             "tossBias": "54.55% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "31.72",
@@ -1479,7 +1477,6 @@
             "noBetReasons": [],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
@@ -1765,7 +1762,7 @@
                     "Two-way venue: 53.6% chasing wins",
                     "Overs 7-14 wicket pressure: 4.63 wickets/match",
                     "16th-over baseline: 6.0 runs; wicket in 35.6% of sampled innings",
-                    "Weather: rain 65%, dew LOW"
+                    "Weather: rain 86%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Kuwait 1563.1 vs Qatar 1568.4",
@@ -2001,16 +1998,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-05T14:00:00+08:00",
-                "temperature_c": 29.0,
-                "humidity_pct": 69,
-                "dew_point_c": 22.9,
-                "rain_probability_pct": 65,
-                "precipitation_mm": 0.3,
-                "wind_kmh": 11.9,
+                "temperature_c": 31.2,
+                "humidity_pct": 65,
+                "dew_point_c": 23.7,
+                "rain_probability_pct": 86,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 7.0,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "29.0°C | RH 69% | Rain 65% | Wind 11.9 km/h",
+            "weatherText": "31.2°C | RH 65% | Rain 86% | Wind 7.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.57% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -2328,16 +2325,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-05T10:00:00+09:00",
-                "temperature_c": 17.7,
+                "temperature_c": 17.5,
                 "humidity_pct": 70,
-                "dew_point_c": 12.1,
+                "dew_point_c": 12.0,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 21.9,
+                "wind_kmh": 20.5,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "17.7°C | RH 70% | Rain 0% | Wind 21.9 km/h",
+            "weatherText": "17.5°C | RH 70% | Rain 0% | Wind 20.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -2502,7 +2499,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 12%, dew LOW"
+                    "Weather: rain 20%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -2643,16 +2640,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-05T14:00:00+09:00",
-                "temperature_c": 19.0,
+                "temperature_c": 18.9,
                 "humidity_pct": 65,
-                "dew_point_c": 12.3,
-                "rain_probability_pct": 12,
+                "dew_point_c": 12.2,
+                "rain_probability_pct": 20,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 21.7,
+                "wind_kmh": 21.3,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "19.0°C | RH 65% | Rain 12% | Wind 21.7 km/h",
+            "weatherText": "18.9°C | RH 65% | Rain 20% | Wind 21.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -2817,7 +2814,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 21%, dew LOW"
+                    "Weather: rain 22%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -2867,16 +2864,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-05T13:00:00+02:00",
-                "temperature_c": 20.5,
-                "humidity_pct": 52,
-                "dew_point_c": 10.2,
-                "rain_probability_pct": 21,
-                "precipitation_mm": 0.1,
+                "temperature_c": 20.2,
+                "humidity_pct": 51,
+                "dew_point_c": 9.6,
+                "rain_probability_pct": 22,
+                "precipitation_mm": 0.0,
                 "wind_kmh": 11.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "20.5°C | RH 52% | Rain 21% | Wind 11.1 km/h",
+            "weatherText": "20.2°C | RH 51% | Rain 22% | Wind 11.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",

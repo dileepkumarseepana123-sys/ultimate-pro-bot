@@ -554,5 +554,138 @@
       ],
       "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
     }
+  },
+  "2566be70-33cd-42a7-85b7-02694e0754e9": {
+    "cachedAt": "2026-10-05T00:50:56.556998+00:00",
+    "data": {
+      "id": "2566be70-33cd-42a7-85b7-02694e0754e9",
+      "name": "Jammu and Kashmir vs Rest of India, Irani Cup, Irani Cup 2026",
+      "matchType": "test",
+      "status": "Rest of India won by 167 runs",
+      "venue": "Sher-i-Kashmir Stadium, Srinagar",
+      "date": "2026-10-01",
+      "dateTimeGMT": "2026-10-01T00:00:00",
+      "teams": [
+        "Jammu and Kashmir",
+        "Rest of India"
+      ],
+      "series_id": "fa12505e-e088-4d4f-b087-2f290ba25e40"
+    }
+  },
+  "e0230ea8-d9c8-4109-bc7c-ba74b6652a63": {
+    "cachedAt": "2026-10-05T00:50:56.730748+00:00",
+    "data": {
+      "id": "e0230ea8-d9c8-4109-bc7c-ba74b6652a63",
+      "name": "Malaysia Women vs Samoa Women, 1st Match, Malaysia Womens T20I Tri-Series 2026",
+      "matchType": "t20",
+      "status": "Malaysia Women won by 8 wkts",
+      "venue": "Selangor Turf Club, Kuala Lumpur",
+      "date": "2026-10-03",
+      "dateTimeGMT": "2026-10-03T00:00:00",
+      "teams": [
+        "Malaysia Women",
+        "Samoa Women"
+      ],
+      "series_id": "31a62a32-3501-4a53-8a0b-d083a5135410"
+    }
+  },
+  "45e00e94-2219-4348-8b0c-01184813f3fc": {
+    "cachedAt": "2026-10-05T00:50:56.906253+00:00",
+    "data": {
+      "id": "45e00e94-2219-4348-8b0c-01184813f3fc",
+      "name": "India A vs Australia A, 2nd unofficial ODI, Australia A tour of India 2026",
+      "status": "Match starts at Oct 09, 03:30 GMT",
+      "venue": "Cricket Association Puducherry Siechem Ground, Puducherry",
+      "date": "2026-10-09",
+      "dateTimeGMT": "2026-10-09T03:30:00",
+      "teams": [
+        "India A",
+        "Australia A"
+      ],
+      "series_id": "1db21cd4-5fe2-4a93-a67f-d6d4e65b2ca3"
+    }
+  },
+  "51482a19-a41a-494e-82a0-3714b5a77360": {
+    "cachedAt": "2026-10-05T00:50:57.081381+00:00",
+    "data": {
+      "id": "51482a19-a41a-494e-82a0-3714b5a77360",
+      "name": "South Africa vs Australia, 1st Test, Australia tour of South Africa, 2026",
+      "status": "Match starts at Oct 09, 07:30 GMT",
+      "venue": "Kingsmead, Durban",
+      "date": "2026-10-09",
+      "dateTimeGMT": "2026-10-09T07:30:00",
+      "teams": [
+        "South Africa",
+        "Australia"
+      ],
+      "series_id": "0c2de514-946a-4b55-a6e3-4d1d6e892459"
+    }
+  },
+  "842f3c1d-b2c9-4945-b09b-7b12cb1b5ab8": {
+    "cachedAt": "2026-10-05T00:50:57.255632+00:00",
+    "data": {
+      "id": "842f3c1d-b2c9-4945-b09b-7b12cb1b5ab8",
+      "name": "India A vs Australia A, 3rd unofficial ODI, Australia A tour of India 2026",
+      "status": "Match starts at Oct 11, 03:30 GMT",
+      "venue": "Cricket Association Puducherry Siechem Ground, Puducherry",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T03:30:00",
+      "teams": [
+        "India A",
+        "Australia A"
+      ],
+      "series_id": "1db21cd4-5fe2-4a93-a67f-d6d4e65b2ca3"
+    }
+  },
+  "a1205eb5-b45b-498e-8b43-99dc6f7442f9": {
+    "cachedAt": "2026-10-05T00:50:57.433623+00:00",
+    "data": {
+      "id": "a1205eb5-b45b-498e-8b43-99dc6f7442f9",
+      "name": "Mizoram vs Manipur, Plate, Ranji Trophy Plate 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 11, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T04:00:00",
+      "teams": [
+        "Mizoram",
+        "Manipur"
+      ],
+      "series_id": "df672a9f-a5eb-4526-901c-1a5e1d7d84a4"
+    }
+  },
+  "4c4e5dad-1be1-4195-a382-5ede45c27475": {
+    "cachedAt": "2026-10-05T00:50:57.607068+00:00",
+    "data": {
+      "id": "4c4e5dad-1be1-4195-a382-5ede45c27475",
+      "name": "Services vs Maharashtra, Elite Group C, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 11, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T04:00:00",
+      "teams": [
+        "Services",
+        "Maharashtra"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "1d4ed84f-0d11-4ece-a300-5a5e001ed510": {
+    "cachedAt": "2026-10-05T00:50:57.779376+00:00",
+    "data": {
+      "id": "1d4ed84f-0d11-4ece-a300-5a5e001ed510",
+      "name": "Rajasthan vs Tamil Nadu, Elite Group D, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 11, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T04:00:00",
+      "teams": [
+        "Rajasthan",
+        "Tamil Nadu"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
   }
 }
