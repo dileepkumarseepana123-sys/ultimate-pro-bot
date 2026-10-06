@@ -20901,7 +20901,7 @@
         }
     },
     "qatar|thailand|2026-10-06": {
-        "capturedAt": "2026-10-05T18:50:18.999362+00:00",
+        "capturedAt": "2026-10-06T00:52:16.193606+00:00",
         "matchDate": "2026-10-06",
         "report": {
             "teamA": "Qatar",
@@ -21097,7 +21097,7 @@
                     "Two-way venue: 53.6% chasing wins",
                     "Overs 7-14 wicket pressure: 4.63 wickets/match",
                     "16th-over baseline: 6.0 runs; wicket in 35.6% of sampled innings",
-                    "Weather: rain 11%, dew HIGH"
+                    "Weather: rain 18%, dew HIGH"
                 ],
                 "evidence": [
                     "Elo: Qatar 1568.4 vs Thailand 1395.2",
@@ -21332,16 +21332,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-06T09:15:00+08:00",
-                "temperature_c": 26.6,
-                "humidity_pct": 85,
-                "dew_point_c": 23.9,
-                "rain_probability_pct": 11,
+                "temperature_c": 26.0,
+                "humidity_pct": 90,
+                "dew_point_c": 24.2,
+                "rain_probability_pct": 18,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.7,
+                "wind_kmh": 1.4,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.6°C | RH 85% | Rain 11% | Wind 2.7 km/h",
+            "weatherText": "26.0°C | RH 90% | Rain 18% | Wind 1.4 km/h",
             "dewRisk": "HIGH",
             "tossBias": "53.57% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -21399,7 +21399,7 @@
         }
     },
     "bahrain|bhutan|2026-10-06": {
-        "capturedAt": "2026-10-05T18:50:18.999371+00:00",
+        "capturedAt": "2026-10-06T00:52:16.193639+00:00",
         "matchDate": "2026-10-06",
         "report": {
             "teamA": "Bahrain",
@@ -21657,7 +21657,7 @@
                     "Two-way venue: 54.5% chasing wins",
                     "Overs 7-14 wicket pressure: 4.14 wickets/match",
                     "16th-over baseline: 6.0 runs; wicket in 25.0% of sampled innings",
-                    "Weather: rain 94%, dew LOW"
+                    "Weather: rain 98%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Bahrain 1626.3 vs Bhutan 1401.6",
@@ -21893,16 +21893,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-06T14:00:00+08:00",
-                "temperature_c": 30.3,
-                "humidity_pct": 74,
-                "dew_point_c": 25.2,
-                "rain_probability_pct": 94,
-                "precipitation_mm": 0.3,
-                "wind_kmh": 13.1,
+                "temperature_c": 29.9,
+                "humidity_pct": 77,
+                "dew_point_c": 25.4,
+                "rain_probability_pct": 98,
+                "precipitation_mm": 0.4,
+                "wind_kmh": 13.9,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "30.3°C | RH 74% | Rain 94% | Wind 13.1 km/h",
+            "weatherText": "29.9°C | RH 77% | Rain 98% | Wind 13.9 km/h",
             "dewRisk": "LOW",
             "tossBias": "54.55% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -21960,7 +21960,7 @@
         }
     },
     "kuwait|mongolia|2026-10-06": {
-        "capturedAt": "2026-10-05T18:50:18.999377+00:00",
+        "capturedAt": "2026-10-06T00:52:16.193670+00:00",
         "matchDate": "2026-10-06",
         "report": {
             "teamA": "Kuwait",
@@ -22019,14 +22019,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "STRONG GAP",
-            "swingScore": 49.0,
+            "swingScore": 35.0,
             "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 67,
                 "swingProfile": "STRONG SKILL-GAP CAUTION",
-                "swingScore": 49.0,
+                "swingScore": 35.0,
                 "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
                 "competitiveBalance": {
                     "label": "STRONG GAP",
@@ -22068,6 +22068,7 @@
                     "Middle-overs wicket volatility: 4.63 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
+                    "High rain-interruption risk",
                     "Strong skill gap reduces reliable two-way movement",
                     "Liquidity/market depth is not verified"
                 ],
@@ -22089,7 +22090,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 70.0,
+                        "score": 20.0,
                         "weight": 0.1
                     },
                     {
@@ -22155,7 +22156,7 @@
                     "Two-way venue: 53.6% chasing wins",
                     "Overs 7-14 wicket pressure: 4.63 wickets/match",
                     "16th-over baseline: 6.0 runs; wicket in 35.6% of sampled innings",
-                    "Weather: rain 59%, dew LOW"
+                    "Weather: rain 86%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Kuwait 1563.1 vs Mongolia 1358.0",
@@ -22390,16 +22391,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-06T14:00:00+08:00",
-                "temperature_c": 32.5,
-                "humidity_pct": 62,
-                "dew_point_c": 24.2,
-                "rain_probability_pct": 59,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 5.2,
+                "temperature_c": 32.1,
+                "humidity_pct": 64,
+                "dew_point_c": 24.5,
+                "rain_probability_pct": 86,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 3.6,
                 "dew_risk": "LOW",
-                "rain_risk": "MEDIUM"
+                "rain_risk": "HIGH"
             },
-            "weatherText": "32.5°C | RH 62% | Rain 59% | Wind 5.2 km/h",
+            "weatherText": "32.1°C | RH 64% | Rain 86% | Wind 3.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.57% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -22444,7 +22445,9 @@
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.73,
             "verdict": "🔴 PRE-TOSS POOR FIT / ONE-SIDED RISK",
-            "noBetReasons": [],
+            "noBetReasons": [
+                "HIGH RAIN INTERRUPTION RISK"
+            ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE",
@@ -22455,7 +22458,7 @@
         }
     },
     "india|west indies 1st t20i bharat ratna shri atal bihari vajpayee ekana cricket stadium lucknow|2026-10-06": {
-        "capturedAt": "2026-10-05T18:50:18.999389+00:00",
+        "capturedAt": "2026-10-06T00:52:16.193703+00:00",
         "matchDate": "2026-10-06",
         "report": {
             "teamA": "India",
@@ -22597,7 +22600,7 @@
                     "Two-way venue: 57.1% chasing wins",
                     "Overs 7-14 wicket pressure: 4.08 wickets/match",
                     "16th-over baseline: 8.7 runs; wicket in 37.4% of sampled innings",
-                    "Weather: rain 33%, dew HIGH"
+                    "Weather: rain 21%, dew HIGH"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -22736,16 +22739,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-06T19:00:00+05:30",
-                "temperature_c": 24.0,
+                "temperature_c": 24.3,
                 "humidity_pct": 94,
-                "dew_point_c": 23.0,
-                "rain_probability_pct": 33,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 2.6,
+                "dew_point_c": 23.2,
+                "rain_probability_pct": 21,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 1.1,
                 "dew_risk": "HIGH",
-                "rain_risk": "MEDIUM"
+                "rain_risk": "LOW"
             },
-            "weatherText": "24.0°C | RH 94% | Rain 33% | Wind 2.6 km/h",
+            "weatherText": "24.3°C | RH 94% | Rain 21% | Wind 1.1 km/h",
             "dewRisk": "HIGH",
             "tossBias": "57.14% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -22804,7 +22807,7 @@
         }
     },
     "eastern storm|western province|2026-10-06": {
-        "capturedAt": "2026-10-05T18:50:18.999395+00:00",
+        "capturedAt": "2026-10-06T00:52:16.193724+00:00",
         "matchDate": "2026-10-06",
         "report": {
             "teamA": "Western Province",
@@ -23087,16 +23090,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-06T18:00:00+02:00",
-                "temperature_c": 14.6,
-                "humidity_pct": 54,
-                "dew_point_c": 5.3,
+                "temperature_c": 14.7,
+                "humidity_pct": 55,
+                "dew_point_c": 5.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 13.5,
+                "wind_kmh": 13.3,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "14.6°C | RH 54% | Rain 0% | Wind 13.5 km/h",
+            "weatherText": "14.7°C | RH 55% | Rain 0% | Wind 13.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.06% Chasing Wins",
             "tossTrend": "Historical venue trend",

@@ -772,7 +772,7 @@
     }
   },
   "12c2ca23-f69b-4854-a5fd-60a592c72384": {
-    "cachedAt": "2026-10-05T18:50:06.954795+00:00",
+    "cachedAt": "2026-10-06T00:51:58.801744+00:00",
     "payload": {
       "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
       "data": [
@@ -1016,19 +1016,19 @@
       ],
       "status": "success",
       "info": {
-        "hitsToday": 14,
+        "hitsToday": 48,
         "hitsUsed": 10,
         "hitsLimit": 100,
         "credits": 0,
         "server": 12,
-        "queryTime": 44.825,
+        "queryTime": 23.0343,
         "s": 0,
         "cache": 0
       }
     }
   },
   "ab266c2d-8bb1-4439-9cd0-b6a3d5d38ceb": {
-    "cachedAt": "2026-10-05T18:50:10.538854+00:00",
+    "cachedAt": "2026-10-06T00:52:03.293859+00:00",
     "payload": {
       "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
       "data": [
@@ -1207,7 +1207,7 @@
               "name": "Gakul Ghalley",
               "role": "Batsman",
               "battingStyle": "Right Handed Bat",
-              "country": "",
+              "country": "Bhutan",
               "playerImg": "https://h.cricapi.com/img/icon512.png"
             },
             {
@@ -1259,19 +1259,19 @@
       ],
       "status": "success",
       "info": {
-        "hitsToday": 24,
+        "hitsToday": 58,
         "hitsUsed": 10,
         "hitsLimit": 100,
         "credits": 0,
-        "server": 5,
-        "queryTime": 25.3173,
+        "server": 15,
+        "queryTime": 23.3711,
         "s": 0,
         "cache": 0
       }
     }
   },
   "2ecaf0d6-33fb-44c2-92e4-66f6b7a08d86": {
-    "cachedAt": "2026-10-05T18:50:12.661983+00:00",
+    "cachedAt": "2026-10-06T00:52:06.425880+00:00",
     "payload": {
       "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
       "data": [
@@ -1503,12 +1503,12 @@
       ],
       "status": "success",
       "info": {
-        "hitsToday": 34,
+        "hitsToday": 68,
         "hitsUsed": 10,
         "hitsLimit": 100,
         "credits": 0,
-        "server": 9,
-        "queryTime": 29.7761,
+        "server": 5,
+        "queryTime": 40.8042,
         "s": 0,
         "cache": 0
       }
