@@ -22458,7 +22458,7 @@
         }
     },
     "india|west indies 1st t20i bharat ratna shri atal bihari vajpayee ekana cricket stadium lucknow|2026-10-06": {
-        "capturedAt": "2026-10-06T10:44:37.681872+00:00",
+        "capturedAt": "2026-10-06T12:48:33.766496+00:00",
         "matchDate": "2026-10-06",
         "report": {
             "teamA": "India",
@@ -22507,14 +22507,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 61.6,
+            "swingScore": 65.0,
             "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 50,
                 "swingProfile": "CONDITIONAL SWING PROFILE",
-                "swingScore": 61.6,
+                "swingScore": 65.0,
                 "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -22543,11 +22543,10 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 57.1% chasing wins",
-                    "Middle-overs wicket volatility: 4.08 wickets/match in overs 7-14"
+                    "Middle-overs wicket volatility: 4.08 wickets/match in overs 7-14",
+                    "Medium dew can change second-innings conditions"
                 ],
-                "swingPenalties": [
-                    "High dew may create strong chase-side bias"
-                ],
+                "swingPenalties": [],
                 "scoreComponents": [
                     {
                         "name": "venue_two_way",
@@ -22561,7 +22560,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 60.0,
+                        "score": 90.0,
                         "weight": 0.1
                     },
                     {
@@ -22600,7 +22599,7 @@
                     "Two-way venue: 57.1% chasing wins",
                     "Overs 7-14 wicket pressure: 4.08 wickets/match",
                     "16th-over baseline: 8.7 runs; wicket in 37.4% of sampled innings",
-                    "Weather: rain 31%, dew HIGH"
+                    "Weather: rain 13%, dew MEDIUM"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -22739,17 +22738,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-06T19:00:00+05:30",
-                "temperature_c": 25.1,
-                "humidity_pct": 91,
-                "dew_point_c": 23.5,
-                "rain_probability_pct": 31,
+                "temperature_c": 26.6,
+                "humidity_pct": 80,
+                "dew_point_c": 22.9,
+                "rain_probability_pct": 13,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 5.0,
-                "dew_risk": "HIGH",
-                "rain_risk": "MEDIUM"
+                "wind_kmh": 8.3,
+                "dew_risk": "MEDIUM",
+                "rain_risk": "LOW"
             },
-            "weatherText": "25.1°C | RH 91% | Rain 31% | Wind 5.0 km/h",
-            "dewRisk": "HIGH",
+            "weatherText": "26.6°C | RH 80% | Rain 13% | Wind 8.3 km/h",
+            "dewRisk": "MEDIUM",
             "tossBias": "57.14% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "46.51",
@@ -22794,12 +22793,12 @@
             "spinClassificationPct": 3.9,
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
-                "HIGH DEW RISK",
                 "LIMITED RECENT T20 DATA FOR West Indies,1st T20I Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium , Lucknow"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
@@ -22807,7 +22806,7 @@
         }
     },
     "eastern storm|western province|2026-10-06": {
-        "capturedAt": "2026-10-06T10:44:37.681901+00:00",
+        "capturedAt": "2026-10-06T12:48:33.766521+00:00",
         "matchDate": "2026-10-06",
         "report": {
             "teamA": "Western Province",
@@ -23090,16 +23089,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-06T18:00:00+02:00",
-                "temperature_c": 14.8,
-                "humidity_pct": 54,
-                "dew_point_c": 5.7,
+                "temperature_c": 14.9,
+                "humidity_pct": 55,
+                "dew_point_c": 6.0,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 14.5,
+                "wind_kmh": 12.9,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "14.8°C | RH 54% | Rain 0% | Wind 14.5 km/h",
+            "weatherText": "14.9°C | RH 55% | Rain 0% | Wind 12.9 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.06% Chasing Wins",
             "tossTrend": "Historical venue trend",
