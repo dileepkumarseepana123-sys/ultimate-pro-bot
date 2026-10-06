@@ -22458,7 +22458,7 @@
         }
     },
     "india|west indies 1st t20i bharat ratna shri atal bihari vajpayee ekana cricket stadium lucknow|2026-10-06": {
-        "capturedAt": "2026-10-06T00:52:16.193703+00:00",
+        "capturedAt": "2026-10-06T06:50:20.239359+00:00",
         "matchDate": "2026-10-06",
         "report": {
             "teamA": "India",
@@ -22600,7 +22600,7 @@
                     "Two-way venue: 57.1% chasing wins",
                     "Overs 7-14 wicket pressure: 4.08 wickets/match",
                     "16th-over baseline: 8.7 runs; wicket in 37.4% of sampled innings",
-                    "Weather: rain 21%, dew HIGH"
+                    "Weather: rain 31%, dew HIGH"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -22739,16 +22739,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-06T19:00:00+05:30",
-                "temperature_c": 24.3,
-                "humidity_pct": 94,
-                "dew_point_c": 23.2,
-                "rain_probability_pct": 21,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 1.1,
+                "temperature_c": 25.1,
+                "humidity_pct": 91,
+                "dew_point_c": 23.5,
+                "rain_probability_pct": 31,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 5.0,
                 "dew_risk": "HIGH",
-                "rain_risk": "LOW"
+                "rain_risk": "MEDIUM"
             },
-            "weatherText": "24.3°C | RH 94% | Rain 21% | Wind 1.1 km/h",
+            "weatherText": "25.1°C | RH 91% | Rain 31% | Wind 5.0 km/h",
             "dewRisk": "HIGH",
             "tossBias": "57.14% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -22807,7 +22807,7 @@
         }
     },
     "eastern storm|western province|2026-10-06": {
-        "capturedAt": "2026-10-06T00:52:16.193724+00:00",
+        "capturedAt": "2026-10-06T06:50:20.239390+00:00",
         "matchDate": "2026-10-06",
         "report": {
             "teamA": "Western Province",
@@ -23090,16 +23090,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-06T18:00:00+02:00",
-                "temperature_c": 14.7,
-                "humidity_pct": 55,
+                "temperature_c": 14.8,
+                "humidity_pct": 54,
                 "dew_point_c": 5.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 13.3,
+                "wind_kmh": 14.5,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "14.7°C | RH 55% | Rain 0% | Wind 13.3 km/h",
+            "weatherText": "14.8°C | RH 54% | Rain 0% | Wind 14.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.06% Chasing Wins",
             "tossTrend": "Historical venue trend",
