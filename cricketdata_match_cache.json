@@ -857,5 +857,22 @@
       ],
       "series_id": "a67cb0af-300c-4449-8e80-e006301e5706"
     }
+  },
+  "aad277c2-2412-4f1c-9d00-98dbe078132e": {
+    "cachedAt": "2026-10-06T15:42:50.761965+00:00",
+    "data": {
+      "id": "aad277c2-2412-4f1c-9d00-98dbe078132e",
+      "name": "Pakistan vs Sri Lanka, 3rd T20I, Sri Lanka tour of Pakistan, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 13, 15:00 GMT",
+      "venue": "Rawalpindi Cricket Stadium, Rawalpindi",
+      "date": "2026-10-13",
+      "dateTimeGMT": "2026-10-13T15:00:00",
+      "teams": [
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "series_id": "a67cb0af-300c-4449-8e80-e006301e5706"
+    }
   }
 }

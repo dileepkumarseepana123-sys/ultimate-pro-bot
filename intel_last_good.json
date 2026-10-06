@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-06T12:48:33.784344+00:00",
+    "last_updated": "2026-10-06T15:43:37.813316+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -22,10 +22,10 @@
         "cricscore_calls_this_run": 1,
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
-        "match_info_calls_this_run": 0,
+        "match_info_calls_this_run": 1,
         "match_info_cache_hits_this_run": 47,
-        "match_info_enriched_rows": 47,
-        "match_info_cache_size": 51,
+        "match_info_enriched_rows": 48,
+        "match_info_cache_size": 52,
         "max_match_info_lookups_per_run": 8,
         "squad_calls_this_run": 0,
         "squad_cache_hits_this_run": 0,
@@ -33,10 +33,11 @@
         "endpoint_calls_this_run": {
             "cricScore": 1,
             "currentMatches": 1,
+            "match_info": 1,
             "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 80,
+        "hits_today_reported": 85,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -66,22 +67,22 @@
         "text_relay_time_enriched_rows": 2,
         "final_reports_with_known_time": 5,
         "final_reports_with_weather": 5,
-        "current_matches_rows": 13,
-        "current_matches_t20_rows": 9,
-        "current_matches_today_t20_rows": 3,
-        "cricscore_rows": 49,
-        "cricscore_t20_rows": 14,
+        "current_matches_rows": 14,
+        "current_matches_t20_rows": 10,
+        "current_matches_today_t20_rows": 4,
+        "cricscore_rows": 50,
+        "cricscore_t20_rows": 15,
         "cricscore_today_t20_rows": 3,
         "cricketdata_rows": 50,
         "cricketdata_t20_rows": 16,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 34,
+        "merged_candidates": 35,
         "final_reports": 5
     },
     "summary": {
         "today_t20_count": 5,
-        "no_bet_or_high_caution": 3,
-        "wait": 2,
+        "no_bet_or_high_caution": 4,
+        "wait": 1,
         "data_clear": 0
     },
     "matches": [
@@ -101,7 +102,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/151565/ind-vs-wi-1st-t20i-west-indies-tour-of-india-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -197,7 +198,354 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-10-06T12:48:33.766496+00:00",
+                "matchDate": "2026-10-06",
+                "report": {
+                    "teamA": "India",
+                    "teamB": "West Indies,1st T20I Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium , Lucknow",
+                    "name": "India vs West Indies,1st T20I Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium , Lucknow",
+                    "matchType": "T20",
+                    "venue": "1st T20I Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium , Lucknow",
+                    "dateTimeGMT": "2026-10-06T13:30:00+00:00",
+                    "sourceDate": "2026-10-06",
+                    "matchTimeIST": "2026-10-06T19:00:00+05:30",
+                    "indiaDate": "2026-10-06",
+                    "series": "West Indies tour of India, 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "supplementalSourceName": null,
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/151565/ind-vs-wi-1st-t20i-west-indies-tour-of-india-2026",
+                    "cricketDataMatchId": null,
+                    "liveScoreText": null,
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
+                    "marketVisibility": "PREMIUM / LIKELY LISTED",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": true,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 264,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": 33.3,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 65.0,
+                    "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 50,
+                        "swingProfile": "CONDITIONAL SWING PROFILE",
+                        "swingScore": 65.0,
+                        "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 264,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": 33.3,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [
+                            "Historically two-way venue: 57.1% chasing wins",
+                            "Middle-overs wicket volatility: 4.08 wickets/match in overs 7-14",
+                            "Medium dew can change second-innings conditions"
+                        ],
+                        "swingPenalties": [],
+                        "scoreComponents": [
+                            {
+                                "name": "venue_two_way",
+                                "score": 85.7,
+                                "weight": 0.2
+                            },
+                            {
+                                "name": "middle_over_volatility",
+                                "score": 68.0,
+                                "weight": 0.15
+                            },
+                            {
+                                "name": "weather",
+                                "score": 90.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 100.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "squadSummary": {
+                        "status": "NO SQUAD DATA",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS DATA LIMITED",
+                        "dataConfidencePct": 29,
+                        "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
+                        "edgeTeam": null,
+                        "edgeStrength": "DATA LIMITED",
+                        "edgeScore": null,
+                        "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                        "conditions": [
+                            "Historical first-innings baseline: 167.9",
+                            "Powerplay baseline: 46.5 runs / 1.24 wickets",
+                            "Two-way venue: 57.1% chasing wins",
+                            "Overs 7-14 wicket pressure: 4.08 wickets/match",
+                            "16th-over baseline: 8.7 runs; wicket in 37.4% of sampled innings",
+                            "Weather: rain 13%, dew MEDIUM"
+                        ],
+                        "evidence": [],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": 167.86,
+                        "powerplayBaseline": 46.51,
+                        "powerplayWicketsBaseline": 1.24,
+                        "chasingWinPct": 57.14,
+                        "middleOversWicketsPerMatch": 4.08,
+                        "over16AvgRuns": 8.7,
+                        "over16WicketEventPct": 37.37,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "NO SQUAD DATA",
+                        "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity"
+                    ],
+                    "formA": {
+                        "matches": 10,
+                        "wins": 3,
+                        "losses": 6,
+                        "winRatePct": 33.3,
+                        "avgMarginImpact": -0.173,
+                        "recent": [
+                            {
+                                "date": "2026-07-26",
+                                "winner": "India",
+                                "won": true,
+                                "venue": "Harare Sports Club",
+                                "marginType": "runs",
+                                "marginValue": 35.0,
+                                "marginImpact": 0.583
+                            },
+                            {
+                                "date": "2026-07-25",
+                                "winner": "India",
+                                "won": true,
+                                "venue": "Harare Sports Club",
+                                "marginType": "runs",
+                                "marginValue": 90.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-07-23",
+                                "winner": "India",
+                                "won": true,
+                                "venue": "Harare Sports Club",
+                                "marginType": "wickets",
+                                "marginValue": 7.0,
+                                "marginImpact": 0.875
+                            },
+                            {
+                                "date": "2026-07-11",
+                                "winner": "England",
+                                "won": false,
+                                "venue": "The Rose Bowl, Southampton",
+                                "marginType": "runs",
+                                "marginValue": 56.0,
+                                "marginImpact": -0.933
+                            },
+                            {
+                                "date": "2026-07-09",
+                                "winner": "England",
+                                "won": false,
+                                "venue": "County Ground, Bristol",
+                                "marginType": "wickets",
+                                "marginValue": 9.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-07-07",
+                                "winner": "England",
+                                "won": false,
+                                "venue": "Trent Bridge, Nottingham",
+                                "marginType": "runs",
+                                "marginValue": 125.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-07-04",
+                                "winner": "England",
+                                "won": false,
+                                "venue": "Old Trafford, Manchester",
+                                "marginType": "wickets",
+                                "marginValue": 4.0,
+                                "marginImpact": -0.5
+                            },
+                            {
+                                "date": "2026-07-01",
+                                "winner": null,
+                                "won": null,
+                                "venue": "Riverside Ground, Chester-le-Street",
+                                "marginType": null,
+                                "marginValue": null,
+                                "marginImpact": 0.0
+                            },
+                            {
+                                "date": "2026-06-28",
+                                "winner": "Ireland",
+                                "won": false,
+                                "venue": "Civil Service Cricket Club, Stormont, Belfast",
+                                "marginType": "runs",
+                                "marginValue": 1.0,
+                                "marginImpact": -0.017
+                            },
+                            {
+                                "date": "2026-06-26",
+                                "winner": "Ireland",
+                                "won": false,
+                                "venue": "Civil Service Cricket Club, Stormont, Belfast",
+                                "marginType": "runs",
+                                "marginValue": 34.0,
+                                "marginImpact": -0.567
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-10-06T19:00:00+05:30",
+                        "temperature_c": 26.6,
+                        "humidity_pct": 80,
+                        "dew_point_c": 22.9,
+                        "rain_probability_pct": 13,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 8.3,
+                        "dew_risk": "MEDIUM",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "26.6°C | RH 80% | Rain 13% | Wind 8.3 km/h",
+                    "dewRisk": "MEDIUM",
+                    "tossBias": "57.14% Chasing Wins",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "46.51",
+                    "ppWicketsAvg": 1.24,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": 8.7,
+                    "over16WicketsPerInnings": 0.414,
+                    "over16WicketEventPct": 37.37,
+                    "over16SampleInnings": 99,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.08/match",
+                    "metricSources": {
+                        "fixture": "Cricbuzz via text relay",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue T20 history (n=51)",
+                        "powerplay": "Cricsheet first-innings overs 1-6 (n=51)",
+                        "over16": "Cricsheet 16th-over history (n=99)",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification 3.9%"
+                    },
+                    "venueIntel": {
+                        "status": "OK",
+                        "matches": 51,
+                        "venue_confidence": 0.938,
+                        "avg_first_innings": 167.86,
+                        "powerplay_avg": 46.51,
+                        "powerplay_wickets_avg": 1.24,
+                        "chasing_win_pct": 57.14,
+                        "over16_sample_innings": 99,
+                        "over16_avg_runs": 8.7,
+                        "over16_wickets_per_innings": 0.414,
+                        "over16_wicket_event_pct": 37.37,
+                        "mid_overs_7_14_wickets": 208,
+                        "mid_overs_7_14_wickets_per_match": 4.08,
+                        "spin_classification_pct": 3.9,
+                        "spinner_7_14_wickets": null,
+                        "spin_wicket_share_pct": null,
+                        "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+                    },
+                    "midOversWickets": 208,
+                    "midOversWicketsPerMatch": 4.08,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": 3.9,
+                    "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+                    "noBetReasons": [
+                        "LIMITED RECENT T20 DATA FOR West Indies,1st T20I Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium , Lucknow"
+                    ],
+                    "warnings": [
+                        "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "MEDIUM DEW RISK",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-yellow",
+                    "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -224,7 +572,7 @@
                     "Two-way venue: 57.1% chasing wins",
                     "Overs 7-14 wicket pressure: 4.08 wickets/match",
                     "16th-over baseline: 8.7 runs; wicket in 37.4% of sampled innings",
-                    "Weather: rain 13%, dew MEDIUM"
+                    "Weather: rain 6%, dew MEDIUM"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -366,13 +714,13 @@
                 "temperature_c": 26.6,
                 "humidity_pct": 80,
                 "dew_point_c": 22.9,
-                "rain_probability_pct": 13,
+                "rain_probability_pct": 6,
                 "precipitation_mm": 0.0,
                 "wind_kmh": 8.3,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.6°C | RH 80% | Rain 13% | Wind 8.3 km/h",
+            "weatherText": "26.6°C | RH 80% | Rain 6% | Wind 8.3 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "57.14% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -416,8 +764,9 @@
             "midOversWicketsPerMatch": 4.08,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 3.9,
-            "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "LIMITED RECENT T20 DATA FOR West Indies,1st T20I Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium , Lucknow"
             ],
             "warnings": [
@@ -426,7 +775,7 @@
                 "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-yellow",
+            "badgeClass": "badge-red",
             "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
         },
         {
