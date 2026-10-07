@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-07T10:43:39.646277+00:00",
+    "last_updated": "2026-10-07T12:51:16.820719+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -36,7 +36,7 @@
             "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 16,
+        "hits_today_reported": 20,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -184,7 +184,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-07T06:49:06.350778+00:00",
+                "capturedAt": "2026-10-07T10:43:39.627592+00:00",
                 "matchDate": "2026-10-07",
                 "report": {
                     "teamA": "Zimbabwe Women",
@@ -836,7 +836,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-07T06:49:06.350807+00:00",
+                "capturedAt": "2026-10-07T10:43:39.627611+00:00",
                 "matchDate": "2026-10-07",
                 "report": {
                     "teamA": "Titans",
@@ -1542,7 +1542,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-07T06:49:06.350818+00:00",
+                "capturedAt": "2026-10-07T10:43:39.627617+00:00",
                 "matchDate": "2026-10-07",
                 "report": {
                     "teamA": "Knights",
@@ -2243,7 +2243,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-07T06:49:06.350795+00:00",
+                "capturedAt": "2026-10-07T10:43:39.627604+00:00",
                 "matchDate": "2026-10-07",
                 "report": {
                     "teamA": "South Western Districts",
