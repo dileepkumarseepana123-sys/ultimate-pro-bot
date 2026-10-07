@@ -23156,7 +23156,7 @@
         }
     },
     "west indies women 3rd t20i takashinga sports club harare|zimbabwe women|2026-10-07": {
-        "capturedAt": "2026-10-06T18:48:14.670409+00:00",
+        "capturedAt": "2026-10-07T00:52:43.505204+00:00",
         "matchDate": "2026-10-07",
         "report": {
             "teamA": "Zimbabwe Women",
@@ -23174,7 +23174,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173123/zimw-vs-wiw-3rd-t20i-west-indies-women-tour-of-zimbabwe-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -23467,11 +23467,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "lions|south western districts|2026-10-07": {
-        "capturedAt": "2026-10-06T18:48:14.670436+00:00",
+        "capturedAt": "2026-10-07T00:52:43.505223+00:00",
         "matchDate": "2026-10-07",
         "report": {
             "teamA": "South Western Districts",
@@ -23489,7 +23490,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173257/swd-vs-lions-pool-a-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -23786,11 +23787,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "south africa emerging players|titans|2026-10-07": {
-        "capturedAt": "2026-10-06T18:48:14.670448+00:00",
+        "capturedAt": "2026-10-07T00:52:43.505233+00:00",
         "matchDate": "2026-10-07",
         "report": {
             "teamA": "Titans",
@@ -23808,7 +23810,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173267/tit-vs-saep-pool-b-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -24147,11 +24149,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "knights|kwazulu natal inland tuskers|2026-10-07": {
-        "capturedAt": "2026-10-06T18:48:14.670461+00:00",
+        "capturedAt": "2026-10-07T00:52:43.505243+00:00",
         "matchDate": "2026-10-07",
         "report": {
             "teamA": "Knights",
@@ -24169,7 +24172,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173247/kng-vs-kznin-pool-b-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -24504,7 +24507,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     }
 }
