@@ -874,5 +874,22 @@
       ],
       "series_id": "a67cb0af-300c-4449-8e80-e006301e5706"
     }
+  },
+  "3c451481-9fa8-400b-a7b6-27cffc21e1a8": {
+    "cachedAt": "2026-10-07T15:49:07.694444+00:00",
+    "data": {
+      "id": "3c451481-9fa8-400b-a7b6-27cffc21e1a8",
+      "name": "India vs West Indies, 4th T20I, West Indies tour of India, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 14, 13:30 GMT",
+      "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+      "date": "2026-10-14",
+      "dateTimeGMT": "2026-10-14T13:30:00",
+      "teams": [
+        "India",
+        "West Indies"
+      ],
+      "series_id": "702ce6cb-a551-4aab-961e-0ed1548a3c74"
+    }
   }
 }

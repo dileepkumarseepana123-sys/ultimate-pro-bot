@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-07T12:51:16.820719+00:00",
+    "last_updated": "2026-10-07T15:49:38.593715+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -22,10 +22,10 @@
         "cricscore_calls_this_run": 1,
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
-        "match_info_calls_this_run": 0,
+        "match_info_calls_this_run": 1,
         "match_info_cache_hits_this_run": 46,
-        "match_info_enriched_rows": 46,
-        "match_info_cache_size": 52,
+        "match_info_enriched_rows": 47,
+        "match_info_cache_size": 53,
         "max_match_info_lookups_per_run": 8,
         "squad_calls_this_run": 0,
         "squad_cache_hits_this_run": 0,
@@ -33,10 +33,11 @@
         "endpoint_calls_this_run": {
             "cricScore": 1,
             "currentMatches": 1,
+            "match_info": 1,
             "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 20,
+        "hits_today_reported": 25,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -69,7 +70,7 @@
         "current_matches_rows": 15,
         "current_matches_t20_rows": 10,
         "current_matches_today_t20_rows": 0,
-        "cricscore_rows": 48,
+        "cricscore_rows": 49,
         "cricscore_t20_rows": 15,
         "cricscore_today_t20_rows": 0,
         "cricketdata_rows": 50,
@@ -184,7 +185,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-07T10:43:39.627592+00:00",
+                "capturedAt": "2026-10-07T12:51:16.794217+00:00",
                 "matchDate": "2026-10-07",
                 "report": {
                     "teamA": "Zimbabwe Women",
@@ -836,7 +837,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-07T10:43:39.627611+00:00",
+                "capturedAt": "2026-10-07T12:51:16.794245+00:00",
                 "matchDate": "2026-10-07",
                 "report": {
                     "teamA": "Titans",
@@ -1542,7 +1543,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-07T10:43:39.627617+00:00",
+                "capturedAt": "2026-10-07T12:51:16.794255+00:00",
                 "matchDate": "2026-10-07",
                 "report": {
                     "teamA": "Knights",
@@ -2243,7 +2244,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-07T10:43:39.627604+00:00",
+                "capturedAt": "2026-10-07T12:51:16.794235+00:00",
                 "matchDate": "2026-10-07",
                 "report": {
                     "teamA": "South Western Districts",
