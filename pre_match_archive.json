@@ -25958,7 +25958,7 @@
         }
     },
     "china|maldives|2026-10-08": {
-        "capturedAt": "2026-10-08T00:55:06.000239+00:00",
+        "capturedAt": "2026-10-08T10:45:14.006516+00:00",
         "matchDate": "2026-10-08",
         "report": {
             "teamA": "China",
@@ -25976,7 +25976,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173847/chn-vs-mdv-1st-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -26410,11 +26410,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Maldives has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Maldives has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "saudi arabia|singapore|2026-10-08": {
-        "capturedAt": "2026-10-08T00:55:06.000256+00:00",
+        "capturedAt": "2026-10-08T10:45:14.006525+00:00",
         "matchDate": "2026-10-08",
         "report": {
             "teamA": "Saudi Arabia",
@@ -26432,7 +26433,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173853/sau-vs-sin-2nd-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -26905,7 +26906,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Saudi Arabia has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Saudi Arabia has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "hong kong china|malaysia|2026-10-08": {
@@ -27490,7 +27492,7 @@
         }
     },
     "boland|eastern storm|2026-10-08": {
-        "capturedAt": "2026-10-08T06:52:16.728471+00:00",
+        "capturedAt": "2026-10-08T10:45:14.006477+00:00",
         "matchDate": "2026-10-08",
         "report": {
             "teamA": "Boland",
@@ -27840,7 +27842,7 @@
         }
     },
     "northern cape|warriors|2026-10-08": {
-        "capturedAt": "2026-10-08T06:52:16.728510+00:00",
+        "capturedAt": "2026-10-08T10:45:14.006507+00:00",
         "matchDate": "2026-10-08",
         "report": {
             "teamA": "Warriors",
