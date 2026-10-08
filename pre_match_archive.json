@@ -25958,7 +25958,7 @@
         }
     },
     "china|maldives|2026-10-08": {
-        "capturedAt": "2026-10-08T10:45:14.006516+00:00",
+        "capturedAt": "2026-10-08T12:59:04.826358+00:00",
         "matchDate": "2026-10-08",
         "report": {
             "teamA": "China",
@@ -26415,7 +26415,7 @@
         }
     },
     "saudi arabia|singapore|2026-10-08": {
-        "capturedAt": "2026-10-08T10:45:14.006525+00:00",
+        "capturedAt": "2026-10-08T12:59:04.826366+00:00",
         "matchDate": "2026-10-08",
         "report": {
             "teamA": "Saudi Arabia",
@@ -27492,7 +27492,7 @@
         }
     },
     "boland|eastern storm|2026-10-08": {
-        "capturedAt": "2026-10-08T10:45:14.006477+00:00",
+        "capturedAt": "2026-10-08T12:59:04.826318+00:00",
         "matchDate": "2026-10-08",
         "report": {
             "teamA": "Boland",
@@ -27775,16 +27775,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-08T18:00:00+02:00",
-                "temperature_c": 16.2,
+                "temperature_c": 16.3,
                 "humidity_pct": 56,
-                "dew_point_c": 7.4,
+                "dew_point_c": 7.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 9.2,
+                "wind_kmh": 10.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "16.2°C | RH 56% | Rain 0% | Wind 9.2 km/h",
+            "weatherText": "16.3°C | RH 56% | Rain 0% | Wind 10.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "47.37% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -27842,7 +27842,7 @@
         }
     },
     "northern cape|warriors|2026-10-08": {
-        "capturedAt": "2026-10-08T10:45:14.006507+00:00",
+        "capturedAt": "2026-10-08T12:59:04.826348+00:00",
         "matchDate": "2026-10-08",
         "report": {
             "teamA": "Warriors",
@@ -28126,16 +28126,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-08T18:00:00+02:00",
-                "temperature_c": 16.1,
-                "humidity_pct": 83,
-                "dew_point_c": 13.3,
+                "temperature_c": 16.2,
+                "humidity_pct": 81,
+                "dew_point_c": 12.9,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 18.5,
+                "wind_kmh": 17.9,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "16.1°C | RH 83% | Rain 0% | Wind 18.5 km/h",
+            "weatherText": "16.2°C | RH 81% | Rain 0% | Wind 17.9 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "52.04% Chasing Wins",
             "tossTrend": "Historical venue trend",
