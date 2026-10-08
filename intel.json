@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-08T00:55:06.032857+00:00",
+    "last_updated": "2026-10-08T06:52:16.759100+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -27,17 +27,16 @@
         "match_info_enriched_rows": 46,
         "match_info_cache_size": 53,
         "max_match_info_lookups_per_run": 8,
-        "squad_calls_this_run": 3,
+        "squad_calls_this_run": 0,
         "squad_cache_hits_this_run": 0,
         "squad_cache_size": 9,
         "endpoint_calls_this_run": {
             "cricScore": 1,
             "currentMatches": 1,
-            "matches": 2,
-            "match_squad": 3
+            "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 68,
+        "hits_today_reported": 72,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -59,31 +58,31 @@
     },
     "discovery": {
         "live_text_relay_rows": 0,
-        "schedule_text_relay_rows": 8,
-        "text_relay_rows": 8,
-        "text_relay_t20_rows": 8,
-        "text_relay_today_t20_rows": 8,
-        "text_relay_match_url_rows": 8,
-        "text_relay_time_enriched_rows": 8,
+        "schedule_text_relay_rows": 5,
+        "text_relay_rows": 5,
+        "text_relay_t20_rows": 5,
+        "text_relay_today_t20_rows": 5,
+        "text_relay_match_url_rows": 5,
+        "text_relay_time_enriched_rows": 5,
         "final_reports_with_known_time": 8,
         "final_reports_with_weather": 8,
-        "current_matches_rows": 13,
-        "current_matches_t20_rows": 9,
-        "current_matches_today_t20_rows": 0,
+        "current_matches_rows": 17,
+        "current_matches_t20_rows": 12,
+        "current_matches_today_t20_rows": 3,
         "cricscore_rows": 48,
         "cricscore_t20_rows": 15,
         "cricscore_today_t20_rows": 3,
         "cricketdata_rows": 50,
         "cricketdata_t20_rows": 16,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 40,
+        "merged_candidates": 37,
         "final_reports": 8
     },
     "summary": {
         "today_t20_count": 8,
-        "no_bet_or_high_caution": 1,
-        "wait": 6,
-        "data_clear": 1
+        "no_bet_or_high_caution": 6,
+        "wait": 2,
+        "data_clear": 0
     },
     "matches": [
         {
@@ -97,12 +96,12 @@
             "matchTimeIST": "2026-10-08T06:45:00+05:30",
             "indiaDate": "2026-10-08",
             "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
-            "sourceName": "CricketData cricScore + match_info",
-            "supplementalSourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173740/btn-vs-mgl-8th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
+            "sourceName": "CricketData cricScore + currentMatches",
+            "supplementalSourceName": null,
+            "sourceMatchUrl": null,
             "cricketDataMatchId": "785c8271-f338-4263-a991-d2898460132e",
-            "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 08, 01:15 GMT",
+            "liveScoreText": "203/5 (20) | 67/10 (15)",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -210,49 +209,501 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-10-08T00:55:06.000154+00:00",
+                "matchDate": "2026-10-08",
+                "report": {
+                    "teamA": "Bhutan",
+                    "teamB": "Mongolia",
+                    "name": "Bhutan vs Mongolia",
+                    "matchType": "T20",
+                    "venue": "YSD-UKM Cricket Oval, Bangi",
+                    "dateTimeGMT": "2026-10-08T01:15:00",
+                    "sourceDate": "2026-10-08",
+                    "matchTimeIST": "2026-10-08T06:45:00+05:30",
+                    "indiaDate": "2026-10-08",
+                    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+                    "sourceName": "CricketData cricScore + match_info",
+                    "supplementalSourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173740/btn-vs-mgl-8th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
+                    "cricketDataMatchId": "785c8271-f338-4263-a991-d2898460132e",
+                    "liveScoreText": null,
+                    "sourceStatus": "Match starts at Oct 08, 01:15 GMT",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "MODERATE GAP",
+                        "balanceScore": 69.4,
+                        "teamAElo": 1401.6,
+                        "teamBElo": 1358.0,
+                        "eloMatchesA": 46,
+                        "eloMatchesB": 13,
+                        "eloGap": 43.6,
+                        "recentWinRateA": 60.0,
+                        "recentWinRateB": 0.0,
+                        "recentFormGapPct": 60.0,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": "Bhutan",
+                        "signals": [
+                            "Derived Elo gap 43.6",
+                            "Recent win-rate gap 60.0 percentage points"
+                        ],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "MODERATE GAP",
+                    "swingScore": 55.8,
+                    "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 67,
+                        "swingProfile": "CONDITIONAL SWING PROFILE",
+                        "swingScore": 55.8,
+                        "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                        "competitiveBalance": {
+                            "label": "MODERATE GAP",
+                            "balanceScore": 69.4,
+                            "teamAElo": 1401.6,
+                            "teamBElo": 1358.0,
+                            "eloMatchesA": 46,
+                            "eloMatchesB": 13,
+                            "eloGap": 43.6,
+                            "recentWinRateA": 60.0,
+                            "recentWinRateB": 0.0,
+                            "recentFormGapPct": 60.0,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": "Bhutan",
+                            "signals": [
+                                "Derived Elo gap 43.6",
+                                "Recent win-rate gap 60.0 percentage points"
+                            ],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [
+                            "Historically two-way venue: 54.5% chasing wins",
+                            "Middle-overs wicket volatility: 4.14 wickets/match in overs 7-14"
+                        ],
+                        "swingPenalties": [
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "competitive_balance",
+                                "score": 69.4,
+                                "weight": 0.35
+                            },
+                            {
+                                "name": "venue_two_way",
+                                "score": 90.9,
+                                "weight": 0.2
+                            },
+                            {
+                                "name": "middle_over_volatility",
+                                "score": 69.0,
+                                "weight": 0.15
+                            },
+                            {
+                                "name": "weather",
+                                "score": 70.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "CricketData match_squad"
+                    },
+                    "squadSummary": {
+                        "status": "SQUAD AVAILABLE — XI PENDING",
+                        "teams": {
+                            "Bhutan": {
+                                "players": 13,
+                                "knownBowlingStyles": 10,
+                                "spinOptions": 2,
+                                "paceOptions": 4,
+                                "roleCounts": {
+                                    "batters": 6,
+                                    "allRounders": 4,
+                                    "bowlers": 2,
+                                    "keepers": 0
+                                },
+                                "playingFlagsPublished": 0
+                            },
+                            "Mongolia": {
+                                "players": 13,
+                                "knownBowlingStyles": 0,
+                                "spinOptions": 0,
+                                "paceOptions": 0,
+                                "roleCounts": {
+                                    "batters": 1,
+                                    "allRounders": 3,
+                                    "bowlers": 1,
+                                    "keepers": 0
+                                },
+                                "playingFlagsPublished": 0
+                            }
+                        },
+                        "source": "CricketData match_squad"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS CONDITIONAL",
+                        "dataConfidencePct": 71,
+                        "initialPrediction": "Bhutan has a moderate edge on the available pre-toss historical evidence.",
+                        "edgeTeam": "Bhutan",
+                        "edgeStrength": "MODERATE EDGE",
+                        "edgeScore": 2.54,
+                        "swingRead": "CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+                        "conditions": [
+                            "Historical first-innings baseline: 106.0",
+                            "Powerplay baseline: 31.7 runs / 1.95 wickets",
+                            "Two-way venue: 54.5% chasing wins",
+                            "Overs 7-14 wicket pressure: 4.14 wickets/match",
+                            "16th-over baseline: 6.0 runs; wicket in 25.0% of sampled innings",
+                            "Weather: rain 12%, dew LOW"
+                        ],
+                        "evidence": [
+                            "Elo: Bhutan 1401.6 vs Mongolia 1358.0",
+                            "Recent form: 60.0% vs 0.0% wins"
+                        ],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": 106.01,
+                        "powerplayBaseline": 31.72,
+                        "powerplayWicketsBaseline": 1.95,
+                        "chasingWinPct": 54.55,
+                        "middleOversWicketsPerMatch": 4.14,
+                        "over16AvgRuns": 5.97,
+                        "over16WicketEventPct": 25.0,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "SQUAD AVAILABLE — XI PENDING",
+                        "summary": "Bhutan has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 10,
+                        "wins": 6,
+                        "losses": 4,
+                        "winRatePct": 60.0,
+                        "avgMarginImpact": 0.212,
+                        "recent": [
+                            {
+                                "date": "2026-02-28",
+                                "winner": "Bhutan",
+                                "won": true,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "runs",
+                                "marginValue": 7.0,
+                                "marginImpact": 0.117
+                            },
+                            {
+                                "date": "2026-02-27",
+                                "winner": "Japan",
+                                "won": false,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "runs",
+                                "marginValue": 77.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-02-26",
+                                "winner": "Thailand",
+                                "won": false,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "runs",
+                                "marginValue": 60.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-02-25",
+                                "winner": "Bahrain",
+                                "won": false,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "wickets",
+                                "marginValue": 4.0,
+                                "marginImpact": -0.5
+                            },
+                            {
+                                "date": "2025-12-29",
+                                "winner": "Bhutan",
+                                "won": true,
+                                "venue": "Gelephu International Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 84.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2025-12-27",
+                                "winner": "Bhutan",
+                                "won": true,
+                                "venue": "Gelephu International Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 121.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2025-12-26",
+                                "winner": "Bhutan",
+                                "won": true,
+                                "venue": "Gelephu International Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 82.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2025-12-24",
+                                "winner": "Bhutan",
+                                "won": true,
+                                "venue": "Gelephu International Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 120.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2025-12-23",
+                                "winner": "Bhutan",
+                                "won": true,
+                                "venue": "Gelephu International Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 8.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2025-12-13",
+                                "winner": "Bahrain",
+                                "won": false,
+                                "venue": "Gelephu International Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 4.0,
+                                "marginImpact": -0.5
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 10,
+                        "wins": 0,
+                        "losses": 10,
+                        "winRatePct": 0.0,
+                        "avgMarginImpact": -1.0,
+                        "recent": [
+                            {
+                                "date": "2024-09-09",
+                                "winner": "Malaysia",
+                                "won": false,
+                                "venue": "YSD-UKM Cricket Oval, Bangi",
+                                "marginType": "wickets",
+                                "marginValue": 10.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2024-09-06",
+                                "winner": "Maldives",
+                                "won": false,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "runs",
+                                "marginValue": 117.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2024-09-05",
+                                "winner": "Singapore",
+                                "won": false,
+                                "venue": "YSD-UKM Cricket Oval, Bangi",
+                                "marginType": "wickets",
+                                "marginValue": 9.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2024-09-02",
+                                "winner": "Myanmar",
+                                "won": false,
+                                "venue": "YSD-UKM Cricket Oval, Bangi",
+                                "marginType": "runs",
+                                "marginValue": 71.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2024-08-31",
+                                "winner": "Hong Kong",
+                                "won": false,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "wickets",
+                                "marginValue": 9.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2024-08-30",
+                                "winner": "Kuwait",
+                                "won": false,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "runs",
+                                "marginValue": 160.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2024-05-12",
+                                "winner": "Japan",
+                                "won": false,
+                                "venue": "Sano International Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 157.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2024-05-11",
+                                "winner": "Japan",
+                                "won": false,
+                                "venue": "Sano International Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 180.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2024-05-11",
+                                "winner": "Japan",
+                                "won": false,
+                                "venue": "Sano International Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 158.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2024-05-09",
+                                "winner": "Japan",
+                                "won": false,
+                                "venue": "Sano International Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 10.0,
+                                "marginImpact": -1.0
+                            }
+                        ]
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-10-08T09:15:00+08:00",
+                        "temperature_c": 28.8,
+                        "humidity_pct": 72,
+                        "dew_point_c": 23.1,
+                        "rain_probability_pct": 12,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 20.0,
+                        "dew_risk": "LOW",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "28.8°C | RH 72% | Rain 12% | Wind 20.0 km/h",
+                    "dewRisk": "LOW",
+                    "tossBias": "54.55% Chasing Wins",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "31.72",
+                    "ppWicketsAvg": 1.95,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": 5.97,
+                    "over16WicketsPerInnings": 0.269,
+                    "over16WicketEventPct": 25.0,
+                    "over16SampleInnings": 108,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.14/match",
+                    "metricSources": {
+                        "fixture": "CricketData cricScore + match_info",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue T20 history (n=83)",
+                        "powerplay": "Cricsheet first-innings overs 1-6 (n=83)",
+                        "over16": "Cricsheet 16th-over history (n=108)",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification 0.83%"
+                    },
+                    "venueIntel": {
+                        "status": "OK",
+                        "matches": 83,
+                        "venue_confidence": 1.0,
+                        "avg_first_innings": 106.01,
+                        "powerplay_avg": 31.72,
+                        "powerplay_wickets_avg": 1.95,
+                        "chasing_win_pct": 54.55,
+                        "over16_sample_innings": 108,
+                        "over16_avg_runs": 5.97,
+                        "over16_wickets_per_innings": 0.269,
+                        "over16_wicket_event_pct": 25.0,
+                        "mid_overs_7_14_wickets": 344,
+                        "mid_overs_7_14_wickets_per_match": 4.14,
+                        "spin_classification_pct": 0.83,
+                        "spinner_7_14_wickets": null,
+                        "spin_wicket_share_pct": null,
+                        "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+                    },
+                    "midOversWickets": 344,
+                    "midOversWicketsPerMatch": 4.14,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": 0.83,
+                    "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
+                    "noBetReasons": [],
+                    "warnings": [
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "MODERATE SKILL GAP",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-yellow",
+                    "strategyText": "Bhutan has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "CricketData match_squad"
+                "source": "Not queried"
             },
             "squadSummary": {
-                "status": "SQUAD AVAILABLE — XI PENDING",
-                "teams": {
-                    "Bhutan": {
-                        "players": 13,
-                        "knownBowlingStyles": 10,
-                        "spinOptions": 2,
-                        "paceOptions": 4,
-                        "roleCounts": {
-                            "batters": 6,
-                            "allRounders": 4,
-                            "bowlers": 2,
-                            "keepers": 0
-                        },
-                        "playingFlagsPublished": 0
-                    },
-                    "Mongolia": {
-                        "players": 13,
-                        "knownBowlingStyles": 0,
-                        "spinOptions": 0,
-                        "paceOptions": 0,
-                        "roleCounts": {
-                            "batters": 1,
-                            "allRounders": 3,
-                            "bowlers": 1,
-                            "keepers": 0
-                        },
-                        "playingFlagsPublished": 0
-                    }
-                },
-                "source": "CricketData match_squad"
+                "status": "NO SQUAD DATA",
+                "teams": {},
+                "source": "Not queried"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS CONDITIONAL",
-                "dataConfidencePct": 71,
+                "dataConfidencePct": 57,
                 "initialPrediction": "Bhutan has a moderate edge on the available pre-toss historical evidence.",
                 "edgeTeam": "Bhutan",
                 "edgeStrength": "MODERATE EDGE",
@@ -264,7 +715,7 @@
                     "Two-way venue: 54.5% chasing wins",
                     "Overs 7-14 wicket pressure: 4.14 wickets/match",
                     "16th-over baseline: 6.0 runs; wicket in 25.0% of sampled innings",
-                    "Weather: rain 12%, dew LOW"
+                    "Weather: rain 4%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Bhutan 1401.6 vs Mongolia 1358.0",
@@ -289,7 +740,7 @@
                 "over16AvgRuns": 5.97,
                 "over16WicketEventPct": 25.0,
                 "spinWicketSharePct": null,
-                "squadStatus": "SQUAD AVAILABLE — XI PENDING",
+                "squadStatus": "NO SQUAD DATA",
                 "summary": "Bhutan has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
             },
             "pendingGates": [
@@ -499,16 +950,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-08T09:15:00+08:00",
-                "temperature_c": 28.8,
-                "humidity_pct": 72,
-                "dew_point_c": 23.1,
-                "rain_probability_pct": 12,
+                "temperature_c": 28.7,
+                "humidity_pct": 73,
+                "dew_point_c": 23.4,
+                "rain_probability_pct": 4,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 20.0,
+                "wind_kmh": 19.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "28.8°C | RH 72% | Rain 12% | Wind 20.0 km/h",
+            "weatherText": "28.7°C | RH 73% | Rain 4% | Wind 19.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "54.55% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -522,12 +973,12 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.14/match",
             "metricSources": {
-                "fixture": "CricketData cricScore + match_info",
+                "fixture": "CricketData cricScore + currentMatches",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=83)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=83)",
                 "over16": "Cricsheet 16th-over history (n=108)",
-                "spinChoke": "Cricsheet overs 7-14; bowler-style classification 0.83%"
+                "spinChoke": "Cricsheet overs 7-14; bowler-style classification 0.0%"
             },
             "venueIntel": {
                 "status": "OK",
@@ -543,7 +994,7 @@
                 "over16_wicket_event_pct": 25.0,
                 "mid_overs_7_14_wickets": 344,
                 "mid_overs_7_14_wickets_per_match": 4.14,
-                "spin_classification_pct": 0.83,
+                "spin_classification_pct": 0.0,
                 "spinner_7_14_wickets": null,
                 "spin_wicket_share_pct": null,
                 "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
@@ -551,15 +1002,17 @@
             "midOversWickets": 344,
             "midOversWicketsPerMatch": 4.14,
             "spinnerWickets7to14": null,
-            "spinClassificationPct": 0.83,
-            "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
-            "noBetReasons": [],
+            "spinClassificationPct": 0.0,
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
+            "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED"
+            ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "MODERATE SKILL GAP",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-yellow",
+            "badgeClass": "badge-red",
             "strategyText": "Bhutan has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
         },
         {
@@ -573,12 +1026,12 @@
             "matchTimeIST": "2026-10-08T06:45:00+05:30",
             "indiaDate": "2026-10-08",
             "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
-            "sourceName": "CricketData cricScore + match_info",
-            "supplementalSourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173737/kuw-vs-thai-7th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
+            "sourceName": "CricketData cricScore + currentMatches",
+            "supplementalSourceName": null,
+            "sourceMatchUrl": null,
             "cricketDataMatchId": "586c0a37-7512-44c4-9e60-356a541d0ebb",
-            "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 08, 01:15 GMT",
+            "liveScoreText": "61/1 (7) | 60/10 (18.3)",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -687,49 +1140,503 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-10-08T00:55:06.000224+00:00",
+                "matchDate": "2026-10-08",
+                "report": {
+                    "teamA": "Kuwait",
+                    "teamB": "Thailand",
+                    "name": "Kuwait vs Thailand",
+                    "matchType": "T20",
+                    "venue": "Bayuemas Oval, Kuala Lumpur",
+                    "dateTimeGMT": "2026-10-08T01:15:00",
+                    "sourceDate": "2026-10-08",
+                    "matchTimeIST": "2026-10-08T06:45:00+05:30",
+                    "indiaDate": "2026-10-08",
+                    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+                    "sourceName": "CricketData cricScore + match_info",
+                    "supplementalSourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173737/kuw-vs-thai-7th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
+                    "cricketDataMatchId": "586c0a37-7512-44c4-9e60-356a541d0ebb",
+                    "liveScoreText": null,
+                    "sourceStatus": "Match starts at Oct 08, 01:15 GMT",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "MODERATE GAP",
+                        "balanceScore": 56.7,
+                        "teamAElo": 1563.1,
+                        "teamBElo": 1395.2,
+                        "eloMatchesA": 77,
+                        "eloMatchesB": 66,
+                        "eloGap": 167.9,
+                        "recentWinRateA": 40.0,
+                        "recentWinRateB": 20.0,
+                        "recentFormGapPct": 20.0,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": "Kuwait",
+                        "signals": [
+                            "Derived Elo gap 167.9",
+                            "Recent win-rate gap 20.0 percentage points"
+                        ],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "MODERATE GAP",
+                    "swingScore": 55.1,
+                    "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 67,
+                        "swingProfile": "CONDITIONAL SWING PROFILE",
+                        "swingScore": 55.1,
+                        "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                        "competitiveBalance": {
+                            "label": "MODERATE GAP",
+                            "balanceScore": 56.7,
+                            "teamAElo": 1563.1,
+                            "teamBElo": 1395.2,
+                            "eloMatchesA": 77,
+                            "eloMatchesB": 66,
+                            "eloGap": 167.9,
+                            "recentWinRateA": 40.0,
+                            "recentWinRateB": 20.0,
+                            "recentFormGapPct": 20.0,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": "Kuwait",
+                            "signals": [
+                                "Derived Elo gap 167.9",
+                                "Recent win-rate gap 20.0 percentage points"
+                            ],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [
+                            "Historically two-way venue: 53.6% chasing wins",
+                            "Middle-overs wicket volatility: 4.63 wickets/match in overs 7-14",
+                            "Medium dew can change second-innings conditions"
+                        ],
+                        "swingPenalties": [
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "competitive_balance",
+                                "score": 56.7,
+                                "weight": 0.35
+                            },
+                            {
+                                "name": "venue_two_way",
+                                "score": 92.9,
+                                "weight": 0.2
+                            },
+                            {
+                                "name": "middle_over_volatility",
+                                "score": 77.2,
+                                "weight": 0.15
+                            },
+                            {
+                                "name": "weather",
+                                "score": 90.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "CricketData match_squad"
+                    },
+                    "squadSummary": {
+                        "status": "SQUAD AVAILABLE — XI PENDING",
+                        "teams": {
+                            "Kuwait": {
+                                "players": 14,
+                                "knownBowlingStyles": 9,
+                                "spinOptions": 2,
+                                "paceOptions": 4,
+                                "roleCounts": {
+                                    "batters": 5,
+                                    "allRounders": 3,
+                                    "bowlers": 4,
+                                    "keepers": 0
+                                },
+                                "playingFlagsPublished": 0
+                            },
+                            "Thailand": {
+                                "players": 14,
+                                "knownBowlingStyles": 9,
+                                "spinOptions": 1,
+                                "paceOptions": 4,
+                                "roleCounts": {
+                                    "batters": 8,
+                                    "allRounders": 2,
+                                    "bowlers": 4,
+                                    "keepers": 0
+                                },
+                                "playingFlagsPublished": 0
+                            }
+                        },
+                        "source": "CricketData match_squad"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS CONDITIONAL",
+                        "dataConfidencePct": 71,
+                        "initialPrediction": "Kuwait has a strong edge on the available pre-toss historical evidence.",
+                        "edgeTeam": "Kuwait",
+                        "edgeStrength": "STRONG EDGE",
+                        "edgeScore": 3.1,
+                        "swingRead": "CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+                        "conditions": [
+                            "Historical first-innings baseline: 110.9",
+                            "Powerplay baseline: 33.4 runs / 1.79 wickets",
+                            "Two-way venue: 53.6% chasing wins",
+                            "Overs 7-14 wicket pressure: 4.63 wickets/match",
+                            "16th-over baseline: 6.0 runs; wicket in 35.6% of sampled innings",
+                            "Weather: rain 6%, dew MEDIUM"
+                        ],
+                        "evidence": [
+                            "Elo: Kuwait 1563.1 vs Thailand 1395.2",
+                            "Recent form: 40.0% vs 20.0% wins"
+                        ],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": 110.89,
+                        "powerplayBaseline": 33.37,
+                        "powerplayWicketsBaseline": 1.79,
+                        "chasingWinPct": 53.57,
+                        "middleOversWicketsPerMatch": 4.63,
+                        "over16AvgRuns": 5.98,
+                        "over16WicketEventPct": 35.56,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "SQUAD AVAILABLE — XI PENDING",
+                        "summary": "Kuwait has a strong edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 10,
+                        "wins": 4,
+                        "losses": 6,
+                        "winRatePct": 40.0,
+                        "avgMarginImpact": -0.207,
+                        "recent": [
+                            {
+                                "date": "2026-03-01",
+                                "winner": "Kuwait",
+                                "won": true,
+                                "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+                                "marginType": "wickets",
+                                "marginValue": 3.0,
+                                "marginImpact": 0.375
+                            },
+                            {
+                                "date": "2026-02-26",
+                                "winner": "Hong Kong",
+                                "won": false,
+                                "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+                                "marginType": "runs",
+                                "marginValue": 24.0,
+                                "marginImpact": -0.4
+                            },
+                            {
+                                "date": "2026-02-25",
+                                "winner": "Hong Kong",
+                                "won": false,
+                                "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+                                "marginType": "wickets",
+                                "marginValue": 3.0,
+                                "marginImpact": -0.375
+                            },
+                            {
+                                "date": "2025-10-09",
+                                "winner": "Japan",
+                                "won": false,
+                                "venue": "Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1)",
+                                "marginType": "wickets",
+                                "marginValue": 5.0,
+                                "marginImpact": -0.625
+                            },
+                            {
+                                "date": "2025-10-08",
+                                "winner": "Nepal",
+                                "won": false,
+                                "venue": "Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1)",
+                                "marginType": "runs",
+                                "marginValue": 58.0,
+                                "marginImpact": -0.967
+                            },
+                            {
+                                "date": "2025-09-29",
+                                "winner": "Oman",
+                                "won": false,
+                                "venue": "Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1)",
+                                "marginType": "wickets",
+                                "marginValue": 5.0,
+                                "marginImpact": -0.625
+                            },
+                            {
+                                "date": "2025-04-13",
+                                "winner": "Kuwait",
+                                "won": true,
+                                "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+                                "marginType": "runs",
+                                "marginValue": 3.0,
+                                "marginImpact": 0.05
+                            },
+                            {
+                                "date": "2025-04-12",
+                                "winner": "Kuwait",
+                                "won": true,
+                                "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": 0.75
+                            },
+                            {
+                                "date": "2025-04-10",
+                                "winner": "Nepal",
+                                "won": false,
+                                "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.75
+                            },
+                            {
+                                "date": "2025-04-09",
+                                "winner": "Kuwait",
+                                "won": true,
+                                "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+                                "marginType": "wickets",
+                                "marginValue": 4.0,
+                                "marginImpact": 0.5
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 10,
+                        "wins": 2,
+                        "losses": 8,
+                        "winRatePct": 20.0,
+                        "avgMarginImpact": -0.188,
+                        "recent": [
+                            {
+                                "date": "2026-06-26",
+                                "winner": "Singapore",
+                                "won": false,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.75
+                            },
+                            {
+                                "date": "2026-06-25",
+                                "winner": "Thailand",
+                                "won": true,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 8.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-06-23",
+                                "winner": "Singapore",
+                                "won": false,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 88.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-02-28",
+                                "winner": "Bhutan",
+                                "won": false,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "runs",
+                                "marginValue": 7.0,
+                                "marginImpact": -0.117
+                            },
+                            {
+                                "date": "2026-02-27",
+                                "winner": "Bahrain",
+                                "won": false,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "runs",
+                                "marginValue": 12.0,
+                                "marginImpact": -0.2
+                            },
+                            {
+                                "date": "2026-02-26",
+                                "winner": "Thailand",
+                                "won": true,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "runs",
+                                "marginValue": 60.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-02-25",
+                                "winner": "Japan",
+                                "won": false,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "runs",
+                                "marginValue": 37.0,
+                                "marginImpact": -0.617
+                            },
+                            {
+                                "date": "2025-12-13",
+                                "winner": "Philippines",
+                                "won": false,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "wickets",
+                                "marginValue": 1.0,
+                                "marginImpact": -0.125
+                            },
+                            {
+                                "date": "2025-12-12",
+                                "winner": "Malaysia",
+                                "won": false,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "wickets",
+                                "marginValue": 8.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2025-12-11",
+                                "winner": "Singapore",
+                                "won": false,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "runs",
+                                "marginValue": 4.0,
+                                "marginImpact": -0.067
+                            }
+                        ]
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-10-08T09:15:00+08:00",
+                        "temperature_c": 27.6,
+                        "humidity_pct": 83,
+                        "dew_point_c": 24.4,
+                        "rain_probability_pct": 6,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 8.1,
+                        "dew_risk": "MEDIUM",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "27.6°C | RH 83% | Rain 6% | Wind 8.1 km/h",
+                    "dewRisk": "MEDIUM",
+                    "tossBias": "53.57% Chasing Wins",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "33.37",
+                    "ppWicketsAvg": 1.79,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": 5.98,
+                    "over16WicketsPerInnings": 0.458,
+                    "over16WicketEventPct": 35.56,
+                    "over16SampleInnings": 225,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.63/match",
+                    "metricSources": {
+                        "fixture": "CricketData cricScore + match_info",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue T20 history (n=145)",
+                        "powerplay": "Cricsheet first-innings overs 1-6 (n=145)",
+                        "over16": "Cricsheet 16th-over history (n=225)",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification 1.08%"
+                    },
+                    "venueIntel": {
+                        "status": "OK",
+                        "matches": 145,
+                        "venue_confidence": 1.0,
+                        "avg_first_innings": 110.89,
+                        "powerplay_avg": 33.37,
+                        "powerplay_wickets_avg": 1.79,
+                        "chasing_win_pct": 53.57,
+                        "over16_sample_innings": 225,
+                        "over16_avg_runs": 5.98,
+                        "over16_wickets_per_innings": 0.458,
+                        "over16_wicket_event_pct": 35.56,
+                        "mid_overs_7_14_wickets": 671,
+                        "mid_overs_7_14_wickets_per_match": 4.63,
+                        "spin_classification_pct": 1.08,
+                        "spinner_7_14_wickets": null,
+                        "spin_wicket_share_pct": null,
+                        "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+                    },
+                    "midOversWickets": 671,
+                    "midOversWicketsPerMatch": 4.63,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": 1.08,
+                    "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
+                    "noBetReasons": [],
+                    "warnings": [
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "MEDIUM DEW RISK",
+                        "MODERATE SKILL GAP",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-yellow",
+                    "strategyText": "Kuwait has a strong edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "CricketData match_squad"
+                "source": "Not queried"
             },
             "squadSummary": {
-                "status": "SQUAD AVAILABLE — XI PENDING",
-                "teams": {
-                    "Kuwait": {
-                        "players": 14,
-                        "knownBowlingStyles": 9,
-                        "spinOptions": 2,
-                        "paceOptions": 4,
-                        "roleCounts": {
-                            "batters": 5,
-                            "allRounders": 3,
-                            "bowlers": 4,
-                            "keepers": 0
-                        },
-                        "playingFlagsPublished": 0
-                    },
-                    "Thailand": {
-                        "players": 14,
-                        "knownBowlingStyles": 9,
-                        "spinOptions": 1,
-                        "paceOptions": 4,
-                        "roleCounts": {
-                            "batters": 8,
-                            "allRounders": 2,
-                            "bowlers": 4,
-                            "keepers": 0
-                        },
-                        "playingFlagsPublished": 0
-                    }
-                },
-                "source": "CricketData match_squad"
+                "status": "NO SQUAD DATA",
+                "teams": {},
+                "source": "Not queried"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS CONDITIONAL",
-                "dataConfidencePct": 71,
+                "dataConfidencePct": 57,
                 "initialPrediction": "Kuwait has a strong edge on the available pre-toss historical evidence.",
                 "edgeTeam": "Kuwait",
                 "edgeStrength": "STRONG EDGE",
@@ -741,7 +1648,7 @@
                     "Two-way venue: 53.6% chasing wins",
                     "Overs 7-14 wicket pressure: 4.63 wickets/match",
                     "16th-over baseline: 6.0 runs; wicket in 35.6% of sampled innings",
-                    "Weather: rain 6%, dew MEDIUM"
+                    "Weather: rain 7%, dew MEDIUM"
                 ],
                 "evidence": [
                     "Elo: Kuwait 1563.1 vs Thailand 1395.2",
@@ -766,7 +1673,7 @@
                 "over16AvgRuns": 5.98,
                 "over16WicketEventPct": 35.56,
                 "spinWicketSharePct": null,
-                "squadStatus": "SQUAD AVAILABLE — XI PENDING",
+                "squadStatus": "NO SQUAD DATA",
                 "summary": "Kuwait has a strong edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
             },
             "pendingGates": [
@@ -976,16 +1883,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-08T09:15:00+08:00",
-                "temperature_c": 27.6,
-                "humidity_pct": 83,
-                "dew_point_c": 24.4,
-                "rain_probability_pct": 6,
+                "temperature_c": 27.9,
+                "humidity_pct": 79,
+                "dew_point_c": 24.0,
+                "rain_probability_pct": 7,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 8.1,
+                "wind_kmh": 1.7,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.6°C | RH 83% | Rain 6% | Wind 8.1 km/h",
+            "weatherText": "27.9°C | RH 79% | Rain 7% | Wind 1.7 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "53.57% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -999,12 +1906,12 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.63/match",
             "metricSources": {
-                "fixture": "CricketData cricScore + match_info",
+                "fixture": "CricketData cricScore + currentMatches",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=145)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=145)",
                 "over16": "Cricsheet 16th-over history (n=225)",
-                "spinChoke": "Cricsheet overs 7-14; bowler-style classification 1.08%"
+                "spinChoke": "Cricsheet overs 7-14; bowler-style classification 0.0%"
             },
             "venueIntel": {
                 "status": "OK",
@@ -1020,7 +1927,7 @@
                 "over16_wicket_event_pct": 35.56,
                 "mid_overs_7_14_wickets": 671,
                 "mid_overs_7_14_wickets_per_match": 4.63,
-                "spin_classification_pct": 1.08,
+                "spin_classification_pct": 0.0,
                 "spinner_7_14_wickets": null,
                 "spin_wicket_share_pct": null,
                 "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
@@ -1028,16 +1935,18 @@
             "midOversWickets": 671,
             "midOversWicketsPerMatch": 4.63,
             "spinnerWickets7to14": null,
-            "spinClassificationPct": 1.08,
-            "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
-            "noBetReasons": [],
+            "spinClassificationPct": 0.0,
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
+            "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED"
+            ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "MEDIUM DEW RISK",
                 "MODERATE SKILL GAP",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-yellow",
+            "badgeClass": "badge-red",
             "strategyText": "Kuwait has a strong edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
         },
         {
@@ -1056,7 +1965,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173853/sau-vs-sin-2nd-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -1204,7 +2113,501 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-10-08T00:55:06.000256+00:00",
+                "matchDate": "2026-10-08",
+                "report": {
+                    "teamA": "Saudi Arabia",
+                    "teamB": "Singapore",
+                    "name": "Saudi Arabia vs Singapore,2nd Match YSD-UKM Cricket Oval , Bangi",
+                    "matchType": "T20",
+                    "venue": "YSD-UKM Cricket Oval , Bangi",
+                    "dateTimeGMT": "2026-10-08T06:00:00+00:00",
+                    "sourceDate": "2026-10-08",
+                    "matchTimeIST": "2026-10-08T11:30:00+05:30",
+                    "indiaDate": "2026-10-08",
+                    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier B 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "supplementalSourceName": null,
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173853/sau-vs-sin-2nd-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
+                    "cricketDataMatchId": null,
+                    "liveScoreText": null,
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "MODERATE GAP",
+                        "balanceScore": 67.1,
+                        "teamAElo": 1548.3,
+                        "teamBElo": 1457.6,
+                        "eloMatchesA": 59,
+                        "eloMatchesB": 81,
+                        "eloGap": 90.7,
+                        "recentWinRateA": 55.6,
+                        "recentWinRateB": 60.0,
+                        "recentFormGapPct": 4.4,
+                        "headToHead": {
+                            "matches": 3,
+                            "teamAWins": 3,
+                            "teamBWins": 0,
+                            "recent": [
+                                {
+                                    "date": "2025-04-29",
+                                    "winner": "Saudi Arabia",
+                                    "marginType": "wickets",
+                                    "marginValue": 7.0
+                                },
+                                {
+                                    "date": "2025-04-25",
+                                    "winner": "Saudi Arabia",
+                                    "marginType": "runs",
+                                    "marginValue": 96.0
+                                },
+                                {
+                                    "date": "2015-01-29",
+                                    "winner": "Saudi Arabia",
+                                    "marginType": "runs",
+                                    "marginValue": 8.0
+                                }
+                            ]
+                        },
+                        "headToHeadGapPct": 100.0,
+                        "historicallyStrongerSide": "Saudi Arabia",
+                        "signals": [
+                            "Derived Elo gap 90.7",
+                            "Recent win-rate gap 4.4 percentage points",
+                            "Recent H2H win-share gap 100.0 percentage points"
+                        ],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "MODERATE GAP",
+                    "swingScore": 55.1,
+                    "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 67,
+                        "swingProfile": "CONDITIONAL SWING PROFILE",
+                        "swingScore": 55.1,
+                        "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                        "competitiveBalance": {
+                            "label": "MODERATE GAP",
+                            "balanceScore": 67.1,
+                            "teamAElo": 1548.3,
+                            "teamBElo": 1457.6,
+                            "eloMatchesA": 59,
+                            "eloMatchesB": 81,
+                            "eloGap": 90.7,
+                            "recentWinRateA": 55.6,
+                            "recentWinRateB": 60.0,
+                            "recentFormGapPct": 4.4,
+                            "headToHead": {
+                                "matches": 3,
+                                "teamAWins": 3,
+                                "teamBWins": 0,
+                                "recent": [
+                                    {
+                                        "date": "2025-04-29",
+                                        "winner": "Saudi Arabia",
+                                        "marginType": "wickets",
+                                        "marginValue": 7.0
+                                    },
+                                    {
+                                        "date": "2025-04-25",
+                                        "winner": "Saudi Arabia",
+                                        "marginType": "runs",
+                                        "marginValue": 96.0
+                                    },
+                                    {
+                                        "date": "2015-01-29",
+                                        "winner": "Saudi Arabia",
+                                        "marginType": "runs",
+                                        "marginValue": 8.0
+                                    }
+                                ]
+                            },
+                            "headToHeadGapPct": 100.0,
+                            "historicallyStrongerSide": "Saudi Arabia",
+                            "signals": [
+                                "Derived Elo gap 90.7",
+                                "Recent win-rate gap 4.4 percentage points",
+                                "Recent H2H win-share gap 100.0 percentage points"
+                            ],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [
+                            "Historically two-way venue: 54.5% chasing wins",
+                            "Middle-overs wicket volatility: 4.14 wickets/match in overs 7-14"
+                        ],
+                        "swingPenalties": [
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "competitive_balance",
+                                "score": 67.1,
+                                "weight": 0.35
+                            },
+                            {
+                                "name": "venue_two_way",
+                                "score": 90.9,
+                                "weight": 0.2
+                            },
+                            {
+                                "name": "middle_over_volatility",
+                                "score": 69.0,
+                                "weight": 0.15
+                            },
+                            {
+                                "name": "weather",
+                                "score": 70.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "squadSummary": {
+                        "status": "NO SQUAD DATA",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS CONDITIONAL",
+                        "dataConfidencePct": 71,
+                        "initialPrediction": "Saudi Arabia has a moderate edge on the available pre-toss historical evidence.",
+                        "edgeTeam": "Saudi Arabia",
+                        "edgeStrength": "MODERATE EDGE",
+                        "edgeScore": 2.41,
+                        "swingRead": "CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+                        "conditions": [
+                            "Historical first-innings baseline: 106.0",
+                            "Powerplay baseline: 31.7 runs / 1.95 wickets",
+                            "Two-way venue: 54.5% chasing wins",
+                            "Overs 7-14 wicket pressure: 4.14 wickets/match",
+                            "16th-over baseline: 6.0 runs; wicket in 25.0% of sampled innings",
+                            "Weather: rain 16%, dew LOW"
+                        ],
+                        "evidence": [
+                            "Elo: Saudi Arabia 1548.3 vs Singapore 1457.6",
+                            "Recent form: 55.6% vs 60.0% wins",
+                            "H2H: 3-0 across 3 recent meetings"
+                        ],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": 106.01,
+                        "powerplayBaseline": 31.72,
+                        "powerplayWicketsBaseline": 1.95,
+                        "chasingWinPct": 54.55,
+                        "middleOversWicketsPerMatch": 4.14,
+                        "over16AvgRuns": 5.97,
+                        "over16WicketEventPct": 25.0,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "NO SQUAD DATA",
+                        "summary": "Saudi Arabia has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 10,
+                        "wins": 5,
+                        "losses": 4,
+                        "winRatePct": 55.6,
+                        "avgMarginImpact": 0.216,
+                        "recent": [
+                            {
+                                "date": "2025-07-23",
+                                "winner": null,
+                                "won": null,
+                                "venue": "West End Park International Cricket Stadium, Doha",
+                                "marginType": null,
+                                "marginValue": null,
+                                "marginImpact": 0.0
+                            },
+                            {
+                                "date": "2025-07-22",
+                                "winner": "Qatar",
+                                "won": false,
+                                "venue": "West End Park International Cricket Stadium, Doha",
+                                "marginType": "runs",
+                                "marginValue": 32.0,
+                                "marginImpact": -0.533
+                            },
+                            {
+                                "date": "2025-07-21",
+                                "winner": "Qatar",
+                                "won": false,
+                                "venue": "West End Park International Cricket Stadium, Doha",
+                                "marginType": "wickets",
+                                "marginValue": 4.0,
+                                "marginImpact": -0.5
+                            },
+                            {
+                                "date": "2025-07-19",
+                                "winner": "Saudi Arabia",
+                                "won": true,
+                                "venue": "West End Park International Cricket Stadium, Doha",
+                                "marginType": "wickets",
+                                "marginValue": 4.0,
+                                "marginImpact": 0.5
+                            },
+                            {
+                                "date": "2025-05-02",
+                                "winner": "Malaysia",
+                                "won": false,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "runs",
+                                "marginValue": 18.0,
+                                "marginImpact": -0.3
+                            },
+                            {
+                                "date": "2025-04-30",
+                                "winner": "Saudi Arabia",
+                                "won": true,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "wickets",
+                                "marginValue": 7.0,
+                                "marginImpact": 0.875
+                            },
+                            {
+                                "date": "2025-04-29",
+                                "winner": "Saudi Arabia",
+                                "won": true,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "wickets",
+                                "marginValue": 7.0,
+                                "marginImpact": 0.875
+                            },
+                            {
+                                "date": "2025-04-28",
+                                "winner": "Saudi Arabia",
+                                "won": true,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "runs",
+                                "marginValue": 39.0,
+                                "marginImpact": 0.65
+                            },
+                            {
+                                "date": "2025-04-26",
+                                "winner": "Malaysia",
+                                "won": false,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "wickets",
+                                "marginValue": 5.0,
+                                "marginImpact": -0.625
+                            },
+                            {
+                                "date": "2025-04-25",
+                                "winner": "Saudi Arabia",
+                                "won": true,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "runs",
+                                "marginValue": 96.0,
+                                "marginImpact": 1.0
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 10,
+                        "wins": 6,
+                        "losses": 4,
+                        "winRatePct": 60.0,
+                        "avgMarginImpact": 0.216,
+                        "recent": [
+                            {
+                                "date": "2026-06-26",
+                                "winner": "Singapore",
+                                "won": true,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": 0.75
+                            },
+                            {
+                                "date": "2026-06-25",
+                                "winner": "Singapore",
+                                "won": true,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 123.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-06-23",
+                                "winner": "Singapore",
+                                "won": true,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 88.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-06-22",
+                                "winner": "Singapore",
+                                "won": true,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 52.0,
+                                "marginImpact": 0.867
+                            },
+                            {
+                                "date": "2026-06-05",
+                                "winner": "Bahrain",
+                                "won": false,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 2.0,
+                                "marginImpact": -0.033
+                            },
+                            {
+                                "date": "2026-06-03",
+                                "winner": "Hong Kong",
+                                "won": false,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 9.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-06-01",
+                                "winner": "Oman",
+                                "won": false,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 7.0,
+                                "marginImpact": -0.117
+                            },
+                            {
+                                "date": "2025-12-13",
+                                "winner": "Malaysia",
+                                "won": false,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.75
+                            },
+                            {
+                                "date": "2025-12-12",
+                                "winner": "Singapore",
+                                "won": true,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "wickets",
+                                "marginValue": 3.0,
+                                "marginImpact": 0.375
+                            },
+                            {
+                                "date": "2025-12-11",
+                                "winner": "Singapore",
+                                "won": true,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "runs",
+                                "marginValue": 4.0,
+                                "marginImpact": 0.067
+                            }
+                        ]
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-10-08T14:00:00+08:00",
+                        "temperature_c": 29.3,
+                        "humidity_pct": 70,
+                        "dew_point_c": 23.2,
+                        "rain_probability_pct": 16,
+                        "precipitation_mm": 0.1,
+                        "wind_kmh": 25.1,
+                        "dew_risk": "LOW",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "29.3°C | RH 70% | Rain 16% | Wind 25.1 km/h",
+                    "dewRisk": "LOW",
+                    "tossBias": "54.55% Chasing Wins",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "31.72",
+                    "ppWicketsAvg": 1.95,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": 5.97,
+                    "over16WicketsPerInnings": 0.269,
+                    "over16WicketEventPct": 25.0,
+                    "over16SampleInnings": 108,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.14/match",
+                    "metricSources": {
+                        "fixture": "Cricbuzz via text relay",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue T20 history (n=83)",
+                        "powerplay": "Cricsheet first-innings overs 1-6 (n=83)",
+                        "over16": "Cricsheet 16th-over history (n=108)",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification 0.0%"
+                    },
+                    "venueIntel": {
+                        "status": "OK",
+                        "matches": 83,
+                        "venue_confidence": 1.0,
+                        "avg_first_innings": 106.01,
+                        "powerplay_avg": 31.72,
+                        "powerplay_wickets_avg": 1.95,
+                        "chasing_win_pct": 54.55,
+                        "over16_sample_innings": 108,
+                        "over16_avg_runs": 5.97,
+                        "over16_wickets_per_innings": 0.269,
+                        "over16_wicket_event_pct": 25.0,
+                        "mid_overs_7_14_wickets": 344,
+                        "mid_overs_7_14_wickets_per_match": 4.14,
+                        "spin_classification_pct": 0.0,
+                        "spinner_7_14_wickets": null,
+                        "spin_wicket_share_pct": null,
+                        "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+                    },
+                    "midOversWickets": 344,
+                    "midOversWicketsPerMatch": 4.14,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": 0.0,
+                    "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
+                    "noBetReasons": [],
+                    "warnings": [
+                        "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "MODERATE SKILL GAP",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-yellow",
+                    "strategyText": "Saudi Arabia has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -1231,7 +2634,7 @@
                     "Two-way venue: 54.5% chasing wins",
                     "Overs 7-14 wicket pressure: 4.14 wickets/match",
                     "16th-over baseline: 6.0 runs; wicket in 25.0% of sampled innings",
-                    "Weather: rain 16%, dew LOW"
+                    "Weather: rain 6%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Saudi Arabia 1548.3 vs Singapore 1457.6",
@@ -1467,16 +2870,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-08T14:00:00+08:00",
-                "temperature_c": 29.3,
-                "humidity_pct": 70,
-                "dew_point_c": 23.2,
-                "rain_probability_pct": 16,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 25.1,
+                "temperature_c": 29.5,
+                "humidity_pct": 65,
+                "dew_point_c": 22.2,
+                "rain_probability_pct": 6,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 25.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.3°C | RH 70% | Rain 16% | Wind 25.1 km/h",
+            "weatherText": "29.5°C | RH 65% | Rain 6% | Wind 25.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "54.55% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -1520,15 +2923,17 @@
             "midOversWicketsPerMatch": 4.14,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.0,
-            "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
-            "noBetReasons": [],
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
+            "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED"
+            ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "MODERATE SKILL GAP",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-yellow",
+            "badgeClass": "badge-red",
             "strategyText": "Saudi Arabia has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
         },
         {
@@ -1814,15 +3219,15 @@
                 "status": "OK",
                 "local_time": "2026-10-08T18:00:00+02:00",
                 "temperature_c": 16.1,
-                "humidity_pct": 85,
-                "dew_point_c": 13.5,
+                "humidity_pct": 83,
+                "dew_point_c": 13.3,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 20.8,
+                "wind_kmh": 18.5,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "16.1°C | RH 85% | Rain 0% | Wind 20.8 km/h",
+            "weatherText": "16.1°C | RH 83% | Rain 0% | Wind 18.5 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "52.04% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -2160,16 +3565,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-08T18:00:00+02:00",
-                "temperature_c": 16.7,
-                "humidity_pct": 53,
-                "dew_point_c": 7.1,
+                "temperature_c": 16.2,
+                "humidity_pct": 56,
+                "dew_point_c": 7.4,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.6,
+                "wind_kmh": 9.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "16.7°C | RH 53% | Rain 0% | Wind 10.6 km/h",
+            "weatherText": "16.2°C | RH 56% | Rain 0% | Wind 9.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "47.37% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -2236,12 +3641,12 @@
             "matchTimeIST": "2026-10-08T06:45:00+05:30",
             "indiaDate": "2026-10-08",
             "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
-            "sourceName": "CricketData cricScore + match_info",
-            "supplementalSourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173750/bhr-vs-mmr-9th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
+            "sourceName": "CricketData cricScore + currentMatches",
+            "supplementalSourceName": null,
+            "sourceMatchUrl": null,
             "cricketDataMatchId": "f282a0cb-51d5-4189-b067-aa50683d4f19",
-            "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 08, 01:15 GMT",
+            "liveScoreText": "73/2 (11.2) | 70/9 (20)",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -2351,49 +3756,505 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-10-08T00:55:06.000190+00:00",
+                "matchDate": "2026-10-08",
+                "report": {
+                    "teamA": "Bahrain",
+                    "teamB": "Myanmar",
+                    "name": "Bahrain vs Myanmar",
+                    "matchType": "T20",
+                    "venue": "Selangor Turf Club, Kuala Lumpur",
+                    "dateTimeGMT": "2026-10-08T01:15:00",
+                    "sourceDate": "2026-10-08",
+                    "matchTimeIST": "2026-10-08T06:45:00+05:30",
+                    "indiaDate": "2026-10-08",
+                    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+                    "sourceName": "CricketData cricScore + match_info",
+                    "supplementalSourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173750/bhr-vs-mmr-9th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
+                    "cricketDataMatchId": "f282a0cb-51d5-4189-b067-aa50683d4f19",
+                    "liveScoreText": null,
+                    "sourceStatus": "Match starts at Oct 08, 01:15 GMT",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "EXTREME GAP",
+                        "balanceScore": 26.3,
+                        "teamAElo": 1626.3,
+                        "teamBElo": 1303.7,
+                        "eloMatchesA": 115,
+                        "eloMatchesB": 34,
+                        "eloGap": 322.6,
+                        "recentWinRateA": 55.6,
+                        "recentWinRateB": 30.0,
+                        "recentFormGapPct": 25.6,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": "Bahrain",
+                        "signals": [
+                            "Derived Elo gap 322.6",
+                            "Recent win-rate gap 25.6 percentage points"
+                        ],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "EXTREME GAP",
+                    "swingScore": 35.0,
+                    "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 67,
+                        "swingProfile": "EXTREME SKILL-GAP CAUTION",
+                        "swingScore": 35.0,
+                        "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
+                        "competitiveBalance": {
+                            "label": "EXTREME GAP",
+                            "balanceScore": 26.3,
+                            "teamAElo": 1626.3,
+                            "teamBElo": 1303.7,
+                            "eloMatchesA": 115,
+                            "eloMatchesB": 34,
+                            "eloGap": 322.6,
+                            "recentWinRateA": 55.6,
+                            "recentWinRateB": 30.0,
+                            "recentFormGapPct": 25.6,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": "Bahrain",
+                            "signals": [
+                                "Derived Elo gap 322.6",
+                                "Recent win-rate gap 25.6 percentage points"
+                            ],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [
+                            "Middle-overs wicket volatility: 4.34 wickets/match in overs 7-14",
+                            "Medium dew can change second-innings conditions"
+                        ],
+                        "swingPenalties": [
+                            "Strong venue side-bias: 71.4% chasing wins",
+                            "Extreme skill gap: one-sided price path risk",
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "competitive_balance",
+                                "score": 26.3,
+                                "weight": 0.35
+                            },
+                            {
+                                "name": "venue_two_way",
+                                "score": 57.1,
+                                "weight": 0.2
+                            },
+                            {
+                                "name": "middle_over_volatility",
+                                "score": 72.3,
+                                "weight": 0.15
+                            },
+                            {
+                                "name": "weather",
+                                "score": 90.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "CricketData match_squad"
+                    },
+                    "squadSummary": {
+                        "status": "SQUAD AVAILABLE — XI PENDING",
+                        "teams": {
+                            "Bahrain": {
+                                "players": 12,
+                                "knownBowlingStyles": 6,
+                                "spinOptions": 1,
+                                "paceOptions": 4,
+                                "roleCounts": {
+                                    "batters": 3,
+                                    "allRounders": 3,
+                                    "bowlers": 3,
+                                    "keepers": 0
+                                },
+                                "playingFlagsPublished": 0
+                            },
+                            "Myanmar": {
+                                "players": 14,
+                                "knownBowlingStyles": 11,
+                                "spinOptions": 1,
+                                "paceOptions": 8,
+                                "roleCounts": {
+                                    "batters": 11,
+                                    "allRounders": 0,
+                                    "bowlers": 3,
+                                    "keepers": 0
+                                },
+                                "playingFlagsPublished": 0
+                            }
+                        },
+                        "source": "CricketData match_squad"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS POOR FIT",
+                        "dataConfidencePct": 71,
+                        "initialPrediction": "Bahrain has a strong edge on the available pre-toss historical evidence.",
+                        "edgeTeam": "Bahrain",
+                        "edgeStrength": "STRONG EDGE",
+                        "edgeScore": 3.78,
+                        "swingRead": "ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+                        "conditions": [
+                            "Historical first-innings baseline: 91.6",
+                            "Powerplay baseline: 25.3 runs / 1.93 wickets",
+                            "Chase-lean venue: 71.4% chasing wins",
+                            "Overs 7-14 wicket pressure: 4.34 wickets/match",
+                            "16th-over baseline: 5.3 runs; wicket in 40.5% of sampled innings",
+                            "Weather: rain 6%, dew MEDIUM"
+                        ],
+                        "evidence": [
+                            "Elo: Bahrain 1626.3 vs Myanmar 1303.7",
+                            "Recent form: 55.6% vs 30.0% wins"
+                        ],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": 91.62,
+                        "powerplayBaseline": 25.34,
+                        "powerplayWicketsBaseline": 1.93,
+                        "chasingWinPct": 71.43,
+                        "middleOversWicketsPerMatch": 4.34,
+                        "over16AvgRuns": 5.33,
+                        "over16WicketEventPct": 40.48,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "SQUAD AVAILABLE — XI PENDING",
+                        "summary": "Bahrain has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 10,
+                        "wins": 5,
+                        "losses": 4,
+                        "winRatePct": 55.6,
+                        "avgMarginImpact": -0.07,
+                        "recent": [
+                            {
+                                "date": "2026-08-01",
+                                "winner": "Kenya",
+                                "won": false,
+                                "venue": "Gymkhana Club Ground, Nairobi",
+                                "marginType": "wickets",
+                                "marginValue": 1.0,
+                                "marginImpact": -0.125
+                            },
+                            {
+                                "date": "2026-07-31",
+                                "winner": "Bahrain",
+                                "won": true,
+                                "venue": "Gymkhana Club Ground, Nairobi",
+                                "marginType": "runs",
+                                "marginValue": 15.0,
+                                "marginImpact": 0.25
+                            },
+                            {
+                                "date": "2026-06-05",
+                                "winner": "Bahrain",
+                                "won": true,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 2.0,
+                                "marginImpact": 0.033
+                            },
+                            {
+                                "date": "2026-06-03",
+                                "winner": "Oman",
+                                "won": false,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 20.0,
+                                "marginImpact": -0.333
+                            },
+                            {
+                                "date": "2026-06-01",
+                                "winner": "Hong Kong",
+                                "won": false,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 8.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-03-10",
+                                "winner": "Bahrain",
+                                "won": true,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "wickets",
+                                "marginValue": 7.0,
+                                "marginImpact": 0.875
+                            },
+                            {
+                                "date": "2026-03-08",
+                                "winner": "Bahrain",
+                                "won": true,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "runs",
+                                "marginValue": 2.0,
+                                "marginImpact": 0.033
+                            },
+                            {
+                                "date": "2026-03-07",
+                                "winner": "Malaysia",
+                                "won": false,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "runs",
+                                "marginValue": 34.0,
+                                "marginImpact": -0.567
+                            },
+                            {
+                                "date": "2026-02-28",
+                                "winner": null,
+                                "won": null,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": null,
+                                "marginValue": null,
+                                "marginImpact": 0.0
+                            },
+                            {
+                                "date": "2026-02-27",
+                                "winner": "Bahrain",
+                                "won": true,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "runs",
+                                "marginValue": 12.0,
+                                "marginImpact": 0.2
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 10,
+                        "wins": 3,
+                        "losses": 7,
+                        "winRatePct": 30.0,
+                        "avgMarginImpact": -0.362,
+                        "recent": [
+                            {
+                                "date": "2025-12-29",
+                                "winner": "Bhutan",
+                                "won": false,
+                                "venue": "Gelephu International Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 84.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2025-12-27",
+                                "winner": "Bhutan",
+                                "won": false,
+                                "venue": "Gelephu International Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 121.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2025-12-26",
+                                "winner": "Bhutan",
+                                "won": false,
+                                "venue": "Gelephu International Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 82.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2025-12-24",
+                                "winner": "Bhutan",
+                                "won": false,
+                                "venue": "Gelephu International Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 120.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2025-12-23",
+                                "winner": "Bhutan",
+                                "won": false,
+                                "venue": "Gelephu International Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 8.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2025-11-14",
+                                "winner": "Myanmar",
+                                "won": true,
+                                "venue": "Udayana Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 87.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2025-11-13",
+                                "winner": "Indonesia",
+                                "won": false,
+                                "venue": "Udayana Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 10.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2025-11-12",
+                                "winner": "Myanmar",
+                                "won": true,
+                                "venue": "Udayana Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 93.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2025-11-11",
+                                "winner": "Indonesia",
+                                "won": false,
+                                "venue": "Udayana Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 5.0,
+                                "marginImpact": -0.625
+                            },
+                            {
+                                "date": "2025-11-09",
+                                "winner": "Myanmar",
+                                "won": true,
+                                "venue": "Udayana Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 8.0,
+                                "marginImpact": 1.0
+                            }
+                        ]
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-10-08T09:15:00+08:00",
+                        "temperature_c": 27.6,
+                        "humidity_pct": 83,
+                        "dew_point_c": 24.4,
+                        "rain_probability_pct": 6,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 8.1,
+                        "dew_risk": "MEDIUM",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "27.6°C | RH 83% | Rain 6% | Wind 8.1 km/h",
+                    "dewRisk": "MEDIUM",
+                    "tossBias": "71.43% Chasing Wins",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "25.34",
+                    "ppWicketsAvg": 1.93,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": 5.33,
+                    "over16WicketsPerInnings": 0.452,
+                    "over16WicketEventPct": 40.48,
+                    "over16SampleInnings": 42,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.34/match",
+                    "metricSources": {
+                        "fixture": "CricketData cricScore + match_info",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue T20 history (n=29)",
+                        "powerplay": "Cricsheet first-innings overs 1-6 (n=29)",
+                        "over16": "Cricsheet 16th-over history (n=42)",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification 0.0%"
+                    },
+                    "venueIntel": {
+                        "status": "OK",
+                        "matches": 29,
+                        "venue_confidence": 1.0,
+                        "avg_first_innings": 91.62,
+                        "powerplay_avg": 25.34,
+                        "powerplay_wickets_avg": 1.93,
+                        "chasing_win_pct": 71.43,
+                        "over16_sample_innings": 42,
+                        "over16_avg_runs": 5.33,
+                        "over16_wickets_per_innings": 0.452,
+                        "over16_wicket_event_pct": 40.48,
+                        "mid_overs_7_14_wickets": 126,
+                        "mid_overs_7_14_wickets_per_match": 4.34,
+                        "spin_classification_pct": 0.0,
+                        "spinner_7_14_wickets": null,
+                        "spin_wicket_share_pct": null,
+                        "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+                    },
+                    "midOversWickets": 126,
+                    "midOversWicketsPerMatch": 4.34,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": 0.0,
+                    "verdict": "🔴 PRE-TOSS POOR FIT / ONE-SIDED RISK",
+                    "noBetReasons": [
+                        "EXTREME SKILL GAP / ONE-SIDED MARKET PATH RISK"
+                    ],
+                    "warnings": [
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "MEDIUM DEW RISK",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-red",
+                    "strategyText": "Bahrain has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "CricketData match_squad"
+                "source": "Not queried"
             },
             "squadSummary": {
-                "status": "SQUAD AVAILABLE — XI PENDING",
-                "teams": {
-                    "Bahrain": {
-                        "players": 12,
-                        "knownBowlingStyles": 6,
-                        "spinOptions": 1,
-                        "paceOptions": 4,
-                        "roleCounts": {
-                            "batters": 3,
-                            "allRounders": 3,
-                            "bowlers": 3,
-                            "keepers": 0
-                        },
-                        "playingFlagsPublished": 0
-                    },
-                    "Myanmar": {
-                        "players": 14,
-                        "knownBowlingStyles": 11,
-                        "spinOptions": 1,
-                        "paceOptions": 8,
-                        "roleCounts": {
-                            "batters": 11,
-                            "allRounders": 0,
-                            "bowlers": 3,
-                            "keepers": 0
-                        },
-                        "playingFlagsPublished": 0
-                    }
-                },
-                "source": "CricketData match_squad"
+                "status": "NO SQUAD DATA",
+                "teams": {},
+                "source": "Not queried"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS POOR FIT",
-                "dataConfidencePct": 71,
+                "dataConfidencePct": 57,
                 "initialPrediction": "Bahrain has a strong edge on the available pre-toss historical evidence.",
                 "edgeTeam": "Bahrain",
                 "edgeStrength": "STRONG EDGE",
@@ -2405,7 +4266,7 @@
                     "Chase-lean venue: 71.4% chasing wins",
                     "Overs 7-14 wicket pressure: 4.34 wickets/match",
                     "16th-over baseline: 5.3 runs; wicket in 40.5% of sampled innings",
-                    "Weather: rain 6%, dew MEDIUM"
+                    "Weather: rain 7%, dew MEDIUM"
                 ],
                 "evidence": [
                     "Elo: Bahrain 1626.3 vs Myanmar 1303.7",
@@ -2430,7 +4291,7 @@
                 "over16AvgRuns": 5.33,
                 "over16WicketEventPct": 40.48,
                 "spinWicketSharePct": null,
-                "squadStatus": "SQUAD AVAILABLE — XI PENDING",
+                "squadStatus": "NO SQUAD DATA",
                 "summary": "Bahrain has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
             },
             "pendingGates": [
@@ -2640,16 +4501,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-08T09:15:00+08:00",
-                "temperature_c": 27.6,
-                "humidity_pct": 83,
-                "dew_point_c": 24.4,
-                "rain_probability_pct": 6,
+                "temperature_c": 27.9,
+                "humidity_pct": 79,
+                "dew_point_c": 24.0,
+                "rain_probability_pct": 7,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 8.1,
+                "wind_kmh": 1.7,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.6°C | RH 83% | Rain 6% | Wind 8.1 km/h",
+            "weatherText": "27.9°C | RH 79% | Rain 7% | Wind 1.7 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "71.43% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -2663,7 +4524,7 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.34/match",
             "metricSources": {
-                "fixture": "CricketData cricScore + match_info",
+                "fixture": "CricketData cricScore + currentMatches",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=29)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=29)",
@@ -2693,8 +4554,9 @@
             "midOversWicketsPerMatch": 4.34,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.0,
-            "verdict": "🔴 PRE-TOSS POOR FIT / ONE-SIDED RISK",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "EXTREME SKILL GAP / ONE-SIDED MARKET PATH RISK"
             ],
             "warnings": [
@@ -2721,7 +4583,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173847/chn-vs-mdv-1st-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -2830,7 +4692,462 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-10-08T00:55:06.000239+00:00",
+                "matchDate": "2026-10-08",
+                "report": {
+                    "teamA": "China",
+                    "teamB": "Maldives",
+                    "name": "China vs Maldives,1st Match Bayuemas Oval , Kuala Lumpur",
+                    "matchType": "T20",
+                    "venue": "Bayuemas Oval , Kuala Lumpur",
+                    "dateTimeGMT": "2026-10-08T06:00:00+00:00",
+                    "sourceDate": "2026-10-08",
+                    "matchTimeIST": "2026-10-08T11:30:00+05:30",
+                    "indiaDate": "2026-10-08",
+                    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier B 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "supplementalSourceName": null,
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173847/chn-vs-mdv-1st-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
+                    "cricketDataMatchId": null,
+                    "liveScoreText": null,
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "BALANCED",
+                        "balanceScore": 89.3,
+                        "teamAElo": 1332.5,
+                        "teamBElo": 1332.8,
+                        "eloMatchesA": 21,
+                        "eloMatchesB": 46,
+                        "eloGap": 0.3,
+                        "recentWinRateA": 10.0,
+                        "recentWinRateB": 40.0,
+                        "recentFormGapPct": 30.0,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": "Maldives",
+                        "signals": [
+                            "Derived Elo gap 0.3",
+                            "Recent win-rate gap 30.0 percentage points"
+                        ],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "BALANCED",
+                    "swingScore": 35.0,
+                    "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 67,
+                        "swingProfile": "CONDITIONAL SWING PROFILE",
+                        "swingScore": 35.0,
+                        "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
+                        "competitiveBalance": {
+                            "label": "BALANCED",
+                            "balanceScore": 89.3,
+                            "teamAElo": 1332.5,
+                            "teamBElo": 1332.8,
+                            "eloMatchesA": 21,
+                            "eloMatchesB": 46,
+                            "eloGap": 0.3,
+                            "recentWinRateA": 10.0,
+                            "recentWinRateB": 40.0,
+                            "recentFormGapPct": 30.0,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": "Maldives",
+                            "signals": [
+                                "Derived Elo gap 0.3",
+                                "Recent win-rate gap 30.0 percentage points"
+                            ],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [
+                            "Historically two-way venue: 53.6% chasing wins",
+                            "Middle-overs wicket volatility: 4.63 wickets/match in overs 7-14"
+                        ],
+                        "swingPenalties": [
+                            "High rain-interruption risk",
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "competitive_balance",
+                                "score": 89.3,
+                                "weight": 0.35
+                            },
+                            {
+                                "name": "venue_two_way",
+                                "score": 92.9,
+                                "weight": 0.2
+                            },
+                            {
+                                "name": "middle_over_volatility",
+                                "score": 77.2,
+                                "weight": 0.15
+                            },
+                            {
+                                "name": "weather",
+                                "score": 20.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "squadSummary": {
+                        "status": "NO SQUAD DATA",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS WATCHLIST",
+                        "dataConfidencePct": 57,
+                        "initialPrediction": "Maldives has a slight edge on the available pre-toss historical evidence.",
+                        "edgeTeam": "Maldives",
+                        "edgeStrength": "SLIGHT EDGE",
+                        "edgeScore": -1.5,
+                        "swingRead": "GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+                        "conditions": [
+                            "Historical first-innings baseline: 110.9",
+                            "Powerplay baseline: 33.4 runs / 1.79 wickets",
+                            "Two-way venue: 53.6% chasing wins",
+                            "Overs 7-14 wicket pressure: 4.63 wickets/match",
+                            "16th-over baseline: 6.0 runs; wicket in 35.6% of sampled innings",
+                            "Weather: rain 73%, dew LOW"
+                        ],
+                        "evidence": [
+                            "Elo: China 1332.5 vs Maldives 1332.8",
+                            "Recent form: 10.0% vs 40.0% wins"
+                        ],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": 110.89,
+                        "powerplayBaseline": 33.37,
+                        "powerplayWicketsBaseline": 1.79,
+                        "chasingWinPct": 53.57,
+                        "middleOversWicketsPerMatch": 4.63,
+                        "over16AvgRuns": 5.98,
+                        "over16WicketEventPct": 35.56,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "NO SQUAD DATA",
+                        "summary": "Maldives has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 10,
+                        "wins": 1,
+                        "losses": 9,
+                        "winRatePct": 10.0,
+                        "avgMarginImpact": -0.811,
+                        "recent": [
+                            {
+                                "date": "2026-06-02",
+                                "winner": "Malaysia",
+                                "won": false,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 9.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-05-31",
+                                "winner": "Nepal",
+                                "won": false,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 221.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2024-02-16",
+                                "winner": "Japan",
+                                "won": false,
+                                "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+                                "marginType": "runs",
+                                "marginValue": 44.0,
+                                "marginImpact": -0.733
+                            },
+                            {
+                                "date": "2024-02-16",
+                                "winner": "Hong Kong",
+                                "won": false,
+                                "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+                                "marginType": "wickets",
+                                "marginValue": 10.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2024-02-15",
+                                "winner": "Japan",
+                                "won": false,
+                                "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+                                "marginType": "runs",
+                                "marginValue": 180.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2024-02-14",
+                                "winner": "Hong Kong",
+                                "won": false,
+                                "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+                                "marginType": "runs",
+                                "marginValue": 123.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2024-01-28",
+                                "winner": "Cambodia",
+                                "won": false,
+                                "venue": "Terdthai Cricket Ground, Bangkok",
+                                "marginType": "runs",
+                                "marginValue": 93.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2023-07-31",
+                                "winner": "China",
+                                "won": true,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "wickets",
+                                "marginValue": 5.0,
+                                "marginImpact": 0.625
+                            },
+                            {
+                                "date": "2023-07-30",
+                                "winner": "Bhutan",
+                                "won": false,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "runs",
+                                "marginValue": 95.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2023-07-27",
+                                "winner": "Thailand",
+                                "won": false,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "wickets",
+                                "marginValue": 9.0,
+                                "marginImpact": -1.0
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 10,
+                        "wins": 4,
+                        "losses": 6,
+                        "winRatePct": 40.0,
+                        "avgMarginImpact": -0.176,
+                        "recent": [
+                            {
+                                "date": "2024-10-23",
+                                "winner": "Maldives",
+                                "won": true,
+                                "venue": "Gelephu International Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 7.0,
+                                "marginImpact": 0.875
+                            },
+                            {
+                                "date": "2024-10-22",
+                                "winner": "Thailand",
+                                "won": false,
+                                "venue": "Gelephu International Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 44.0,
+                                "marginImpact": -0.733
+                            },
+                            {
+                                "date": "2024-10-20",
+                                "winner": "Bhutan",
+                                "won": false,
+                                "venue": "Gelephu International Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 4.0,
+                                "marginImpact": -0.5
+                            },
+                            {
+                                "date": "2024-10-19",
+                                "winner": "Maldives",
+                                "won": true,
+                                "venue": "Gelephu International Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 23.0,
+                                "marginImpact": 0.383
+                            },
+                            {
+                                "date": "2024-09-06",
+                                "winner": "Maldives",
+                                "won": true,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "runs",
+                                "marginValue": 117.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2024-09-05",
+                                "winner": "Maldives",
+                                "won": true,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "wickets",
+                                "marginValue": 9.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2024-09-03",
+                                "winner": "Hong Kong",
+                                "won": false,
+                                "venue": "YSD-UKM Cricket Oval, Bangi",
+                                "marginType": "wickets",
+                                "marginValue": 9.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2024-09-02",
+                                "winner": "Kuwait",
+                                "won": false,
+                                "venue": "YSD-UKM Cricket Oval, Bangi",
+                                "marginType": "runs",
+                                "marginValue": 142.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2024-08-31",
+                                "winner": "Singapore",
+                                "won": false,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "runs",
+                                "marginValue": 47.0,
+                                "marginImpact": -0.783
+                            },
+                            {
+                                "date": "2024-08-30",
+                                "winner": "Malaysia",
+                                "won": false,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "runs",
+                                "marginValue": 94.0,
+                                "marginImpact": -1.0
+                            }
+                        ]
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-10-08T14:00:00+08:00",
+                        "temperature_c": 29.9,
+                        "humidity_pct": 70,
+                        "dew_point_c": 23.8,
+                        "rain_probability_pct": 73,
+                        "precipitation_mm": 0.5,
+                        "wind_kmh": 9.4,
+                        "dew_risk": "LOW",
+                        "rain_risk": "HIGH"
+                    },
+                    "weatherText": "29.9°C | RH 70% | Rain 73% | Wind 9.4 km/h",
+                    "dewRisk": "LOW",
+                    "tossBias": "53.57% Chasing Wins",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "33.37",
+                    "ppWicketsAvg": 1.79,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": 5.98,
+                    "over16WicketsPerInnings": 0.458,
+                    "over16WicketEventPct": 35.56,
+                    "over16SampleInnings": 225,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.63/match",
+                    "metricSources": {
+                        "fixture": "Cricbuzz via text relay",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue T20 history (n=145)",
+                        "powerplay": "Cricsheet first-innings overs 1-6 (n=145)",
+                        "over16": "Cricsheet 16th-over history (n=225)",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification 0.0%"
+                    },
+                    "venueIntel": {
+                        "status": "OK",
+                        "matches": 145,
+                        "venue_confidence": 1.0,
+                        "avg_first_innings": 110.89,
+                        "powerplay_avg": 33.37,
+                        "powerplay_wickets_avg": 1.79,
+                        "chasing_win_pct": 53.57,
+                        "over16_sample_innings": 225,
+                        "over16_avg_runs": 5.98,
+                        "over16_wickets_per_innings": 0.458,
+                        "over16_wicket_event_pct": 35.56,
+                        "mid_overs_7_14_wickets": 671,
+                        "mid_overs_7_14_wickets_per_match": 4.63,
+                        "spin_classification_pct": 0.0,
+                        "spinner_7_14_wickets": null,
+                        "spin_wicket_share_pct": null,
+                        "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+                    },
+                    "midOversWickets": 671,
+                    "midOversWicketsPerMatch": 4.63,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": 0.0,
+                    "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
+                    "noBetReasons": [
+                        "HIGH RAIN INTERRUPTION RISK"
+                    ],
+                    "warnings": [
+                        "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-green",
+                    "strategyText": "Maldives has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -2857,7 +5174,7 @@
                     "Two-way venue: 53.6% chasing wins",
                     "Overs 7-14 wicket pressure: 4.63 wickets/match",
                     "16th-over baseline: 6.0 runs; wicket in 35.6% of sampled innings",
-                    "Weather: rain 73%, dew LOW"
+                    "Weather: rain 86%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: China 1332.5 vs Maldives 1332.8",
@@ -3092,16 +5409,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-08T14:00:00+08:00",
-                "temperature_c": 29.9,
-                "humidity_pct": 70,
-                "dew_point_c": 23.8,
-                "rain_probability_pct": 73,
-                "precipitation_mm": 0.5,
-                "wind_kmh": 9.4,
+                "temperature_c": 33.4,
+                "humidity_pct": 56,
+                "dew_point_c": 23.3,
+                "rain_probability_pct": 86,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 4.8,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "29.9°C | RH 70% | Rain 73% | Wind 9.4 km/h",
+            "weatherText": "33.4°C | RH 56% | Rain 86% | Wind 4.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.57% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -3145,8 +5462,9 @@
             "midOversWicketsPerMatch": 4.63,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.0,
-            "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "HIGH RAIN INTERRUPTION RISK"
             ],
             "warnings": [
@@ -3154,7 +5472,7 @@
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-green",
+            "badgeClass": "badge-red",
             "strategyText": "Maldives has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
         },
         {
@@ -3173,7 +5491,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173861/mly-vs-hkc-3rd-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -3406,7 +5724,587 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-10-08T00:55:06.000268+00:00",
+                "matchDate": "2026-10-08",
+                "report": {
+                    "teamA": "Malaysia",
+                    "teamB": "Hong Kong, China",
+                    "name": "Malaysia vs Hong Kong, China,3rd Match Selangor Turf Club , Kuala Lumpur",
+                    "matchType": "T20",
+                    "venue": "Selangor Turf Club , Kuala Lumpur",
+                    "dateTimeGMT": "2026-10-08T06:00:00+00:00",
+                    "sourceDate": "2026-10-08",
+                    "matchTimeIST": "2026-10-08T11:30:00+05:30",
+                    "indiaDate": "2026-10-08",
+                    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier B 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "supplementalSourceName": null,
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173861/mly-vs-hkc-3rd-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
+                    "cricketDataMatchId": null,
+                    "liveScoreText": null,
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "BALANCED",
+                        "balanceScore": 92.1,
+                        "teamAElo": 1594.3,
+                        "teamBElo": 1584.1,
+                        "eloMatchesA": 128,
+                        "eloMatchesB": 133,
+                        "eloGap": 10.2,
+                        "recentWinRateA": 50.0,
+                        "recentWinRateB": 60.0,
+                        "recentFormGapPct": 10.0,
+                        "headToHead": {
+                            "matches": 10,
+                            "teamAWins": 4,
+                            "teamBWins": 6,
+                            "recent": [
+                                {
+                                    "date": "2026-06-07",
+                                    "winner": "Hong Kong",
+                                    "marginType": "wickets",
+                                    "marginValue": 6.0
+                                },
+                                {
+                                    "date": "2025-07-26",
+                                    "winner": "Malaysia",
+                                    "marginType": "wickets",
+                                    "marginValue": 10.0
+                                },
+                                {
+                                    "date": "2025-07-22",
+                                    "winner": "Malaysia",
+                                    "marginType": "wickets",
+                                    "marginValue": 7.0
+                                },
+                                {
+                                    "date": "2025-07-18",
+                                    "winner": "Malaysia",
+                                    "marginType": "wickets",
+                                    "marginValue": 5.0
+                                },
+                                {
+                                    "date": "2025-03-15",
+                                    "winner": "Hong Kong",
+                                    "marginType": "wickets",
+                                    "marginValue": 8.0
+                                },
+                                {
+                                    "date": "2025-03-12",
+                                    "winner": "Hong Kong",
+                                    "marginType": "runs",
+                                    "marginValue": 42.0
+                                },
+                                {
+                                    "date": "2024-09-07",
+                                    "winner": "Malaysia",
+                                    "marginType": "runs",
+                                    "marginValue": 3.0
+                                },
+                                {
+                                    "date": "2024-08-26",
+                                    "winner": "Hong Kong",
+                                    "marginType": "runs",
+                                    "marginValue": 7.0
+                                },
+                                {
+                                    "date": "2024-08-23",
+                                    "winner": "Hong Kong",
+                                    "marginType": "wickets",
+                                    "marginValue": 6.0
+                                },
+                                {
+                                    "date": "2024-04-17",
+                                    "winner": "Hong Kong",
+                                    "marginType": "wickets",
+                                    "marginValue": 7.0
+                                }
+                            ]
+                        },
+                        "headToHeadGapPct": 20.0,
+                        "historicallyStrongerSide": null,
+                        "signals": [
+                            "Derived Elo gap 10.2",
+                            "Recent win-rate gap 10.0 percentage points",
+                            "Recent H2H win-share gap 20.0 percentage points"
+                        ],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "BALANCED",
+                    "swingScore": 35.0,
+                    "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 67,
+                        "swingProfile": "CONDITIONAL SWING PROFILE",
+                        "swingScore": 35.0,
+                        "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
+                        "competitiveBalance": {
+                            "label": "BALANCED",
+                            "balanceScore": 92.1,
+                            "teamAElo": 1594.3,
+                            "teamBElo": 1584.1,
+                            "eloMatchesA": 128,
+                            "eloMatchesB": 133,
+                            "eloGap": 10.2,
+                            "recentWinRateA": 50.0,
+                            "recentWinRateB": 60.0,
+                            "recentFormGapPct": 10.0,
+                            "headToHead": {
+                                "matches": 10,
+                                "teamAWins": 4,
+                                "teamBWins": 6,
+                                "recent": [
+                                    {
+                                        "date": "2026-06-07",
+                                        "winner": "Hong Kong",
+                                        "marginType": "wickets",
+                                        "marginValue": 6.0
+                                    },
+                                    {
+                                        "date": "2025-07-26",
+                                        "winner": "Malaysia",
+                                        "marginType": "wickets",
+                                        "marginValue": 10.0
+                                    },
+                                    {
+                                        "date": "2025-07-22",
+                                        "winner": "Malaysia",
+                                        "marginType": "wickets",
+                                        "marginValue": 7.0
+                                    },
+                                    {
+                                        "date": "2025-07-18",
+                                        "winner": "Malaysia",
+                                        "marginType": "wickets",
+                                        "marginValue": 5.0
+                                    },
+                                    {
+                                        "date": "2025-03-15",
+                                        "winner": "Hong Kong",
+                                        "marginType": "wickets",
+                                        "marginValue": 8.0
+                                    },
+                                    {
+                                        "date": "2025-03-12",
+                                        "winner": "Hong Kong",
+                                        "marginType": "runs",
+                                        "marginValue": 42.0
+                                    },
+                                    {
+                                        "date": "2024-09-07",
+                                        "winner": "Malaysia",
+                                        "marginType": "runs",
+                                        "marginValue": 3.0
+                                    },
+                                    {
+                                        "date": "2024-08-26",
+                                        "winner": "Hong Kong",
+                                        "marginType": "runs",
+                                        "marginValue": 7.0
+                                    },
+                                    {
+                                        "date": "2024-08-23",
+                                        "winner": "Hong Kong",
+                                        "marginType": "wickets",
+                                        "marginValue": 6.0
+                                    },
+                                    {
+                                        "date": "2024-04-17",
+                                        "winner": "Hong Kong",
+                                        "marginType": "wickets",
+                                        "marginValue": 7.0
+                                    }
+                                ]
+                            },
+                            "headToHeadGapPct": 20.0,
+                            "historicallyStrongerSide": null,
+                            "signals": [
+                                "Derived Elo gap 10.2",
+                                "Recent win-rate gap 10.0 percentage points",
+                                "Recent H2H win-share gap 20.0 percentage points"
+                            ],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [
+                            "Middle-overs wicket volatility: 4.34 wickets/match in overs 7-14"
+                        ],
+                        "swingPenalties": [
+                            "Strong venue side-bias: 71.4% chasing wins",
+                            "High rain-interruption risk",
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "competitive_balance",
+                                "score": 92.1,
+                                "weight": 0.35
+                            },
+                            {
+                                "name": "venue_two_way",
+                                "score": 57.1,
+                                "weight": 0.2
+                            },
+                            {
+                                "name": "middle_over_volatility",
+                                "score": 72.3,
+                                "weight": 0.15
+                            },
+                            {
+                                "name": "weather",
+                                "score": 20.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "squadSummary": {
+                        "status": "NO SQUAD DATA",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS CONDITIONAL",
+                        "dataConfidencePct": 71,
+                        "initialPrediction": "Pre-toss evidence is broadly balanced; no clear historical side edge.",
+                        "edgeTeam": null,
+                        "edgeStrength": "BALANCED",
+                        "edgeScore": -0.67,
+                        "swingRead": "CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+                        "conditions": [
+                            "Historical first-innings baseline: 91.6",
+                            "Powerplay baseline: 25.3 runs / 1.93 wickets",
+                            "Chase-lean venue: 71.4% chasing wins",
+                            "Overs 7-14 wicket pressure: 4.34 wickets/match",
+                            "16th-over baseline: 5.3 runs; wicket in 40.5% of sampled innings",
+                            "Weather: rain 73%, dew LOW"
+                        ],
+                        "evidence": [
+                            "Elo: Malaysia 1594.3 vs Hong Kong, China 1584.1",
+                            "Recent form: 50.0% vs 60.0% wins",
+                            "H2H: 4-6 across 10 recent meetings"
+                        ],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": 91.62,
+                        "powerplayBaseline": 25.34,
+                        "powerplayWicketsBaseline": 1.93,
+                        "chasingWinPct": 71.43,
+                        "middleOversWicketsPerMatch": 4.34,
+                        "over16AvgRuns": 5.33,
+                        "over16WicketEventPct": 40.48,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "NO SQUAD DATA",
+                        "summary": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 10,
+                        "wins": 5,
+                        "losses": 5,
+                        "winRatePct": 50.0,
+                        "avgMarginImpact": -0.053,
+                        "recent": [
+                            {
+                                "date": "2026-09-17",
+                                "winner": "United Arab Emirates",
+                                "won": false,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "runs",
+                                "marginValue": 59.0,
+                                "marginImpact": -0.983
+                            },
+                            {
+                                "date": "2026-09-16",
+                                "winner": "United Arab Emirates",
+                                "won": false,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "wickets",
+                                "marginValue": 7.0,
+                                "marginImpact": -0.875
+                            },
+                            {
+                                "date": "2026-09-14",
+                                "winner": "United Arab Emirates",
+                                "won": false,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.75
+                            },
+                            {
+                                "date": "2026-06-08",
+                                "winner": "Malaysia",
+                                "won": true,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 8.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-06-07",
+                                "winner": "Hong Kong",
+                                "won": false,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.75
+                            },
+                            {
+                                "date": "2026-06-04",
+                                "winner": "Nepal",
+                                "won": false,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 167.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-06-02",
+                                "winner": "Malaysia",
+                                "won": true,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 9.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-05-05",
+                                "winner": "Malaysia",
+                                "won": true,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "wickets",
+                                "marginValue": 5.0,
+                                "marginImpact": 0.625
+                            },
+                            {
+                                "date": "2026-05-04",
+                                "winner": "Malaysia",
+                                "won": true,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "runs",
+                                "marginValue": 104.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-05-02",
+                                "winner": "Malaysia",
+                                "won": true,
+                                "venue": "Bayuemas Oval, Kuala Lumpur",
+                                "marginType": "runs",
+                                "marginValue": 12.0,
+                                "marginImpact": 0.2
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 10,
+                        "wins": 6,
+                        "losses": 4,
+                        "winRatePct": 60.0,
+                        "avgMarginImpact": 0.343,
+                        "recent": [
+                            {
+                                "date": "2026-06-22",
+                                "winner": "Namibia",
+                                "won": false,
+                                "venue": "Namibia Cricket Ground, Windhoek",
+                                "marginType": "runs",
+                                "marginValue": 30.0,
+                                "marginImpact": -0.5
+                            },
+                            {
+                                "date": "2026-06-21",
+                                "winner": "Hong Kong",
+                                "won": true,
+                                "venue": "Namibia Cricket Ground, Windhoek",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": 0.75
+                            },
+                            {
+                                "date": "2026-06-19",
+                                "winner": "Namibia",
+                                "won": false,
+                                "venue": "Namibia Cricket Ground, Windhoek",
+                                "marginType": "wickets",
+                                "marginValue": 7.0,
+                                "marginImpact": -0.875
+                            },
+                            {
+                                "date": "2026-06-18",
+                                "winner": "Hong Kong",
+                                "won": true,
+                                "venue": "Namibia Cricket Ground, Windhoek",
+                                "marginType": "wickets",
+                                "marginValue": 8.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-06-08",
+                                "winner": "Nepal",
+                                "won": false,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 19.0,
+                                "marginImpact": -0.317
+                            },
+                            {
+                                "date": "2026-06-07",
+                                "winner": "Hong Kong",
+                                "won": true,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": 0.75
+                            },
+                            {
+                                "date": "2026-06-05",
+                                "winner": "Hong Kong",
+                                "won": true,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 154.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-06-03",
+                                "winner": "Hong Kong",
+                                "won": true,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 9.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-06-01",
+                                "winner": "Hong Kong",
+                                "won": true,
+                                "venue": "Singapore National Cricket Ground",
+                                "marginType": "wickets",
+                                "marginValue": 8.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-03-01",
+                                "winner": "Kuwait",
+                                "won": false,
+                                "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+                                "marginType": "wickets",
+                                "marginValue": 3.0,
+                                "marginImpact": -0.375
+                            }
+                        ]
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-10-08T14:00:00+08:00",
+                        "temperature_c": 29.9,
+                        "humidity_pct": 70,
+                        "dew_point_c": 23.8,
+                        "rain_probability_pct": 73,
+                        "precipitation_mm": 0.5,
+                        "wind_kmh": 9.4,
+                        "dew_risk": "LOW",
+                        "rain_risk": "HIGH"
+                    },
+                    "weatherText": "29.9°C | RH 70% | Rain 73% | Wind 9.4 km/h",
+                    "dewRisk": "LOW",
+                    "tossBias": "71.43% Chasing Wins",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "25.34",
+                    "ppWicketsAvg": 1.93,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": 5.33,
+                    "over16WicketsPerInnings": 0.452,
+                    "over16WicketEventPct": 40.48,
+                    "over16SampleInnings": 42,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.34/match",
+                    "metricSources": {
+                        "fixture": "Cricbuzz via text relay",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue T20 history (n=29)",
+                        "powerplay": "Cricsheet first-innings overs 1-6 (n=29)",
+                        "over16": "Cricsheet 16th-over history (n=42)",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification 0.0%"
+                    },
+                    "venueIntel": {
+                        "status": "OK",
+                        "matches": 29,
+                        "venue_confidence": 1.0,
+                        "avg_first_innings": 91.62,
+                        "powerplay_avg": 25.34,
+                        "powerplay_wickets_avg": 1.93,
+                        "chasing_win_pct": 71.43,
+                        "over16_sample_innings": 42,
+                        "over16_avg_runs": 5.33,
+                        "over16_wickets_per_innings": 0.452,
+                        "over16_wicket_event_pct": 40.48,
+                        "mid_overs_7_14_wickets": 126,
+                        "mid_overs_7_14_wickets_per_match": 4.34,
+                        "spin_classification_pct": 0.0,
+                        "spinner_7_14_wickets": null,
+                        "spin_wicket_share_pct": null,
+                        "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+                    },
+                    "midOversWickets": 126,
+                    "midOversWicketsPerMatch": 4.34,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": 0.0,
+                    "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
+                    "noBetReasons": [
+                        "HIGH RAIN INTERRUPTION RISK"
+                    ],
+                    "warnings": [
+                        "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-yellow",
+                    "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -3433,7 +6331,7 @@
                     "Chase-lean venue: 71.4% chasing wins",
                     "Overs 7-14 wicket pressure: 4.34 wickets/match",
                     "16th-over baseline: 5.3 runs; wicket in 40.5% of sampled innings",
-                    "Weather: rain 73%, dew LOW"
+                    "Weather: rain 86%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Malaysia 1594.3 vs Hong Kong, China 1584.1",
@@ -3669,16 +6567,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-08T14:00:00+08:00",
-                "temperature_c": 29.9,
-                "humidity_pct": 70,
-                "dew_point_c": 23.8,
-                "rain_probability_pct": 73,
-                "precipitation_mm": 0.5,
-                "wind_kmh": 9.4,
+                "temperature_c": 33.4,
+                "humidity_pct": 56,
+                "dew_point_c": 23.3,
+                "rain_probability_pct": 86,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 4.8,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "29.9°C | RH 70% | Rain 73% | Wind 9.4 km/h",
+            "weatherText": "33.4°C | RH 56% | Rain 86% | Wind 4.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "71.43% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -3722,8 +6620,9 @@
             "midOversWicketsPerMatch": 4.34,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.0,
-            "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "HIGH RAIN INTERRUPTION RISK"
             ],
             "warnings": [
@@ -3731,7 +6630,7 @@
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-yellow",
+            "badgeClass": "badge-red",
             "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
         }
     ]

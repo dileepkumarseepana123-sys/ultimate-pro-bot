@@ -27490,7 +27490,7 @@
         }
     },
     "boland|eastern storm|2026-10-08": {
-        "capturedAt": "2026-10-08T00:55:06.000277+00:00",
+        "capturedAt": "2026-10-08T06:52:16.728471+00:00",
         "matchDate": "2026-10-08",
         "report": {
             "teamA": "Boland",
@@ -27773,16 +27773,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-08T18:00:00+02:00",
-                "temperature_c": 16.7,
-                "humidity_pct": 53,
-                "dew_point_c": 7.1,
+                "temperature_c": 16.2,
+                "humidity_pct": 56,
+                "dew_point_c": 7.4,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.6,
+                "wind_kmh": 9.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "16.7°C | RH 53% | Rain 0% | Wind 10.6 km/h",
+            "weatherText": "16.2°C | RH 56% | Rain 0% | Wind 9.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "47.37% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -27840,7 +27840,7 @@
         }
     },
     "northern cape|warriors|2026-10-08": {
-        "capturedAt": "2026-10-08T00:55:06.000286+00:00",
+        "capturedAt": "2026-10-08T06:52:16.728510+00:00",
         "matchDate": "2026-10-08",
         "report": {
             "teamA": "Warriors",
@@ -28125,15 +28125,15 @@
                 "status": "OK",
                 "local_time": "2026-10-08T18:00:00+02:00",
                 "temperature_c": 16.1,
-                "humidity_pct": 85,
-                "dew_point_c": 13.5,
+                "humidity_pct": 83,
+                "dew_point_c": 13.3,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 20.8,
+                "wind_kmh": 18.5,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "16.1°C | RH 85% | Rain 0% | Wind 20.8 km/h",
+            "weatherText": "16.1°C | RH 83% | Rain 0% | Wind 18.5 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "52.04% Chasing Wins",
             "tossTrend": "Historical venue trend",
