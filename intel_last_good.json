@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-08T12:59:04.857252+00:00",
+    "last_updated": "2026-10-08T15:47:17.040553+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -36,7 +36,7 @@
             "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 80,
+        "hits_today_reported": 84,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -2114,7 +2114,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-08T10:45:14.006525+00:00",
+                "capturedAt": "2026-10-08T12:59:04.826366+00:00",
                 "matchDate": "2026-10-08",
                 "report": {
                     "teamA": "Saudi Arabia",
@@ -4693,7 +4693,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-08T10:45:14.006516+00:00",
+                "capturedAt": "2026-10-08T12:59:04.826358+00:00",
                 "matchDate": "2026-10-08",
                 "report": {
                     "teamA": "China",
