@@ -28194,7 +28194,7 @@
         }
     },
     "pakistan|sri lanka|2026-10-09": {
-        "capturedAt": "2026-10-09T06:54:06.152776+00:00",
+        "capturedAt": "2026-10-09T10:46:02.411464+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "Pakistan",
@@ -28772,7 +28772,7 @@
         }
     },
     "myanmar|qatar|2026-10-09": {
-        "capturedAt": "2026-10-09T00:57:58.465440+00:00",
+        "capturedAt": "2026-10-09T10:46:02.411601+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "Qatar",
@@ -28790,7 +28790,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173761/qat-vs-mmr-12th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -29226,11 +29226,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Qatar has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Qatar has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "mongolia|thailand|2026-10-09": {
-        "capturedAt": "2026-10-09T06:54:06.152897+00:00",
+        "capturedAt": "2026-10-09T10:46:02.411610+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "Mongolia",
@@ -29686,7 +29687,7 @@
         }
     },
     "bahrain|kuwait|2026-10-09": {
-        "capturedAt": "2026-10-09T00:57:58.465490+00:00",
+        "capturedAt": "2026-10-09T10:46:02.411619+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "Bahrain",
@@ -29704,7 +29705,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173760/bhr-vs-kuw-11th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -30260,7 +30261,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Bahrain has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Bahrain has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "malaysia|saudi arabia|2026-10-09": {
@@ -30785,7 +30787,7 @@
         }
     },
     "china|hong kong china|2026-10-09": {
-        "capturedAt": "2026-10-09T00:57:58.465577+00:00",
+        "capturedAt": "2026-10-09T10:46:02.411629+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "China",
@@ -30803,7 +30805,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173873/chn-vs-hkc-5th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -31263,7 +31265,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Hong Kong, China has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Hong Kong, China has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "maldives|singapore|2026-10-09": {
@@ -31750,7 +31753,7 @@
         }
     },
     "border|dolphins|2026-10-09": {
-        "capturedAt": "2026-10-09T06:54:06.152839+00:00",
+        "capturedAt": "2026-10-09T10:46:02.411535+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "Border",
@@ -32099,7 +32102,7 @@
         }
     },
     "pakistan|sri lanka 1st t20i rawalpindi cricket stadium rawalpindi|2026-10-09": {
-        "capturedAt": "2026-10-09T06:54:06.152867+00:00",
+        "capturedAt": "2026-10-09T10:46:02.411566+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "Pakistan",
@@ -32414,7 +32417,7 @@
         }
     },
     "india|west indies 2nd t20i jsca international stadium complex ranchi|2026-10-09": {
-        "capturedAt": "2026-10-09T06:54:06.152890+00:00",
+        "capturedAt": "2026-10-09T10:46:02.411592+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "India",
