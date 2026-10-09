@@ -28194,7 +28194,7 @@
         }
     },
     "pakistan|sri lanka|2026-10-09": {
-        "capturedAt": "2026-10-08T18:52:34.340856+00:00",
+        "capturedAt": "2026-10-09T00:57:58.465404+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "Pakistan",
@@ -28212,7 +28212,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/170687/pak-vs-sl-1st-t20i-sri-lanka-tour-of-pakistan-2026",
             "cricketDataMatchId": "f16be214-8be8-427e-90fc-c8e42a4a1322",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 09, 15:00 GMT",
+            "sourceStatus": "Match starts at Oct 09, 13:00 GMT",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -28708,14 +28708,14 @@
                 "local_time": "2026-10-09T20:00:00+05:00",
                 "temperature_c": 24.0,
                 "humidity_pct": 78,
-                "dew_point_c": 19.8,
+                "dew_point_c": 20.0,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 4.7,
+                "wind_kmh": 4.8,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "24.0°C | RH 78% | Rain 0% | Wind 4.7 km/h",
+            "weatherText": "24.0°C | RH 78% | Rain 0% | Wind 4.8 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "52.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -28772,7 +28772,7 @@
         }
     },
     "myanmar|qatar|2026-10-09": {
-        "capturedAt": "2026-10-08T18:52:34.340871+00:00",
+        "capturedAt": "2026-10-09T00:57:58.465440+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "Qatar",
@@ -29162,16 +29162,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-09T09:15:00+08:00",
-                "temperature_c": 28.0,
-                "humidity_pct": 79,
-                "dew_point_c": 23.9,
+                "temperature_c": 28.1,
+                "humidity_pct": 77,
+                "dew_point_c": 23.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.8,
+                "wind_kmh": 2.5,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "28.0°C | RH 79% | Rain 0% | Wind 2.8 km/h",
+            "weatherText": "28.1°C | RH 77% | Rain 0% | Wind 2.5 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "71.43% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -29230,7 +29230,7 @@
         }
     },
     "mongolia|thailand|2026-10-09": {
-        "capturedAt": "2026-10-08T18:52:34.340881+00:00",
+        "capturedAt": "2026-10-09T00:57:58.465469+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "Mongolia",
@@ -29619,16 +29619,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-09T09:15:00+08:00",
-                "temperature_c": 28.0,
-                "humidity_pct": 79,
-                "dew_point_c": 23.9,
+                "temperature_c": 28.1,
+                "humidity_pct": 77,
+                "dew_point_c": 23.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.8,
+                "wind_kmh": 2.5,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "28.0°C | RH 79% | Rain 0% | Wind 2.8 km/h",
+            "weatherText": "28.1°C | RH 77% | Rain 0% | Wind 2.5 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "53.57% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -29685,7 +29685,7 @@
         }
     },
     "bahrain|kuwait|2026-10-09": {
-        "capturedAt": "2026-10-08T18:52:34.340890+00:00",
+        "capturedAt": "2026-10-09T00:57:58.465490+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "Bahrain",
@@ -30199,15 +30199,15 @@
                 "status": "OK",
                 "local_time": "2026-10-09T09:15:00+08:00",
                 "temperature_c": 29.3,
-                "humidity_pct": 67,
-                "dew_point_c": 22.6,
+                "humidity_pct": 68,
+                "dew_point_c": 22.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 15.2,
+                "wind_kmh": 15.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.3°C | RH 67% | Rain 0% | Wind 15.2 km/h",
+            "weatherText": "29.3°C | RH 68% | Rain 0% | Wind 15.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "54.55% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -30263,7 +30263,7 @@
         }
     },
     "malaysia|saudi arabia|2026-10-09": {
-        "capturedAt": "2026-10-08T18:52:34.340900+00:00",
+        "capturedAt": "2026-10-09T00:57:58.465515+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "Malaysia",
@@ -30481,7 +30481,7 @@
                     "Two-way venue: 53.6% chasing wins",
                     "Overs 7-14 wicket pressure: 4.63 wickets/match",
                     "16th-over baseline: 6.0 runs; wicket in 35.6% of sampled innings",
-                    "Weather: rain 65%, dew LOW"
+                    "Weather: rain 82%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Malaysia 1594.3 vs Saudi Arabia 1548.3",
@@ -30717,16 +30717,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-09T14:00:00+08:00",
-                "temperature_c": 28.5,
-                "humidity_pct": 79,
-                "dew_point_c": 24.6,
-                "rain_probability_pct": 65,
-                "precipitation_mm": 3.3,
-                "wind_kmh": 13.2,
+                "temperature_c": 31.2,
+                "humidity_pct": 62,
+                "dew_point_c": 23.2,
+                "rain_probability_pct": 82,
+                "precipitation_mm": 0.5,
+                "wind_kmh": 8.1,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "28.5°C | RH 79% | Rain 65% | Wind 13.2 km/h",
+            "weatherText": "31.2°C | RH 62% | Rain 82% | Wind 8.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.57% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -30784,7 +30784,7 @@
         }
     },
     "china|hong kong china|2026-10-09": {
-        "capturedAt": "2026-10-08T18:52:34.340910+00:00",
+        "capturedAt": "2026-10-09T00:57:58.465577+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "China",
@@ -30964,7 +30964,7 @@
                     "Two-way venue: 54.5% chasing wins",
                     "Overs 7-14 wicket pressure: 4.14 wickets/match",
                     "16th-over baseline: 6.0 runs; wicket in 25.0% of sampled innings",
-                    "Weather: rain 18%, dew LOW"
+                    "Weather: rain 10%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: China 1332.5 vs Hong Kong, China 1584.1",
@@ -31199,16 +31199,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-09T14:00:00+08:00",
-                "temperature_c": 30.8,
-                "humidity_pct": 66,
+                "temperature_c": 30.3,
+                "humidity_pct": 68,
                 "dew_point_c": 23.8,
-                "rain_probability_pct": 18,
+                "rain_probability_pct": 10,
                 "precipitation_mm": 0.1,
-                "wind_kmh": 19.3,
+                "wind_kmh": 21.5,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "30.8°C | RH 66% | Rain 18% | Wind 19.3 km/h",
+            "weatherText": "30.3°C | RH 68% | Rain 10% | Wind 21.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "54.55% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -31266,7 +31266,7 @@
         }
     },
     "maldives|singapore|2026-10-09": {
-        "capturedAt": "2026-10-08T18:52:34.340919+00:00",
+        "capturedAt": "2026-10-09T00:57:58.465621+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "Maldives",
@@ -31446,7 +31446,7 @@
                     "Chase-lean venue: 71.4% chasing wins",
                     "Overs 7-14 wicket pressure: 4.34 wickets/match",
                     "16th-over baseline: 5.3 runs; wicket in 40.5% of sampled innings",
-                    "Weather: rain 65%, dew LOW"
+                    "Weather: rain 82%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Maldives 1332.8 vs Singapore 1457.6",
@@ -31681,16 +31681,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-09T14:00:00+08:00",
-                "temperature_c": 28.5,
-                "humidity_pct": 79,
-                "dew_point_c": 24.6,
-                "rain_probability_pct": 65,
-                "precipitation_mm": 3.3,
-                "wind_kmh": 13.2,
+                "temperature_c": 31.2,
+                "humidity_pct": 62,
+                "dew_point_c": 23.2,
+                "rain_probability_pct": 82,
+                "precipitation_mm": 0.5,
+                "wind_kmh": 8.1,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "28.5°C | RH 79% | Rain 65% | Wind 13.2 km/h",
+            "weatherText": "31.2°C | RH 62% | Rain 82% | Wind 8.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "71.43% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -31749,7 +31749,7 @@
         }
     },
     "border|dolphins|2026-10-09": {
-        "capturedAt": "2026-10-08T18:52:34.340928+00:00",
+        "capturedAt": "2026-10-09T00:57:58.465639+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "Border",
@@ -32031,16 +32031,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-09T13:00:00+02:00",
-                "temperature_c": 20.5,
-                "humidity_pct": 68,
-                "dew_point_c": 14.5,
+                "temperature_c": 20.4,
+                "humidity_pct": 69,
+                "dew_point_c": 14.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 17.2,
+                "wind_kmh": 18.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "20.5°C | RH 68% | Rain 0% | Wind 17.2 km/h",
+            "weatherText": "20.4°C | RH 69% | Rain 0% | Wind 18.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "51.85% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -32098,7 +32098,7 @@
         }
     },
     "pakistan|sri lanka 1st t20i rawalpindi cricket stadium rawalpindi|2026-10-09": {
-        "capturedAt": "2026-10-08T18:52:34.340941+00:00",
+        "capturedAt": "2026-10-09T00:57:58.465659+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "Pakistan",
@@ -32362,15 +32362,15 @@
                 "status": "OK",
                 "local_time": "2026-10-09T18:00:00+05:00",
                 "temperature_c": 26.1,
-                "humidity_pct": 70,
-                "dew_point_c": 20.3,
+                "humidity_pct": 71,
+                "dew_point_c": 20.5,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 5.8,
+                "wind_kmh": 3.1,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.1°C | RH 70% | Rain 0% | Wind 5.8 km/h",
+            "weatherText": "26.1°C | RH 71% | Rain 0% | Wind 3.1 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -32416,7 +32416,7 @@
         }
     },
     "india|west indies 2nd t20i jsca international stadium complex ranchi|2026-10-09": {
-        "capturedAt": "2026-10-08T18:52:34.340954+00:00",
+        "capturedAt": "2026-10-09T00:57:58.465680+00:00",
         "matchDate": "2026-10-09",
         "report": {
             "teamA": "India",
@@ -32465,14 +32465,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 63.3,
+            "swingScore": 66.7,
             "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 50,
                 "swingProfile": "CONDITIONAL SWING PROFILE",
-                "swingScore": 63.3,
+                "swingScore": 66.7,
                 "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -32501,11 +32501,10 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 53.9% chasing wins",
-                    "Middle-overs wicket volatility: 4.15 wickets/match in overs 7-14"
+                    "Middle-overs wicket volatility: 4.15 wickets/match in overs 7-14",
+                    "Medium dew can change second-innings conditions"
                 ],
-                "swingPenalties": [
-                    "High dew may create strong chase-side bias"
-                ],
+                "swingPenalties": [],
                 "scoreComponents": [
                     {
                         "name": "venue_two_way",
@@ -32519,7 +32518,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 60.0,
+                        "score": 90.0,
                         "weight": 0.1
                     },
                     {
@@ -32558,7 +32557,7 @@
                     "Two-way venue: 53.9% chasing wins",
                     "Overs 7-14 wicket pressure: 4.15 wickets/match",
                     "16th-over baseline: 6.5 runs; wicket in 42.9% of sampled innings",
-                    "Weather: rain 4%, dew HIGH"
+                    "Weather: rain 3%, dew MEDIUM"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -32697,17 +32696,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-09T19:00:00+05:30",
-                "temperature_c": 21.7,
-                "humidity_pct": 84,
-                "dew_point_c": 18.9,
-                "rain_probability_pct": 4,
+                "temperature_c": 21.8,
+                "humidity_pct": 82,
+                "dew_point_c": 18.7,
+                "rain_probability_pct": 3,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.0,
-                "dew_risk": "HIGH",
+                "wind_kmh": 8.9,
+                "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "21.7°C | RH 84% | Rain 4% | Wind 7.0 km/h",
-            "dewRisk": "HIGH",
+            "weatherText": "21.8°C | RH 82% | Rain 3% | Wind 8.9 km/h",
+            "dewRisk": "MEDIUM",
             "tossBias": "53.85% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "47.77",
@@ -32752,12 +32751,12 @@
             "spinClassificationPct": 3.3,
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
-                "HIGH DEW RISK",
                 "LIMITED RECENT T20 DATA FOR West Indies,2nd T20I JSCA International Stadium Complex , Ranchi"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
