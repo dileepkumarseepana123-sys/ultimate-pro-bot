@@ -32770,7 +32770,7 @@
         }
     },
     "mpumalanga rhinos|western province|2026-10-10": {
-        "capturedAt": "2026-10-09T18:47:39.244178+00:00",
+        "capturedAt": "2026-10-10T00:53:53.778887+00:00",
         "matchDate": "2026-10-10",
         "report": {
             "teamA": "Mpumalanga Rhinos",
@@ -32894,7 +32894,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 1%, dew LOW"
+                    "Weather: rain 0%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -33035,16 +33035,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-10T06:00:00-05:00",
-                "temperature_c": 17.4,
+                "temperature_c": 19.2,
                 "humidity_pct": 33,
-                "dew_point_c": 0.9,
-                "rain_probability_pct": 1,
+                "dew_point_c": 2.5,
+                "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 17.4,
+                "wind_kmh": 18.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "17.4°C | RH 33% | Rain 1% | Wind 17.4 km/h",
+            "weatherText": "19.2°C | RH 33% | Rain 0% | Wind 18.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -33089,7 +33089,7 @@
         }
     },
     "north west eastvaal renault dragons|south western districts|2026-10-10": {
-        "capturedAt": "2026-10-09T18:47:39.244194+00:00",
+        "capturedAt": "2026-10-10T00:53:53.778920+00:00",
         "matchDate": "2026-10-10",
         "report": {
             "teamA": "North West - Eastvaal Renault Dragons",
@@ -33231,7 +33231,7 @@
                     "Two-way venue: 46.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.26 wickets/match",
                     "16th-over baseline: 8.3 runs; wicket in 33.0% of sampled innings",
-                    "Weather: rain 51%, dew LOW"
+                    "Weather: rain 54%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -33372,16 +33372,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-10T18:00:00+02:00",
-                "temperature_c": 23.6,
-                "humidity_pct": 57,
-                "dew_point_c": 14.6,
-                "rain_probability_pct": 51,
+                "temperature_c": 25.2,
+                "humidity_pct": 43,
+                "dew_point_c": 11.8,
+                "rain_probability_pct": 54,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 4.2,
+                "wind_kmh": 5.5,
                 "dew_risk": "LOW",
                 "rain_risk": "MEDIUM"
             },
-            "weatherText": "23.6°C | RH 57% | Rain 51% | Wind 4.2 km/h",
+            "weatherText": "25.2°C | RH 43% | Rain 54% | Wind 5.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "46.0% Chasing Wins",
             "tossTrend": "Historical venue trend",

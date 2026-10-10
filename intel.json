@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-09T18:47:39.276283+00:00",
+    "last_updated": "2026-10-10T00:53:53.814501+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -23,8 +23,8 @@
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
         "match_info_calls_this_run": 0,
-        "match_info_cache_hits_this_run": 46,
-        "match_info_enriched_rows": 46,
+        "match_info_cache_hits_this_run": 44,
+        "match_info_enriched_rows": 44,
         "match_info_cache_size": 53,
         "max_match_info_lookups_per_run": 8,
         "squad_calls_this_run": 0,
@@ -36,7 +36,7 @@
             "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 4,
+        "hits_today_reported": 8,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -69,13 +69,13 @@
         "current_matches_rows": 17,
         "current_matches_t20_rows": 11,
         "current_matches_today_t20_rows": 0,
-        "cricscore_rows": 48,
-        "cricscore_t20_rows": 15,
+        "cricscore_rows": 46,
+        "cricscore_t20_rows": 14,
         "cricscore_today_t20_rows": 0,
         "cricketdata_rows": 50,
         "cricketdata_t20_rows": 16,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 38,
+        "merged_candidates": 37,
         "final_reports": 2
     },
     "summary": {
@@ -225,7 +225,7 @@
                     "Two-way venue: 46.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.26 wickets/match",
                     "16th-over baseline: 8.3 runs; wicket in 33.0% of sampled innings",
-                    "Weather: rain 51%, dew LOW"
+                    "Weather: rain 54%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -366,16 +366,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-10T18:00:00+02:00",
-                "temperature_c": 23.6,
-                "humidity_pct": 57,
-                "dew_point_c": 14.6,
-                "rain_probability_pct": 51,
+                "temperature_c": 25.2,
+                "humidity_pct": 43,
+                "dew_point_c": 11.8,
+                "rain_probability_pct": 54,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 4.2,
+                "wind_kmh": 5.5,
                 "dew_risk": "LOW",
                 "rain_risk": "MEDIUM"
             },
-            "weatherText": "23.6°C | RH 57% | Rain 51% | Wind 4.2 km/h",
+            "weatherText": "25.2°C | RH 43% | Rain 54% | Wind 5.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "46.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -553,7 +553,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 1%, dew LOW"
+                    "Weather: rain 0%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -694,16 +694,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-10T06:00:00-05:00",
-                "temperature_c": 17.4,
+                "temperature_c": 19.2,
                 "humidity_pct": 33,
-                "dew_point_c": 0.9,
-                "rain_probability_pct": 1,
+                "dew_point_c": 2.5,
+                "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 17.4,
+                "wind_kmh": 18.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "17.4°C | RH 33% | Rain 1% | Wind 17.4 km/h",
+            "weatherText": "19.2°C | RH 33% | Rain 0% | Wind 18.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
