@@ -32770,7 +32770,7 @@
         }
     },
     "mpumalanga rhinos|western province|2026-10-10": {
-        "capturedAt": "2026-10-10T06:49:21.342123+00:00",
+        "capturedAt": "2026-10-10T10:43:40.438995+00:00",
         "matchDate": "2026-10-10",
         "report": {
             "teamA": "Mpumalanga Rhinos",
@@ -33035,16 +33035,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-10T06:00:00-05:00",
-                "temperature_c": 18.1,
-                "humidity_pct": 38,
-                "dew_point_c": 3.5,
+                "temperature_c": 17.8,
+                "humidity_pct": 39,
+                "dew_point_c": 3.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 17.8,
+                "wind_kmh": 18.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "18.1°C | RH 38% | Rain 0% | Wind 17.8 km/h",
+            "weatherText": "17.8°C | RH 39% | Rain 0% | Wind 18.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -33089,7 +33089,7 @@
         }
     },
     "north west eastvaal renault dragons|south western districts|2026-10-10": {
-        "capturedAt": "2026-10-10T06:49:21.342160+00:00",
+        "capturedAt": "2026-10-10T10:43:40.439030+00:00",
         "matchDate": "2026-10-10",
         "report": {
             "teamA": "North West - Eastvaal Renault Dragons",
@@ -33373,16 +33373,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-10T18:00:00+02:00",
-                "temperature_c": 23.4,
-                "humidity_pct": 64,
-                "dew_point_c": 16.3,
+                "temperature_c": 23.0,
+                "humidity_pct": 59,
+                "dew_point_c": 14.6,
                 "rain_probability_pct": 69,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 1.4,
+                "wind_kmh": 7.7,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "23.4°C | RH 64% | Rain 69% | Wind 1.4 km/h",
+            "weatherText": "23.0°C | RH 59% | Rain 69% | Wind 7.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "46.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
