@@ -33089,7 +33089,7 @@
         }
     },
     "north west eastvaal renault dragons|south western districts|2026-10-10": {
-        "capturedAt": "2026-10-10T10:43:40.439030+00:00",
+        "capturedAt": "2026-10-10T12:48:59.215127+00:00",
         "matchDate": "2026-10-10",
         "report": {
             "teamA": "North West - Eastvaal Renault Dragons",
@@ -33232,7 +33232,7 @@
                     "Two-way venue: 46.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.26 wickets/match",
                     "16th-over baseline: 8.3 runs; wicket in 33.0% of sampled innings",
-                    "Weather: rain 69%, dew LOW"
+                    "Weather: rain 63%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -33373,16 +33373,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-10T18:00:00+02:00",
-                "temperature_c": 23.0,
-                "humidity_pct": 59,
-                "dew_point_c": 14.6,
-                "rain_probability_pct": 69,
+                "temperature_c": 23.7,
+                "humidity_pct": 54,
+                "dew_point_c": 13.8,
+                "rain_probability_pct": 63,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.7,
+                "wind_kmh": 8.1,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "23.0°C | RH 59% | Rain 69% | Wind 7.7 km/h",
+            "weatherText": "23.7°C | RH 54% | Rain 63% | Wind 8.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "46.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
