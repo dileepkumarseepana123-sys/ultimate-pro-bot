@@ -32770,7 +32770,7 @@
         }
     },
     "mpumalanga rhinos|western province|2026-10-10": {
-        "capturedAt": "2026-10-10T00:53:53.778887+00:00",
+        "capturedAt": "2026-10-10T06:49:21.342123+00:00",
         "matchDate": "2026-10-10",
         "report": {
             "teamA": "Mpumalanga Rhinos",
@@ -33035,16 +33035,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-10T06:00:00-05:00",
-                "temperature_c": 19.2,
-                "humidity_pct": 33,
-                "dew_point_c": 2.5,
+                "temperature_c": 18.1,
+                "humidity_pct": 38,
+                "dew_point_c": 3.5,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 18.7,
+                "wind_kmh": 17.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "19.2°C | RH 33% | Rain 0% | Wind 18.7 km/h",
+            "weatherText": "18.1°C | RH 38% | Rain 0% | Wind 17.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -33089,7 +33089,7 @@
         }
     },
     "north west eastvaal renault dragons|south western districts|2026-10-10": {
-        "capturedAt": "2026-10-10T00:53:53.778920+00:00",
+        "capturedAt": "2026-10-10T06:49:21.342160+00:00",
         "matchDate": "2026-10-10",
         "report": {
             "teamA": "North West - Eastvaal Renault Dragons",
@@ -33138,14 +33138,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 44.0,
+            "swingScore": 35.0,
             "strategyLabel": "INSUFFICIENT DATA",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 33,
                 "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 44.0,
+                "swingScore": 35.0,
                 "strategyLabel": "INSUFFICIENT DATA",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -33177,6 +33177,7 @@
                     "Middle-overs wicket volatility: 4.26 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
+                    "High rain-interruption risk",
                     "Liquidity/market depth is not verified"
                 ],
                 "scoreComponents": [
@@ -33192,7 +33193,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 70.0,
+                        "score": 20.0,
                         "weight": 0.1
                     },
                     {
@@ -33231,7 +33232,7 @@
                     "Two-way venue: 46.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.26 wickets/match",
                     "16th-over baseline: 8.3 runs; wicket in 33.0% of sampled innings",
-                    "Weather: rain 54%, dew LOW"
+                    "Weather: rain 69%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -33372,16 +33373,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-10T18:00:00+02:00",
-                "temperature_c": 25.2,
-                "humidity_pct": 43,
-                "dew_point_c": 11.8,
-                "rain_probability_pct": 54,
+                "temperature_c": 23.4,
+                "humidity_pct": 64,
+                "dew_point_c": 16.3,
+                "rain_probability_pct": 69,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 5.5,
+                "wind_kmh": 1.4,
                 "dew_risk": "LOW",
-                "rain_risk": "MEDIUM"
+                "rain_risk": "HIGH"
             },
-            "weatherText": "25.2°C | RH 43% | Rain 54% | Wind 5.5 km/h",
+            "weatherText": "23.4°C | RH 64% | Rain 69% | Wind 1.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "46.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -33427,6 +33428,7 @@
             "spinClassificationPct": 1.25,
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
+                "HIGH RAIN INTERRUPTION RISK",
                 "LIMITED RECENT T20 DATA FOR South Western Districts"
             ],
             "warnings": [
