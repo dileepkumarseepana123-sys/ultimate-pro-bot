@@ -908,5 +908,22 @@
       ],
       "series_id": "702ce6cb-a551-4aab-961e-0ed1548a3c74"
     }
+  },
+  "8f6e622c-d776-4f6b-b596-8efefd58fab4": {
+    "cachedAt": "2026-10-11T00:51:47.863041+00:00",
+    "data": {
+      "id": "8f6e622c-d776-4f6b-b596-8efefd58fab4",
+      "name": "Assam vs Tripura, Elite Group B, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 18, 04:00 GMT",
+      "venue": "Barsapara Cricket Stadium, Guwahati",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T00:00:00",
+      "teams": [
+        "Assam",
+        "Tripura"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
   }
 }

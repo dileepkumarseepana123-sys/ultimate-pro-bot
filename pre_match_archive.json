@@ -33441,7 +33441,7 @@
         }
     },
     "pakistan|sri lanka|2026-10-11": {
-        "capturedAt": "2026-10-10T18:49:01.544286+00:00",
+        "capturedAt": "2026-10-11T00:56:08.380474+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "Pakistan",
@@ -33656,10 +33656,10 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 52.0% chasing wins",
-                    "Middle-overs wicket volatility: 4.77 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.77 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
+                    "High dew may create strong chase-side bias",
                     "Strong skill gap reduces reliable two-way movement"
                 ],
                 "scoreComponents": [
@@ -33680,7 +33680,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 90.0,
+                        "score": 60.0,
                         "weight": 0.1
                     },
                     {
@@ -33719,7 +33719,7 @@
                     "Two-way venue: 52.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.77 wickets/match",
                     "16th-over baseline: 10.0 runs; wicket in 35.2% of sampled innings",
-                    "Weather: rain 2%, dew MEDIUM"
+                    "Weather: rain 2%, dew HIGH"
                 ],
                 "evidence": [
                     "Elo: Pakistan 1712.6 vs Sri Lanka 1537.5",
@@ -33954,16 +33954,16 @@
                 "status": "OK",
                 "local_time": "2026-10-11T20:00:00+05:00",
                 "temperature_c": 22.7,
-                "humidity_pct": 79,
-                "dew_point_c": 18.9,
+                "humidity_pct": 81,
+                "dew_point_c": 19.2,
                 "rain_probability_pct": 2,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 0.5,
-                "dew_risk": "MEDIUM",
+                "wind_kmh": 2.3,
+                "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "22.7°C | RH 79% | Rain 2% | Wind 0.5 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "22.7°C | RH 81% | Rain 2% | Wind 2.3 km/h",
+            "dewRisk": "HIGH",
             "tossBias": "52.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "54.85",
@@ -34007,10 +34007,11 @@
             "spinnerWickets7to14": null,
             "spinClassificationPct": 14.35,
             "verdict": "🔴 PRE-TOSS POOR FIT / ONE-SIDED RISK",
-            "noBetReasons": [],
+            "noBetReasons": [
+                "HIGH DEW RISK"
+            ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
@@ -34019,7 +34020,7 @@
         }
     },
     "china|singapore|2026-10-11": {
-        "capturedAt": "2026-10-10T18:49:01.544302+00:00",
+        "capturedAt": "2026-10-11T00:56:08.380518+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "China",
@@ -34422,16 +34423,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-11T09:15:00+08:00",
-                "temperature_c": 25.5,
-                "humidity_pct": 92,
-                "dew_point_c": 24.1,
+                "temperature_c": 26.5,
+                "humidity_pct": 91,
+                "dew_point_c": 25.0,
                 "rain_probability_pct": 20,
-                "precipitation_mm": 0.3,
-                "wind_kmh": 4.2,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 3.2,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "25.5°C | RH 92% | Rain 20% | Wind 4.2 km/h",
+            "weatherText": "26.5°C | RH 91% | Rain 20% | Wind 3.2 km/h",
             "dewRisk": "HIGH",
             "tossBias": "71.43% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -34490,7 +34491,7 @@
         }
     },
     "malaysia|maldives|2026-10-11": {
-        "capturedAt": "2026-10-10T18:49:01.544310+00:00",
+        "capturedAt": "2026-10-11T00:56:08.380543+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "Malaysia",
@@ -34932,16 +34933,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-11T09:15:00+08:00",
-                "temperature_c": 30.0,
-                "humidity_pct": 73,
-                "dew_point_c": 24.6,
+                "temperature_c": 30.1,
+                "humidity_pct": 71,
+                "dew_point_c": 24.3,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 15.7,
+                "wind_kmh": 16.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "30.0°C | RH 73% | Rain 0% | Wind 15.7 km/h",
+            "weatherText": "30.1°C | RH 71% | Rain 0% | Wind 16.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "54.55% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -34999,7 +35000,7 @@
         }
     },
     "hong kong china|saudi arabia|2026-10-11": {
-        "capturedAt": "2026-10-10T18:49:01.544319+00:00",
+        "capturedAt": "2026-10-11T00:56:08.380577+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "Hong Kong, China",
@@ -35402,16 +35403,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-11T09:15:00+08:00",
-                "temperature_c": 25.5,
-                "humidity_pct": 92,
-                "dew_point_c": 24.1,
+                "temperature_c": 26.5,
+                "humidity_pct": 91,
+                "dew_point_c": 25.0,
                 "rain_probability_pct": 20,
-                "precipitation_mm": 0.3,
-                "wind_kmh": 4.2,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 3.2,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "25.5°C | RH 92% | Rain 20% | Wind 4.2 km/h",
+            "weatherText": "26.5°C | RH 91% | Rain 20% | Wind 3.2 km/h",
             "dewRisk": "HIGH",
             "tossBias": "53.57% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -35469,7 +35470,7 @@
         }
     },
     "bhutan|qatar|2026-10-11": {
-        "capturedAt": "2026-10-10T18:49:01.544326+00:00",
+        "capturedAt": "2026-10-11T00:56:08.380626+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "Bhutan",
@@ -35871,16 +35872,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-11T14:00:00+08:00",
-                "temperature_c": 31.3,
-                "humidity_pct": 67,
-                "dew_point_c": 24.6,
+                "temperature_c": 31.1,
+                "humidity_pct": 68,
+                "dew_point_c": 24.4,
                 "rain_probability_pct": 8,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 22.3,
+                "wind_kmh": 21.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "31.3°C | RH 67% | Rain 8% | Wind 22.3 km/h",
+            "weatherText": "31.1°C | RH 68% | Rain 8% | Wind 21.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "54.55% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -35937,7 +35938,7 @@
         }
     },
     "kuwait|myanmar|2026-10-11": {
-        "capturedAt": "2026-10-10T18:49:01.544333+00:00",
+        "capturedAt": "2026-10-11T00:56:08.380656+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "Kuwait",
@@ -36341,16 +36342,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-11T14:00:00+08:00",
-                "temperature_c": 31.8,
-                "humidity_pct": 65,
-                "dew_point_c": 24.4,
+                "temperature_c": 32.6,
+                "humidity_pct": 64,
+                "dew_point_c": 24.8,
                 "rain_probability_pct": 76,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 5.3,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 4.7,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "31.8°C | RH 65% | Rain 76% | Wind 5.3 km/h",
+            "weatherText": "32.6°C | RH 64% | Rain 76% | Wind 4.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.57% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -36409,7 +36410,7 @@
         }
     },
     "bahrain|mongolia|2026-10-11": {
-        "capturedAt": "2026-10-10T18:49:01.544340+00:00",
+        "capturedAt": "2026-10-11T00:56:08.380683+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "Bahrain",
@@ -36799,16 +36800,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-11T14:00:00+08:00",
-                "temperature_c": 31.8,
-                "humidity_pct": 65,
-                "dew_point_c": 24.4,
+                "temperature_c": 32.6,
+                "humidity_pct": 64,
+                "dew_point_c": 24.8,
                 "rain_probability_pct": 76,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 5.3,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 4.7,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "31.8°C | RH 65% | Rain 76% | Wind 5.3 km/h",
+            "weatherText": "32.6°C | RH 64% | Rain 76% | Wind 4.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "71.43% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -36867,7 +36868,7 @@
         }
     },
     "boland|south africa emerging players|2026-10-11": {
-        "capturedAt": "2026-10-10T18:49:01.544350+00:00",
+        "capturedAt": "2026-10-11T00:56:08.380746+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "South Africa Emerging Players",
@@ -37142,16 +37143,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-11T13:00:00+02:00",
-                "temperature_c": 27.8,
-                "humidity_pct": 40,
-                "dew_point_c": 13.1,
+                "temperature_c": 27.4,
+                "humidity_pct": 39,
+                "dew_point_c": 12.1,
                 "rain_probability_pct": 4,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 6.7,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 4.9,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.8°C | RH 40% | Rain 4% | Wind 6.7 km/h",
+            "weatherText": "27.4°C | RH 39% | Rain 4% | Wind 4.9 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -37197,7 +37198,7 @@
         }
     },
     "eastern storm|titans|2026-10-11": {
-        "capturedAt": "2026-10-10T18:49:01.544358+00:00",
+        "capturedAt": "2026-10-11T00:56:08.380769+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "Titans",
@@ -37480,16 +37481,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-11T13:00:00+02:00",
-                "temperature_c": 27.2,
-                "humidity_pct": 40,
-                "dew_point_c": 12.4,
+                "temperature_c": 26.9,
+                "humidity_pct": 38,
+                "dew_point_c": 11.2,
                 "rain_probability_pct": 4,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 6.7,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 4.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.2°C | RH 40% | Rain 4% | Wind 6.7 km/h",
+            "weatherText": "26.9°C | RH 38% | Rain 4% | Wind 4.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "55.68% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -37547,7 +37548,7 @@
         }
     },
     "pakistan|sri lanka 2nd t20i rawalpindi cricket stadium rawalpindi|2026-10-11": {
-        "capturedAt": "2026-10-10T18:49:01.544370+00:00",
+        "capturedAt": "2026-10-11T00:56:08.380794+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "Pakistan",
@@ -37810,16 +37811,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-11T18:00:00+05:00",
-                "temperature_c": 24.1,
-                "humidity_pct": 73,
-                "dew_point_c": 19.0,
+                "temperature_c": 24.6,
+                "humidity_pct": 72,
+                "dew_point_c": 19.2,
                 "rain_probability_pct": 18,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.1,
+                "wind_kmh": 0.8,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "24.1°C | RH 73% | Rain 18% | Wind 2.1 km/h",
+            "weatherText": "24.6°C | RH 72% | Rain 18% | Wind 0.8 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -37865,7 +37866,7 @@
         }
     },
     "india|west indies 3rd t20i holkar stadium indore|2026-10-11": {
-        "capturedAt": "2026-10-10T18:49:01.544381+00:00",
+        "capturedAt": "2026-10-11T00:56:08.380815+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "India",
@@ -38127,15 +38128,15 @@
                 "status": "OK",
                 "local_time": "2026-10-11T19:00:00+05:30",
                 "temperature_c": 29.1,
-                "humidity_pct": 31,
-                "dew_point_c": 10.4,
+                "humidity_pct": 35,
+                "dew_point_c": 12.3,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.5,
+                "wind_kmh": 7.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.1°C | RH 31% | Rain 0% | Wind 10.5 km/h",
+            "weatherText": "29.1°C | RH 35% | Rain 0% | Wind 7.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
