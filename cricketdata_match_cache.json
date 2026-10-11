@@ -1197,5 +1197,89 @@
       ],
       "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
     }
+  },
+  "b0d9448c-c46f-4d5d-9d9f-30e545a4bb0f": {
+    "cachedAt": "2026-10-11T12:48:40.837544+00:00",
+    "data": {
+      "id": "b0d9448c-c46f-4d5d-9d9f-30e545a4bb0f",
+      "name": "Tamil Nadu vs Uttarakhand, Elite Group D, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 18, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T04:00:00",
+      "teams": [
+        "Tamil Nadu",
+        "Uttarakhand"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "2853b5a7-b074-4f38-a729-2a2abf8961a9": {
+    "cachedAt": "2026-10-11T12:48:41.029152+00:00",
+    "data": {
+      "id": "2853b5a7-b074-4f38-a729-2a2abf8961a9",
+      "name": "Arunachal Pradesh vs Sikkim, Plate, Ranji Trophy Plate 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 18, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T04:00:00",
+      "teams": [
+        "Arunachal Pradesh",
+        "Sikkim"
+      ],
+      "series_id": "df672a9f-a5eb-4526-901c-1a5e1d7d84a4"
+    }
+  },
+  "87c745f1-00b1-4eae-a083-d67fffd80388": {
+    "cachedAt": "2026-10-11T12:48:41.226586+00:00",
+    "data": {
+      "id": "87c745f1-00b1-4eae-a083-d67fffd80388",
+      "name": "South Africa vs Australia, 2nd Test, Australia tour of South Africa, 2026",
+      "status": "Match starts at Oct 18, 07:30 GMT",
+      "venue": "St George's Park, Gqeberha",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T07:30:00",
+      "teams": [
+        "South Africa",
+        "Australia"
+      ],
+      "series_id": "0c2de514-946a-4b55-a6e3-4d1d6e892459"
+    }
+  },
+  "96c28c45-810b-4794-984e-e5207b34dfa3": {
+    "cachedAt": "2026-10-11T12:48:41.418090+00:00",
+    "data": {
+      "id": "96c28c45-810b-4794-984e-e5207b34dfa3",
+      "name": "Australia Women vs New Zealand Women, 1st T20I, New Zealand Women tour of Australia, 2026-27",
+      "matchType": "t20",
+      "status": "Match starts at Oct 18, 08:15 GMT",
+      "venue": "North Sydney Oval, Sydney",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T08:15:00",
+      "teams": [
+        "Australia Women",
+        "New Zealand Women"
+      ],
+      "series_id": "1b3e9639-fa3c-48e2-bb98-d945134e8b11"
+    }
+  },
+  "3024d407-3fa8-4114-866f-03fc36f5f032": {
+    "cachedAt": "2026-10-11T12:48:41.609382+00:00",
+    "data": {
+      "id": "3024d407-3fa8-4114-866f-03fc36f5f032",
+      "name": "Australia Women vs Bangladesh Women, 1st T20I, Bangladesh Women tour of Australia, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 18, 08:15 GMT",
+      "venue": "North Sydney Oval, Sydney",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T08:15:00",
+      "teams": [
+        "Australia Women",
+        "Bangladesh Women"
+      ],
+      "series_id": "4d3b12d1-2699-4b19-873f-144719dc9bc7"
+    }
   }
 }
