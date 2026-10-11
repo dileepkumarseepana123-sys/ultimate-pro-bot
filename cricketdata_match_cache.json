@@ -925,5 +925,141 @@
       ],
       "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
     }
+  },
+  "d9c9db00-a0a5-47ca-8aee-fd951e42589a": {
+    "cachedAt": "2026-10-11T06:49:03.425098+00:00",
+    "data": {
+      "id": "d9c9db00-a0a5-47ca-8aee-fd951e42589a",
+      "name": "Jammu And Kashmir vs Vidarbha, Elite Group A, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 18, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T04:00:00",
+      "teams": [
+        "Jammu And Kashmir",
+        "Vidarbha"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "2ab3376e-8404-4671-b891-dabd36268776": {
+    "cachedAt": "2026-10-11T06:49:03.583537+00:00",
+    "data": {
+      "id": "2ab3376e-8404-4671-b891-dabd36268776",
+      "name": "Rajasthan vs Railways, Elite Group D, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 18, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T04:00:00",
+      "teams": [
+        "Rajasthan",
+        "Railways"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "cb4e9c78-ab06-44a8-b6c0-cd46e2705431": {
+    "cachedAt": "2026-10-11T06:49:03.741836+00:00",
+    "data": {
+      "id": "cb4e9c78-ab06-44a8-b6c0-cd46e2705431",
+      "name": "Maharashtra vs Jharkhand, Elite Group C, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 18, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T04:00:00",
+      "teams": [
+        "Maharashtra",
+        "Jharkhand"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "7e1345ac-af98-4c08-b481-aeabf028ec9e": {
+    "cachedAt": "2026-10-11T06:49:03.896002+00:00",
+    "data": {
+      "id": "7e1345ac-af98-4c08-b481-aeabf028ec9e",
+      "name": "Punjab vs Chhattisgarh, Elite Group B, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 18, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T04:00:00",
+      "teams": [
+        "Punjab",
+        "Chhattisgarh"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "2299f129-26e7-448a-bb21-9ded40a71f00": {
+    "cachedAt": "2026-10-11T06:49:04.052423+00:00",
+    "data": {
+      "id": "2299f129-26e7-448a-bb21-9ded40a71f00",
+      "name": "Uttar Pradesh vs Goa, Elite Group A, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 18, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T04:00:00",
+      "teams": [
+        "Uttar Pradesh",
+        "Goa"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "57c9ac07-a20a-47bf-8f15-99ec7cfc803a": {
+    "cachedAt": "2026-10-11T06:49:04.208198+00:00",
+    "data": {
+      "id": "57c9ac07-a20a-47bf-8f15-99ec7cfc803a",
+      "name": "Meghalaya vs Manipur, Plate, Ranji Trophy Plate 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 18, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T04:00:00",
+      "teams": [
+        "Meghalaya",
+        "Manipur"
+      ],
+      "series_id": "df672a9f-a5eb-4526-901c-1a5e1d7d84a4"
+    }
+  },
+  "eee65e1f-f440-4f25-a9c8-93771e42ef24": {
+    "cachedAt": "2026-10-11T06:49:04.362558+00:00",
+    "data": {
+      "id": "eee65e1f-f440-4f25-a9c8-93771e42ef24",
+      "name": "Services vs Bengal, Elite Group C, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 18, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T04:00:00",
+      "teams": [
+        "Services",
+        "Bengal"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "3a48e87c-6af9-4808-b128-918aa6938358": {
+    "cachedAt": "2026-10-11T06:49:04.515458+00:00",
+    "data": {
+      "id": "3a48e87c-6af9-4808-b128-918aa6938358",
+      "name": "Puducherry vs Madhya Pradesh, Elite Group A, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 18, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T04:00:00",
+      "teams": [
+        "Puducherry",
+        "Madhya Pradesh"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
   }
 }
