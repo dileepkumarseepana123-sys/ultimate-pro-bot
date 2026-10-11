@@ -34020,7 +34020,7 @@
         }
     },
     "china|singapore|2026-10-11": {
-        "capturedAt": "2026-10-11T12:50:15.626033+00:00",
+        "capturedAt": "2026-10-11T15:44:52.429436+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "China",
@@ -34492,7 +34492,7 @@
         }
     },
     "malaysia|maldives|2026-10-11": {
-        "capturedAt": "2026-10-11T12:50:15.626042+00:00",
+        "capturedAt": "2026-10-11T15:44:52.429449+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "Malaysia",
@@ -35002,7 +35002,7 @@
         }
     },
     "hong kong china|saudi arabia|2026-10-11": {
-        "capturedAt": "2026-10-11T12:50:15.626053+00:00",
+        "capturedAt": "2026-10-11T15:44:52.429460+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "Hong Kong, China",
@@ -35473,7 +35473,7 @@
         }
     },
     "bhutan|qatar|2026-10-11": {
-        "capturedAt": "2026-10-11T12:50:15.626061+00:00",
+        "capturedAt": "2026-10-11T15:44:52.429468+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "Bhutan",
@@ -35942,7 +35942,7 @@
         }
     },
     "kuwait|myanmar|2026-10-11": {
-        "capturedAt": "2026-10-11T12:50:15.626068+00:00",
+        "capturedAt": "2026-10-11T15:44:52.429476+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "Kuwait",
@@ -36415,7 +36415,7 @@
         }
     },
     "bahrain|mongolia|2026-10-11": {
-        "capturedAt": "2026-10-11T12:50:15.626076+00:00",
+        "capturedAt": "2026-10-11T15:44:52.429484+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "Bahrain",
@@ -36874,7 +36874,7 @@
         }
     },
     "boland|south africa emerging players|2026-10-11": {
-        "capturedAt": "2026-10-11T10:44:55.341200+00:00",
+        "capturedAt": "2026-10-11T15:44:52.429494+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "South Africa Emerging Players",
@@ -36892,7 +36892,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173327/saep-vs-bol-pool-b-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -37200,7 +37200,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "eastern storm|titans|2026-10-11": {
@@ -38187,7 +38188,7 @@
         }
     },
     "afghanistan|bangladesh in uae 2026|2026-10-11": {
-        "capturedAt": "2026-10-11T12:50:15.626085+00:00",
+        "capturedAt": "2026-10-11T15:44:52.429504+00:00",
         "matchDate": "2026-10-11",
         "report": {
             "teamA": "Afghanistan",
