@@ -1281,5 +1281,22 @@
       ],
       "series_id": "4d3b12d1-2699-4b19-873f-144719dc9bc7"
     }
+  },
+  "f931761d-50b9-45bc-abf4-f52a6ad29722": {
+    "cachedAt": "2026-10-12T00:54:52.967869+00:00",
+    "data": {
+      "id": "f931761d-50b9-45bc-abf4-f52a6ad29722",
+      "name": "South Australia vs Queensland, 5th Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 19, 00:00 GMT",
+      "venue": "Adelaide Oval, Adelaide",
+      "date": "2026-10-19",
+      "dateTimeGMT": "2026-10-19T00:00:00",
+      "teams": [
+        "South Australia",
+        "Queensland"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
   }
 }

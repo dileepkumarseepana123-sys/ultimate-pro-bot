@@ -38407,7 +38407,7 @@
         }
     },
     "afghanistan|bangladesh in uae 2026|2026-10-12": {
-        "capturedAt": "2026-10-11T18:50:27.006678+00:00",
+        "capturedAt": "2026-10-12T00:58:04.574865+00:00",
         "matchDate": "2026-10-12",
         "report": {
             "teamA": "Afghanistan",
@@ -38625,7 +38625,7 @@
         }
     },
     "melbourne stars women|sydney thunder women|2026-10-12": {
-        "capturedAt": "2026-10-11T18:50:27.006696+00:00",
+        "capturedAt": "2026-10-12T00:58:04.574886+00:00",
         "matchDate": "2026-10-12",
         "report": {
             "teamA": "Sydney Thunder Women",
@@ -39137,16 +39137,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-12T14:30:00+11:00",
-                "temperature_c": 32.7,
-                "humidity_pct": 22,
+                "temperature_c": 32.9,
+                "humidity_pct": 21,
                 "dew_point_c": 8.0,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.4,
+                "wind_kmh": 4.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "32.7°C | RH 22% | Rain 0% | Wind 7.4 km/h",
+            "weatherText": "32.9°C | RH 21% | Rain 0% | Wind 4.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "41.18% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -39202,7 +39202,7 @@
         }
     },
     "melbourne renegades women|perth scorchers women|2026-10-12": {
-        "capturedAt": "2026-10-11T18:50:27.006709+00:00",
+        "capturedAt": "2026-10-12T00:58:04.574911+00:00",
         "matchDate": "2026-10-12",
         "report": {
             "teamA": "Melbourne Renegades Women",
@@ -39697,16 +39697,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-12T14:30:00+11:00",
-                "temperature_c": 32.7,
-                "humidity_pct": 22,
+                "temperature_c": 32.9,
+                "humidity_pct": 21,
                 "dew_point_c": 8.0,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.4,
+                "wind_kmh": 4.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "32.7°C | RH 22% | Rain 0% | Wind 7.4 km/h",
+            "weatherText": "32.9°C | RH 21% | Rain 0% | Wind 4.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -39750,7 +39750,7 @@
         }
     },
     "malaysia|singapore|2026-10-12": {
-        "capturedAt": "2026-10-11T18:50:27.006717+00:00",
+        "capturedAt": "2026-10-12T00:58:04.574931+00:00",
         "matchDate": "2026-10-12",
         "report": {
             "teamA": "Malaysia",
@@ -40264,16 +40264,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-12T09:15:00+08:00",
-                "temperature_c": 25.4,
-                "humidity_pct": 89,
+                "temperature_c": 24.7,
+                "humidity_pct": 93,
                 "dew_point_c": 23.4,
                 "rain_probability_pct": 16,
                 "precipitation_mm": 1.0,
-                "wind_kmh": 3.5,
+                "wind_kmh": 1.8,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "25.4°C | RH 89% | Rain 16% | Wind 3.5 km/h",
+            "weatherText": "24.7°C | RH 93% | Rain 16% | Wind 1.8 km/h",
             "dewRisk": "HIGH",
             "tossBias": "53.57% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -40332,7 +40332,7 @@
         }
     },
     "hong kong china|maldives|2026-10-12": {
-        "capturedAt": "2026-10-11T18:50:27.006727+00:00",
+        "capturedAt": "2026-10-12T00:58:04.574964+00:00",
         "matchDate": "2026-10-12",
         "report": {
             "teamA": "Hong Kong, China",
@@ -40740,11 +40740,11 @@
                 "dew_point_c": 23.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 14.6,
+                "wind_kmh": 15.3,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "30.7°C | RH 66% | Rain 0% | Wind 14.6 km/h",
+            "weatherText": "30.7°C | RH 66% | Rain 0% | Wind 15.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "54.55% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -40801,7 +40801,7 @@
         }
     },
     "china|saudi arabia|2026-10-12": {
-        "capturedAt": "2026-10-11T18:50:27.006736+00:00",
+        "capturedAt": "2026-10-12T00:58:04.574985+00:00",
         "matchDate": "2026-10-12",
         "report": {
             "teamA": "China",
@@ -41196,11 +41196,11 @@
                 "dew_point_c": 23.4,
                 "rain_probability_pct": 16,
                 "precipitation_mm": 1.0,
-                "wind_kmh": 3.5,
+                "wind_kmh": 1.8,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "24.7°C | RH 93% | Rain 16% | Wind 3.5 km/h",
+            "weatherText": "24.7°C | RH 93% | Rain 16% | Wind 1.8 km/h",
             "dewRisk": "HIGH",
             "tossBias": "71.43% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -41259,7 +41259,7 @@
         }
     },
     "bhutan|kuwait|2026-10-12": {
-        "capturedAt": "2026-10-11T18:50:27.006744+00:00",
+        "capturedAt": "2026-10-12T00:58:04.575003+00:00",
         "matchDate": "2026-10-12",
         "report": {
             "teamA": "Bhutan",
@@ -41654,11 +41654,11 @@
                 "dew_point_c": 24.4,
                 "rain_probability_pct": 86,
                 "precipitation_mm": 0.9,
-                "wind_kmh": 5.6,
+                "wind_kmh": 0.8,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "29.8°C | RH 73% | Rain 86% | Wind 5.6 km/h",
+            "weatherText": "29.8°C | RH 73% | Rain 86% | Wind 0.8 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "71.43% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -41718,7 +41718,7 @@
         }
     },
     "myanmar|thailand|2026-10-12": {
-        "capturedAt": "2026-10-11T18:50:27.006752+00:00",
+        "capturedAt": "2026-10-12T00:58:04.575018+00:00",
         "matchDate": "2026-10-12",
         "report": {
             "teamA": "Myanmar",
@@ -42137,11 +42137,11 @@
                 "dew_point_c": 24.8,
                 "rain_probability_pct": 20,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 22.8,
+                "wind_kmh": 22.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "31.4°C | RH 68% | Rain 20% | Wind 22.8 km/h",
+            "weatherText": "31.4°C | RH 68% | Rain 20% | Wind 22.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "54.55% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -42197,7 +42197,7 @@
         }
     },
     "mongolia|qatar|2026-10-12": {
-        "capturedAt": "2026-10-11T18:50:27.006759+00:00",
+        "capturedAt": "2026-10-12T00:58:04.575038+00:00",
         "matchDate": "2026-10-12",
         "report": {
             "teamA": "Qatar",
@@ -42593,11 +42593,11 @@
                 "dew_point_c": 24.4,
                 "rain_probability_pct": 86,
                 "precipitation_mm": 0.9,
-                "wind_kmh": 5.6,
+                "wind_kmh": 0.8,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "29.8°C | RH 73% | Rain 86% | Wind 5.6 km/h",
+            "weatherText": "29.8°C | RH 73% | Rain 86% | Wind 0.8 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "53.57% Chasing Wins",
             "tossTrend": "Historical venue trend",
