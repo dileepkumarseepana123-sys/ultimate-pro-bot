@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-12T06:58:40.546931+00:00",
+    "last_updated": "2026-10-12T10:46:51.438351+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -22,8 +22,8 @@
         "cricscore_calls_this_run": 1,
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
-        "match_info_calls_this_run": 1,
-        "match_info_cache_hits_this_run": 63,
+        "match_info_calls_this_run": 0,
+        "match_info_cache_hits_this_run": 64,
         "match_info_enriched_rows": 64,
         "match_info_cache_size": 78,
         "max_match_info_lookups_per_run": 8,
@@ -33,11 +33,10 @@
         "endpoint_calls_this_run": {
             "cricScore": 1,
             "currentMatches": 1,
-            "match_info": 1,
             "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 14,
+        "hits_today_reported": 18,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -59,12 +58,12 @@
     },
     "discovery": {
         "live_text_relay_rows": 0,
-        "schedule_text_relay_rows": 5,
-        "text_relay_rows": 5,
-        "text_relay_t20_rows": 5,
-        "text_relay_today_t20_rows": 5,
-        "text_relay_match_url_rows": 3,
-        "text_relay_time_enriched_rows": 3,
+        "schedule_text_relay_rows": 0,
+        "text_relay_rows": 0,
+        "text_relay_t20_rows": 0,
+        "text_relay_today_t20_rows": 0,
+        "text_relay_match_url_rows": 0,
+        "text_relay_time_enriched_rows": 0,
         "final_reports_with_known_time": 8,
         "final_reports_with_weather": 8,
         "current_matches_rows": 25,
@@ -76,14 +75,14 @@
         "cricketdata_rows": 50,
         "cricketdata_t20_rows": 14,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 32,
+        "merged_candidates": 27,
         "final_reports": 9
     },
     "summary": {
         "today_t20_count": 9,
-        "no_bet_or_high_caution": 5,
-        "wait": 4,
-        "data_clear": 0
+        "no_bet_or_high_caution": 3,
+        "wait": 5,
+        "data_clear": 1
     },
     "matches": [
         {
@@ -102,7 +101,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -185,7 +184,224 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-10-12T06:58:40.498344+00:00",
+                "matchDate": "2026-10-12",
+                "report": {
+                    "teamA": "Afghanistan",
+                    "teamB": "Bangladesh in UAE, 2026",
+                    "name": "Afghanistan vs Bangladesh in UAE, 2026",
+                    "matchType": "T20",
+                    "venue": "2026",
+                    "dateTimeGMT": null,
+                    "sourceDate": "2026-10-12",
+                    "matchTimeIST": "UNKNOWN",
+                    "indiaDate": "2026-10-12",
+                    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "supplementalSourceName": null,
+                    "sourceMatchUrl": null,
+                    "cricketDataMatchId": null,
+                    "liveScoreText": null,
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
+                    "marketVisibility": "PREMIUM / LIKELY LISTED",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": true,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 0,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": null,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [
+                            "Cricsheet withholds Afghanistan match data; historical rating may be unavailable."
+                        ],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 58.5,
+                    "strategyLabel": "INSUFFICIENT DATA",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 17,
+                        "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                        "swingScore": 58.5,
+                        "strategyLabel": "INSUFFICIENT DATA",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 0,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": null,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [
+                                "Cricsheet withholds Afghanistan match data; historical rating may be unavailable."
+                            ],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [],
+                        "swingPenalties": [
+                            "Cricsheet withholds Afghanistan match data; historical rating may be unavailable."
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "market_proxy",
+                                "score": 100.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "squadSummary": {
+                        "status": "NO SQUAD DATA",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS DATA LIMITED",
+                        "dataConfidencePct": 0,
+                        "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
+                        "edgeTeam": null,
+                        "edgeStrength": "DATA LIMITED",
+                        "edgeScore": null,
+                        "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                        "conditions": [],
+                        "evidence": [],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": null,
+                        "powerplayBaseline": null,
+                        "powerplayWicketsBaseline": null,
+                        "chasingWinPct": null,
+                        "middleOversWicketsPerMatch": null,
+                        "over16AvgRuns": null,
+                        "over16WicketEventPct": null,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "NO SQUAD DATA",
+                        "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity"
+                    ],
+                    "formA": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "UNKNOWN",
+                        "reason": "Match time unavailable"
+                    },
+                    "weatherText": "NO DATA",
+                    "dewRisk": "UNKNOWN",
+                    "tossBias": "UNKNOWN",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "UNKNOWN",
+                    "ppWicketsAvg": null,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": null,
+                    "over16WicketsPerInnings": null,
+                    "over16WicketEventPct": null,
+                    "over16SampleInnings": null,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "UNKNOWN",
+                    "metricSources": {
+                        "fixture": "Cricbuzz via text relay",
+                        "weather": "Open-Meteo unavailable/UNKNOWN",
+                        "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
+                        "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
+                        "over16": "Cricsheet 16th-over history insufficient/UNKNOWN",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification UNKNOWN"
+                    },
+                    "venueIntel": {
+                        "status": "NO DATA / UNKNOWN VENUE",
+                        "matches": 0,
+                        "venue_confidence": 0.222
+                    },
+                    "midOversWickets": null,
+                    "midOversWicketsPerMatch": null,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": null,
+                    "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+                    "noBetReasons": [
+                        "NO DATA / UNKNOWN VENUE",
+                        "WEATHER DATA UNKNOWN",
+                        "LIMITED RECENT T20 DATA FOR Afghanistan",
+                        "LIMITED RECENT T20 DATA FOR Bangladesh in UAE, 2026"
+                    ],
+                    "warnings": [
+                        "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "Cricsheet withholds Afghanistan match data; historical rating may be unavailable.",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-yellow",
+                    "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -298,7 +514,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         },
         {
             "teamA": "Sydney Thunder Women",
@@ -548,7 +765,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T00:58:04.574886+00:00",
+                "capturedAt": "2026-10-12T06:58:40.498395+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Sydney Thunder Women",
@@ -566,7 +783,7 @@
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/167951/sytw-vs-mlsw-4th-match-t20-spring-challenge-2026",
                     "cricketDataMatchId": null,
                     "liveScoreText": null,
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "LOW/UNKNOWN MARKET TIER",
                     "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
                     "liquidityProxyOnly": true,
@@ -1121,7 +1338,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-yellow",
-                    "strategyText": "Sydney Thunder Women has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                    "strategyText": "Sydney Thunder Women has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -1466,7 +1684,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173811/mmr-vs-thai-17th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -2340,16 +2558,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-12T14:00:00+08:00",
-                "temperature_c": 31.2,
+                "temperature_c": 31.4,
                 "humidity_pct": 68,
-                "dew_point_c": 24.5,
+                "dew_point_c": 24.8,
                 "rain_probability_pct": 20,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 22.8,
+                "wind_kmh": 22.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "31.2°C | RH 68% | Rain 20% | Wind 22.8 km/h",
+            "weatherText": "31.4°C | RH 68% | Rain 20% | Wind 22.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "54.55% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -2393,17 +2611,16 @@
             "midOversWicketsPerMatch": 4.14,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.0,
-            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
-            "noBetReasons": [
-                "START TIME PASSED — PRE-MATCH WINDOW CLOSED"
-            ],
+            "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
+            "noBetReasons": [],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-red",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "badgeClass": "badge-green",
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         },
         {
             "teamA": "Malaysia",
@@ -2655,7 +2872,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T00:58:04.574931+00:00",
+                "capturedAt": "2026-10-12T06:58:40.498417+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Malaysia",
@@ -2673,7 +2890,7 @@
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173907/mly-vs-sin-10th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
                     "cricketDataMatchId": null,
                     "liveScoreText": null,
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "LOW/UNKNOWN MARKET TIER",
                     "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
                     "liquidityProxyOnly": true,
@@ -3233,7 +3450,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-yellow",
-                    "strategyText": "Malaysia has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                    "strategyText": "Malaysia has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -3801,7 +4019,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T00:58:04.574911+00:00",
+                "capturedAt": "2026-10-12T06:58:40.498409+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Melbourne Renegades Women",
@@ -3819,7 +4037,7 @@
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/167950/mlrw-vs-prsw-3rd-match-t20-spring-challenge-2026",
                     "cricketDataMatchId": null,
                     "liveScoreText": null,
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "LOW/UNKNOWN MARKET TIER",
                     "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
                     "liquidityProxyOnly": true,
@@ -4345,7 +4563,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-yellow",
-                    "strategyText": "Perth Scorchers Women has a moderate edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                    "strategyText": "Perth Scorchers Women has a moderate edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -4797,7 +5016,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T00:58:04.574964+00:00",
+                "capturedAt": "2026-10-12T06:58:40.498427+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Hong Kong, China",
@@ -4815,7 +5034,7 @@
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173913/hkc-vs-mdv-11th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
                     "cricketDataMatchId": null,
                     "liveScoreText": null,
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "LOW/UNKNOWN MARKET TIER",
                     "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
                     "liquidityProxyOnly": true,
@@ -5262,7 +5481,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-red",
-                    "strategyText": "Hong Kong, China has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+                    "strategyText": "Hong Kong, China has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -5718,7 +5938,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T00:58:04.574985+00:00",
+                "capturedAt": "2026-10-12T06:58:40.498436+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "China",
@@ -5736,7 +5956,7 @@
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173923/chn-vs-sau-12th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
                     "cricketDataMatchId": null,
                     "liveScoreText": null,
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "LOW/UNKNOWN MARKET TIER",
                     "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
                     "liquidityProxyOnly": true,
@@ -6172,7 +6392,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-red",
-                    "strategyText": "Saudi Arabia has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+                    "strategyText": "Saudi Arabia has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -6519,7 +6740,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173813/btn-vs-kuw-18th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -6591,7 +6812,8 @@
                     "majorTeamAsymmetryProxyUsed": false
                 },
                 "swingCatalysts": [
-                    "Middle-overs wicket volatility: 4.34 wickets/match in overs 7-14"
+                    "Middle-overs wicket volatility: 4.34 wickets/match in overs 7-14",
+                    "Medium dew can change second-innings conditions"
                 ],
                 "swingPenalties": [
                     "Strong venue side-bias: 71.4% chasing wins",
@@ -7113,7 +7335,7 @@
                     "Chase-lean venue: 71.4% chasing wins",
                     "Overs 7-14 wicket pressure: 4.34 wickets/match",
                     "16th-over baseline: 5.3 runs; wicket in 40.5% of sampled innings",
-                    "Weather: rain 86%, dew LOW"
+                    "Weather: rain 86%, dew MEDIUM"
                 ],
                 "evidence": [
                     "Elo: Bhutan 1401.6 vs Kuwait 1563.1",
@@ -7348,17 +7570,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-12T14:00:00+08:00",
-                "temperature_c": 31.3,
-                "humidity_pct": 65,
-                "dew_point_c": 24.0,
+                "temperature_c": 29.8,
+                "humidity_pct": 73,
+                "dew_point_c": 24.4,
                 "rain_probability_pct": 86,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 8.4,
-                "dew_risk": "LOW",
+                "precipitation_mm": 0.9,
+                "wind_kmh": 0.8,
+                "dew_risk": "MEDIUM",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "31.3°C | RH 65% | Rain 86% | Wind 8.4 km/h",
-            "dewRisk": "LOW",
+            "weatherText": "29.8°C | RH 73% | Rain 86% | Wind 0.8 km/h",
+            "dewRisk": "MEDIUM",
             "tossBias": "71.43% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "25.34",
@@ -7401,19 +7623,20 @@
             "midOversWicketsPerMatch": 4.34,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.0,
-            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
+            "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
             "noBetReasons": [
-                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "HIGH RAIN INTERRUPTION RISK"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "MEDIUM DEW RISK",
                 "MODERATE SKILL GAP",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-red",
-            "strategyText": "Kuwait has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "badgeClass": "badge-yellow",
+            "strategyText": "Kuwait has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         },
         {
             "teamA": "Qatar",
@@ -7431,7 +7654,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173801/qat-vs-mgl-16th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -7504,7 +7727,8 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 53.6% chasing wins",
-                    "Middle-overs wicket volatility: 4.63 wickets/match in overs 7-14"
+                    "Middle-overs wicket volatility: 4.63 wickets/match in overs 7-14",
+                    "Medium dew can change second-innings conditions"
                 ],
                 "swingPenalties": [
                     "High rain-interruption risk",
@@ -8027,7 +8251,7 @@
                     "Two-way venue: 53.6% chasing wins",
                     "Overs 7-14 wicket pressure: 4.63 wickets/match",
                     "16th-over baseline: 6.0 runs; wicket in 35.6% of sampled innings",
-                    "Weather: rain 86%, dew LOW"
+                    "Weather: rain 86%, dew MEDIUM"
                 ],
                 "evidence": [
                     "Elo: Qatar 1568.4 vs Mongolia 1358.0",
@@ -8262,17 +8486,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-12T14:00:00+08:00",
-                "temperature_c": 31.3,
-                "humidity_pct": 65,
-                "dew_point_c": 24.0,
+                "temperature_c": 29.8,
+                "humidity_pct": 73,
+                "dew_point_c": 24.4,
                 "rain_probability_pct": 86,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 8.4,
-                "dew_risk": "LOW",
+                "precipitation_mm": 0.9,
+                "wind_kmh": 0.8,
+                "dew_risk": "MEDIUM",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "31.3°C | RH 65% | Rain 86% | Wind 8.4 km/h",
-            "dewRisk": "LOW",
+            "weatherText": "29.8°C | RH 73% | Rain 86% | Wind 0.8 km/h",
+            "dewRisk": "MEDIUM",
             "tossBias": "53.57% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "33.37",
@@ -8315,19 +8539,20 @@
             "midOversWicketsPerMatch": 4.63,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.0,
-            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
+            "verdict": "🔴 PRE-TOSS POOR FIT / ONE-SIDED RISK",
             "noBetReasons": [
-                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "HIGH RAIN INTERRUPTION RISK",
                 "EXTREME SKILL GAP / ONE-SIDED MARKET PATH RISK"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Qatar has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Qatar has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     ]
 }
