@@ -1298,5 +1298,22 @@
       ],
       "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
     }
+  },
+  "09586a79-abed-4c9b-bccb-90b7ec10c213": {
+    "cachedAt": "2026-10-12T06:56:59.573464+00:00",
+    "data": {
+      "id": "09586a79-abed-4c9b-bccb-90b7ec10c213",
+      "name": "Western Australia vs New South Wales, 6th Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 19, 02:30 GMT",
+      "venue": "W.A.C.A. Ground, Perth",
+      "date": "2026-10-19",
+      "dateTimeGMT": "2026-10-19T02:30:00",
+      "teams": [
+        "Western Australia",
+        "New South Wales"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
   }
 }

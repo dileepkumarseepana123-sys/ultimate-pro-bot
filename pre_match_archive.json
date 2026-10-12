@@ -38407,7 +38407,7 @@
         }
     },
     "afghanistan|bangladesh in uae 2026|2026-10-12": {
-        "capturedAt": "2026-10-12T00:58:04.574865+00:00",
+        "capturedAt": "2026-10-12T06:58:40.498344+00:00",
         "matchDate": "2026-10-12",
         "report": {
             "teamA": "Afghanistan",
@@ -38625,7 +38625,7 @@
         }
     },
     "melbourne stars women|sydney thunder women|2026-10-12": {
-        "capturedAt": "2026-10-12T00:58:04.574886+00:00",
+        "capturedAt": "2026-10-12T06:58:40.498395+00:00",
         "matchDate": "2026-10-12",
         "report": {
             "teamA": "Sydney Thunder Women",
@@ -38643,7 +38643,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/167951/sytw-vs-mlsw-4th-match-t20-spring-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -39198,11 +39198,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Sydney Thunder Women has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Sydney Thunder Women has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "melbourne renegades women|perth scorchers women|2026-10-12": {
-        "capturedAt": "2026-10-12T00:58:04.574911+00:00",
+        "capturedAt": "2026-10-12T06:58:40.498409+00:00",
         "matchDate": "2026-10-12",
         "report": {
             "teamA": "Melbourne Renegades Women",
@@ -39220,7 +39221,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/167950/mlrw-vs-prsw-3rd-match-t20-spring-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -39746,11 +39747,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Perth Scorchers Women has a moderate edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "Perth Scorchers Women has a moderate edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "malaysia|singapore|2026-10-12": {
-        "capturedAt": "2026-10-12T00:58:04.574931+00:00",
+        "capturedAt": "2026-10-12T06:58:40.498417+00:00",
         "matchDate": "2026-10-12",
         "report": {
             "teamA": "Malaysia",
@@ -39768,7 +39770,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173907/mly-vs-sin-10th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -40328,11 +40330,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Malaysia has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Malaysia has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "hong kong china|maldives|2026-10-12": {
-        "capturedAt": "2026-10-12T00:58:04.574964+00:00",
+        "capturedAt": "2026-10-12T06:58:40.498427+00:00",
         "matchDate": "2026-10-12",
         "report": {
             "teamA": "Hong Kong, China",
@@ -40350,7 +40353,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173913/hkc-vs-mdv-11th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -40797,11 +40800,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Hong Kong, China has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Hong Kong, China has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "china|saudi arabia|2026-10-12": {
-        "capturedAt": "2026-10-12T00:58:04.574985+00:00",
+        "capturedAt": "2026-10-12T06:58:40.498436+00:00",
         "matchDate": "2026-10-12",
         "report": {
             "teamA": "China",
@@ -40819,7 +40823,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173923/chn-vs-sau-12th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -41255,7 +41259,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Saudi Arabia has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Saudi Arabia has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "bhutan|kuwait|2026-10-12": {
