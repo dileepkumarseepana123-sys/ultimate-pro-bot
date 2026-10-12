@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-12T10:46:51.438351+00:00",
+    "last_updated": "2026-10-12T13:10:07.972820+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -36,7 +36,7 @@
             "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 18,
+        "hits_today_reported": 22,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -185,7 +185,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T06:58:40.498344+00:00",
+                "capturedAt": "2026-10-12T10:46:51.389520+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Afghanistan",
@@ -203,7 +203,7 @@
                     "sourceMatchUrl": null,
                     "cricketDataMatchId": null,
                     "liveScoreText": null,
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
                     "marketVisibility": "PREMIUM / LIKELY LISTED",
                     "liquidityProxyOnly": true,
@@ -399,7 +399,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-yellow",
-                    "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                    "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -765,7 +766,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T06:58:40.498395+00:00",
+                "capturedAt": "2026-10-12T10:46:51.389538+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Sydney Thunder Women",
@@ -1819,7 +1820,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T00:58:04.575018+00:00",
+                "capturedAt": "2026-10-12T10:46:51.389594+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Myanmar",
@@ -1837,7 +1838,7 @@
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173811/mmr-vs-thai-17th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
                     "cricketDataMatchId": null,
                     "liveScoreText": null,
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "LOW/UNKNOWN MARKET TIER",
                     "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
                     "liquidityProxyOnly": true,
@@ -2294,7 +2295,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-green",
-                    "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+                    "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -2872,7 +2874,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T06:58:40.498417+00:00",
+                "capturedAt": "2026-10-12T10:46:51.389559+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Malaysia",
@@ -4019,7 +4021,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T06:58:40.498409+00:00",
+                "capturedAt": "2026-10-12T10:46:51.389550+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Melbourne Renegades Women",
@@ -5016,7 +5018,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T06:58:40.498427+00:00",
+                "capturedAt": "2026-10-12T10:46:51.389569+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Hong Kong, China",
@@ -5938,7 +5940,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T06:58:40.498436+00:00",
+                "capturedAt": "2026-10-12T10:46:51.389578+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "China",
@@ -6851,7 +6853,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T00:58:04.575003+00:00",
+                "capturedAt": "2026-10-12T10:46:51.389585+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Bhutan",
@@ -6869,7 +6871,7 @@
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173813/btn-vs-kuw-18th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
                     "cricketDataMatchId": null,
                     "liveScoreText": null,
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "LOW/UNKNOWN MARKET TIER",
                     "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
                     "liquidityProxyOnly": true,
@@ -7306,7 +7308,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-yellow",
-                    "strategyText": "Kuwait has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                    "strategyText": "Kuwait has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
@@ -7766,7 +7769,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T00:58:04.575038+00:00",
+                "capturedAt": "2026-10-12T10:46:51.389602+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Qatar",
@@ -7784,7 +7787,7 @@
                     "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173801/qat-vs-mgl-16th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
                     "cricketDataMatchId": null,
                     "liveScoreText": null,
-                    "sourceStatus": "Scheduled",
+                    "sourceStatus": "ARCHIVED PRE-MATCH",
                     "marketTier": "LOW/UNKNOWN MARKET TIER",
                     "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
                     "liquidityProxyOnly": true,
@@ -8222,7 +8225,8 @@
                         "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
                     ],
                     "badgeClass": "badge-red",
-                    "strategyText": "Qatar has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+                    "strategyText": "Qatar has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+                    "archivedOnly": true
                 }
             },
             "standardT20": true,
