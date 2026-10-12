@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-12T13:10:07.972820+00:00",
+    "last_updated": "2026-10-12T15:48:08.062915+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -36,7 +36,7 @@
             "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 22,
+        "hits_today_reported": 26,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -185,7 +185,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T10:46:51.389520+00:00",
+                "capturedAt": "2026-10-12T13:10:07.927298+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Afghanistan",
@@ -766,7 +766,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T10:46:51.389538+00:00",
+                "capturedAt": "2026-10-12T13:10:07.927318+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Sydney Thunder Women",
@@ -1820,7 +1820,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T10:46:51.389594+00:00",
+                "capturedAt": "2026-10-12T13:10:07.927376+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Myanmar",
@@ -2874,7 +2874,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T10:46:51.389559+00:00",
+                "capturedAt": "2026-10-12T13:10:07.927340+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Malaysia",
@@ -4021,7 +4021,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T10:46:51.389550+00:00",
+                "capturedAt": "2026-10-12T13:10:07.927331+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Melbourne Renegades Women",
@@ -5018,7 +5018,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T10:46:51.389569+00:00",
+                "capturedAt": "2026-10-12T13:10:07.927350+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Hong Kong, China",
@@ -5940,7 +5940,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T10:46:51.389578+00:00",
+                "capturedAt": "2026-10-12T13:10:07.927359+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "China",
@@ -6853,7 +6853,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T10:46:51.389585+00:00",
+                "capturedAt": "2026-10-12T13:10:07.927367+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Bhutan",
@@ -7769,7 +7769,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-12T10:46:51.389602+00:00",
+                "capturedAt": "2026-10-12T13:10:07.927384+00:00",
                 "matchDate": "2026-10-12",
                 "report": {
                     "teamA": "Qatar",
