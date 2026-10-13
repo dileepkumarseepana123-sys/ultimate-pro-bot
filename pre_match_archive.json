@@ -42666,7 +42666,7 @@
         }
     },
     "pakistan|sri lanka|2026-10-13": {
-        "capturedAt": "2026-10-13T10:50:05.972563+00:00",
+        "capturedAt": "2026-10-13T12:56:55.885232+00:00",
         "matchDate": "2026-10-13",
         "report": {
             "teamA": "Pakistan",
@@ -42684,7 +42684,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/170697/pak-vs-sl-3rd-t20i-sri-lanka-tour-of-pakistan-2026",
             "cricketDataMatchId": "aad277c2-2412-4f1c-9d00-98dbe078132e",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 13, 13:00 GMT",
+            "sourceStatus": "Sri Lanka opt to bowl",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -43178,16 +43178,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T20:00:00+05:00",
-                "temperature_c": 20.9,
-                "humidity_pct": 91,
-                "dew_point_c": 19.4,
+                "temperature_c": 20.8,
+                "humidity_pct": 89,
+                "dew_point_c": 18.9,
                 "rain_probability_pct": 27,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 5.1,
+                "wind_kmh": 3.1,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "20.9°C | RH 91% | Rain 27% | Wind 5.1 km/h",
+            "weatherText": "20.8°C | RH 89% | Rain 27% | Wind 3.1 km/h",
             "dewRisk": "HIGH",
             "tossBias": "52.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -44940,7 +44940,7 @@
         }
     },
     "dolphins|north west eastvaal renault dragons|2026-10-13": {
-        "capturedAt": "2026-10-13T10:50:05.972660+00:00",
+        "capturedAt": "2026-10-13T12:56:55.885293+00:00",
         "matchDate": "2026-10-13",
         "report": {
             "teamA": "North West - Eastvaal Renault Dragons",
@@ -45369,16 +45369,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T18:00:00+02:00",
-                "temperature_c": 24.2,
-                "humidity_pct": 39,
-                "dew_point_c": 9.4,
+                "temperature_c": 24.5,
+                "humidity_pct": 40,
+                "dew_point_c": 9.9,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 12.4,
+                "wind_kmh": 11.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "24.2°C | RH 39% | Rain 0% | Wind 12.4 km/h",
+            "weatherText": "24.5°C | RH 40% | Rain 0% | Wind 11.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "46.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -45434,7 +45434,7 @@
         }
     },
     "border|lions|2026-10-13": {
-        "capturedAt": "2026-10-13T10:50:05.972699+00:00",
+        "capturedAt": "2026-10-13T12:56:55.885323+00:00",
         "matchDate": "2026-10-13",
         "report": {
             "teamA": "Lions",
@@ -45717,16 +45717,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T18:00:00+02:00",
-                "temperature_c": 25.7,
+                "temperature_c": 25.2,
                 "humidity_pct": 15,
-                "dew_point_c": -2.5,
+                "dew_point_c": -3.4,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 9.8,
+                "wind_kmh": 9.5,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "25.7°C | RH 15% | Rain 0% | Wind 9.8 km/h",
+            "weatherText": "25.2°C | RH 15% | Rain 0% | Wind 9.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "47.66% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -45784,7 +45784,7 @@
         }
     },
     "pakistan|sri lanka 3rd t20i rawalpindi cricket stadium rawalpindi|2026-10-13": {
-        "capturedAt": "2026-10-13T10:50:05.972729+00:00",
+        "capturedAt": "2026-10-13T12:56:55.885348+00:00",
         "matchDate": "2026-10-13",
         "report": {
             "teamA": "Pakistan",
@@ -46048,16 +46048,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T18:00:00+05:00",
-                "temperature_c": 20.8,
-                "humidity_pct": 95,
-                "dew_point_c": 20.0,
+                "temperature_c": 21.9,
+                "humidity_pct": 85,
+                "dew_point_c": 19.2,
                 "rain_probability_pct": 65,
-                "precipitation_mm": 0.5,
-                "wind_kmh": 6.5,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 1.2,
                 "dew_risk": "HIGH",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "20.8°C | RH 95% | Rain 65% | Wind 6.5 km/h",
+            "weatherText": "21.9°C | RH 85% | Rain 65% | Wind 1.2 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
