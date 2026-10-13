@@ -2331,5 +2331,522 @@
         "cache": 0
       }
     }
+  },
+  "46cf1f9f-e741-423a-bfe9-98dd14921252": {
+    "cachedAt": "2026-10-13T18:58:37.906088+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [
+        {
+          "teamName": "Bahrain",
+          "shortname": "BHR",
+          "img": "https://g.cricapi.com/iapi/8-637864920538411089.webp?w=48",
+          "players": [
+            {
+              "id": "a44a546b-3ece-41c6-a487-03aed866dd42",
+              "name": "Prashant Kurup",
+              "role": "WK-Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Bahrain",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "25b4de8c-f30b-49d3-b043-178b5101052c",
+              "name": "Amaish Rana",
+              "country": "Bahrain",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "4a8cbf7c-af30-4624-949a-19eabbddaf35",
+              "name": "Shujaat Rasool",
+              "country": "Bahrain",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "122ffbf0-61eb-457f-ae71-293cbb423836",
+              "name": "Fiaz Ahmed",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Bahrain",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "adefcd12-1dfe-474b-ba1a-603438b51035",
+              "name": "Sohail Ahmed",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Bahrain",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "dc1bc65b-d571-45a4-8e39-6fe0880e5640",
+              "name": "Junaid Aziz",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm legbreak",
+              "country": "Bahrain",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "84c1cd69-4b9e-4c2a-aab8-700dd0f8762b",
+              "name": "Asif Ali",
+              "role": "Batting Allrounder",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Left-arm orthodox",
+              "country": "Bahrain",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "ebb0ba68-7ff3-4ce7-81c3-a017b9c68c73",
+              "name": "Ahmer Bin Nasir",
+              "role": "WK-Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Bahrain",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "e339c39f-1df0-4a97-9222-b46bb0cf095a",
+              "name": "Muhammad Wasim",
+              "country": "Bahrain",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "dea189e2-28d4-42d1-bc08-d28b8acba342",
+              "name": "Rizwan Butt",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Bahrain",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "bfae3001-d721-4c14-b1a1-edda8a0d4046",
+              "name": "Ali Dawood",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Bahrain",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "dc5fc23e-3cd2-46af-948f-f9c6ca79a8ef",
+              "name": "Imran Anwar",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Left-arm medium",
+              "country": "Bahrain",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            }
+          ]
+        },
+        {
+          "teamName": "Qatar",
+          "shortname": "QAT",
+          "img": "https://g.cricapi.com/iapi/577-637877086204623715.webp?w=48",
+          "players": [
+            {
+              "id": "92f19855-4685-443c-95ee-094ffa017eb4",
+              "name": "Daniel Louis",
+              "country": "Qatar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "22df097c-1539-47a3-ac97-0a50b208b103",
+              "name": "Mujeeb ur Rehman",
+              "role": "Bowler",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Left-arm orthodox",
+              "country": "Qatar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "0bd96a23-1cee-4cf9-bff4-17a63824fae2",
+              "name": "Muhammad Asim",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm legbreak",
+              "country": "Qatar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "e8d0b7b7-9e5e-45d6-a182-1a04eefadf4d",
+              "name": "Owais Ahmed",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Left-arm orthodox",
+              "country": "Qatar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "9dbd8943-1ef1-4772-8775-2a3315499a2d",
+              "name": "Mohammad Ikramullah Khan",
+              "role": "Bowler",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Left-arm fast-medium",
+              "country": "Qatar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "20d8c49f-5241-41a7-9857-2b4dce2d522b",
+              "name": "Mirza Mohammed Baig",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "country": "Qatar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "66d16f31-6c64-48b9-bbfc-44e58f904e24",
+              "name": "Akshay Patil",
+              "country": "Qatar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "fb08511e-88ad-4a6b-96ea-4fb02c248fdc",
+              "name": "Shahzaib Jamil",
+              "role": "WK-Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Qatar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "73245abd-e966-4445-961f-57c249aa4141",
+              "name": "Shahzeb Afridi",
+              "country": "Qatar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "ae7c175a-ea35-4d91-98f2-61a8b95afa30",
+              "name": "Amir Farooq",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Left-arm medium",
+              "country": "Qatar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "1ff9c37d-6542-4c33-b033-dccb6426822b",
+              "name": "Imal Liyanage",
+              "role": "WK-Batsman",
+              "battingStyle": "Left Handed Bat",
+              "country": "Qatar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "887890a5-e522-4085-984a-e5675539ab6b",
+              "name": "Zubair Ali",
+              "role": "Batsman",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "Qatar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "5e34af57-8c99-45ed-8a08-f789c9638637",
+              "name": "Zeeshan Haider",
+              "country": "Qatar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            }
+          ]
+        }
+      ],
+      "status": "success",
+      "info": {
+        "hitsToday": 22,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 1,
+        "queryTime": 24.3751,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "d98080ac-a5a9-4236-92b7-3e694ef1e8b2": {
+    "cachedAt": "2026-10-13T18:58:40.973138+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [
+        {
+          "teamName": "Mongolia",
+          "shortname": "MN",
+          "img": "https://h.cricapi.com/img/icon512.png",
+          "players": [
+            {
+              "id": "c5aabf0a-c94d-4579-abf4-0fc68b68702d",
+              "name": "Bayarjargal Batbayr",
+              "country": "Mongolia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "72185d4e-8566-4862-8213-15edfeca9e30",
+              "name": "Uugan Erdene Batjargal",
+              "country": "Mongolia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "e2762a5c-7c08-4321-87ec-19c22b88f6fe",
+              "name": "Luvsanzundui Erdenebulgan",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "country": "Mongolia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "f00743d4-9def-493d-8a9d-21a75197eb73",
+              "name": "Zoljavkhlan Shurentsetseg",
+              "role": "--",
+              "battingStyle": "Left Handed Bat",
+              "country": "Mongolia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "0435e693-85af-4a5c-a6f7-86e0a28f7997",
+              "name": "Turmunkh Tumursukh",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "country": "Mongolia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "fa0ce6c3-32ae-472d-96e8-bf6445b936fa",
+              "name": "Bilegdemberel Munkhdelger",
+              "country": "Mongolia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "c18e06f7-62df-43da-b0e2-c8edc4e7a813",
+              "name": "Munkhsuld Erdenebat",
+              "country": "Mongolia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "412cfe24-3e1a-45e7-872e-cad77e3135f8",
+              "name": "Gandemberel Ganbold",
+              "role": "--",
+              "battingStyle": "Left Handed Bat",
+              "country": "Mongolia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "bb91872f-6703-43ba-bc5b-e4705beb4ab1",
+              "name": "Od Lutbayar",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "country": "Mongolia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "25a16dd1-688d-4f65-b7bb-e9d19e038331",
+              "name": "Battulga Tamjidsuren",
+              "country": "Mongolia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "ea790b69-19b0-4e23-898f-f0501505cdf7",
+              "name": "Temuulen Amarmend",
+              "role": "--",
+              "battingStyle": "Left Handed Bat",
+              "country": "Mongolia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "46107fa5-02bf-4093-a191-f76b7dfa1a68",
+              "name": "Sodbileg Gantulga",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Mongolia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "bf6a5756-c5b8-41d1-b8ea-fb82ff4f91e8",
+              "name": "Bat-yalalt Namsrai",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "country": "Mongolia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            }
+          ]
+        },
+        {
+          "teamName": "Myanmar",
+          "shortname": "MYAN",
+          "img": "https://g.cricapi.com/iapi/630-637928917494065904.png?w=48",
+          "players": [
+            {
+              "id": "1659b3a7-5488-47b2-a380-188daf3c3099",
+              "name": "Myat Thu Aung",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Myanmar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "d01b4e4a-a293-42e7-a6a1-1be696cace3c",
+              "name": "Nyein Cham Soe",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Myanmar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "0e62e276-7dfc-45cc-b750-1f0c17d34fb9",
+              "name": "Htet Lin Aung",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "Myanmar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "659f5f4d-66ce-41f2-a53b-254c65a7a93d",
+              "name": "Ye Naing Tun",
+              "role": "WK-Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Myanmar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "49fb6948-e8c6-4751-aad6-28049aeb1953",
+              "name": "Paing Danu",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Myanmar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "8de7a072-b7bd-47d6-af1c-34dd880b121f",
+              "name": "Aung Ko Ko",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm legbreak",
+              "country": "Myanmar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "d6d1e52f-4ac2-4add-bfa6-4d08cedbc8fc",
+              "name": "Pyae Phyo Wai",
+              "role": "Bowler",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Left-arm orthodox",
+              "country": "Myanmar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "ccdd2a7a-cadf-4120-acc8-5a429def0a54",
+              "name": "Kaung Htet Kyaw",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Myanmar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "b389e33a-48b3-44db-ae10-9115f6f555a1",
+              "name": "Nay Lin Htun",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Myanmar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "091fba0b-a508-4fc3-b540-a21f433d76d2",
+              "name": "Khin Aye",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Myanmar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "1346185b-44d0-49d4-962e-ac98eb199a2e",
+              "name": "Thuya Aung",
+              "role": "WK-Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Myanmar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "d93f22f2-3eeb-4132-9de9-ee39a8e8e53e",
+              "name": "Ko Ko Lin Thu",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Myanmar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "8bdb05a0-f89d-426d-a635-f8b2c552881e",
+              "name": "Swann Htet Ko Ko",
+              "role": "WK-Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Myanmar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "2c893e84-cd2b-477d-9ae4-fb67911b88e3",
+              "name": "Htet Lin Oo",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Myanmar",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            }
+          ]
+        }
+      ],
+      "status": "success",
+      "info": {
+        "hitsToday": 32,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 15,
+        "queryTime": 22.2662,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "35d090cb-44f4-4696-a76c-3a6d5f18bafb": {
+    "cachedAt": "2026-10-13T18:58:43.474094+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 42,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 11,
+        "queryTime": 24.5753,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "689d96f3-42ba-4ab3-a41f-357b2edcf122": {
+    "cachedAt": "2026-10-13T18:58:46.180315+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 52,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 5,
+        "queryTime": 31.2917,
+        "s": 0,
+        "cache": 0
+      }
+    }
   }
 }

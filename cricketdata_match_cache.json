@@ -1733,5 +1733,141 @@
       ],
       "series_id": "cb353b0b-1247-40d0-af72-40237829dcd9"
     }
+  },
+  "46cf1f9f-e741-423a-bfe9-98dd14921252": {
+    "cachedAt": "2026-10-13T18:54:42.297148+00:00",
+    "data": {
+      "id": "46cf1f9f-e741-423a-bfe9-98dd14921252",
+      "name": "Bahrain vs Qatar, 20th Match,  ICC Mens T20 World Cup Sub Regional Asia Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 14, 01:15 GMT",
+      "venue": "Selangor Turf Club, Kuala Lumpur",
+      "date": "2026-10-14",
+      "dateTimeGMT": "2026-10-14T01:15:00",
+      "teams": [
+        "Bahrain",
+        "Qatar"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
+  },
+  "d98080ac-a5a9-4236-92b7-3e694ef1e8b2": {
+    "cachedAt": "2026-10-13T18:54:42.458421+00:00",
+    "data": {
+      "id": "d98080ac-a5a9-4236-92b7-3e694ef1e8b2",
+      "name": "Myanmar vs Mongolia, 19th Match,  ICC Mens T20 World Cup Sub Regional Asia Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 14, 01:15 GMT",
+      "venue": "YSD-UKM Cricket Oval, Bangi",
+      "date": "2026-10-14",
+      "dateTimeGMT": "2026-10-14T01:15:00",
+      "teams": [
+        "Myanmar",
+        "Mongolia"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
+  },
+  "35d090cb-44f4-4696-a76c-3a6d5f18bafb": {
+    "cachedAt": "2026-10-13T18:54:42.619348+00:00",
+    "data": {
+      "id": "35d090cb-44f4-4696-a76c-3a6d5f18bafb",
+      "name": "Malaysia vs China, 13th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier B 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 14, 01:15 GMT",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-10-14",
+      "dateTimeGMT": "2026-10-14T01:15:00",
+      "teams": [
+        "Malaysia",
+        "China"
+      ],
+      "series_id": "cb353b0b-1247-40d0-af72-40237829dcd9"
+    }
+  },
+  "689d96f3-42ba-4ab3-a41f-357b2edcf122": {
+    "cachedAt": "2026-10-13T18:54:42.782203+00:00",
+    "data": {
+      "id": "689d96f3-42ba-4ab3-a41f-357b2edcf122",
+      "name": "Melbourne Renegades Women vs Melbourne Stars Women, 8th Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 14, 03:30 GMT",
+      "venue": "Bankstown Oval, Sydney",
+      "date": "2026-10-14",
+      "dateTimeGMT": "2026-10-14T03:30:00",
+      "teams": [
+        "Melbourne Renegades Women",
+        "Melbourne Stars Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "982c7933-f9bf-48e2-9cdc-e98c5109f006": {
+    "cachedAt": "2026-10-13T18:54:42.944463+00:00",
+    "data": {
+      "id": "982c7933-f9bf-48e2-9cdc-e98c5109f006",
+      "name": "Maldives vs Saudi Arabia, 15th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier B 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 14, 06:00 GMT",
+      "venue": "YSD-UKM Cricket Oval, Bangi",
+      "date": "2026-10-14",
+      "dateTimeGMT": "2026-10-14T06:00:00",
+      "teams": [
+        "Maldives",
+        "Saudi Arabia"
+      ],
+      "series_id": "cb353b0b-1247-40d0-af72-40237829dcd9"
+    }
+  },
+  "e982aea2-1238-448c-9005-1cd04642693f": {
+    "cachedAt": "2026-10-13T18:54:43.107063+00:00",
+    "data": {
+      "id": "e982aea2-1238-448c-9005-1cd04642693f",
+      "name": "Bhutan vs Thailand, 21st Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 14, 06:00 GMT",
+      "venue": "Selangor Turf Club, Kuala Lumpur",
+      "date": "2026-10-14",
+      "dateTimeGMT": "2026-10-14T06:00:00",
+      "teams": [
+        "Bhutan",
+        "Thailand"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
+  },
+  "f3064046-a1c8-458f-996e-0dbaa34531e7": {
+    "cachedAt": "2026-10-13T18:54:43.268619+00:00",
+    "data": {
+      "id": "f3064046-a1c8-458f-996e-0dbaa34531e7",
+      "name": "Adelaide Strikers Women vs Hobart Hurricanes Women, 9th Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 14, 08:00 GMT",
+      "venue": "Bankstown Oval, Sydney",
+      "date": "2026-10-14",
+      "dateTimeGMT": "2026-10-14T08:00:00",
+      "teams": [
+        "Adelaide Strikers Women",
+        "Hobart Hurricanes Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "958157b7-5456-4800-986d-710d6d1ef997": {
+    "cachedAt": "2026-10-13T18:54:43.430541+00:00",
+    "data": {
+      "id": "958157b7-5456-4800-986d-710d6d1ef997",
+      "name": "England Champions vs Australia Champions, 16th Match, World Championship of Legends 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 14, 11:30 GMT",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-10-14",
+      "dateTimeGMT": "2026-10-14T11:30:00",
+      "teams": [
+        "England Champions",
+        "Australia Champions"
+      ],
+      "series_id": "67b36c31-9495-441c-aece-96f7c3af44f7"
+    }
   }
 }
