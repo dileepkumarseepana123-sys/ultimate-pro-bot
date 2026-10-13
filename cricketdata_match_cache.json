@@ -1332,5 +1332,138 @@
       ],
       "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
     }
+  },
+  "8102bbd5-6ac5-49eb-ae59-e2b13bfc9ce5": {
+    "cachedAt": "2026-10-13T10:47:01.354488+00:00",
+    "data": {
+      "id": "8102bbd5-6ac5-49eb-ae59-e2b13bfc9ce5",
+      "name": "Western Australia vs Queensland, 9th Match, Australia Domestic One-Day Cup 2026-27",
+      "matchType": "odi",
+      "status": "Western Australia need 202 runs",
+      "venue": "W.A.C.A. Ground, Perth",
+      "date": "2026-10-13",
+      "dateTimeGMT": "2026-10-13T00:00:00",
+      "teams": [
+        "Western Australia",
+        "Queensland"
+      ],
+      "series_id": "54464f6f-3be4-4730-9ba7-cf77ce0a9ad8"
+    }
+  },
+  "57e4d85e-0474-4b34-b30d-b0b24f937040": {
+    "cachedAt": "2026-10-13T10:47:01.511345+00:00",
+    "data": {
+      "id": "57e4d85e-0474-4b34-b30d-b0b24f937040",
+      "name": "Sydney Thunder Women vs Brisbane Heat Women, 7th Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Match abandoned due to rain (with toss)",
+      "venue": "Bankstown Oval, Sydney",
+      "date": "2026-10-13",
+      "dateTimeGMT": "2026-10-13T00:00:00",
+      "teams": [
+        "Sydney Thunder Women",
+        "Brisbane Heat Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "abe775bf-9c45-4813-9181-90f3f6553f6a": {
+    "cachedAt": "2026-10-13T10:47:01.671703+00:00",
+    "data": {
+      "id": "abe775bf-9c45-4813-9181-90f3f6553f6a",
+      "name": "New South Wales vs Tasmania, 8th Match, Australia Domestic One-Day Cup 2026-27",
+      "matchType": "odi",
+      "status": "Tasmania won by 57 runs (DLS method)  -  30 overs game due to rain, NSW target 216 runs",
+      "venue": "Cricket Central, Sydney",
+      "date": "2026-10-13",
+      "dateTimeGMT": "2026-10-13T00:00:00",
+      "teams": [
+        "New South Wales",
+        "Tasmania"
+      ],
+      "series_id": "54464f6f-3be4-4730-9ba7-cf77ce0a9ad8"
+    }
+  },
+  "40a13d90-b2ff-4b71-90d6-6036604087b9": {
+    "cachedAt": "2026-10-13T10:47:01.830295+00:00",
+    "data": {
+      "id": "40a13d90-b2ff-4b71-90d6-6036604087b9",
+      "name": "Adelaide Strikers Women vs Perth Scorchers Women, 6th Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Adelaide Strikers Women won by 6 wkts",
+      "venue": "Bankstown Oval, Sydney",
+      "date": "2026-10-13",
+      "dateTimeGMT": "2026-10-13T00:00:00",
+      "teams": [
+        "Adelaide Strikers Women",
+        "Perth Scorchers Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "ce7500a3-9301-4d32-a378-14da07fc5d6a": {
+    "cachedAt": "2026-10-13T10:47:01.986792+00:00",
+    "data": {
+      "id": "ce7500a3-9301-4d32-a378-14da07fc5d6a",
+      "name": "Sydney Sixers Women vs ACT Women, 5th Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Sydney Sixers Women won by 12 runs (DLS method)",
+      "venue": "Bankstown Oval, Sydney",
+      "date": "2026-10-13",
+      "dateTimeGMT": "2026-10-13T00:00:00",
+      "teams": [
+        "Sydney Sixers Women",
+        "ACT Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "006c4557-4443-4a0f-b351-b32dc48e7d33": {
+    "cachedAt": "2026-10-13T10:47:02.148568+00:00",
+    "data": {
+      "id": "006c4557-4443-4a0f-b351-b32dc48e7d33",
+      "name": "South Africa Champions vs England Champions, 14th Match, World Championship of Legends 2026",
+      "status": "Match starts at Oct 13, 11:30 GMT",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-10-13",
+      "dateTimeGMT": "2026-10-13T11:30:00",
+      "teams": [
+        "South Africa Champions",
+        "England Champions"
+      ],
+      "series_id": "67b36c31-9495-441c-aece-96f7c3af44f7"
+    }
+  },
+  "461133d0-b613-44f1-958d-bb523226ab90": {
+    "cachedAt": "2026-10-13T10:47:02.306412+00:00",
+    "data": {
+      "id": "461133d0-b613-44f1-958d-bb523226ab90",
+      "name": "India Champions vs West Indies Champions, 15th Match, World Championship of Legends 2026",
+      "status": "Match starts at Oct 13, 15:30 GMT",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-10-13",
+      "dateTimeGMT": "2026-10-13T15:30:00",
+      "teams": [
+        "India Champions",
+        "West Indies Champions"
+      ],
+      "series_id": "67b36c31-9495-441c-aece-96f7c3af44f7"
+    }
+  },
+  "f0b354d4-4ba7-413f-a9f6-bff66d07a23b": {
+    "cachedAt": "2026-10-13T10:47:02.466122+00:00",
+    "data": {
+      "id": "f0b354d4-4ba7-413f-a9f6-bff66d07a23b",
+      "name": "Australia Champions vs Bangladesh Champions, 7th Match, World Championship of Legends 2026",
+      "status": "Australia Champions won by 37 runs",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-10-07",
+      "dateTimeGMT": "2026-10-07T00:00:00",
+      "teams": [
+        "Australia Champions",
+        "Bangladesh Champions"
+      ],
+      "series_id": "67b36c31-9495-441c-aece-96f7c3af44f7"
+    }
   }
 }

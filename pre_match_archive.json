@@ -42666,7 +42666,7 @@
         }
     },
     "pakistan|sri lanka|2026-10-13": {
-        "capturedAt": "2026-10-13T06:58:39.049510+00:00",
+        "capturedAt": "2026-10-13T10:50:05.972563+00:00",
         "matchDate": "2026-10-13",
         "report": {
             "teamA": "Pakistan",
@@ -43178,16 +43178,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T20:00:00+05:00",
-                "temperature_c": 20.4,
-                "humidity_pct": 94,
+                "temperature_c": 20.9,
+                "humidity_pct": 91,
                 "dew_point_c": 19.4,
                 "rain_probability_pct": 27,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 4.8,
+                "wind_kmh": 5.1,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "20.4°C | RH 94% | Rain 27% | Wind 4.8 km/h",
+            "weatherText": "20.9°C | RH 91% | Rain 27% | Wind 5.1 km/h",
             "dewRisk": "HIGH",
             "tossBias": "52.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -44352,7 +44352,7 @@
         }
     },
     "kwazulu natal inland tuskers|titans|2026-10-13": {
-        "capturedAt": "2026-10-13T06:58:39.049569+00:00",
+        "capturedAt": "2026-10-13T10:50:05.972602+00:00",
         "matchDate": "2026-10-13",
         "report": {
             "teamA": "KwaZulu-Natal Inland Tuskers",
@@ -44627,16 +44627,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T13:00:00+02:00",
-                "temperature_c": 29.5,
-                "humidity_pct": 46,
+                "temperature_c": 28.7,
+                "humidity_pct": 48,
                 "dew_point_c": 16.8,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 12.5,
+                "wind_kmh": 13.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.5°C | RH 46% | Rain 0% | Wind 12.5 km/h",
+            "weatherText": "28.7°C | RH 48% | Rain 0% | Wind 13.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -44681,7 +44681,7 @@
         }
     },
     "limpopo|northern cape|2026-10-13": {
-        "capturedAt": "2026-10-13T06:58:39.049586+00:00",
+        "capturedAt": "2026-10-13T10:50:05.972625+00:00",
         "matchDate": "2026-10-13",
         "report": {
             "teamA": "Northern Cape",
@@ -44872,16 +44872,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T13:00:00+02:00",
-                "temperature_c": 26.6,
-                "humidity_pct": 42,
+                "temperature_c": 21.7,
+                "humidity_pct": 57,
                 "dew_point_c": 12.7,
                 "rain_probability_pct": 14,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.5,
+                "wind_kmh": 5.5,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.6°C | RH 42% | Rain 14% | Wind 7.5 km/h",
+            "weatherText": "21.7°C | RH 57% | Rain 14% | Wind 5.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "45.45% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -44940,7 +44940,7 @@
         }
     },
     "dolphins|north west eastvaal renault dragons|2026-10-13": {
-        "capturedAt": "2026-10-13T06:58:39.049601+00:00",
+        "capturedAt": "2026-10-13T10:50:05.972660+00:00",
         "matchDate": "2026-10-13",
         "report": {
             "teamA": "North West - Eastvaal Renault Dragons",
@@ -45369,16 +45369,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T18:00:00+02:00",
-                "temperature_c": 24.6,
-                "humidity_pct": 38,
+                "temperature_c": 24.2,
+                "humidity_pct": 39,
                 "dew_point_c": 9.4,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.3,
+                "wind_kmh": 12.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "24.6°C | RH 38% | Rain 0% | Wind 7.3 km/h",
+            "weatherText": "24.2°C | RH 39% | Rain 0% | Wind 12.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "46.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -45434,7 +45434,7 @@
         }
     },
     "border|lions|2026-10-13": {
-        "capturedAt": "2026-10-13T06:58:39.049620+00:00",
+        "capturedAt": "2026-10-13T10:50:05.972699+00:00",
         "matchDate": "2026-10-13",
         "report": {
             "teamA": "Lions",
@@ -45717,16 +45717,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T18:00:00+02:00",
-                "temperature_c": 26.2,
+                "temperature_c": 25.7,
                 "humidity_pct": 15,
                 "dew_point_c": -2.5,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 11.7,
+                "wind_kmh": 9.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.2°C | RH 15% | Rain 0% | Wind 11.7 km/h",
+            "weatherText": "25.7°C | RH 15% | Rain 0% | Wind 9.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "47.66% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -45784,7 +45784,7 @@
         }
     },
     "pakistan|sri lanka 3rd t20i rawalpindi cricket stadium rawalpindi|2026-10-13": {
-        "capturedAt": "2026-10-13T06:58:39.049637+00:00",
+        "capturedAt": "2026-10-13T10:50:05.972729+00:00",
         "matchDate": "2026-10-13",
         "report": {
             "teamA": "Pakistan",
@@ -46048,16 +46048,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T18:00:00+05:00",
-                "temperature_c": 21.0,
-                "humidity_pct": 94,
+                "temperature_c": 20.8,
+                "humidity_pct": 95,
                 "dew_point_c": 20.0,
                 "rain_probability_pct": 65,
                 "precipitation_mm": 0.5,
-                "wind_kmh": 8.9,
+                "wind_kmh": 6.5,
                 "dew_risk": "HIGH",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "21.0°C | RH 94% | Rain 65% | Wind 8.9 km/h",
+            "weatherText": "20.8°C | RH 95% | Rain 65% | Wind 6.5 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
