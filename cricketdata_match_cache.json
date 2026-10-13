@@ -1600,5 +1600,138 @@
       ],
       "series_id": "cb353b0b-1247-40d0-af72-40237829dcd9"
     }
+  },
+  "d4a3aff5-9255-4e91-a9f2-ad493ea523fa": {
+    "cachedAt": "2026-10-13T15:47:41.682728+00:00",
+    "data": {
+      "id": "d4a3aff5-9255-4e91-a9f2-ad493ea523fa",
+      "name": "Malaysia vs Saudi Arabia, 4th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier B 2026",
+      "matchType": "t20",
+      "status": "Saudi Arabia won by 3 wkts",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-10-09",
+      "dateTimeGMT": "2026-10-09T00:00:00",
+      "teams": [
+        "Malaysia",
+        "Saudi Arabia"
+      ],
+      "series_id": "cb353b0b-1247-40d0-af72-40237829dcd9"
+    }
+  },
+  "ed2aed6f-02d2-4314-af08-97fddd5f2019": {
+    "cachedAt": "2026-10-13T15:47:41.820162+00:00",
+    "data": {
+      "id": "ed2aed6f-02d2-4314-af08-97fddd5f2019",
+      "name": "China vs Hong Kong, China, 5th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier B 2026",
+      "matchType": "t20",
+      "status": "Hong Kong, China won by 8 wkts",
+      "venue": "YSD-UKM Cricket Oval, Bangi",
+      "date": "2026-10-09",
+      "dateTimeGMT": "2026-10-09T00:00:00",
+      "teams": [
+        "China",
+        "Hong Kong"
+      ],
+      "series_id": "cb353b0b-1247-40d0-af72-40237829dcd9"
+    }
+  },
+  "97fc2c3a-29e0-48d8-82a6-954013d4265e": {
+    "cachedAt": "2026-10-13T15:47:41.959029+00:00",
+    "data": {
+      "id": "97fc2c3a-29e0-48d8-82a6-954013d4265e",
+      "name": "Australia Champions vs South Africa Champions, 9th Match, World Championship of Legends 2026",
+      "status": "South Africa Champions won by 8 wkts",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-10-09",
+      "dateTimeGMT": "2026-10-09T00:00:00",
+      "teams": [
+        "Australia Champions",
+        "South Africa Champions"
+      ],
+      "series_id": "67b36c31-9495-441c-aece-96f7c3af44f7"
+    }
+  },
+  "d9a770df-eca3-4b8a-8368-7a9b842ff42b": {
+    "cachedAt": "2026-10-13T15:47:42.100279+00:00",
+    "data": {
+      "id": "d9a770df-eca3-4b8a-8368-7a9b842ff42b",
+      "name": "Afghanistan vs Bangladesh, One-off Test, Afghanistan vs Bangladesh in UAE, 2026",
+      "matchType": "test",
+      "status": "Match drawn",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-10-09",
+      "dateTimeGMT": "2026-10-09T00:00:00",
+      "teams": [
+        "Afghanistan",
+        "Bangladesh"
+      ],
+      "series_id": "f22b3d83-634e-4ccd-8a36-9928bfb79d26"
+    }
+  },
+  "6e31dbf3-0f93-4096-9e51-14e9625a6845": {
+    "cachedAt": "2026-10-13T15:47:42.242797+00:00",
+    "data": {
+      "id": "6e31dbf3-0f93-4096-9e51-14e9625a6845",
+      "name": "Bangladesh Champions vs West Indies Champions, 10th Match, World Championship of Legends 2026",
+      "status": "West Indies Champions won by 5 wkts",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-10-09",
+      "dateTimeGMT": "2026-10-09T00:00:00",
+      "teams": [
+        "Bangladesh Champions",
+        "West Indies Champions"
+      ],
+      "series_id": "67b36c31-9495-441c-aece-96f7c3af44f7"
+    }
+  },
+  "2fcad54f-842d-4bf4-9a2e-ea8a7e99a32c": {
+    "cachedAt": "2026-10-13T15:47:42.382838+00:00",
+    "data": {
+      "id": "2fcad54f-842d-4bf4-9a2e-ea8a7e99a32c",
+      "name": "India Champions vs South Africa Champions, 11th Match, World Championship of Legends 2026",
+      "status": "South Africa Champions won by 4 wkts",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-10-10",
+      "dateTimeGMT": "2026-10-10T00:00:00",
+      "teams": [
+        "India Champions",
+        "South Africa Champions"
+      ],
+      "series_id": "67b36c31-9495-441c-aece-96f7c3af44f7"
+    }
+  },
+  "2365f9c7-f26a-4994-88c2-e7ac2851c84f": {
+    "cachedAt": "2026-10-13T15:47:42.521663+00:00",
+    "data": {
+      "id": "2365f9c7-f26a-4994-88c2-e7ac2851c84f",
+      "name": "Bahrain vs Mongolia, 15th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Bahrain won by 8 wkts",
+      "venue": "Selangor Turf Club, Kuala Lumpur",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T00:00:00",
+      "teams": [
+        "Bahrain",
+        "Mongolia"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
+  },
+  "fa889625-942f-4402-891e-c2093ba3a6c2": {
+    "cachedAt": "2026-10-13T15:47:42.660180+00:00",
+    "data": {
+      "id": "fa889625-942f-4402-891e-c2093ba3a6c2",
+      "name": "Malaysia vs Maldives, 8th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier B 2026",
+      "matchType": "t20",
+      "status": "Malaysia won by 6 wkts",
+      "venue": "YSD-UKM Cricket Oval, Bangi",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T00:00:00",
+      "teams": [
+        "Malaysia",
+        "Maldives"
+      ],
+      "series_id": "cb353b0b-1247-40d0-af72-40237829dcd9"
+    }
   }
 }

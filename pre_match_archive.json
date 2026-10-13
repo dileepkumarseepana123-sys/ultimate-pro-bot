@@ -44352,7 +44352,7 @@
         }
     },
     "kwazulu natal inland tuskers|titans|2026-10-13": {
-        "capturedAt": "2026-10-13T10:50:05.972602+00:00",
+        "capturedAt": "2026-10-13T15:49:24.601338+00:00",
         "matchDate": "2026-10-13",
         "report": {
             "teamA": "KwaZulu-Natal Inland Tuskers",
@@ -44370,7 +44370,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173337/kznin-vs-tit-pool-b-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -44677,11 +44677,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "limpopo|northern cape|2026-10-13": {
-        "capturedAt": "2026-10-13T10:50:05.972625+00:00",
+        "capturedAt": "2026-10-13T15:49:24.601348+00:00",
         "matchDate": "2026-10-13",
         "report": {
             "teamA": "Northern Cape",
@@ -44699,7 +44700,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/174254/ncape-vs-limpo-pool-a-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -44936,11 +44937,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "dolphins|north west eastvaal renault dragons|2026-10-13": {
-        "capturedAt": "2026-10-13T12:56:55.885293+00:00",
+        "capturedAt": "2026-10-13T15:49:24.601269+00:00",
         "matchDate": "2026-10-13",
         "report": {
             "teamA": "North West - Eastvaal Renault Dragons",
@@ -45012,14 +45014,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "BALANCED",
-            "swingScore": 60.0,
+            "swingScore": 55.3,
             "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 67,
+                "dataCompletenessPct": 50,
                 "swingProfile": "CONDITIONAL SWING PROFILE",
-                "swingScore": 60.0,
+                "swingScore": 55.3,
                 "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
                 "competitiveBalance": {
                     "label": "BALANCED",
@@ -45093,11 +45095,6 @@
                         "weight": 0.15
                     },
                     {
-                        "name": "weather",
-                        "score": 70.0,
-                        "weight": 0.1
-                    },
-                    {
                         "name": "market_proxy",
                         "score": 35.0,
                         "weight": 0.2
@@ -45121,7 +45118,7 @@
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS WATCHLIST",
-                "dataConfidencePct": 71,
+                "dataConfidencePct": 57,
                 "initialPrediction": "Pre-toss evidence is broadly balanced; no clear historical side edge.",
                 "edgeTeam": null,
                 "edgeStrength": "BALANCED",
@@ -45132,8 +45129,7 @@
                     "Powerplay baseline: 41.1 runs / 1.44 wickets",
                     "Two-way venue: 46.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.26 wickets/match",
-                    "16th-over baseline: 8.3 runs; wicket in 33.0% of sampled innings",
-                    "Weather: rain 0%, dew LOW"
+                    "16th-over baseline: 8.3 runs; wicket in 33.0% of sampled innings"
                 ],
                 "evidence": [
                     "Elo: North West - Eastvaal Renault Dragons 1487.0 vs Dolphins 1499.7",
@@ -45367,19 +45363,11 @@
                 ]
             },
             "weather": {
-                "status": "OK",
-                "local_time": "2026-10-13T18:00:00+02:00",
-                "temperature_c": 24.5,
-                "humidity_pct": 40,
-                "dew_point_c": 9.9,
-                "rain_probability_pct": 0,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 11.4,
-                "dew_risk": "LOW",
-                "rain_risk": "LOW"
+                "status": "UNKNOWN",
+                "reason": "No hourly forecast returned"
             },
-            "weatherText": "24.5°C | RH 40% | Rain 0% | Wind 11.4 km/h",
-            "dewRisk": "LOW",
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
             "tossBias": "46.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "41.07",
@@ -45393,7 +45381,7 @@
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.26/match",
             "metricSources": {
                 "fixture": "Cricbuzz via text relay",
-                "weather": "Open-Meteo match-hour forecast",
+                "weather": "Open-Meteo unavailable/UNKNOWN",
                 "tossBias": "Cricsheet venue T20 history (n=54)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=54)",
                 "over16": "Cricsheet 16th-over history (n=94)",
@@ -45423,7 +45411,9 @@
             "spinnerWickets7to14": null,
             "spinClassificationPct": 1.25,
             "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
-            "noBetReasons": [],
+            "noBetReasons": [
+                "WEATHER DATA UNKNOWN"
+            ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
@@ -45434,7 +45424,7 @@
         }
     },
     "border|lions|2026-10-13": {
-        "capturedAt": "2026-10-13T12:56:55.885323+00:00",
+        "capturedAt": "2026-10-13T15:49:24.601310+00:00",
         "matchDate": "2026-10-13",
         "report": {
             "teamA": "Lions",
@@ -45483,14 +45473,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 44.2,
+            "swingScore": 38.5,
             "strategyLabel": "INSUFFICIENT DATA",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 33,
+                "dataCompletenessPct": 17,
                 "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 44.2,
+                "swingScore": 38.5,
                 "strategyLabel": "INSUFFICIENT DATA",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -45536,11 +45526,6 @@
                         "weight": 0.15
                     },
                     {
-                        "name": "weather",
-                        "score": 70.0,
-                        "weight": 0.1
-                    },
-                    {
                         "name": "market_proxy",
                         "score": 35.0,
                         "weight": 0.2
@@ -45564,7 +45549,7 @@
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS DATA LIMITED",
-                "dataConfidencePct": 29,
+                "dataConfidencePct": 14,
                 "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
                 "edgeTeam": null,
                 "edgeStrength": "DATA LIMITED",
@@ -45575,8 +45560,7 @@
                     "Powerplay baseline: 47.1 runs / 1.60 wickets",
                     "Two-way venue: 47.7% chasing wins",
                     "Overs 7-14 wicket pressure: 4.04 wickets/match",
-                    "16th-over baseline: 8.8 runs; wicket in 32.2% of sampled innings",
-                    "Weather: rain 0%, dew LOW"
+                    "16th-over baseline: 8.8 runs; wicket in 32.2% of sampled innings"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -45715,19 +45699,11 @@
                 "recent": []
             },
             "weather": {
-                "status": "OK",
-                "local_time": "2026-10-13T18:00:00+02:00",
-                "temperature_c": 25.2,
-                "humidity_pct": 15,
-                "dew_point_c": -3.4,
-                "rain_probability_pct": 0,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 9.5,
-                "dew_risk": "LOW",
-                "rain_risk": "LOW"
+                "status": "UNKNOWN",
+                "reason": "No hourly forecast returned"
             },
-            "weatherText": "25.2°C | RH 15% | Rain 0% | Wind 9.5 km/h",
-            "dewRisk": "LOW",
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
             "tossBias": "47.66% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "47.12",
@@ -45741,7 +45717,7 @@
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.04/match",
             "metricSources": {
                 "fixture": "Cricbuzz via text relay",
-                "weather": "Open-Meteo match-hour forecast",
+                "weather": "Open-Meteo unavailable/UNKNOWN",
                 "tossBias": "Cricsheet venue T20 history (n=113)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=113)",
                 "over16": "Cricsheet 16th-over history (n=199)",
@@ -45772,6 +45748,7 @@
             "spinClassificationPct": 5.01,
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
+                "WEATHER DATA UNKNOWN",
                 "LIMITED RECENT T20 DATA FOR Border"
             ],
             "warnings": [
