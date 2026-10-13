@@ -1315,5 +1315,22 @@
       ],
       "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
     }
+  },
+  "23c140b5-eebc-4cb1-af1e-ddb885335b30": {
+    "cachedAt": "2026-10-13T00:56:53.001657+00:00",
+    "data": {
+      "id": "23c140b5-eebc-4cb1-af1e-ddb885335b30",
+      "name": "Tasmania vs Victoria, 4th Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 19, 23:30 GMT",
+      "venue": "Bellerive Oval, Hobart",
+      "date": "2026-10-19",
+      "dateTimeGMT": "2026-10-19T23:30:00",
+      "teams": [
+        "Tasmania",
+        "Victoria"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
   }
 }

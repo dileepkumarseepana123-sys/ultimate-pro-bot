@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-12T18:53:03.750354+00:00",
+    "last_updated": "2026-10-13T01:00:38.758962+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -22,10 +22,10 @@
         "cricscore_calls_this_run": 1,
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
-        "match_info_calls_this_run": 0,
+        "match_info_calls_this_run": 1,
         "match_info_cache_hits_this_run": 64,
-        "match_info_enriched_rows": 64,
-        "match_info_cache_size": 78,
+        "match_info_enriched_rows": 65,
+        "match_info_cache_size": 79,
         "max_match_info_lookups_per_run": 8,
         "squad_calls_this_run": 0,
         "squad_cache_hits_this_run": 0,
@@ -33,10 +33,11 @@
         "endpoint_calls_this_run": {
             "cricScore": 1,
             "currentMatches": 1,
+            "match_info": 1,
             "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 4,
+        "hits_today_reported": 9,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -69,7 +70,7 @@
         "current_matches_rows": 25,
         "current_matches_t20_rows": 4,
         "current_matches_today_t20_rows": 0,
-        "cricscore_rows": 66,
+        "cricscore_rows": 67,
         "cricscore_t20_rows": 13,
         "cricscore_today_t20_rows": 1,
         "cricketdata_rows": 50,
@@ -132,14 +133,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 57.6,
+            "swingScore": 64.3,
             "strategyLabel": "INSUFFICIENT DATA",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 33,
                 "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 57.6,
+                "swingScore": 64.3,
                 "strategyLabel": "INSUFFICIENT DATA",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -166,14 +167,14 @@
                     "sourceLimitations": [],
                     "majorTeamAsymmetryProxyUsed": false
                 },
-                "swingCatalysts": [],
-                "swingPenalties": [
-                    "High dew may create strong chase-side bias"
+                "swingCatalysts": [
+                    "Medium dew can change second-innings conditions"
                 ],
+                "swingPenalties": [],
                 "scoreComponents": [
                     {
                         "name": "weather",
-                        "score": 60.0,
+                        "score": 90.0,
                         "weight": 0.1
                     },
                     {
@@ -207,7 +208,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 37%, dew HIGH"
+                    "Weather: rain 37%, dew MEDIUM"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -346,17 +347,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T18:00:00+05:00",
-                "temperature_c": 21.1,
-                "humidity_pct": 85,
+                "temperature_c": 21.0,
+                "humidity_pct": 86,
                 "dew_point_c": 18.5,
                 "rain_probability_pct": 37,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 4.8,
-                "dew_risk": "HIGH",
+                "precipitation_mm": 0.0,
+                "wind_kmh": 8.9,
+                "dew_risk": "MEDIUM",
                 "rain_risk": "MEDIUM"
             },
-            "weatherText": "21.1°C | RH 85% | Rain 37% | Wind 4.8 km/h",
-            "dewRisk": "HIGH",
+            "weatherText": "21.0°C | RH 86% | Rain 37% | Wind 8.9 km/h",
+            "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "UNKNOWN",
@@ -388,12 +389,12 @@
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
-                "HIGH DEW RISK",
                 "LIMITED RECENT T20 DATA FOR Sri Lanka,3rd T20I Rawalpindi Cricket Stadium , Rawalpindi"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
@@ -909,16 +910,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T20:00:00+05:00",
-                "temperature_c": 20.3,
-                "humidity_pct": 84,
-                "dew_point_c": 17.5,
+                "temperature_c": 20.4,
+                "humidity_pct": 81,
+                "dew_point_c": 17.1,
                 "rain_probability_pct": 10,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 5.1,
+                "wind_kmh": 4.8,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "20.3°C | RH 84% | Rain 10% | Wind 5.1 km/h",
+            "weatherText": "20.4°C | RH 81% | Rain 10% | Wind 4.8 km/h",
             "dewRisk": "HIGH",
             "tossBias": "52.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -1401,16 +1402,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T18:00:00+02:00",
-                "temperature_c": 24.7,
-                "humidity_pct": 45,
-                "dew_point_c": 12.0,
+                "temperature_c": 24.6,
+                "humidity_pct": 40,
+                "dew_point_c": 10.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.4,
+                "wind_kmh": 7.3,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "24.7°C | RH 45% | Rain 0% | Wind 2.4 km/h",
+            "weatherText": "24.6°C | RH 40% | Rain 0% | Wind 7.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "46.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -1746,15 +1747,15 @@
                 "status": "OK",
                 "local_time": "2026-10-13T18:00:00+02:00",
                 "temperature_c": 26.2,
-                "humidity_pct": 12,
-                "dew_point_c": -5.6,
+                "humidity_pct": 13,
+                "dew_point_c": -4.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 12.0,
+                "wind_kmh": 11.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.2°C | RH 12% | Rain 0% | Wind 12.0 km/h",
+            "weatherText": "26.2°C | RH 13% | Rain 0% | Wind 11.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "47.66% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -1999,16 +2000,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T13:00:00+02:00",
-                "temperature_c": 22.3,
-                "humidity_pct": 55,
-                "dew_point_c": 12.9,
+                "temperature_c": 26.6,
+                "humidity_pct": 37,
+                "dew_point_c": 10.7,
                 "rain_probability_pct": 53,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 6.3,
+                "wind_kmh": 7.5,
                 "dew_risk": "LOW",
                 "rain_risk": "MEDIUM"
             },
-            "weatherText": "22.3°C | RH 55% | Rain 53% | Wind 6.3 km/h",
+            "weatherText": "26.6°C | RH 37% | Rain 53% | Wind 7.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "45.45% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -2561,16 +2562,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T14:30:00+11:00",
-                "temperature_c": 19.2,
-                "humidity_pct": 84,
-                "dew_point_c": 16.3,
+                "temperature_c": 19.3,
+                "humidity_pct": 82,
+                "dew_point_c": 16.2,
                 "rain_probability_pct": 96,
-                "precipitation_mm": 0.6,
-                "wind_kmh": 15.8,
+                "precipitation_mm": 0.3,
+                "wind_kmh": 21.9,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "19.2°C | RH 84% | Rain 96% | Wind 15.8 km/h",
+            "weatherText": "19.3°C | RH 82% | Rain 96% | Wind 21.9 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -3110,16 +3111,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T19:00:00+11:00",
-                "temperature_c": 17.2,
-                "humidity_pct": 85,
-                "dew_point_c": 14.7,
+                "temperature_c": 17.5,
+                "humidity_pct": 79,
+                "dew_point_c": 13.9,
                 "rain_probability_pct": 80,
-                "precipitation_mm": 0.6,
-                "wind_kmh": 16.8,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 20.6,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "17.2°C | RH 85% | Rain 80% | Wind 16.8 km/h",
+            "weatherText": "17.5°C | RH 79% | Rain 80% | Wind 20.6 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -3436,16 +3437,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-13T13:00:00+02:00",
-                "temperature_c": 27.8,
-                "humidity_pct": 54,
-                "dew_point_c": 17.6,
+                "temperature_c": 29.5,
+                "humidity_pct": 46,
+                "dew_point_c": 16.7,
                 "rain_probability_pct": 1,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 18.3,
+                "wind_kmh": 12.5,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.8°C | RH 54% | Rain 1% | Wind 18.3 km/h",
+            "weatherText": "29.5°C | RH 46% | Rain 1% | Wind 12.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
