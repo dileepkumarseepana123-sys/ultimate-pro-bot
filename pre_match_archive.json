@@ -46081,7 +46081,7 @@
         }
     },
     "bahrain|qatar|2026-10-14": {
-        "capturedAt": "2026-10-14T01:14:12.099682+00:00",
+        "capturedAt": "2026-10-14T07:16:28.657947+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Bahrain",
@@ -46099,7 +46099,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173833/bhr-vs-qat-20th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
             "cricketDataMatchId": "46cf1f9f-e741-423a-bfe9-98dd14921252",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 14, 01:15 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -46684,11 +46684,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "mongolia|myanmar|2026-10-14": {
-        "capturedAt": "2026-10-14T01:14:12.099719+00:00",
+        "capturedAt": "2026-10-14T07:16:28.657956+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Myanmar",
@@ -46706,7 +46707,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173827/mmr-vs-mgl-19th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
             "cricketDataMatchId": "d98080ac-a5a9-4236-92b7-3e694ef1e8b2",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 14, 01:15 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -47177,11 +47178,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Myanmar has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Myanmar has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "china|malaysia|2026-10-14": {
-        "capturedAt": "2026-10-14T01:14:12.099741+00:00",
+        "capturedAt": "2026-10-14T07:16:28.657964+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Malaysia",
@@ -47199,7 +47201,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173927/mly-vs-chn-13th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
             "cricketDataMatchId": "35d090cb-44f4-4696-a76c-3a6d5f18bafb",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 14, 01:15 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -47687,11 +47689,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Malaysia has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Malaysia has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "melbourne renegades women|melbourne stars women|2026-10-14": {
-        "capturedAt": "2026-10-14T01:14:12.099763+00:00",
+        "capturedAt": "2026-10-14T07:16:28.657976+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Melbourne Renegades Women",
@@ -47709,7 +47712,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/167990/mlrw-vs-mlsw-8th-match-t20-spring-challenge-2026",
             "cricketDataMatchId": "689d96f3-42ba-4ab3-a41f-357b2edcf122",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 14, 03:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -48234,7 +48237,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "maldives|saudi arabia|2026-10-14": {
@@ -49301,25 +49305,25 @@
         }
     },
     "adelaide strikers women|hobart hurricanes women|2026-10-14": {
-        "capturedAt": "2026-10-14T01:14:12.099834+00:00",
+        "capturedAt": "2026-10-14T07:16:28.657812+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Adelaide Strikers Women",
             "teamB": "Hobart Hurricanes Women",
-            "name": "Adelaide Strikers Women vs Hobart Hurricanes Women",
+            "name": "Adelaide Strikers Women vs Hobart Hurricanes Women,9th Match Bankstown Oval , Sydney",
             "matchType": "T20",
-            "venue": "Bankstown Oval, Sydney",
-            "dateTimeGMT": "2026-10-14T08:00:00",
+            "venue": "Bankstown Oval , Sydney",
+            "dateTimeGMT": "2026-10-14T08:00:00+00:00",
             "sourceDate": "2026-10-14",
             "matchTimeIST": "2026-10-14T13:30:00+05:30",
             "indiaDate": "2026-10-14",
             "series": "T20 Spring Challenge 2026",
-            "sourceName": "CricketData cricScore + match_info",
-            "supplementalSourceName": "Cricbuzz via text relay",
+            "sourceName": "Cricbuzz via text relay",
+            "supplementalSourceName": null,
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/168000/adsw-vs-hbhw-9th-match-t20-spring-challenge-2026",
-            "cricketDataMatchId": "f3064046-a1c8-458f-996e-0dbaa34531e7",
+            "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 14, 08:00 GMT",
+            "sourceStatus": "Scheduled",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -49543,12 +49547,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "No squad data"
+                "source": "Not queried"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "No squad data"
+                "source": "Not queried"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -49560,7 +49564,7 @@
                 "edgeScore": -1.5,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 0%, dew LOW"
+                    "Weather: rain 2%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Adelaide Strikers Women 1544.2 vs Hobart Hurricanes Women 1525.0",
@@ -49799,13 +49803,13 @@
                 "temperature_c": 14.8,
                 "humidity_pct": 69,
                 "dew_point_c": 9.1,
-                "rain_probability_pct": 0,
+                "rain_probability_pct": 2,
                 "precipitation_mm": 0.0,
                 "wind_kmh": 20.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "14.8°C | RH 69% | Rain 0% | Wind 20.6 km/h",
+            "weatherText": "14.8°C | RH 69% | Rain 2% | Wind 20.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -49819,7 +49823,7 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "UNKNOWN",
             "metricSources": {
-                "fixture": "CricketData cricScore + match_info",
+                "fixture": "Cricbuzz via text relay",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
                 "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
@@ -49840,6 +49844,7 @@
                 "NO DATA / UNKNOWN VENUE"
             ],
             "warnings": [
+                "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
@@ -49848,7 +49853,7 @@
         }
     },
     "australia champions|england champions|2026-10-14": {
-        "capturedAt": "2026-10-14T01:14:12.099857+00:00",
+        "capturedAt": "2026-10-14T07:16:28.657986+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "England Champions",
@@ -49866,7 +49871,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "958157b7-5456-4800-986d-710d6d1ef997",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 14, 11:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -50098,7 +50103,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "bangladesh champions|south africa champions sac|2026-10-14": {
@@ -50856,7 +50862,7 @@
         }
     },
     "india|west indies 4th t20i rajiv gandhi international stadium hyderabad|2026-10-14": {
-        "capturedAt": "2026-10-14T01:14:12.099907+00:00",
+        "capturedAt": "2026-10-14T07:16:28.657875+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "India",
@@ -51171,7 +51177,7 @@
         }
     },
     "eastern storm|knights|2026-10-14": {
-        "capturedAt": "2026-10-14T01:14:12.099921+00:00",
+        "capturedAt": "2026-10-14T07:16:28.657898+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Knights",
@@ -51310,7 +51316,7 @@
                     "Defend-lean venue: 38.5% chasing wins",
                     "Overs 7-14 wicket pressure: 3.64 wickets/match",
                     "16th-over baseline: 8.8 runs; wicket in 20.8% of sampled innings",
-                    "Weather: rain 16%, dew LOW"
+                    "Weather: rain 20%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -51454,13 +51460,13 @@
                 "temperature_c": 19.9,
                 "humidity_pct": 64,
                 "dew_point_c": 12.8,
-                "rain_probability_pct": 16,
+                "rain_probability_pct": 20,
                 "precipitation_mm": 0.1,
                 "wind_kmh": 14.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "19.9°C | RH 64% | Rain 16% | Wind 14.8 km/h",
+            "weatherText": "19.9°C | RH 64% | Rain 20% | Wind 14.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "38.46% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -51518,7 +51524,7 @@
         }
     },
     "boland|western province|2026-10-14": {
-        "capturedAt": "2026-10-14T01:14:12.099947+00:00",
+        "capturedAt": "2026-10-14T07:16:28.657919+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Western Province",
