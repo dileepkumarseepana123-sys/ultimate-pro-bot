@@ -2,8 +2,8 @@
     "last_updated": "2026-10-14T11:01:25.146646+00:00",
     "scanner_status": {
         "state": "OK",
-        "stale": false,
-        "message": "Fresh scan completed."
+        "stale": true,
+        "message": "Fresh scan completed. Preserving earlier same-day report."
     },
     "source": {
         "primary": "CricketData cricScore + currentMatches + cached match_info",
@@ -34,7 +34,7 @@
             "cricScore": 1
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 106,
+        "hits_today_reported": 107,
         "hits_limit_reported": 100,
         "quota_exhausted": true,
         "api_last_error": "hits today exceeded hits limit"
@@ -10332,5 +10332,28 @@
             "strategyText": "Hong Kong, China has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
             "archivedOnly": true
         }
-    ]
+    ],
+    "last_checked": "2026-10-14T13:11:03.072625+00:00",
+    "discovery_last_attempt": {
+        "live_text_relay_rows": 0,
+        "schedule_text_relay_rows": 0,
+        "text_relay_rows": 0,
+        "text_relay_t20_rows": 0,
+        "text_relay_today_t20_rows": 0,
+        "text_relay_match_url_rows": 0,
+        "text_relay_time_enriched_rows": 0,
+        "final_reports_with_known_time": 12,
+        "final_reports_with_weather": 12,
+        "current_matches_rows": 0,
+        "current_matches_t20_rows": 0,
+        "current_matches_today_t20_rows": 0,
+        "cricscore_rows": 0,
+        "cricscore_t20_rows": 0,
+        "cricscore_today_t20_rows": 0,
+        "cricketdata_rows": 0,
+        "cricketdata_t20_rows": 0,
+        "cricketdata_today_t20_rows": 0,
+        "merged_candidates": 0,
+        "final_reports": 12
+    }
 }

@@ -46081,7 +46081,7 @@
         }
     },
     "bahrain|qatar|2026-10-14": {
-        "capturedAt": "2026-10-14T11:01:25.110013+00:00",
+        "capturedAt": "2026-10-14T13:11:03.012891+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Bahrain",
@@ -46689,7 +46689,7 @@
         }
     },
     "mongolia|myanmar|2026-10-14": {
-        "capturedAt": "2026-10-14T11:01:25.110018+00:00",
+        "capturedAt": "2026-10-14T13:11:03.012911+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Myanmar",
@@ -47183,7 +47183,7 @@
         }
     },
     "china|malaysia|2026-10-14": {
-        "capturedAt": "2026-10-14T11:01:25.110024+00:00",
+        "capturedAt": "2026-10-14T13:11:03.012920+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Malaysia",
@@ -47694,7 +47694,7 @@
         }
     },
     "melbourne renegades women|melbourne stars women|2026-10-14": {
-        "capturedAt": "2026-10-14T11:01:25.110030+00:00",
+        "capturedAt": "2026-10-14T13:11:03.012932+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Melbourne Renegades Women",
@@ -48242,7 +48242,7 @@
         }
     },
     "maldives|saudi arabia|2026-10-14": {
-        "capturedAt": "2026-10-14T11:01:25.110035+00:00",
+        "capturedAt": "2026-10-14T13:11:03.012942+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Maldives",
@@ -48750,7 +48750,7 @@
         }
     },
     "bhutan|thailand|2026-10-14": {
-        "capturedAt": "2026-10-14T11:01:25.110046+00:00",
+        "capturedAt": "2026-10-14T13:11:03.012950+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Bhutan",
@@ -49307,7 +49307,7 @@
         }
     },
     "adelaide strikers women|hobart hurricanes women|2026-10-14": {
-        "capturedAt": "2026-10-14T07:16:28.657812+00:00",
+        "capturedAt": "2026-10-14T13:11:03.012962+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Adelaide Strikers Women",
@@ -49325,7 +49325,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/168000/adsw-vs-hbhw-9th-match-t20-spring-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -49851,11 +49851,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Hobart Hurricanes Women has a slight edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "Hobart Hurricanes Women has a slight edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "australia champions|england champions|2026-10-14": {
-        "capturedAt": "2026-10-14T11:01:25.110051+00:00",
+        "capturedAt": "2026-10-14T13:11:03.012974+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "England Champions",
@@ -50318,7 +50319,7 @@
         }
     },
     "hong kong china|singapore|2026-10-14": {
-        "capturedAt": "2026-10-14T11:01:25.110057+00:00",
+        "capturedAt": "2026-10-14T13:11:03.012984+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Hong Kong, China",
@@ -50865,7 +50866,7 @@
         }
     },
     "india|west indies 4th t20i rajiv gandhi international stadium hyderabad|2026-10-14": {
-        "capturedAt": "2026-10-14T11:01:25.109947+00:00",
+        "capturedAt": "2026-10-14T13:11:03.012998+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "India",
@@ -50883,7 +50884,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/151598/ind-vs-wi-4th-t20i-west-indies-tour-of-india-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -51176,11 +51177,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "eastern storm|knights|2026-10-14": {
-        "capturedAt": "2026-10-14T11:01:25.109974+00:00",
+        "capturedAt": "2026-10-14T13:11:03.013006+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Knights",
@@ -51198,7 +51200,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173367/kng-vs-estorm-pool-b-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -51523,11 +51525,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "boland|western province|2026-10-14": {
-        "capturedAt": "2026-10-14T11:01:25.109993+00:00",
+        "capturedAt": "2026-10-14T13:11:03.013015+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Western Province",
@@ -51545,7 +51548,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173351/wpr-vs-bol-pool-b-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -52017,7 +52020,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Boland has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Boland has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "bangladesh champions|south africa champions|2026-10-14": {
