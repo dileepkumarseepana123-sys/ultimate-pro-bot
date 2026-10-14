@@ -2005,5 +2005,141 @@
       ],
       "series_id": "cb353b0b-1247-40d0-af72-40237829dcd9"
     }
+  },
+  "8068c292-3042-402b-a53f-76ddc54d9785": {
+    "cachedAt": "2026-10-14T19:07:37.749553+00:00",
+    "data": {
+      "id": "8068c292-3042-402b-a53f-76ddc54d9785",
+      "name": "Oman vs Canada, 137th Match, ICC Cricket World Cup League Two 2023-27",
+      "matchType": "odi",
+      "status": "Match starts at Oct 15, 06:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 1), Al Amerat",
+      "date": "2026-10-15",
+      "dateTimeGMT": "2026-10-15T06:00:00",
+      "teams": [
+        "Oman",
+        "Canada"
+      ],
+      "series_id": "7ac098a3-5d70-4c81-8e81-199edbeffc29"
+    }
+  },
+  "11ddbc43-2ade-4d46-8ecc-f5f63f915996": {
+    "cachedAt": "2026-10-14T19:07:37.903614+00:00",
+    "data": {
+      "id": "11ddbc43-2ade-4d46-8ecc-f5f63f915996",
+      "name": "Oman vs Canada, 131st Match, ICC Cricket World Cup League Two 2023-27",
+      "matchType": "odi",
+      "status": "Oman won by 41 runs",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 1), Al Amerat",
+      "date": "2026-10-09",
+      "dateTimeGMT": "2026-10-09T00:00:00",
+      "teams": [
+        "Oman",
+        "Canada"
+      ],
+      "series_id": "7ac098a3-5d70-4c81-8e81-199edbeffc29"
+    }
+  },
+  "6eb043eb-ff5c-4a52-aa74-7227f91d3507": {
+    "cachedAt": "2026-10-14T19:07:38.057518+00:00",
+    "data": {
+      "id": "6eb043eb-ff5c-4a52-aa74-7227f91d3507",
+      "name": "Namibia vs United Arab Emirates, 132nd Match, ICC Cricket World Cup League Two 2023-27",
+      "matchType": "odi",
+      "status": "Namibia won by 8 wkts",
+      "venue": "Grand Prairie Stadium, Dallas",
+      "date": "2026-10-09",
+      "dateTimeGMT": "2026-10-09T00:00:00",
+      "teams": [
+        "Namibia",
+        "United Arab Emirates"
+      ],
+      "series_id": "7ac098a3-5d70-4c81-8e81-199edbeffc29"
+    }
+  },
+  "474a0cdb-2853-4d99-8910-d9612b7ccb22": {
+    "cachedAt": "2026-10-14T19:07:38.218232+00:00",
+    "data": {
+      "id": "474a0cdb-2853-4d99-8910-d9612b7ccb22",
+      "name": "United States of America vs United Arab Emirates, 134th Match, ICC Cricket World Cup League Two 2023-27",
+      "matchType": "odi",
+      "status": "United States of America won by 5 wkts",
+      "venue": "Grand Prairie Stadium, Dallas",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T00:00:00",
+      "teams": [
+        "United States of America",
+        "United Arab Emirates"
+      ],
+      "series_id": "7ac098a3-5d70-4c81-8e81-199edbeffc29"
+    }
+  },
+  "69b260c0-59c9-40c1-8e96-ba5dc15163db": {
+    "cachedAt": "2026-10-14T19:07:38.371692+00:00",
+    "data": {
+      "id": "69b260c0-59c9-40c1-8e96-ba5dc15163db",
+      "name": "Nepal vs Canada, 133rd Match, ICC Cricket World Cup League Two 2023-27",
+      "matchType": "odi",
+      "status": "Nepal won by 24 runs",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 1), Al Amerat",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T00:00:00",
+      "teams": [
+        "Nepal",
+        "Canada"
+      ],
+      "series_id": "7ac098a3-5d70-4c81-8e81-199edbeffc29"
+    }
+  },
+  "7896b60c-6f71-40ad-ad18-1521bb2f3475": {
+    "cachedAt": "2026-10-14T19:07:38.528095+00:00",
+    "data": {
+      "id": "7896b60c-6f71-40ad-ad18-1521bb2f3475",
+      "name": "Kuwait vs Myanmar, 13th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Kuwait won by 9 wkts",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T00:00:00",
+      "teams": [
+        "Kuwait",
+        "Myanmar"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
+  },
+  "c34a6e41-5c7b-4b12-9b02-fb5de09dc259": {
+    "cachedAt": "2026-10-14T19:07:38.682989+00:00",
+    "data": {
+      "id": "c34a6e41-5c7b-4b12-9b02-fb5de09dc259",
+      "name": "China vs Saudi Arabia, 12th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier B 2026",
+      "matchType": "t20",
+      "status": "Saudi Arabia won by 64 runs (10 Overs game due to rain)",
+      "venue": "Selangor Turf Club, Kuala Lumpur",
+      "date": "2026-10-12",
+      "dateTimeGMT": "2026-10-12T00:00:00",
+      "teams": [
+        "China",
+        "Saudi Arabia"
+      ],
+      "series_id": "cb353b0b-1247-40d0-af72-40237829dcd9"
+    }
+  },
+  "fa28c185-4024-4a76-a479-df72158ccff3": {
+    "cachedAt": "2026-10-14T19:07:38.838318+00:00",
+    "data": {
+      "id": "fa28c185-4024-4a76-a479-df72158ccff3",
+      "name": "Victoria vs South Australia, 7th Match, Australia Domestic One-Day Cup 2026-27",
+      "matchType": "odi",
+      "status": "South Australia won by 70 runs",
+      "venue": "Junction Oval, Melbourne",
+      "date": "2026-10-12",
+      "dateTimeGMT": "2026-10-12T00:00:00",
+      "teams": [
+        "Victoria",
+        "South Australia"
+      ],
+      "series_id": "54464f6f-3be4-4730-9ba7-cf77ce0a9ad8"
+    }
   }
 }
