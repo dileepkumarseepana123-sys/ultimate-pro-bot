@@ -1869,5 +1869,141 @@
       ],
       "series_id": "67b36c31-9495-441c-aece-96f7c3af44f7"
     }
+  },
+  "c28bfd05-81dd-46d6-9873-b094df319ef3": {
+    "cachedAt": "2026-10-14T01:09:32.097890+00:00",
+    "data": {
+      "id": "c28bfd05-81dd-46d6-9873-b094df319ef3",
+      "name": "Australia Women vs Bangladesh Women, 3rd ODI, Bangladesh Women tour of Australia, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 14, 03:50 GMT",
+      "venue": "Allan Border Field, Brisbane",
+      "date": "2026-10-14",
+      "dateTimeGMT": "2026-10-14T03:50:00",
+      "teams": [
+        "Australia Women",
+        "Bangladesh Women"
+      ],
+      "series_id": "4d3b12d1-2699-4b19-873f-144719dc9bc7"
+    }
+  },
+  "3ae018c2-b25e-4363-ad48-d6a63ba44b52": {
+    "cachedAt": "2026-10-14T01:09:32.274925+00:00",
+    "data": {
+      "id": "3ae018c2-b25e-4363-ad48-d6a63ba44b52",
+      "name": "Bangladesh Champions vs South Africa Champions, 17th Match, World Championship of Legends 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 14, 15:30 GMT",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-10-14",
+      "dateTimeGMT": "2026-10-14T15:30:00",
+      "teams": [
+        "Bangladesh Champions",
+        "South Africa Champions"
+      ],
+      "series_id": "67b36c31-9495-441c-aece-96f7c3af44f7"
+    }
+  },
+  "3fc2f16c-27d3-4692-9a3c-55a554a73235": {
+    "cachedAt": "2026-10-14T01:09:32.450026+00:00",
+    "data": {
+      "id": "3fc2f16c-27d3-4692-9a3c-55a554a73235",
+      "name": "Australia Women vs Bangladesh Women, 1st ODI, Bangladesh Women tour of Australia, 2026",
+      "matchType": "odi",
+      "status": "Australia Women won by 7 wkts",
+      "venue": "Allan Border Field, Brisbane",
+      "date": "2026-10-09",
+      "dateTimeGMT": "2026-10-09T00:00:00",
+      "teams": [
+        "Australia Women",
+        "Bangladesh Women"
+      ],
+      "series_id": "4d3b12d1-2699-4b19-873f-144719dc9bc7"
+    }
+  },
+  "5e6bd6d6-3505-4cf0-9798-9ef6332c3e23": {
+    "cachedAt": "2026-10-14T01:09:32.627554+00:00",
+    "data": {
+      "id": "5e6bd6d6-3505-4cf0-9798-9ef6332c3e23",
+      "name": "Australia Women vs Bangladesh Women, 2nd ODI, Bangladesh Women tour of Australia, 2026",
+      "matchType": "odi",
+      "status": "Australia Women won by 9 wkts",
+      "venue": "Allan Border Field, Brisbane",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T00:00:00",
+      "teams": [
+        "Australia Women",
+        "Bangladesh Women"
+      ],
+      "series_id": "4d3b12d1-2699-4b19-873f-144719dc9bc7"
+    }
+  },
+  "fbc6cefe-95bc-402c-923c-533a51650fc5": {
+    "cachedAt": "2026-10-14T01:09:32.802901+00:00",
+    "data": {
+      "id": "fbc6cefe-95bc-402c-923c-533a51650fc5",
+      "name": "Australia Champions vs West Indies Champions, 12th Match, World Championship of Legends 2026",
+      "matchType": "t20",
+      "status": "Australia Champions won by 36 runs",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T00:00:00",
+      "teams": [
+        "Australia Champions",
+        "West Indies Champions"
+      ],
+      "series_id": "67b36c31-9495-441c-aece-96f7c3af44f7"
+    }
+  },
+  "6555d19f-1ffb-4f91-890d-2919fe262238": {
+    "cachedAt": "2026-10-14T01:09:32.979972+00:00",
+    "data": {
+      "id": "6555d19f-1ffb-4f91-890d-2919fe262238",
+      "name": "Bhutan vs Qatar, 14th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Qatar won by 9 wkts",
+      "venue": "YSD-UKM Cricket Oval, Bangi",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T00:00:00",
+      "teams": [
+        "Bhutan",
+        "Qatar"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
+  },
+  "e99855fe-6ed0-4448-8af0-2913749fddf3": {
+    "cachedAt": "2026-10-14T01:09:33.154610+00:00",
+    "data": {
+      "id": "e99855fe-6ed0-4448-8af0-2913749fddf3",
+      "name": "India Champions vs Bangladesh Champions, 13th Match, World Championship of Legends 2026",
+      "matchType": "t20",
+      "status": "Bangladesh Champions won by 3 runs",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T00:00:00",
+      "teams": [
+        "India Champions",
+        "Bangladesh Champions"
+      ],
+      "series_id": "67b36c31-9495-441c-aece-96f7c3af44f7"
+    }
+  },
+  "7e70cc14-6118-45b7-a083-22851e1ad9c6": {
+    "cachedAt": "2026-10-14T01:09:33.333444+00:00",
+    "data": {
+      "id": "7e70cc14-6118-45b7-a083-22851e1ad9c6",
+      "name": "China vs Singapore, 9th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier B 2026",
+      "matchType": "t20",
+      "status": "Singapore won by 50 runs",
+      "venue": "Selangor Turf Club, Kuala Lumpur",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T00:00:00",
+      "teams": [
+        "China",
+        "Singapore"
+      ],
+      "series_id": "cb353b0b-1247-40d0-af72-40237829dcd9"
+    }
   }
 }
