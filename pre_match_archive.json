@@ -46081,7 +46081,7 @@
         }
     },
     "bahrain|qatar|2026-10-14": {
-        "capturedAt": "2026-10-14T07:16:28.657947+00:00",
+        "capturedAt": "2026-10-14T11:01:25.110013+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Bahrain",
@@ -46689,7 +46689,7 @@
         }
     },
     "mongolia|myanmar|2026-10-14": {
-        "capturedAt": "2026-10-14T07:16:28.657956+00:00",
+        "capturedAt": "2026-10-14T11:01:25.110018+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Myanmar",
@@ -47183,7 +47183,7 @@
         }
     },
     "china|malaysia|2026-10-14": {
-        "capturedAt": "2026-10-14T07:16:28.657964+00:00",
+        "capturedAt": "2026-10-14T11:01:25.110024+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Malaysia",
@@ -47694,7 +47694,7 @@
         }
     },
     "melbourne renegades women|melbourne stars women|2026-10-14": {
-        "capturedAt": "2026-10-14T07:16:28.657976+00:00",
+        "capturedAt": "2026-10-14T11:01:25.110030+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Melbourne Renegades Women",
@@ -48242,7 +48242,7 @@
         }
     },
     "maldives|saudi arabia|2026-10-14": {
-        "capturedAt": "2026-10-14T01:14:12.099787+00:00",
+        "capturedAt": "2026-10-14T11:01:25.110035+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Maldives",
@@ -48260,7 +48260,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173937/mdv-vs-sau-15th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
             "cricketDataMatchId": "982c7933-f9bf-48e2-9cdc-e98c5109f006",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 14, 06:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -48745,11 +48745,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Saudi Arabia has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Saudi Arabia has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "bhutan|thailand|2026-10-14": {
-        "capturedAt": "2026-10-14T01:14:12.099809+00:00",
+        "capturedAt": "2026-10-14T11:01:25.110046+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Bhutan",
@@ -48767,7 +48768,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173837/btn-vs-thai-21st-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-a-2026",
             "cricketDataMatchId": "e982aea2-1238-448c-9005-1cd04642693f",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 14, 06:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -49301,7 +49302,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Bhutan has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Bhutan has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "adelaide strikers women|hobart hurricanes women|2026-10-14": {
@@ -49853,7 +49855,7 @@
         }
     },
     "australia champions|england champions|2026-10-14": {
-        "capturedAt": "2026-10-14T07:16:28.657986+00:00",
+        "capturedAt": "2026-10-14T11:01:25.110051+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "England Champions",
@@ -50316,7 +50318,7 @@
         }
     },
     "hong kong china|singapore|2026-10-14": {
-        "capturedAt": "2026-10-14T01:14:12.099880+00:00",
+        "capturedAt": "2026-10-14T11:01:25.110057+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Hong Kong, China",
@@ -50334,7 +50336,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173933/hkc-vs-sin-14th-match-icc-mens-t20-world-cup-asia-sub-regional-qualifier-b-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -50858,11 +50860,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Hong Kong, China has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Hong Kong, China has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "india|west indies 4th t20i rajiv gandhi international stadium hyderabad|2026-10-14": {
-        "capturedAt": "2026-10-14T07:16:28.657875+00:00",
+        "capturedAt": "2026-10-14T11:01:25.109947+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "India",
@@ -51123,16 +51126,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-14T19:00:00+05:30",
-                "temperature_c": 29.1,
+                "temperature_c": 29.3,
                 "humidity_pct": 44,
-                "dew_point_c": 15.8,
+                "dew_point_c": 15.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 12.0,
+                "wind_kmh": 12.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.1°C | RH 44% | Rain 0% | Wind 12.0 km/h",
+            "weatherText": "29.3°C | RH 44% | Rain 0% | Wind 12.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -51177,7 +51180,7 @@
         }
     },
     "eastern storm|knights|2026-10-14": {
-        "capturedAt": "2026-10-14T07:16:28.657898+00:00",
+        "capturedAt": "2026-10-14T11:01:25.109974+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Knights",
@@ -51457,16 +51460,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-14T18:00:00+02:00",
-                "temperature_c": 19.9,
-                "humidity_pct": 64,
-                "dew_point_c": 12.8,
+                "temperature_c": 21.4,
+                "humidity_pct": 51,
+                "dew_point_c": 10.9,
                 "rain_probability_pct": 20,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 14.8,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 11.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "19.9°C | RH 64% | Rain 20% | Wind 14.8 km/h",
+            "weatherText": "21.4°C | RH 51% | Rain 20% | Wind 11.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "38.46% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -51524,7 +51527,7 @@
         }
     },
     "boland|western province|2026-10-14": {
-        "capturedAt": "2026-10-14T07:16:28.657919+00:00",
+        "capturedAt": "2026-10-14T11:01:25.109993+00:00",
         "matchDate": "2026-10-14",
         "report": {
             "teamA": "Western Province",
@@ -51953,16 +51956,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-14T18:00:00+02:00",
-                "temperature_c": 15.7,
-                "humidity_pct": 66,
-                "dew_point_c": 9.3,
+                "temperature_c": 15.8,
+                "humidity_pct": 67,
+                "dew_point_c": 9.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
                 "wind_kmh": 18.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "15.7°C | RH 66% | Rain 0% | Wind 18.7 km/h",
+            "weatherText": "15.8°C | RH 67% | Rain 0% | Wind 18.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.06% Chasing Wins",
             "tossTrend": "Historical venue trend",
