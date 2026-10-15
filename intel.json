@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-15T07:15:56.811647+00:00",
+    "last_updated": "2026-10-15T11:00:32.226949+00:00",
     "scanner_status": {
         "state": "DISCOVERY_FILTERED",
         "stale": false,
@@ -23,9 +23,9 @@
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
         "match_info_calls_this_run": 8,
-        "match_info_cache_hits_this_run": 106,
-        "match_info_enriched_rows": 114,
-        "match_info_cache_size": 143,
+        "match_info_cache_hits_this_run": 114,
+        "match_info_enriched_rows": 122,
+        "match_info_cache_size": 151,
         "max_match_info_lookups_per_run": 8,
         "squad_calls_this_run": 0,
         "squad_cache_hits_this_run": 0,
@@ -37,7 +37,7 @@
             "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 36,
+        "hits_today_reported": 48,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -70,13 +70,13 @@
         "current_matches_rows": 25,
         "current_matches_t20_rows": 18,
         "current_matches_today_t20_rows": 0,
-        "cricscore_rows": 143,
-        "cricscore_t20_rows": 70,
+        "cricscore_rows": 147,
+        "cricscore_t20_rows": 72,
         "cricscore_today_t20_rows": 0,
         "cricketdata_rows": 50,
         "cricketdata_t20_rows": 3,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 73,
+        "merged_candidates": 75,
         "final_reports": 0
     },
     "summary": {

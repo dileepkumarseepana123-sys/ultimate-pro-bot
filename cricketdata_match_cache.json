@@ -2413,5 +2413,141 @@
       ],
       "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
     }
+  },
+  "cb919ac0-a0a4-4aec-8afd-7b0d2b2d558e": {
+    "cachedAt": "2026-10-15T10:59:51.131416+00:00",
+    "data": {
+      "id": "cb919ac0-a0a4-4aec-8afd-7b0d2b2d558e",
+      "name": "Canada vs Nepal, 132nd Match, ICC Cricket World Cup League Two 2023-27",
+      "matchType": "odi",
+      "status": "Match starts at Oct 17, 06:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 1), Al Amerat",
+      "date": "2026-10-17",
+      "dateTimeGMT": "2026-10-17T06:00:00",
+      "teams": [
+        "Canada",
+        "Nepal"
+      ],
+      "series_id": "7ac098a3-5d70-4c81-8e81-199edbeffc29"
+    }
+  },
+  "20822cbb-7fb1-4ba0-a975-b74bd2613bba": {
+    "cachedAt": "2026-10-15T10:59:51.270916+00:00",
+    "data": {
+      "id": "20822cbb-7fb1-4ba0-a975-b74bd2613bba",
+      "name": "Bangladesh vs Zimbabwe, 1st Match, ODI Tri-Nation Series in UAE, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 17, 12:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-10-17",
+      "dateTimeGMT": "2026-10-17T12:00:00",
+      "teams": [
+        "Bangladesh",
+        "Zimbabwe"
+      ],
+      "series_id": "477506b9-5775-4b68-923e-31b79cea03ca"
+    }
+  },
+  "b1d8353a-d38a-4bee-8b3c-d7a5900787a5": {
+    "cachedAt": "2026-10-15T10:59:51.412492+00:00",
+    "data": {
+      "id": "b1d8353a-d38a-4bee-8b3c-d7a5900787a5",
+      "name": "Hobart Hurricanes Women vs Perth Scorchers Women, 11th Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 17, 23:00 GMT",
+      "venue": "Blacktown International Sportspark, Sydney",
+      "date": "2026-10-17",
+      "dateTimeGMT": "2026-10-17T23:00:00",
+      "teams": [
+        "Hobart Hurricanes Women",
+        "Perth Scorchers Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "ca3ea10f-2148-4319-8461-7d3b90556a24": {
+    "cachedAt": "2026-10-15T10:59:51.554451+00:00",
+    "data": {
+      "id": "ca3ea10f-2148-4319-8461-7d3b90556a24",
+      "name": "Sydney Thunder Women vs Melbourne Renegades Women, 12th Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 17, 23:00 GMT",
+      "venue": "Blacktown Olympic Park No 2 Oval, Sydney",
+      "date": "2026-10-17",
+      "dateTimeGMT": "2026-10-17T23:00:00",
+      "teams": [
+        "Sydney Thunder Women",
+        "Melbourne Renegades Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "88327bcd-86b2-430f-b926-a8d2ae0afd29": {
+    "cachedAt": "2026-10-15T10:59:51.696161+00:00",
+    "data": {
+      "id": "88327bcd-86b2-430f-b926-a8d2ae0afd29",
+      "name": "South Australia vs Queensland, 10th Match, Australia Domestic One-Day Cup 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Oct 17, 23:30 GMT",
+      "venue": "Karen Rolton Oval, Adelaide, South Australia",
+      "date": "2026-10-17",
+      "dateTimeGMT": "2026-10-17T23:30:00",
+      "teams": [
+        "South Australia",
+        "Queensland"
+      ],
+      "series_id": "54464f6f-3be4-4730-9ba7-cf77ce0a9ad8"
+    }
+  },
+  "f9408470-d38d-4abf-81ed-712f5bb1b5df": {
+    "cachedAt": "2026-10-15T10:59:51.836674+00:00",
+    "data": {
+      "id": "f9408470-d38d-4abf-81ed-712f5bb1b5df",
+      "name": "Brisbane Heat Women vs Adelaide Strikers Women, 16th Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 18, 03:30 GMT",
+      "venue": "Blacktown Olympic Park No 2 Oval, Sydney",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T03:30:00",
+      "teams": [
+        "Brisbane Heat Women",
+        "Adelaide Strikers Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "05903d08-e78f-4ad8-b313-0b051277cbba": {
+    "cachedAt": "2026-10-15T10:59:51.979417+00:00",
+    "data": {
+      "id": "05903d08-e78f-4ad8-b313-0b051277cbba",
+      "name": "Sydney Thunder Women vs Perth Scorchers Women, 17th Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 18, 03:30 GMT",
+      "venue": "Blacktown International Sportspark, Sydney",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T03:30:00",
+      "teams": [
+        "Sydney Thunder Women",
+        "Perth Scorchers Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "8c040459-ed9f-4e4c-a16a-b75f38e769e2": {
+    "cachedAt": "2026-10-15T10:59:52.121863+00:00",
+    "data": {
+      "id": "8c040459-ed9f-4e4c-a16a-b75f38e769e2",
+      "name": "Sydney Sixers Women vs Melbourne Stars Women, 18th Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 18, 08:00 GMT",
+      "venue": "Blacktown International Sportspark, Sydney",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T08:00:00",
+      "teams": [
+        "Sydney Sixers Women",
+        "Melbourne Stars Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
   }
 }
