@@ -2821,5 +2821,107 @@
       ],
       "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
     }
+  },
+  "a3eae4af-9e3f-409a-8e8b-171343a7be67": {
+    "cachedAt": "2026-10-15T19:08:30.664738+00:00",
+    "data": {
+      "id": "a3eae4af-9e3f-409a-8e8b-171343a7be67",
+      "name": "Tbc vs West Indies, 3 Days Warm-up Match, West Indies tour of Bangladesh, 2026",
+      "matchType": "test",
+      "status": "Match starts at Oct 22, 03:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-22",
+      "dateTimeGMT": "2026-10-22T03:30:00",
+      "teams": [
+        "Tbc",
+        "West Indies"
+      ],
+      "series_id": "afc051fd-79b4-4635-8f3a-7cda1dd50f02"
+    }
+  },
+  "68be7da0-0e0a-4009-bca0-5a76dcc1d564": {
+    "cachedAt": "2026-10-15T19:08:30.842565+00:00",
+    "data": {
+      "id": "68be7da0-0e0a-4009-bca0-5a76dcc1d564",
+      "name": "New Zealand vs India, 1st T20I, India tour of New Zealand 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 22, 07:00 GMT",
+      "venue": "Hagley Oval, Christchurch",
+      "date": "2026-10-22",
+      "dateTimeGMT": "2026-10-22T07:00:00",
+      "teams": [
+        "New Zealand",
+        "India"
+      ],
+      "series_id": "9f0a2527-1508-42b3-9945-4ade13fd4b5a"
+    }
+  },
+  "98e35c6a-8155-4959-8df7-b4ac6fc4edfd": {
+    "cachedAt": "2026-10-15T19:08:31.021112+00:00",
+    "data": {
+      "id": "98e35c6a-8155-4959-8df7-b4ac6fc4edfd",
+      "name": "Namibia vs Ireland, 1st ODI, Ireland tour of Namibia, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 22, 08:00 GMT",
+      "venue": "High Performance Oval, Windhoek",
+      "date": "2026-10-22",
+      "dateTimeGMT": "2026-10-22T08:00:00",
+      "teams": [
+        "Namibia",
+        "Ireland"
+      ],
+      "series_id": "ac09b782-bac3-4861-971a-5559a4703507"
+    }
+  },
+  "374856f9-a78b-425b-b6db-10f190bb8eb6": {
+    "cachedAt": "2026-10-15T19:08:31.199129+00:00",
+    "data": {
+      "id": "374856f9-a78b-425b-b6db-10f190bb8eb6",
+      "name": "Sri Lanka vs England, 3rd Match, Pakistan ODI Tri-Series, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 22, 08:00 GMT",
+      "venue": "Rawalpindi Cricket Stadium, Rawalpindi",
+      "date": "2026-10-22",
+      "dateTimeGMT": "2026-10-22T08:00:00",
+      "teams": [
+        "Sri Lanka",
+        "England"
+      ],
+      "series_id": "4ae8cc66-cc9c-4e5f-b404-3bdc1e9a3a54"
+    }
+  },
+  "e9272c0c-de16-4bbd-93a2-cd93989f67f3": {
+    "cachedAt": "2026-10-15T19:08:31.376088+00:00",
+    "data": {
+      "id": "e9272c0c-de16-4bbd-93a2-cd93989f67f3",
+      "name": "Australia Women vs Bangladesh Women, 3rd T20I, Bangladesh Women tour of Australia, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 22, 08:15 GMT",
+      "venue": "North Sydney Oval, Sydney",
+      "date": "2026-10-22",
+      "dateTimeGMT": "2026-10-22T08:15:00",
+      "teams": [
+        "Australia Women",
+        "Bangladesh Women"
+      ],
+      "series_id": "4d3b12d1-2699-4b19-873f-144719dc9bc7"
+    }
+  },
+  "1e140eff-3d6d-4b62-bfcf-cd723dd26cd7": {
+    "cachedAt": "2026-10-15T19:08:31.552399+00:00",
+    "data": {
+      "id": "1e140eff-3d6d-4b62-bfcf-cd723dd26cd7",
+      "name": "Australia Women vs New Zealand Women, 3rd T20I, New Zealand Women tour of Australia, 2026-27",
+      "matchType": "t20",
+      "status": "Match starts at Oct 22, 08:15 GMT",
+      "venue": "North Sydney Oval, Sydney",
+      "date": "2026-10-22",
+      "dateTimeGMT": "2026-10-22T08:15:00",
+      "teams": [
+        "Australia Women",
+        "New Zealand Women"
+      ],
+      "series_id": "1b3e9639-fa3c-48e2-bb98-d945134e8b11"
+    }
   }
 }
