@@ -2685,5 +2685,141 @@
       ],
       "series_id": "4d3b12d1-2699-4b19-873f-144719dc9bc7"
     }
+  },
+  "63c4305e-f2ff-4052-a425-76c903a0dfce": {
+    "cachedAt": "2026-10-15T16:00:47.358497+00:00",
+    "data": {
+      "id": "63c4305e-f2ff-4052-a425-76c903a0dfce",
+      "name": "Uganda vs Zambia, 1st Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 20, 09:00 GMT",
+      "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+      "date": "2026-10-20",
+      "dateTimeGMT": "2026-10-20T09:00:00",
+      "teams": [
+        "Uganda",
+        "Zambia"
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
+    }
+  },
+  "bea783d5-929c-4bda-a9a9-5e048aaa91a8": {
+    "cachedAt": "2026-10-15T16:00:47.553858+00:00",
+    "data": {
+      "id": "bea783d5-929c-4bda-a9a9-5e048aaa91a8",
+      "name": "Nigeria vs Gambia, 3rd Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 20, 13:00 GMT",
+      "venue": "Nigeria Cricket Federation Oval 2, Abuja",
+      "date": "2026-10-20",
+      "dateTimeGMT": "2026-10-20T13:00:00",
+      "teams": [
+        "Nigeria",
+        "Gambia"
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
+    }
+  },
+  "e21d858e-32a8-42cd-8591-22fe9787cae3": {
+    "cachedAt": "2026-10-15T16:00:47.745756+00:00",
+    "data": {
+      "id": "e21d858e-32a8-42cd-8591-22fe9787cae3",
+      "name": "Lesotho vs Mozambique, 2nd Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 20, 13:00 GMT",
+      "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+      "date": "2026-10-20",
+      "dateTimeGMT": "2026-10-20T13:00:00",
+      "teams": [
+        "Lesotho",
+        "Mozambique"
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
+    }
+  },
+  "7ef2a3f0-c9f5-402a-9417-078e9d583d6e": {
+    "cachedAt": "2026-10-15T16:00:47.939632+00:00",
+    "data": {
+      "id": "7ef2a3f0-c9f5-402a-9417-078e9d583d6e",
+      "name": "India Women vs Zimbabwe Women, 3rd T20I, Zimbabwe Women tour of India 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 20, 13:30 GMT",
+      "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+      "date": "2026-10-20",
+      "dateTimeGMT": "2026-10-20T13:30:00",
+      "teams": [
+        "India Women",
+        "Zimbabwe Women"
+      ],
+      "series_id": "88529516-4e91-432b-b99b-1fdb57ffa1b7"
+    }
+  },
+  "7764caf4-bd75-4166-8c02-313b31365a6f": {
+    "cachedAt": "2026-10-15T16:00:48.135586+00:00",
+    "data": {
+      "id": "7764caf4-bd75-4166-8c02-313b31365a6f",
+      "name": "Mozambique vs Gambia, 4th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 21, 09:00 GMT",
+      "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+      "date": "2026-10-21",
+      "dateTimeGMT": "2026-10-21T09:00:00",
+      "teams": [
+        "Mozambique",
+        "Gambia"
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
+    }
+  },
+  "416e0429-7693-40a4-bd8d-1240617135c5": {
+    "cachedAt": "2026-10-15T16:00:48.330494+00:00",
+    "data": {
+      "id": "416e0429-7693-40a4-bd8d-1240617135c5",
+      "name": "Lesotho vs Uganda, 5th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 21, 09:00 GMT",
+      "venue": "Nigeria Cricket Federation Oval 2, Abuja",
+      "date": "2026-10-21",
+      "dateTimeGMT": "2026-10-21T09:00:00",
+      "teams": [
+        "Lesotho",
+        "Uganda"
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
+    }
+  },
+  "430aaf02-f284-47b9-a4e4-452ae068887f": {
+    "cachedAt": "2026-10-15T16:00:48.525731+00:00",
+    "data": {
+      "id": "430aaf02-f284-47b9-a4e4-452ae068887f",
+      "name": "Afghanistan vs Bangladesh, 3rd Match, ODI Tri-Nation Series in UAE, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 21, 12:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-10-21",
+      "dateTimeGMT": "2026-10-21T12:00:00",
+      "teams": [
+        "Afghanistan",
+        "Bangladesh"
+      ],
+      "series_id": "477506b9-5775-4b68-923e-31b79cea03ca"
+    }
+  },
+  "91462ff6-ad04-49dd-b30e-5aaae203ea54": {
+    "cachedAt": "2026-10-15T16:00:48.719729+00:00",
+    "data": {
+      "id": "91462ff6-ad04-49dd-b30e-5aaae203ea54",
+      "name": "Zambia vs Nigeria, 6th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 21, 13:00 GMT",
+      "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+      "date": "2026-10-21",
+      "dateTimeGMT": "2026-10-21T13:00:00",
+      "teams": [
+        "Zambia",
+        "Nigeria"
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
+    }
   }
 }

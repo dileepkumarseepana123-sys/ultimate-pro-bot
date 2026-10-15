@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-15T13:14:55.008885+00:00",
+    "last_updated": "2026-10-15T16:01:26.675401+00:00",
     "scanner_status": {
         "state": "DISCOVERY_FILTERED",
         "stale": false,
@@ -23,9 +23,9 @@
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
         "match_info_calls_this_run": 8,
-        "match_info_cache_hits_this_run": 122,
-        "match_info_enriched_rows": 130,
-        "match_info_cache_size": 159,
+        "match_info_cache_hits_this_run": 130,
+        "match_info_enriched_rows": 138,
+        "match_info_cache_size": 167,
         "max_match_info_lookups_per_run": 8,
         "squad_calls_this_run": 0,
         "squad_cache_hits_this_run": 0,
@@ -37,7 +37,7 @@
             "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 60,
+        "hits_today_reported": 72,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
