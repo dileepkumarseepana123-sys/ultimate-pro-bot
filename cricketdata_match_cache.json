@@ -2141,5 +2141,141 @@
       ],
       "series_id": "54464f6f-3be4-4730-9ba7-cf77ce0a9ad8"
     }
+  },
+  "3c9e5ff9-1637-4389-ae80-ac77078db263": {
+    "cachedAt": "2026-10-15T01:07:04.491081+00:00",
+    "data": {
+      "id": "3c9e5ff9-1637-4389-ae80-ac77078db263",
+      "name": "Melbourne Renegades Women vs Perth Scorchers Women, 3rd Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Perth Scorchers Women won by 6 wkts",
+      "venue": "Blacktown Olympic Park No 2 Oval, Sydney",
+      "date": "2026-10-12",
+      "dateTimeGMT": "2026-10-12T00:00:00",
+      "teams": [
+        "Melbourne Renegades Women",
+        "Perth Scorchers Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "1627a16a-352e-4018-8974-904ee861bb60": {
+    "cachedAt": "2026-10-15T01:07:04.647712+00:00",
+    "data": {
+      "id": "1627a16a-352e-4018-8974-904ee861bb60",
+      "name": "Qatar vs Mongolia, 16th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "No result due to rain",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-10-12",
+      "dateTimeGMT": "2026-10-12T00:00:00",
+      "teams": [
+        "Qatar",
+        "Mongolia"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
+  },
+  "054ad23d-4733-49b5-b753-7bf4c1705931": {
+    "cachedAt": "2026-10-15T01:07:04.811394+00:00",
+    "data": {
+      "id": "054ad23d-4733-49b5-b753-7bf4c1705931",
+      "name": "Hobart Hurricanes Women vs ACT Women, 1st Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Hobart Hurricanes Women won by 27 runs",
+      "venue": "Blacktown Olympic Park No 2 Oval, Sydney",
+      "date": "2026-10-12",
+      "dateTimeGMT": "2026-10-12T00:00:00",
+      "teams": [
+        "Hobart Hurricanes Women",
+        "ACT Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "6e9ba236-3e28-4982-bf7d-79036ef6845a": {
+    "cachedAt": "2026-10-15T01:07:04.965641+00:00",
+    "data": {
+      "id": "6e9ba236-3e28-4982-bf7d-79036ef6845a",
+      "name": "Myanmar vs Thailand, 17th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Thailand won by 9 wkts",
+      "venue": "YSD-UKM Cricket Oval, Bangi",
+      "date": "2026-10-12",
+      "dateTimeGMT": "2026-10-12T00:00:00",
+      "teams": [
+        "Myanmar",
+        "Thailand"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
+  },
+  "17644ae5-3d03-4dfd-834b-6e078fa8a51c": {
+    "cachedAt": "2026-10-15T01:07:05.119690+00:00",
+    "data": {
+      "id": "17644ae5-3d03-4dfd-834b-6e078fa8a51c",
+      "name": "Sydney Sixers Women vs Brisbane Heat Women, 2nd Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Sydney Sixers Women won by 46 runs",
+      "venue": "Hurstville Oval, Sydney",
+      "date": "2026-10-12",
+      "dateTimeGMT": "2026-10-12T00:00:00",
+      "teams": [
+        "Sydney Sixers Women",
+        "Brisbane Heat Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "ad5a8faf-0863-4be1-9a15-6bfcb16893bd": {
+    "cachedAt": "2026-10-15T01:07:05.273381+00:00",
+    "data": {
+      "id": "ad5a8faf-0863-4be1-9a15-6bfcb16893bd",
+      "name": "Bhutan vs Kuwait, 18th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Kuwait won by 8 wkts",
+      "venue": "Selangor Turf Club, Kuala Lumpur",
+      "date": "2026-10-12",
+      "dateTimeGMT": "2026-10-12T00:00:00",
+      "teams": [
+        "Bhutan",
+        "Kuwait"
+      ],
+      "series_id": "74118296-7b42-46b1-8b43-efa92bb3ac6b"
+    }
+  },
+  "33969b2a-6963-4dcf-a371-591c47107ab3": {
+    "cachedAt": "2026-10-15T01:07:05.426968+00:00",
+    "data": {
+      "id": "33969b2a-6963-4dcf-a371-591c47107ab3",
+      "name": "Malaysia vs Singapore, 10th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier B 2026",
+      "matchType": "t20",
+      "status": "Malaysia won by 37 runs",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-10-12",
+      "dateTimeGMT": "2026-10-12T00:00:00",
+      "teams": [
+        "Malaysia",
+        "Singapore"
+      ],
+      "series_id": "cb353b0b-1247-40d0-af72-40237829dcd9"
+    }
+  },
+  "c13f6e9a-12c6-46a1-a56e-2b72f6d02cbe": {
+    "cachedAt": "2026-10-15T01:07:05.581569+00:00",
+    "data": {
+      "id": "c13f6e9a-12c6-46a1-a56e-2b72f6d02cbe",
+      "name": "Sydney Thunder Women vs Melbourne Stars Women, 4th Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Sydney Thunder Women won by 7 wkts",
+      "venue": "Hurstville Oval, Sydney",
+      "date": "2026-10-12",
+      "dateTimeGMT": "2026-10-12T00:00:00",
+      "teams": [
+        "Sydney Thunder Women",
+        "Melbourne Stars Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
   }
 }
