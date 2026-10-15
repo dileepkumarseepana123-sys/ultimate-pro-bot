@@ -2549,5 +2549,141 @@
       ],
       "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
     }
+  },
+  "98d2afd6-f4dc-4d43-a25b-0f812d8bc5c6": {
+    "cachedAt": "2026-10-15T13:14:04.643400+00:00",
+    "data": {
+      "id": "98d2afd6-f4dc-4d43-a25b-0f812d8bc5c6",
+      "name": "Pakistan vs Sri Lanka, 1st Match, Pakistan ODI Tri-Series, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 18, 08:00 GMT",
+      "venue": "Rawalpindi Cricket Stadium, Rawalpindi",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T08:00:00",
+      "teams": [
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "series_id": "4ae8cc66-cc9c-4e5f-b404-3bdc1e9a3a54"
+    }
+  },
+  "85f911c5-a5e8-465b-90af-c601fce75012": {
+    "cachedAt": "2026-10-15T13:14:04.808367+00:00",
+    "data": {
+      "id": "85f911c5-a5e8-465b-90af-c601fce75012",
+      "name": "India Women vs Zimbabwe Women, 2nd T20I, Zimbabwe Women tour of India 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 18, 13:30 GMT",
+      "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T13:30:00",
+      "teams": [
+        "India Women",
+        "Zimbabwe Women"
+      ],
+      "series_id": "88529516-4e91-432b-b99b-1fdb57ffa1b7"
+    }
+  },
+  "c6a8495a-4a09-4aec-b835-53847349ad00": {
+    "cachedAt": "2026-10-15T13:14:04.973298+00:00",
+    "data": {
+      "id": "c6a8495a-4a09-4aec-b835-53847349ad00",
+      "name": "Melbourne Renegades Women vs Hobart Hurricanes Women, 15th Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 18, 23:00 GMT",
+      "venue": "Blacktown Olympic Park No 2 Oval, Sydney",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T23:00:00",
+      "teams": [
+        "Melbourne Renegades Women",
+        "Hobart Hurricanes Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "d1a5aeba-24cc-4546-b214-df6de78f1247": {
+    "cachedAt": "2026-10-15T13:14:05.140413+00:00",
+    "data": {
+      "id": "d1a5aeba-24cc-4546-b214-df6de78f1247",
+      "name": "Oman vs Nepal, 133rd Match, ICC Cricket World Cup League Two 2023-27",
+      "matchType": "odi",
+      "status": "Match starts at Oct 19, 06:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 1), Al Amerat",
+      "date": "2026-10-19",
+      "dateTimeGMT": "2026-10-19T06:00:00",
+      "teams": [
+        "Oman",
+        "Nepal"
+      ],
+      "series_id": "7ac098a3-5d70-4c81-8e81-199edbeffc29"
+    }
+  },
+  "a14f02f8-9bc2-44ad-b3aa-17e6e1972e80": {
+    "cachedAt": "2026-10-15T13:14:05.310029+00:00",
+    "data": {
+      "id": "a14f02f8-9bc2-44ad-b3aa-17e6e1972e80",
+      "name": "Afghanistan vs Zimbabwe, 2nd Match, ODI Tri-Nation Series in UAE, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 19, 12:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-10-19",
+      "dateTimeGMT": "2026-10-19T12:00:00",
+      "teams": [
+        "Afghanistan",
+        "Zimbabwe"
+      ],
+      "series_id": "477506b9-5775-4b68-923e-31b79cea03ca"
+    }
+  },
+  "17fc6ab9-84ba-490f-b35a-e671192df9cc": {
+    "cachedAt": "2026-10-15T13:14:05.471857+00:00",
+    "data": {
+      "id": "17fc6ab9-84ba-490f-b35a-e671192df9cc",
+      "name": "Pakistan vs England, 2nd Match, Pakistan ODI Tri-Series, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 20, 08:00 GMT",
+      "venue": "Rawalpindi Cricket Stadium, Rawalpindi",
+      "date": "2026-10-20",
+      "dateTimeGMT": "2026-10-20T08:00:00",
+      "teams": [
+        "Pakistan",
+        "England"
+      ],
+      "series_id": "4ae8cc66-cc9c-4e5f-b404-3bdc1e9a3a54"
+    }
+  },
+  "2e5ee6e9-511f-434e-b794-9d3a792e2a6e": {
+    "cachedAt": "2026-10-15T13:14:05.634914+00:00",
+    "data": {
+      "id": "2e5ee6e9-511f-434e-b794-9d3a792e2a6e",
+      "name": "Australia Women vs New Zealand Women, 2nd T20I, New Zealand Women tour of Australia, 2026-27",
+      "matchType": "t20",
+      "status": "Match starts at Oct 20, 08:15 GMT",
+      "venue": "North Sydney Oval, Sydney",
+      "date": "2026-10-20",
+      "dateTimeGMT": "2026-10-20T08:15:00",
+      "teams": [
+        "Australia Women",
+        "New Zealand Women"
+      ],
+      "series_id": "1b3e9639-fa3c-48e2-bb98-d945134e8b11"
+    }
+  },
+  "d15fcf8c-a4b4-44a3-8ae4-8043acbe5e56": {
+    "cachedAt": "2026-10-15T13:14:05.797514+00:00",
+    "data": {
+      "id": "d15fcf8c-a4b4-44a3-8ae4-8043acbe5e56",
+      "name": "Australia Women vs Bangladesh Women, 2nd T20I, Bangladesh Women tour of Australia, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 20, 08:15 GMT",
+      "venue": "North Sydney Oval, Sydney",
+      "date": "2026-10-20",
+      "dateTimeGMT": "2026-10-20T08:15:00",
+      "teams": [
+        "Australia Women",
+        "Bangladesh Women"
+      ],
+      "series_id": "4d3b12d1-2699-4b19-873f-144719dc9bc7"
+    }
   }
 }
