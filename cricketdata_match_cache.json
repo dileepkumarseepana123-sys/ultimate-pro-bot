@@ -2277,5 +2277,141 @@
       ],
       "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
     }
+  },
+  "e81f0cfa-3003-4913-b4c4-7e267240241e": {
+    "cachedAt": "2026-10-15T07:14:50.568407+00:00",
+    "data": {
+      "id": "e81f0cfa-3003-4913-b4c4-7e267240241e",
+      "name": "Oman vs Nepal, 135th Match, ICC Cricket World Cup League Two 2023-27",
+      "matchType": "odi",
+      "status": "Nepal won by 113 runs",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 1), Al Amerat",
+      "date": "2026-10-13",
+      "dateTimeGMT": "2026-10-13T00:00:00",
+      "teams": [
+        "Oman",
+        "Nepal"
+      ],
+      "series_id": "7ac098a3-5d70-4c81-8e81-199edbeffc29"
+    }
+  },
+  "b769a5ee-0254-4213-9e3a-0ba263d2b09f": {
+    "cachedAt": "2026-10-15T07:14:50.707568+00:00",
+    "data": {
+      "id": "b769a5ee-0254-4213-9e3a-0ba263d2b09f",
+      "name": "United States of America vs Namibia, 136th Match, ICC Cricket World Cup League Two 2023-27",
+      "matchType": "odi",
+      "status": "Namibia won by 6 wkts",
+      "venue": "Grand Prairie Stadium, Dallas",
+      "date": "2026-10-13",
+      "dateTimeGMT": "2026-10-13T00:00:00",
+      "teams": [
+        "United States of America",
+        "Namibia"
+      ],
+      "series_id": "7ac098a3-5d70-4c81-8e81-199edbeffc29"
+    }
+  },
+  "4a33e95c-a65d-45d9-a3b1-5c2d5a205440": {
+    "cachedAt": "2026-10-15T07:14:50.848891+00:00",
+    "data": {
+      "id": "4a33e95c-a65d-45d9-a3b1-5c2d5a205440",
+      "name": "South Africa Champions vs England Champions, Semi Final 1, World Championship of Legends 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 16, 11:30 GMT",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-10-16",
+      "dateTimeGMT": "2026-10-16T11:30:00",
+      "teams": [
+        "South Africa Champions",
+        "England Champions"
+      ],
+      "series_id": "67b36c31-9495-441c-aece-96f7c3af44f7"
+    }
+  },
+  "b9c38067-96a6-41ea-94ba-417b4d8f0f23": {
+    "cachedAt": "2026-10-15T07:14:50.990118+00:00",
+    "data": {
+      "id": "b9c38067-96a6-41ea-94ba-417b4d8f0f23",
+      "name": "India Women vs Zimbabwe Women, 1st T20I, Zimbabwe Women tour of India 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 16, 13:30 GMT",
+      "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+      "date": "2026-10-16",
+      "dateTimeGMT": "2026-10-16T13:30:00",
+      "teams": [
+        "India Women",
+        "Zimbabwe Women"
+      ],
+      "series_id": "88529516-4e91-432b-b99b-1fdb57ffa1b7"
+    }
+  },
+  "7be65e20-8aab-4774-9170-303169bb29a6": {
+    "cachedAt": "2026-10-15T07:14:51.131490+00:00",
+    "data": {
+      "id": "7be65e20-8aab-4774-9170-303169bb29a6",
+      "name": "Australia Champions vs West Indies Champions, Semi Final 2, World Championship of Legends 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 16, 15:30 GMT",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-10-16",
+      "dateTimeGMT": "2026-10-16T15:30:00",
+      "teams": [
+        "Australia Champions",
+        "West Indies Champions"
+      ],
+      "series_id": "67b36c31-9495-441c-aece-96f7c3af44f7"
+    }
+  },
+  "22362ccf-58c8-43e7-bbba-07aace5e4043": {
+    "cachedAt": "2026-10-15T07:14:51.268938+00:00",
+    "data": {
+      "id": "22362ccf-58c8-43e7-bbba-07aace5e4043",
+      "name": "Brisbane Heat Women vs Act Women, 10th Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 16, 23:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-16",
+      "dateTimeGMT": "2026-10-16T23:00:00",
+      "teams": [
+        "Brisbane Heat Women",
+        "Act Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "20733218-44c7-4ea5-a7d2-e9ddcaa284fd": {
+    "cachedAt": "2026-10-15T07:14:51.407782+00:00",
+    "data": {
+      "id": "20733218-44c7-4ea5-a7d2-e9ddcaa284fd",
+      "name": "Act Women vs Melbourne Stars Women, 13th Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 17, 03:30 GMT",
+      "venue": "Blacktown Olympic Park No 2 Oval, Sydney",
+      "date": "2026-10-17",
+      "dateTimeGMT": "2026-10-17T03:30:00",
+      "teams": [
+        "Act Women",
+        "Melbourne Stars Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "9e0c6ba4-e542-40f0-80c5-a90958a518fe": {
+    "cachedAt": "2026-10-15T07:14:51.552712+00:00",
+    "data": {
+      "id": "9e0c6ba4-e542-40f0-80c5-a90958a518fe",
+      "name": "Sydney Sixers Women vs Adelaide Strikers Women, 14th Match, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 17, 03:30 GMT",
+      "venue": "Blacktown International Sportspark, Sydney",
+      "date": "2026-10-17",
+      "dateTimeGMT": "2026-10-17T03:30:00",
+      "teams": [
+        "Sydney Sixers Women",
+        "Adelaide Strikers Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
   }
 }
