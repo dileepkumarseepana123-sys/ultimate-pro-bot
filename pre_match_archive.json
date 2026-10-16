@@ -52279,7 +52279,7 @@
         }
     },
     "england champions|south africa champions|2026-10-16": {
-        "capturedAt": "2026-10-16T07:14:28.663633+00:00",
+        "capturedAt": "2026-10-16T15:59:55.317259+00:00",
         "matchDate": "2026-10-16",
         "report": {
             "teamA": "South Africa Champions",
@@ -52297,7 +52297,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "4a33e95c-a65d-45d9-a3b1-5c2d5a205440",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 16, 11:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -52529,7 +52529,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "india women|zimbabwe women|2026-10-16": {
@@ -53238,7 +53239,7 @@
         }
     },
     "act women|brisbane heat women|2026-10-16": {
-        "capturedAt": "2026-10-16T13:14:12.591787+00:00",
+        "capturedAt": "2026-10-16T15:59:55.317280+00:00",
         "matchDate": "2026-10-16",
         "report": {
             "teamA": "Brisbane Heat Women",
