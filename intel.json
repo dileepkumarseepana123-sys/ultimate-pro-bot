@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-16T11:00:58.382013+00:00",
+    "last_updated": "2026-10-16T13:14:12.653986+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -20,27 +20,23 @@
         "daily_limit_user_reported": 100,
         "max_match_list_calls_per_run": 2,
         "cricscore_calls_this_run": 1,
-        "current_matches_calls_this_run": 1,
-        "match_list_calls_this_run": 2,
-        "match_info_calls_this_run": 7,
-        "match_info_cache_hits_this_run": 129,
+        "current_matches_calls_this_run": 0,
+        "match_list_calls_this_run": 0,
+        "match_info_calls_this_run": 0,
+        "match_info_cache_hits_this_run": 136,
         "match_info_enriched_rows": 136,
         "match_info_cache_size": 180,
         "max_match_info_lookups_per_run": 8,
-        "squad_calls_this_run": 3,
+        "squad_calls_this_run": 0,
         "squad_cache_hits_this_run": 0,
         "squad_cache_size": 19,
         "endpoint_calls_this_run": {
-            "cricScore": 1,
-            "currentMatches": 1,
-            "match_info": 7,
-            "matches": 2,
-            "match_squad": 3
+            "cricScore": 1
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 99,
+        "hits_today_reported": 100,
         "hits_limit_reported": 100,
-        "quota_exhausted": false,
+        "quota_exhausted": true,
         "api_last_error": null
     },
     "rules": {
@@ -68,16 +64,16 @@
         "text_relay_time_enriched_rows": 3,
         "final_reports_with_known_time": 9,
         "final_reports_with_weather": 9,
-        "current_matches_rows": 25,
-        "current_matches_t20_rows": 21,
+        "current_matches_rows": 0,
+        "current_matches_t20_rows": 0,
         "current_matches_today_t20_rows": 0,
-        "cricscore_rows": 138,
-        "cricscore_t20_rows": 69,
+        "cricscore_rows": 139,
+        "cricscore_t20_rows": 70,
         "cricscore_today_t20_rows": 5,
-        "cricketdata_rows": 50,
-        "cricketdata_t20_rows": 6,
-        "cricketdata_today_t20_rows": 2,
-        "merged_candidates": 75,
+        "cricketdata_rows": 0,
+        "cricketdata_t20_rows": 0,
+        "cricketdata_today_t20_rows": 0,
+        "merged_candidates": 74,
         "final_reports": 9
     },
     "summary": {
@@ -134,14 +130,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 64.8,
+            "swingScore": 62.5,
             "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 50,
                 "swingProfile": "CONDITIONAL SWING PROFILE",
-                "swingScore": 64.8,
+                "swingScore": 62.5,
                 "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -169,8 +165,7 @@
                     "majorTeamAsymmetryProxyUsed": false
                 },
                 "swingCatalysts": [
-                    "Middle-overs wicket volatility: 4.21 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.21 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [],
                 "scoreComponents": [
@@ -186,7 +181,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 90.0,
+                        "score": 70.0,
                         "weight": 0.1
                     },
                     {
@@ -225,7 +220,7 @@
                     "Chase-lean venue: 58.3% chasing wins",
                     "Overs 7-14 wicket pressure: 4.21 wickets/match",
                     "16th-over baseline: 8.6 runs; wicket in 34.0% of sampled innings",
-                    "Weather: rain 9%, dew MEDIUM"
+                    "Weather: rain 9%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -364,17 +359,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-16T19:00:00+05:30",
-                "temperature_c": 27.8,
-                "humidity_pct": 74,
-                "dew_point_c": 22.9,
+                "temperature_c": 27.9,
+                "humidity_pct": 70,
+                "dew_point_c": 21.8,
                 "rain_probability_pct": 9,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.7,
-                "dew_risk": "MEDIUM",
+                "wind_kmh": 8.7,
+                "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.8°C | RH 74% | Rain 9% | Wind 7.7 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "27.9°C | RH 70% | Rain 9% | Wind 8.7 km/h",
+            "dewRisk": "LOW",
             "tossBias": "58.33% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "38.62",
@@ -424,7 +419,6 @@
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
@@ -445,7 +439,7 @@
             "supplementalSourceName": "Cricbuzz live via text relay",
             "sourceMatchUrl": null,
             "cricketDataMatchId": "4a33e95c-a65d-45d9-a3b1-5c2d5a205440",
-            "liveScoreText": null,
+            "liveScoreText": "178/6 (19)",
             "sourceStatus": "LIVE / CURRENT",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
@@ -798,12 +792,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "No squad data"
+                "source": "Not queried"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "No squad data"
+                "source": "Not queried"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -868,16 +862,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-16T15:30:00+04:00",
-                "temperature_c": 34.6,
+                "temperature_c": 34.4,
                 "humidity_pct": 61,
-                "dew_point_c": 26.0,
+                "dew_point_c": 25.8,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 14.2,
+                "wind_kmh": 14.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "34.6°C | RH 61% | Rain 0% | Wind 14.2 km/h",
+            "weatherText": "34.4°C | RH 61% | Rain 0% | Wind 14.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "59.59% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -1119,16 +1113,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-16T19:30:00+04:00",
-                "temperature_c": 31.7,
+                "temperature_c": 31.8,
                 "humidity_pct": 75,
                 "dew_point_c": 26.8,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 8.6,
+                "wind_kmh": 8.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "31.7°C | RH 75% | Rain 0% | Wind 8.6 km/h",
+            "weatherText": "31.8°C | RH 75% | Rain 0% | Wind 8.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "59.59% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -1200,7 +1194,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/155519/indw-vs-zimw-1st-t20i-zimbabwe-women-tour-of-india-2026",
             "cricketDataMatchId": "b9c38067-96a6-41ea-94ba-417b4d8f0f23",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 16, 13:30 GMT",
+            "sourceStatus": "India Women opt to bowl",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -1272,8 +1266,7 @@
                     "majorTeamAsymmetryProxyUsed": false
                 },
                 "swingCatalysts": [
-                    "Middle-overs wicket volatility: 4.21 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.21 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
                     "Extreme skill gap: one-sided price path risk"
@@ -1296,7 +1289,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 90.0,
+                        "score": 70.0,
                         "weight": 0.1
                     },
                     {
@@ -1335,7 +1328,7 @@
                     "Chase-lean venue: 58.3% chasing wins",
                     "Overs 7-14 wicket pressure: 4.21 wickets/match",
                     "16th-over baseline: 8.6 runs; wicket in 34.0% of sampled innings",
-                    "Weather: rain 9%, dew MEDIUM"
+                    "Weather: rain 9%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: India Women 1742.9 vs Zimbabwe Women 1463.8",
@@ -1568,17 +1561,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-16T19:00:00+05:30",
-                "temperature_c": 27.8,
-                "humidity_pct": 74,
-                "dew_point_c": 22.9,
+                "temperature_c": 27.9,
+                "humidity_pct": 70,
+                "dew_point_c": 21.8,
                 "rain_probability_pct": 9,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.7,
-                "dew_risk": "MEDIUM",
+                "wind_kmh": 8.7,
+                "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.8°C | RH 74% | Rain 9% | Wind 7.7 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "27.9°C | RH 70% | Rain 9% | Wind 8.7 km/h",
+            "dewRisk": "LOW",
             "tossBias": "58.33% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "38.62",
@@ -1627,7 +1620,6 @@
             ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
@@ -1644,11 +1636,11 @@
             "matchTimeIST": "2026-10-16T12:30:00+05:30",
             "indiaDate": "2026-10-16",
             "series": "ECA Women's European Cup, 2026",
-            "sourceName": "CricketData cricScore + Match List",
+            "sourceName": "CricketData cricScore + match_info",
             "supplementalSourceName": null,
             "sourceMatchUrl": null,
             "cricketDataMatchId": "2a57d45e-5d2f-4361-b4da-7ad3d0b908cd",
-            "liveScoreText": null,
+            "liveScoreText": "76/8 (13.3) | 75/5 (15)",
             "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
@@ -2049,7 +2041,7 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.94/match",
             "metricSources": {
-                "fixture": "CricketData cricScore + Match List",
+                "fixture": "CricketData cricScore + match_info",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=94)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=94)",
@@ -2103,7 +2095,7 @@
             "matchTimeIST": "2026-10-16T16:30:00+05:30",
             "indiaDate": "2026-10-16",
             "series": "ECA Women's European Cup, 2026",
-            "sourceName": "CricketData cricScore + Match List",
+            "sourceName": "CricketData cricScore + match_info",
             "supplementalSourceName": null,
             "sourceMatchUrl": null,
             "cricketDataMatchId": "b9abacfc-903e-4578-8d13-f354c58e4a2c",
@@ -2495,16 +2487,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-16T14:00:00+03:00",
-                "temperature_c": 11.2,
-                "humidity_pct": 73,
-                "dew_point_c": 6.5,
+                "temperature_c": 12.0,
+                "humidity_pct": 71,
+                "dew_point_c": 6.9,
                 "rain_probability_pct": 80,
-                "precipitation_mm": 0.3,
-                "wind_kmh": 5.4,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 5.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "11.2°C | RH 73% | Rain 80% | Wind 5.4 km/h",
+            "weatherText": "12.0°C | RH 71% | Rain 80% | Wind 5.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "51.06% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -2518,7 +2510,7 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.94/match",
             "metricSources": {
-                "fixture": "CricketData cricScore + Match List",
+                "fixture": "CricketData cricScore + match_info",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=94)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=94)",
@@ -2962,16 +2954,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-16T13:00:00+02:00",
-                "temperature_c": 28.9,
-                "humidity_pct": 25,
-                "dew_point_c": 7.1,
+                "temperature_c": 29.4,
+                "humidity_pct": 23,
+                "dew_point_c": 6.0,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 15.7,
+                "wind_kmh": 16.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "28.9°C | RH 25% | Rain 0% | Wind 15.7 km/h",
+            "weatherText": "29.4°C | RH 23% | Rain 0% | Wind 16.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -3597,16 +3589,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-16T13:00:00+02:00",
-                "temperature_c": 36.8,
+                "temperature_c": 36.5,
                 "humidity_pct": 11,
-                "dew_point_c": 1.2,
+                "dew_point_c": 0.9,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 15.4,
+                "wind_kmh": 16.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "36.8°C | RH 11% | Rain 0% | Wind 15.4 km/h",
+            "weatherText": "36.5°C | RH 11% | Rain 0% | Wind 16.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -3751,7 +3743,7 @@
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
             "preMatchSnapshot": {
-                "capturedAt": "2026-10-16T07:14:28.663783+00:00",
+                "capturedAt": "2026-10-16T11:00:58.323723+00:00",
                 "matchDate": "2026-10-16",
                 "report": {
                     "teamA": "Brisbane Heat Women",
