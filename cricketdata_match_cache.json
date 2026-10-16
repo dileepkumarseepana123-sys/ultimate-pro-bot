@@ -3041,5 +3041,56 @@
       ],
       "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
     }
+  },
+  "b4c6f171-def5-4956-855e-89a9c2edcb9c": {
+    "cachedAt": "2026-10-16T19:02:57.371499+00:00",
+    "data": {
+      "id": "b4c6f171-def5-4956-855e-89a9c2edcb9c",
+      "name": "Bulgaria Women vs Sweden Women, 2nd Match, ECA Womens European Cup, 2026",
+      "matchType": "t20",
+      "status": "Sweden Women won by 10 wkts",
+      "venue": "Moara Vlasiei Cricket Ground, Bucharest, Ilfov County",
+      "date": "2026-10-15",
+      "dateTimeGMT": "2026-10-15T00:00:00",
+      "teams": [
+        "Bulgaria Women",
+        "Sweden Women"
+      ],
+      "series_id": "12e5ef6f-1105-4f20-8f6f-36d9f2825ed8"
+    }
+  },
+  "a2dc4f6c-4648-44d6-88d2-0932994a93e6": {
+    "cachedAt": "2026-10-16T19:02:57.556776+00:00",
+    "data": {
+      "id": "a2dc4f6c-4648-44d6-88d2-0932994a93e6",
+      "name": "Austria Women vs Sweden Women, 1st Match, ECA Womens European Cup, 2026",
+      "matchType": "t20",
+      "status": "Sweden Women won by 9 wkts",
+      "venue": "Moara Vlasiei Cricket Ground, Bucharest, Ilfov County",
+      "date": "2026-10-15",
+      "dateTimeGMT": "2026-10-15T00:00:00",
+      "teams": [
+        "Austria Women",
+        "Sweden Women"
+      ],
+      "series_id": "12e5ef6f-1105-4f20-8f6f-36d9f2825ed8"
+    }
+  },
+  "b12481b9-3c03-4a66-836f-0d87019d63ab": {
+    "cachedAt": "2026-10-16T19:02:57.745933+00:00",
+    "data": {
+      "id": "b12481b9-3c03-4a66-836f-0d87019d63ab",
+      "name": "Gambia vs Uganda, 9th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 23, 13:00 GMT",
+      "venue": "Nigeria Cricket Federation Oval 2, Abuja",
+      "date": "2026-10-23",
+      "dateTimeGMT": "2026-10-23T13:00:00",
+      "teams": [
+        "Gambia",
+        "Uganda"
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
+    }
   }
 }
