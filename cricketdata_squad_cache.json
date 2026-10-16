@@ -2850,18 +2850,54 @@
     }
   },
   "4a33e95c-a65d-45d9-a3b1-5c2d5a205440": {
-    "cachedAt": "2026-10-16T01:07:59.036228+00:00",
+    "cachedAt": "2026-10-16T07:14:09.761230+00:00",
     "payload": {
       "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
       "data": [],
       "status": "success",
       "info": {
-        "hitsToday": 24,
+        "hitsToday": 38,
         "hitsUsed": 10,
         "hitsLimit": 100,
         "credits": 0,
-        "server": 1,
-        "queryTime": 12.7397,
+        "server": 9,
+        "queryTime": 12.9318,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "b9c38067-96a6-41ea-94ba-417b4d8f0f23": {
+    "cachedAt": "2026-10-16T07:14:14.652591+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 48,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 13,
+        "queryTime": 15.1091,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "7be65e20-8aab-4774-9170-303169bb29a6": {
+    "cachedAt": "2026-10-16T07:14:17.891325+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 58,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 5,
+        "queryTime": 12.9459,
         "s": 0,
         "cache": 0
       }
