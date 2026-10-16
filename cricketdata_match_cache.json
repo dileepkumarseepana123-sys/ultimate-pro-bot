@@ -2923,5 +2923,123 @@
       ],
       "series_id": "1b3e9639-fa3c-48e2-bb98-d945134e8b11"
     }
+  },
+  "2a57d45e-5d2f-4361-b4da-7ad3d0b908cd": {
+    "cachedAt": "2026-10-16T10:59:08.636419+00:00",
+    "data": {
+      "id": "2a57d45e-5d2f-4361-b4da-7ad3d0b908cd",
+      "name": "Romania Women vs Bulgaria Women, 3rd Match, ECA Womens European Cup, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Moara Vlasiei Cricket Ground, Bucharest, Ilfov County",
+      "date": "2026-10-16",
+      "dateTimeGMT": "2026-10-16T07:00:00",
+      "teams": [
+        "Romania Women",
+        "Bulgaria Women"
+      ],
+      "series_id": "12e5ef6f-1105-4f20-8f6f-36d9f2825ed8"
+    }
+  },
+  "b9abacfc-903e-4578-8d13-f354c58e4a2c": {
+    "cachedAt": "2026-10-16T10:59:08.825277+00:00",
+    "data": {
+      "id": "b9abacfc-903e-4578-8d13-f354c58e4a2c",
+      "name": "Austria Women vs Bulgaria Women, 4th Match, ECA Womens European Cup, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Moara Vlasiei Cricket Ground, Bucharest, Ilfov County",
+      "date": "2026-10-16",
+      "dateTimeGMT": "2026-10-16T11:00:00",
+      "teams": [
+        "Austria Women",
+        "Bulgaria Women"
+      ],
+      "series_id": "12e5ef6f-1105-4f20-8f6f-36d9f2825ed8"
+    }
+  },
+  "0b3dc892-fed0-4cf8-92a9-4ffc57a1daba": {
+    "cachedAt": "2026-10-16T10:59:09.013862+00:00",
+    "data": {
+      "id": "0b3dc892-fed0-4cf8-92a9-4ffc57a1daba",
+      "name": "Romania Women vs Austria Women, 5th Match, ECA Womens European Cup, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Moara Vlasiei Cricket Ground, Bucharest, Ilfov County",
+      "date": "2026-10-17",
+      "dateTimeGMT": "2026-10-17T07:00:00",
+      "teams": [
+        "Romania Women",
+        "Austria Women"
+      ],
+      "series_id": "12e5ef6f-1105-4f20-8f6f-36d9f2825ed8"
+    }
+  },
+  "a17316e5-2020-4eb3-94e8-331195dab215": {
+    "cachedAt": "2026-10-16T10:59:09.199552+00:00",
+    "data": {
+      "id": "a17316e5-2020-4eb3-94e8-331195dab215",
+      "name": "Romania Women vs Sweden Women, 6th Match, ECA Womens European Cup, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Moara Vlasiei Cricket Ground, Bucharest, Ilfov County",
+      "date": "2026-10-17",
+      "dateTimeGMT": "2026-10-17T11:00:00",
+      "teams": [
+        "Romania Women",
+        "Sweden Women"
+      ],
+      "series_id": "12e5ef6f-1105-4f20-8f6f-36d9f2825ed8"
+    }
+  },
+  "0957b7a3-4906-49ef-9008-ccc58986f7ad": {
+    "cachedAt": "2026-10-16T10:59:09.390120+00:00",
+    "data": {
+      "id": "0957b7a3-4906-49ef-9008-ccc58986f7ad",
+      "name": "India Women vs Zimbabwe Women, 1st ODI, Zimbabwe Women tour of India 2026",
+      "status": "Match starts at Oct 23, 08:30 GMT",
+      "venue": "BCA Stadium, Kotambi, Vadodara",
+      "date": "2026-10-23",
+      "dateTimeGMT": "2026-10-23T08:30:00",
+      "teams": [
+        "India Women",
+        "Zimbabwe Women"
+      ],
+      "series_id": "88529516-4e91-432b-b99b-1fdb57ffa1b7"
+    }
+  },
+  "3140a033-437c-4ca5-81ff-b41b9e688f53": {
+    "cachedAt": "2026-10-16T10:59:09.579211+00:00",
+    "data": {
+      "id": "3140a033-437c-4ca5-81ff-b41b9e688f53",
+      "name": "Zambia vs Lesotho, 8th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 23, 09:00 GMT",
+      "venue": "Nigeria Cricket Federation Oval 2, Abuja",
+      "date": "2026-10-23",
+      "dateTimeGMT": "2026-10-23T09:00:00",
+      "teams": [
+        "Zambia",
+        "Lesotho"
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
+    }
+  },
+  "cef60146-811d-495b-a3d1-64f87e588a78": {
+    "cachedAt": "2026-10-16T10:59:09.765490+00:00",
+    "data": {
+      "id": "cef60146-811d-495b-a3d1-64f87e588a78",
+      "name": "Nigeria vs Mozambique, 7th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 23, 09:00 GMT",
+      "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+      "date": "2026-10-23",
+      "dateTimeGMT": "2026-10-23T09:00:00",
+      "teams": [
+        "Nigeria",
+        "Mozambique"
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
+    }
   }
 }
