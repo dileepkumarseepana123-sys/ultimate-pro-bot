@@ -54452,7 +54452,7 @@
         }
     },
     "act women|brisbane heat women|2026-10-17": {
-        "capturedAt": "2026-10-17T10:52:59.945684+00:00",
+        "capturedAt": "2026-10-17T13:00:50.188213+00:00",
         "matchDate": "2026-10-17",
         "report": {
             "teamA": "Brisbane Heat Women",
@@ -55089,7 +55089,7 @@
         }
     },
     "adelaide strikers women|sydney sixers women|2026-10-17": {
-        "capturedAt": "2026-10-17T10:52:59.945696+00:00",
+        "capturedAt": "2026-10-17T13:00:50.188235+00:00",
         "matchDate": "2026-10-17",
         "report": {
             "teamA": "Sydney Sixers Women",
@@ -55666,7 +55666,7 @@
         }
     },
     "austria women|romania women|2026-10-17": {
-        "capturedAt": "2026-10-17T10:52:59.945705+00:00",
+        "capturedAt": "2026-10-17T13:00:50.188247+00:00",
         "matchDate": "2026-10-17",
         "report": {
             "teamA": "Romania Women",
@@ -56557,7 +56557,7 @@
         }
     },
     "india|west indies 5th t20i m chinnaswamy stadium bengaluru|2026-10-17": {
-        "capturedAt": "2026-10-17T10:52:59.945643+00:00",
+        "capturedAt": "2026-10-17T13:00:50.188260+00:00",
         "matchDate": "2026-10-17",
         "report": {
             "teamA": "India",
@@ -56575,7 +56575,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/151602/ind-vs-wi-5th-t20i-west-indies-tour-of-india-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -56873,11 +56873,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "boland|mpumalanga rhinos|2026-10-17": {
-        "capturedAt": "2026-10-17T10:52:59.945673+00:00",
+        "capturedAt": "2026-10-17T13:00:50.188269+00:00",
         "matchDate": "2026-10-17",
         "report": {
             "teamA": "Boland",
@@ -56895,7 +56896,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173397/bol-vs-mpr-pool-b-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -57223,7 +57224,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     }
 }
