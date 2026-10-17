@@ -56109,7 +56109,7 @@
         }
     },
     "romania women|sweden women|2026-10-17": {
-        "capturedAt": "2026-10-17T01:09:40.127161+00:00",
+        "capturedAt": "2026-10-17T07:08:25.520256+00:00",
         "matchDate": "2026-10-17",
         "report": {
             "teamA": "Romania Women",
@@ -56161,14 +56161,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "BALANCED",
-            "swingScore": 57.8,
+            "swingScore": 60.0,
             "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 50,
+                "dataCompletenessPct": 67,
                 "swingProfile": "CONDITIONAL SWING PROFILE",
-                "swingScore": 57.8,
+                "swingScore": 60.0,
                 "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
                 "competitiveBalance": {
                     "label": "BALANCED",
@@ -56200,7 +56200,8 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 51.1% chasing wins",
-                    "Middle-overs wicket volatility: 4.94 wickets/match in overs 7-14"
+                    "Middle-overs wicket volatility: 4.94 wickets/match in overs 7-14",
+                    "Medium dew can change second-innings conditions"
                 ],
                 "swingPenalties": [
                     "Liquidity/market depth is not verified"
@@ -56220,6 +56221,11 @@
                         "name": "middle_over_volatility",
                         "score": 82.3,
                         "weight": 0.15
+                    },
+                    {
+                        "name": "weather",
+                        "score": 90.0,
+                        "weight": 0.1
                     },
                     {
                         "name": "market_proxy",
@@ -56245,7 +56251,7 @@
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS WATCHLIST",
-                "dataConfidencePct": 43,
+                "dataConfidencePct": 57,
                 "initialPrediction": "Sweden Women has a slight edge on the available pre-toss historical evidence.",
                 "edgeTeam": "Sweden Women",
                 "edgeStrength": "SLIGHT EDGE",
@@ -56256,7 +56262,8 @@
                     "Powerplay baseline: 45.2 runs / 1.67 wickets",
                     "Two-way venue: 51.1% chasing wins",
                     "Overs 7-14 wicket pressure: 4.94 wickets/match",
-                    "16th-over baseline: 7.8 runs; wicket in 30.7% of sampled innings"
+                    "16th-over baseline: 7.8 runs; wicket in 30.7% of sampled innings",
+                    "Weather: rain 3%, dew MEDIUM"
                 ],
                 "evidence": [
                     "Elo: Romania Women 1503.7 vs Sweden Women 1545.2",
@@ -56480,11 +56487,19 @@
                 ]
             },
             "weather": {
-                "status": "UNKNOWN",
-                "reason": "No hourly forecast returned"
+                "status": "OK",
+                "local_time": "2026-10-17T14:00:00+03:00",
+                "temperature_c": 12.3,
+                "humidity_pct": 71,
+                "dew_point_c": 7.2,
+                "rain_probability_pct": 3,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 8.0,
+                "dew_risk": "MEDIUM",
+                "rain_risk": "LOW"
             },
-            "weatherText": "NO DATA",
-            "dewRisk": "UNKNOWN",
+            "weatherText": "12.3°C | RH 71% | Rain 3% | Wind 8.0 km/h",
+            "dewRisk": "MEDIUM",
             "tossBias": "51.06% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "45.24",
@@ -56498,7 +56513,7 @@
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.94/match",
             "metricSources": {
                 "fixture": "CricketData cricScore + Match List",
-                "weather": "Open-Meteo unavailable/UNKNOWN",
+                "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=94)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=94)",
                 "over16": "Cricsheet 16th-over history (n=140)",
@@ -56528,11 +56543,10 @@
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.07,
             "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
-            "noBetReasons": [
-                "WEATHER DATA UNKNOWN"
-            ],
+            "noBetReasons": [],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
@@ -56540,7 +56554,7 @@
         }
     },
     "india|west indies 5th t20i m chinnaswamy stadium bengaluru|2026-10-17": {
-        "capturedAt": "2026-10-17T01:09:40.127179+00:00",
+        "capturedAt": "2026-10-17T07:08:25.520290+00:00",
         "matchDate": "2026-10-17",
         "report": {
             "teamA": "India",
@@ -56665,7 +56679,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 94%, dew HIGH"
+                    "Weather: rain 88%, dew HIGH"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -56804,16 +56818,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-17T19:00:00+05:30",
-                "temperature_c": 21.6,
-                "humidity_pct": 91,
+                "temperature_c": 21.2,
+                "humidity_pct": 93,
                 "dew_point_c": 20.1,
-                "rain_probability_pct": 94,
+                "rain_probability_pct": 88,
                 "precipitation_mm": 3.9,
-                "wind_kmh": 7.8,
+                "wind_kmh": 3.6,
                 "dew_risk": "HIGH",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "21.6°C | RH 91% | Rain 94% | Wind 7.8 km/h",
+            "weatherText": "21.2°C | RH 93% | Rain 88% | Wind 3.6 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -56860,7 +56874,7 @@
         }
     },
     "boland|mpumalanga rhinos|2026-10-17": {
-        "capturedAt": "2026-10-17T01:09:40.127189+00:00",
+        "capturedAt": "2026-10-17T07:08:25.520306+00:00",
         "matchDate": "2026-10-17",
         "report": {
             "teamA": "Boland",
@@ -57002,7 +57016,7 @@
                     "Two-way venue: 47.4% chasing wins",
                     "Overs 7-14 wicket pressure: 4.25 wickets/match",
                     "16th-over baseline: 8.2 runs; wicket in 31.8% of sampled innings",
-                    "Weather: rain 15%, dew LOW"
+                    "Weather: rain 8%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -57146,13 +57160,13 @@
                 "temperature_c": 16.5,
                 "humidity_pct": 70,
                 "dew_point_c": 11.0,
-                "rain_probability_pct": 15,
+                "rain_probability_pct": 8,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 13.5,
+                "wind_kmh": 14.3,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "16.5°C | RH 70% | Rain 15% | Wind 13.5 km/h",
+            "weatherText": "16.5°C | RH 70% | Rain 8% | Wind 14.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "47.37% Chasing Wins",
             "tossTrend": "Historical venue trend",

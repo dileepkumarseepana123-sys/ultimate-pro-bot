@@ -3092,5 +3092,39 @@
       ],
       "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
     }
+  },
+  "8b87b24d-a17b-4a70-ac44-5d4054658a14": {
+    "cachedAt": "2026-10-17T07:07:14.435973+00:00",
+    "data": {
+      "id": "8b87b24d-a17b-4a70-ac44-5d4054658a14",
+      "name": "Western Australia vs New South Wales, 12th Match, Australia Domestic One-Day Cup 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Oct 24, 06:00 GMT",
+      "venue": "W.A.C.A. Ground, Perth",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T06:00:00",
+      "teams": [
+        "Western Australia",
+        "New South Wales"
+      ],
+      "series_id": "54464f6f-3be4-4730-9ba7-cf77ce0a9ad8"
+    }
+  },
+  "7a614754-d3c7-4690-b8b2-2759ff00a673": {
+    "cachedAt": "2026-10-17T07:07:14.589770+00:00",
+    "data": {
+      "id": "7a614754-d3c7-4690-b8b2-2759ff00a673",
+      "name": "New Zealand vs India, 2nd T20I, India tour of New Zealand 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 24, 07:00 GMT",
+      "venue": "Hagley Oval, Christchurch",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T07:00:00",
+      "teams": [
+        "New Zealand",
+        "India"
+      ],
+      "series_id": "9f0a2527-1508-42b3-9945-4ade13fd4b5a"
+    }
   }
 }
