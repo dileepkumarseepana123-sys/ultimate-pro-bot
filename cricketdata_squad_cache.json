@@ -2922,54 +2922,72 @@
     }
   },
   "20733218-44c7-4ea5-a7d2-e9ddcaa284fd": {
-    "cachedAt": "2026-10-16T19:03:02.182694+00:00",
+    "cachedAt": "2026-10-17T01:09:17.175491+00:00",
     "payload": {
       "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
       "data": [],
       "status": "success",
       "info": {
-        "hitsToday": 27,
+        "hitsToday": 61,
         "hitsUsed": 10,
         "hitsLimit": 100,
         "credits": 0,
-        "server": 9,
-        "queryTime": 15.3711,
+        "server": 5,
+        "queryTime": 12.1134,
         "s": 0,
         "cache": 0
       }
     }
   },
   "9e0c6ba4-e542-40f0-80c5-a90958a518fe": {
-    "cachedAt": "2026-10-16T19:03:04.856967+00:00",
+    "cachedAt": "2026-10-17T01:09:21.391423+00:00",
     "payload": {
       "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
       "data": [],
       "status": "success",
       "info": {
-        "hitsToday": 37,
+        "hitsToday": 71,
         "hitsUsed": 10,
         "hitsLimit": 100,
         "credits": 0,
-        "server": 8,
-        "queryTime": 12.4987,
+        "server": 10,
+        "queryTime": 12.6148,
         "s": 0,
         "cache": 0
       }
     }
   },
   "0b3dc892-fed0-4cf8-92a9-4ffc57a1daba": {
-    "cachedAt": "2026-10-16T19:03:07.701076+00:00",
+    "cachedAt": "2026-10-17T01:09:25.554477+00:00",
     "payload": {
       "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
       "data": [],
       "status": "success",
       "info": {
-        "hitsToday": 47,
+        "hitsToday": 81,
         "hitsUsed": 10,
         "hitsLimit": 100,
         "credits": 0,
-        "server": 8,
-        "queryTime": 12.3005,
+        "server": 12,
+        "queryTime": 12.1258,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "a17316e5-2020-4eb3-94e8-331195dab215": {
+    "cachedAt": "2026-10-17T01:09:29.079596+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 91,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 5,
+        "queryTime": 12.3282,
         "s": 0,
         "cache": 0
       }
