@@ -54452,7 +54452,7 @@
         }
     },
     "act women|brisbane heat women|2026-10-17": {
-        "capturedAt": "2026-10-16T19:03:14.314928+00:00",
+        "capturedAt": "2026-10-17T10:52:59.945684+00:00",
         "matchDate": "2026-10-17",
         "report": {
             "teamA": "Brisbane Heat Women",
@@ -54470,7 +54470,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "22362ccf-58c8-43e7-bbba-07aace5e4043",
             "liveScoreText": "83/10 (17.3) | 86/4 (14.1)",
-            "sourceStatus": "Brisbane Heat Women won by 6 wkts",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -54766,7 +54766,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "act women|melbourne stars women|2026-10-17": {
@@ -55088,7 +55089,7 @@
         }
     },
     "adelaide strikers women|sydney sixers women|2026-10-17": {
-        "capturedAt": "2026-10-17T01:09:40.127072+00:00",
+        "capturedAt": "2026-10-17T10:52:59.945696+00:00",
         "matchDate": "2026-10-17",
         "report": {
             "teamA": "Sydney Sixers Women",
@@ -55106,7 +55107,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/168040/sysw-vs-adsw-14th-match-t20-spring-challenge-2026",
             "cricketDataMatchId": "9e0c6ba4-e542-40f0-80c5-a90958a518fe",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 17, 03:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -55660,11 +55661,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "austria women|romania women|2026-10-17": {
-        "capturedAt": "2026-10-17T01:09:40.127127+00:00",
+        "capturedAt": "2026-10-17T10:52:59.945705+00:00",
         "matchDate": "2026-10-17",
         "report": {
             "teamA": "Romania Women",
@@ -55682,7 +55684,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "0b3dc892-fed0-4cf8-92a9-4ffc57a1daba",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 17, 07:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -56105,7 +56107,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "romania women|sweden women|2026-10-17": {
@@ -56554,7 +56557,7 @@
         }
     },
     "india|west indies 5th t20i m chinnaswamy stadium bengaluru|2026-10-17": {
-        "capturedAt": "2026-10-17T07:08:25.520290+00:00",
+        "capturedAt": "2026-10-17T10:52:59.945643+00:00",
         "matchDate": "2026-10-17",
         "report": {
             "teamA": "India",
@@ -56818,16 +56821,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-17T19:00:00+05:30",
-                "temperature_c": 21.2,
+                "temperature_c": 21.7,
                 "humidity_pct": 93,
-                "dew_point_c": 20.1,
+                "dew_point_c": 20.6,
                 "rain_probability_pct": 88,
-                "precipitation_mm": 3.9,
-                "wind_kmh": 3.6,
+                "precipitation_mm": 8.6,
+                "wind_kmh": 6.8,
                 "dew_risk": "HIGH",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "21.2°C | RH 93% | Rain 88% | Wind 3.6 km/h",
+            "weatherText": "21.7°C | RH 93% | Rain 88% | Wind 6.8 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -56874,7 +56877,7 @@
         }
     },
     "boland|mpumalanga rhinos|2026-10-17": {
-        "capturedAt": "2026-10-17T07:08:25.520306+00:00",
+        "capturedAt": "2026-10-17T10:52:59.945673+00:00",
         "matchDate": "2026-10-17",
         "report": {
             "teamA": "Boland",
@@ -57157,16 +57160,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-17T18:00:00+02:00",
-                "temperature_c": 16.5,
-                "humidity_pct": 70,
-                "dew_point_c": 11.0,
+                "temperature_c": 15.6,
+                "humidity_pct": 72,
+                "dew_point_c": 10.6,
                 "rain_probability_pct": 8,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 14.3,
+                "wind_kmh": 13.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "16.5°C | RH 70% | Rain 8% | Wind 14.3 km/h",
+            "weatherText": "15.6°C | RH 72% | Rain 8% | Wind 13.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "47.37% Chasing Wins",
             "tossTrend": "Historical venue trend",
