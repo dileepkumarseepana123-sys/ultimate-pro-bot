@@ -3126,5 +3126,124 @@
       ],
       "series_id": "9f0a2527-1508-42b3-9945-4ade13fd4b5a"
     }
+  },
+  "c9db38ac-f541-4ae9-b2f3-3f566aa00fd9": {
+    "cachedAt": "2026-10-17T18:55:04.810223+00:00",
+    "data": {
+      "id": "c9db38ac-f541-4ae9-b2f3-3f566aa00fd9",
+      "name": "Romania Women vs Bulgaria Women, 3rd place play-off, ECA Womens European Cup, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 18, 11:00 GMT",
+      "venue": "Moara Vlasiei Cricket Ground, Bucharest, Ilfov County",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T07:00:00",
+      "teams": [
+        "Romania Women",
+        "Bulgaria Women"
+      ],
+      "series_id": "12e5ef6f-1105-4f20-8f6f-36d9f2825ed8"
+    }
+  },
+  "90c709fa-b2fd-49db-97aa-02d890a008a4": {
+    "cachedAt": "2026-10-17T18:55:04.949404+00:00",
+    "data": {
+      "id": "90c709fa-b2fd-49db-97aa-02d890a008a4",
+      "name": "Austria Women vs Sweden Women, Final, ECA Womens European Cup, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 18, 07:00 GMT",
+      "venue": "Moara Vlasiei Cricket Ground, Bucharest, Ilfov County",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T11:00:00",
+      "teams": [
+        "Austria Women",
+        "Sweden Women"
+      ],
+      "series_id": "12e5ef6f-1105-4f20-8f6f-36d9f2825ed8"
+    }
+  },
+  "ae785455-2d6f-4160-a569-088464ebe872": {
+    "cachedAt": "2026-10-17T18:55:05.084729+00:00",
+    "data": {
+      "id": "ae785455-2d6f-4160-a569-088464ebe872",
+      "name": "England Champions vs West Indies Champions, Final, World Championship of Legends 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 18, 15:30 GMT",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-10-18",
+      "dateTimeGMT": "2026-10-18T15:30:00",
+      "teams": [
+        "England Champions",
+        "West Indies Champions"
+      ],
+      "series_id": "67b36c31-9495-441c-aece-96f7c3af44f7"
+    }
+  },
+  "3ada9f3e-8e32-4f49-80d5-0f915e19d3fd": {
+    "cachedAt": "2026-10-17T18:55:05.224347+00:00",
+    "data": {
+      "id": "3ada9f3e-8e32-4f49-80d5-0f915e19d3fd",
+      "name": "Namibia vs Ireland, 2nd ODI, Ireland tour of Namibia, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 24, 08:00 GMT",
+      "venue": "Namibia Cricket Ground,  Windhoek",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T08:00:00",
+      "teams": [
+        "Namibia",
+        "Ireland"
+      ],
+      "series_id": "ac09b782-bac3-4861-971a-5559a4703507"
+    }
+  },
+  "41b3c2d0-5897-4e56-b8c7-d3116afb6ab3": {
+    "cachedAt": "2026-10-17T18:55:05.359299+00:00",
+    "data": {
+      "id": "41b3c2d0-5897-4e56-b8c7-d3116afb6ab3",
+      "name": "Uganda vs Mozambique, 10th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 24, 09:00 GMT",
+      "venue": "Nigeria Cricket Federation Oval 2, Abuja",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T09:00:00",
+      "teams": [
+        "Uganda",
+        "Mozambique"
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
+    }
+  },
+  "5794e291-c7ff-4542-8835-792bc4e06911": {
+    "cachedAt": "2026-10-17T18:55:05.495720+00:00",
+    "data": {
+      "id": "5794e291-c7ff-4542-8835-792bc4e06911",
+      "name": "Lesotho vs Nigeria, 12th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 24, 13:00 GMT",
+      "venue": "Nigeria Cricket Federation Oval 2, Abuja",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T13:00:00",
+      "teams": [
+        "Lesotho",
+        "Nigeria"
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
+    }
+  },
+  "5a8024c3-e727-421b-bceb-3c47644fb1ba": {
+    "cachedAt": "2026-10-17T18:55:05.628433+00:00",
+    "data": {
+      "id": "5a8024c3-e727-421b-bceb-3c47644fb1ba",
+      "name": "Gambia vs Zambia, 11th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 24, 13:00 GMT",
+      "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T13:00:00",
+      "teams": [
+        "Gambia",
+        "Zambia"
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
+    }
   }
 }
