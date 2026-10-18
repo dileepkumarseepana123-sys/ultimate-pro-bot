@@ -3100,5 +3100,23 @@
         "cache": 0
       }
     }
+  },
+  "c6a8495a-4a09-4aec-b835-53847349ad00": {
+    "cachedAt": "2026-10-18T20:57:58.013213+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 22,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 12,
+        "queryTime": 11.2853,
+        "s": 0,
+        "cache": 0
+      }
+    }
   }
 }

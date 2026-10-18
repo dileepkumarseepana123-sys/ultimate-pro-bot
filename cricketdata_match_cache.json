@@ -3262,5 +3262,140 @@
       ],
       "series_id": "b1b67dd4-aeba-4f70-9a23-257a6da73d88"
     }
+  },
+  "05595be9-f139-4b20-929c-4a1466b0dda0": {
+    "cachedAt": "2026-10-18T20:57:55.186258+00:00",
+    "data": {
+      "id": "05595be9-f139-4b20-929c-4a1466b0dda0",
+      "name": "Sydney Thunder Women vs Sydney Sixers Women, Semi Final 2, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 20, 03:30 GMT",
+      "venue": "Cricket Central, Sydney",
+      "date": "2026-10-20",
+      "dateTimeGMT": "2026-10-20T03:30:00",
+      "teams": [
+        "Sydney Thunder Women",
+        "Sydney Sixers Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "c3bc5cf4-b0cb-4264-a91a-eaa17300c71e": {
+    "cachedAt": "2026-10-18T20:57:55.352972+00:00",
+    "data": {
+      "id": "c3bc5cf4-b0cb-4264-a91a-eaa17300c71e",
+      "name": "Adelaide Strikers Women vs Perth Scorchers Women, Semi Final 1, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 20, 23:00 GMT",
+      "venue": "Cricket Central, Sydney",
+      "date": "2026-10-20",
+      "dateTimeGMT": "2026-10-20T23:00:00",
+      "teams": [
+        "Adelaide Strikers Women",
+        "Perth Scorchers Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "f84461ef-5c14-46dd-bbfc-bd0e4b5be54d": {
+    "cachedAt": "2026-10-18T20:57:55.522371+00:00",
+    "data": {
+      "id": "f84461ef-5c14-46dd-bbfc-bd0e4b5be54d",
+      "name": "Tasmania vs Victoria, 11th Match, Australia Domestic One-Day Cup 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Oct 24, 23:30 GMT",
+      "venue": "Bellerive Oval, Hobart",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T23:30:00",
+      "teams": [
+        "Tasmania",
+        "Victoria"
+      ],
+      "series_id": "54464f6f-3be4-4730-9ba7-cf77ce0a9ad8"
+    }
+  },
+  "f542502b-a537-46a6-8dbd-48eeaedd4d90": {
+    "cachedAt": "2026-10-18T20:57:55.687016+00:00",
+    "data": {
+      "id": "f542502b-a537-46a6-8dbd-48eeaedd4d90",
+      "name": "Pakistan vs England, 4th Match, Pakistan ODI Tri-Series, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 25, 08:00 GMT",
+      "venue": "Gaddafi Stadium, Lahore",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T08:00:00",
+      "teams": [
+        "Pakistan",
+        "England"
+      ],
+      "series_id": "4ae8cc66-cc9c-4e5f-b404-3bdc1e9a3a54"
+    }
+  },
+  "bb9378ae-85dd-4513-85ef-069c87305750": {
+    "cachedAt": "2026-10-18T20:57:55.850758+00:00",
+    "data": {
+      "id": "bb9378ae-85dd-4513-85ef-069c87305750",
+      "name": "India Women vs Zimbabwe Women, 2nd ODI, Zimbabwe Women tour of India 2026",
+      "status": "Match starts at Oct 25, 08:30 GMT",
+      "venue": "BCA Stadium, Kotambi, Vadodara",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T08:30:00",
+      "teams": [
+        "India Women",
+        "Zimbabwe Women"
+      ],
+      "series_id": "88529516-4e91-432b-b99b-1fdb57ffa1b7"
+    }
+  },
+  "e682ab1e-322e-4b18-897c-8e27783c477a": {
+    "cachedAt": "2026-10-18T20:57:56.015677+00:00",
+    "data": {
+      "id": "e682ab1e-322e-4b18-897c-8e27783c477a",
+      "name": "Mozambique vs Zambia, 14th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 25, 09:00 GMT",
+      "venue": "Nigeria Cricket Federation Oval 2, Abuja",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T09:00:00",
+      "teams": [
+        "Mozambique",
+        "Zambia"
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
+    }
+  },
+  "6207c60f-7d82-4bd7-99df-53d4cc8e7df1": {
+    "cachedAt": "2026-10-18T20:57:56.180996+00:00",
+    "data": {
+      "id": "6207c60f-7d82-4bd7-99df-53d4cc8e7df1",
+      "name": "Gambia vs Lesotho, 13th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 25, 09:00 GMT",
+      "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T09:00:00",
+      "teams": [
+        "Gambia",
+        "Lesotho"
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
+    }
+  },
+  "5180605d-f5d1-47b4-9dae-8afd67c40bce": {
+    "cachedAt": "2026-10-18T20:57:56.345822+00:00",
+    "data": {
+      "id": "5180605d-f5d1-47b4-9dae-8afd67c40bce",
+      "name": "Nigeria vs Uganda, 15th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 25, 13:00 GMT",
+      "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T13:00:00",
+      "teams": [
+        "Nigeria",
+        "Uganda"
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
+    }
   }
 }
