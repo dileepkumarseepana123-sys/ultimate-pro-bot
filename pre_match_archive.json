@@ -57229,7 +57229,7 @@
         }
     },
     "hobart hurricanes women|perth scorchers women|2026-10-18": {
-        "capturedAt": "2026-10-17T18:55:36.377282+00:00",
+        "capturedAt": "2026-10-18T10:52:27.374899+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "Hobart Hurricanes Women",
@@ -57247,7 +57247,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "b1d8353a-d38a-4bee-8b3c-d7a5900787a5",
             "liveScoreText": "136/5 (20) | 166/8 (20)",
-            "sourceStatus": "Perth Scorchers Women won by 30 runs",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -57801,11 +57801,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "melbourne renegades women|sydney thunder women|2026-10-18": {
-        "capturedAt": "2026-10-17T18:55:36.377317+00:00",
+        "capturedAt": "2026-10-18T10:52:27.374922+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "Sydney Thunder Women",
@@ -57823,7 +57824,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "ca3ea10f-2148-4319-8461-7d3b90556a24",
             "liveScoreText": "121/9 (20) | 122/5 (18.5)",
-            "sourceStatus": "Sydney Thunder Women won by 5 wkts",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -58348,11 +58349,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Melbourne Renegades Women has a slight edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "Melbourne Renegades Women has a slight edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "adelaide strikers women|brisbane heat women|2026-10-18": {
-        "capturedAt": "2026-10-18T01:10:26.548155+00:00",
+        "capturedAt": "2026-10-18T10:52:27.374935+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "Brisbane Heat Women",
@@ -58370,7 +58372,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/168051/brhw-vs-adsw-16th-match-t20-spring-challenge-2026",
             "cricketDataMatchId": "f9408470-d38d-4abf-81ed-712f5bb1b5df",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 18, 03:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -58896,7 +58898,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Adelaide Strikers Women has a strong edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "Adelaide Strikers Women has a strong edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "perth scorchers women|sydney thunder women|2026-10-18": {
@@ -59476,7 +59479,7 @@
         }
     },
     "bulgaria women|romania women|2026-10-18": {
-        "capturedAt": "2026-10-18T01:10:26.548223+00:00",
+        "capturedAt": "2026-10-18T10:52:27.374946+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "Romania Women",
@@ -59494,7 +59497,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "c9db38ac-f541-4ae9-b2f3-3f566aa00fd9",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 18, 11:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -59934,7 +59937,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Romania Women has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Romania Women has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "melbourne stars women|sydney sixers women|2026-10-18": {
@@ -60514,7 +60518,7 @@
         }
     },
     "australia women|new zealand women|2026-10-18": {
-        "capturedAt": "2026-10-18T07:07:15.898862+00:00",
+        "capturedAt": "2026-10-18T10:52:27.374957+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "Australia Women",
@@ -60532,7 +60536,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "96c28c45-810b-4794-984e-e5207b34dfa3",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 18, 08:15 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -61087,7 +61091,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Australia Women has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Australia Women has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "australia women|bangladesh women|2026-10-18": {
@@ -62072,7 +62077,7 @@
         }
     },
     "india women|zimbabwe women|2026-10-18": {
-        "capturedAt": "2026-10-18T07:07:15.898941+00:00",
+        "capturedAt": "2026-10-18T10:52:27.374968+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "India Women",
@@ -62090,7 +62095,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "85f911c5-a5e8-465b-90af-c601fce75012",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 18, 13:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -62519,11 +62524,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "India Women has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "India Women has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "england champions|west indies champions|2026-10-18": {
-        "capturedAt": "2026-10-18T07:07:15.898964+00:00",
+        "capturedAt": "2026-10-18T10:52:27.374979+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "England Champions",
@@ -62541,7 +62547,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "ae785455-2d6f-4160-a569-088464ebe872",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 18, 15:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -62775,7 +62781,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "australia women|new zealand women 1st t20i north sydney oval sydney|2026-10-18": {
@@ -63094,7 +63101,7 @@
         }
     },
     "knights|south africa emerging players|2026-10-18": {
-        "capturedAt": "2026-10-18T07:07:15.898980+00:00",
+        "capturedAt": "2026-10-18T10:52:27.374991+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "South Africa Emerging Players",
@@ -63425,7 +63432,7 @@
         }
     },
     "lions|northern cape|2026-10-18": {
-        "capturedAt": "2026-10-18T07:07:15.898986+00:00",
+        "capturedAt": "2026-10-18T10:52:27.375026+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "Lions",

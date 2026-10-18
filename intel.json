@@ -2,8 +2,8 @@
     "last_updated": "2026-10-18T07:07:15.960505+00:00",
     "scanner_status": {
         "state": "OK",
-        "stale": false,
-        "message": "Fresh scan completed."
+        "stale": true,
+        "message": "Fresh scan completed. Preserving earlier same-day report."
     },
     "source": {
         "primary": "CricketData cricScore + currentMatches + cached match_info",
@@ -20,26 +20,24 @@
         "daily_limit_user_reported": 100,
         "max_match_list_calls_per_run": 2,
         "cricscore_calls_this_run": 1,
-        "current_matches_calls_this_run": 1,
-        "match_list_calls_this_run": 2,
+        "current_matches_calls_this_run": 0,
+        "match_list_calls_this_run": 0,
         "match_info_calls_this_run": 0,
-        "match_info_cache_hits_this_run": 116,
-        "match_info_enriched_rows": 116,
+        "match_info_cache_hits_this_run": 0,
+        "match_info_enriched_rows": 0,
         "match_info_cache_size": 193,
         "max_match_info_lookups_per_run": 8,
         "squad_calls_this_run": 0,
         "squad_cache_hits_this_run": 0,
         "squad_cache_size": 30,
         "endpoint_calls_this_run": {
-            "cricScore": 1,
-            "currentMatches": 1,
-            "matches": 2
+            "cricScore": 1
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 100,
+        "hits_today_reported": 101,
         "hits_limit_reported": 100,
         "quota_exhausted": true,
-        "api_last_error": null
+        "api_last_error": "hits today exceeded hits limit"
     },
     "rules": {
         "standard_t20_only": true,
@@ -9654,5 +9652,28 @@
             "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
             "archivedOnly": true
         }
-    ]
+    ],
+    "last_checked": "2026-10-18T10:52:27.445420+00:00",
+    "discovery_last_attempt": {
+        "live_text_relay_rows": 0,
+        "schedule_text_relay_rows": 0,
+        "text_relay_rows": 0,
+        "text_relay_t20_rows": 0,
+        "text_relay_today_t20_rows": 0,
+        "text_relay_match_url_rows": 0,
+        "text_relay_time_enriched_rows": 0,
+        "final_reports_with_known_time": 9,
+        "final_reports_with_weather": 9,
+        "current_matches_rows": 0,
+        "current_matches_t20_rows": 0,
+        "current_matches_today_t20_rows": 0,
+        "cricscore_rows": 0,
+        "cricscore_t20_rows": 0,
+        "cricscore_today_t20_rows": 0,
+        "cricketdata_rows": 0,
+        "cricketdata_t20_rows": 0,
+        "cricketdata_today_t20_rows": 0,
+        "merged_candidates": 0,
+        "final_reports": 9
+    }
 }
