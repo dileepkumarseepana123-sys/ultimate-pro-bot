@@ -3245,5 +3245,22 @@
       ],
       "series_id": "73da12b0-33ea-455a-a891-ca61733e741d"
     }
+  },
+  "aa5a7ee5-117f-4cfe-bf6f-81f3aa749e66": {
+    "cachedAt": "2026-10-18T01:08:24.693537+00:00",
+    "data": {
+      "id": "aa5a7ee5-117f-4cfe-bf6f-81f3aa749e66",
+      "name": "New Zealand A vs India A, 1st Unofficial Test, India A tour of New Zealand, 2026",
+      "matchType": "test",
+      "status": "Match starts at Oct 24, 21:30 GMT",
+      "venue": "Bert Sutcliffe Oval, Lincoln",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T21:30:00",
+      "teams": [
+        "New Zealand A",
+        "India A"
+      ],
+      "series_id": "b1b67dd4-aeba-4f70-9a23-257a6da73d88"
+    }
   }
 }

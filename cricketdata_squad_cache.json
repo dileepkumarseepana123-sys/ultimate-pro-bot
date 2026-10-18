@@ -3030,36 +3030,72 @@
     }
   },
   "f9408470-d38d-4abf-81ed-712f5bb1b5df": {
-    "cachedAt": "2026-10-17T18:55:12.554282+00:00",
+    "cachedAt": "2026-10-18T01:09:59.157278+00:00",
     "payload": {
       "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
       "data": [],
       "status": "success",
       "info": {
-        "hitsToday": 41,
+        "hitsToday": 66,
         "hitsUsed": 10,
         "hitsLimit": 100,
         "credits": 0,
-        "server": 7,
-        "queryTime": 38.0865,
+        "server": 3,
+        "queryTime": 12.1406,
         "s": 0,
         "cache": 0
       }
     }
   },
   "05903d08-e78f-4ad8-b313-0b051277cbba": {
-    "cachedAt": "2026-10-17T18:55:14.762000+00:00",
+    "cachedAt": "2026-10-18T01:10:00.960211+00:00",
     "payload": {
       "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
       "data": [],
       "status": "success",
       "info": {
-        "hitsToday": 51,
+        "hitsToday": 76,
         "hitsUsed": 10,
         "hitsLimit": 100,
         "credits": 0,
-        "server": 5,
-        "queryTime": 53.4952,
+        "server": 12,
+        "queryTime": 12.5058,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "c9db38ac-f541-4ae9-b2f3-3f566aa00fd9": {
+    "cachedAt": "2026-10-18T01:10:02.902760+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 86,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 9,
+        "queryTime": 14.2266,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "8c040459-ed9f-4e4c-a16a-b75f38e769e2": {
+    "cachedAt": "2026-10-18T01:10:05.798642+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 96,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 11,
+        "queryTime": 18.0636,
         "s": 0,
         "cache": 0
       }
