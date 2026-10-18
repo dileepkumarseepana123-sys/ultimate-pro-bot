@@ -59938,7 +59938,7 @@
         }
     },
     "melbourne stars women|sydney sixers women|2026-10-18": {
-        "capturedAt": "2026-10-18T01:10:26.548246+00:00",
+        "capturedAt": "2026-10-18T07:07:15.898820+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "Sydney Sixers Women",
@@ -59952,8 +59952,8 @@
             "indiaDate": "2026-10-18",
             "series": "T20 Spring Challenge 2026",
             "sourceName": "CricketData cricScore + match_info",
-            "supplementalSourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/168070/sysw-vs-mlsw-18th-match-t20-spring-challenge-2026",
+            "supplementalSourceName": null,
+            "sourceMatchUrl": null,
             "cricketDataMatchId": "8c040459-ed9f-4e4c-a16a-b75f38e769e2",
             "liveScoreText": null,
             "sourceStatus": "Match starts at Oct 18, 08:00 GMT",
@@ -60514,7 +60514,7 @@
         }
     },
     "australia women|new zealand women|2026-10-18": {
-        "capturedAt": "2026-10-18T01:10:26.548273+00:00",
+        "capturedAt": "2026-10-18T07:07:15.898862+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "Australia Women",
@@ -60528,8 +60528,8 @@
             "indiaDate": "2026-10-18",
             "series": "New Zealand Women tour of Australia, 2026",
             "sourceName": "CricketData cricScore + match_info",
-            "supplementalSourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/151251/ausw-vs-nzw-1st-t20i-new-zealand-women-tour-of-australia-2026",
+            "supplementalSourceName": null,
+            "sourceMatchUrl": null,
             "cricketDataMatchId": "96c28c45-810b-4794-984e-e5207b34dfa3",
             "liveScoreText": null,
             "sourceStatus": "Match starts at Oct 18, 08:15 GMT",
@@ -61091,7 +61091,7 @@
         }
     },
     "australia women|bangladesh women|2026-10-18": {
-        "capturedAt": "2026-10-18T01:10:26.548301+00:00",
+        "capturedAt": "2026-10-18T07:07:15.898891+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "Australia Women",
@@ -61105,8 +61105,8 @@
             "indiaDate": "2026-10-18",
             "series": "Bangladesh Women tour of Australia, 2026",
             "sourceName": "CricketData cricScore + match_info",
-            "supplementalSourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/151251/ausw-vs-nzw-1st-t20i-new-zealand-women-tour-of-australia-2026",
+            "supplementalSourceName": null,
+            "sourceMatchUrl": null,
             "cricketDataMatchId": "3024d407-3fa8-4114-866f-03fc36f5f032",
             "liveScoreText": null,
             "sourceStatus": "Match starts at Oct 18, 08:15 GMT",
@@ -61620,7 +61620,7 @@
         }
     },
     "austria women|sweden women|2026-10-18": {
-        "capturedAt": "2026-10-18T01:10:26.548326+00:00",
+        "capturedAt": "2026-10-18T07:07:15.898918+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "Austria Women",
@@ -62009,15 +62009,15 @@
                 "status": "OK",
                 "local_time": "2026-10-18T14:00:00+03:00",
                 "temperature_c": 15.9,
-                "humidity_pct": 60,
-                "dew_point_c": 8.1,
+                "humidity_pct": 63,
+                "dew_point_c": 8.9,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 11.2,
+                "wind_kmh": 11.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "15.9°C | RH 60% | Rain 0% | Wind 11.2 km/h",
+            "weatherText": "15.9°C | RH 63% | Rain 0% | Wind 11.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "51.06% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -62072,7 +62072,7 @@
         }
     },
     "india women|zimbabwe women|2026-10-18": {
-        "capturedAt": "2026-10-18T01:10:26.548348+00:00",
+        "capturedAt": "2026-10-18T07:07:15.898941+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "India Women",
@@ -62086,8 +62086,8 @@
             "indiaDate": "2026-10-18",
             "series": "Zimbabwe Women tour of India, 2026",
             "sourceName": "CricketData cricScore + match_info",
-            "supplementalSourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/155530/indw-vs-zimw-2nd-t20i-zimbabwe-women-tour-of-india-2026",
+            "supplementalSourceName": null,
+            "sourceMatchUrl": null,
             "cricketDataMatchId": "85f911c5-a5e8-465b-90af-c601fce75012",
             "liveScoreText": null,
             "sourceStatus": "Match starts at Oct 18, 13:30 GMT",
@@ -62202,12 +62202,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -62523,7 +62523,7 @@
         }
     },
     "england champions|west indies champions|2026-10-18": {
-        "capturedAt": "2026-10-18T01:10:26.548370+00:00",
+        "capturedAt": "2026-10-18T07:07:15.898964+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "England Champions",
@@ -62641,12 +62641,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -62712,15 +62712,15 @@
                 "status": "OK",
                 "local_time": "2026-10-18T19:30:00+04:00",
                 "temperature_c": 31.4,
-                "humidity_pct": 75,
-                "dew_point_c": 26.4,
+                "humidity_pct": 78,
+                "dew_point_c": 27.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 6.3,
+                "wind_kmh": 6.5,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "31.4°C | RH 75% | Rain 0% | Wind 6.3 km/h",
+            "weatherText": "31.4°C | RH 78% | Rain 0% | Wind 6.5 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "59.59% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -63094,7 +63094,7 @@
         }
     },
     "knights|south africa emerging players|2026-10-18": {
-        "capturedAt": "2026-10-18T01:10:26.548391+00:00",
+        "capturedAt": "2026-10-18T07:07:15.898980+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "South Africa Emerging Players",
@@ -63112,7 +63112,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173407/saep-vs-kng-pool-b-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -63420,11 +63420,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "lions|northern cape|2026-10-18": {
-        "capturedAt": "2026-10-18T01:10:26.548398+00:00",
+        "capturedAt": "2026-10-18T07:07:15.898986+00:00",
         "matchDate": "2026-10-18",
         "report": {
             "teamA": "Lions",
@@ -63442,7 +63443,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173387/lions-vs-ncape-pool-a-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -63770,7 +63771,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "india women|zimbabwe women 2nd t20i shaheed veer narayan singh international stadium raipur|2026-10-18": {
