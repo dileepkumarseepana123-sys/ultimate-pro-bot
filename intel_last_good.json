@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-19T05:03:50.841378+00:00",
+    "last_updated": "2026-10-19T13:47:57.853601+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -23,9 +23,9 @@
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
         "match_info_calls_this_run": 8,
-        "match_info_cache_hits_this_run": 112,
-        "match_info_enriched_rows": 120,
-        "match_info_cache_size": 209,
+        "match_info_cache_hits_this_run": 120,
+        "match_info_enriched_rows": 128,
+        "match_info_cache_size": 217,
         "max_match_info_lookups_per_run": 8,
         "squad_calls_this_run": 0,
         "squad_cache_hits_this_run": 0,
@@ -37,7 +37,7 @@
             "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 34,
+        "hits_today_reported": 46,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -68,7 +68,7 @@
         "final_reports_with_known_time": 1,
         "final_reports_with_weather": 1,
         "current_matches_rows": 25,
-        "current_matches_t20_rows": 21,
+        "current_matches_t20_rows": 19,
         "current_matches_today_t20_rows": 1,
         "cricscore_rows": 131,
         "cricscore_t20_rows": 63,
@@ -890,7 +890,7 @@
                 "edgeScore": -2.84,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 14%, dew LOW"
+                    "Weather: rain 16%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Melbourne Renegades Women 1480.9 vs Hobart Hurricanes Women 1525.0",
@@ -1129,13 +1129,13 @@
                 "temperature_c": 19.4,
                 "humidity_pct": 64,
                 "dew_point_c": 12.5,
-                "rain_probability_pct": 14,
+                "rain_probability_pct": 16,
                 "precipitation_mm": 0.1,
                 "wind_kmh": 4.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "19.4°C | RH 64% | Rain 14% | Wind 4.0 km/h",
+            "weatherText": "19.4°C | RH 64% | Rain 16% | Wind 4.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",

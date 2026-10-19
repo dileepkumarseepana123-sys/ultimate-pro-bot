@@ -3533,5 +3533,141 @@
       ],
       "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
     }
+  },
+  "e345c757-7188-4919-ae69-ab9ea3080450": {
+    "cachedAt": "2026-10-19T13:47:09.673459+00:00",
+    "data": {
+      "id": "e345c757-7188-4919-ae69-ab9ea3080450",
+      "name": "Maharashtra vs Gujarat, Elite Group C, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 26, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-26",
+      "dateTimeGMT": "2026-10-26T04:00:00",
+      "teams": [
+        "Maharashtra",
+        "Gujarat"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "98b91192-0034-4613-8873-a20a2e60d3d8": {
+    "cachedAt": "2026-10-19T13:47:09.815388+00:00",
+    "data": {
+      "id": "98b91192-0034-4613-8873-a20a2e60d3d8",
+      "name": "Jharkhand vs Delhi, Elite Group C, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 26, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-26",
+      "dateTimeGMT": "2026-10-26T04:00:00",
+      "teams": [
+        "Jharkhand",
+        "Delhi"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "eec77188-4705-4751-9071-a01b947fef41": {
+    "cachedAt": "2026-10-19T13:47:09.953801+00:00",
+    "data": {
+      "id": "eec77188-4705-4751-9071-a01b947fef41",
+      "name": "Manipur vs Meghalaya, Plate, Ranji Trophy Plate 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 26, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-26",
+      "dateTimeGMT": "2026-10-26T04:00:00",
+      "teams": [
+        "Manipur",
+        "Meghalaya"
+      ],
+      "series_id": "df672a9f-a5eb-4526-901c-1a5e1d7d84a4"
+    }
+  },
+  "3a6722ec-4d79-4d4b-9aa0-97b5d8372ff5": {
+    "cachedAt": "2026-10-19T13:47:10.092406+00:00",
+    "data": {
+      "id": "3a6722ec-4d79-4d4b-9aa0-97b5d8372ff5",
+      "name": "Vidarbha vs Goa, Elite Group A, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 26, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-26",
+      "dateTimeGMT": "2026-10-26T04:00:00",
+      "teams": [
+        "Vidarbha",
+        "Goa"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "e39bbfa5-ccaa-4f9a-a64d-76602df67498": {
+    "cachedAt": "2026-10-19T13:47:10.229999+00:00",
+    "data": {
+      "id": "e39bbfa5-ccaa-4f9a-a64d-76602df67498",
+      "name": "Chhattisgarh vs Andhra, Elite Group B, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 26, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-26",
+      "dateTimeGMT": "2026-10-26T04:00:00",
+      "teams": [
+        "Chhattisgarh",
+        "Andhra"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "c81a306a-824b-48de-8229-76536188098a": {
+    "cachedAt": "2026-10-19T13:47:10.368990+00:00",
+    "data": {
+      "id": "c81a306a-824b-48de-8229-76536188098a",
+      "name": "Saurashtra vs Assam, Elite Group B, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 26, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-26",
+      "dateTimeGMT": "2026-10-26T04:00:00",
+      "teams": [
+        "Saurashtra",
+        "Assam"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "e8adf8e6-a334-4fce-88b6-58e5ca825e8e": {
+    "cachedAt": "2026-10-19T13:47:10.507215+00:00",
+    "data": {
+      "id": "e8adf8e6-a334-4fce-88b6-58e5ca825e8e",
+      "name": "Manipur vs Arunachal Pradesh, Plate, Ranji Trophy Plate 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 26, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-26",
+      "dateTimeGMT": "2026-10-26T04:00:00",
+      "teams": [
+        "Manipur",
+        "Arunachal Pradesh"
+      ],
+      "series_id": "df672a9f-a5eb-4526-901c-1a5e1d7d84a4"
+    }
+  },
+  "4e5de3ad-9b5f-4c05-ab6c-406d91e828f8": {
+    "cachedAt": "2026-10-19T13:47:10.646158+00:00",
+    "data": {
+      "id": "4e5de3ad-9b5f-4c05-ab6c-406d91e828f8",
+      "name": "Uttarakhand vs Rajasthan, Elite Group D, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 26, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-26",
+      "dateTimeGMT": "2026-10-26T04:00:00",
+      "teams": [
+        "Uttarakhand",
+        "Rajasthan"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
   }
 }
