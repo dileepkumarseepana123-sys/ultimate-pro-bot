@@ -3669,5 +3669,56 @@
       ],
       "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
     }
+  },
+  "d985de69-d18b-471d-a8bf-3addf63de691": {
+    "cachedAt": "2026-10-19T20:41:24.289932+00:00",
+    "data": {
+      "id": "d985de69-d18b-471d-a8bf-3addf63de691",
+      "name": "Puducherry vs Uttar Pradesh, Elite Group A, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 26, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-26",
+      "dateTimeGMT": "2026-10-26T04:00:00",
+      "teams": [
+        "Puducherry",
+        "Uttar Pradesh"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "c50b039e-0781-41c9-811e-373ef480c314": {
+    "cachedAt": "2026-10-19T20:41:24.464058+00:00",
+    "data": {
+      "id": "c50b039e-0781-41c9-811e-373ef480c314",
+      "name": "Tamil Nadu vs Railways, Elite Group D, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 26, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-26",
+      "dateTimeGMT": "2026-10-26T04:00:00",
+      "teams": [
+        "Tamil Nadu",
+        "Railways"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "0110998a-5b40-4188-9fb2-172e8c5d9ea8": {
+    "cachedAt": "2026-10-19T20:41:24.637552+00:00",
+    "data": {
+      "id": "0110998a-5b40-4188-9fb2-172e8c5d9ea8",
+      "name": "Baroda vs Jammu And Kashmir, Elite Group A, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 26, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-26",
+      "dateTimeGMT": "2026-10-26T04:00:00",
+      "teams": [
+        "Baroda",
+        "Jammu And Kashmir"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
   }
 }
