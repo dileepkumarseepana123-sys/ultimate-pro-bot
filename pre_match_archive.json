@@ -64676,7 +64676,7 @@
         }
     },
     "sydney sixers women|sydney thunder women|2026-10-20": {
-        "capturedAt": "2026-10-19T20:43:32.150408+00:00",
+        "capturedAt": "2026-10-20T17:26:57.636146+00:00",
         "matchDate": "2026-10-20",
         "report": {
             "teamA": "Sydney Thunder Women",
@@ -64694,7 +64694,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/168090/sytw-vs-sysw-semi-final-2-t20-spring-challenge-2026",
             "cricketDataMatchId": "05595be9-f139-4b20-929c-4a1466b0dda0",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 20, 03:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -65219,11 +65219,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Sydney Sixers Women has a moderate edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "Sydney Sixers Women has a moderate edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "australia women|new zealand women|2026-10-20": {
-        "capturedAt": "2026-10-20T05:07:58.884388+00:00",
+        "capturedAt": "2026-10-20T17:26:57.636164+00:00",
         "matchDate": "2026-10-20",
         "report": {
             "teamA": "Australia Women",
@@ -65241,7 +65242,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/151262/ausw-vs-nzw-2nd-t20i-new-zealand-women-tour-of-australia-2026",
             "cricketDataMatchId": "2e5ee6e9-511f-434e-b794-9d3a792e2a6e",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 20, 08:15 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -65796,7 +65797,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Australia Women has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Australia Women has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "australia women|bangladesh women|2026-10-20": {
@@ -66329,7 +66331,7 @@
         }
     },
     "uganda|zambia|2026-10-20": {
-        "capturedAt": "2026-10-20T05:07:58.884442+00:00",
+        "capturedAt": "2026-10-20T17:26:57.636174+00:00",
         "matchDate": "2026-10-20",
         "report": {
             "teamA": "Uganda",
@@ -66347,7 +66349,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173941/uga-vs-zmb-1st-match-icc-mens-t20-world-cup-africa-sub-regional-qualifier-c-2026",
             "cricketDataMatchId": "63c4305e-f2ff-4052-a425-76c903a0dfce",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 20, 09:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -66781,7 +66783,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Uganda has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Uganda has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "gambia|nigeria|2026-10-20": {
@@ -67747,7 +67750,7 @@
         }
     },
     "india women|zimbabwe women|2026-10-20": {
-        "capturedAt": "2026-10-20T11:58:51.784125+00:00",
+        "capturedAt": "2026-10-20T17:26:57.636184+00:00",
         "matchDate": "2026-10-20",
         "report": {
             "teamA": "India Women",
@@ -67765,7 +67768,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/155541/indw-vs-zimw-3rd-t20i-zimbabwe-women-tour-of-india-2026",
             "cricketDataMatchId": "7ef2a3f0-c9f5-402a-9417-078e9d583d6e",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 20, 13:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -68194,7 +68197,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "India Women has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "India Women has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "australia women|new zealand women 2nd t20i north sydney oval sydney|2026-10-20": {
