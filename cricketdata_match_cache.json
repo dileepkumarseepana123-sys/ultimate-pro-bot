@@ -3804,5 +3804,22 @@
       ],
       "series_id": "0c2de514-946a-4b55-a6e3-4d1d6e892459"
     }
+  },
+  "1950e564-6c89-4a51-bd21-4b7413137434": {
+    "cachedAt": "2026-10-20T21:48:04.250036+00:00",
+    "data": {
+      "id": "1950e564-6c89-4a51-bd21-4b7413137434",
+      "name": "Afghanistan vs Zimbabwe, 1st T20I, Afghanistan vs Zimbabwe in UAE, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 27, 14:30 GMT",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-10-27",
+      "dateTimeGMT": "2026-10-27T14:30:00",
+      "teams": [
+        "Afghanistan",
+        "Zimbabwe"
+      ],
+      "series_id": "7d61737b-c4d8-4f44-b8cb-309ce4d9c57a"
+    }
   }
 }
