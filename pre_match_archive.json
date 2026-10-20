@@ -66785,7 +66785,7 @@
         }
     },
     "gambia|nigeria|2026-10-20": {
-        "capturedAt": "2026-10-20T05:07:58.884461+00:00",
+        "capturedAt": "2026-10-20T11:58:51.784063+00:00",
         "matchDate": "2026-10-20",
         "report": {
             "teamA": "Nigeria",
@@ -67173,16 +67173,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-20T14:00:00+01:00",
-                "temperature_c": 29.9,
-                "humidity_pct": 71,
-                "dew_point_c": 24.2,
+                "temperature_c": 27.9,
+                "humidity_pct": 75,
+                "dew_point_c": 23.1,
                 "rain_probability_pct": 15,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 2.4,
+                "precipitation_mm": 0.3,
+                "wind_kmh": 5.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.9°C | RH 71% | Rain 15% | Wind 2.4 km/h",
+            "weatherText": "27.9°C | RH 75% | Rain 15% | Wind 5.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -67239,7 +67239,7 @@
         }
     },
     "lesotho|mozambique|2026-10-20": {
-        "capturedAt": "2026-10-20T05:07:58.884477+00:00",
+        "capturedAt": "2026-10-20T11:58:51.784098+00:00",
         "matchDate": "2026-10-20",
         "report": {
             "teamA": "Lesotho",
@@ -67681,16 +67681,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-20T14:00:00+01:00",
-                "temperature_c": 29.9,
-                "humidity_pct": 71,
-                "dew_point_c": 24.2,
+                "temperature_c": 27.9,
+                "humidity_pct": 75,
+                "dew_point_c": 23.1,
                 "rain_probability_pct": 15,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 2.4,
+                "precipitation_mm": 0.3,
+                "wind_kmh": 5.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.9°C | RH 71% | Rain 15% | Wind 2.4 km/h",
+            "weatherText": "27.9°C | RH 75% | Rain 15% | Wind 5.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -67747,7 +67747,7 @@
         }
     },
     "india women|zimbabwe women|2026-10-20": {
-        "capturedAt": "2026-10-20T05:07:58.884495+00:00",
+        "capturedAt": "2026-10-20T11:58:51.784125+00:00",
         "matchDate": "2026-10-20",
         "report": {
             "teamA": "India Women",
@@ -68132,16 +68132,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-20T19:00:00+05:30",
-                "temperature_c": 26.1,
-                "humidity_pct": 67,
-                "dew_point_c": 19.6,
+                "temperature_c": 26.3,
+                "humidity_pct": 68,
+                "dew_point_c": 20.0,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 6.7,
+                "wind_kmh": 6.5,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.1°C | RH 67% | Rain 0% | Wind 6.7 km/h",
+            "weatherText": "26.3°C | RH 68% | Rain 0% | Wind 6.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "58.33% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -68513,7 +68513,7 @@
         }
     },
     "india women|zimbabwe women 3rd t20i shaheed veer narayan singh international stadium raipur|2026-10-20": {
-        "capturedAt": "2026-10-20T05:07:58.884534+00:00",
+        "capturedAt": "2026-10-20T11:58:51.784156+00:00",
         "matchDate": "2026-10-20",
         "report": {
             "teamA": "India Women",
@@ -68791,16 +68791,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-20T19:00:00+05:30",
-                "temperature_c": 26.1,
-                "humidity_pct": 67,
-                "dew_point_c": 19.6,
+                "temperature_c": 26.3,
+                "humidity_pct": 68,
+                "dew_point_c": 20.0,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 6.7,
+                "wind_kmh": 6.5,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.1°C | RH 67% | Rain 0% | Wind 6.7 km/h",
+            "weatherText": "26.3°C | RH 68% | Rain 0% | Wind 6.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "58.33% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -68858,7 +68858,7 @@
         }
     },
     "dolphins|warriors|2026-10-20": {
-        "capturedAt": "2026-10-20T05:07:58.884549+00:00",
+        "capturedAt": "2026-10-20T11:58:51.784176+00:00",
         "matchDate": "2026-10-20",
         "report": {
             "teamA": "Dolphins",
@@ -69371,16 +69371,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-20T18:00:00+02:00",
-                "temperature_c": 20.6,
+                "temperature_c": 20.4,
                 "humidity_pct": 65,
                 "dew_point_c": 13.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 12.7,
+                "wind_kmh": 11.5,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "20.6°C | RH 65% | Rain 0% | Wind 12.7 km/h",
+            "weatherText": "20.4°C | RH 65% | Rain 0% | Wind 11.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "44.95% Chasing Wins",
             "tossTrend": "Historical venue trend",

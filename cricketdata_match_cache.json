@@ -3720,5 +3720,89 @@
       ],
       "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
     }
+  },
+  "b72a9804-5bb1-4319-8b45-a9598e757982": {
+    "cachedAt": "2026-10-20T11:56:51.980619+00:00",
+    "data": {
+      "id": "b72a9804-5bb1-4319-8b45-a9598e757982",
+      "name": "Perth Scorchers Women vs Sydney Sixers Women, Final, T20 Spring Challenge 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 21, 03:00 GMT",
+      "venue": "Cricket Central, Sydney",
+      "date": "2026-10-21",
+      "dateTimeGMT": "2026-10-21T03:00:00",
+      "teams": [
+        "Perth Scorchers Women",
+        "Sydney Sixers Women"
+      ],
+      "series_id": "681ece25-3cb0-48c6-93ce-29f437cf383a"
+    }
+  },
+  "1962f911-9e43-4b49-9e02-f3ef74b76fe6": {
+    "cachedAt": "2026-10-20T11:56:52.168399+00:00",
+    "data": {
+      "id": "1962f911-9e43-4b49-9e02-f3ef74b76fe6",
+      "name": "New Zealand vs India, 3rd T20I, India tour of New Zealand 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 27, 07:00 GMT",
+      "venue": "Hnry Stadium, Wellington",
+      "date": "2026-10-27",
+      "dateTimeGMT": "2026-10-27T07:00:00",
+      "teams": [
+        "New Zealand",
+        "India"
+      ],
+      "series_id": "9f0a2527-1508-42b3-9945-4ade13fd4b5a"
+    }
+  },
+  "339bd1c4-ccc3-44ba-9ad3-5dac79401d40": {
+    "cachedAt": "2026-10-20T11:56:52.353724+00:00",
+    "data": {
+      "id": "339bd1c4-ccc3-44ba-9ad3-5dac79401d40",
+      "name": "Namibia vs Ireland, 3rd ODI, Ireland tour of Namibia, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 27, 08:00 GMT",
+      "venue": "High Performance Oval, Windhoek",
+      "date": "2026-10-27",
+      "dateTimeGMT": "2026-10-27T08:00:00",
+      "teams": [
+        "Namibia",
+        "Ireland"
+      ],
+      "series_id": "ac09b782-bac3-4861-971a-5559a4703507"
+    }
+  },
+  "bf282a4a-7348-487c-8b5c-12f2ac3f4237": {
+    "cachedAt": "2026-10-20T11:56:52.535276+00:00",
+    "data": {
+      "id": "bf282a4a-7348-487c-8b5c-12f2ac3f4237",
+      "name": "Pakistan vs Sri Lanka, 5th Match, Pakistan ODI Tri-Series, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 27, 08:00 GMT",
+      "venue": "Gaddafi Stadium, Lahore",
+      "date": "2026-10-27",
+      "dateTimeGMT": "2026-10-27T08:00:00",
+      "teams": [
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "series_id": "4ae8cc66-cc9c-4e5f-b404-3bdc1e9a3a54"
+    }
+  },
+  "e50a9d29-3043-47ef-b9ed-034f79cc6b0b": {
+    "cachedAt": "2026-10-20T11:56:52.721188+00:00",
+    "data": {
+      "id": "e50a9d29-3043-47ef-b9ed-034f79cc6b0b",
+      "name": "South Africa vs Australia, 3rd Test, Australia tour of South Africa, 2026",
+      "status": "Match starts at Oct 27, 08:30 GMT",
+      "venue": "Newlands, Cape Town",
+      "date": "2026-10-27",
+      "dateTimeGMT": "2026-10-27T08:30:00",
+      "teams": [
+        "South Africa",
+        "Australia"
+      ],
+      "series_id": "0c2de514-946a-4b55-a6e3-4d1d6e892459"
+    }
   }
 }
