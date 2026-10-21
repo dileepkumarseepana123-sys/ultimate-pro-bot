@@ -3855,5 +3855,21 @@
       ],
       "series_id": "afc051fd-79b4-4635-8f3a-7cda1dd50f02"
     }
+  },
+  "7dc5c9c9-4924-4e36-a7a2-1f7eda3d5080": {
+    "cachedAt": "2026-10-21T12:10:51.624578+00:00",
+    "data": {
+      "id": "7dc5c9c9-4924-4e36-a7a2-1f7eda3d5080",
+      "name": "India Women vs Zimbabwe Women, 3rd ODI, Zimbabwe Women tour of India 2026",
+      "status": "Match starts at Oct 28, 08:30 GMT",
+      "venue": "BCA Stadium, Kotambi, Vadodara",
+      "date": "2026-10-28",
+      "dateTimeGMT": "2026-10-28T08:30:00",
+      "teams": [
+        "India Women",
+        "Zimbabwe Women"
+      ],
+      "series_id": "88529516-4e91-432b-b99b-1fdb57ffa1b7"
+    }
   }
 }

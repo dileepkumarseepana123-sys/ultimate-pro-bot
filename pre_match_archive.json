@@ -71484,7 +71484,7 @@
         }
     },
     "nigeria|zambia|2026-10-21": {
-        "capturedAt": "2026-10-21T05:09:03.549480+00:00",
+        "capturedAt": "2026-10-21T12:12:46.804844+00:00",
         "matchDate": "2026-10-21",
         "report": {
             "teamA": "Zambia",
@@ -71912,16 +71912,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-21T14:00:00+01:00",
-                "temperature_c": 31.7,
-                "humidity_pct": 53,
-                "dew_point_c": 21.0,
+                "temperature_c": 31.4,
+                "humidity_pct": 57,
+                "dew_point_c": 21.9,
                 "rain_probability_pct": 1,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.6,
+                "wind_kmh": 4.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "31.7°C | RH 53% | Rain 1% | Wind 2.6 km/h",
+            "weatherText": "31.4°C | RH 57% | Rain 1% | Wind 4.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -72236,7 +72236,7 @@
         }
     },
     "limpopo|north west eastvaal renault dragons|2026-10-21": {
-        "capturedAt": "2026-10-21T05:09:03.549524+00:00",
+        "capturedAt": "2026-10-21T12:12:46.804889+00:00",
         "matchDate": "2026-10-21",
         "report": {
             "teamA": "North West - Eastvaal Renault Dragons",
@@ -72519,16 +72519,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-21T18:00:00+02:00",
-                "temperature_c": 24.3,
-                "humidity_pct": 24,
-                "dew_point_c": 2.5,
+                "temperature_c": 23.5,
+                "humidity_pct": 28,
+                "dew_point_c": 4.2,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 11.3,
+                "wind_kmh": 10.3,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "24.3°C | RH 24% | Rain 0% | Wind 11.3 km/h",
+            "weatherText": "23.5°C | RH 28% | Rain 0% | Wind 10.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "46.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
