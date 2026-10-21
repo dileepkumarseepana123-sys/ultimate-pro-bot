@@ -3905,5 +3905,141 @@
       ],
       "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e"
     }
+  },
+  "17cfca64-315b-498b-8009-57996a04342f": {
+    "cachedAt": "2026-10-21T21:53:59.047124+00:00",
+    "data": {
+      "id": "17cfca64-315b-498b-8009-57996a04342f",
+      "name": "Afghanistan vs Zimbabwe, Final, ODI Tri-Nation Series in UAE, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 23, 11:30 GMT",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-10-23",
+      "dateTimeGMT": "2026-10-23T12:00:00",
+      "teams": [
+        "Afghanistan",
+        "Zimbabwe"
+      ],
+      "series_id": "477506b9-5775-4b68-923e-31b79cea03ca"
+    }
+  },
+  "ad69a927-b6f2-4535-95c1-da3fc0203e45": {
+    "cachedAt": "2026-10-21T21:53:59.228427+00:00",
+    "data": {
+      "id": "ad69a927-b6f2-4535-95c1-da3fc0203e45",
+      "name": "Qatar vs Kenya, 35th Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Match starts at Oct 24, 00:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T00:00:00",
+      "teams": [
+        "Qatar",
+        "Kenya"
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e"
+    }
+  },
+  "acaeec1f-8aad-4da1-b938-790780303e0a": {
+    "cachedAt": "2026-10-21T21:53:59.406172+00:00",
+    "data": {
+      "id": "acaeec1f-8aad-4da1-b938-790780303e0a",
+      "name": "Denmark vs Kuwait, 34th Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Match starts at Oct 24, 00:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T00:00:00",
+      "teams": [
+        "Denmark",
+        "Kuwait"
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e"
+    }
+  },
+  "254aac65-a869-4b29-9ba4-4552f19f121f": {
+    "cachedAt": "2026-10-21T21:53:59.588951+00:00",
+    "data": {
+      "id": "254aac65-a869-4b29-9ba4-4552f19f121f",
+      "name": "Denmark vs Papua New Guinea, 37th Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Match starts at Oct 25, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T05:30:00",
+      "teams": [
+        "Denmark",
+        "Papua New Guinea"
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e"
+    }
+  },
+  "d766b31d-b69f-46f5-bb13-307bae39d37e": {
+    "cachedAt": "2026-10-21T21:53:59.765287+00:00",
+    "data": {
+      "id": "d766b31d-b69f-46f5-bb13-307bae39d37e",
+      "name": "Jersey vs Kenya, 36th Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Match starts at Oct 25, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T05:30:00",
+      "teams": [
+        "Jersey",
+        "Kenya"
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e"
+    }
+  },
+  "8ac2a8d5-2da4-4c95-9772-63a4fb6c42ca": {
+    "cachedAt": "2026-10-21T21:53:59.942241+00:00",
+    "data": {
+      "id": "8ac2a8d5-2da4-4c95-9772-63a4fb6c42ca",
+      "name": "United Arab Emirates vs Netherlands, 140th Match, ICC Cricket World Cup League Two 2023-27",
+      "matchType": "odi",
+      "status": "Match starts at Oct 25, 05:30 GMT",
+      "venue": "ICC Academy Ground, Dubai",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T05:30:00",
+      "teams": [
+        "United Arab Emirates",
+        "Netherlands"
+      ],
+      "series_id": "7ac098a3-5d70-4c81-8e81-199edbeffc29"
+    }
+  },
+  "7b72f68e-5e02-483e-857c-08037e12971d": {
+    "cachedAt": "2026-10-21T21:54:00.120522+00:00",
+    "data": {
+      "id": "7b72f68e-5e02-483e-857c-08037e12971d",
+      "name": "Qatar vs Papua New Guinea, 38th Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Match starts at Oct 27, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-27",
+      "dateTimeGMT": "2026-10-27T05:30:00",
+      "teams": [
+        "Qatar",
+        "Papua New Guinea"
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e"
+    }
+  },
+  "49d7bcea-8240-452a-aac0-fcf53e765849": {
+    "cachedAt": "2026-10-21T21:54:00.295567+00:00",
+    "data": {
+      "id": "49d7bcea-8240-452a-aac0-fcf53e765849",
+      "name": "Kuwait vs Jersey, 39th Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Match starts at Oct 27, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-27",
+      "dateTimeGMT": "2026-10-27T05:30:00",
+      "teams": [
+        "Kuwait",
+        "Jersey"
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e"
+    }
   }
 }
