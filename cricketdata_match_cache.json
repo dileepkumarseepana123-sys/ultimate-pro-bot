@@ -3821,5 +3821,39 @@
       ],
       "series_id": "7d61737b-c4d8-4f44-b8cb-309ce4d9c57a"
     }
+  },
+  "bac0f1bc-ed6d-4f69-ae99-340a6893e360": {
+    "cachedAt": "2026-10-21T05:07:22.207074+00:00",
+    "data": {
+      "id": "bac0f1bc-ed6d-4f69-ae99-340a6893e360",
+      "name": "South Australia vs Western Australia, 7th Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 28, 00:00 GMT",
+      "venue": "Adelaide Oval, Adelaide",
+      "date": "2026-10-28",
+      "dateTimeGMT": "2026-10-28T00:00:00",
+      "teams": [
+        "South Australia",
+        "Western Australia"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
+  },
+  "e690b55f-e5ea-4b28-ac72-323d81d14291": {
+    "cachedAt": "2026-10-21T05:07:22.334896+00:00",
+    "data": {
+      "id": "e690b55f-e5ea-4b28-ac72-323d81d14291",
+      "name": "Bangladesh vs West Indies, 1st Test, West Indies tour of Bangladesh, 2026",
+      "matchType": "test",
+      "status": "Match starts at Oct 28, 03:30 GMT",
+      "venue": "Shere Bangla National Stadium, Dhaka",
+      "date": "2026-10-28",
+      "dateTimeGMT": "2026-10-28T03:30:00",
+      "teams": [
+        "Bangladesh",
+        "West Indies"
+      ],
+      "series_id": "afc051fd-79b4-4635-8f3a-7cda1dd50f02"
+    }
   }
 }
