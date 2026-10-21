@@ -3871,5 +3871,39 @@
       ],
       "series_id": "88529516-4e91-432b-b99b-1fdb57ffa1b7"
     }
+  },
+  "157a08e6-8f59-4f27-a4d7-efd3be3390db": {
+    "cachedAt": "2026-10-21T17:31:12.772961+00:00",
+    "data": {
+      "id": "157a08e6-8f59-4f27-a4d7-efd3be3390db",
+      "name": "Qatar vs Kuwait, 33rd Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Match starts at Oct 22, 06:45 GMT",
+      "venue": "Ruaraka Sports Club Ground, Nairobi",
+      "date": "2026-10-22",
+      "dateTimeGMT": "2026-10-22T06:45:00",
+      "teams": [
+        "Qatar",
+        "Kuwait"
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e"
+    }
+  },
+  "e61c5bef-4e89-4603-94cc-bb8cb4b9949e": {
+    "cachedAt": "2026-10-21T17:31:12.937461+00:00",
+    "data": {
+      "id": "e61c5bef-4e89-4603-94cc-bb8cb4b9949e",
+      "name": "Papua New Guinea vs Jersey, 32nd Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Match starts at Oct 22, 06:45 GMT",
+      "venue": "Gymkhana Club Ground, Nairobi",
+      "date": "2026-10-22",
+      "dateTimeGMT": "2026-10-22T06:45:00",
+      "teams": [
+        "Papua New Guinea",
+        "Jersey"
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e"
+    }
   }
 }
