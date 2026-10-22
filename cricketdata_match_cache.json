@@ -4160,5 +4160,56 @@
       ],
       "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
     }
+  },
+  "5dfe214e-3c24-4553-a0eb-a8d6ae12c063": {
+    "cachedAt": "2026-10-22T12:14:15.976015+00:00",
+    "data": {
+      "id": "5dfe214e-3c24-4553-a0eb-a8d6ae12c063",
+      "name": "United Arab Emirates vs Oman, 142nd Match, ICC Cricket World Cup League Two 2023-27",
+      "matchType": "odi",
+      "status": "Match starts at Oct 29, 05:30 GMT",
+      "venue": "ICC Academy Ground, Dubai",
+      "date": "2026-10-29",
+      "dateTimeGMT": "2026-10-29T05:30:00",
+      "teams": [
+        "United Arab Emirates",
+        "Oman"
+      ],
+      "series_id": "7ac098a3-5d70-4c81-8e81-199edbeffc29"
+    }
+  },
+  "074cb065-c64b-476a-89df-b6bcde4da715": {
+    "cachedAt": "2026-10-22T12:14:16.113585+00:00",
+    "data": {
+      "id": "074cb065-c64b-476a-89df-b6bcde4da715",
+      "name": "Sri Lanka vs England, 6th Match, Pakistan ODI Tri-Series, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 29, 08:00 GMT",
+      "venue": "Gaddafi Stadium, Lahore",
+      "date": "2026-10-29",
+      "dateTimeGMT": "2026-10-29T08:00:00",
+      "teams": [
+        "Sri Lanka",
+        "England"
+      ],
+      "series_id": "4ae8cc66-cc9c-4e5f-b404-3bdc1e9a3a54"
+    }
+  },
+  "5c425afe-2de9-4063-bc5c-123d1f2495a3": {
+    "cachedAt": "2026-10-22T12:14:16.251770+00:00",
+    "data": {
+      "id": "5c425afe-2de9-4063-bc5c-123d1f2495a3",
+      "name": "Melbourne Stars Women vs Hobart Hurricanes Women, 2nd Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 29, 08:10 GMT",
+      "venue": "Junction Oval, Melbourne",
+      "date": "2026-10-29",
+      "dateTimeGMT": "2026-10-29T08:10:00",
+      "teams": [
+        "Melbourne Stars Women",
+        "Hobart Hurricanes Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }
