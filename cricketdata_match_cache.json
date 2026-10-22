@@ -4041,5 +4041,124 @@
       ],
       "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e"
     }
+  },
+  "df5dd379-9372-490a-99d2-b6b54a17f9a5": {
+    "cachedAt": "2026-10-22T05:10:26.418212+00:00",
+    "data": {
+      "id": "df5dd379-9372-490a-99d2-b6b54a17f9a5",
+      "name": "Netherlands vs Oman, 141st Match, ICC Cricket World Cup League Two 2023-27",
+      "matchType": "odi",
+      "status": "Match starts at Oct 27, 05:30 GMT",
+      "venue": "ICC Academy Ground, Dubai",
+      "date": "2026-10-27",
+      "dateTimeGMT": "2026-10-27T05:30:00",
+      "teams": [
+        "Netherlands",
+        "Oman"
+      ],
+      "series_id": "7ac098a3-5d70-4c81-8e81-199edbeffc29"
+    }
+  },
+  "6cd2b904-81dd-4dd5-a4bd-e2f1359c3382": {
+    "cachedAt": "2026-10-22T05:10:26.576938+00:00",
+    "data": {
+      "id": "6cd2b904-81dd-4dd5-a4bd-e2f1359c3382",
+      "name": "Kuwait vs Kenya, 41st Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Match starts at Oct 28, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-28",
+      "dateTimeGMT": "2026-10-28T05:30:00",
+      "teams": [
+        "Kuwait",
+        "Kenya"
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e"
+    }
+  },
+  "5e5a4c99-ab45-4f16-8593-c9aa1ba0bba6": {
+    "cachedAt": "2026-10-22T05:10:26.736219+00:00",
+    "data": {
+      "id": "5e5a4c99-ab45-4f16-8593-c9aa1ba0bba6",
+      "name": "Qatar vs Denmark, 40th Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Match starts at Oct 28, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-28",
+      "dateTimeGMT": "2026-10-28T05:30:00",
+      "teams": [
+        "Qatar",
+        "Denmark"
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e"
+    }
+  },
+  "e8aa2cac-2d06-4411-9bd5-e28886838071": {
+    "cachedAt": "2026-10-22T05:10:26.894148+00:00",
+    "data": {
+      "id": "e8aa2cac-2d06-4411-9bd5-e28886838071",
+      "name": "Wellington vs Otago, 3rd Match, The Ford Trophy 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Oct 28, 21:30 GMT",
+      "venue": "Basin Reserve, Wellington",
+      "date": "2026-10-28",
+      "dateTimeGMT": "2026-10-28T21:30:00",
+      "teams": [
+        "Wellington",
+        "Otago"
+      ],
+      "series_id": "127a3118-68a6-4f22-8375-1e2a9a8da0b3"
+    }
+  },
+  "082407a8-19d9-40f7-8d40-a269f1f85c67": {
+    "cachedAt": "2026-10-22T05:10:27.052955+00:00",
+    "data": {
+      "id": "082407a8-19d9-40f7-8d40-a269f1f85c67",
+      "name": "Central Stags vs Northern Districts, 2nd Match, The Ford Trophy 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Oct 28, 21:30 GMT",
+      "venue": "Saxton Oval, Nelson",
+      "date": "2026-10-28",
+      "dateTimeGMT": "2026-10-28T21:30:00",
+      "teams": [
+        "Central Stags",
+        "Northern Districts"
+      ],
+      "series_id": "127a3118-68a6-4f22-8375-1e2a9a8da0b3"
+    }
+  },
+  "024a059a-f2d5-4af0-b051-3188967e4785": {
+    "cachedAt": "2026-10-22T05:10:27.212436+00:00",
+    "data": {
+      "id": "024a059a-f2d5-4af0-b051-3188967e4785",
+      "name": "Auckland vs Canterbury, 1st Match, The Ford Trophy 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Oct 28, 21:30 GMT",
+      "venue": "Eden Park Outer Oval, Auckland",
+      "date": "2026-10-28",
+      "dateTimeGMT": "2026-10-28T21:30:00",
+      "teams": [
+        "Auckland",
+        "Canterbury"
+      ],
+      "series_id": "127a3118-68a6-4f22-8375-1e2a9a8da0b3"
+    }
+  },
+  "e5243dfc-be2f-4aa9-a7fb-c868fbb3a146": {
+    "cachedAt": "2026-10-22T05:10:27.372097+00:00",
+    "data": {
+      "id": "e5243dfc-be2f-4aa9-a7fb-c868fbb3a146",
+      "name": "Melbourne Renegades Women vs Sydney Thunder Women, 1st Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 29, 04:40 GMT",
+      "venue": "Junction Oval, Melbourne",
+      "date": "2026-10-29",
+      "dateTimeGMT": "2026-10-29T04:40:00",
+      "teams": [
+        "Melbourne Renegades Women",
+        "Sydney Thunder Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }

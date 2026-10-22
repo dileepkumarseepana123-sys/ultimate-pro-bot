@@ -72586,7 +72586,7 @@
         }
     },
     "india|new zealand|2026-10-22": {
-        "capturedAt": "2026-10-21T21:55:27.758179+00:00",
+        "capturedAt": "2026-10-22T05:11:42.856020+00:00",
         "matchDate": "2026-10-22",
         "report": {
             "teamA": "New Zealand",
@@ -73095,16 +73095,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-22T20:00:00+13:00",
-                "temperature_c": 18.4,
-                "humidity_pct": 51,
-                "dew_point_c": 7.9,
+                "temperature_c": 19.2,
+                "humidity_pct": 40,
+                "dew_point_c": 5.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 9.0,
+                "wind_kmh": 7.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "18.4°C | RH 51% | Rain 0% | Wind 9.0 km/h",
+            "weatherText": "19.2°C | RH 40% | Rain 0% | Wind 7.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "48.89% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -73160,7 +73160,7 @@
         }
     },
     "australia women|bangladesh women|2026-10-22": {
-        "capturedAt": "2026-10-21T21:55:27.758196+00:00",
+        "capturedAt": "2026-10-22T05:11:42.856060+00:00",
         "matchDate": "2026-10-22",
         "report": {
             "teamA": "Australia Women",
@@ -73327,11 +73327,9 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 44.1% chasing wins",
-                    "Middle-overs wicket volatility: 4.19 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.19 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
-                    "High rain-interruption risk",
                     "Extreme skill gap: one-sided price path risk"
                 ],
                 "scoreComponents": [
@@ -73352,7 +73350,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 20.0,
+                        "score": 70.0,
                         "weight": 0.1
                     },
                     {
@@ -73391,7 +73389,7 @@
                     "Two-way venue: 44.1% chasing wins",
                     "Overs 7-14 wicket pressure: 4.19 wickets/match",
                     "16th-over baseline: 8.4 runs; wicket in 43.9% of sampled innings",
-                    "Weather: rain 76%, dew MEDIUM"
+                    "Weather: rain 59%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Australia Women 1898.4 vs Bangladesh Women 1558.9",
@@ -73625,17 +73623,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-22T19:15:00+11:00",
-                "temperature_c": 19.2,
-                "humidity_pct": 79,
-                "dew_point_c": 15.6,
-                "rain_probability_pct": 76,
+                "temperature_c": 19.6,
+                "humidity_pct": 77,
+                "dew_point_c": 15.5,
+                "rain_probability_pct": 59,
                 "precipitation_mm": 0.1,
-                "wind_kmh": 19.4,
-                "dew_risk": "MEDIUM",
-                "rain_risk": "HIGH"
+                "wind_kmh": 20.9,
+                "dew_risk": "LOW",
+                "rain_risk": "MEDIUM"
             },
-            "weatherText": "19.2°C | RH 79% | Rain 76% | Wind 19.4 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "19.6°C | RH 77% | Rain 59% | Wind 20.9 km/h",
+            "dewRisk": "LOW",
             "tossBias": "44.12% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "42.00",
@@ -73680,12 +73678,10 @@
             "spinClassificationPct": 0.0,
             "verdict": "🔴 PRE-TOSS POOR FIT / ONE-SIDED RISK",
             "noBetReasons": [
-                "HIGH RAIN INTERRUPTION RISK",
                 "EXTREME SKILL GAP / ONE-SIDED MARKET PATH RISK"
             ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
@@ -73693,7 +73689,7 @@
         }
     },
     "australia women|new zealand women|2026-10-22": {
-        "capturedAt": "2026-10-21T21:55:27.758207+00:00",
+        "capturedAt": "2026-10-22T05:11:42.856088+00:00",
         "matchDate": "2026-10-22",
         "report": {
             "teamA": "Australia Women",
@@ -73908,11 +73904,9 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 44.1% chasing wins",
-                    "Middle-overs wicket volatility: 4.19 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.19 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
-                    "High rain-interruption risk",
                     "Extreme skill gap: one-sided price path risk"
                 ],
                 "scoreComponents": [
@@ -73933,7 +73927,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 20.0,
+                        "score": 70.0,
                         "weight": 0.1
                     },
                     {
@@ -73999,7 +73993,7 @@
                     "Two-way venue: 44.1% chasing wins",
                     "Overs 7-14 wicket pressure: 4.19 wickets/match",
                     "16th-over baseline: 8.4 runs; wicket in 43.9% of sampled innings",
-                    "Weather: rain 76%, dew MEDIUM"
+                    "Weather: rain 59%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Australia Women 1898.4 vs New Zealand Women 1650.6",
@@ -74233,17 +74227,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-22T19:15:00+11:00",
-                "temperature_c": 19.2,
-                "humidity_pct": 79,
-                "dew_point_c": 15.6,
-                "rain_probability_pct": 76,
+                "temperature_c": 19.6,
+                "humidity_pct": 77,
+                "dew_point_c": 15.5,
+                "rain_probability_pct": 59,
                 "precipitation_mm": 0.1,
-                "wind_kmh": 19.4,
-                "dew_risk": "MEDIUM",
-                "rain_risk": "HIGH"
+                "wind_kmh": 20.9,
+                "dew_risk": "LOW",
+                "rain_risk": "MEDIUM"
             },
-            "weatherText": "19.2°C | RH 79% | Rain 76% | Wind 19.4 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "19.6°C | RH 77% | Rain 59% | Wind 20.9 km/h",
+            "dewRisk": "LOW",
             "tossBias": "44.12% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "42.00",
@@ -74288,12 +74282,10 @@
             "spinClassificationPct": 0.0,
             "verdict": "🔴 PRE-TOSS POOR FIT / ONE-SIDED RISK",
             "noBetReasons": [
-                "HIGH RAIN INTERRUPTION RISK",
                 "EXTREME SKILL GAP / ONE-SIDED MARKET PATH RISK"
             ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
@@ -74301,7 +74293,7 @@
         }
     },
     "india 1st t20i hagley oval christchurch|new zealand|2026-10-22": {
-        "capturedAt": "2026-10-21T21:55:27.758219+00:00",
+        "capturedAt": "2026-10-22T05:11:42.856149+00:00",
         "matchDate": "2026-10-22",
         "report": {
             "teamA": "New Zealand",
@@ -74562,16 +74554,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-22T20:00:00+13:00",
-                "temperature_c": 18.4,
-                "humidity_pct": 51,
-                "dew_point_c": 7.9,
+                "temperature_c": 19.2,
+                "humidity_pct": 40,
+                "dew_point_c": 5.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 9.0,
+                "wind_kmh": 7.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "18.4°C | RH 51% | Rain 0% | Wind 9.0 km/h",
+            "weatherText": "19.2°C | RH 40% | Rain 0% | Wind 7.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -74616,7 +74608,7 @@
         }
     },
     "australia women|new zealand women 3rd t20i north sydney oval sydney|2026-10-22": {
-        "capturedAt": "2026-10-21T21:55:27.758232+00:00",
+        "capturedAt": "2026-10-22T05:11:42.856171+00:00",
         "matchDate": "2026-10-22",
         "report": {
             "teamA": "Australia Women",
@@ -74665,14 +74657,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 35.0,
+            "swingScore": 59.8,
             "strategyLabel": "INSUFFICIENT DATA",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 33,
                 "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 35.0,
+                "swingScore": 59.8,
                 "strategyLabel": "INSUFFICIENT DATA",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -74699,16 +74691,12 @@
                     "sourceLimitations": [],
                     "majorTeamAsymmetryProxyUsed": false
                 },
-                "swingCatalysts": [
-                    "Medium dew can change second-innings conditions"
-                ],
-                "swingPenalties": [
-                    "High rain-interruption risk"
-                ],
+                "swingCatalysts": [],
+                "swingPenalties": [],
                 "scoreComponents": [
                     {
                         "name": "weather",
-                        "score": 20.0,
+                        "score": 70.0,
                         "weight": 0.1
                     },
                     {
@@ -74742,7 +74730,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 76%, dew MEDIUM"
+                    "Weather: rain 59%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -74881,17 +74869,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-22T19:15:00+11:00",
-                "temperature_c": 19.2,
-                "humidity_pct": 79,
-                "dew_point_c": 15.6,
-                "rain_probability_pct": 76,
+                "temperature_c": 19.6,
+                "humidity_pct": 77,
+                "dew_point_c": 15.5,
+                "rain_probability_pct": 59,
                 "precipitation_mm": 0.1,
-                "wind_kmh": 19.4,
-                "dew_risk": "MEDIUM",
-                "rain_risk": "HIGH"
+                "wind_kmh": 20.9,
+                "dew_risk": "LOW",
+                "rain_risk": "MEDIUM"
             },
-            "weatherText": "19.2°C | RH 79% | Rain 76% | Wind 19.4 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "19.6°C | RH 77% | Rain 59% | Wind 20.9 km/h",
+            "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "UNKNOWN",
@@ -74923,13 +74911,11 @@
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
-                "HIGH RAIN INTERRUPTION RISK",
                 "LIMITED RECENT T20 DATA FOR New Zealand Women,3rd T20I North Sydney Oval,Sydney"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
@@ -74937,7 +74923,7 @@
         }
     },
     "mpumalanga rhinos|south africa emerging players|2026-10-22": {
-        "capturedAt": "2026-10-21T21:55:27.758242+00:00",
+        "capturedAt": "2026-10-22T05:11:42.856187+00:00",
         "matchDate": "2026-10-22",
         "report": {
             "teamA": "Mpumalanga Rhinos",
@@ -74988,14 +74974,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "STRONG GAP",
-            "swingScore": 30.7,
+            "swingScore": 27.6,
             "strategyLabel": "POOR FIT / SKILL-GAP OR DATA CAUTION",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 33,
                 "swingProfile": "STRONG SKILL-GAP CAUTION",
-                "swingScore": 30.7,
+                "swingScore": 27.6,
                 "strategyLabel": "POOR FIT / SKILL-GAP OR DATA CAUTION",
                 "competitiveBalance": {
                     "label": "STRONG GAP",
@@ -75024,10 +75010,9 @@
                     "sourceLimitations": [],
                     "majorTeamAsymmetryProxyUsed": false
                 },
-                "swingCatalysts": [
-                    "Medium dew can change second-innings conditions"
-                ],
+                "swingCatalysts": [],
                 "swingPenalties": [
+                    "High dew may create strong chase-side bias",
                     "Strong skill gap reduces reliable two-way movement",
                     "Liquidity/market depth is not verified"
                 ],
@@ -75039,7 +75024,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 90.0,
+                        "score": 60.0,
                         "weight": 0.1
                     },
                     {
@@ -75073,7 +75058,7 @@
                 "edgeScore": null,
                 "swingRead": "ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
                 "conditions": [
-                    "Weather: rain 1%, dew MEDIUM"
+                    "Weather: rain 1%, dew HIGH"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -75123,17 +75108,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-22T06:00:00-05:00",
-                "temperature_c": 9.7,
-                "humidity_pct": 77,
-                "dew_point_c": 5.9,
+                "temperature_c": 8.3,
+                "humidity_pct": 82,
+                "dew_point_c": 5.4,
                 "rain_probability_pct": 1,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.0,
-                "dew_risk": "MEDIUM",
+                "wind_kmh": 6.6,
+                "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "9.7°C | RH 77% | Rain 1% | Wind 2.0 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "8.3°C | RH 82% | Rain 1% | Wind 6.6 km/h",
+            "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "UNKNOWN",
@@ -75165,13 +75150,13 @@
             "verdict": "🔴 PRE-TOSS POOR FIT / ONE-SIDED RISK",
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
+                "HIGH DEW RISK",
                 "LIMITED RECENT T20 DATA FOR Mpumalanga Rhinos",
                 "LIMITED RECENT T20 DATA FOR South Africa Emerging Players"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
@@ -75180,7 +75165,7 @@
         }
     },
     "eastern storm|kwazulu natal inland tuskers|2026-10-22": {
-        "capturedAt": "2026-10-21T21:55:27.758250+00:00",
+        "capturedAt": "2026-10-22T05:11:42.856204+00:00",
         "matchDate": "2026-10-22",
         "report": {
             "teamA": "Eastern Storm",
@@ -75382,16 +75367,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-22T13:00:00+02:00",
-                "temperature_c": 28.7,
-                "humidity_pct": 16,
-                "dew_point_c": 0.0,
+                "temperature_c": 28.2,
+                "humidity_pct": 17,
+                "dew_point_c": 0.5,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 16.1,
+                "wind_kmh": 16.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "28.7°C | RH 16% | Rain 0% | Wind 16.1 km/h",
+            "weatherText": "28.2°C | RH 17% | Rain 0% | Wind 16.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "50.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
