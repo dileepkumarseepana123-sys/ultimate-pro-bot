@@ -74923,7 +74923,7 @@
         }
     },
     "mpumalanga rhinos|south africa emerging players|2026-10-22": {
-        "capturedAt": "2026-10-22T05:11:42.856187+00:00",
+        "capturedAt": "2026-10-22T17:29:03.960462+00:00",
         "matchDate": "2026-10-22",
         "report": {
             "teamA": "Mpumalanga Rhinos",
@@ -74941,7 +74941,7 @@
             "sourceMatchUrl": "http://www.cricbuzz.com/live-cricket-scores/173447/mpr-vs-saep-pool-b-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -75161,7 +75161,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "eastern storm|kwazulu natal inland tuskers|2026-10-22": {
