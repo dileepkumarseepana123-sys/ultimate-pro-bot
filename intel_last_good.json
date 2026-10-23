@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-23T05:11:59.057016+00:00",
+    "last_updated": "2026-10-23T11:56:39.613343+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -22,23 +22,23 @@
         "cricscore_calls_this_run": 1,
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
-        "match_info_calls_this_run": 4,
-        "match_info_cache_hits_this_run": 137,
-        "match_info_enriched_rows": 141,
-        "match_info_cache_size": 254,
+        "match_info_calls_this_run": 8,
+        "match_info_cache_hits_this_run": 138,
+        "match_info_enriched_rows": 146,
+        "match_info_cache_size": 262,
         "max_match_info_lookups_per_run": 8,
-        "squad_calls_this_run": 3,
+        "squad_calls_this_run": 1,
         "squad_cache_hits_this_run": 0,
         "squad_cache_size": 47,
         "endpoint_calls_this_run": {
             "cricScore": 1,
             "currentMatches": 1,
-            "match_info": 4,
+            "match_info": 8,
             "matches": 2,
-            "match_squad": 3
+            "match_squad": 1
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 62,
+        "hits_today_reported": 84,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -59,34 +59,337 @@
         "swing_score_is_not_profit_probability": true
     },
     "discovery": {
-        "live_text_relay_rows": 0,
+        "live_text_relay_rows": 1,
         "schedule_text_relay_rows": 4,
-        "text_relay_rows": 4,
-        "text_relay_t20_rows": 4,
-        "text_relay_today_t20_rows": 4,
+        "text_relay_rows": 5,
+        "text_relay_t20_rows": 5,
+        "text_relay_today_t20_rows": 5,
         "text_relay_match_url_rows": 4,
         "text_relay_time_enriched_rows": 4,
         "final_reports_with_known_time": 4,
         "final_reports_with_weather": 4,
         "current_matches_rows": 25,
-        "current_matches_t20_rows": 13,
-        "current_matches_today_t20_rows": 0,
-        "cricscore_rows": 141,
-        "cricscore_t20_rows": 56,
+        "current_matches_t20_rows": 12,
+        "current_matches_today_t20_rows": 2,
+        "cricscore_rows": 147,
+        "cricscore_t20_rows": 59,
         "cricscore_today_t20_rows": 3,
         "cricketdata_rows": 50,
         "cricketdata_t20_rows": 42,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 102,
-        "final_reports": 4
+        "merged_candidates": 106,
+        "final_reports": 5
     },
     "summary": {
-        "today_t20_count": 4,
-        "no_bet_or_high_caution": 2,
-        "wait": 2,
+        "today_t20_count": 5,
+        "no_bet_or_high_caution": 4,
+        "wait": 1,
         "data_clear": 0
     },
     "matches": [
+        {
+            "teamA": "Afghanistan",
+            "teamB": "Zimbabwe",
+            "name": "Afghanistan vs Zimbabwe, Final, ICC Men's T20 World Cup Africa Sub Regional Qualifier C 2026",
+            "matchType": "T20",
+            "venue": "UNKNOWN VENUE",
+            "dateTimeGMT": null,
+            "sourceDate": "2026-10-23",
+            "matchTimeIST": "UNKNOWN",
+            "indiaDate": "2026-10-23",
+            "series": "ICC Men's T20 World Cup Africa Sub Regional Qualifier C 2026",
+            "sourceName": "Cricbuzz live via text relay",
+            "supplementalSourceName": null,
+            "sourceMatchUrl": null,
+            "cricketDataMatchId": null,
+            "liveScoreText": null,
+            "sourceStatus": "LIVE / CURRENT",
+            "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
+            "marketVisibility": "PREMIUM / LIKELY LISTED",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": true,
+            "competitiveBalance": {
+                "label": "UNKNOWN",
+                "balanceScore": null,
+                "teamAElo": null,
+                "teamBElo": null,
+                "eloMatchesA": 0,
+                "eloMatchesB": 178,
+                "eloGap": null,
+                "recentWinRateA": null,
+                "recentWinRateB": 20.0,
+                "recentFormGapPct": null,
+                "headToHead": {
+                    "matches": 0,
+                    "teamAWins": 0,
+                    "teamBWins": 0,
+                    "recent": []
+                },
+                "headToHeadGapPct": null,
+                "historicallyStrongerSide": null,
+                "signals": [],
+                "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                "officialRanking": "UNKNOWN / NOT CONNECTED",
+                "sourceLimitations": [
+                    "Cricsheet withholds Afghanistan match data; historical rating may be unavailable."
+                ],
+                "majorTeamAsymmetryProxyUsed": false
+            },
+            "skillGap": "UNKNOWN",
+            "swingScore": 58.5,
+            "strategyLabel": "INSUFFICIENT DATA",
+            "analysisEngineVersion": 4,
+            "tradeProfile": {
+                "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 17,
+                "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                "swingScore": 58.5,
+                "strategyLabel": "INSUFFICIENT DATA",
+                "competitiveBalance": {
+                    "label": "UNKNOWN",
+                    "balanceScore": null,
+                    "teamAElo": null,
+                    "teamBElo": null,
+                    "eloMatchesA": 0,
+                    "eloMatchesB": 178,
+                    "eloGap": null,
+                    "recentWinRateA": null,
+                    "recentWinRateB": 20.0,
+                    "recentFormGapPct": null,
+                    "headToHead": {
+                        "matches": 0,
+                        "teamAWins": 0,
+                        "teamBWins": 0,
+                        "recent": []
+                    },
+                    "headToHeadGapPct": null,
+                    "historicallyStrongerSide": null,
+                    "signals": [],
+                    "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                    "officialRanking": "UNKNOWN / NOT CONNECTED",
+                    "sourceLimitations": [
+                        "Cricsheet withholds Afghanistan match data; historical rating may be unavailable."
+                    ],
+                    "majorTeamAsymmetryProxyUsed": false
+                },
+                "swingCatalysts": [],
+                "swingPenalties": [
+                    "Cricsheet withholds Afghanistan match data; historical rating may be unavailable."
+                ],
+                "scoreComponents": [
+                    {
+                        "name": "market_proxy",
+                        "score": 100.0,
+                        "weight": 0.2
+                    }
+                ],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "squadSummary": {
+                "status": "NO SQUAD DATA",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "initialAnalysis": {
+                "phase": "INITIAL PRE-TOSS READ",
+                "preTossStatus": "PRE-TOSS DATA LIMITED",
+                "dataConfidencePct": 0,
+                "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
+                "edgeTeam": null,
+                "edgeStrength": "DATA LIMITED",
+                "edgeScore": null,
+                "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                "conditions": [],
+                "evidence": [],
+                "pendingGates": [
+                    "Toss result and batting/fielding decision",
+                    "Confirmed Playing XI",
+                    "Actual exchange BACK/LAY prices and matched liquidity"
+                ],
+                "tossCheckpoints": [
+                    "Compare the toss decision with the venue chasing/defending bias.",
+                    "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                    "Only calculate equal-profit targets from the actual matched exchange entry price."
+                ],
+                "firstInningsBaseline": null,
+                "powerplayBaseline": null,
+                "powerplayWicketsBaseline": null,
+                "chasingWinPct": null,
+                "middleOversWicketsPerMatch": null,
+                "over16AvgRuns": null,
+                "over16WicketEventPct": null,
+                "spinWicketSharePct": null,
+                "squadStatus": "NO SQUAD DATA",
+                "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            },
+            "pendingGates": [
+                "Toss result and batting/fielding decision",
+                "Confirmed Playing XI",
+                "Actual exchange BACK/LAY prices and matched liquidity"
+            ],
+            "formA": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "winRatePct": null,
+                "avgMarginImpact": null,
+                "recent": []
+            },
+            "formB": {
+                "matches": 10,
+                "wins": 2,
+                "losses": 8,
+                "winRatePct": 20.0,
+                "avgMarginImpact": -0.521,
+                "recent": [
+                    {
+                        "date": "2026-09-06",
+                        "winner": "South Africa",
+                        "won": false,
+                        "venue": "Namibia Cricket Ground, Windhoek",
+                        "marginType": "runs",
+                        "marginValue": 48.0,
+                        "marginImpact": -0.8
+                    },
+                    {
+                        "date": "2026-09-03",
+                        "winner": "Zimbabwe",
+                        "won": true,
+                        "venue": "Namibia Cricket Ground, Windhoek",
+                        "marginType": "wickets",
+                        "marginValue": 5.0,
+                        "marginImpact": 0.625
+                    },
+                    {
+                        "date": "2026-09-01",
+                        "winner": "South Africa",
+                        "won": false,
+                        "venue": "Namibia Cricket Ground, Windhoek",
+                        "marginType": "runs",
+                        "marginValue": 43.0,
+                        "marginImpact": -0.717
+                    },
+                    {
+                        "date": "2026-08-31",
+                        "winner": "Zimbabwe",
+                        "won": true,
+                        "venue": "Namibia Cricket Ground, Windhoek",
+                        "marginType": "runs",
+                        "marginValue": 5.0,
+                        "marginImpact": 0.083
+                    },
+                    {
+                        "date": "2026-08-29",
+                        "winner": "South Africa",
+                        "won": false,
+                        "venue": "Namibia Cricket Ground, Windhoek",
+                        "marginType": "wickets",
+                        "marginValue": 7.0,
+                        "marginImpact": -0.875
+                    },
+                    {
+                        "date": "2026-07-26",
+                        "winner": "India",
+                        "won": false,
+                        "venue": "Harare Sports Club",
+                        "marginType": "runs",
+                        "marginValue": 35.0,
+                        "marginImpact": -0.583
+                    },
+                    {
+                        "date": "2026-07-25",
+                        "winner": "India",
+                        "won": false,
+                        "venue": "Harare Sports Club",
+                        "marginType": "runs",
+                        "marginValue": 90.0,
+                        "marginImpact": -1.0
+                    },
+                    {
+                        "date": "2026-07-23",
+                        "winner": "India",
+                        "won": false,
+                        "venue": "Harare Sports Club",
+                        "marginType": "wickets",
+                        "marginValue": 7.0,
+                        "marginImpact": -0.875
+                    },
+                    {
+                        "date": "2026-07-19",
+                        "winner": "Bangladesh",
+                        "won": false,
+                        "venue": "Queens Sports Club, Bulawayo",
+                        "marginType": "wickets",
+                        "marginValue": 4.0,
+                        "marginImpact": -0.5
+                    },
+                    {
+                        "date": "2026-07-17",
+                        "winner": "Bangladesh",
+                        "won": false,
+                        "venue": "Queens Sports Club, Bulawayo",
+                        "marginType": "runs",
+                        "marginValue": 34.0,
+                        "marginImpact": -0.567
+                    }
+                ]
+            },
+            "weather": {
+                "status": "UNKNOWN",
+                "reason": "No usable venue"
+            },
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
+            "tossBias": "UNKNOWN",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "UNKNOWN",
+            "ppWicketsAvg": null,
+            "ppRunRate": "Historical first-innings PP",
+            "over16AvgRuns": null,
+            "over16WicketsPerInnings": null,
+            "over16WicketEventPct": null,
+            "over16SampleInnings": null,
+            "spinIndex": "UNKNOWN",
+            "spinNote": "UNKNOWN",
+            "metricSources": {
+                "fixture": "Cricbuzz live via text relay",
+                "weather": "Open-Meteo unavailable/UNKNOWN",
+                "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
+                "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
+                "over16": "Cricsheet 16th-over history insufficient/UNKNOWN",
+                "spinChoke": "Cricsheet overs 7-14; bowler-style classification UNKNOWN"
+            },
+            "venueIntel": {
+                "status": "NO DATA / UNKNOWN VENUE"
+            },
+            "midOversWickets": null,
+            "midOversWicketsPerMatch": null,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": null,
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
+            "noBetReasons": [
+                "MATCH ALREADY LIVE — PRE-MATCH WINDOW CLOSED",
+                "NO DATA / UNKNOWN VENUE",
+                "WEATHER DATA UNKNOWN",
+                "LIMITED RECENT T20 DATA FOR Afghanistan"
+            ],
+            "warnings": [
+                "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "Cricsheet withholds Afghanistan match data; historical rating may be unavailable.",
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-red",
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+        },
         {
             "teamA": "Nigeria",
             "teamB": "Mozambique",
@@ -98,12 +401,12 @@
             "matchTimeIST": "2026-10-23T14:30:00+05:30",
             "indiaDate": "2026-10-23",
             "series": "ICC Men's T20 World Cup Africa Sub Regional Qualifier C 2026",
-            "sourceName": "CricketData cricScore + match_info",
+            "sourceName": "CricketData cricScore + currentMatches",
             "supplementalSourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "http://www.cricbuzz.com/live-cricket-scores/173983/nga-vs-moz-7th-match-icc-mens-t20-world-cup-africa-sub-regional-qualifier-c-2026",
             "cricketDataMatchId": "cef60146-811d-495b-a3d1-64f87e588a78",
-            "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 23, 09:00 GMT",
+            "liveScoreText": "14/0 (3)",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -225,17 +528,483 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-10-23T05:11:58.976500+00:00",
+                "matchDate": "2026-10-23",
+                "report": {
+                    "teamA": "Nigeria",
+                    "teamB": "Mozambique",
+                    "name": "Nigeria vs Mozambique",
+                    "matchType": "T20",
+                    "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                    "dateTimeGMT": "2026-10-23T09:00:00",
+                    "sourceDate": "2026-10-23",
+                    "matchTimeIST": "2026-10-23T14:30:00+05:30",
+                    "indiaDate": "2026-10-23",
+                    "series": "ICC Men's T20 World Cup Africa Sub Regional Qualifier C 2026",
+                    "sourceName": "CricketData cricScore + match_info",
+                    "supplementalSourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "http://www.cricbuzz.com/live-cricket-scores/173983/nga-vs-moz-7th-match-icc-mens-t20-world-cup-africa-sub-regional-qualifier-c-2026",
+                    "cricketDataMatchId": "cef60146-811d-495b-a3d1-64f87e588a78",
+                    "liveScoreText": null,
+                    "sourceStatus": "Match starts at Oct 23, 09:00 GMT",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "BALANCED",
+                        "balanceScore": 84.9,
+                        "teamAElo": 1538.1,
+                        "teamBElo": 1468.0,
+                        "eloMatchesA": 95,
+                        "eloMatchesB": 30,
+                        "eloGap": 70.1,
+                        "recentWinRateA": 50.0,
+                        "recentWinRateB": 50.0,
+                        "recentFormGapPct": 0.0,
+                        "headToHead": {
+                            "matches": 1,
+                            "teamAWins": 1,
+                            "teamBWins": 0,
+                            "recent": [
+                                {
+                                    "date": "2022-12-01",
+                                    "winner": "Nigeria",
+                                    "marginType": "wickets",
+                                    "marginValue": 8.0
+                                }
+                            ]
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": "Nigeria",
+                        "signals": [
+                            "Derived Elo gap 70.1",
+                            "Recent win-rate gap 0.0 percentage points"
+                        ],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "BALANCED",
+                    "swingScore": 60.0,
+                    "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 67,
+                        "swingProfile": "CONDITIONAL SWING PROFILE",
+                        "swingScore": 60.0,
+                        "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                        "competitiveBalance": {
+                            "label": "BALANCED",
+                            "balanceScore": 84.9,
+                            "teamAElo": 1538.1,
+                            "teamBElo": 1468.0,
+                            "eloMatchesA": 95,
+                            "eloMatchesB": 30,
+                            "eloGap": 70.1,
+                            "recentWinRateA": 50.0,
+                            "recentWinRateB": 50.0,
+                            "recentFormGapPct": 0.0,
+                            "headToHead": {
+                                "matches": 1,
+                                "teamAWins": 1,
+                                "teamBWins": 0,
+                                "recent": [
+                                    {
+                                        "date": "2022-12-01",
+                                        "winner": "Nigeria",
+                                        "marginType": "wickets",
+                                        "marginValue": 8.0
+                                    }
+                                ]
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": "Nigeria",
+                            "signals": [
+                                "Derived Elo gap 70.1",
+                                "Recent win-rate gap 0.0 percentage points"
+                            ],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [
+                            "Middle-overs wicket volatility: 5.28 wickets/match in overs 7-14",
+                            "Medium dew can change second-innings conditions"
+                        ],
+                        "swingPenalties": [
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "competitive_balance",
+                                "score": 84.9,
+                                "weight": 0.35
+                            },
+                            {
+                                "name": "venue_two_way",
+                                "score": 82.8,
+                                "weight": 0.2
+                            },
+                            {
+                                "name": "middle_over_volatility",
+                                "score": 88.0,
+                                "weight": 0.15
+                            },
+                            {
+                                "name": "weather",
+                                "score": 90.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "No squad data"
+                    },
+                    "squadSummary": {
+                        "status": "NO SQUAD DATA",
+                        "teams": {},
+                        "source": "No squad data"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS CONDITIONAL",
+                        "dataConfidencePct": 57,
+                        "initialPrediction": "Nigeria has a slight edge on the available pre-toss historical evidence.",
+                        "edgeTeam": "Nigeria",
+                        "edgeStrength": "SLIGHT EDGE",
+                        "edgeScore": 0.88,
+                        "swingRead": "CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+                        "conditions": [
+                            "Historical first-innings baseline: 125.2",
+                            "Powerplay baseline: 37.1 runs / 1.69 wickets",
+                            "Defend-lean venue: 41.4% chasing wins",
+                            "Overs 7-14 wicket pressure: 5.28 wickets/match",
+                            "16th-over baseline: 6.4 runs; wicket in 29.8% of sampled innings",
+                            "Weather: rain 0%, dew MEDIUM"
+                        ],
+                        "evidence": [
+                            "Elo: Nigeria 1538.1 vs Mozambique 1468.0",
+                            "Recent form: 50.0% vs 50.0% wins"
+                        ],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": 125.24,
+                        "powerplayBaseline": 37.14,
+                        "powerplayWicketsBaseline": 1.69,
+                        "chasingWinPct": 41.38,
+                        "middleOversWicketsPerMatch": 5.28,
+                        "over16AvgRuns": 6.4,
+                        "over16WicketEventPct": 29.79,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "NO SQUAD DATA",
+                        "summary": "Nigeria has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 10,
+                        "wins": 5,
+                        "losses": 5,
+                        "winRatePct": 50.0,
+                        "avgMarginImpact": -0.065,
+                        "recent": [
+                            {
+                                "date": "2026-06-23",
+                                "winner": "Namibia",
+                                "won": false,
+                                "venue": "Namibia Cricket Ground, Windhoek",
+                                "marginType": "runs",
+                                "marginValue": 93.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-06-21",
+                                "winner": "Hong Kong",
+                                "won": false,
+                                "venue": "Namibia Cricket Ground, Windhoek",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.75
+                            },
+                            {
+                                "date": "2026-06-20",
+                                "winner": "Namibia",
+                                "won": false,
+                                "venue": "Namibia Cricket Ground, Windhoek",
+                                "marginType": "runs",
+                                "marginValue": 90.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-06-18",
+                                "winner": "Hong Kong",
+                                "won": false,
+                                "venue": "Namibia Cricket Ground, Windhoek",
+                                "marginType": "wickets",
+                                "marginValue": 8.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2025-12-14",
+                                "winner": "Nigeria",
+                                "won": true,
+                                "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                                "marginType": "runs",
+                                "marginValue": 40.0,
+                                "marginImpact": 0.667
+                            },
+                            {
+                                "date": "2025-12-13",
+                                "winner": "Nigeria",
+                                "won": true,
+                                "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                                "marginType": "runs",
+                                "marginValue": 81.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2025-12-12",
+                                "winner": "Nigeria",
+                                "won": true,
+                                "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                                "marginType": "runs",
+                                "marginValue": 26.0,
+                                "marginImpact": 0.433
+                            },
+                            {
+                                "date": "2025-12-11",
+                                "winner": "Nigeria",
+                                "won": true,
+                                "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                                "marginType": "runs",
+                                "marginValue": 68.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2025-12-09",
+                                "winner": "Rwanda",
+                                "won": false,
+                                "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                                "marginType": "runs",
+                                "marginValue": 23.0,
+                                "marginImpact": -0.383
+                            },
+                            {
+                                "date": "2025-12-08",
+                                "winner": "Nigeria",
+                                "won": true,
+                                "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                                "marginType": "runs",
+                                "marginValue": 23.0,
+                                "marginImpact": 0.383
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 10,
+                        "wins": 4,
+                        "losses": 4,
+                        "winRatePct": 50.0,
+                        "avgMarginImpact": 0.075,
+                        "recent": [
+                            {
+                                "date": "2026-06-07",
+                                "winner": "Eswatini",
+                                "won": false,
+                                "venue": "Malkerns Country Club oval",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.75
+                            },
+                            {
+                                "date": "2026-06-06",
+                                "winner": "Mozambique",
+                                "won": true,
+                                "venue": "Malkerns Country Club oval",
+                                "marginType": "runs",
+                                "marginValue": 49.0,
+                                "marginImpact": 0.817
+                            },
+                            {
+                                "date": "2026-06-06",
+                                "winner": "Eswatini",
+                                "won": false,
+                                "venue": "Malkerns Country Club oval",
+                                "marginType": "wickets",
+                                "marginValue": 3.0,
+                                "marginImpact": -0.375
+                            },
+                            {
+                                "date": "2026-06-04",
+                                "winner": "Mozambique",
+                                "won": true,
+                                "venue": "Malkerns Country Club oval",
+                                "marginType": "runs",
+                                "marginValue": 22.0,
+                                "marginImpact": 0.367
+                            },
+                            {
+                                "date": "2026-06-03",
+                                "winner": "Mozambique",
+                                "won": true,
+                                "venue": "Malkerns Country Club oval",
+                                "marginType": "wickets",
+                                "marginValue": 5.0,
+                                "marginImpact": 0.625
+                            },
+                            {
+                                "date": "2026-06-02",
+                                "winner": "Mozambique",
+                                "won": true,
+                                "venue": "Malkerns Country Club oval",
+                                "marginType": "runs",
+                                "marginValue": 110.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2025-09-14",
+                                "winner": null,
+                                "won": null,
+                                "venue": "Malkerns Country Club oval",
+                                "marginType": null,
+                                "marginValue": null,
+                                "marginImpact": 0.0
+                            },
+                            {
+                                "date": "2025-09-13",
+                                "winner": "Eswatini",
+                                "won": false,
+                                "venue": "Malkerns Country Club oval",
+                                "marginType": "runs",
+                                "marginValue": 74.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2025-09-13",
+                                "winner": null,
+                                "won": null,
+                                "venue": "Malkerns Country Club oval",
+                                "marginType": null,
+                                "marginValue": null,
+                                "marginImpact": 0.0
+                            },
+                            {
+                                "date": "2025-09-12",
+                                "winner": "Eswatini",
+                                "won": false,
+                                "venue": "Malkerns Country Club oval",
+                                "marginType": "runs",
+                                "marginValue": 5.0,
+                                "marginImpact": -0.083
+                            }
+                        ]
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-10-23T10:00:00+01:00",
+                        "temperature_c": 28.2,
+                        "humidity_pct": 73,
+                        "dew_point_c": 22.8,
+                        "rain_probability_pct": 0,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 7.2,
+                        "dew_risk": "MEDIUM",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "28.2°C | RH 73% | Rain 0% | Wind 7.2 km/h",
+                    "dewRisk": "MEDIUM",
+                    "tossBias": "41.38% Chasing Wins",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "37.14",
+                    "ppWicketsAvg": 1.69,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": 6.4,
+                    "over16WicketsPerInnings": 0.362,
+                    "over16WicketEventPct": 29.79,
+                    "over16SampleInnings": 47,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 5.28/match",
+                    "metricSources": {
+                        "fixture": "CricketData cricScore + match_info",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue T20 history (n=29)",
+                        "powerplay": "Cricsheet first-innings overs 1-6 (n=29)",
+                        "over16": "Cricsheet 16th-over history (n=47)",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification 0.0%"
+                    },
+                    "venueIntel": {
+                        "status": "OK",
+                        "matches": 29,
+                        "venue_confidence": 1.0,
+                        "avg_first_innings": 125.24,
+                        "powerplay_avg": 37.14,
+                        "powerplay_wickets_avg": 1.69,
+                        "chasing_win_pct": 41.38,
+                        "over16_sample_innings": 47,
+                        "over16_avg_runs": 6.4,
+                        "over16_wickets_per_innings": 0.362,
+                        "over16_wicket_event_pct": 29.79,
+                        "mid_overs_7_14_wickets": 153,
+                        "mid_overs_7_14_wickets_per_match": 5.28,
+                        "spin_classification_pct": 0.0,
+                        "spinner_7_14_wickets": null,
+                        "spin_wicket_share_pct": null,
+                        "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+                    },
+                    "midOversWickets": 153,
+                    "midOversWicketsPerMatch": 5.28,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": 0.0,
+                    "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
+                    "noBetReasons": [],
+                    "warnings": [
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "MEDIUM DEW RISK",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-yellow",
+                    "strategyText": "Nigeria has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "No squad data"
+                "source": "Not queried"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "No squad data"
+                "source": "Not queried"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -487,16 +1256,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-23T10:00:00+01:00",
-                "temperature_c": 28.2,
-                "humidity_pct": 73,
-                "dew_point_c": 22.8,
+                "temperature_c": 28.7,
+                "humidity_pct": 72,
+                "dew_point_c": 23.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.2,
+                "wind_kmh": 5.4,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "28.2°C | RH 73% | Rain 0% | Wind 7.2 km/h",
+            "weatherText": "28.7°C | RH 72% | Rain 0% | Wind 5.4 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -510,7 +1279,7 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 5.28/match",
             "metricSources": {
-                "fixture": "CricketData cricScore + match_info",
+                "fixture": "CricketData cricScore + currentMatches",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=29)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=29)",
@@ -540,14 +1309,16 @@
             "midOversWicketsPerMatch": 5.28,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.0,
-            "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
-            "noBetReasons": [],
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
+            "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED"
+            ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-yellow",
+            "badgeClass": "badge-red",
             "strategyText": "Nigeria has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
         },
         {
@@ -561,12 +1332,12 @@
             "matchTimeIST": "2026-10-23T14:30:00+05:30",
             "indiaDate": "2026-10-23",
             "series": "ICC Men's T20 World Cup Africa Sub Regional Qualifier C 2026",
-            "sourceName": "CricketData cricScore + match_info",
+            "sourceName": "CricketData cricScore + currentMatches",
             "supplementalSourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "http://www.cricbuzz.com/live-cricket-scores/173990/zmb-vs-lso-8th-match-icc-mens-t20-world-cup-africa-sub-regional-qualifier-c-2026",
             "cricketDataMatchId": "3140a033-437c-4ca5-81ff-b41b9e688f53",
-            "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 23, 09:00 GMT",
+            "liveScoreText": "13/1 (3)",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -675,49 +1446,503 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-10-23T05:11:58.976465+00:00",
+                "matchDate": "2026-10-23",
+                "report": {
+                    "teamA": "Zambia",
+                    "teamB": "Lesotho",
+                    "name": "Zambia vs Lesotho",
+                    "matchType": "T20",
+                    "venue": "Nigeria Cricket Federation Oval 2, Abuja",
+                    "dateTimeGMT": "2026-10-23T09:00:00",
+                    "sourceDate": "2026-10-23",
+                    "matchTimeIST": "2026-10-23T14:30:00+05:30",
+                    "indiaDate": "2026-10-23",
+                    "series": "ICC Men's T20 World Cup Africa Sub Regional Qualifier C 2026",
+                    "sourceName": "CricketData cricScore + match_info",
+                    "supplementalSourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "http://www.cricbuzz.com/live-cricket-scores/173990/zmb-vs-lso-8th-match-icc-mens-t20-world-cup-africa-sub-regional-qualifier-c-2026",
+                    "cricketDataMatchId": "3140a033-437c-4ca5-81ff-b41b9e688f53",
+                    "liveScoreText": null,
+                    "sourceStatus": "Match starts at Oct 23, 09:00 GMT",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "STRONG GAP",
+                        "balanceScore": 51.2,
+                        "teamAElo": 1478.9,
+                        "teamBElo": 1334.3,
+                        "eloMatchesA": 15,
+                        "eloMatchesB": 26,
+                        "eloGap": 144.6,
+                        "recentWinRateA": 60.0,
+                        "recentWinRateB": 10.0,
+                        "recentFormGapPct": 50.0,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": "Zambia",
+                        "signals": [
+                            "Derived Elo gap 144.6",
+                            "Recent win-rate gap 50.0 percentage points"
+                        ],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "STRONG GAP",
+                    "swingScore": 53.2,
+                    "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 67,
+                        "swingProfile": "STRONG SKILL-GAP CAUTION",
+                        "swingScore": 53.2,
+                        "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                        "competitiveBalance": {
+                            "label": "STRONG GAP",
+                            "balanceScore": 51.2,
+                            "teamAElo": 1478.9,
+                            "teamBElo": 1334.3,
+                            "eloMatchesA": 15,
+                            "eloMatchesB": 26,
+                            "eloGap": 144.6,
+                            "recentWinRateA": 60.0,
+                            "recentWinRateB": 10.0,
+                            "recentFormGapPct": 50.0,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": "Zambia",
+                            "signals": [
+                                "Derived Elo gap 144.6",
+                                "Recent win-rate gap 50.0 percentage points"
+                            ],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [
+                            "Middle-overs wicket volatility: 5.28 wickets/match in overs 7-14",
+                            "Medium dew can change second-innings conditions"
+                        ],
+                        "swingPenalties": [
+                            "Strong skill gap reduces reliable two-way movement",
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "competitive_balance",
+                                "score": 51.2,
+                                "weight": 0.35
+                            },
+                            {
+                                "name": "venue_two_way",
+                                "score": 82.8,
+                                "weight": 0.2
+                            },
+                            {
+                                "name": "middle_over_volatility",
+                                "score": 88.0,
+                                "weight": 0.15
+                            },
+                            {
+                                "name": "weather",
+                                "score": 90.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "CricketData match_squad"
+                    },
+                    "squadSummary": {
+                        "status": "SQUAD AVAILABLE — XI PENDING",
+                        "teams": {
+                            "Lesotho": {
+                                "players": 13,
+                                "knownBowlingStyles": 4,
+                                "spinOptions": 1,
+                                "paceOptions": 2,
+                                "roleCounts": {
+                                    "batters": 6,
+                                    "allRounders": 1,
+                                    "bowlers": 0,
+                                    "keepers": 0
+                                },
+                                "playingFlagsPublished": 0
+                            },
+                            "Zambia": {
+                                "players": 12,
+                                "knownBowlingStyles": 3,
+                                "spinOptions": 1,
+                                "paceOptions": 2,
+                                "roleCounts": {
+                                    "batters": 0,
+                                    "allRounders": 0,
+                                    "bowlers": 0,
+                                    "keepers": 0
+                                },
+                                "playingFlagsPublished": 0
+                            }
+                        },
+                        "source": "CricketData match_squad"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS POOR FIT",
+                        "dataConfidencePct": 71,
+                        "initialPrediction": "Zambia has a strong edge on the available pre-toss historical evidence.",
+                        "edgeTeam": "Zambia",
+                        "edgeStrength": "STRONG EDGE",
+                        "edgeScore": 3.81,
+                        "swingRead": "ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+                        "conditions": [
+                            "Historical first-innings baseline: 125.2",
+                            "Powerplay baseline: 37.1 runs / 1.69 wickets",
+                            "Defend-lean venue: 41.4% chasing wins",
+                            "Overs 7-14 wicket pressure: 5.28 wickets/match",
+                            "16th-over baseline: 6.4 runs; wicket in 29.8% of sampled innings",
+                            "Weather: rain 0%, dew MEDIUM"
+                        ],
+                        "evidence": [
+                            "Elo: Zambia 1478.9 vs Lesotho 1334.3",
+                            "Recent form: 60.0% vs 10.0% wins"
+                        ],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": 125.24,
+                        "powerplayBaseline": 37.14,
+                        "powerplayWicketsBaseline": 1.69,
+                        "chasingWinPct": 41.38,
+                        "middleOversWicketsPerMatch": 5.28,
+                        "over16AvgRuns": 6.4,
+                        "over16WicketEventPct": 29.79,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "SQUAD AVAILABLE — XI PENDING",
+                        "summary": "Zambia has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 10,
+                        "wins": 6,
+                        "losses": 4,
+                        "winRatePct": 60.0,
+                        "avgMarginImpact": 0.026,
+                        "recent": [
+                            {
+                                "date": "2026-08-15",
+                                "winner": "Zambia",
+                                "won": true,
+                                "venue": "TCA Oval, Blantyre",
+                                "marginType": "runs",
+                                "marginValue": 47.0,
+                                "marginImpact": 0.783
+                            },
+                            {
+                                "date": "2026-08-15",
+                                "winner": "Zambia",
+                                "won": true,
+                                "venue": "TCA Oval, Blantyre",
+                                "marginType": "wickets",
+                                "marginValue": 4.0,
+                                "marginImpact": 0.5
+                            },
+                            {
+                                "date": "2026-08-12",
+                                "winner": "Zambia",
+                                "won": true,
+                                "venue": "TCA Oval, Blantyre",
+                                "marginType": "runs",
+                                "marginValue": 8.0,
+                                "marginImpact": 0.133
+                            },
+                            {
+                                "date": "2026-08-11",
+                                "winner": "Malawi",
+                                "won": false,
+                                "venue": "TCA Oval, Blantyre",
+                                "marginType": "runs",
+                                "marginValue": 50.0,
+                                "marginImpact": -0.833
+                            },
+                            {
+                                "date": "2026-08-11",
+                                "winner": "Rwanda",
+                                "won": false,
+                                "venue": "TCA Oval, Blantyre",
+                                "marginType": "wickets",
+                                "marginValue": 7.0,
+                                "marginImpact": -0.875
+                            },
+                            {
+                                "date": "2025-12-14",
+                                "winner": "Zambia",
+                                "won": true,
+                                "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                                "marginType": "runs",
+                                "marginValue": 20.0,
+                                "marginImpact": 0.333
+                            },
+                            {
+                                "date": "2025-12-13",
+                                "winner": "Sierra Leone",
+                                "won": false,
+                                "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                                "marginType": "wickets",
+                                "marginValue": 3.0,
+                                "marginImpact": -0.375
+                            },
+                            {
+                                "date": "2025-12-12",
+                                "winner": "Nigeria",
+                                "won": false,
+                                "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                                "marginType": "runs",
+                                "marginValue": 26.0,
+                                "marginImpact": -0.433
+                            },
+                            {
+                                "date": "2025-12-11",
+                                "winner": "Zambia",
+                                "won": true,
+                                "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                                "marginType": "runs",
+                                "marginValue": 24.0,
+                                "marginImpact": 0.4
+                            },
+                            {
+                                "date": "2025-12-09",
+                                "winner": "Zambia",
+                                "won": true,
+                                "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+                                "marginType": "wickets",
+                                "marginValue": 5.0,
+                                "marginImpact": 0.625
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 10,
+                        "wins": 1,
+                        "losses": 9,
+                        "winRatePct": 10.0,
+                        "avgMarginImpact": -0.636,
+                        "recent": [
+                            {
+                                "date": "2026-06-07",
+                                "winner": "Lesotho",
+                                "won": true,
+                                "venue": "Malkerns Country Club oval",
+                                "marginType": "runs",
+                                "marginValue": 18.0,
+                                "marginImpact": 0.3
+                            },
+                            {
+                                "date": "2026-06-06",
+                                "winner": "Mozambique",
+                                "won": false,
+                                "venue": "Malkerns Country Club oval",
+                                "marginType": "runs",
+                                "marginValue": 49.0,
+                                "marginImpact": -0.817
+                            },
+                            {
+                                "date": "2026-06-04",
+                                "winner": "Mozambique",
+                                "won": false,
+                                "venue": "Malkerns Country Club oval",
+                                "marginType": "runs",
+                                "marginValue": 22.0,
+                                "marginImpact": -0.367
+                            },
+                            {
+                                "date": "2026-06-04",
+                                "winner": "Eswatini",
+                                "won": false,
+                                "venue": "Malkerns Country Club oval",
+                                "marginType": "wickets",
+                                "marginValue": 7.0,
+                                "marginImpact": -0.875
+                            },
+                            {
+                                "date": "2026-06-02",
+                                "winner": "Mozambique",
+                                "won": false,
+                                "venue": "Malkerns Country Club oval",
+                                "marginType": "runs",
+                                "marginValue": 110.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-03-15",
+                                "winner": "Botswana",
+                                "won": false,
+                                "venue": "Botswana Cricket Association Oval 1, Gaborone",
+                                "marginType": "runs",
+                                "marginValue": 84.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-03-13",
+                                "winner": "Botswana",
+                                "won": false,
+                                "venue": "Botswana Cricket Association Oval 1, Gaborone",
+                                "marginType": "runs",
+                                "marginValue": 104.0,
+                                "marginImpact": -1.0
+                            },
+                            {
+                                "date": "2026-03-12",
+                                "winner": "Botswana",
+                                "won": false,
+                                "venue": "Botswana Cricket Association Oval 1, Gaborone",
+                                "marginType": "runs",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.1
+                            },
+                            {
+                                "date": "2026-03-10",
+                                "winner": "Botswana",
+                                "won": false,
+                                "venue": "Botswana Cricket Association Oval 1, Gaborone",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.75
+                            },
+                            {
+                                "date": "2026-03-09",
+                                "winner": "Botswana",
+                                "won": false,
+                                "venue": "Botswana Cricket Association Oval 1, Gaborone",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.75
+                            }
+                        ]
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-10-23T10:00:00+01:00",
+                        "temperature_c": 28.2,
+                        "humidity_pct": 73,
+                        "dew_point_c": 22.8,
+                        "rain_probability_pct": 0,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 7.2,
+                        "dew_risk": "MEDIUM",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "28.2°C | RH 73% | Rain 0% | Wind 7.2 km/h",
+                    "dewRisk": "MEDIUM",
+                    "tossBias": "41.38% Chasing Wins",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "37.14",
+                    "ppWicketsAvg": 1.69,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": 6.4,
+                    "over16WicketsPerInnings": 0.362,
+                    "over16WicketEventPct": 29.79,
+                    "over16SampleInnings": 47,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 5.28/match",
+                    "metricSources": {
+                        "fixture": "CricketData cricScore + match_info",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue T20 history (n=29)",
+                        "powerplay": "Cricsheet first-innings overs 1-6 (n=29)",
+                        "over16": "Cricsheet 16th-over history (n=47)",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification 4.97%"
+                    },
+                    "venueIntel": {
+                        "status": "OK",
+                        "matches": 29,
+                        "venue_confidence": 1.0,
+                        "avg_first_innings": 125.24,
+                        "powerplay_avg": 37.14,
+                        "powerplay_wickets_avg": 1.69,
+                        "chasing_win_pct": 41.38,
+                        "over16_sample_innings": 47,
+                        "over16_avg_runs": 6.4,
+                        "over16_wickets_per_innings": 0.362,
+                        "over16_wicket_event_pct": 29.79,
+                        "mid_overs_7_14_wickets": 153,
+                        "mid_overs_7_14_wickets_per_match": 5.28,
+                        "spin_classification_pct": 4.97,
+                        "spinner_7_14_wickets": null,
+                        "spin_wicket_share_pct": null,
+                        "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+                    },
+                    "midOversWickets": 153,
+                    "midOversWicketsPerMatch": 5.28,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": 4.97,
+                    "verdict": "🔴 PRE-TOSS POOR FIT / ONE-SIDED RISK",
+                    "noBetReasons": [],
+                    "warnings": [
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "MEDIUM DEW RISK",
+                        "STRONG SKILL GAP — TWO-WAY SWING LESS RELIABLE",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-red",
+                    "strategyText": "Zambia has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "CricketData match_squad"
+                "source": "Not queried"
             },
             "squadSummary": {
-                "status": "SQUAD AVAILABLE — XI PENDING",
-                "teams": {
-                    "Lesotho": {
-                        "players": 13,
-                        "knownBowlingStyles": 4,
-                        "spinOptions": 1,
-                        "paceOptions": 2,
-                        "roleCounts": {
-                            "batters": 6,
-                            "allRounders": 1,
-                            "bowlers": 0,
-                            "keepers": 0
-                        },
-                        "playingFlagsPublished": 0
-                    },
-                    "Zambia": {
-                        "players": 12,
-                        "knownBowlingStyles": 3,
-                        "spinOptions": 1,
-                        "paceOptions": 2,
-                        "roleCounts": {
-                            "batters": 0,
-                            "allRounders": 0,
-                            "bowlers": 0,
-                            "keepers": 0
-                        },
-                        "playingFlagsPublished": 0
-                    }
-                },
-                "source": "CricketData match_squad"
+                "status": "NO SQUAD DATA",
+                "teams": {},
+                "source": "Not queried"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS POOR FIT",
-                "dataConfidencePct": 71,
+                "dataConfidencePct": 57,
                 "initialPrediction": "Zambia has a strong edge on the available pre-toss historical evidence.",
                 "edgeTeam": "Zambia",
                 "edgeStrength": "STRONG EDGE",
@@ -754,7 +1979,7 @@
                 "over16AvgRuns": 6.4,
                 "over16WicketEventPct": 29.79,
                 "spinWicketSharePct": null,
-                "squadStatus": "SQUAD AVAILABLE — XI PENDING",
+                "squadStatus": "NO SQUAD DATA",
                 "summary": "Zambia has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
             },
             "pendingGates": [
@@ -964,16 +2189,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-23T10:00:00+01:00",
-                "temperature_c": 28.2,
-                "humidity_pct": 73,
-                "dew_point_c": 22.8,
+                "temperature_c": 28.7,
+                "humidity_pct": 72,
+                "dew_point_c": 23.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.2,
+                "wind_kmh": 5.4,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "28.2°C | RH 73% | Rain 0% | Wind 7.2 km/h",
+            "weatherText": "28.7°C | RH 72% | Rain 0% | Wind 5.4 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -987,12 +2212,12 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 5.28/match",
             "metricSources": {
-                "fixture": "CricketData cricScore + match_info",
+                "fixture": "CricketData cricScore + currentMatches",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=29)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=29)",
                 "over16": "Cricsheet 16th-over history (n=47)",
-                "spinChoke": "Cricsheet overs 7-14; bowler-style classification 4.97%"
+                "spinChoke": "Cricsheet overs 7-14; bowler-style classification 0.0%"
             },
             "venueIntel": {
                 "status": "OK",
@@ -1008,7 +2233,7 @@
                 "over16_wicket_event_pct": 29.79,
                 "mid_overs_7_14_wickets": 153,
                 "mid_overs_7_14_wickets_per_match": 5.28,
-                "spin_classification_pct": 4.97,
+                "spin_classification_pct": 0.0,
                 "spinner_7_14_wickets": null,
                 "spin_wicket_share_pct": null,
                 "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
@@ -1016,9 +2241,11 @@
             "midOversWickets": 153,
             "midOversWicketsPerMatch": 5.28,
             "spinnerWickets7to14": null,
-            "spinClassificationPct": 4.97,
-            "verdict": "🔴 PRE-TOSS POOR FIT / ONE-SIDED RISK",
-            "noBetReasons": [],
+            "spinClassificationPct": 0.0,
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
+            "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED"
+            ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "MEDIUM DEW RISK",
@@ -1168,7 +2395,7 @@
                     "Two-way venue: 45.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.34 wickets/match",
                     "16th-over baseline: 8.5 runs; wicket in 31.3% of sampled innings",
-                    "Weather: rain 10%, dew LOW"
+                    "Weather: rain 3%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -1309,16 +2536,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-23T18:00:00+02:00",
-                "temperature_c": 20.3,
-                "humidity_pct": 73,
-                "dew_point_c": 15.2,
-                "rain_probability_pct": 10,
+                "temperature_c": 21.2,
+                "humidity_pct": 64,
+                "dew_point_c": 14.0,
+                "rain_probability_pct": 3,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 11.5,
+                "wind_kmh": 17.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "20.3°C | RH 73% | Rain 10% | Wind 11.5 km/h",
+            "weatherText": "21.2°C | RH 64% | Rain 3% | Wind 17.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "44.95% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -1787,16 +3014,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-23T14:00:00+01:00",
-                "temperature_c": 31.4,
-                "humidity_pct": 49,
-                "dew_point_c": 19.3,
+                "temperature_c": 32.2,
+                "humidity_pct": 44,
+                "dew_point_c": 18.3,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 5.6,
+                "wind_kmh": 6.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "31.4°C | RH 49% | Rain 0% | Wind 5.6 km/h",
+            "weatherText": "32.2°C | RH 44% | Rain 0% | Wind 6.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",

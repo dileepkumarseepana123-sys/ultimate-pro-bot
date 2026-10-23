@@ -76385,7 +76385,7 @@
         }
     },
     "gambia|uganda|2026-10-23": {
-        "capturedAt": "2026-10-23T05:11:58.976521+00:00",
+        "capturedAt": "2026-10-23T11:56:39.527318+00:00",
         "matchDate": "2026-10-23",
         "report": {
             "teamA": "Gambia",
@@ -76800,16 +76800,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-23T14:00:00+01:00",
-                "temperature_c": 31.4,
-                "humidity_pct": 49,
-                "dew_point_c": 19.3,
+                "temperature_c": 32.2,
+                "humidity_pct": 44,
+                "dew_point_c": 18.3,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 5.6,
+                "wind_kmh": 6.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "31.4°C | RH 49% | Rain 0% | Wind 5.6 km/h",
+            "weatherText": "32.2°C | RH 44% | Rain 0% | Wind 6.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -76866,7 +76866,7 @@
         }
     },
     "dolphins|south western districts|2026-10-23": {
-        "capturedAt": "2026-10-23T05:11:58.976542+00:00",
+        "capturedAt": "2026-10-23T11:56:39.527362+00:00",
         "matchDate": "2026-10-23",
         "report": {
             "teamA": "Dolphins",
@@ -77008,7 +77008,7 @@
                     "Two-way venue: 45.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.34 wickets/match",
                     "16th-over baseline: 8.5 runs; wicket in 31.3% of sampled innings",
-                    "Weather: rain 10%, dew LOW"
+                    "Weather: rain 3%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -77149,16 +77149,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-23T18:00:00+02:00",
-                "temperature_c": 20.3,
-                "humidity_pct": 73,
-                "dew_point_c": 15.2,
-                "rain_probability_pct": 10,
+                "temperature_c": 21.2,
+                "humidity_pct": 64,
+                "dew_point_c": 14.0,
+                "rain_probability_pct": 3,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 11.5,
+                "wind_kmh": 17.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "20.3°C | RH 73% | Rain 10% | Wind 11.5 km/h",
+            "weatherText": "21.2°C | RH 64% | Rain 3% | Wind 17.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "44.95% Chasing Wins",
             "tossTrend": "Historical venue trend",

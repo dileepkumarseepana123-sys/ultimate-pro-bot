@@ -4296,5 +4296,141 @@
       ],
       "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
     }
+  },
+  "f31db97a-bcaf-45f8-9e59-3ffcf84c9c6a": {
+    "cachedAt": "2026-10-23T11:54:59.053728+00:00",
+    "data": {
+      "id": "f31db97a-bcaf-45f8-9e59-3ffcf84c9c6a",
+      "name": "Bangladesh vs Sri Lanka, Group B, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 30, 05:20 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T05:20:00",
+      "teams": [
+        "Bangladesh",
+        "Sri Lanka"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "0d8232bd-00c0-4d63-b647-ef8773fcd19a": {
+    "cachedAt": "2026-10-23T11:54:59.221347+00:00",
+    "data": {
+      "id": "0d8232bd-00c0-4d63-b647-ef8773fcd19a",
+      "name": "Papua New Guinea vs Kuwait, 42nd Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Match starts at Oct 30, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T05:30:00",
+      "teams": [
+        "Papua New Guinea",
+        "Kuwait"
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e"
+    }
+  },
+  "27c5b49c-f9d5-4114-bf83-e0ce1fd50141": {
+    "cachedAt": "2026-10-23T11:54:59.388262+00:00",
+    "data": {
+      "id": "27c5b49c-f9d5-4114-bf83-e0ce1fd50141",
+      "name": "Jersey vs Denmark, 43rd Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Match starts at Oct 30, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T05:30:00",
+      "teams": [
+        "Jersey",
+        "Denmark"
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e"
+    }
+  },
+  "bd6204a8-08f2-464c-aad0-a4c3b525724d": {
+    "cachedAt": "2026-10-23T11:54:59.557370+00:00",
+    "data": {
+      "id": "bd6204a8-08f2-464c-aad0-a4c3b525724d",
+      "name": "India vs Pakistan, Group C, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 30, 06:15 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T06:15:00",
+      "teams": [
+        "India",
+        "Pakistan"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "2445a90a-eef7-467e-8cb6-75c4203a8e2c": {
+    "cachedAt": "2026-10-23T11:54:59.725942+00:00",
+    "data": {
+      "id": "2445a90a-eef7-467e-8cb6-75c4203a8e2c",
+      "name": "New Zealand vs India, 4th T20I, India tour of New Zealand 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 30, 07:00 GMT",
+      "venue": "Eden Park, Auckland",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T07:00:00",
+      "teams": [
+        "New Zealand",
+        "India"
+      ],
+      "series_id": "9f0a2527-1508-42b3-9945-4ade13fd4b5a"
+    }
+  },
+  "46458058-32b7-4518-af44-e5f7d81a0e81": {
+    "cachedAt": "2026-10-23T11:54:59.897649+00:00",
+    "data": {
+      "id": "46458058-32b7-4518-af44-e5f7d81a0e81",
+      "name": "South Africa vs Afghanistan, Group D, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 30, 07:10 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T07:10:00",
+      "teams": [
+        "South Africa",
+        "Afghanistan"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "ea3f4407-fbeb-4929-ba18-e7511175200b": {
+    "cachedAt": "2026-10-23T11:55:00.074990+00:00",
+    "data": {
+      "id": "ea3f4407-fbeb-4929-ba18-e7511175200b",
+      "name": "Namibia vs Ireland, 4th ODI, Ireland tour of Namibia, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 30, 08:00 GMT",
+      "venue": "Namibia Cricket Ground,  Windhoek",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T08:00:00",
+      "teams": [
+        "Namibia",
+        "Ireland"
+      ],
+      "series_id": "ac09b782-bac3-4861-971a-5559a4703507"
+    }
+  },
+  "b061c3b6-29fd-4e1f-81de-767867e6888a": {
+    "cachedAt": "2026-10-23T11:55:00.253809+00:00",
+    "data": {
+      "id": "b061c3b6-29fd-4e1f-81de-767867e6888a",
+      "name": "England vs Australia, Group A, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 30, 08:05 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T08:05:00",
+      "teams": [
+        "England",
+        "Australia"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
   }
 }
