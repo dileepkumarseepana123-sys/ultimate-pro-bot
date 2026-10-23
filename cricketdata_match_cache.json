@@ -4432,5 +4432,22 @@
       ],
       "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
     }
+  },
+  "7d23b2d0-3b85-49cb-9c35-568cc4c300fb": {
+    "cachedAt": "2026-10-23T17:25:07.152466+00:00",
+    "data": {
+      "id": "7d23b2d0-3b85-49cb-9c35-568cc4c300fb",
+      "name": "Brisbane Heat Women vs Sydney Sixers Women, 3rd Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 30, 08:10 GMT",
+      "venue": "Allan Border Field, Brisbane",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T08:10:00",
+      "teams": [
+        "Brisbane Heat Women",
+        "Sydney Sixers Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }
