@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-22T21:52:55.859816+00:00",
+    "last_updated": "2026-10-23T05:11:59.057016+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -22,22 +22,23 @@
         "cricscore_calls_this_run": 1,
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
-        "match_info_calls_this_run": 0,
+        "match_info_calls_this_run": 4,
         "match_info_cache_hits_this_run": 137,
-        "match_info_enriched_rows": 137,
-        "match_info_cache_size": 250,
+        "match_info_enriched_rows": 141,
+        "match_info_cache_size": 254,
         "max_match_info_lookups_per_run": 8,
-        "squad_calls_this_run": 2,
+        "squad_calls_this_run": 3,
         "squad_cache_hits_this_run": 0,
-        "squad_cache_size": 46,
+        "squad_cache_size": 47,
         "endpoint_calls_this_run": {
             "cricScore": 1,
             "currentMatches": 1,
+            "match_info": 4,
             "matches": 2,
-            "match_squad": 2
+            "match_squad": 3
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 24,
+        "hits_today_reported": 62,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -70,13 +71,13 @@
         "current_matches_rows": 25,
         "current_matches_t20_rows": 13,
         "current_matches_today_t20_rows": 0,
-        "cricscore_rows": 137,
-        "cricscore_t20_rows": 52,
+        "cricscore_rows": 141,
+        "cricscore_t20_rows": 56,
         "cricscore_today_t20_rows": 3,
         "cricketdata_rows": 50,
         "cricketdata_t20_rows": 42,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 98,
+        "merged_candidates": 102,
         "final_reports": 4
     },
     "summary": {
@@ -486,16 +487,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-23T10:00:00+01:00",
-                "temperature_c": 28.5,
-                "humidity_pct": 72,
+                "temperature_c": 28.2,
+                "humidity_pct": 73,
                 "dew_point_c": 22.8,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 4.5,
+                "wind_kmh": 7.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "28.5°C | RH 72% | Rain 0% | Wind 4.5 km/h",
+            "weatherText": "28.2°C | RH 73% | Rain 0% | Wind 7.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -963,16 +964,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-23T10:00:00+01:00",
-                "temperature_c": 28.5,
-                "humidity_pct": 72,
+                "temperature_c": 28.2,
+                "humidity_pct": 73,
                 "dew_point_c": 22.8,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 4.5,
+                "wind_kmh": 7.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "28.5°C | RH 72% | Rain 0% | Wind 4.5 km/h",
+            "weatherText": "28.2°C | RH 73% | Rain 0% | Wind 7.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -1167,7 +1168,7 @@
                     "Two-way venue: 45.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.34 wickets/match",
                     "16th-over baseline: 8.5 runs; wicket in 31.3% of sampled innings",
-                    "Weather: rain 2%, dew LOW"
+                    "Weather: rain 10%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -1308,16 +1309,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-23T18:00:00+02:00",
-                "temperature_c": 20.9,
-                "humidity_pct": 70,
-                "dew_point_c": 15.1,
-                "rain_probability_pct": 2,
+                "temperature_c": 20.3,
+                "humidity_pct": 73,
+                "dew_point_c": 15.2,
+                "rain_probability_pct": 10,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 13.5,
+                "wind_kmh": 11.5,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "20.9°C | RH 70% | Rain 2% | Wind 13.5 km/h",
+            "weatherText": "20.3°C | RH 73% | Rain 10% | Wind 11.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "44.95% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -1502,17 +1503,44 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "CricketData match_squad"
             },
             "squadSummary": {
-                "status": "NO SQUAD DATA",
-                "teams": {},
-                "source": "Not queried"
+                "status": "SQUAD AVAILABLE — XI PENDING",
+                "teams": {
+                    "Gambia": {
+                        "players": 12,
+                        "knownBowlingStyles": 7,
+                        "spinOptions": 0,
+                        "paceOptions": 7,
+                        "roleCounts": {
+                            "batters": 6,
+                            "allRounders": 2,
+                            "bowlers": 3,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    },
+                    "Uganda": {
+                        "players": 14,
+                        "knownBowlingStyles": 9,
+                        "spinOptions": 1,
+                        "paceOptions": 6,
+                        "roleCounts": {
+                            "batters": 4,
+                            "allRounders": 4,
+                            "bowlers": 2,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    }
+                },
+                "source": "CricketData match_squad"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS POOR FIT",
-                "dataConfidencePct": 57,
+                "dataConfidencePct": 71,
                 "initialPrediction": "Uganda has a strong edge on the available pre-toss historical evidence.",
                 "edgeTeam": "Uganda",
                 "edgeStrength": "STRONG EDGE",
@@ -1549,7 +1577,7 @@
                 "over16AvgRuns": 6.4,
                 "over16WicketEventPct": 29.79,
                 "spinWicketSharePct": null,
-                "squadStatus": "NO SQUAD DATA",
+                "squadStatus": "SQUAD AVAILABLE — XI PENDING",
                 "summary": "Uganda has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
             },
             "pendingGates": [
@@ -1759,16 +1787,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-23T14:00:00+01:00",
-                "temperature_c": 31.8,
-                "humidity_pct": 46,
-                "dew_point_c": 18.8,
+                "temperature_c": 31.4,
+                "humidity_pct": 49,
+                "dew_point_c": 19.3,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 4.8,
+                "wind_kmh": 5.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "31.8°C | RH 46% | Rain 0% | Wind 4.8 km/h",
+            "weatherText": "31.4°C | RH 49% | Rain 0% | Wind 5.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",

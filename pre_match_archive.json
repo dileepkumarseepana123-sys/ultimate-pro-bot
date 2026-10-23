@@ -75436,7 +75436,7 @@
         }
     },
     "lesotho|zambia|2026-10-23": {
-        "capturedAt": "2026-10-22T21:52:55.770106+00:00",
+        "capturedAt": "2026-10-23T05:11:58.976465+00:00",
         "matchDate": "2026-10-23",
         "report": {
             "teamA": "Zambia",
@@ -75852,16 +75852,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-23T10:00:00+01:00",
-                "temperature_c": 28.5,
-                "humidity_pct": 72,
+                "temperature_c": 28.2,
+                "humidity_pct": 73,
                 "dew_point_c": 22.8,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 4.5,
+                "wind_kmh": 7.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "28.5°C | RH 72% | Rain 0% | Wind 4.5 km/h",
+            "weatherText": "28.2°C | RH 73% | Rain 0% | Wind 7.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -75918,7 +75918,7 @@
         }
     },
     "mozambique|nigeria|2026-10-23": {
-        "capturedAt": "2026-10-22T21:52:55.770125+00:00",
+        "capturedAt": "2026-10-23T05:11:58.976500+00:00",
         "matchDate": "2026-10-23",
         "report": {
             "teamA": "Nigeria",
@@ -76320,16 +76320,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-23T10:00:00+01:00",
-                "temperature_c": 28.5,
-                "humidity_pct": 72,
+                "temperature_c": 28.2,
+                "humidity_pct": 73,
                 "dew_point_c": 22.8,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 4.5,
+                "wind_kmh": 7.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "28.5°C | RH 72% | Rain 0% | Wind 4.5 km/h",
+            "weatherText": "28.2°C | RH 73% | Rain 0% | Wind 7.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -76385,7 +76385,7 @@
         }
     },
     "gambia|uganda|2026-10-23": {
-        "capturedAt": "2026-10-22T21:52:55.770135+00:00",
+        "capturedAt": "2026-10-23T05:11:58.976521+00:00",
         "matchDate": "2026-10-23",
         "report": {
             "teamA": "Gambia",
@@ -76516,17 +76516,44 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "CricketData match_squad"
             },
             "squadSummary": {
-                "status": "NO SQUAD DATA",
-                "teams": {},
-                "source": "Not queried"
+                "status": "SQUAD AVAILABLE — XI PENDING",
+                "teams": {
+                    "Gambia": {
+                        "players": 12,
+                        "knownBowlingStyles": 7,
+                        "spinOptions": 0,
+                        "paceOptions": 7,
+                        "roleCounts": {
+                            "batters": 6,
+                            "allRounders": 2,
+                            "bowlers": 3,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    },
+                    "Uganda": {
+                        "players": 14,
+                        "knownBowlingStyles": 9,
+                        "spinOptions": 1,
+                        "paceOptions": 6,
+                        "roleCounts": {
+                            "batters": 4,
+                            "allRounders": 4,
+                            "bowlers": 2,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    }
+                },
+                "source": "CricketData match_squad"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS POOR FIT",
-                "dataConfidencePct": 57,
+                "dataConfidencePct": 71,
                 "initialPrediction": "Uganda has a strong edge on the available pre-toss historical evidence.",
                 "edgeTeam": "Uganda",
                 "edgeStrength": "STRONG EDGE",
@@ -76563,7 +76590,7 @@
                 "over16AvgRuns": 6.4,
                 "over16WicketEventPct": 29.79,
                 "spinWicketSharePct": null,
-                "squadStatus": "NO SQUAD DATA",
+                "squadStatus": "SQUAD AVAILABLE — XI PENDING",
                 "summary": "Uganda has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
             },
             "pendingGates": [
@@ -76773,16 +76800,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-23T14:00:00+01:00",
-                "temperature_c": 31.8,
-                "humidity_pct": 46,
-                "dew_point_c": 18.8,
+                "temperature_c": 31.4,
+                "humidity_pct": 49,
+                "dew_point_c": 19.3,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 4.8,
+                "wind_kmh": 5.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "31.8°C | RH 46% | Rain 0% | Wind 4.8 km/h",
+            "weatherText": "31.4°C | RH 49% | Rain 0% | Wind 5.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -76839,7 +76866,7 @@
         }
     },
     "dolphins|south western districts|2026-10-23": {
-        "capturedAt": "2026-10-22T21:52:55.770147+00:00",
+        "capturedAt": "2026-10-23T05:11:58.976542+00:00",
         "matchDate": "2026-10-23",
         "report": {
             "teamA": "Dolphins",
@@ -76981,7 +77008,7 @@
                     "Two-way venue: 45.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.34 wickets/match",
                     "16th-over baseline: 8.5 runs; wicket in 31.3% of sampled innings",
-                    "Weather: rain 2%, dew LOW"
+                    "Weather: rain 10%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -77122,16 +77149,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-23T18:00:00+02:00",
-                "temperature_c": 20.9,
-                "humidity_pct": 70,
-                "dew_point_c": 15.1,
-                "rain_probability_pct": 2,
+                "temperature_c": 20.3,
+                "humidity_pct": 73,
+                "dew_point_c": 15.2,
+                "rain_probability_pct": 10,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 13.5,
+                "wind_kmh": 11.5,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "20.9°C | RH 70% | Rain 2% | Wind 13.5 km/h",
+            "weatherText": "20.3°C | RH 73% | Rain 10% | Wind 11.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "44.95% Chasing Wins",
             "tossTrend": "Historical venue trend",

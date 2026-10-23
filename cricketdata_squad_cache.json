@@ -3623,7 +3623,7 @@
     }
   },
   "3140a033-437c-4ca5-81ff-b41b9e688f53": {
-    "cachedAt": "2026-10-22T21:52:44.433863+00:00",
+    "cachedAt": "2026-10-23T05:11:48.321394+00:00",
     "payload": {
       "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
       "data": [
@@ -3829,30 +3829,277 @@
       ],
       "status": "success",
       "info": {
-        "hitsToday": 14,
+        "hitsToday": 42,
         "hitsUsed": 10,
         "hitsLimit": 100,
         "credits": 0,
-        "server": 9,
-        "queryTime": 26.0401,
+        "server": 1,
+        "queryTime": 29.7751,
         "s": 0,
         "cache": 0
       }
     }
   },
   "cef60146-811d-495b-a3d1-64f87e588a78": {
-    "cachedAt": "2026-10-22T21:52:48.182778+00:00",
+    "cachedAt": "2026-10-23T05:11:51.839546+00:00",
     "payload": {
       "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
       "data": [],
       "status": "success",
       "info": {
-        "hitsToday": 24,
+        "hitsToday": 52,
         "hitsUsed": 10,
         "hitsLimit": 100,
         "credits": 0,
-        "server": 11,
-        "queryTime": 17.1621,
+        "server": 12,
+        "queryTime": 11.7924,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "b12481b9-3c03-4a66-836f-0d87019d63ab": {
+    "cachedAt": "2026-10-23T05:11:54.444219+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [
+        {
+          "teamName": "Gambia",
+          "shortname": "GAM",
+          "img": "https://h.cricapi.com/img/icon512.png",
+          "players": [
+            {
+              "id": "1c4ff6ff-cbd5-40c0-a4b4-0c2c02591d06",
+              "name": "Andre Jarju",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "a1cc3601-a430-4def-86b5-134dd85c75a0",
+              "name": "Muhammed Manga",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "bf4b9e05-b718-43ec-b911-41a9acf8961a",
+              "name": "Modou Bojang",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "22277056-a8d8-4e5c-a22c-484daef1499f",
+              "name": "David Demba",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "67dc2bab-89e5-42f6-bbe7-6979014d4d51",
+              "name": "Aniru Conteh",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "9d40e9d0-b9c1-4480-b95e-6ebdf783e3c5",
+              "name": "Ousman Bah",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "6dde4b61-a848-48ac-9aad-8dd5d3389e18",
+              "name": "Abubacarr Kuyateh",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "d0a7c388-69d1-4e05-a1a0-a57cb3037a0b",
+              "name": "Mustapha Suwareh",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "a45780ce-c8a7-4071-94fc-bf360d92ed57",
+              "name": "Fallou Thorpe",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "e3e152e2-a2c0-403b-8c84-dfabcde51295",
+              "name": "Musa Jobarteh",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "dc7963ad-34f9-4b0a-b526-ebbb4a05b7f5",
+              "name": "Pa Assan Faye",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "cdbffd15-2198-4b05-a86d-f688ef390851",
+              "name": "Frank Campbell",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            }
+          ]
+        },
+        {
+          "teamName": "Uganda",
+          "shortname": "UGA",
+          "img": "https://g.cricapi.com/iapi/664-637877086718333803.webp?w=48",
+          "players": [
+            {
+              "id": "ad5ef3c6-4443-499f-aa35-0f9472b4e6fe",
+              "name": "Alpesh Ramjani",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Left-arm orthodox",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "6cea16ad-e6cb-4dc3-b079-298b376fe688",
+              "name": "Joseph Baguma",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "cb251bc1-5842-40d9-a806-5f7b88d8c007",
+              "name": "Robinson Obuya",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "33fb97ba-57cf-44e0-9df7-73546622e9d1",
+              "name": "Riazat Ali Shah",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "b329bb28-6059-4855-b2df-7851c7bcd42c",
+              "name": "Pius Oloka",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "0a0c588f-b043-402c-af6c-8f151c3a564d",
+              "name": "Enock Kasaija",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "a6c8fc94-326a-4be4-a152-a4e16023d634",
+              "name": "Cyrus Kakuru",
+              "role": "WK-Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "1a06a585-81ff-45ac-9dda-aa37129c8321",
+              "name": "Juma Miyagi",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "17a30110-1b4b-4b02-8747-b7edc894b079",
+              "name": "Anas Baig",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "246476d2-9861-4dc9-b5b9-b953572fd584",
+              "name": "Charles Musemeza",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "e1451d1b-725c-4f8f-a098-c8ee01e4900f",
+              "name": "Raghav Dhawan",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "d99ef921-8afb-4306-adb5-d4f1c97a09f2",
+              "name": "Olipa Gerald",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "2282147f-00c2-49f4-af40-db40f9f2b89a",
+              "name": "Sumeet Verma",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "ef547e7d-6e6b-4217-9419-e2ab30b4fd76",
+              "name": "Kenneth Waiswa",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            }
+          ]
+        }
+      ],
+      "status": "success",
+      "info": {
+        "hitsToday": 62,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 9,
+        "queryTime": 54.6425,
         "s": 0,
         "cache": 0
       }
