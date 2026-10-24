@@ -77216,7 +77216,7 @@
         }
     },
     "india|new zealand|2026-10-24": {
-        "capturedAt": "2026-10-24T04:56:02.680314+00:00",
+        "capturedAt": "2026-10-24T16:12:08.549787+00:00",
         "matchDate": "2026-10-24",
         "report": {
             "teamA": "New Zealand",
@@ -77234,7 +77234,7 @@
             "sourceMatchUrl": "http://www.cricbuzz.com/live-cricket-scores/161201/nz-vs-ind-2nd-t20i-india-tour-of-new-zealand-2026",
             "cricketDataMatchId": "7a614754-d3c7-4690-b8b2-2759ff00a673",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 24, 07:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -77786,11 +77786,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "India has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "India has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "mozambique|uganda|2026-10-24": {
-        "capturedAt": "2026-10-24T04:56:02.680347+00:00",
+        "capturedAt": "2026-10-24T16:12:08.549804+00:00",
         "matchDate": "2026-10-24",
         "report": {
             "teamA": "Uganda",
@@ -77808,7 +77809,7 @@
             "sourceMatchUrl": "http://www.cricbuzz.com/live-cricket-scores/174000/uga-vs-moz-10th-match-icc-mens-t20-world-cup-africa-sub-regional-qualifier-c-2026",
             "cricketDataMatchId": "41b3c2d0-5897-4e56-b8c7-d3116afb6ab3",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 24, 09:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -78254,7 +78255,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Uganda has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Uganda has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "lesotho|nigeria|2026-10-24": {
