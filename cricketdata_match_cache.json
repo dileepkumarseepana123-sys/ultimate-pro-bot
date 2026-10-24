@@ -4449,5 +4449,141 @@
       ],
       "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
     }
+  },
+  "13ecc73c-a3c3-49bb-ae2d-6c1593859d56": {
+    "cachedAt": "2026-10-24T04:53:26.610554+00:00",
+    "data": {
+      "id": "13ecc73c-a3c3-49bb-ae2d-6c1593859d56",
+      "name": "Mexico Women vs Argentina Women, 1st T20I, Argentina Women tour of Mexico, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 24, 14:00 GMT",
+      "venue": "Complejo Municipal de Beisbol de Texcoco, Texcoco de Mora",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T14:00:00",
+      "teams": [
+        "Mexico Women",
+        "Argentina Women"
+      ],
+      "series_id": "dbd6fb0b-4c7c-4c88-a148-f6af2c5b7686"
+    }
+  },
+  "326660fd-3ba5-498f-a70c-8465448e3c34": {
+    "cachedAt": "2026-10-24T04:53:26.791567+00:00",
+    "data": {
+      "id": "326660fd-3ba5-498f-a70c-8465448e3c34",
+      "name": "Mexico Women vs Argentina Women, 3rd T20I, Argentina Women tour of Mexico, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Complejo Municipal de Beisbol de Texcoco, Texcoco de Mora",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T14:00:00",
+      "teams": [
+        "Mexico Women",
+        "Argentina Women"
+      ],
+      "series_id": "dbd6fb0b-4c7c-4c88-a148-f6af2c5b7686"
+    }
+  },
+  "a2d9a56c-3489-48c6-8382-081f656ff954": {
+    "cachedAt": "2026-10-24T04:53:26.969770+00:00",
+    "data": {
+      "id": "a2d9a56c-3489-48c6-8382-081f656ff954",
+      "name": "Mexico Women vs Argentina Women, 2nd T20I, Argentina Women tour of Mexico, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Complejo Municipal de Beisbol de Texcoco, Texcoco de Mora",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T19:00:00",
+      "teams": [
+        "Mexico Women",
+        "Argentina Women"
+      ],
+      "series_id": "dbd6fb0b-4c7c-4c88-a148-f6af2c5b7686"
+    }
+  },
+  "f9f1adfc-6af6-4d2e-b6f0-658b8f7fde6e": {
+    "cachedAt": "2026-10-24T04:53:27.150415+00:00",
+    "data": {
+      "id": "f9f1adfc-6af6-4d2e-b6f0-658b8f7fde6e",
+      "name": "Tasmania vs New South Wales, 8th Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 30, 23:30 GMT",
+      "venue": "Bellerive Oval, Hobart",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T23:30:00",
+      "teams": [
+        "Tasmania",
+        "New South Wales"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
+  },
+  "296bfb68-d612-4e46-b3e4-d1d00946750b": {
+    "cachedAt": "2026-10-24T04:53:27.328069+00:00",
+    "data": {
+      "id": "296bfb68-d612-4e46-b3e4-d1d00946750b",
+      "name": "Queensland vs Victoria, 9th Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Oct 31, 00:00 GMT",
+      "venue": "The Gabba, Brisbane",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T00:00:00",
+      "teams": [
+        "Queensland",
+        "Victoria"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
+  },
+  "d3d22aca-0878-4ae5-b6ec-452935f297c3": {
+    "cachedAt": "2026-10-24T04:53:27.507956+00:00",
+    "data": {
+      "id": "d3d22aca-0878-4ae5-b6ec-452935f297c3",
+      "name": "Oman vs Afghanistan, Group D, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 00:45 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T00:45:00",
+      "teams": [
+        "Oman",
+        "Afghanistan"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "8df86474-487a-48a3-9433-f97caa14c7f6": {
+    "cachedAt": "2026-10-24T04:53:27.685017+00:00",
+    "data": {
+      "id": "8df86474-487a-48a3-9433-f97caa14c7f6",
+      "name": "Scotland vs Sri Lanka, Group B, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 01:40 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T01:40:00",
+      "teams": [
+        "Scotland",
+        "Sri Lanka"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "9403de32-964d-403d-8360-e76283699690": {
+    "cachedAt": "2026-10-24T04:53:27.861126+00:00",
+    "data": {
+      "id": "9403de32-964d-403d-8360-e76283699690",
+      "name": "United Arab Emirates vs India, Group C, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 02:35 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T02:35:00",
+      "teams": [
+        "United Arab Emirates",
+        "India"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
   }
 }

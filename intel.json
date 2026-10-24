@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-23T21:36:55.847906+00:00",
+    "last_updated": "2026-10-24T04:56:02.751153+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -22,22 +22,23 @@
         "cricscore_calls_this_run": 1,
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
-        "match_info_calls_this_run": 0,
-        "match_info_cache_hits_this_run": 145,
-        "match_info_enriched_rows": 145,
-        "match_info_cache_size": 263,
+        "match_info_calls_this_run": 8,
+        "match_info_cache_hits_this_run": 142,
+        "match_info_enriched_rows": 150,
+        "match_info_cache_size": 271,
         "max_match_info_lookups_per_run": 8,
-        "squad_calls_this_run": 2,
+        "squad_calls_this_run": 4,
         "squad_cache_hits_this_run": 0,
-        "squad_cache_size": 49,
+        "squad_cache_size": 51,
         "endpoint_calls_this_run": {
             "cricScore": 1,
             "currentMatches": 1,
+            "match_info": 8,
             "matches": 2,
-            "match_squad": 2
+            "match_squad": 4
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 24,
+        "hits_today_reported": 76,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -65,24 +66,24 @@
         "text_relay_today_t20_rows": 8,
         "text_relay_match_url_rows": 8,
         "text_relay_time_enriched_rows": 8,
-        "final_reports_with_known_time": 9,
-        "final_reports_with_weather": 9,
+        "final_reports_with_known_time": 10,
+        "final_reports_with_weather": 10,
         "current_matches_rows": 25,
-        "current_matches_t20_rows": 16,
+        "current_matches_t20_rows": 14,
         "current_matches_today_t20_rows": 0,
-        "cricscore_rows": 145,
-        "cricscore_t20_rows": 57,
-        "cricscore_today_t20_rows": 4,
+        "cricscore_rows": 153,
+        "cricscore_t20_rows": 63,
+        "cricscore_today_t20_rows": 5,
         "cricketdata_rows": 50,
         "cricketdata_t20_rows": 42,
-        "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 107,
-        "final_reports": 9
+        "cricketdata_today_t20_rows": 1,
+        "merged_candidates": 110,
+        "final_reports": 10
     },
     "summary": {
-        "today_t20_count": 9,
+        "today_t20_count": 10,
         "no_bet_or_high_caution": 2,
-        "wait": 7,
+        "wait": 8,
         "data_clear": 0
     },
     "matches": [
@@ -593,16 +594,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-24T20:00:00+13:00",
-                "temperature_c": 18.9,
-                "humidity_pct": 44,
-                "dew_point_c": 6.5,
+                "temperature_c": 18.7,
+                "humidity_pct": 46,
+                "dew_point_c": 6.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 19.3,
+                "wind_kmh": 19.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "18.9°C | RH 44% | Rain 0% | Wind 19.3 km/h",
+            "weatherText": "18.7°C | RH 46% | Rain 0% | Wind 19.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "48.89% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -915,16 +916,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-24T20:00:00+13:00",
-                "temperature_c": 18.9,
-                "humidity_pct": 44,
-                "dew_point_c": 6.5,
+                "temperature_c": 18.7,
+                "humidity_pct": 46,
+                "dew_point_c": 6.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 19.3,
+                "wind_kmh": 19.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "18.9°C | RH 44% | Rain 0% | Wind 19.3 km/h",
+            "weatherText": "18.7°C | RH 46% | Rain 0% | Wind 19.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -1095,17 +1096,44 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "CricketData match_squad"
             },
             "squadSummary": {
-                "status": "NO SQUAD DATA",
-                "teams": {},
-                "source": "Not queried"
+                "status": "SQUAD AVAILABLE — XI PENDING",
+                "teams": {
+                    "Gambia": {
+                        "players": 12,
+                        "knownBowlingStyles": 7,
+                        "spinOptions": 0,
+                        "paceOptions": 7,
+                        "roleCounts": {
+                            "batters": 6,
+                            "allRounders": 2,
+                            "bowlers": 3,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    },
+                    "Zambia": {
+                        "players": 12,
+                        "knownBowlingStyles": 3,
+                        "spinOptions": 1,
+                        "paceOptions": 2,
+                        "roleCounts": {
+                            "batters": 0,
+                            "allRounders": 0,
+                            "bowlers": 0,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    }
+                },
+                "source": "CricketData match_squad"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS CONDITIONAL",
-                "dataConfidencePct": 57,
+                "dataConfidencePct": 71,
                 "initialPrediction": "Zambia has a moderate edge on the available pre-toss historical evidence.",
                 "edgeTeam": "Zambia",
                 "edgeStrength": "MODERATE EDGE",
@@ -1117,7 +1145,7 @@
                     "Defend-lean venue: 41.4% chasing wins",
                     "Overs 7-14 wicket pressure: 5.28 wickets/match",
                     "16th-over baseline: 6.4 runs; wicket in 29.8% of sampled innings",
-                    "Weather: rain 9%, dew LOW"
+                    "Weather: rain 0%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Gambia 1400.5 vs Zambia 1478.9",
@@ -1142,7 +1170,7 @@
                 "over16AvgRuns": 6.4,
                 "over16WicketEventPct": 29.79,
                 "spinWicketSharePct": null,
-                "squadStatus": "NO SQUAD DATA",
+                "squadStatus": "SQUAD AVAILABLE — XI PENDING",
                 "summary": "Zambia has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
             },
             "pendingGates": [
@@ -1352,16 +1380,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-24T14:00:00+01:00",
-                "temperature_c": 31.4,
-                "humidity_pct": 51,
-                "dew_point_c": 20.0,
-                "rain_probability_pct": 9,
+                "temperature_c": 32.4,
+                "humidity_pct": 42,
+                "dew_point_c": 17.8,
+                "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.5,
+                "wind_kmh": 1.9,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "31.4°C | RH 51% | Rain 9% | Wind 2.5 km/h",
+            "weatherText": "32.4°C | RH 42% | Rain 0% | Wind 1.9 km/h",
             "dewRisk": "LOW",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -1380,7 +1408,7 @@
                 "tossBias": "Cricsheet venue T20 history (n=29)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=29)",
                 "over16": "Cricsheet 16th-over history (n=47)",
-                "spinChoke": "Cricsheet overs 7-14; bowler-style classification 0.0%"
+                "spinChoke": "Cricsheet overs 7-14; bowler-style classification 4.97%"
             },
             "venueIntel": {
                 "status": "OK",
@@ -1396,7 +1424,7 @@
                 "over16_wicket_event_pct": 29.79,
                 "mid_overs_7_14_wickets": 153,
                 "mid_overs_7_14_wickets_per_match": 5.28,
-                "spin_classification_pct": 0.0,
+                "spin_classification_pct": 4.97,
                 "spinner_7_14_wickets": null,
                 "spin_wicket_share_pct": null,
                 "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
@@ -1404,7 +1432,7 @@
             "midOversWickets": 153,
             "midOversWicketsPerMatch": 5.28,
             "spinnerWickets7to14": null,
-            "spinClassificationPct": 0.0,
+            "spinClassificationPct": 4.97,
             "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
             "noBetReasons": [],
             "warnings": [
@@ -1544,17 +1572,44 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "CricketData match_squad"
             },
             "squadSummary": {
-                "status": "NO SQUAD DATA",
-                "teams": {},
-                "source": "Not queried"
+                "status": "SQUAD AVAILABLE — XI PENDING",
+                "teams": {
+                    "Lesotho": {
+                        "players": 13,
+                        "knownBowlingStyles": 4,
+                        "spinOptions": 1,
+                        "paceOptions": 2,
+                        "roleCounts": {
+                            "batters": 6,
+                            "allRounders": 1,
+                            "bowlers": 0,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    },
+                    "Nigeria": {
+                        "players": 14,
+                        "knownBowlingStyles": 9,
+                        "spinOptions": 1,
+                        "paceOptions": 6,
+                        "roleCounts": {
+                            "batters": 1,
+                            "allRounders": 6,
+                            "bowlers": 3,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    }
+                },
+                "source": "CricketData match_squad"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS POOR FIT",
-                "dataConfidencePct": 57,
+                "dataConfidencePct": 71,
                 "initialPrediction": "Nigeria has a strong edge on the available pre-toss historical evidence.",
                 "edgeTeam": "Nigeria",
                 "edgeStrength": "STRONG EDGE",
@@ -1566,7 +1621,7 @@
                     "Defend-lean venue: 41.4% chasing wins",
                     "Overs 7-14 wicket pressure: 5.28 wickets/match",
                     "16th-over baseline: 6.4 runs; wicket in 29.8% of sampled innings",
-                    "Weather: rain 9%, dew LOW"
+                    "Weather: rain 0%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Lesotho 1334.3 vs Nigeria 1538.1",
@@ -1591,7 +1646,7 @@
                 "over16AvgRuns": 6.4,
                 "over16WicketEventPct": 29.79,
                 "spinWicketSharePct": null,
-                "squadStatus": "NO SQUAD DATA",
+                "squadStatus": "SQUAD AVAILABLE — XI PENDING",
                 "summary": "Nigeria has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
             },
             "pendingGates": [
@@ -1801,16 +1856,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-24T14:00:00+01:00",
-                "temperature_c": 31.4,
-                "humidity_pct": 51,
-                "dew_point_c": 20.0,
-                "rain_probability_pct": 9,
+                "temperature_c": 32.4,
+                "humidity_pct": 42,
+                "dew_point_c": 17.8,
+                "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.5,
+                "wind_kmh": 1.9,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "31.4°C | RH 51% | Rain 9% | Wind 2.5 km/h",
+            "weatherText": "32.4°C | RH 42% | Rain 0% | Wind 1.9 km/h",
             "dewRisk": "LOW",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -2147,14 +2202,14 @@
                 "local_time": "2026-10-24T13:00:00+02:00",
                 "temperature_c": 27.9,
                 "humidity_pct": 23,
-                "dew_point_c": 4.9,
+                "dew_point_c": 4.8,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 5.5,
+                "wind_kmh": 6.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.9°C | RH 23% | Rain 0% | Wind 5.5 km/h",
+            "weatherText": "27.9°C | RH 23% | Rain 0% | Wind 6.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "47.66% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -2490,16 +2545,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-24T13:00:00+02:00",
-                "temperature_c": 23.2,
-                "humidity_pct": 56,
-                "dew_point_c": 13.9,
+                "temperature_c": 22.9,
+                "humidity_pct": 58,
+                "dew_point_c": 14.2,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 21.1,
+                "wind_kmh": 23.3,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "23.2°C | RH 56% | Rain 0% | Wind 21.1 km/h",
+            "weatherText": "22.9°C | RH 58% | Rain 0% | Wind 23.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "51.85% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -2833,16 +2888,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-24T18:00:00+02:00",
-                "temperature_c": 26.6,
-                "humidity_pct": 21,
-                "dew_point_c": 2.6,
+                "temperature_c": 26.2,
+                "humidity_pct": 22,
+                "dew_point_c": 2.9,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 14.0,
+                "wind_kmh": 12.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.6°C | RH 21% | Rain 0% | Wind 14.0 km/h",
+            "weatherText": "26.2°C | RH 22% | Rain 0% | Wind 12.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "38.46% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -3000,8 +3055,7 @@
                     "majorTeamAsymmetryProxyUsed": false
                 },
                 "swingCatalysts": [
-                    "Middle-overs wicket volatility: 5.28 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 5.28 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
                     "Extreme skill gap: one-sided price path risk",
@@ -3025,7 +3079,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 90.0,
+                        "score": 70.0,
                         "weight": 0.1
                     },
                     {
@@ -3064,7 +3118,7 @@
                     "Defend-lean venue: 41.4% chasing wins",
                     "Overs 7-14 wicket pressure: 5.28 wickets/match",
                     "16th-over baseline: 6.4 runs; wicket in 29.8% of sampled innings",
-                    "Weather: rain 0%, dew MEDIUM"
+                    "Weather: rain 0%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Uganda 1782.1 vs Mozambique 1468.0",
@@ -3299,17 +3353,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-24T10:00:00+01:00",
-                "temperature_c": 27.8,
-                "humidity_pct": 72,
-                "dew_point_c": 22.2,
+                "temperature_c": 28.8,
+                "humidity_pct": 64,
+                "dew_point_c": 21.3,
                 "rain_probability_pct": 0,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 5.1,
-                "dew_risk": "MEDIUM",
+                "precipitation_mm": 0.0,
+                "wind_kmh": 2.4,
+                "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.8°C | RH 72% | Rain 0% | Wind 5.1 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "28.8°C | RH 64% | Rain 0% | Wind 2.4 km/h",
+            "dewRisk": "LOW",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "37.14",
@@ -3358,11 +3412,354 @@
             ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
             "strategyText": "Uganda has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+        },
+        {
+            "teamA": "Mexico Women",
+            "teamB": "Argentina Women",
+            "name": "Mexico Women vs Argentina Women",
+            "matchType": "T20",
+            "venue": "Complejo Municipal de Beisbol de Texcoco, Texcoco de Mora",
+            "dateTimeGMT": "2026-10-24T14:00:00",
+            "sourceDate": "2026-10-24",
+            "matchTimeIST": "2026-10-24T19:30:00+05:30",
+            "indiaDate": "2026-10-24",
+            "series": "Argentina Women tour of Mexico, 2026",
+            "sourceName": "CricketData cricScore + Match List",
+            "supplementalSourceName": "Cricbuzz via text relay",
+            "sourceMatchUrl": "http://www.cricbuzz.com/live-cricket-scores/177112/mexw-vs-argw-1st-t20i-argentina-women-tour-of-mexico-2026",
+            "cricketDataMatchId": "13ecc73c-a3c3-49bb-ae2d-6c1593859d56",
+            "liveScoreText": null,
+            "sourceStatus": "Match starts at Oct 24, 14:00 GMT",
+            "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": false,
+            "competitiveBalance": {
+                "label": "UNKNOWN",
+                "balanceScore": null,
+                "teamAElo": null,
+                "teamBElo": null,
+                "eloMatchesA": 2,
+                "eloMatchesB": 21,
+                "eloGap": null,
+                "recentWinRateA": 100.0,
+                "recentWinRateB": 55.6,
+                "recentFormGapPct": null,
+                "headToHead": {
+                    "matches": 0,
+                    "teamAWins": 0,
+                    "teamBWins": 0,
+                    "recent": []
+                },
+                "headToHeadGapPct": null,
+                "historicallyStrongerSide": "Mexico Women",
+                "signals": [],
+                "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                "officialRanking": "UNKNOWN / NOT CONNECTED",
+                "sourceLimitations": [],
+                "majorTeamAsymmetryProxyUsed": false
+            },
+            "skillGap": "UNKNOWN",
+            "swingScore": 25.3,
+            "strategyLabel": "INSUFFICIENT DATA",
+            "analysisEngineVersion": 4,
+            "tradeProfile": {
+                "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 17,
+                "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                "swingScore": 25.3,
+                "strategyLabel": "INSUFFICIENT DATA",
+                "competitiveBalance": {
+                    "label": "UNKNOWN",
+                    "balanceScore": null,
+                    "teamAElo": null,
+                    "teamBElo": null,
+                    "eloMatchesA": 2,
+                    "eloMatchesB": 21,
+                    "eloGap": null,
+                    "recentWinRateA": 100.0,
+                    "recentWinRateB": 55.6,
+                    "recentFormGapPct": null,
+                    "headToHead": {
+                        "matches": 0,
+                        "teamAWins": 0,
+                        "teamBWins": 0,
+                        "recent": []
+                    },
+                    "headToHeadGapPct": null,
+                    "historicallyStrongerSide": "Mexico Women",
+                    "signals": [],
+                    "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                    "officialRanking": "UNKNOWN / NOT CONNECTED",
+                    "sourceLimitations": [],
+                    "majorTeamAsymmetryProxyUsed": false
+                },
+                "swingCatalysts": [],
+                "swingPenalties": [
+                    "High dew may create strong chase-side bias",
+                    "Liquidity/market depth is not verified"
+                ],
+                "scoreComponents": [
+                    {
+                        "name": "weather",
+                        "score": 60.0,
+                        "weight": 0.1
+                    },
+                    {
+                        "name": "market_proxy",
+                        "score": 35.0,
+                        "weight": 0.2
+                    }
+                ],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "No squad data"
+            },
+            "squadSummary": {
+                "status": "NO SQUAD DATA",
+                "teams": {},
+                "source": "No squad data"
+            },
+            "initialAnalysis": {
+                "phase": "INITIAL PRE-TOSS READ",
+                "preTossStatus": "PRE-TOSS DATA LIMITED",
+                "dataConfidencePct": 14,
+                "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
+                "edgeTeam": null,
+                "edgeStrength": "DATA LIMITED",
+                "edgeScore": null,
+                "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                "conditions": [
+                    "Weather: rain 0%, dew HIGH"
+                ],
+                "evidence": [],
+                "pendingGates": [
+                    "Toss result and batting/fielding decision",
+                    "Confirmed Playing XI",
+                    "Actual exchange BACK/LAY prices and matched liquidity",
+                    "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                ],
+                "tossCheckpoints": [
+                    "Compare the toss decision with the venue chasing/defending bias.",
+                    "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                    "Only calculate equal-profit targets from the actual matched exchange entry price."
+                ],
+                "firstInningsBaseline": null,
+                "powerplayBaseline": null,
+                "powerplayWicketsBaseline": null,
+                "chasingWinPct": null,
+                "middleOversWicketsPerMatch": null,
+                "over16AvgRuns": null,
+                "over16WicketEventPct": null,
+                "spinWicketSharePct": null,
+                "squadStatus": "NO SQUAD DATA",
+                "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            },
+            "pendingGates": [
+                "Toss result and batting/fielding decision",
+                "Confirmed Playing XI",
+                "Actual exchange BACK/LAY prices and matched liquidity",
+                "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+            ],
+            "formA": {
+                "matches": 3,
+                "wins": 2,
+                "losses": 0,
+                "winRatePct": 100.0,
+                "avgMarginImpact": 0.5,
+                "recent": [
+                    {
+                        "date": "2024-11-17",
+                        "winner": null,
+                        "won": null,
+                        "venue": "Las Caballerizas",
+                        "marginType": null,
+                        "marginValue": null,
+                        "marginImpact": 0.0
+                    },
+                    {
+                        "date": "2024-11-16",
+                        "winner": "Mexico",
+                        "won": true,
+                        "venue": "Reforma Athletic Club, Naucalpan",
+                        "marginType": "wickets",
+                        "marginValue": 2.0,
+                        "marginImpact": 0.25
+                    },
+                    {
+                        "date": "2024-11-16",
+                        "winner": "Mexico",
+                        "won": true,
+                        "venue": "Reforma Athletic Club, Naucalpan",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": 0.75
+                    }
+                ]
+            },
+            "formB": {
+                "matches": 10,
+                "wins": 5,
+                "losses": 4,
+                "winRatePct": 55.6,
+                "avgMarginImpact": -0.175,
+                "recent": [
+                    {
+                        "date": "2026-08-02",
+                        "winner": "Argentina",
+                        "won": true,
+                        "venue": "St George's College Ground, Buenos Aires",
+                        "marginType": "runs",
+                        "marginValue": 21.0,
+                        "marginImpact": 0.35
+                    },
+                    {
+                        "date": "2026-08-02",
+                        "winner": "Argentina",
+                        "won": true,
+                        "venue": "St George's College Ground, Buenos Aires",
+                        "marginType": "wickets",
+                        "marginValue": 2.0,
+                        "marginImpact": 0.25
+                    },
+                    {
+                        "date": "2026-08-01",
+                        "winner": "Canada",
+                        "won": false,
+                        "venue": "St George's College Ground, Buenos Aires",
+                        "marginType": "wickets",
+                        "marginValue": 8.0,
+                        "marginImpact": -1.0
+                    },
+                    {
+                        "date": "2026-08-01",
+                        "winner": "Argentina",
+                        "won": true,
+                        "venue": "St George's College Ground, Buenos Aires",
+                        "marginType": "runs",
+                        "marginValue": 18.0,
+                        "marginImpact": 0.3
+                    },
+                    {
+                        "date": "2026-07-31",
+                        "winner": null,
+                        "won": null,
+                        "venue": "St George's College Ground, Buenos Aires",
+                        "marginType": null,
+                        "marginValue": null,
+                        "marginImpact": 0.0
+                    },
+                    {
+                        "date": "2026-07-30",
+                        "winner": "Argentina",
+                        "won": true,
+                        "venue": "St George's College Ground, Buenos Aires",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": 0.75
+                    },
+                    {
+                        "date": "2026-07-29",
+                        "winner": "Argentina",
+                        "won": true,
+                        "venue": "St George's College Ground, Buenos Aires",
+                        "marginType": "wickets",
+                        "marginValue": 1.0,
+                        "marginImpact": 0.125
+                    },
+                    {
+                        "date": "2025-03-17",
+                        "winner": "Brazil",
+                        "won": false,
+                        "venue": "St Albans Club, Buenos Aires",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": -0.75
+                    },
+                    {
+                        "date": "2025-03-16",
+                        "winner": "United States of America",
+                        "won": false,
+                        "venue": "St Albans Club, Buenos Aires",
+                        "marginType": "wickets",
+                        "marginValue": 8.0,
+                        "marginImpact": -1.0
+                    },
+                    {
+                        "date": "2025-03-14",
+                        "winner": "Canada",
+                        "won": false,
+                        "venue": "St Albans Club, Buenos Aires",
+                        "marginType": "runs",
+                        "marginValue": 36.0,
+                        "marginImpact": -0.6
+                    }
+                ]
+            },
+            "weather": {
+                "status": "OK",
+                "local_time": "2026-10-24T08:00:00-06:00",
+                "temperature_c": 11.7,
+                "humidity_pct": 83,
+                "dew_point_c": 8.8,
+                "rain_probability_pct": 0,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 2.9,
+                "dew_risk": "HIGH",
+                "rain_risk": "LOW"
+            },
+            "weatherText": "11.7°C | RH 83% | Rain 0% | Wind 2.9 km/h",
+            "dewRisk": "HIGH",
+            "tossBias": "UNKNOWN",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "UNKNOWN",
+            "ppWicketsAvg": null,
+            "ppRunRate": "Historical first-innings PP",
+            "over16AvgRuns": null,
+            "over16WicketsPerInnings": null,
+            "over16WicketEventPct": null,
+            "over16SampleInnings": null,
+            "spinIndex": "UNKNOWN",
+            "spinNote": "UNKNOWN",
+            "metricSources": {
+                "fixture": "CricketData cricScore + Match List",
+                "weather": "Open-Meteo match-hour forecast",
+                "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
+                "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
+                "over16": "Cricsheet 16th-over history insufficient/UNKNOWN",
+                "spinChoke": "Cricsheet overs 7-14; bowler-style classification UNKNOWN"
+            },
+            "venueIntel": {
+                "status": "NO DATA / UNKNOWN VENUE",
+                "matches": 0,
+                "venue_confidence": 0.361
+            },
+            "midOversWickets": null,
+            "midOversWicketsPerMatch": null,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": null,
+            "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+            "noBetReasons": [
+                "NO DATA / UNKNOWN VENUE",
+                "HIGH DEW RISK",
+                "LIMITED RECENT T20 DATA FOR Mexico Women"
+            ],
+            "warnings": [
+                "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-yellow",
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
         },
         {
             "teamA": "Mexico Women",
@@ -3565,16 +3962,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-24T08:00:00-06:00",
-                "temperature_c": 11.9,
-                "humidity_pct": 81,
-                "dew_point_c": 8.7,
+                "temperature_c": 11.7,
+                "humidity_pct": 83,
+                "dew_point_c": 8.8,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 1.9,
+                "wind_kmh": 2.9,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "11.9°C | RH 81% | Rain 0% | Wind 1.9 km/h",
+            "weatherText": "11.7°C | RH 83% | Rain 0% | Wind 2.9 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
