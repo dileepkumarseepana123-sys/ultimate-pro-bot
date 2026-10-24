@@ -4721,5 +4721,56 @@
       ],
       "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
     }
+  },
+  "49d5e43e-fe5d-4d0c-a7aa-a566033ad1f6": {
+    "cachedAt": "2026-10-24T21:03:00.821170+00:00",
+    "data": {
+      "id": "49d5e43e-fe5d-4d0c-a7aa-a566033ad1f6",
+      "name": "A1 vs C1, Cup, Semi Final 1, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 07:10 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T07:10:00",
+      "teams": [
+        "A1",
+        "C1"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "12f0b27f-6616-4d65-80e1-d41f3bcca717": {
+    "cachedAt": "2026-10-24T21:03:00.978642+00:00",
+    "data": {
+      "id": "12f0b27f-6616-4d65-80e1-d41f3bcca717",
+      "name": "B1 vs D1, Cup, Semi Final 2, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 08:05 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T08:05:00",
+      "teams": [
+        "B1",
+        "D1"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "9837dd1b-dac6-43e8-8a96-7aa12954f06d": {
+    "cachedAt": "2026-10-24T21:03:01.138856+00:00",
+    "data": {
+      "id": "9837dd1b-dac6-43e8-8a96-7aa12954f06d",
+      "name": "Perth Scorchers Women vs Melbourne Renegades Women, 5th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 08:10 GMT",
+      "venue": "W.A.C.A. Ground, Perth",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T08:10:00",
+      "teams": [
+        "Perth Scorchers Women",
+        "Melbourne Renegades Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }

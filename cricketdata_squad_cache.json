@@ -4605,5 +4605,348 @@
         "cache": 0
       }
     }
+  },
+  "e682ab1e-322e-4b18-897c-8e27783c477a": {
+    "cachedAt": "2026-10-24T21:04:54.896254+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [
+        {
+          "teamName": "Zambia",
+          "players": [
+            {
+              "id": "d18fc04a-8e4b-4a99-9118-06bb12fbe6ad",
+              "name": "Jakir Patel",
+              "country": "Zambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "12f5f8f1-28a6-442e-9985-0fde96083e92",
+              "name": "Musonda Yambayamba",
+              "country": "Zambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "b518b16f-f4d9-4587-a6b9-1e457863c0ec",
+              "name": "Robert Lungu",
+              "role": "--",
+              "battingStyle": "Left Handed Bat",
+              "country": "Zambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "0d7b3332-33fa-45ba-b552-272b081c9c16",
+              "name": "Soyeb Pendi",
+              "role": "--",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Zambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "30b86a4b-1c8e-4e67-9211-37dfb83b3446",
+              "name": "Muhammad Asim",
+              "country": "Zambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "53a64c77-4e5e-45b4-8ecd-4037f4417535",
+              "name": "Ismail Kara",
+              "country": "Zambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "d8101cce-4ab5-45ce-ae7c-4c5fdb9bee3e",
+              "name": "Shadreck Malama",
+              "role": "--",
+              "battingStyle": "Right Handed Bat",
+              "country": "Zambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "00b5e1ef-a7c6-49bc-b08a-58ebf32089a4",
+              "name": "Joyeb Chand",
+              "country": "Zambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "d6288ac0-7181-45fb-ba59-727a942d871f",
+              "name": "Ayaz Dadabhai",
+              "country": "Zambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "974fd5b2-bb15-44a8-a90a-a06eaf449eeb",
+              "name": "Joseph Zulu",
+              "country": "Zambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "0268ec29-17d1-42c8-9505-e3eec3b6dfba",
+              "name": "Zakir Zaba",
+              "role": "--",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Zambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "f772662d-a88a-4b0f-b3f7-f10d6357e214",
+              "name": "Javid Patel",
+              "role": "--",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Left-arm orthodox",
+              "country": "Zambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            }
+          ]
+        }
+      ],
+      "status": "success",
+      "info": {
+        "hitsToday": 17,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 9,
+        "queryTime": 19.4991,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "6207c60f-7d82-4bd7-99df-53d4cc8e7df1": {
+    "cachedAt": "2026-10-24T21:04:57.529919+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [
+        {
+          "teamName": "Gambia",
+          "shortname": "GAM",
+          "img": "https://h.cricapi.com/img/icon512.png",
+          "players": [
+            {
+              "id": "1c4ff6ff-cbd5-40c0-a4b4-0c2c02591d06",
+              "name": "Andre Jarju",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "a1cc3601-a430-4def-86b5-134dd85c75a0",
+              "name": "Muhammed Manga",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "bf4b9e05-b718-43ec-b911-41a9acf8961a",
+              "name": "Modou Bojang",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "22277056-a8d8-4e5c-a22c-484daef1499f",
+              "name": "David Demba",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "67dc2bab-89e5-42f6-bbe7-6979014d4d51",
+              "name": "Aniru Conteh",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "9d40e9d0-b9c1-4480-b95e-6ebdf783e3c5",
+              "name": "Ousman Bah",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "6dde4b61-a848-48ac-9aad-8dd5d3389e18",
+              "name": "Abubacarr Kuyateh",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "d0a7c388-69d1-4e05-a1a0-a57cb3037a0b",
+              "name": "Mustapha Suwareh",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "a45780ce-c8a7-4071-94fc-bf360d92ed57",
+              "name": "Fallou Thorpe",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "e3e152e2-a2c0-403b-8c84-dfabcde51295",
+              "name": "Musa Jobarteh",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "dc7963ad-34f9-4b0a-b526-ebbb4a05b7f5",
+              "name": "Pa Assan Faye",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "cdbffd15-2198-4b05-a86d-f688ef390851",
+              "name": "Frank Campbell",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Gambia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            }
+          ]
+        },
+        {
+          "teamName": "Lesotho",
+          "shortname": "LES",
+          "img": "https://g.cricapi.com/iapi/622-637876983538194362.webp?w=48",
+          "players": [
+            {
+              "id": "cf5f4d86-b57d-41e0-a5fb-06e43b241c22",
+              "name": "Bahlakoana Mejaro",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Left-arm orthodox",
+              "country": "Lesotho",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "1ce5dbb7-1954-4260-965f-0b90e7005fb9",
+              "name": "Jabulani Matjatje",
+              "country": "Lesotho",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "08341dc7-e906-4efa-8ef5-2012b7002385",
+              "name": "Tsepiso Chaoana",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Lesotho",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "71c5a3a5-9d4f-4751-b696-21ec08018cbb",
+              "name": "Malei Khauta",
+              "country": "Lesotho",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "8501c564-c687-442e-8963-31235f3555c0",
+              "name": "Lefulere Monanthane",
+              "role": "--",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Lesotho",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "74a6ec5c-ae1a-4256-a57f-52b73dba7a9b",
+              "name": "Maaz Khan",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Lesotho",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "1e11ff7b-aa50-4073-b3f5-54d90f5db334",
+              "name": "Lebona Leokaoke",
+              "role": "--",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "Lesotho",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "d7ba7fbe-c68a-469e-8b49-6ff3a6b9406e",
+              "name": "Chachole Tlali",
+              "role": "WK-Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Lesotho",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "dd78e956-039c-45fb-a464-bcbe30f3e8d3",
+              "name": "Inshaf Farook",
+              "country": "Lesotho",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "1ab32166-ae8a-4a7d-acf0-c6ff05f07338",
+              "name": "Gladwin Thamae",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Lesotho",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "ae234034-f1f1-47d5-9b11-d0a1b44f6317",
+              "name": "Lerotholi Gabriel",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Lesotho",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "3083e1da-eefd-4a83-bb23-f2bd0625f58d",
+              "name": "Ajaz Patel",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Lesotho",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "7e92318c-6693-4eab-b28e-fb635f793eb5",
+              "name": "Tanki Khetsi",
+              "country": "Lesotho",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            }
+          ]
+        }
+      ],
+      "status": "success",
+      "info": {
+        "hitsToday": 27,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 13,
+        "queryTime": 22.2235,
+        "s": 0,
+        "cache": 0
+      }
+    }
   }
 }
