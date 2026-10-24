@@ -78258,7 +78258,7 @@
         }
     },
     "lesotho|nigeria|2026-10-24": {
-        "capturedAt": "2026-10-24T04:56:02.680367+00:00",
+        "capturedAt": "2026-10-24T11:26:12.932852+00:00",
         "matchDate": "2026-10-24",
         "report": {
             "teamA": "Lesotho",
@@ -78273,7 +78273,7 @@
             "series": "ICC Men's T20 World Cup Africa Sub Regional Qualifier C 2026",
             "sourceName": "CricketData cricScore + match_info",
             "supplementalSourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "http://www.cricbuzz.com/live-cricket-scores/174017/lso-vs-nga-12th-match-icc-mens-t20-world-cup-africa-sub-regional-qualifier-c-2026",
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/174017/lso-vs-nga-12th-match-icc-mens-t20-world-cup-africa-sub-regional-qualifier-c-2026",
             "cricketDataMatchId": "5794e291-c7ff-4542-8835-792bc4e06911",
             "liveScoreText": null,
             "sourceStatus": "Match starts at Oct 24, 13:00 GMT",
@@ -78438,7 +78438,7 @@
                     "Defend-lean venue: 41.4% chasing wins",
                     "Overs 7-14 wicket pressure: 5.28 wickets/match",
                     "16th-over baseline: 6.4 runs; wicket in 29.8% of sampled innings",
-                    "Weather: rain 0%, dew LOW"
+                    "Weather: rain 9%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Lesotho 1334.3 vs Nigeria 1538.1",
@@ -78673,16 +78673,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-24T14:00:00+01:00",
-                "temperature_c": 32.4,
-                "humidity_pct": 42,
+                "temperature_c": 32.7,
+                "humidity_pct": 41,
                 "dew_point_c": 17.8,
-                "rain_probability_pct": 0,
+                "rain_probability_pct": 9,
                 "precipitation_mm": 0.0,
                 "wind_kmh": 1.9,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "32.4°C | RH 42% | Rain 0% | Wind 1.9 km/h",
+            "weatherText": "32.7°C | RH 41% | Rain 9% | Wind 1.9 km/h",
             "dewRisk": "LOW",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -78738,7 +78738,7 @@
         }
     },
     "gambia|zambia|2026-10-24": {
-        "capturedAt": "2026-10-24T04:56:02.680383+00:00",
+        "capturedAt": "2026-10-24T11:26:12.932886+00:00",
         "matchDate": "2026-10-24",
         "report": {
             "teamA": "Gambia",
@@ -78753,7 +78753,7 @@
             "series": "ICC Men's T20 World Cup Africa Sub Regional Qualifier C 2026",
             "sourceName": "CricketData cricScore + match_info",
             "supplementalSourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "http://www.cricbuzz.com/live-cricket-scores/174010/gm-vs-zmb-11th-match-icc-mens-t20-world-cup-africa-sub-regional-qualifier-c-2026",
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/174010/gm-vs-zmb-11th-match-icc-mens-t20-world-cup-africa-sub-regional-qualifier-c-2026",
             "cricketDataMatchId": "5a8024c3-e727-421b-bceb-3c47644fb1ba",
             "liveScoreText": null,
             "sourceStatus": "Match starts at Oct 24, 13:00 GMT",
@@ -78868,44 +78868,17 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "CricketData match_squad"
+                "source": "No squad data"
             },
             "squadSummary": {
-                "status": "SQUAD AVAILABLE — XI PENDING",
-                "teams": {
-                    "Gambia": {
-                        "players": 12,
-                        "knownBowlingStyles": 7,
-                        "spinOptions": 0,
-                        "paceOptions": 7,
-                        "roleCounts": {
-                            "batters": 6,
-                            "allRounders": 2,
-                            "bowlers": 3,
-                            "keepers": 0
-                        },
-                        "playingFlagsPublished": 0
-                    },
-                    "Zambia": {
-                        "players": 12,
-                        "knownBowlingStyles": 3,
-                        "spinOptions": 1,
-                        "paceOptions": 2,
-                        "roleCounts": {
-                            "batters": 0,
-                            "allRounders": 0,
-                            "bowlers": 0,
-                            "keepers": 0
-                        },
-                        "playingFlagsPublished": 0
-                    }
-                },
-                "source": "CricketData match_squad"
+                "status": "NO SQUAD DATA",
+                "teams": {},
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS CONDITIONAL",
-                "dataConfidencePct": 71,
+                "dataConfidencePct": 57,
                 "initialPrediction": "Zambia has a moderate edge on the available pre-toss historical evidence.",
                 "edgeTeam": "Zambia",
                 "edgeStrength": "MODERATE EDGE",
@@ -78917,7 +78890,7 @@
                     "Defend-lean venue: 41.4% chasing wins",
                     "Overs 7-14 wicket pressure: 5.28 wickets/match",
                     "16th-over baseline: 6.4 runs; wicket in 29.8% of sampled innings",
-                    "Weather: rain 0%, dew LOW"
+                    "Weather: rain 9%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Gambia 1400.5 vs Zambia 1478.9",
@@ -78942,7 +78915,7 @@
                 "over16AvgRuns": 6.4,
                 "over16WicketEventPct": 29.79,
                 "spinWicketSharePct": null,
-                "squadStatus": "SQUAD AVAILABLE — XI PENDING",
+                "squadStatus": "NO SQUAD DATA",
                 "summary": "Zambia has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
             },
             "pendingGates": [
@@ -79152,16 +79125,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-24T14:00:00+01:00",
-                "temperature_c": 32.4,
-                "humidity_pct": 42,
+                "temperature_c": 32.7,
+                "humidity_pct": 41,
                 "dew_point_c": 17.8,
-                "rain_probability_pct": 0,
+                "rain_probability_pct": 9,
                 "precipitation_mm": 0.0,
                 "wind_kmh": 1.9,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "32.4°C | RH 42% | Rain 0% | Wind 1.9 km/h",
+            "weatherText": "32.7°C | RH 41% | Rain 9% | Wind 1.9 km/h",
             "dewRisk": "LOW",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -79180,7 +79153,7 @@
                 "tossBias": "Cricsheet venue T20 history (n=29)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=29)",
                 "over16": "Cricsheet 16th-over history (n=47)",
-                "spinChoke": "Cricsheet overs 7-14; bowler-style classification 4.97%"
+                "spinChoke": "Cricsheet overs 7-14; bowler-style classification 0.0%"
             },
             "venueIntel": {
                 "status": "OK",
@@ -79196,7 +79169,7 @@
                 "over16_wicket_event_pct": 29.79,
                 "mid_overs_7_14_wickets": 153,
                 "mid_overs_7_14_wickets_per_match": 5.28,
-                "spin_classification_pct": 4.97,
+                "spin_classification_pct": 0.0,
                 "spinner_7_14_wickets": null,
                 "spin_wicket_share_pct": null,
                 "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
@@ -79204,7 +79177,7 @@
             "midOversWickets": 153,
             "midOversWicketsPerMatch": 5.28,
             "spinnerWickets7to14": null,
-            "spinClassificationPct": 4.97,
+            "spinClassificationPct": 0.0,
             "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
             "noBetReasons": [],
             "warnings": [
@@ -80231,14 +80204,14 @@
         }
     },
     "knights|mpumalanga rhinos|2026-10-24": {
-        "capturedAt": "2026-10-24T04:56:02.680468+00:00",
+        "capturedAt": "2026-10-24T11:26:12.932928+00:00",
         "matchDate": "2026-10-24",
         "report": {
             "teamA": "Knights",
             "teamB": "Mpumalanga Rhinos",
-            "name": "Knights vs Mpumalanga Rhinos,Pool B Mangaung Oval,Bloemfontein",
+            "name": "Knights vs Mpumalanga Rhinos,Pool B Mangaung Oval , Bloemfontein",
             "matchType": "T20",
-            "venue": "Mangaung Oval,Bloemfontein",
+            "venue": "Mangaung Oval , Bloemfontein",
             "dateTimeGMT": "2026-10-24T16:00:00+00:00",
             "sourceDate": "2026-10-24",
             "matchTimeIST": "2026-10-24T21:30:00+05:30",
@@ -80246,7 +80219,7 @@
             "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
             "supplementalSourceName": null,
-            "sourceMatchUrl": "http://www.cricbuzz.com/live-cricket-scores/173477/kng-vs-mpr-pool-b-csa-t20-challenge-2026",
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173477/kng-vs-mpr-pool-b-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
             "sourceStatus": "Scheduled",
@@ -80511,16 +80484,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-24T18:00:00+02:00",
-                "temperature_c": 26.2,
-                "humidity_pct": 22,
-                "dew_point_c": 2.9,
+                "temperature_c": 25.5,
+                "humidity_pct": 25,
+                "dew_point_c": 4.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 12.6,
+                "wind_kmh": 10.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.2°C | RH 22% | Rain 0% | Wind 12.6 km/h",
+            "weatherText": "25.5°C | RH 25% | Rain 0% | Wind 10.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "38.46% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -80578,14 +80551,14 @@
         }
     },
     "argentina women 1st t20i complejo municipal de beisbol de texcoco texcoco de mora|mexico women|2026-10-24": {
-        "capturedAt": "2026-10-24T04:56:02.680490+00:00",
+        "capturedAt": "2026-10-24T11:26:12.932957+00:00",
         "matchDate": "2026-10-24",
         "report": {
             "teamA": "Mexico Women",
-            "teamB": "Argentina Women,1st T20I Complejo Municipal de Beisbol de Texcoco,Texcoco de Mora",
-            "name": "Mexico Women vs Argentina Women,1st T20I Complejo Municipal de Beisbol de Texcoco,Texcoco de Mora",
+            "teamB": "Argentina Women,1st T20I Complejo Municipal de Beisbol de Texcoco , Texcoco de Mora",
+            "name": "Mexico Women vs Argentina Women,1st T20I Complejo Municipal de Beisbol de Texcoco , Texcoco de Mora",
             "matchType": "T20",
-            "venue": "1st T20I Complejo Municipal de Beisbol de Texcoco,Texcoco de Mora",
+            "venue": "1st T20I Complejo Municipal de Beisbol de Texcoco , Texcoco de Mora",
             "dateTimeGMT": "2026-10-24T14:00:00+00:00",
             "sourceDate": "2026-10-24",
             "matchTimeIST": "2026-10-24T19:30:00+05:30",
@@ -80593,7 +80566,7 @@
             "series": "Argentina Women tour of Mexico, 2026",
             "sourceName": "Cricbuzz via text relay",
             "supplementalSourceName": null,
-            "sourceMatchUrl": "http://www.cricbuzz.com/live-cricket-scores/177112/mexw-vs-argw-1st-t20i-argentina-women-tour-of-mexico-2026",
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177112/mexw-vs-argw-1st-t20i-argentina-women-tour-of-mexico-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
             "sourceStatus": "Scheduled",
@@ -80781,16 +80754,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-24T08:00:00-06:00",
-                "temperature_c": 11.7,
-                "humidity_pct": 83,
-                "dew_point_c": 8.8,
+                "temperature_c": 12.1,
+                "humidity_pct": 82,
+                "dew_point_c": 9.2,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.9,
+                "wind_kmh": 4.6,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "11.7°C | RH 83% | Rain 0% | Wind 2.9 km/h",
+            "weatherText": "12.1°C | RH 82% | Rain 0% | Wind 4.6 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -80825,7 +80798,7 @@
                 "NO DATA / UNKNOWN VENUE",
                 "HIGH DEW RISK",
                 "LIMITED RECENT T20 DATA FOR Mexico Women",
-                "LIMITED RECENT T20 DATA FOR Argentina Women,1st T20I Complejo Municipal de Beisbol de Texcoco,Texcoco de Mora"
+                "LIMITED RECENT T20 DATA FOR Argentina Women,1st T20I Complejo Municipal de Beisbol de Texcoco , Texcoco de Mora"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
@@ -80837,7 +80810,7 @@
         }
     },
     "argentina women|mexico women|2026-10-24": {
-        "capturedAt": "2026-10-24T04:56:02.680401+00:00",
+        "capturedAt": "2026-10-24T11:26:12.932910+00:00",
         "matchDate": "2026-10-24",
         "report": {
             "teamA": "Mexico Women",
@@ -80852,7 +80825,7 @@
             "series": "Argentina Women tour of Mexico, 2026",
             "sourceName": "CricketData cricScore + Match List",
             "supplementalSourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "http://www.cricbuzz.com/live-cricket-scores/177112/mexw-vs-argw-1st-t20i-argentina-women-tour-of-mexico-2026",
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177112/mexw-vs-argw-1st-t20i-argentina-women-tour-of-mexico-2026",
             "cricketDataMatchId": "13ecc73c-a3c3-49bb-ae2d-6c1593859d56",
             "liveScoreText": null,
             "sourceStatus": "Match starts at Oct 24, 14:00 GMT",
@@ -81131,16 +81104,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-24T08:00:00-06:00",
-                "temperature_c": 11.7,
-                "humidity_pct": 83,
-                "dew_point_c": 8.8,
+                "temperature_c": 12.1,
+                "humidity_pct": 82,
+                "dew_point_c": 9.2,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.9,
+                "wind_kmh": 4.6,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "11.7°C | RH 83% | Rain 0% | Wind 2.9 km/h",
+            "weatherText": "12.1°C | RH 82% | Rain 0% | Wind 4.6 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",

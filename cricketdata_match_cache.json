@@ -4585,5 +4585,141 @@
       ],
       "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
     }
+  },
+  "6969e5d2-53c7-4899-a201-2dded2a54713": {
+    "cachedAt": "2026-10-24T11:24:04.135606+00:00",
+    "data": {
+      "id": "6969e5d2-53c7-4899-a201-2dded2a54713",
+      "name": "B3 vs D3, Bowl, Semi Final 1, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 03:30 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T03:30:00",
+      "teams": [
+        "B3",
+        "D3"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "ac21ae10-c233-4ffb-8746-002cd10314ba": {
+    "cachedAt": "2026-10-24T11:24:04.298661+00:00",
+    "data": {
+      "id": "ac21ae10-c233-4ffb-8746-002cd10314ba",
+      "name": "A3 vs C3, Bowl, Semi Final 2, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 04:25 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T04:25:00",
+      "teams": [
+        "A3",
+        "C3"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "4810ea7c-5434-4479-be60-4b77f9f6d2a0": {
+    "cachedAt": "2026-10-24T11:24:04.463122+00:00",
+    "data": {
+      "id": "4810ea7c-5434-4479-be60-4b77f9f6d2a0",
+      "name": "Adelaide Strikers Women vs Melbourne Stars Women, 4th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 04:40 GMT",
+      "venue": "Karen Rolton Oval, Adelaide, South Australia",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T04:40:00",
+      "teams": [
+        "Adelaide Strikers Women",
+        "Melbourne Stars Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "2d7385b3-524e-4775-9b16-c9707c4d2d86": {
+    "cachedAt": "2026-10-24T11:24:04.624849+00:00",
+    "data": {
+      "id": "2d7385b3-524e-4775-9b16-c9707c4d2d86",
+      "name": "B2 vs D2, Plate, Semi Final 1, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 05:20 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T05:20:00",
+      "teams": [
+        "B2",
+        "D2"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "ee45ad1a-a5b0-4937-af89-008128f61159": {
+    "cachedAt": "2026-10-24T11:24:04.789599+00:00",
+    "data": {
+      "id": "ee45ad1a-a5b0-4937-af89-008128f61159",
+      "name": "Qatar vs Jersey, 45th Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Match starts at Oct 31, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T05:30:00",
+      "teams": [
+        "Qatar",
+        "Jersey"
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e"
+    }
+  },
+  "1c1a6a2d-bc5d-49e2-af3f-16670e2fdd31": {
+    "cachedAt": "2026-10-24T11:24:04.953244+00:00",
+    "data": {
+      "id": "1c1a6a2d-bc5d-49e2-af3f-16670e2fdd31",
+      "name": "Kuwait vs Papua New Guinea, 44th Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Match starts at Oct 31, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T05:30:00",
+      "teams": [
+        "Kuwait",
+        "Papua New Guinea"
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e"
+    }
+  },
+  "b2ee518b-8d47-430d-a28b-034dcac40cea": {
+    "cachedAt": "2026-10-24T11:24:05.115495+00:00",
+    "data": {
+      "id": "b2ee518b-8d47-430d-a28b-034dcac40cea",
+      "name": "United Arab Emirates vs Netherlands, 143rd Match, ICC Cricket World Cup League Two 2023-27",
+      "matchType": "odi",
+      "status": "Match starts at Oct 31, 05:30 GMT",
+      "venue": "ICC Academy Ground, Dubai",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T05:30:00",
+      "teams": [
+        "United Arab Emirates",
+        "Netherlands"
+      ],
+      "series_id": "7ac098a3-5d70-4c81-8e81-199edbeffc29"
+    }
+  },
+  "459e5d0e-8311-4d5e-adda-baf7995fdb10": {
+    "cachedAt": "2026-10-24T11:24:05.276285+00:00",
+    "data": {
+      "id": "459e5d0e-8311-4d5e-adda-baf7995fdb10",
+      "name": "A2 vs C2, Plate, Semi Final 2, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 06:15 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T06:15:00",
+      "teams": [
+        "A2",
+        "C2"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
   }
 }
