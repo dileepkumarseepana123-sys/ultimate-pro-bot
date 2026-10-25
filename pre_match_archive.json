@@ -81160,7 +81160,7 @@
         }
     },
     "mozambique|zambia|2026-10-25": {
-        "capturedAt": "2026-10-25T05:06:16.237487+00:00",
+        "capturedAt": "2026-10-25T16:41:58.503191+00:00",
         "matchDate": "2026-10-25",
         "report": {
             "teamA": "Mozambique",
@@ -81178,7 +81178,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/174031/moz-vs-zmb-14th-match-icc-mens-t20-world-cup-africa-sub-regional-qualifier-c-2026",
             "cricketDataMatchId": "e682ab1e-322e-4b18-897c-8e27783c477a",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 25, 09:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -81607,11 +81607,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "gambia|lesotho|2026-10-25": {
-        "capturedAt": "2026-10-25T05:06:16.237513+00:00",
+        "capturedAt": "2026-10-25T16:41:58.503209+00:00",
         "matchDate": "2026-10-25",
         "report": {
             "teamA": "Gambia",
@@ -81629,7 +81630,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/174027/gm-vs-lso-13th-match-icc-mens-t20-world-cup-africa-sub-regional-qualifier-c-2026",
             "cricketDataMatchId": "6207c60f-7d82-4bd7-99df-53d4cc8e7df1",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 25, 09:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -82085,7 +82086,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Gambia has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Gambia has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "nigeria|uganda|2026-10-25": {
@@ -83304,7 +83306,7 @@
         }
     },
     "eastern storm|south africa emerging players|2026-10-25": {
-        "capturedAt": "2026-10-25T11:58:40.731443+00:00",
+        "capturedAt": "2026-10-25T16:41:58.503220+00:00",
         "matchDate": "2026-10-25",
         "report": {
             "teamA": "Eastern Storm",
@@ -83322,7 +83324,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173511/estorm-vs-saep-pool-b-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -83571,11 +83573,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "kwazulu natal inland tuskers|western province|2026-10-25": {
-        "capturedAt": "2026-10-25T05:06:16.237596+00:00",
+        "capturedAt": "2026-10-25T16:41:58.503232+00:00",
         "matchDate": "2026-10-25",
         "report": {
             "teamA": "KwaZulu-Natal Inland Tuskers",
@@ -83593,7 +83596,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173507/kznin-vs-wpr-pool-b-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -83900,11 +83903,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "boland|titans|2026-10-25": {
-        "capturedAt": "2026-10-25T05:06:16.237611+00:00",
+        "capturedAt": "2026-10-25T16:41:58.503239+00:00",
         "matchDate": "2026-10-25",
         "report": {
             "teamA": "Boland",
@@ -83922,7 +83926,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173487/bol-vs-tit-pool-b-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -84407,11 +84411,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Titans has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Titans has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "north west eastvaal renault dragons|northern cape|2026-10-25": {
-        "capturedAt": "2026-10-25T05:06:16.237631+00:00",
+        "capturedAt": "2026-10-25T16:41:58.503250+00:00",
         "matchDate": "2026-10-25",
         "report": {
             "teamA": "North West - Eastvaal Renault Dragons",
@@ -84429,7 +84434,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173497/nwest-vs-ncape-pool-a-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -84757,7 +84762,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     }
 }
