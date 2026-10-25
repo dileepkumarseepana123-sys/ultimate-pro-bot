@@ -4772,5 +4772,90 @@
       ],
       "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
     }
+  },
+  "d14976c9-674d-403d-a420-fd457f68332e": {
+    "cachedAt": "2026-10-25T05:04:03.550423+00:00",
+    "data": {
+      "id": "d14976c9-674d-403d-a420-fd457f68332e",
+      "name": "Otago vs Central Stags, 6th Match, The Ford Trophy 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Oct 31, 21:30 GMT",
+      "venue": "University Oval, Dunedin",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T21:30:00",
+      "teams": [
+        "Otago",
+        "Central Stags"
+      ],
+      "series_id": "127a3118-68a6-4f22-8375-1e2a9a8da0b3"
+    }
+  },
+  "6c6d009a-8246-49b4-ac96-f7c06b70f4ef": {
+    "cachedAt": "2026-10-25T05:04:03.705141+00:00",
+    "data": {
+      "id": "6c6d009a-8246-49b4-ac96-f7c06b70f4ef",
+      "name": "Northern Districts vs Auckland, 4th Match, The Ford Trophy 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Oct 31, 21:30 GMT",
+      "venue": "Bay Oval, Mount Maunganui",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T21:30:00",
+      "teams": [
+        "Northern Districts",
+        "Auckland"
+      ],
+      "series_id": "127a3118-68a6-4f22-8375-1e2a9a8da0b3"
+    }
+  },
+  "9b00e3bb-356d-4ed3-8295-4b4069d01118": {
+    "cachedAt": "2026-10-25T05:04:03.860161+00:00",
+    "data": {
+      "id": "9b00e3bb-356d-4ed3-8295-4b4069d01118",
+      "name": "Wellington vs Canterbury, 5th Match, The Ford Trophy 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Oct 31, 21:30 GMT",
+      "venue": "Basin Reserve, Wellington",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T21:30:00",
+      "teams": [
+        "Wellington",
+        "Canterbury"
+      ],
+      "series_id": "127a3118-68a6-4f22-8375-1e2a9a8da0b3"
+    }
+  },
+  "bab6c1ea-5145-4c1f-936a-e32d2280479a": {
+    "cachedAt": "2026-10-25T05:04:04.012059+00:00",
+    "data": {
+      "id": "bab6c1ea-5145-4c1f-936a-e32d2280479a",
+      "name": "New Zealand A vs India A, 2nd Unofficial Test, India A tour of New Zealand, 2026",
+      "matchType": "test",
+      "status": "Match starts at Oct 31, 21:30 GMT",
+      "venue": "Hagley Oval, Christchurch",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T21:30:00",
+      "teams": [
+        "New Zealand A",
+        "India A"
+      ],
+      "series_id": "b1b67dd4-aeba-4f70-9a23-257a6da73d88"
+    }
+  },
+  "6e4efad7-accf-434a-974b-a7c219e506df": {
+    "cachedAt": "2026-10-25T05:04:04.163778+00:00",
+    "data": {
+      "id": "6e4efad7-accf-434a-974b-a7c219e506df",
+      "name": "Sydney Thunder Women vs Brisbane Heat Women, 6th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 01, 04:40 GMT",
+      "venue": "Drummoyne Oval, Sydney",
+      "date": "2026-11-01",
+      "dateTimeGMT": "2026-11-01T04:40:00",
+      "teams": [
+        "Sydney Thunder Women",
+        "Brisbane Heat Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }

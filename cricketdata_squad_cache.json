@@ -4607,116 +4607,25 @@
     }
   },
   "e682ab1e-322e-4b18-897c-8e27783c477a": {
-    "cachedAt": "2026-10-24T21:04:54.896254+00:00",
+    "cachedAt": "2026-10-25T05:06:01.572684+00:00",
     "payload": {
       "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
-      "data": [
-        {
-          "teamName": "Zambia",
-          "players": [
-            {
-              "id": "d18fc04a-8e4b-4a99-9118-06bb12fbe6ad",
-              "name": "Jakir Patel",
-              "country": "Zambia",
-              "playerImg": "https://h.cricapi.com/img/icon512.png"
-            },
-            {
-              "id": "12f5f8f1-28a6-442e-9985-0fde96083e92",
-              "name": "Musonda Yambayamba",
-              "country": "Zambia",
-              "playerImg": "https://h.cricapi.com/img/icon512.png"
-            },
-            {
-              "id": "b518b16f-f4d9-4587-a6b9-1e457863c0ec",
-              "name": "Robert Lungu",
-              "role": "--",
-              "battingStyle": "Left Handed Bat",
-              "country": "Zambia",
-              "playerImg": "https://h.cricapi.com/img/icon512.png"
-            },
-            {
-              "id": "0d7b3332-33fa-45ba-b552-272b081c9c16",
-              "name": "Soyeb Pendi",
-              "role": "--",
-              "battingStyle": "Right Handed Bat",
-              "bowlingStyle": "Right-arm fast-medium",
-              "country": "Zambia",
-              "playerImg": "https://h.cricapi.com/img/icon512.png"
-            },
-            {
-              "id": "30b86a4b-1c8e-4e67-9211-37dfb83b3446",
-              "name": "Muhammad Asim",
-              "country": "Zambia",
-              "playerImg": "https://h.cricapi.com/img/icon512.png"
-            },
-            {
-              "id": "53a64c77-4e5e-45b4-8ecd-4037f4417535",
-              "name": "Ismail Kara",
-              "country": "Zambia",
-              "playerImg": "https://h.cricapi.com/img/icon512.png"
-            },
-            {
-              "id": "d8101cce-4ab5-45ce-ae7c-4c5fdb9bee3e",
-              "name": "Shadreck Malama",
-              "role": "--",
-              "battingStyle": "Right Handed Bat",
-              "country": "Zambia",
-              "playerImg": "https://h.cricapi.com/img/icon512.png"
-            },
-            {
-              "id": "00b5e1ef-a7c6-49bc-b08a-58ebf32089a4",
-              "name": "Joyeb Chand",
-              "country": "Zambia",
-              "playerImg": "https://h.cricapi.com/img/icon512.png"
-            },
-            {
-              "id": "d6288ac0-7181-45fb-ba59-727a942d871f",
-              "name": "Ayaz Dadabhai",
-              "country": "Zambia",
-              "playerImg": "https://h.cricapi.com/img/icon512.png"
-            },
-            {
-              "id": "974fd5b2-bb15-44a8-a90a-a06eaf449eeb",
-              "name": "Joseph Zulu",
-              "country": "Zambia",
-              "playerImg": "https://h.cricapi.com/img/icon512.png"
-            },
-            {
-              "id": "0268ec29-17d1-42c8-9505-e3eec3b6dfba",
-              "name": "Zakir Zaba",
-              "role": "--",
-              "battingStyle": "Right Handed Bat",
-              "bowlingStyle": "Right-arm medium",
-              "country": "Zambia",
-              "playerImg": "https://h.cricapi.com/img/icon512.png"
-            },
-            {
-              "id": "f772662d-a88a-4b0f-b3f7-f10d6357e214",
-              "name": "Javid Patel",
-              "role": "--",
-              "battingStyle": "Left Handed Bat",
-              "bowlingStyle": "Left-arm orthodox",
-              "country": "Zambia",
-              "playerImg": "https://h.cricapi.com/img/icon512.png"
-            }
-          ]
-        }
-      ],
+      "data": [],
       "status": "success",
       "info": {
-        "hitsToday": 17,
+        "hitsToday": 46,
         "hitsUsed": 10,
         "hitsLimit": 100,
         "credits": 0,
-        "server": 9,
-        "queryTime": 19.4991,
+        "server": 12,
+        "queryTime": 13.9074,
         "s": 0,
         "cache": 0
       }
     }
   },
   "6207c60f-7d82-4bd7-99df-53d4cc8e7df1": {
-    "cachedAt": "2026-10-24T21:04:57.529919+00:00",
+    "cachedAt": "2026-10-25T05:06:04.040147+00:00",
     "payload": {
       "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
       "data": [
@@ -4938,12 +4847,289 @@
       ],
       "status": "success",
       "info": {
-        "hitsToday": 27,
+        "hitsToday": 56,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 1,
+        "queryTime": 30.0064,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "5180605d-f5d1-47b4-9dae-8afd67c40bce": {
+    "cachedAt": "2026-10-25T05:06:05.869854+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [
+        {
+          "teamName": "Nigeria",
+          "shortname": "NGA",
+          "img": "https://g.cricapi.com/iapi/635-637867646765235442.webp?w=48",
+          "players": [
+            {
+              "id": "a21a0783-e500-466d-b151-152b6646e82e",
+              "name": "Peter Aho",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Nigeria",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "94e72da8-931e-4f8b-bb37-231da14432ef",
+              "name": "Isaac Okpe",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Nigeria",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "d0a7798c-3721-418c-bf99-369a20733c05",
+              "name": "Isaac Danladi",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Left-arm orthodox",
+              "country": "Nigeria",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "fce9a4f7-b558-440a-b3b2-4af196c9371d",
+              "name": "Ali Rahmon",
+              "country": "Nigeria",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "6a4457af-20d0-4de7-8b11-4ef85a0cf331",
+              "name": "Vincent Adewoye",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Nigeria",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "18178dd9-0f89-4b46-8c41-7ae869264df8",
+              "name": "Abdullahi Ismail",
+              "country": "Nigeria",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "2281cc87-c5c6-4f90-b4b9-9199316606de",
+              "name": "Selim Salau",
+              "role": "WK-Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Nigeria",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "d2a2ebe3-92a6-4550-afc7-98a20823b727",
+              "name": "Ridwan Abdulkareem",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "Nigeria",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "8ae2f022-8540-4a86-9e76-b74dcada9092",
+              "name": "Kenneth Boniface",
+              "country": "Nigeria",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "1b6e8166-2f24-4109-ac17-bad3052b1199",
+              "name": "Sylvester Okpe",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "Nigeria",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "55dd4d89-6f9b-4267-9efc-c991fc15ffe0",
+              "name": "Miracle Akhigbe",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Nigeria",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "d3234727-076c-406b-9e83-d26272085834",
+              "name": "Chima Akachukwu",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Nigeria",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "c6bc2fd0-935b-4026-bee4-f5a2544bf9ab",
+              "name": "Mohameed Taiwo",
+              "role": "Bowler",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Left-arm fast-medium",
+              "country": "Nigeria",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "8546e1d4-8598-4803-89e2-fb0e9e97cd6a",
+              "name": "Elochukwu Ndubudem",
+              "country": "Nigeria",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            }
+          ]
+        },
+        {
+          "teamName": "Uganda",
+          "shortname": "UGA",
+          "img": "https://g.cricapi.com/iapi/664-637877086718333803.webp?w=48",
+          "players": [
+            {
+              "id": "ad5ef3c6-4443-499f-aa35-0f9472b4e6fe",
+              "name": "Alpesh Ramjani",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Left-arm orthodox",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "6cea16ad-e6cb-4dc3-b079-298b376fe688",
+              "name": "Joseph Baguma",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "cb251bc1-5842-40d9-a806-5f7b88d8c007",
+              "name": "Robinson Obuya",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "33fb97ba-57cf-44e0-9df7-73546622e9d1",
+              "name": "Riazat Ali Shah",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "b329bb28-6059-4855-b2df-7851c7bcd42c",
+              "name": "Pius Oloka",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "0a0c588f-b043-402c-af6c-8f151c3a564d",
+              "name": "Enock Kasaija",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "a6c8fc94-326a-4be4-a152-a4e16023d634",
+              "name": "Cyrus Kakuru",
+              "role": "WK-Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "1a06a585-81ff-45ac-9dda-aa37129c8321",
+              "name": "Juma Miyagi",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "17a30110-1b4b-4b02-8747-b7edc894b079",
+              "name": "Anas Baig",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "246476d2-9861-4dc9-b5b9-b953572fd584",
+              "name": "Charles Musemeza",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "e1451d1b-725c-4f8f-a098-c8ee01e4900f",
+              "name": "Raghav Dhawan",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "d99ef921-8afb-4306-adb5-d4f1c97a09f2",
+              "name": "Olipa Gerald",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "2282147f-00c2-49f4-af40-db40f9f2b89a",
+              "name": "Sumeet Verma",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "ef547e7d-6e6b-4217-9419-e2ab30b4fd76",
+              "name": "Kenneth Waiswa",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Uganda",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            }
+          ]
+        }
+      ],
+      "status": "success",
+      "info": {
+        "hitsToday": 66,
         "hitsUsed": 10,
         "hitsLimit": 100,
         "credits": 0,
         "server": 13,
-        "queryTime": 22.2235,
+        "queryTime": 23.0401,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "326660fd-3ba5-498f-a70c-8465448e3c34": {
+    "cachedAt": "2026-10-25T05:06:07.460233+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 76,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 11,
+        "queryTime": 13.1941,
         "s": 0,
         "cache": 0
       }
