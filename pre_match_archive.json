@@ -82089,7 +82089,7 @@
         }
     },
     "nigeria|uganda|2026-10-25": {
-        "capturedAt": "2026-10-25T05:06:16.237533+00:00",
+        "capturedAt": "2026-10-25T11:58:40.731350+00:00",
         "matchDate": "2026-10-25",
         "report": {
             "teamA": "Nigeria",
@@ -82107,7 +82107,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/174037/nga-vs-uga-15th-match-icc-mens-t20-world-cup-africa-sub-regional-qualifier-c-2026",
             "cricketDataMatchId": "5180605d-f5d1-47b4-9dae-8afd67c40bce",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 25, 13:00 GMT",
+            "sourceStatus": "Match starts at Oct 25, 12:50 GMT",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -82393,7 +82393,7 @@
                     "Defend-lean venue: 41.4% chasing wins",
                     "Overs 7-14 wicket pressure: 5.28 wickets/match",
                     "16th-over baseline: 6.4 runs; wicket in 29.8% of sampled innings",
-                    "Weather: rain 1%, dew LOW"
+                    "Weather: rain 7%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Nigeria 1538.1 vs Uganda 1782.1",
@@ -82629,16 +82629,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-25T14:00:00+01:00",
-                "temperature_c": 32.2,
-                "humidity_pct": 44,
-                "dew_point_c": 18.4,
-                "rain_probability_pct": 1,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 5.4,
+                "temperature_c": 32.0,
+                "humidity_pct": 43,
+                "dew_point_c": 18.0,
+                "rain_probability_pct": 7,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 3.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "32.2°C | RH 44% | Rain 1% | Wind 5.4 km/h",
+            "weatherText": "32.0°C | RH 43% | Rain 7% | Wind 3.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "41.38% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -82695,7 +82695,7 @@
         }
     },
     "argentina women|mexico women|2026-10-25": {
-        "capturedAt": "2026-10-25T05:06:16.237564+00:00",
+        "capturedAt": "2026-10-25T11:58:40.731395+00:00",
         "matchDate": "2026-10-25",
         "report": {
             "teamA": "Mexico Women",
@@ -82821,7 +82821,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 37%, dew MEDIUM"
+                    "Weather: rain 13%, dew MEDIUM"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -82990,16 +82990,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-25T08:00:00-06:00",
-                "temperature_c": 14.0,
-                "humidity_pct": 74,
-                "dew_point_c": 9.3,
-                "rain_probability_pct": 37,
+                "temperature_c": 13.7,
+                "humidity_pct": 72,
+                "dew_point_c": 8.7,
+                "rain_probability_pct": 13,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.7,
+                "wind_kmh": 4.3,
                 "dew_risk": "MEDIUM",
-                "rain_risk": "MEDIUM"
+                "rain_risk": "LOW"
             },
-            "weatherText": "14.0°C | RH 74% | Rain 37% | Wind 2.7 km/h",
+            "weatherText": "13.7°C | RH 72% | Rain 13% | Wind 4.3 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -83044,7 +83044,7 @@
         }
     },
     "argentina women 3rd t20i complejo municipal de beisbol de texcoco texcoco de mora|mexico women|2026-10-25": {
-        "capturedAt": "2026-10-25T05:06:16.237641+00:00",
+        "capturedAt": "2026-10-25T11:58:40.731472+00:00",
         "matchDate": "2026-10-25",
         "report": {
             "teamA": "Mexico Women",
@@ -83170,7 +83170,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 37%, dew MEDIUM"
+                    "Weather: rain 13%, dew MEDIUM"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -83248,16 +83248,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-25T08:00:00-06:00",
-                "temperature_c": 14.0,
-                "humidity_pct": 74,
-                "dew_point_c": 9.3,
-                "rain_probability_pct": 37,
+                "temperature_c": 13.7,
+                "humidity_pct": 72,
+                "dew_point_c": 8.7,
+                "rain_probability_pct": 13,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.7,
+                "wind_kmh": 4.3,
                 "dew_risk": "MEDIUM",
-                "rain_risk": "MEDIUM"
+                "rain_risk": "LOW"
             },
-            "weatherText": "14.0°C | RH 74% | Rain 37% | Wind 2.7 km/h",
+            "weatherText": "13.7°C | RH 72% | Rain 13% | Wind 4.3 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -83304,7 +83304,7 @@
         }
     },
     "eastern storm|south africa emerging players|2026-10-25": {
-        "capturedAt": "2026-10-25T05:06:16.237581+00:00",
+        "capturedAt": "2026-10-25T11:58:40.731443+00:00",
         "matchDate": "2026-10-25",
         "report": {
             "teamA": "Eastern Storm",
@@ -83312,9 +83312,9 @@
             "name": "Eastern Storm vs South Africa Emerging Players,Pool B Willowmoore Park , Benoni",
             "matchType": "T20",
             "venue": "Willowmoore Park , Benoni",
-            "dateTimeGMT": "2026-10-25T11:00:00+00:00",
+            "dateTimeGMT": "2026-10-25T12:00:00+00:00",
             "sourceDate": "2026-10-25",
-            "matchTimeIST": "2026-10-25T16:30:00+05:30",
+            "matchTimeIST": "2026-10-25T17:30:00+05:30",
             "indiaDate": "2026-10-25",
             "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
@@ -83505,17 +83505,17 @@
             },
             "weather": {
                 "status": "OK",
-                "local_time": "2026-10-25T13:00:00+02:00",
+                "local_time": "2026-10-25T14:00:00+02:00",
                 "temperature_c": 29.6,
-                "humidity_pct": 18,
-                "dew_point_c": 2.5,
+                "humidity_pct": 16,
+                "dew_point_c": 1.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 8.9,
+                "wind_kmh": 8.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.6°C | RH 18% | Rain 0% | Wind 8.9 km/h",
+            "weatherText": "29.6°C | RH 16% | Rain 0% | Wind 8.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "50.0% Chasing Wins",
             "tossTrend": "Historical venue trend",

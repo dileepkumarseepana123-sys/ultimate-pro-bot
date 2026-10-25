@@ -4859,7 +4859,7 @@
     }
   },
   "5180605d-f5d1-47b4-9dae-8afd67c40bce": {
-    "cachedAt": "2026-10-25T05:06:05.869854+00:00",
+    "cachedAt": "2026-10-25T11:58:24.674632+00:00",
     "payload": {
       "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
       "data": [
@@ -5106,12 +5106,12 @@
       ],
       "status": "success",
       "info": {
-        "hitsToday": 66,
+        "hitsToday": 93,
         "hitsUsed": 10,
         "hitsLimit": 100,
         "credits": 0,
-        "server": 13,
-        "queryTime": 23.0401,
+        "server": 1,
+        "queryTime": 22.5568,
         "s": 0,
         "cache": 0
       }

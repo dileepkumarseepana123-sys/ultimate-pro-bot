@@ -4857,5 +4857,56 @@
       ],
       "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
     }
+  },
+  "936348e9-608f-4ca8-9cc5-5d3082ab0b90": {
+    "cachedAt": "2026-10-25T11:54:47.804831+00:00",
+    "data": {
+      "id": "936348e9-608f-4ca8-9cc5-5d3082ab0b90",
+      "name": "New Zealand vs India, 5th T20I, India tour of New Zealand 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 01, 07:00 GMT",
+      "venue": "Seddon Park, Hamilton",
+      "date": "2026-11-01",
+      "dateTimeGMT": "2026-11-01T07:00:00",
+      "teams": [
+        "New Zealand",
+        "India"
+      ],
+      "series_id": "9f0a2527-1508-42b3-9945-4ade13fd4b5a"
+    }
+  },
+  "83d4f7ed-e83e-4a70-ba8b-602090d777b1": {
+    "cachedAt": "2026-10-25T11:54:47.966178+00:00",
+    "data": {
+      "id": "83d4f7ed-e83e-4a70-ba8b-602090d777b1",
+      "name": "Namibia vs Ireland, 5th ODI, Ireland tour of Namibia, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 01, 08:00 GMT",
+      "venue": "Namibia Cricket Ground,  Windhoek",
+      "date": "2026-11-01",
+      "dateTimeGMT": "2026-11-01T08:00:00",
+      "teams": [
+        "Namibia",
+        "Ireland"
+      ],
+      "series_id": "ac09b782-bac3-4861-971a-5559a4703507"
+    }
+  },
+  "492c8d70-3611-4199-b847-0cc243912216": {
+    "cachedAt": "2026-10-25T11:54:48.127068+00:00",
+    "data": {
+      "id": "492c8d70-3611-4199-b847-0cc243912216",
+      "name": "Sydney Sixers Women vs Hobart Hurricanes Women, 7th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 01, 08:10 GMT",
+      "venue": "Drummoyne Oval, Sydney",
+      "date": "2026-11-01",
+      "dateTimeGMT": "2026-11-01T08:10:00",
+      "teams": [
+        "Sydney Sixers Women",
+        "Hobart Hurricanes Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }
