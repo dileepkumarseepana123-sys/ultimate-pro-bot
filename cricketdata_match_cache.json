@@ -4908,5 +4908,56 @@
       ],
       "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
     }
+  },
+  "26a2fa3f-529e-4a8a-9c8c-aae0274aab15": {
+    "cachedAt": "2026-10-25T21:03:07.167259+00:00",
+    "data": {
+      "id": "26a2fa3f-529e-4a8a-9c8c-aae0274aab15",
+      "name": "Pakistan vs Tbc, Final, Pakistan ODI Tri-Series, 2026",
+      "matchType": "odi",
+      "status": "Match starts at Oct 31, 08:00 GMT",
+      "venue": "Gaddafi Stadium, Lahore",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T08:00:00",
+      "teams": [
+        "Pakistan",
+        "Tbc"
+      ],
+      "series_id": "4ae8cc66-cc9c-4e5f-b404-3bdc1e9a3a54"
+    }
+  },
+  "acf970cc-d8e7-447f-b8d3-ad5396a8c621": {
+    "cachedAt": "2026-10-25T21:03:07.298046+00:00",
+    "data": {
+      "id": "acf970cc-d8e7-447f-b8d3-ad5396a8c621",
+      "name": "Afghanistan vs Zimbabwe, 3rd T20I, Afghanistan vs Zimbabwe in UAE, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 01, 14:30 GMT",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-11-01",
+      "dateTimeGMT": "2026-11-01T14:30:00",
+      "teams": [
+        "Afghanistan",
+        "Zimbabwe"
+      ],
+      "series_id": "7d61737b-c4d8-4f44-b8cb-309ce4d9c57a"
+    }
+  },
+  "0a981b26-c75c-4d6a-8940-3fc3af9d54bd": {
+    "cachedAt": "2026-10-25T21:03:07.429988+00:00",
+    "data": {
+      "id": "0a981b26-c75c-4d6a-8940-3fc3af9d54bd",
+      "name": "West Indies A vs England Lions, 1st T20, England Lions tour of West Indies, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 01, 18:00 GMT",
+      "venue": "Conaree Sports Club, Basseterre, St Kitts",
+      "date": "2026-11-01",
+      "dateTimeGMT": "2026-11-01T18:00:00",
+      "teams": [
+        "West Indies A",
+        "England Lions"
+      ],
+      "series_id": "de4e4745-dcbb-42bd-8254-ebf28f10d449"
+    }
   }
 }
