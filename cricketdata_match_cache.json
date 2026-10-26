@@ -5231,5 +5231,90 @@
       ],
       "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
     }
+  },
+  "e75dbbdb-8998-4c44-a4d8-a2e76c733179": {
+    "cachedAt": "2026-10-26T20:40:53.955551+00:00",
+    "data": {
+      "id": "e75dbbdb-8998-4c44-a4d8-a2e76c733179",
+      "name": "Assam vs Karnataka, Elite Group B, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 02, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-02",
+      "dateTimeGMT": "2026-11-02T04:00:00",
+      "teams": [
+        "Assam",
+        "Karnataka"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "8ab1ab57-91d0-43f7-915c-93ff952d70fc": {
+    "cachedAt": "2026-10-26T20:40:54.089781+00:00",
+    "data": {
+      "id": "8ab1ab57-91d0-43f7-915c-93ff952d70fc",
+      "name": "Bengal vs Maharashtra, Elite Group C, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 02, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-02",
+      "dateTimeGMT": "2026-11-02T04:00:00",
+      "teams": [
+        "Bengal",
+        "Maharashtra"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "1b29e5d4-d782-48ac-8acb-8bf6bee150e2": {
+    "cachedAt": "2026-10-26T20:40:54.224170+00:00",
+    "data": {
+      "id": "1b29e5d4-d782-48ac-8acb-8bf6bee150e2",
+      "name": "Delhi vs Services, Elite Group C, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 02, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-02",
+      "dateTimeGMT": "2026-11-02T04:00:00",
+      "teams": [
+        "Delhi",
+        "Services"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "a4a902f2-006c-49ad-9691-3baae52659bb": {
+    "cachedAt": "2026-10-26T20:40:54.356200+00:00",
+    "data": {
+      "id": "a4a902f2-006c-49ad-9691-3baae52659bb",
+      "name": "Oman vs Netherlands, 144th Match, ICC Cricket World Cup League Two 2023-27",
+      "matchType": "odi",
+      "status": "Match starts at Nov 02, 05:30 GMT",
+      "venue": "ICC Academy Ground, Dubai",
+      "date": "2026-11-02",
+      "dateTimeGMT": "2026-11-02T05:30:00",
+      "teams": [
+        "Oman",
+        "Netherlands"
+      ],
+      "series_id": "7ac098a3-5d70-4c81-8e81-199edbeffc29"
+    }
+  },
+  "1988bf46-6ee2-4af0-88e5-559ae4b89a76": {
+    "cachedAt": "2026-10-26T20:40:54.489196+00:00",
+    "data": {
+      "id": "1988bf46-6ee2-4af0-88e5-559ae4b89a76",
+      "name": "Melbourne Stars Women vs Perth Scorchers Women, 8th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 02, 08:10 GMT",
+      "venue": "Junction Oval, Melbourne",
+      "date": "2026-11-02",
+      "dateTimeGMT": "2026-11-02T08:10:00",
+      "teams": [
+        "Melbourne Stars Women",
+        "Perth Scorchers Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }
