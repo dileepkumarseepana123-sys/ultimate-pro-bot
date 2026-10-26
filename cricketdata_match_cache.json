@@ -5095,5 +5095,141 @@
       ],
       "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
     }
+  },
+  "bb0392dc-0a41-4fb1-b8b1-f12504673f4b": {
+    "cachedAt": "2026-10-26T13:33:45.781500+00:00",
+    "data": {
+      "id": "bb0392dc-0a41-4fb1-b8b1-f12504673f4b",
+      "name": "Mizoram vs Arunachal Pradesh, Plate, Ranji Trophy Plate 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 02, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-02",
+      "dateTimeGMT": "2026-11-02T04:00:00",
+      "teams": [
+        "Mizoram",
+        "Arunachal Pradesh"
+      ],
+      "series_id": "df672a9f-a5eb-4526-901c-1a5e1d7d84a4"
+    }
+  },
+  "946fb65d-26ef-4cc0-9789-69e6bf614fe8": {
+    "cachedAt": "2026-10-26T13:33:45.971891+00:00",
+    "data": {
+      "id": "946fb65d-26ef-4cc0-9789-69e6bf614fe8",
+      "name": "Manipur vs Sikkim, Plate, Ranji Trophy Plate 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 02, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-02",
+      "dateTimeGMT": "2026-11-02T04:00:00",
+      "teams": [
+        "Manipur",
+        "Sikkim"
+      ],
+      "series_id": "df672a9f-a5eb-4526-901c-1a5e1d7d84a4"
+    }
+  },
+  "dec60556-8963-41ce-a5ed-82f51c58c58c": {
+    "cachedAt": "2026-10-26T13:33:46.160342+00:00",
+    "data": {
+      "id": "dec60556-8963-41ce-a5ed-82f51c58c58c",
+      "name": "Meghalaya vs Nagaland, Plate, Ranji Trophy Plate 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 02, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-02",
+      "dateTimeGMT": "2026-11-02T04:00:00",
+      "teams": [
+        "Meghalaya",
+        "Nagaland"
+      ],
+      "series_id": "df672a9f-a5eb-4526-901c-1a5e1d7d84a4"
+    }
+  },
+  "d871d456-c9e1-42ec-8191-c499d4397458": {
+    "cachedAt": "2026-10-26T13:33:46.349185+00:00",
+    "data": {
+      "id": "d871d456-c9e1-42ec-8191-c499d4397458",
+      "name": "Vidarbha vs Madhya Pradesh, Elite Group A, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 02, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-02",
+      "dateTimeGMT": "2026-11-02T04:00:00",
+      "teams": [
+        "Vidarbha",
+        "Madhya Pradesh"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "db4aa612-25aa-4564-8498-c19df4603c9c": {
+    "cachedAt": "2026-10-26T13:33:46.542357+00:00",
+    "data": {
+      "id": "db4aa612-25aa-4564-8498-c19df4603c9c",
+      "name": "Uttar Pradesh vs Baroda, Elite Group A, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 02, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-02",
+      "dateTimeGMT": "2026-11-02T04:00:00",
+      "teams": [
+        "Uttar Pradesh",
+        "Baroda"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "2523e9ea-e782-44a6-92fc-b252516b39b2": {
+    "cachedAt": "2026-10-26T13:33:46.732342+00:00",
+    "data": {
+      "id": "2523e9ea-e782-44a6-92fc-b252516b39b2",
+      "name": "Goa vs Bihar, Elite Group A, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 02, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-02",
+      "dateTimeGMT": "2026-11-02T04:00:00",
+      "teams": [
+        "Goa",
+        "Bihar"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "fbc1e6fd-154e-4497-ac82-aec3cfe9f752": {
+    "cachedAt": "2026-10-26T13:33:46.922104+00:00",
+    "data": {
+      "id": "fbc1e6fd-154e-4497-ac82-aec3cfe9f752",
+      "name": "Odisha vs Jharkhand, Elite Group C, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 02, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-02",
+      "dateTimeGMT": "2026-11-02T04:00:00",
+      "teams": [
+        "Odisha",
+        "Jharkhand"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
+  },
+  "7a79cab7-8693-4f75-9c5e-aae0673fcb58": {
+    "cachedAt": "2026-10-26T13:33:47.111890+00:00",
+    "data": {
+      "id": "7a79cab7-8693-4f75-9c5e-aae0673fcb58",
+      "name": "Punjab vs Andhra, Elite Group B, Ranji Trophy Elite 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 02, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-02",
+      "dateTimeGMT": "2026-11-02T04:00:00",
+      "teams": [
+        "Punjab",
+        "Andhra"
+      ],
+      "series_id": "08a7f1fe-4dde-442e-86de-27de09457d51"
+    }
   }
 }

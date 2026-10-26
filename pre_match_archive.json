@@ -84767,7 +84767,7 @@
         }
     },
     "tbc|tbc super eights tbc tbc|2026-10-26": {
-        "capturedAt": "2026-10-26T05:08:19.786809+00:00",
+        "capturedAt": "2026-10-26T13:34:17.415872+00:00",
         "matchDate": "2026-10-26",
         "report": {
             "teamA": "TBC",
@@ -84785,7 +84785,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173517/tbc-vs-tbc-super-eights-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -84995,7 +84995,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     }
 }
