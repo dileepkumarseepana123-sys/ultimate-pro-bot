@@ -84767,7 +84767,7 @@
         }
     },
     "tbc|tbc super eights tbc tbc|2026-10-26": {
-        "capturedAt": "2026-10-25T21:03:47.082474+00:00",
+        "capturedAt": "2026-10-26T05:08:19.786809+00:00",
         "matchDate": "2026-10-26",
         "report": {
             "teamA": "TBC",
@@ -84943,16 +84943,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-26T05:00:00-06:00",
-                "temperature_c": 4.6,
-                "humidity_pct": 82,
-                "dew_point_c": 1.8,
+                "temperature_c": 4.9,
+                "humidity_pct": 84,
+                "dew_point_c": 2.5,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 11.8,
+                "wind_kmh": 10.0,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "4.6°C | RH 82% | Rain 0% | Wind 11.8 km/h",
+            "weatherText": "4.9°C | RH 84% | Rain 0% | Wind 10.0 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
