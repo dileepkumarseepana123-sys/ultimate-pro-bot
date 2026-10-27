@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-26T20:42:03.241165+00:00",
+    "last_updated": "2026-10-27T05:23:44.280021+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -22,23 +22,22 @@
         "cricscore_calls_this_run": 1,
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
-        "match_info_calls_this_run": 5,
-        "match_info_cache_hits_this_run": 128,
-        "match_info_enriched_rows": 133,
+        "match_info_calls_this_run": 0,
+        "match_info_cache_hits_this_run": 131,
+        "match_info_enriched_rows": 131,
         "match_info_cache_size": 314,
         "max_match_info_lookups_per_run": 8,
-        "squad_calls_this_run": 1,
+        "squad_calls_this_run": 2,
         "squad_cache_hits_this_run": 0,
-        "squad_cache_size": 56,
+        "squad_cache_size": 57,
         "endpoint_calls_this_run": {
             "cricScore": 1,
             "currentMatches": 1,
-            "match_info": 5,
             "matches": 2,
-            "match_squad": 1
+            "match_squad": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 19,
+        "hits_today_reported": 43,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -71,13 +70,13 @@
         "current_matches_rows": 25,
         "current_matches_t20_rows": 12,
         "current_matches_today_t20_rows": 0,
-        "cricscore_rows": 133,
-        "cricscore_t20_rows": 43,
+        "cricscore_rows": 131,
+        "cricscore_t20_rows": 42,
         "cricscore_today_t20_rows": 2,
         "cricketdata_rows": 50,
         "cricketdata_t20_rows": 42,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 83,
+        "merged_candidates": 82,
         "final_reports": 4
     },
     "summary": {
@@ -578,16 +577,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-27T20:00:00+13:00",
-                "temperature_c": 11.5,
-                "humidity_pct": 79,
-                "dew_point_c": 8.0,
+                "temperature_c": 11.0,
+                "humidity_pct": 74,
+                "dew_point_c": 6.5,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 0.2,
+                "wind_kmh": 6.8,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "11.5°C | RH 79% | Rain 0% | Wind 0.2 km/h",
+            "weatherText": "11.0°C | RH 74% | Rain 0% | Wind 6.8 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -891,16 +890,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-27T20:00:00+13:00",
-                "temperature_c": 11.5,
-                "humidity_pct": 79,
-                "dew_point_c": 8.0,
+                "temperature_c": 11.0,
+                "humidity_pct": 74,
+                "dew_point_c": 6.5,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 0.2,
+                "wind_kmh": 6.8,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "11.5°C | RH 79% | Rain 0% | Wind 0.2 km/h",
+            "weatherText": "11.0°C | RH 74% | Rain 0% | Wind 6.8 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -1065,12 +1064,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -1226,16 +1225,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-27T18:30:00+04:00",
-                "temperature_c": 29.9,
-                "humidity_pct": 69,
-                "dew_point_c": 23.6,
+                "temperature_c": 29.7,
+                "humidity_pct": 72,
+                "dew_point_c": 24.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 6.8,
+                "wind_kmh": 10.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.9°C | RH 69% | Rain 0% | Wind 6.8 km/h",
+            "weatherText": "29.7°C | RH 72% | Rain 0% | Wind 10.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "59.59% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -1465,16 +1464,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-27T18:30:00+04:00",
-                "temperature_c": 29.9,
-                "humidity_pct": 69,
-                "dew_point_c": 23.6,
+                "temperature_c": 29.7,
+                "humidity_pct": 72,
+                "dew_point_c": 24.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 6.8,
+                "wind_kmh": 10.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.9°C | RH 69% | Rain 0% | Wind 6.8 km/h",
+            "weatherText": "29.7°C | RH 72% | Rain 0% | Wind 10.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",

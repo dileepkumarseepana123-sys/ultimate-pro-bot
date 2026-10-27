@@ -85000,7 +85000,7 @@
         }
     },
     "india|new zealand|2026-10-27": {
-        "capturedAt": "2026-10-26T20:42:03.145918+00:00",
+        "capturedAt": "2026-10-27T05:23:44.218042+00:00",
         "matchDate": "2026-10-27",
         "report": {
             "teamA": "New Zealand",
@@ -85493,16 +85493,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-27T20:00:00+13:00",
-                "temperature_c": 11.5,
-                "humidity_pct": 79,
-                "dew_point_c": 8.0,
+                "temperature_c": 11.0,
+                "humidity_pct": 74,
+                "dew_point_c": 6.5,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 0.2,
+                "wind_kmh": 6.8,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "11.5°C | RH 79% | Rain 0% | Wind 0.2 km/h",
+            "weatherText": "11.0°C | RH 74% | Rain 0% | Wind 6.8 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -85547,7 +85547,7 @@
         }
     },
     "afghanistan|zimbabwe|2026-10-27": {
-        "capturedAt": "2026-10-26T20:42:03.145936+00:00",
+        "capturedAt": "2026-10-27T05:23:44.218074+00:00",
         "matchDate": "2026-10-27",
         "report": {
             "teamA": "Afghanistan",
@@ -85670,12 +85670,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -85831,16 +85831,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-27T18:30:00+04:00",
-                "temperature_c": 29.9,
-                "humidity_pct": 69,
-                "dew_point_c": 23.6,
+                "temperature_c": 29.7,
+                "humidity_pct": 72,
+                "dew_point_c": 24.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 6.8,
+                "wind_kmh": 10.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.9°C | RH 69% | Rain 0% | Wind 6.8 km/h",
+            "weatherText": "29.7°C | RH 72% | Rain 0% | Wind 10.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "59.59% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -85898,7 +85898,7 @@
         }
     },
     "india 3rd t20i hnry stadium wellington|new zealand|2026-10-27": {
-        "capturedAt": "2026-10-26T20:42:03.145951+00:00",
+        "capturedAt": "2026-10-27T05:23:44.218103+00:00",
         "matchDate": "2026-10-27",
         "report": {
             "teamA": "New Zealand",
@@ -86161,16 +86161,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-27T20:00:00+13:00",
-                "temperature_c": 11.5,
-                "humidity_pct": 79,
-                "dew_point_c": 8.0,
+                "temperature_c": 11.0,
+                "humidity_pct": 74,
+                "dew_point_c": 6.5,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 0.2,
+                "wind_kmh": 6.8,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "11.5°C | RH 79% | Rain 0% | Wind 0.2 km/h",
+            "weatherText": "11.0°C | RH 74% | Rain 0% | Wind 6.8 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -86216,7 +86216,7 @@
         }
     },
     "afghanistan|zimbabwe 1st t20i sharjah cricket stadium sharjah|2026-10-27": {
-        "capturedAt": "2026-10-26T20:42:03.145965+00:00",
+        "capturedAt": "2026-10-27T05:23:44.218121+00:00",
         "matchDate": "2026-10-27",
         "report": {
             "teamA": "Afghanistan",
@@ -86392,16 +86392,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-27T18:30:00+04:00",
-                "temperature_c": 29.9,
-                "humidity_pct": 69,
-                "dew_point_c": 23.6,
+                "temperature_c": 29.7,
+                "humidity_pct": 72,
+                "dew_point_c": 24.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 6.8,
+                "wind_kmh": 10.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.9°C | RH 69% | Rain 0% | Wind 6.8 km/h",
+            "weatherText": "29.7°C | RH 72% | Rain 0% | Wind 10.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
