@@ -5316,5 +5316,141 @@
       ],
       "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
     }
+  },
+  "1b1a335c-8388-4822-84da-f0403f48bd45": {
+    "cachedAt": "2026-10-27T20:11:38.646671+00:00",
+    "data": {
+      "id": "1b1a335c-8388-4822-84da-f0403f48bd45",
+      "name": "Australia vs Hong Kong, China, Group A, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 30, 00:45 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T00:45:00",
+      "teams": [
+        "Australia",
+        "Hong Kong"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "80990f9d-9b88-4acc-8435-615e80942daf": {
+    "cachedAt": "2026-10-27T20:11:38.790002+00:00",
+    "data": {
+      "id": "80990f9d-9b88-4acc-8435-615e80942daf",
+      "name": "Bangladesh vs Scotland, Group B, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 30, 01:40 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T01:40:00",
+      "teams": [
+        "Bangladesh",
+        "Scotland"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "9529d714-ca37-4617-9510-b7a1e3719ccf": {
+    "cachedAt": "2026-10-27T20:11:38.933516+00:00",
+    "data": {
+      "id": "9529d714-ca37-4617-9510-b7a1e3719ccf",
+      "name": "Pakistan vs United Arab Emirates, Group C, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 30, 02:35 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T02:35:00",
+      "teams": [
+        "Pakistan",
+        "United Arab Emirates"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "6183dcb0-d1a0-420f-8add-72c716fc11b9": {
+    "cachedAt": "2026-10-27T20:11:39.076344+00:00",
+    "data": {
+      "id": "6183dcb0-d1a0-420f-8add-72c716fc11b9",
+      "name": "South Africa vs Oman, Group D, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 30, 03:30 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T03:30:00",
+      "teams": [
+        "South Africa",
+        "Oman"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "edbad102-f51e-4600-a73f-2aa80094a237": {
+    "cachedAt": "2026-10-27T20:11:39.219951+00:00",
+    "data": {
+      "id": "edbad102-f51e-4600-a73f-2aa80094a237",
+      "name": "Bangladesh vs Sri Lanka, Group B, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 30, 05:20 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T05:20:00",
+      "teams": [
+        "Bangladesh",
+        "Sri Lanka"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "f34af7e2-9ab9-434b-9586-549a41e0744d": {
+    "cachedAt": "2026-10-27T20:11:39.368437+00:00",
+    "data": {
+      "id": "f34af7e2-9ab9-434b-9586-549a41e0744d",
+      "name": "India vs Pakistan, Group C, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 30, 06:15 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T06:15:00",
+      "teams": [
+        "India",
+        "Pakistan"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "5f6b32d1-4dcb-468c-a5a9-8445c688ed8d": {
+    "cachedAt": "2026-10-27T20:11:39.516310+00:00",
+    "data": {
+      "id": "5f6b32d1-4dcb-468c-a5a9-8445c688ed8d",
+      "name": "South Africa vs Afghanistan, Group D, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 30, 07:10 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T07:10:00",
+      "teams": [
+        "South Africa",
+        "Afghanistan"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "8423f37a-7e8b-4509-a5ce-68ba23aca74c": {
+    "cachedAt": "2026-10-27T20:11:39.663117+00:00",
+    "data": {
+      "id": "8423f37a-7e8b-4509-a5ce-68ba23aca74c",
+      "name": "England vs Australia, Group A, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 30, 08:05 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-30",
+      "dateTimeGMT": "2026-10-30T08:05:00",
+      "teams": [
+        "England",
+        "Australia"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
   }
 }

@@ -86446,5 +86446,324 @@
             "badgeClass": "badge-yellow",
             "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
         }
+    },
+    "eastern storm super eights the wanderers stadium johannesburg|lions|2026-10-28": {
+        "capturedAt": "2026-10-27T20:12:45.127102+00:00",
+        "matchDate": "2026-10-28",
+        "report": {
+            "teamA": "Lions",
+            "teamB": "Eastern Storm,Super Eights The Wanderers Stadium , Johannesburg",
+            "name": "Lions vs Eastern Storm,Super Eights The Wanderers Stadium , Johannesburg",
+            "matchType": "T20",
+            "venue": "Super Eights The Wanderers Stadium , Johannesburg",
+            "dateTimeGMT": "2026-10-28T16:00:00+00:00",
+            "sourceDate": "2026-10-28",
+            "matchTimeIST": "2026-10-28T21:30:00+05:30",
+            "indiaDate": "2026-10-28",
+            "series": "CSA T20 Challenge 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "supplementalSourceName": null,
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173517/lions-vs-estorm-super-eights-csa-t20-challenge-2026",
+            "cricketDataMatchId": null,
+            "liveScoreText": null,
+            "sourceStatus": "Scheduled",
+            "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": false,
+            "competitiveBalance": {
+                "label": "UNKNOWN",
+                "balanceScore": null,
+                "teamAElo": null,
+                "teamBElo": null,
+                "eloMatchesA": 88,
+                "eloMatchesB": 0,
+                "eloGap": null,
+                "recentWinRateA": 80.0,
+                "recentWinRateB": null,
+                "recentFormGapPct": null,
+                "headToHead": {
+                    "matches": 0,
+                    "teamAWins": 0,
+                    "teamBWins": 0,
+                    "recent": []
+                },
+                "headToHeadGapPct": null,
+                "historicallyStrongerSide": null,
+                "signals": [],
+                "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                "officialRanking": "UNKNOWN / NOT CONNECTED",
+                "sourceLimitations": [],
+                "majorTeamAsymmetryProxyUsed": false
+            },
+            "skillGap": "UNKNOWN",
+            "swingScore": 27.3,
+            "strategyLabel": "INSUFFICIENT DATA",
+            "analysisEngineVersion": 4,
+            "tradeProfile": {
+                "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 17,
+                "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                "swingScore": 27.3,
+                "strategyLabel": "INSUFFICIENT DATA",
+                "competitiveBalance": {
+                    "label": "UNKNOWN",
+                    "balanceScore": null,
+                    "teamAElo": null,
+                    "teamBElo": null,
+                    "eloMatchesA": 88,
+                    "eloMatchesB": 0,
+                    "eloGap": null,
+                    "recentWinRateA": 80.0,
+                    "recentWinRateB": null,
+                    "recentFormGapPct": null,
+                    "headToHead": {
+                        "matches": 0,
+                        "teamAWins": 0,
+                        "teamBWins": 0,
+                        "recent": []
+                    },
+                    "headToHeadGapPct": null,
+                    "historicallyStrongerSide": null,
+                    "signals": [],
+                    "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                    "officialRanking": "UNKNOWN / NOT CONNECTED",
+                    "sourceLimitations": [],
+                    "majorTeamAsymmetryProxyUsed": false
+                },
+                "swingCatalysts": [],
+                "swingPenalties": [
+                    "Liquidity/market depth is not verified"
+                ],
+                "scoreComponents": [
+                    {
+                        "name": "weather",
+                        "score": 70.0,
+                        "weight": 0.1
+                    },
+                    {
+                        "name": "market_proxy",
+                        "score": 35.0,
+                        "weight": 0.2
+                    }
+                ],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "squadSummary": {
+                "status": "NO SQUAD DATA",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "initialAnalysis": {
+                "phase": "INITIAL PRE-TOSS READ",
+                "preTossStatus": "PRE-TOSS DATA LIMITED",
+                "dataConfidencePct": 14,
+                "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
+                "edgeTeam": null,
+                "edgeStrength": "DATA LIMITED",
+                "edgeScore": null,
+                "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                "conditions": [
+                    "Weather: rain 0%, dew LOW"
+                ],
+                "evidence": [],
+                "pendingGates": [
+                    "Toss result and batting/fielding decision",
+                    "Confirmed Playing XI",
+                    "Actual exchange BACK/LAY prices and matched liquidity",
+                    "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                ],
+                "tossCheckpoints": [
+                    "Compare the toss decision with the venue chasing/defending bias.",
+                    "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                    "Only calculate equal-profit targets from the actual matched exchange entry price."
+                ],
+                "firstInningsBaseline": null,
+                "powerplayBaseline": null,
+                "powerplayWicketsBaseline": null,
+                "chasingWinPct": null,
+                "middleOversWicketsPerMatch": null,
+                "over16AvgRuns": null,
+                "over16WicketEventPct": null,
+                "spinWicketSharePct": null,
+                "squadStatus": "NO SQUAD DATA",
+                "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            },
+            "pendingGates": [
+                "Toss result and batting/fielding decision",
+                "Confirmed Playing XI",
+                "Actual exchange BACK/LAY prices and matched liquidity",
+                "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+            ],
+            "formA": {
+                "matches": 10,
+                "wins": 8,
+                "losses": 2,
+                "winRatePct": 80.0,
+                "avgMarginImpact": 0.341,
+                "recent": [
+                    {
+                        "date": "2024-10-27",
+                        "winner": "Lions",
+                        "won": true,
+                        "venue": "The Wanderers Stadium, Johannesburg",
+                        "marginType": "wickets",
+                        "marginValue": 8.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2024-10-22",
+                        "winner": "Lions",
+                        "won": true,
+                        "venue": "The Wanderers Stadium, Johannesburg",
+                        "marginType": "wickets",
+                        "marginValue": 7.0,
+                        "marginImpact": 0.875
+                    },
+                    {
+                        "date": "2024-10-19",
+                        "winner": "Lions",
+                        "won": true,
+                        "venue": "Senwes Park, Potchefstroom",
+                        "marginType": "runs",
+                        "marginValue": 5.0,
+                        "marginImpact": 0.083
+                    },
+                    {
+                        "date": "2024-10-16",
+                        "winner": "Western Province",
+                        "won": false,
+                        "venue": "The Wanderers Stadium, Johannesburg",
+                        "marginType": "wickets",
+                        "marginValue": 4.0,
+                        "marginImpact": -0.5
+                    },
+                    {
+                        "date": "2024-10-12",
+                        "winner": "Lions",
+                        "won": true,
+                        "venue": "Boland Park, Paarl",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": 0.75
+                    },
+                    {
+                        "date": "2024-10-09",
+                        "winner": "Lions",
+                        "won": true,
+                        "venue": "Mangaung Oval, Bloemfontein",
+                        "marginType": "runs",
+                        "marginValue": 47.0,
+                        "marginImpact": 0.783
+                    },
+                    {
+                        "date": "2024-10-06",
+                        "winner": "Lions",
+                        "won": true,
+                        "venue": "The Wanderers Stadium, Johannesburg",
+                        "marginType": "runs",
+                        "marginValue": 9.0,
+                        "marginImpact": 0.15
+                    },
+                    {
+                        "date": "2024-09-27",
+                        "winner": "Titans",
+                        "won": false,
+                        "venue": "The Wanderers Stadium, Johannesburg",
+                        "marginType": "runs",
+                        "marginValue": 117.0,
+                        "marginImpact": -1.0
+                    },
+                    {
+                        "date": "2024-03-08",
+                        "winner": "Lions",
+                        "won": true,
+                        "venue": "The Wanderers Stadium, Johannesburg",
+                        "marginType": "runs",
+                        "marginValue": 44.0,
+                        "marginImpact": 0.733
+                    },
+                    {
+                        "date": "2022-10-31",
+                        "winner": "Lions",
+                        "won": true,
+                        "venue": "Senwes Park, Potchefstroom",
+                        "marginType": "runs",
+                        "marginValue": 32.0,
+                        "marginImpact": 0.533
+                    }
+                ]
+            },
+            "formB": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "winRatePct": null,
+                "avgMarginImpact": null,
+                "recent": []
+            },
+            "weather": {
+                "status": "OK",
+                "local_time": "2026-10-28T18:00:00+02:00",
+                "temperature_c": 23.1,
+                "humidity_pct": 26,
+                "dew_point_c": 2.7,
+                "rain_probability_pct": 0,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 14.3,
+                "dew_risk": "LOW",
+                "rain_risk": "LOW"
+            },
+            "weatherText": "23.1°C | RH 26% | Rain 0% | Wind 14.3 km/h",
+            "dewRisk": "LOW",
+            "tossBias": "UNKNOWN",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "UNKNOWN",
+            "ppWicketsAvg": null,
+            "ppRunRate": "Historical first-innings PP",
+            "over16AvgRuns": null,
+            "over16WicketsPerInnings": null,
+            "over16WicketEventPct": null,
+            "over16SampleInnings": null,
+            "spinIndex": "UNKNOWN",
+            "spinNote": "UNKNOWN",
+            "metricSources": {
+                "fixture": "Cricbuzz via text relay",
+                "weather": "Open-Meteo match-hour forecast",
+                "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
+                "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
+                "over16": "Cricsheet 16th-over history insufficient/UNKNOWN",
+                "spinChoke": "Cricsheet overs 7-14; bowler-style classification UNKNOWN"
+            },
+            "venueIntel": {
+                "status": "NO DATA / UNKNOWN VENUE",
+                "matches": 0,
+                "venue_confidence": 0.84
+            },
+            "midOversWickets": null,
+            "midOversWicketsPerMatch": null,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": null,
+            "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+            "noBetReasons": [
+                "NO DATA / UNKNOWN VENUE",
+                "LIMITED RECENT T20 DATA FOR Eastern Storm,Super Eights The Wanderers Stadium , Johannesburg"
+            ],
+            "warnings": [
+                "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-yellow",
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+        }
     }
 }
