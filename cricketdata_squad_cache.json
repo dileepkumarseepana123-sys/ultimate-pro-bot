@@ -5170,5 +5170,41 @@
         "cache": 0
       }
     }
+  },
+  "e5243dfc-be2f-4aa9-a7fb-c868fbb3a146": {
+    "cachedAt": "2026-10-28T20:28:54.591393+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 15,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 11,
+        "queryTime": 29.385,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "5c425afe-2de9-4063-bc5c-123d1f2495a3": {
+    "cachedAt": "2026-10-28T20:28:57.022524+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 25,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 15,
+        "queryTime": 17.223,
+        "s": 0,
+        "cache": 0
+      }
+    }
   }
 }

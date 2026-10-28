@@ -5672,5 +5672,22 @@
       ],
       "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
     }
+  },
+  "d2eca8a2-ed50-46fc-8369-e48cc1c757e0": {
+    "cachedAt": "2026-10-28T20:27:13.172885+00:00",
+    "data": {
+      "id": "d2eca8a2-ed50-46fc-8369-e48cc1c757e0",
+      "name": "West Indies A vs England Lions, 3rd T20, England Lions tour of West Indies, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 04, 18:00 GMT",
+      "venue": "Warner Park, Basseterre, St Kitts",
+      "date": "2026-11-04",
+      "dateTimeGMT": "2026-11-04T18:00:00",
+      "teams": [
+        "West Indies A",
+        "England Lions"
+      ],
+      "series_id": "de4e4745-dcbb-42bd-8254-ebf28f10d449"
+    }
   }
 }
