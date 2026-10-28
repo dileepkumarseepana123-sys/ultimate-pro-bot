@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-28T06:02:51.507082+00:00",
+    "last_updated": "2026-10-28T13:21:40.979301+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -22,10 +22,10 @@
         "cricscore_calls_this_run": 1,
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
-        "match_info_calls_this_run": 8,
-        "match_info_cache_hits_this_run": 130,
-        "match_info_enriched_rows": 138,
-        "match_info_cache_size": 330,
+        "match_info_calls_this_run": 5,
+        "match_info_cache_hits_this_run": 134,
+        "match_info_enriched_rows": 139,
+        "match_info_cache_size": 335,
         "max_match_info_lookups_per_run": 8,
         "squad_calls_this_run": 0,
         "squad_cache_hits_this_run": 0,
@@ -33,11 +33,11 @@
         "endpoint_calls_this_run": {
             "cricScore": 1,
             "currentMatches": 1,
-            "match_info": 8,
+            "match_info": 5,
             "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 24,
+        "hits_today_reported": 33,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -68,15 +68,15 @@
         "final_reports_with_known_time": 1,
         "final_reports_with_weather": 1,
         "current_matches_rows": 25,
-        "current_matches_t20_rows": 10,
+        "current_matches_t20_rows": 9,
         "current_matches_today_t20_rows": 0,
-        "cricscore_rows": 142,
-        "cricscore_t20_rows": 52,
+        "cricscore_rows": 139,
+        "cricscore_t20_rows": 50,
         "cricscore_today_t20_rows": 0,
         "cricketdata_rows": 50,
         "cricketdata_t20_rows": 0,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 53,
+        "merged_candidates": 51,
         "final_reports": 1
     },
     "summary": {
@@ -88,10 +88,10 @@
     "matches": [
         {
             "teamA": "Lions",
-            "teamB": "Eastern Storm,Super Eights The Wanderers Stadium,Johannesburg",
-            "name": "Lions vs Eastern Storm,Super Eights The Wanderers Stadium,Johannesburg",
+            "teamB": "Eastern Storm,Super Eights The Wanderers Stadium , Johannesburg",
+            "name": "Lions vs Eastern Storm,Super Eights The Wanderers Stadium , Johannesburg",
             "matchType": "T20",
-            "venue": "Super Eights The Wanderers Stadium,Johannesburg",
+            "venue": "Super Eights The Wanderers Stadium , Johannesburg",
             "dateTimeGMT": "2026-10-28T16:00:00+00:00",
             "sourceDate": "2026-10-28",
             "matchTimeIST": "2026-10-28T21:30:00+05:30",
@@ -99,7 +99,7 @@
             "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
             "supplementalSourceName": null,
-            "sourceMatchUrl": "http://www.cricbuzz.com/live-cricket-scores/173517/lions-vs-estorm-super-eights-csa-t20-challenge-2026",
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173517/lions-vs-estorm-super-eights-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
             "sourceStatus": "Scheduled",
@@ -349,16 +349,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-28T18:00:00+02:00",
-                "temperature_c": 23.0,
-                "humidity_pct": 26,
-                "dew_point_c": 2.6,
+                "temperature_c": 22.8,
+                "humidity_pct": 25,
+                "dew_point_c": 1.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 15.8,
+                "wind_kmh": 14.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "23.0°C | RH 26% | Rain 0% | Wind 15.8 km/h",
+            "weatherText": "22.8°C | RH 25% | Rain 0% | Wind 14.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -391,7 +391,7 @@
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
-                "LIMITED RECENT T20 DATA FOR Eastern Storm,Super Eights The Wanderers Stadium,Johannesburg"
+                "LIMITED RECENT T20 DATA FOR Eastern Storm,Super Eights The Wanderers Stadium , Johannesburg"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",

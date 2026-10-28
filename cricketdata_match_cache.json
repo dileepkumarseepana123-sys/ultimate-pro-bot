@@ -5588,5 +5588,89 @@
       ],
       "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
     }
+  },
+  "fff79a10-9584-4062-b812-31ecea3c72d3": {
+    "cachedAt": "2026-10-28T13:21:03.494982+00:00",
+    "data": {
+      "id": "fff79a10-9584-4062-b812-31ecea3c72d3",
+      "name": "B1 vs D1, Cup, Semi Final 2, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 08:05 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T08:05:00",
+      "teams": [
+        "B1",
+        "D1"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "537ccc9a-901e-4ab0-90e8-eda0d1a9960a": {
+    "cachedAt": "2026-10-28T13:21:03.674533+00:00",
+    "data": {
+      "id": "537ccc9a-901e-4ab0-90e8-eda0d1a9960a",
+      "name": "West Indies A vs England Lions, 2nd T20, England Lions tour of West Indies, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 03, 18:00 GMT",
+      "venue": "Warner Park, Basseterre, St Kitts",
+      "date": "2026-11-03",
+      "dateTimeGMT": "2026-11-03T18:00:00",
+      "teams": [
+        "West Indies A",
+        "England Lions"
+      ],
+      "series_id": "de4e4745-dcbb-42bd-8254-ebf28f10d449"
+    }
+  },
+  "c547eb46-2025-413a-b7f2-6d1584daa42f": {
+    "cachedAt": "2026-10-28T13:21:03.850557+00:00",
+    "data": {
+      "id": "c547eb46-2025-413a-b7f2-6d1584daa42f",
+      "name": "New Zealand vs India, 1st ODI, India tour of New Zealand 2026",
+      "status": "Match starts at Nov 04, 02:00 GMT",
+      "venue": "Eden Park, Auckland",
+      "date": "2026-11-04",
+      "dateTimeGMT": "2026-11-04T02:00:00",
+      "teams": [
+        "New Zealand",
+        "India"
+      ],
+      "series_id": "9f0a2527-1508-42b3-9945-4ade13fd4b5a"
+    }
+  },
+  "8d8e9784-d2ad-4663-a079-3df4db0a0a71": {
+    "cachedAt": "2026-10-28T13:21:04.027692+00:00",
+    "data": {
+      "id": "8d8e9784-d2ad-4663-a079-3df4db0a0a71",
+      "name": "United Arab Emirates vs Oman, 145th Match, ICC Cricket World Cup League Two 2023-27",
+      "matchType": "odi",
+      "status": "Match starts at Nov 04, 05:30 GMT",
+      "venue": "ICC Academy Ground, Dubai",
+      "date": "2026-11-04",
+      "dateTimeGMT": "2026-11-04T05:30:00",
+      "teams": [
+        "United Arab Emirates",
+        "Oman"
+      ],
+      "series_id": "7ac098a3-5d70-4c81-8e81-199edbeffc29"
+    }
+  },
+  "786781a5-0548-479e-b268-a87521ea2e36": {
+    "cachedAt": "2026-10-28T13:21:04.206588+00:00",
+    "data": {
+      "id": "786781a5-0548-479e-b268-a87521ea2e36",
+      "name": "Hobart Hurricanes Women vs Melbourne Renegades Women, 9th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 04, 08:10 GMT",
+      "venue": "Bellerive Oval, Hobart",
+      "date": "2026-11-04",
+      "dateTimeGMT": "2026-11-04T08:10:00",
+      "teams": [
+        "Hobart Hurricanes Women",
+        "Melbourne Renegades Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }
