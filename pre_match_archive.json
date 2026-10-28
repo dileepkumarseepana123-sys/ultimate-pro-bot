@@ -86448,14 +86448,14 @@
         }
     },
     "eastern storm super eights the wanderers stadium johannesburg|lions|2026-10-28": {
-        "capturedAt": "2026-10-27T20:12:45.127102+00:00",
+        "capturedAt": "2026-10-28T06:02:51.441018+00:00",
         "matchDate": "2026-10-28",
         "report": {
             "teamA": "Lions",
-            "teamB": "Eastern Storm,Super Eights The Wanderers Stadium , Johannesburg",
-            "name": "Lions vs Eastern Storm,Super Eights The Wanderers Stadium , Johannesburg",
+            "teamB": "Eastern Storm,Super Eights The Wanderers Stadium,Johannesburg",
+            "name": "Lions vs Eastern Storm,Super Eights The Wanderers Stadium,Johannesburg",
             "matchType": "T20",
-            "venue": "Super Eights The Wanderers Stadium , Johannesburg",
+            "venue": "Super Eights The Wanderers Stadium,Johannesburg",
             "dateTimeGMT": "2026-10-28T16:00:00+00:00",
             "sourceDate": "2026-10-28",
             "matchTimeIST": "2026-10-28T21:30:00+05:30",
@@ -86463,7 +86463,7 @@
             "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
             "supplementalSourceName": null,
-            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173517/lions-vs-estorm-super-eights-csa-t20-challenge-2026",
+            "sourceMatchUrl": "http://www.cricbuzz.com/live-cricket-scores/173517/lions-vs-estorm-super-eights-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
             "sourceStatus": "Scheduled",
@@ -86713,16 +86713,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-28T18:00:00+02:00",
-                "temperature_c": 23.1,
+                "temperature_c": 23.0,
                 "humidity_pct": 26,
-                "dew_point_c": 2.7,
+                "dew_point_c": 2.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 14.3,
+                "wind_kmh": 15.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "23.1°C | RH 26% | Rain 0% | Wind 14.3 km/h",
+            "weatherText": "23.0°C | RH 26% | Rain 0% | Wind 15.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -86755,7 +86755,7 @@
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
-                "LIMITED RECENT T20 DATA FOR Eastern Storm,Super Eights The Wanderers Stadium , Johannesburg"
+                "LIMITED RECENT T20 DATA FOR Eastern Storm,Super Eights The Wanderers Stadium,Johannesburg"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",

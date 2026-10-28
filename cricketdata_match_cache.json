@@ -5452,5 +5452,141 @@
       ],
       "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
     }
+  },
+  "9f45e001-902f-4cd1-8987-4b5707925c4d": {
+    "cachedAt": "2026-10-28T06:01:53.632792+00:00",
+    "data": {
+      "id": "9f45e001-902f-4cd1-8987-4b5707925c4d",
+      "name": "Oman vs Afghanistan, Group D, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 00:45 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T00:45:00",
+      "teams": [
+        "Oman",
+        "Afghanistan"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "3dde79e5-6a4a-470e-bef8-437c22a93fcd": {
+    "cachedAt": "2026-10-28T06:01:53.795665+00:00",
+    "data": {
+      "id": "3dde79e5-6a4a-470e-bef8-437c22a93fcd",
+      "name": "Scotland vs Sri Lanka, Group B, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 01:40 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T01:40:00",
+      "teams": [
+        "Scotland",
+        "Sri Lanka"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "bda1cadb-9362-4905-aead-dde1fcb00f70": {
+    "cachedAt": "2026-10-28T06:01:53.951691+00:00",
+    "data": {
+      "id": "bda1cadb-9362-4905-aead-dde1fcb00f70",
+      "name": "United Arab Emirates vs India, Group C, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 02:35 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T02:35:00",
+      "teams": [
+        "United Arab Emirates",
+        "India"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "98709e54-eaae-4896-933c-cc0e05cf535a": {
+    "cachedAt": "2026-10-28T06:01:54.107587+00:00",
+    "data": {
+      "id": "98709e54-eaae-4896-933c-cc0e05cf535a",
+      "name": "B3 vs D3, Bowl, Semi Final 1, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 03:30 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T03:30:00",
+      "teams": [
+        "B3",
+        "D3"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "8d266c50-c07f-4eb5-afc3-323662074b84": {
+    "cachedAt": "2026-10-28T06:01:54.263108+00:00",
+    "data": {
+      "id": "8d266c50-c07f-4eb5-afc3-323662074b84",
+      "name": "A3 vs C3, Bowl, Semi Final 2, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 04:25 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T04:25:00",
+      "teams": [
+        "A3",
+        "C3"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "274baeb3-e417-4854-8580-1b1edee65433": {
+    "cachedAt": "2026-10-28T06:01:54.419061+00:00",
+    "data": {
+      "id": "274baeb3-e417-4854-8580-1b1edee65433",
+      "name": "B2 vs D2, Plate, Semi Final 1, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 05:20 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T05:20:00",
+      "teams": [
+        "B2",
+        "D2"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "655281f7-30a2-44fa-b180-37f0ff0b82e8": {
+    "cachedAt": "2026-10-28T06:01:54.576407+00:00",
+    "data": {
+      "id": "655281f7-30a2-44fa-b180-37f0ff0b82e8",
+      "name": "A2 vs C2, Plate, Semi Final 2, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 06:15 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T06:15:00",
+      "teams": [
+        "A2",
+        "C2"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "06484c44-55d5-4300-8d8f-68ed59595817": {
+    "cachedAt": "2026-10-28T06:01:54.731559+00:00",
+    "data": {
+      "id": "06484c44-55d5-4300-8d8f-68ed59595817",
+      "name": "A1 vs C1, Cup, Semi Final 1, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Oct 31, 07:10 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-10-31",
+      "dateTimeGMT": "2026-10-31T07:10:00",
+      "teams": [
+        "A1",
+        "C1"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
   }
 }
