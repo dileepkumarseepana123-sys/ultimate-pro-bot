@@ -87916,7 +87916,7 @@
         }
     },
     "afghanistan|zimbabwe|2026-10-29": {
-        "capturedAt": "2026-10-29T06:11:42.038772+00:00",
+        "capturedAt": "2026-10-29T13:30:34.316235+00:00",
         "matchDate": "2026-10-29",
         "report": {
             "teamA": "Afghanistan",
@@ -88061,7 +88061,7 @@
                     "Chase-lean venue: 59.6% chasing wins",
                     "Overs 7-14 wicket pressure: 4.36 wickets/match",
                     "16th-over baseline: 8.2 runs; wicket in 34.1% of sampled innings",
-                    "Weather: rain 0%, dew LOW"
+                    "Weather: rain 3%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -88200,16 +88200,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-29T18:30:00+04:00",
-                "temperature_c": 30.4,
-                "humidity_pct": 57,
-                "dew_point_c": 21.0,
-                "rain_probability_pct": 0,
+                "temperature_c": 30.2,
+                "humidity_pct": 59,
+                "dew_point_c": 21.3,
+                "rain_probability_pct": 3,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.8,
+                "wind_kmh": 10.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "30.4°C | RH 57% | Rain 0% | Wind 10.8 km/h",
+            "weatherText": "30.2°C | RH 59% | Rain 3% | Wind 10.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "59.59% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -88267,7 +88267,7 @@
         }
     },
     "afghanistan|zimbabwe in uae 2026|2026-10-29": {
-        "capturedAt": "2026-10-29T06:11:42.038795+00:00",
+        "capturedAt": "2026-10-29T13:30:34.316264+00:00",
         "matchDate": "2026-10-29",
         "report": {
             "teamA": "Afghanistan",
@@ -88714,7 +88714,7 @@
         }
     },
     "afghanistan|zimbabwe 2nd t20i sharjah cricket stadium sharjah|2026-10-29": {
-        "capturedAt": "2026-10-29T06:11:42.038833+00:00",
+        "capturedAt": "2026-10-29T13:30:34.316295+00:00",
         "matchDate": "2026-10-29",
         "report": {
             "teamA": "Afghanistan",
@@ -88842,7 +88842,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 0%, dew LOW"
+                    "Weather: rain 3%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -88890,16 +88890,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-29T18:30:00+04:00",
-                "temperature_c": 30.4,
-                "humidity_pct": 57,
-                "dew_point_c": 21.0,
-                "rain_probability_pct": 0,
+                "temperature_c": 30.2,
+                "humidity_pct": 59,
+                "dew_point_c": 21.3,
+                "rain_probability_pct": 3,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.8,
+                "wind_kmh": 10.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "30.4°C | RH 57% | Rain 0% | Wind 10.8 km/h",
+            "weatherText": "30.2°C | RH 59% | Rain 3% | Wind 10.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
