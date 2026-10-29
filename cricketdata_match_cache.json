@@ -5689,5 +5689,140 @@
       ],
       "series_id": "de4e4745-dcbb-42bd-8254-ebf28f10d449"
     }
+  },
+  "d25bab77-bc46-4247-b948-896878695643": {
+    "cachedAt": "2026-10-29T06:10:15.297763+00:00",
+    "data": {
+      "id": "d25bab77-bc46-4247-b948-896878695643",
+      "name": "Otago vs Canterbury, 9th Match, The Ford Trophy 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Nov 04, 21:30 GMT",
+      "venue": "University Oval, Dunedin",
+      "date": "2026-11-04",
+      "dateTimeGMT": "2026-11-04T21:30:00",
+      "teams": [
+        "Otago",
+        "Canterbury"
+      ],
+      "series_id": "127a3118-68a6-4f22-8375-1e2a9a8da0b3"
+    }
+  },
+  "f6f37400-8288-45fb-b29f-2e6b4129f2c3": {
+    "cachedAt": "2026-10-29T06:10:15.461179+00:00",
+    "data": {
+      "id": "f6f37400-8288-45fb-b29f-2e6b4129f2c3",
+      "name": "Central Stags vs Auckland, 7th Match, The Ford Trophy 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Nov 04, 21:30 GMT",
+      "venue": "Saxton Oval, Nelson",
+      "date": "2026-11-04",
+      "dateTimeGMT": "2026-11-04T21:30:00",
+      "teams": [
+        "Central Stags",
+        "Auckland"
+      ],
+      "series_id": "127a3118-68a6-4f22-8375-1e2a9a8da0b3"
+    }
+  },
+  "50b58369-2263-4b6e-adf2-0e616732fd0f": {
+    "cachedAt": "2026-10-29T06:10:15.627130+00:00",
+    "data": {
+      "id": "50b58369-2263-4b6e-adf2-0e616732fd0f",
+      "name": "Wellington vs Northern Districts, 8th Match, The Ford Trophy 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Nov 04, 21:30 GMT",
+      "venue": "Basin Reserve, Wellington",
+      "date": "2026-11-04",
+      "dateTimeGMT": "2026-11-04T21:30:00",
+      "teams": [
+        "Wellington",
+        "Northern Districts"
+      ],
+      "series_id": "127a3118-68a6-4f22-8375-1e2a9a8da0b3"
+    }
+  },
+  "29f0a681-bd9b-40c4-af2d-cae8b5ad4efb": {
+    "cachedAt": "2026-10-29T06:10:15.791225+00:00",
+    "data": {
+      "id": "29f0a681-bd9b-40c4-af2d-cae8b5ad4efb",
+      "name": "Bangladesh vs West Indies, 2nd Test, West Indies tour of Bangladesh, 2026",
+      "matchType": "test",
+      "status": "Match starts at Nov 05, 03:30 GMT",
+      "venue": "Sylhet International Cricket Stadium, Sylhet",
+      "date": "2026-11-05",
+      "dateTimeGMT": "2026-11-05T03:30:00",
+      "teams": [
+        "Bangladesh",
+        "West Indies"
+      ],
+      "series_id": "afc051fd-79b4-4635-8f3a-7cda1dd50f02"
+    }
+  },
+  "de774f34-7940-44c4-acce-8918a8069613": {
+    "cachedAt": "2026-10-29T06:10:15.953925+00:00",
+    "data": {
+      "id": "de774f34-7940-44c4-acce-8918a8069613",
+      "name": "Adelaide Strikers Women vs Brisbane Heat Women, 10th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 05, 04:40 GMT",
+      "venue": "Drummoyne Oval, Sydney",
+      "date": "2026-11-05",
+      "dateTimeGMT": "2026-11-05T04:40:00",
+      "teams": [
+        "Adelaide Strikers Women",
+        "Brisbane Heat Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "7b5135ce-6494-4ac9-97cd-87999a602d5b": {
+    "cachedAt": "2026-10-29T06:10:16.115064+00:00",
+    "data": {
+      "id": "7b5135ce-6494-4ac9-97cd-87999a602d5b",
+      "name": "Bangladesh U19 vs Afghanistan U19, 2nd Match, Group B, ACC Mens U19 Asia Cup 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 05, 05:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 1), Al Amerat",
+      "date": "2026-11-05",
+      "dateTimeGMT": "2026-11-05T05:00:00",
+      "teams": [
+        "Bangladesh U19",
+        "Afghanistan U19"
+      ],
+      "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
+    }
+  },
+  "a7347ac9-842a-45a1-bd41-2c3cabdb01d3": {
+    "cachedAt": "2026-10-29T06:10:16.275940+00:00",
+    "data": {
+      "id": "a7347ac9-842a-45a1-bd41-2c3cabdb01d3",
+      "name": "Sri Lanka U19 vs Malaysia U19, 1st Match, Group B, ACC Mens U19 Asia Cup 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 05, 05:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 2), Al Amerat",
+      "date": "2026-11-05",
+      "dateTimeGMT": "2026-11-05T05:00:00",
+      "teams": [
+        "Sri Lanka U19",
+        "Malaysia U19"
+      ],
+      "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
+    }
+  },
+  "8ad504bb-250d-41e3-b7cc-12cb65ea6e32": {
+    "cachedAt": "2026-10-29T06:10:16.437528+00:00",
+    "data": {
+      "id": "8ad504bb-250d-41e3-b7cc-12cb65ea6e32",
+      "name": "Afghanistan vs Zimbabwe, 1st Test, Afghanistan vs Zimbabwe in UAE, 2026",
+      "status": "Match starts at Nov 05, 05:00 GMT",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-11-05",
+      "dateTimeGMT": "2026-11-05T05:30:00",
+      "teams": [
+        "Afghanistan",
+        "Zimbabwe"
+      ],
+      "series_id": "7d61737b-c4d8-4f44-b8cb-309ce4d9c57a"
+    }
   }
 }

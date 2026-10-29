@@ -87340,7 +87340,7 @@
         }
     },
     "hobart hurricanes women|melbourne stars women|2026-10-29": {
-        "capturedAt": "2026-10-28T20:29:03.520568+00:00",
+        "capturedAt": "2026-10-29T06:11:42.038734+00:00",
         "matchDate": "2026-10-29",
         "report": {
             "teamA": "Melbourne Stars Women",
@@ -87850,16 +87850,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-29T19:10:00+11:00",
-                "temperature_c": 15.7,
+                "temperature_c": 15.5,
                 "humidity_pct": 75,
-                "dew_point_c": 11.3,
+                "dew_point_c": 11.0,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 5.9,
+                "wind_kmh": 7.8,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "15.7°C | RH 75% | Rain 0% | Wind 5.9 km/h",
+            "weatherText": "15.5°C | RH 75% | Rain 0% | Wind 7.8 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "57.89% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -87916,7 +87916,7 @@
         }
     },
     "afghanistan|zimbabwe|2026-10-29": {
-        "capturedAt": "2026-10-28T20:29:03.520576+00:00",
+        "capturedAt": "2026-10-29T06:11:42.038772+00:00",
         "matchDate": "2026-10-29",
         "report": {
             "teamA": "Afghanistan",
@@ -88039,12 +88039,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -88200,16 +88200,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-29T18:30:00+04:00",
-                "temperature_c": 30.2,
-                "humidity_pct": 64,
-                "dew_point_c": 22.7,
+                "temperature_c": 30.4,
+                "humidity_pct": 57,
+                "dew_point_c": 21.0,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 11.7,
+                "wind_kmh": 10.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "30.2°C | RH 64% | Rain 0% | Wind 11.7 km/h",
+            "weatherText": "30.4°C | RH 57% | Rain 0% | Wind 10.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "59.59% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -88267,7 +88267,7 @@
         }
     },
     "afghanistan|zimbabwe in uae 2026|2026-10-29": {
-        "capturedAt": "2026-10-28T20:29:03.520585+00:00",
+        "capturedAt": "2026-10-29T06:11:42.038795+00:00",
         "matchDate": "2026-10-29",
         "report": {
             "teamA": "Afghanistan",
@@ -88485,7 +88485,7 @@
         }
     },
     "south western districts|titans super eights recreation ground oudtshoorn|2026-10-29": {
-        "capturedAt": "2026-10-28T20:29:03.520595+00:00",
+        "capturedAt": "2026-10-29T06:11:42.038816+00:00",
         "matchDate": "2026-10-29",
         "report": {
             "teamA": "South Western Districts",
@@ -88660,15 +88660,15 @@
                 "status": "OK",
                 "local_time": "2026-10-29T13:00:00+02:00",
                 "temperature_c": 35.2,
-                "humidity_pct": 21,
-                "dew_point_c": 9.9,
+                "humidity_pct": 20,
+                "dew_point_c": 9.2,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
                 "wind_kmh": 7.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "35.2°C | RH 21% | Rain 0% | Wind 7.0 km/h",
+            "weatherText": "35.2°C | RH 20% | Rain 0% | Wind 7.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -88714,7 +88714,7 @@
         }
     },
     "afghanistan|zimbabwe 2nd t20i sharjah cricket stadium sharjah|2026-10-29": {
-        "capturedAt": "2026-10-28T20:29:03.520602+00:00",
+        "capturedAt": "2026-10-29T06:11:42.038833+00:00",
         "matchDate": "2026-10-29",
         "report": {
             "teamA": "Afghanistan",
@@ -88890,16 +88890,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-29T18:30:00+04:00",
-                "temperature_c": 30.2,
-                "humidity_pct": 64,
-                "dew_point_c": 22.7,
+                "temperature_c": 30.4,
+                "humidity_pct": 57,
+                "dew_point_c": 21.0,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 11.7,
+                "wind_kmh": 10.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "30.2°C | RH 64% | Rain 0% | Wind 11.7 km/h",
+            "weatherText": "30.4°C | RH 57% | Rain 0% | Wind 10.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",

@@ -5190,18 +5190,36 @@
     }
   },
   "5c425afe-2de9-4063-bc5c-123d1f2495a3": {
-    "cachedAt": "2026-10-28T20:28:57.022524+00:00",
+    "cachedAt": "2026-10-29T06:11:30.921318+00:00",
     "payload": {
       "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
       "data": [],
       "status": "success",
       "info": {
-        "hitsToday": 25,
+        "hitsToday": 47,
         "hitsUsed": 10,
         "hitsLimit": 100,
         "credits": 0,
-        "server": 15,
-        "queryTime": 17.223,
+        "server": 12,
+        "queryTime": 12.5496,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "d153b19d-6528-4b07-9dc1-5c03c8112df1": {
+    "cachedAt": "2026-10-29T06:11:33.042482+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 57,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 5,
+        "queryTime": 18.1425,
         "s": 0,
         "cache": 0
       }
