@@ -5875,5 +5875,38 @@
       ],
       "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
     }
+  },
+  "db5cceff-774e-47db-b6fc-a37862e6fe4a": {
+    "cachedAt": "2026-10-30T13:17:48.282620+00:00",
+    "data": {
+      "id": "db5cceff-774e-47db-b6fc-a37862e6fe4a",
+      "name": "Zimbabwe A vs Ireland A, 1st unofficial Test, Ireland A tour of Zimbabwe, 2026",
+      "status": "Match starts at Nov 06, 07:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-06",
+      "dateTimeGMT": "2026-11-06T07:30:00",
+      "teams": [
+        "Zimbabwe A",
+        "Ireland A"
+      ],
+      "series_id": "55616b78-3f8c-429a-b9c2-cf73c72d4cd4"
+    }
+  },
+  "0e3699f8-43b2-461b-a659-4d38daf9bf35": {
+    "cachedAt": "2026-10-30T13:17:48.422462+00:00",
+    "data": {
+      "id": "0e3699f8-43b2-461b-a659-4d38daf9bf35",
+      "name": "Melbourne Stars Women vs Sydney Sixers Women, 12th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 06, 08:10 GMT",
+      "venue": "Junction Oval, Melbourne",
+      "date": "2026-11-06",
+      "dateTimeGMT": "2026-11-06T08:10:00",
+      "teams": [
+        "Melbourne Stars Women",
+        "Sydney Sixers Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }
