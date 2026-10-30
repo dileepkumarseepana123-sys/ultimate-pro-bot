@@ -5841,5 +5841,39 @@
       ],
       "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
     }
+  },
+  "8073572e-2b62-4837-ad19-42e9f644276d": {
+    "cachedAt": "2026-10-30T06:10:31.325047+00:00",
+    "data": {
+      "id": "8073572e-2b62-4837-ad19-42e9f644276d",
+      "name": "Pakistan U19 vs United Arab Emirates U19, 3rd Match, Group A, ACC Mens U19 Asia Cup 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 06, 05:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 2), Al Amerat",
+      "date": "2026-11-06",
+      "dateTimeGMT": "2026-11-06T05:00:00",
+      "teams": [
+        "Pakistan U19",
+        "United Arab Emirates U19"
+      ],
+      "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
+    }
+  },
+  "8cab6ab0-4760-429b-8bc7-1fb8d9d24b9e": {
+    "cachedAt": "2026-10-30T06:10:31.478901+00:00",
+    "data": {
+      "id": "8cab6ab0-4760-429b-8bc7-1fb8d9d24b9e",
+      "name": "India U19 vs Nepal U19, 4th Match, Group A, ACC Mens U19 Asia Cup 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 06, 05:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 1), Al Amerat",
+      "date": "2026-11-06",
+      "dateTimeGMT": "2026-11-06T05:00:00",
+      "teams": [
+        "India U19",
+        "Nepal U19"
+      ],
+      "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
+    }
   }
 }
