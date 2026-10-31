@@ -95659,7 +95659,7 @@
         }
     },
     "b3|d3|2026-10-31": {
-        "capturedAt": "2026-10-31T06:06:37.582918+00:00",
+        "capturedAt": "2026-10-31T12:57:53.103126+00:00",
         "matchDate": "2026-10-31",
         "report": {
             "teamA": "B3",
@@ -95918,7 +95918,7 @@
         }
     },
     "a3|c3|2026-10-31": {
-        "capturedAt": "2026-10-31T06:06:37.582922+00:00",
+        "capturedAt": "2026-10-31T12:57:53.103134+00:00",
         "matchDate": "2026-10-31",
         "report": {
             "teamA": "A3",
@@ -96749,7 +96749,7 @@
         }
     },
     "b2|d2|2026-10-31": {
-        "capturedAt": "2026-10-31T06:06:37.582926+00:00",
+        "capturedAt": "2026-10-31T12:57:53.103140+00:00",
         "matchDate": "2026-10-31",
         "report": {
             "teamA": "B2",
@@ -97008,7 +97008,7 @@
         }
     },
     "a2|c2|2026-10-31": {
-        "capturedAt": "2026-10-31T06:06:37.582930+00:00",
+        "capturedAt": "2026-10-31T12:57:53.103147+00:00",
         "matchDate": "2026-10-31",
         "report": {
             "teamA": "A2",
@@ -97267,7 +97267,7 @@
         }
     },
     "a1|c1|2026-10-31": {
-        "capturedAt": "2026-10-31T06:06:37.582847+00:00",
+        "capturedAt": "2026-10-31T12:57:53.103155+00:00",
         "matchDate": "2026-10-31",
         "report": {
             "teamA": "A1",
@@ -97285,7 +97285,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "06484c44-55d5-4300-8d8f-68ed59595817",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 31, 07:10 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -97521,11 +97521,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "b1|d1|2026-10-31": {
-        "capturedAt": "2026-10-31T06:06:37.582864+00:00",
+        "capturedAt": "2026-10-31T12:57:53.103162+00:00",
         "matchDate": "2026-10-31",
         "report": {
             "teamA": "B1",
@@ -97543,7 +97544,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "fff79a10-9584-4062-b812-31ecea3c72d3",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 31, 08:05 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -97779,7 +97780,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "melbourne renegades women|perth scorchers women|2026-10-31": {
@@ -98587,7 +98589,7 @@
         }
     },
     "warriors|western province super eights st george s park gqeberha|2026-10-31": {
-        "capturedAt": "2026-10-31T06:06:37.582913+00:00",
+        "capturedAt": "2026-10-31T12:57:53.103101+00:00",
         "matchDate": "2026-10-31",
         "report": {
             "teamA": "Warriors",
@@ -98712,7 +98714,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 1%, dew HIGH"
+                    "Weather: rain 0%, dew HIGH"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -98853,16 +98855,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-31T18:00:00+02:00",
-                "temperature_c": 20.9,
-                "humidity_pct": 90,
-                "dew_point_c": 19.2,
-                "rain_probability_pct": 1,
+                "temperature_c": 20.8,
+                "humidity_pct": 88,
+                "dew_point_c": 18.8,
+                "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 15.1,
+                "wind_kmh": 15.2,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "20.9°C | RH 90% | Rain 1% | Wind 15.1 km/h",
+            "weatherText": "20.8°C | RH 88% | Rain 0% | Wind 15.2 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",

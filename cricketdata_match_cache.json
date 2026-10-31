@@ -5975,5 +5975,39 @@
       ],
       "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
     }
+  },
+  "1f4f3716-c5f2-44e7-9a35-056e63a2b1cf": {
+    "cachedAt": "2026-10-31T12:56:18.366008+00:00",
+    "data": {
+      "id": "1f4f3716-c5f2-44e7-9a35-056e63a2b1cf",
+      "name": "Brisbane Heat Women vs Hobart Hurricanes Women, 14th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 07, 08:10 GMT",
+      "venue": "Allan Border Field, Brisbane",
+      "date": "2026-11-07",
+      "dateTimeGMT": "2026-11-07T08:10:00",
+      "teams": [
+        "Brisbane Heat Women",
+        "Hobart Hurricanes Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "5cd5763c-6470-44a6-a184-c4869454280b": {
+    "cachedAt": "2026-10-31T12:56:18.540924+00:00",
+    "data": {
+      "id": "5cd5763c-6470-44a6-a184-c4869454280b",
+      "name": "Uae Bulls vs Yas Lions, 1st Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 07, 11:30 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-07",
+      "dateTimeGMT": "2026-11-07T11:30:00",
+      "teams": [
+        "Uae Bulls",
+        "Yas Lions"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
   }
 }
