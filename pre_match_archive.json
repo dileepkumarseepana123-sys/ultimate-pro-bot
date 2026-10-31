@@ -95659,7 +95659,7 @@
         }
     },
     "b3|d3|2026-10-31": {
-        "capturedAt": "2026-10-30T20:02:55.768941+00:00",
+        "capturedAt": "2026-10-31T06:06:37.582918+00:00",
         "matchDate": "2026-10-31",
         "report": {
             "teamA": "B3",
@@ -95677,7 +95677,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "98709e54-eaae-4896-933c-cc0e05cf535a",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 31, 03:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -95913,11 +95913,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "a3|c3|2026-10-31": {
-        "capturedAt": "2026-10-30T20:02:55.768982+00:00",
+        "capturedAt": "2026-10-31T06:06:37.582922+00:00",
         "matchDate": "2026-10-31",
         "report": {
             "teamA": "A3",
@@ -95935,7 +95936,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "8d266c50-c07f-4eb5-afc3-323662074b84",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 31, 04:25 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -96171,7 +96172,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "adelaide strikers women|melbourne stars women|2026-10-31": {
@@ -96747,7 +96749,7 @@
         }
     },
     "b2|d2|2026-10-31": {
-        "capturedAt": "2026-10-30T20:02:55.769020+00:00",
+        "capturedAt": "2026-10-31T06:06:37.582926+00:00",
         "matchDate": "2026-10-31",
         "report": {
             "teamA": "B2",
@@ -96765,7 +96767,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "274baeb3-e417-4854-8580-1b1edee65433",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 31, 05:20 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -97001,11 +97003,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "a2|c2|2026-10-31": {
-        "capturedAt": "2026-10-30T20:02:55.769029+00:00",
+        "capturedAt": "2026-10-31T06:06:37.582930+00:00",
         "matchDate": "2026-10-31",
         "report": {
             "teamA": "A2",
@@ -97023,7 +97026,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "655281f7-30a2-44fa-b180-37f0ff0b82e8",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Oct 31, 06:15 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -97259,11 +97262,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "a1|c1|2026-10-31": {
-        "capturedAt": "2026-10-30T20:02:55.769037+00:00",
+        "capturedAt": "2026-10-31T06:06:37.582847+00:00",
         "matchDate": "2026-10-31",
         "report": {
             "teamA": "A1",
@@ -97454,16 +97458,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-31T15:10:00+08:00",
-                "temperature_c": 27.1,
-                "humidity_pct": 64,
-                "dew_point_c": 19.8,
+                "temperature_c": 26.9,
+                "humidity_pct": 65,
+                "dew_point_c": 19.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 18.5,
+                "wind_kmh": 18.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.1°C | RH 64% | Rain 0% | Wind 18.5 km/h",
+            "weatherText": "26.9°C | RH 65% | Rain 0% | Wind 18.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "41.67% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -97521,7 +97525,7 @@
         }
     },
     "b1|d1|2026-10-31": {
-        "capturedAt": "2026-10-30T20:02:55.769045+00:00",
+        "capturedAt": "2026-10-31T06:06:37.582864+00:00",
         "matchDate": "2026-10-31",
         "report": {
             "teamA": "B1",
@@ -97640,12 +97644,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -97712,16 +97716,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-31T16:05:00+08:00",
-                "temperature_c": 26.4,
-                "humidity_pct": 66,
-                "dew_point_c": 19.6,
+                "temperature_c": 26.3,
+                "humidity_pct": 67,
+                "dew_point_c": 19.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 17.7,
+                "wind_kmh": 17.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.4°C | RH 66% | Rain 0% | Wind 17.7 km/h",
+            "weatherText": "26.3°C | RH 67% | Rain 0% | Wind 17.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "41.67% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -97779,7 +97783,7 @@
         }
     },
     "melbourne renegades women|perth scorchers women|2026-10-31": {
-        "capturedAt": "2026-10-30T20:02:55.769058+00:00",
+        "capturedAt": "2026-10-31T06:06:37.582877+00:00",
         "matchDate": "2026-10-31",
         "report": {
             "teamA": "Perth Scorchers Women",
@@ -98032,12 +98036,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -98054,7 +98058,7 @@
                     "Chase-lean venue: 72.0% chasing wins",
                     "Overs 7-14 wicket pressure: 2.92 wickets/match",
                     "16th-over baseline: 7.2 runs; wicket in 33.3% of sampled innings",
-                    "Weather: rain 66%, dew LOW"
+                    "Weather: rain 77%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Perth Scorchers Women 1526.6 vs Melbourne Renegades Women 1480.9",
@@ -98288,16 +98292,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-31T16:10:00+08:00",
-                "temperature_c": 19.2,
-                "humidity_pct": 73,
-                "dew_point_c": 14.3,
-                "rain_probability_pct": 66,
-                "precipitation_mm": 0.2,
-                "wind_kmh": 19.8,
+                "temperature_c": 19.4,
+                "humidity_pct": 70,
+                "dew_point_c": 13.7,
+                "rain_probability_pct": 77,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 19.6,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "19.2°C | RH 73% | Rain 66% | Wind 19.8 km/h",
+            "weatherText": "19.4°C | RH 70% | Rain 77% | Wind 19.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "72.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -98354,7 +98358,7 @@
         }
     },
     "eastern storm super eights recreation ground oudtshoorn|south western districts|2026-10-31": {
-        "capturedAt": "2026-10-30T20:02:55.769073+00:00",
+        "capturedAt": "2026-10-31T06:06:37.582901+00:00",
         "matchDate": "2026-10-31",
         "report": {
             "teamA": "South Western Districts",
@@ -98528,16 +98532,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-31T13:00:00+02:00",
-                "temperature_c": 31.1,
-                "humidity_pct": 31,
-                "dew_point_c": 12.1,
+                "temperature_c": 30.6,
+                "humidity_pct": 32,
+                "dew_point_c": 11.8,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 6.1,
+                "wind_kmh": 3.9,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "31.1°C | RH 31% | Rain 0% | Wind 6.1 km/h",
+            "weatherText": "30.6°C | RH 32% | Rain 0% | Wind 3.9 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -98583,7 +98587,7 @@
         }
     },
     "warriors|western province super eights st george s park gqeberha|2026-10-31": {
-        "capturedAt": "2026-10-30T20:02:55.769089+00:00",
+        "capturedAt": "2026-10-31T06:06:37.582913+00:00",
         "matchDate": "2026-10-31",
         "report": {
             "teamA": "Warriors",
@@ -98708,7 +98712,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 0%, dew HIGH"
+                    "Weather: rain 1%, dew HIGH"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -98849,16 +98853,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-10-31T18:00:00+02:00",
-                "temperature_c": 21.0,
-                "humidity_pct": 91,
-                "dew_point_c": 19.5,
-                "rain_probability_pct": 0,
+                "temperature_c": 20.9,
+                "humidity_pct": 90,
+                "dew_point_c": 19.2,
+                "rain_probability_pct": 1,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 13.6,
+                "wind_kmh": 15.1,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "21.0°C | RH 91% | Rain 0% | Wind 13.6 km/h",
+            "weatherText": "20.9°C | RH 90% | Rain 1% | Wind 15.1 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",

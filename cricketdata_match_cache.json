@@ -5908,5 +5908,72 @@
       ],
       "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
     }
+  },
+  "8d868342-e1d5-4f86-a4f0-093f6abab3f9": {
+    "cachedAt": "2026-10-31T06:05:33.007792+00:00",
+    "data": {
+      "id": "8d868342-e1d5-4f86-a4f0-093f6abab3f9",
+      "name": "New Zealand vs India, 2nd ODI, India tour of New Zealand 2026",
+      "status": "Match starts at Nov 07, 02:00 GMT",
+      "venue": "Sky Stadium, Wellington",
+      "date": "2026-11-07",
+      "dateTimeGMT": "2026-11-07T02:00:00",
+      "teams": [
+        "New Zealand",
+        "India"
+      ],
+      "series_id": "9f0a2527-1508-42b3-9945-4ade13fd4b5a"
+    }
+  },
+  "300f2828-e1c8-44ad-8a74-be0a54ec4e02": {
+    "cachedAt": "2026-10-31T06:05:33.167229+00:00",
+    "data": {
+      "id": "300f2828-e1c8-44ad-8a74-be0a54ec4e02",
+      "name": "Melbourne Renegades Women vs Adelaide Strikers Women, 13th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 07, 04:40 GMT",
+      "venue": "Junction Oval, Melbourne",
+      "date": "2026-11-07",
+      "dateTimeGMT": "2026-11-07T04:40:00",
+      "teams": [
+        "Melbourne Renegades Women",
+        "Adelaide Strikers Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "298fc307-6208-44b7-b2ed-b8a73d32627b": {
+    "cachedAt": "2026-10-31T06:05:33.328525+00:00",
+    "data": {
+      "id": "298fc307-6208-44b7-b2ed-b8a73d32627b",
+      "name": "Sri Lanka U19 vs Bangladesh U19, 6th Match, Group B, ACC Mens U19 Asia Cup 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 07, 05:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 1), Al Amerat",
+      "date": "2026-11-07",
+      "dateTimeGMT": "2026-11-07T05:00:00",
+      "teams": [
+        "Sri Lanka U19",
+        "Bangladesh U19"
+      ],
+      "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
+    }
+  },
+  "7b6de40a-6d62-4b83-aaaf-3b42e4a81f8a": {
+    "cachedAt": "2026-10-31T06:05:33.498757+00:00",
+    "data": {
+      "id": "7b6de40a-6d62-4b83-aaaf-3b42e4a81f8a",
+      "name": "Afghanistan U19 vs Malaysia U19, 5th Match, Group B, ACC Mens U19 Asia Cup 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 07, 05:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 2), Al Amerat",
+      "date": "2026-11-07",
+      "dateTimeGMT": "2026-11-07T05:00:00",
+      "teams": [
+        "Afghanistan U19",
+        "Malaysia U19"
+      ],
+      "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
+    }
   }
 }
