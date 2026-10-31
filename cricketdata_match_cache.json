@@ -6009,5 +6009,140 @@
       ],
       "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
     }
+  },
+  "d342801e-1419-4024-880a-7e0faa697a63": {
+    "cachedAt": "2026-10-31T19:26:49.976008+00:00",
+    "data": {
+      "id": "d342801e-1419-4024-880a-7e0faa697a63",
+      "name": "Bangladesh vs India, 11th/12th Bowl, Play-off, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 01, 01:40 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-11-01",
+      "dateTimeGMT": "2026-11-01T01:40:00",
+      "teams": [
+        "Bangladesh",
+        "India"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "7db252f7-80f5-4049-9419-4ba78bab4449": {
+    "cachedAt": "2026-10-31T19:26:50.118952+00:00",
+    "data": {
+      "id": "7db252f7-80f5-4049-9419-4ba78bab4449",
+      "name": "Sri Lanka vs Hong Kong, China, 7th/8th Plate, Play-off, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 01, 02:35 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-11-01",
+      "dateTimeGMT": "2026-11-01T02:35:00",
+      "teams": [
+        "Sri Lanka",
+        "Hong Kong"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "262e1165-d8dd-499d-a45a-50b8b69154b9": {
+    "cachedAt": "2026-10-31T19:26:50.261442+00:00",
+    "data": {
+      "id": "262e1165-d8dd-499d-a45a-50b8b69154b9",
+      "name": "South Africa vs England, Bowl, Final, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 01, 05:20 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-11-01",
+      "dateTimeGMT": "2026-11-01T05:20:00",
+      "teams": [
+        "South Africa",
+        "England"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "894b34bc-9eea-42fd-ae32-ccbf5ea4755e": {
+    "cachedAt": "2026-10-31T19:26:50.406847+00:00",
+    "data": {
+      "id": "894b34bc-9eea-42fd-ae32-ccbf5ea4755e",
+      "name": "Oman vs Pakistan, Plate, Final, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 01, 06:15 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-11-01",
+      "dateTimeGMT": "2026-11-01T06:15:00",
+      "teams": [
+        "Oman",
+        "Pakistan"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "92747aca-aecc-4e0a-b45b-add77e2cfe06": {
+    "cachedAt": "2026-10-31T19:26:50.551624+00:00",
+    "data": {
+      "id": "92747aca-aecc-4e0a-b45b-add77e2cfe06",
+      "name": "Australia vs Afghanistan, Cup, Final, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 01, 07:10 GMT",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-11-01",
+      "dateTimeGMT": "2026-11-01T07:10:00",
+      "teams": [
+        "Australia",
+        "Afghanistan"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "217d000e-eaa3-4f72-a11b-cd4260956de3": {
+    "cachedAt": "2026-10-31T19:26:50.700291+00:00",
+    "data": {
+      "id": "217d000e-eaa3-4f72-a11b-cd4260956de3",
+      "name": "Royal Desert Champions vs Emirates Eagles, 2nd Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 07, 13:45 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-07",
+      "dateTimeGMT": "2026-11-07T13:45:00",
+      "teams": [
+        "Royal Desert Champions",
+        "Emirates Eagles"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "d6fd3ae2-02cf-47f1-ae7b-316ec369a44c": {
+    "cachedAt": "2026-10-31T19:26:50.843615+00:00",
+    "data": {
+      "id": "d6fd3ae2-02cf-47f1-ae7b-316ec369a44c",
+      "name": "United Tigers vs Arabian Aces, 3rd Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 07, 16:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-07",
+      "dateTimeGMT": "2026-11-07T16:00:00",
+      "teams": [
+        "United Tigers",
+        "Arabian Aces"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "4f5520d8-5b58-4b5c-a434-e713d6d259ae": {
+    "cachedAt": "2026-10-31T19:26:50.989158+00:00",
+    "data": {
+      "id": "4f5520d8-5b58-4b5c-a434-e713d6d259ae",
+      "name": "West Indies A vs England Lions, 1st Unofficial ODI, England Lions tour of West Indies, 2026",
+      "status": "Match starts at Nov 07, 18:00 GMT",
+      "venue": "Warner Park, Basseterre, St Kitts",
+      "date": "2026-11-07",
+      "dateTimeGMT": "2026-11-07T18:00:00",
+      "teams": [
+        "West Indies A",
+        "England Lions"
+      ],
+      "series_id": "de4e4745-dcbb-42bd-8254-ebf28f10d449"
+    }
   }
 }
