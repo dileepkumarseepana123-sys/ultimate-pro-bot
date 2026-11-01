@@ -6246,5 +6246,141 @@
       ],
       "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
     }
+  },
+  "1ad639fd-dee9-4c10-9184-9e442b570e78": {
+    "cachedAt": "2026-11-01T22:15:46.757580+00:00",
+    "data": {
+      "id": "1ad639fd-dee9-4c10-9184-9e442b570e78",
+      "name": "Karnali Yaks vs Kathmandu Gorkhas, 10th Match, Nepal Premier League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 02, 06:45 GMT",
+      "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+      "date": "2026-11-02",
+      "dateTimeGMT": "2026-11-02T06:45:00",
+      "teams": [
+        "Karnali Yaks",
+        "Kathmandu Gorkhas"
+      ],
+      "series_id": "a8815363-b07e-48df-b185-42e43d1745cd"
+    }
+  },
+  "61292707-79ae-4976-91ba-5c5db4d4d24b": {
+    "cachedAt": "2026-11-01T22:15:46.913624+00:00",
+    "data": {
+      "id": "61292707-79ae-4976-91ba-5c5db4d4d24b",
+      "name": "Chitwan Rhinos vs Sudur Paschim Royals, 11th Match, Nepal Premier League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 02, 10:45 GMT",
+      "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+      "date": "2026-11-02",
+      "dateTimeGMT": "2026-11-02T10:45:00",
+      "teams": [
+        "Chitwan Rhinos",
+        "Sudur Paschim Royals"
+      ],
+      "series_id": "a8815363-b07e-48df-b185-42e43d1745cd"
+    }
+  },
+  "aa12a4ba-eb86-40d4-9c5b-e0ae8936824b": {
+    "cachedAt": "2026-11-01T22:15:47.071106+00:00",
+    "data": {
+      "id": "aa12a4ba-eb86-40d4-9c5b-e0ae8936824b",
+      "name": "Biratnagar Kings vs Janakpur Bolts, 12th Match, Nepal Premier League 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+      "date": "2026-11-03",
+      "dateTimeGMT": "2026-11-03T06:45:00",
+      "teams": [
+        "Biratnagar Kings",
+        "Janakpur Bolts"
+      ],
+      "series_id": "a8815363-b07e-48df-b185-42e43d1745cd"
+    }
+  },
+  "e743011d-9258-4036-ae9e-e205c96c917f": {
+    "cachedAt": "2026-11-01T22:15:47.225756+00:00",
+    "data": {
+      "id": "e743011d-9258-4036-ae9e-e205c96c917f",
+      "name": "Lumbini Lions vs Pokhara Avengers, 13th Match, Nepal Premier League 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+      "date": "2026-11-03",
+      "dateTimeGMT": "2026-11-03T10:45:00",
+      "teams": [
+        "Lumbini Lions",
+        "Pokhara Avengers"
+      ],
+      "series_id": "a8815363-b07e-48df-b185-42e43d1745cd"
+    }
+  },
+  "a8e562f2-154c-4af1-84d1-9b346393678b": {
+    "cachedAt": "2026-11-01T22:15:47.408619+00:00",
+    "data": {
+      "id": "a8e562f2-154c-4af1-84d1-9b346393678b",
+      "name": "Janakpur Bolts vs Lumbini Lions, 14th Match, Nepal Premier League 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+      "date": "2026-11-05",
+      "dateTimeGMT": "2026-11-05T06:45:00",
+      "teams": [
+        "Janakpur Bolts",
+        "Lumbini Lions"
+      ],
+      "series_id": "a8815363-b07e-48df-b185-42e43d1745cd"
+    }
+  },
+  "22508d08-daf1-4a48-a83b-5d3084d2a7bc": {
+    "cachedAt": "2026-11-01T22:15:47.562645+00:00",
+    "data": {
+      "id": "22508d08-daf1-4a48-a83b-5d3084d2a7bc",
+      "name": "Biratnagar Kings vs Kathmandu Gorkhas, 15th Match, Nepal Premier League 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+      "date": "2026-11-05",
+      "dateTimeGMT": "2026-11-05T10:45:00",
+      "teams": [
+        "Biratnagar Kings",
+        "Kathmandu Gorkhas"
+      ],
+      "series_id": "a8815363-b07e-48df-b185-42e43d1745cd"
+    }
+  },
+  "a172aa1d-a718-473e-8df2-5be778936b9d": {
+    "cachedAt": "2026-11-01T22:15:47.718149+00:00",
+    "data": {
+      "id": "a172aa1d-a718-473e-8df2-5be778936b9d",
+      "name": "Yas Lions vs Emirates Eagles, 4th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 08, 11:30 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-08",
+      "dateTimeGMT": "2026-11-08T11:30:00",
+      "teams": [
+        "Yas Lions",
+        "Emirates Eagles"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "34fcd8aa-3b5e-4dd8-b520-1595e878ed0b": {
+    "cachedAt": "2026-11-01T22:15:47.872796+00:00",
+    "data": {
+      "id": "34fcd8aa-3b5e-4dd8-b520-1595e878ed0b",
+      "name": "United Tigers vs Uae Bulls, 5th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 08, 13:45 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-08",
+      "dateTimeGMT": "2026-11-08T13:45:00",
+      "teams": [
+        "United Tigers",
+        "Uae Bulls"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
   }
 }
