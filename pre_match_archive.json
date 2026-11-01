@@ -98910,7 +98910,7 @@
         }
     },
     "bangladesh|india|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692264+00:00",
+        "capturedAt": "2026-11-01T16:54:31.589610+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Bangladesh",
@@ -98928,7 +98928,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "d342801e-1419-4024-880a-7e0faa697a63",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 01, 01:40 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -99483,11 +99483,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "India has a moderate edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "India has a moderate edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "hong kong|sri lanka|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692285+00:00",
+        "capturedAt": "2026-11-01T16:54:31.589620+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Sri Lanka",
@@ -99505,7 +99506,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "7db252f7-80f5-4049-9419-4ba78bab4449",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 01, 02:35 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -99948,11 +99949,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Hong Kong has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Hong Kong has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "brisbane heat women|sydney thunder women|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692298+00:00",
+        "capturedAt": "2026-11-01T16:54:31.589632+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Sydney Thunder Women",
@@ -99970,7 +99972,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/162733/sytw-vs-brhw-6th-match-womens-big-bash-league-2026",
             "cricketDataMatchId": "6e4efad7-accf-434a-974b-a7c219e506df",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 01, 04:40 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "PREMIUM COMPETITION",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -100520,11 +100522,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Sydney Thunder Women has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Sydney Thunder Women has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "england|south africa|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692310+00:00",
+        "capturedAt": "2026-11-01T16:54:31.589641+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "South Africa",
@@ -100542,7 +100545,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "262e1165-d8dd-499d-a45a-50b8b69154b9",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 01, 05:20 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -101092,11 +101095,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "England has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "England has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "oman|pakistan|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692319+00:00",
+        "capturedAt": "2026-11-01T16:54:31.589649+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Oman",
@@ -101114,7 +101118,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "894b34bc-9eea-42fd-ae32-ccbf5ea4755e",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 01, 06:15 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -101559,11 +101563,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Pakistan has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Pakistan has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "india|new zealand|2026-11-01": {
-        "capturedAt": "2026-11-01T06:37:38.987085+00:00",
+        "capturedAt": "2026-11-01T16:54:31.589658+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "New Zealand",
@@ -101581,7 +101586,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/161234/nz-vs-ind-5th-t20i-india-tour-of-new-zealand-2026",
             "cricketDataMatchId": "936348e9-608f-4ca8-9cc5-5d3082ab0b90",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 01, 07:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -102137,11 +102142,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "India has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "India has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "afghanistan|australia|2026-11-01": {
-        "capturedAt": "2026-11-01T06:37:38.987117+00:00",
+        "capturedAt": "2026-11-01T16:54:31.589680+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Australia",
@@ -102159,7 +102165,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "92747aca-aecc-4e0a-b45b-add77e2cfe06",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 01, 07:10 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -102488,11 +102494,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "hobart hurricanes women|sydney sixers women|2026-11-01": {
-        "capturedAt": "2026-11-01T06:37:38.987138+00:00",
+        "capturedAt": "2026-11-01T16:54:31.589694+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Sydney Sixers Women",
@@ -102510,7 +102517,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/162747/sysw-vs-hbhw-7th-match-womens-big-bash-league-2026",
             "cricketDataMatchId": "492c8d70-3611-4199-b847-0cc243912216",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 01, 08:10 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "PREMIUM COMPETITION",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -103060,7 +103067,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "afghanistan|zimbabwe|2026-11-01": {
@@ -103639,7 +103647,7 @@
         }
     },
     "afghanistan|zimbabwe in uae 2026|2026-11-01": {
-        "capturedAt": "2026-11-01T06:37:38.987191+00:00",
+        "capturedAt": "2026-11-01T16:54:31.589544+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Afghanistan",
@@ -103651,7 +103659,7 @@
             "sourceDate": "2026-11-01",
             "matchTimeIST": "UNKNOWN",
             "indiaDate": "2026-11-01",
-            "series": "Nepal Premier League 2026",
+            "series": "CSA T20 Challenge 2026",
             "sourceName": "Cricbuzz via text relay",
             "supplementalSourceName": null,
             "sourceMatchUrl": null,
@@ -104175,7 +104183,7 @@
         }
     },
     "boland super eights kingsmead durban|dolphins|2026-11-01": {
-        "capturedAt": "2026-11-01T06:37:38.987224+00:00",
+        "capturedAt": "2026-11-01T16:54:31.589706+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Dolphins",
@@ -104193,7 +104201,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173557/dol-vs-bol-super-eights-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -104490,7 +104498,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "lions|titans super eights the wanderers stadium johannesburg|2026-11-01": {
@@ -104813,7 +104822,7 @@
         }
     },
     "janakpur bolts|pokhara avengers|2026-11-01": {
-        "capturedAt": "2026-11-01T06:37:38.987258+00:00",
+        "capturedAt": "2026-11-01T16:54:31.589716+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Janakpur Bolts",
@@ -104831,7 +104840,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177670/jab-vs-poa-9th-match-nepal-premier-league-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -105291,7 +105300,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "afghanistan|zimbabwe 3rd t20i sharjah cricket stadium sharjah|2026-11-01": {
@@ -105527,7 +105537,7 @@
         }
     },
     "england lions 1st t20 conaree sports club basseterre st kitts|west indies a|2026-11-01": {
-        "capturedAt": "2026-11-01T06:37:38.987296+00:00",
+        "capturedAt": "2026-11-01T16:54:31.589600+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "West Indies A",
@@ -105649,7 +105659,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 51%, dew LOW"
+                    "Weather: rain 57%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -105697,16 +105707,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-01T14:00:00-04:00",
-                "temperature_c": 30.1,
-                "humidity_pct": 67,
-                "dew_point_c": 23.4,
-                "rain_probability_pct": 51,
-                "precipitation_mm": 0.2,
-                "wind_kmh": 21.1,
+                "temperature_c": 29.9,
+                "humidity_pct": 66,
+                "dew_point_c": 22.9,
+                "rain_probability_pct": 57,
+                "precipitation_mm": 0.3,
+                "wind_kmh": 20.3,
                 "dew_risk": "LOW",
                 "rain_risk": "MEDIUM"
             },
-            "weatherText": "30.1°C | RH 67% | Rain 51% | Wind 21.1 km/h",
+            "weatherText": "29.9°C | RH 66% | Rain 57% | Wind 20.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
