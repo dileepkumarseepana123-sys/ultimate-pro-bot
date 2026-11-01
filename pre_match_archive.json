@@ -101563,7 +101563,7 @@
         }
     },
     "india|new zealand|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692329+00:00",
+        "capturedAt": "2026-11-01T06:37:38.987085+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "New Zealand",
@@ -101840,7 +101840,7 @@
                     "Two-way venue: 45.2% chasing wins",
                     "Overs 7-14 wicket pressure: 4.09 wickets/match",
                     "16th-over baseline: 8.7 runs; wicket in 36.5% of sampled innings",
-                    "Weather: rain 1%, dew HIGH"
+                    "Weather: rain 0%, dew HIGH"
                 ],
                 "evidence": [
                     "Elo: New Zealand 1667.6 vs India 1801.0",
@@ -102074,16 +102074,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-01T02:00:00-05:00",
-                "temperature_c": 6.9,
+                "temperature_c": 7.1,
                 "humidity_pct": 80,
-                "dew_point_c": 3.7,
-                "rain_probability_pct": 1,
+                "dew_point_c": 3.9,
+                "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 6.6,
+                "wind_kmh": 7.6,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "6.9°C | RH 80% | Rain 1% | Wind 6.6 km/h",
+            "weatherText": "7.1°C | RH 80% | Rain 0% | Wind 7.6 km/h",
             "dewRisk": "HIGH",
             "tossBias": "45.16% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -102141,7 +102141,7 @@
         }
     },
     "afghanistan|australia|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692338+00:00",
+        "capturedAt": "2026-11-01T06:37:38.987117+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Australia",
@@ -102286,7 +102286,7 @@
                     "Defend-lean venue: 41.7% chasing wins",
                     "Overs 7-14 wicket pressure: 4.73 wickets/match",
                     "16th-over baseline: 8.1 runs; wicket in 37.9% of sampled innings",
-                    "Weather: rain 22%, dew LOW"
+                    "Weather: rain 11%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -102425,16 +102425,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-01T15:10:00+08:00",
-                "temperature_c": 27.4,
-                "humidity_pct": 70,
-                "dew_point_c": 21.5,
-                "rain_probability_pct": 22,
+                "temperature_c": 26.9,
+                "humidity_pct": 72,
+                "dew_point_c": 21.4,
+                "rain_probability_pct": 11,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 14.4,
+                "wind_kmh": 12.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.4°C | RH 70% | Rain 22% | Wind 14.4 km/h",
+            "weatherText": "26.9°C | RH 72% | Rain 11% | Wind 12.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "41.67% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -102492,7 +102492,7 @@
         }
     },
     "hobart hurricanes women|sydney sixers women|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692351+00:00",
+        "capturedAt": "2026-11-01T06:37:38.987138+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Sydney Sixers Women",
@@ -102744,12 +102744,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -102766,7 +102766,7 @@
                     "Chase-lean venue: 59.3% chasing wins",
                     "Overs 7-14 wicket pressure: 4.27 wickets/match",
                     "16th-over baseline: 6.5 runs; wicket in 29.4% of sampled innings",
-                    "Weather: rain 1%, dew LOW"
+                    "Weather: rain 13%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Sydney Sixers Women 1523.7 vs Hobart Hurricanes Women 1525.0",
@@ -103000,16 +103000,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-01T19:10:00+11:00",
-                "temperature_c": 20.2,
+                "temperature_c": 20.0,
                 "humidity_pct": 76,
-                "dew_point_c": 15.7,
-                "rain_probability_pct": 1,
+                "dew_point_c": 15.6,
+                "rain_probability_pct": 13,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 12.4,
+                "wind_kmh": 10.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "20.2°C | RH 76% | Rain 1% | Wind 12.4 km/h",
+            "weatherText": "20.0°C | RH 76% | Rain 13% | Wind 10.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "59.26% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -103064,7 +103064,7 @@
         }
     },
     "afghanistan|zimbabwe|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692360+00:00",
+        "capturedAt": "2026-11-01T06:37:38.987160+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Afghanistan",
@@ -103187,12 +103187,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -103348,16 +103348,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-01T18:30:00+04:00",
-                "temperature_c": 30.6,
+                "temperature_c": 30.3,
                 "humidity_pct": 61,
-                "dew_point_c": 22.2,
+                "dew_point_c": 22.0,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.8,
+                "wind_kmh": 11.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "30.6°C | RH 61% | Rain 0% | Wind 10.8 km/h",
+            "weatherText": "30.3°C | RH 61% | Rain 0% | Wind 11.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "59.59% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -103415,7 +103415,7 @@
         }
     },
     "england lions|west indies a|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692372+00:00",
+        "capturedAt": "2026-11-01T06:37:38.987178+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "West Indies A",
@@ -103464,14 +103464,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 35.0,
+            "swingScore": 59.8,
             "strategyLabel": "INSUFFICIENT DATA",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 33,
                 "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 35.0,
+                "swingScore": 59.8,
                 "strategyLabel": "INSUFFICIENT DATA",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -103499,13 +103499,11 @@
                     "majorTeamAsymmetryProxyUsed": false
                 },
                 "swingCatalysts": [],
-                "swingPenalties": [
-                    "High rain-interruption risk"
-                ],
+                "swingPenalties": [],
                 "scoreComponents": [
                     {
                         "name": "weather",
-                        "score": 20.0,
+                        "score": 70.0,
                         "weight": 0.1
                     },
                     {
@@ -103522,12 +103520,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -103539,7 +103537,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 73%, dew LOW"
+                    "Weather: rain 51%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -103587,16 +103585,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-01T14:00:00-04:00",
-                "temperature_c": 29.2,
-                "humidity_pct": 73,
-                "dew_point_c": 23.9,
-                "rain_probability_pct": 73,
-                "precipitation_mm": 0.3,
-                "wind_kmh": 20.8,
+                "temperature_c": 30.1,
+                "humidity_pct": 67,
+                "dew_point_c": 23.4,
+                "rain_probability_pct": 51,
+                "precipitation_mm": 0.2,
+                "wind_kmh": 21.1,
                 "dew_risk": "LOW",
-                "rain_risk": "HIGH"
+                "rain_risk": "MEDIUM"
             },
-            "weatherText": "29.2°C | RH 73% | Rain 73% | Wind 20.8 km/h",
+            "weatherText": "30.1°C | RH 67% | Rain 51% | Wind 21.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -103629,7 +103627,6 @@
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
-                "HIGH RAIN INTERRUPTION RISK",
                 "LIMITED RECENT T20 DATA FOR West Indies A",
                 "LIMITED RECENT T20 DATA FOR England Lions"
             ],
@@ -103642,7 +103639,7 @@
         }
     },
     "afghanistan|zimbabwe in uae 2026|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692383+00:00",
+        "capturedAt": "2026-11-01T06:37:38.987191+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Afghanistan",
@@ -103860,7 +103857,7 @@
         }
     },
     "india 5th t20i seddon park hamilton|new zealand|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692396+00:00",
+        "capturedAt": "2026-11-01T06:37:38.987206+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "New Zealand",
@@ -103984,7 +103981,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 1%, dew HIGH"
+                    "Weather: rain 0%, dew HIGH"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -104123,16 +104120,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-01T02:00:00-05:00",
-                "temperature_c": 6.9,
+                "temperature_c": 7.1,
                 "humidity_pct": 80,
-                "dew_point_c": 3.7,
-                "rain_probability_pct": 1,
+                "dew_point_c": 3.9,
+                "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 6.6,
+                "wind_kmh": 7.6,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "6.9°C | RH 80% | Rain 1% | Wind 6.6 km/h",
+            "weatherText": "7.1°C | RH 80% | Rain 0% | Wind 7.6 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -104178,7 +104175,7 @@
         }
     },
     "boland super eights kingsmead durban|dolphins|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692408+00:00",
+        "capturedAt": "2026-11-01T06:37:38.987224+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Dolphins",
@@ -104302,7 +104299,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 2%, dew LOW"
+                    "Weather: rain 1%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -104443,16 +104440,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-01T10:00:00+02:00",
-                "temperature_c": 25.8,
-                "humidity_pct": 71,
+                "temperature_c": 26.4,
+                "humidity_pct": 69,
                 "dew_point_c": 20.3,
-                "rain_probability_pct": 2,
+                "rain_probability_pct": 1,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 15.9,
+                "wind_kmh": 16.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "25.8°C | RH 71% | Rain 2% | Wind 15.9 km/h",
+            "weatherText": "26.4°C | RH 69% | Rain 1% | Wind 16.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -104497,7 +104494,7 @@
         }
     },
     "lions|titans super eights the wanderers stadium johannesburg|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692421+00:00",
+        "capturedAt": "2026-11-01T06:37:38.987241+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Lions",
@@ -104762,16 +104759,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-01T14:30:00+02:00",
-                "temperature_c": 30.8,
-                "humidity_pct": 20,
-                "dew_point_c": 5.0,
+                "temperature_c": 30.5,
+                "humidity_pct": 21,
+                "dew_point_c": 5.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 11.5,
+                "wind_kmh": 13.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "30.8°C | RH 20% | Rain 0% | Wind 11.5 km/h",
+            "weatherText": "30.5°C | RH 21% | Rain 0% | Wind 13.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -104816,7 +104813,7 @@
         }
     },
     "janakpur bolts|pokhara avengers|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692431+00:00",
+        "capturedAt": "2026-11-01T06:37:38.987258+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Janakpur Bolts",
@@ -104996,7 +104993,7 @@
                     "Two-way venue: 48.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.54 wickets/match",
                     "16th-over baseline: 7.8 runs; wicket in 43.5% of sampled innings",
-                    "Weather: rain 36%, dew HIGH"
+                    "Weather: rain 33%, dew HIGH"
                 ],
                 "evidence": [
                     "Elo: Janakpur Bolts 1479.2 vs Pokhara Avengers 1445.8",
@@ -105231,16 +105228,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-01T16:30:00+05:45",
-                "temperature_c": 19.8,
-                "humidity_pct": 82,
-                "dew_point_c": 16.6,
-                "rain_probability_pct": 36,
+                "temperature_c": 19.5,
+                "humidity_pct": 86,
+                "dew_point_c": 17.1,
+                "rain_probability_pct": 33,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 3.2,
+                "wind_kmh": 3.7,
                 "dew_risk": "HIGH",
                 "rain_risk": "MEDIUM"
             },
-            "weatherText": "19.8°C | RH 82% | Rain 36% | Wind 3.2 km/h",
+            "weatherText": "19.5°C | RH 86% | Rain 33% | Wind 3.7 km/h",
             "dewRisk": "HIGH",
             "tossBias": "48.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -105298,7 +105295,7 @@
         }
     },
     "afghanistan|zimbabwe 3rd t20i sharjah cricket stadium sharjah|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692444+00:00",
+        "capturedAt": "2026-11-01T06:37:38.987280+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "Afghanistan",
@@ -105474,16 +105471,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-01T18:30:00+04:00",
-                "temperature_c": 30.6,
+                "temperature_c": 30.3,
                 "humidity_pct": 61,
-                "dew_point_c": 22.2,
+                "dew_point_c": 22.0,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.8,
+                "wind_kmh": 11.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "30.6°C | RH 61% | Rain 0% | Wind 10.8 km/h",
+            "weatherText": "30.3°C | RH 61% | Rain 0% | Wind 11.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -105530,7 +105527,7 @@
         }
     },
     "england lions 1st t20 conaree sports club basseterre st kitts|west indies a|2026-11-01": {
-        "capturedAt": "2026-10-31T19:30:22.692460+00:00",
+        "capturedAt": "2026-11-01T06:37:38.987296+00:00",
         "matchDate": "2026-11-01",
         "report": {
             "teamA": "West Indies A",
@@ -105579,14 +105576,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 35.0,
+            "swingScore": 59.8,
             "strategyLabel": "INSUFFICIENT DATA",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 33,
                 "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 35.0,
+                "swingScore": 59.8,
                 "strategyLabel": "INSUFFICIENT DATA",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -105614,13 +105611,11 @@
                     "majorTeamAsymmetryProxyUsed": false
                 },
                 "swingCatalysts": [],
-                "swingPenalties": [
-                    "High rain-interruption risk"
-                ],
+                "swingPenalties": [],
                 "scoreComponents": [
                     {
                         "name": "weather",
-                        "score": 20.0,
+                        "score": 70.0,
                         "weight": 0.1
                     },
                     {
@@ -105654,7 +105649,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 73%, dew LOW"
+                    "Weather: rain 51%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -105702,16 +105697,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-01T14:00:00-04:00",
-                "temperature_c": 29.2,
-                "humidity_pct": 73,
-                "dew_point_c": 23.9,
-                "rain_probability_pct": 73,
-                "precipitation_mm": 0.3,
-                "wind_kmh": 20.8,
+                "temperature_c": 30.1,
+                "humidity_pct": 67,
+                "dew_point_c": 23.4,
+                "rain_probability_pct": 51,
+                "precipitation_mm": 0.2,
+                "wind_kmh": 21.1,
                 "dew_risk": "LOW",
-                "rain_risk": "HIGH"
+                "rain_risk": "MEDIUM"
             },
-            "weatherText": "29.2°C | RH 73% | Rain 73% | Wind 20.8 km/h",
+            "weatherText": "30.1°C | RH 67% | Rain 51% | Wind 21.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -105744,7 +105739,6 @@
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
-                "HIGH RAIN INTERRUPTION RISK",
                 "LIMITED RECENT T20 DATA FOR West Indies A",
                 "LIMITED RECENT T20 DATA FOR England Lions,1st T20 Conaree Sports Club , Basseterre, St Kitts"
             ],

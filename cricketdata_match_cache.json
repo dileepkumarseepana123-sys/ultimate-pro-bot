@@ -6144,5 +6144,107 @@
       ],
       "series_id": "de4e4745-dcbb-42bd-8254-ebf28f10d449"
     }
+  },
+  "25f3a2af-fe6b-4adf-bd36-8e13f464ba70": {
+    "cachedAt": "2026-11-01T06:35:04.955494+00:00",
+    "data": {
+      "id": "25f3a2af-fe6b-4adf-bd36-8e13f464ba70",
+      "name": "United Arab Emirates vs Scotland, 3rd/4th Cup, Play-off, Hong Kong Sixes 2026",
+      "matchType": "t20",
+      "status": "Scotland won by 45 runs",
+      "venue": "Mission Road Ground, Mong Kok",
+      "date": "2026-11-01",
+      "dateTimeGMT": "2026-11-01T03:30:00",
+      "teams": [
+        "United Arab Emirates",
+        "Scotland"
+      ],
+      "series_id": "f203fb5c-8911-43bd-ba8f-6a84bd34903e"
+    }
+  },
+  "9bdb29a3-e23d-4400-b4d9-86a8f857d0ba": {
+    "cachedAt": "2026-11-01T06:35:05.127384+00:00",
+    "data": {
+      "id": "9bdb29a3-e23d-4400-b4d9-86a8f857d0ba",
+      "name": "New Zealand A vs India A, 3rd Unofficial Test, India A tour of New Zealand, 2026",
+      "matchType": "test",
+      "status": "Match starts at Nov 07, 21:30 GMT",
+      "venue": "Bert Sutcliffe Oval, Lincoln",
+      "date": "2026-11-07",
+      "dateTimeGMT": "2026-11-07T21:30:00",
+      "teams": [
+        "New Zealand A",
+        "India A"
+      ],
+      "series_id": "b1b67dd4-aeba-4f70-9a23-257a6da73d88"
+    }
+  },
+  "f9366950-2ae6-4b00-968c-4c6c8462e489": {
+    "cachedAt": "2026-11-01T06:35:05.294039+00:00",
+    "data": {
+      "id": "f9366950-2ae6-4b00-968c-4c6c8462e489",
+      "name": "Sydney Sixers Women vs Sydney Thunder Women, 15th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 08, 02:40 GMT",
+      "venue": "North Sydney Oval, Sydney",
+      "date": "2026-11-08",
+      "dateTimeGMT": "2026-11-08T02:40:00",
+      "teams": [
+        "Sydney Sixers Women",
+        "Sydney Thunder Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "8d42f9d6-64ba-40b9-80fc-d9b5f3b7c076": {
+    "cachedAt": "2026-11-01T06:35:05.466592+00:00",
+    "data": {
+      "id": "8d42f9d6-64ba-40b9-80fc-d9b5f3b7c076",
+      "name": "India U19 vs Pakistan U19, 8th Match, Group A, ACC Mens U19 Asia Cup 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 08, 05:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 2), Al Amerat",
+      "date": "2026-11-08",
+      "dateTimeGMT": "2026-11-08T05:00:00",
+      "teams": [
+        "India U19",
+        "Pakistan U19"
+      ],
+      "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
+    }
+  },
+  "322865ca-688c-40d4-a7f0-275bd612abf2": {
+    "cachedAt": "2026-11-01T06:35:05.634125+00:00",
+    "data": {
+      "id": "322865ca-688c-40d4-a7f0-275bd612abf2",
+      "name": "United Arab Emirates U19 vs Nepal U19, 7th Match, Group A, ACC Mens U19 Asia Cup 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 08, 05:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 1), Al Amerat",
+      "date": "2026-11-08",
+      "dateTimeGMT": "2026-11-08T05:00:00",
+      "teams": [
+        "United Arab Emirates U19",
+        "Nepal U19"
+      ],
+      "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
+    }
+  },
+  "6f39b06b-e2b7-4a2b-ad14-88b29a3769f2": {
+    "cachedAt": "2026-11-01T06:35:05.800126+00:00",
+    "data": {
+      "id": "6f39b06b-e2b7-4a2b-ad14-88b29a3769f2",
+      "name": "Perth Scorchers Women vs Melbourne Stars Women, 16th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 08, 06:10 GMT",
+      "venue": "North Sydney Oval, Sydney",
+      "date": "2026-11-08",
+      "dateTimeGMT": "2026-11-08T06:10:00",
+      "teams": [
+        "Perth Scorchers Women",
+        "Melbourne Stars Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }
