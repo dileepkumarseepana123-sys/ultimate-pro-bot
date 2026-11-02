@@ -6382,5 +6382,123 @@
       ],
       "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
     }
+  },
+  "8fab1286-a770-4021-af36-e469c49f9f1b": {
+    "cachedAt": "2026-11-02T06:35:25.612420+00:00",
+    "data": {
+      "id": "8fab1286-a770-4021-af36-e469c49f9f1b",
+      "name": "Arabian Aces vs Royal Desert Champions, 6th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 08, 16:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-08",
+      "dateTimeGMT": "2026-11-08T16:00:00",
+      "teams": [
+        "Arabian Aces",
+        "Royal Desert Champions"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "03fa5b0e-8c0a-45c7-b998-d2082fa85673": {
+    "cachedAt": "2026-11-02T06:35:25.747401+00:00",
+    "data": {
+      "id": "03fa5b0e-8c0a-45c7-b998-d2082fa85673",
+      "name": "Central Stags vs Canterbury, 12th Match, The Ford Trophy 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Nov 08, 21:30 GMT",
+      "venue": "McLean Park, Napier",
+      "date": "2026-11-08",
+      "dateTimeGMT": "2026-11-08T21:30:00",
+      "teams": [
+        "Central Stags",
+        "Canterbury"
+      ],
+      "series_id": "127a3118-68a6-4f22-8375-1e2a9a8da0b3"
+    }
+  },
+  "000cee00-1deb-409b-a5f6-bd44c3d571b7": {
+    "cachedAt": "2026-11-02T06:35:25.884578+00:00",
+    "data": {
+      "id": "000cee00-1deb-409b-a5f6-bd44c3d571b7",
+      "name": "Northern Districts vs Otago, 10th Match, The Ford Trophy 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Nov 08, 21:30 GMT",
+      "venue": "Cobham Oval, Whangarei",
+      "date": "2026-11-08",
+      "dateTimeGMT": "2026-11-08T21:30:00",
+      "teams": [
+        "Northern Districts",
+        "Otago"
+      ],
+      "series_id": "127a3118-68a6-4f22-8375-1e2a9a8da0b3"
+    }
+  },
+  "577521e3-11da-4afc-b9cc-48f961d8497c": {
+    "cachedAt": "2026-11-02T06:35:26.019390+00:00",
+    "data": {
+      "id": "577521e3-11da-4afc-b9cc-48f961d8497c",
+      "name": "Wellington vs Auckland, 11th Match, The Ford Trophy 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Nov 08, 21:30 GMT",
+      "venue": "Basin Reserve, Wellington",
+      "date": "2026-11-08",
+      "dateTimeGMT": "2026-11-08T21:30:00",
+      "teams": [
+        "Wellington",
+        "Auckland"
+      ],
+      "series_id": "127a3118-68a6-4f22-8375-1e2a9a8da0b3"
+    }
+  },
+  "8b442300-13c3-4567-a9b8-43b746468bb5": {
+    "cachedAt": "2026-11-02T06:35:26.160540+00:00",
+    "data": {
+      "id": "8b442300-13c3-4567-a9b8-43b746468bb5",
+      "name": "Bangladesh U19 vs Malaysia U19, 9th Match, Group A, ACC Mens U19 Asia Cup 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 09, 05:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 2), Al Amerat",
+      "date": "2026-11-09",
+      "dateTimeGMT": "2026-11-09T05:00:00",
+      "teams": [
+        "Bangladesh U19",
+        "Malaysia U19"
+      ],
+      "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
+    }
+  },
+  "db346523-43d0-4221-b092-eb6a64f7915b": {
+    "cachedAt": "2026-11-02T06:35:26.296485+00:00",
+    "data": {
+      "id": "db346523-43d0-4221-b092-eb6a64f7915b",
+      "name": "Sri Lanka U19 vs Afghanistan U19, 10th Match, Group B, ACC Mens U19 Asia Cup 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 09, 05:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 1), Al Amerat",
+      "date": "2026-11-09",
+      "dateTimeGMT": "2026-11-09T05:00:00",
+      "teams": [
+        "Sri Lanka U19",
+        "Afghanistan U19"
+      ],
+      "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
+    }
+  },
+  "0c09b5c9-b9dc-46a4-884b-c9d546ba3b10": {
+    "cachedAt": "2026-11-02T06:35:26.430962+00:00",
+    "data": {
+      "id": "0c09b5c9-b9dc-46a4-884b-c9d546ba3b10",
+      "name": "Pakistan vs Sri Lanka, 1st Test, Sri Lanka tour of Pakistan, 2026",
+      "status": "Match starts at Nov 09, 04:30 GMT",
+      "venue": "Rawalpindi Cricket Stadium, Rawalpindi",
+      "date": "2026-11-09",
+      "dateTimeGMT": "2026-11-09T05:00:00",
+      "teams": [
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "series_id": "a67cb0af-300c-4449-8e80-e006301e5706"
+    }
   }
 }
