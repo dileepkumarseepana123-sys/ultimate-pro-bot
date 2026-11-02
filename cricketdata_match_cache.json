@@ -6500,5 +6500,55 @@
       ],
       "series_id": "a67cb0af-300c-4449-8e80-e006301e5706"
     }
+  },
+  "5800456f-470d-46f8-a6dd-f1fd75da4de2": {
+    "cachedAt": "2026-11-02T20:28:35.210936+00:00",
+    "data": {
+      "id": "5800456f-470d-46f8-a6dd-f1fd75da4de2",
+      "name": "Emirates Eagles vs Arabian Aces, 7th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 09, 13:45 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-09",
+      "dateTimeGMT": "2026-11-09T13:45:00",
+      "teams": [
+        "Emirates Eagles",
+        "Arabian Aces"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "b113553a-e5cd-439b-a55e-dcc8be5de897": {
+    "cachedAt": "2026-11-02T20:28:35.377871+00:00",
+    "data": {
+      "id": "b113553a-e5cd-439b-a55e-dcc8be5de897",
+      "name": "United Tigers vs Royal Desert Champions, 8th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 09, 16:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-09",
+      "dateTimeGMT": "2026-11-09T16:00:00",
+      "teams": [
+        "United Tigers",
+        "Royal Desert Champions"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "019bf199-0d5a-491c-8056-20e89323e124": {
+    "cachedAt": "2026-11-02T20:28:35.546165+00:00",
+    "data": {
+      "id": "019bf199-0d5a-491c-8056-20e89323e124",
+      "name": "West Indies A vs England Lions, 2nd Unofficial ODI, England Lions tour of West Indies, 2026",
+      "status": "Match starts at Nov 09, 18:00 GMT",
+      "venue": "Warner Park, Basseterre, St Kitts",
+      "date": "2026-11-09",
+      "dateTimeGMT": "2026-11-09T18:00:00",
+      "teams": [
+        "West Indies A",
+        "England Lions"
+      ],
+      "series_id": "de4e4745-dcbb-42bd-8254-ebf28f10d449"
+    }
   }
 }
