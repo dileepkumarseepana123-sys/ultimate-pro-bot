@@ -109091,5 +109091,1092 @@
             "badgeClass": "badge-yellow",
             "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
         }
+    },
+    "hobart hurricanes women|melbourne renegades women|2026-11-04": {
+        "capturedAt": "2026-11-03T23:35:33.855213+00:00",
+        "matchDate": "2026-11-04",
+        "report": {
+            "teamA": "Hobart Hurricanes Women",
+            "teamB": "Melbourne Renegades Women",
+            "name": "Hobart Hurricanes Women vs Melbourne Renegades Women",
+            "matchType": "T20",
+            "venue": "Bellerive Oval, Hobart",
+            "dateTimeGMT": "2026-11-04T08:10:00",
+            "sourceDate": "2026-11-04",
+            "matchTimeIST": "2026-11-04T13:40:00+05:30",
+            "indiaDate": "2026-11-04",
+            "series": "Womens Big Bash League 2026",
+            "sourceName": "CricketData cricScore + match_info",
+            "supplementalSourceName": "Cricbuzz via text relay",
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/162763/hbhw-vs-mlrw-9th-match-womens-big-bash-league-2026",
+            "cricketDataMatchId": "786781a5-0548-479e-b268-a87521ea2e36",
+            "liveScoreText": null,
+            "sourceStatus": "Match starts at Nov 04, 08:10 GMT",
+            "marketTier": "PREMIUM COMPETITION",
+            "marketVisibility": "PREMIUM / LIKELY LISTED",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": true,
+            "competitiveBalance": {
+                "label": "MODERATE GAP",
+                "balanceScore": 74.6,
+                "teamAElo": 1525.0,
+                "teamBElo": 1480.9,
+                "eloMatchesA": 119,
+                "eloMatchesB": 120,
+                "eloGap": 44.1,
+                "recentWinRateA": 77.8,
+                "recentWinRateB": 50.0,
+                "recentFormGapPct": 27.8,
+                "headToHead": {
+                    "matches": 10,
+                    "teamAWins": 8,
+                    "teamBWins": 2,
+                    "recent": [
+                        {
+                            "date": "2025-11-20",
+                            "winner": "Hobart Hurricanes",
+                            "marginType": "wickets",
+                            "marginValue": 6.0
+                        },
+                        {
+                            "date": "2024-11-21",
+                            "winner": "Melbourne Renegades",
+                            "marginType": "runs",
+                            "marginValue": 22.0
+                        },
+                        {
+                            "date": "2023-11-23",
+                            "winner": "Hobart Hurricanes",
+                            "marginType": "runs",
+                            "marginValue": 93.0
+                        },
+                        {
+                            "date": "2023-11-19",
+                            "winner": "Hobart Hurricanes",
+                            "marginType": "wickets",
+                            "marginValue": 8.0
+                        },
+                        {
+                            "date": "2022-11-07",
+                            "winner": "Hobart Hurricanes",
+                            "marginType": "wickets",
+                            "marginValue": 8.0
+                        },
+                        {
+                            "date": "2022-11-03",
+                            "winner": "Hobart Hurricanes",
+                            "marginType": "wickets",
+                            "marginValue": 4.0
+                        },
+                        {
+                            "date": "2021-11-19",
+                            "winner": "Hobart Hurricanes",
+                            "marginType": "runs",
+                            "marginValue": 52.0
+                        },
+                        {
+                            "date": "2021-10-16",
+                            "winner": "Melbourne Renegades",
+                            "marginType": "wickets",
+                            "marginValue": 6.0
+                        },
+                        {
+                            "date": "2020-11-10",
+                            "winner": "Hobart Hurricanes",
+                            "marginType": "runs",
+                            "marginValue": 9.0
+                        },
+                        {
+                            "date": "2020-11-03",
+                            "winner": "Hobart Hurricanes",
+                            "marginType": "wickets",
+                            "marginValue": 9.0
+                        }
+                    ]
+                },
+                "headToHeadGapPct": 60.0,
+                "historicallyStrongerSide": "Hobart Hurricanes Women",
+                "signals": [
+                    "Derived Elo gap 44.1",
+                    "Recent win-rate gap 27.8 percentage points",
+                    "Recent H2H win-share gap 60.0 percentage points"
+                ],
+                "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                "officialRanking": "UNKNOWN / NOT CONNECTED",
+                "sourceLimitations": [],
+                "majorTeamAsymmetryProxyUsed": false
+            },
+            "skillGap": "MODERATE GAP",
+            "swingScore": 35.0,
+            "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
+            "analysisEngineVersion": 4,
+            "tradeProfile": {
+                "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 83,
+                "swingProfile": "CONDITIONAL SWING PROFILE",
+                "swingScore": 35.0,
+                "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
+                "competitiveBalance": {
+                    "label": "MODERATE GAP",
+                    "balanceScore": 74.6,
+                    "teamAElo": 1525.0,
+                    "teamBElo": 1480.9,
+                    "eloMatchesA": 119,
+                    "eloMatchesB": 120,
+                    "eloGap": 44.1,
+                    "recentWinRateA": 77.8,
+                    "recentWinRateB": 50.0,
+                    "recentFormGapPct": 27.8,
+                    "headToHead": {
+                        "matches": 10,
+                        "teamAWins": 8,
+                        "teamBWins": 2,
+                        "recent": [
+                            {
+                                "date": "2025-11-20",
+                                "winner": "Hobart Hurricanes",
+                                "marginType": "wickets",
+                                "marginValue": 6.0
+                            },
+                            {
+                                "date": "2024-11-21",
+                                "winner": "Melbourne Renegades",
+                                "marginType": "runs",
+                                "marginValue": 22.0
+                            },
+                            {
+                                "date": "2023-11-23",
+                                "winner": "Hobart Hurricanes",
+                                "marginType": "runs",
+                                "marginValue": 93.0
+                            },
+                            {
+                                "date": "2023-11-19",
+                                "winner": "Hobart Hurricanes",
+                                "marginType": "wickets",
+                                "marginValue": 8.0
+                            },
+                            {
+                                "date": "2022-11-07",
+                                "winner": "Hobart Hurricanes",
+                                "marginType": "wickets",
+                                "marginValue": 8.0
+                            },
+                            {
+                                "date": "2022-11-03",
+                                "winner": "Hobart Hurricanes",
+                                "marginType": "wickets",
+                                "marginValue": 4.0
+                            },
+                            {
+                                "date": "2021-11-19",
+                                "winner": "Hobart Hurricanes",
+                                "marginType": "runs",
+                                "marginValue": 52.0
+                            },
+                            {
+                                "date": "2021-10-16",
+                                "winner": "Melbourne Renegades",
+                                "marginType": "wickets",
+                                "marginValue": 6.0
+                            },
+                            {
+                                "date": "2020-11-10",
+                                "winner": "Hobart Hurricanes",
+                                "marginType": "runs",
+                                "marginValue": 9.0
+                            },
+                            {
+                                "date": "2020-11-03",
+                                "winner": "Hobart Hurricanes",
+                                "marginType": "wickets",
+                                "marginValue": 9.0
+                            }
+                        ]
+                    },
+                    "headToHeadGapPct": 60.0,
+                    "historicallyStrongerSide": "Hobart Hurricanes Women",
+                    "signals": [
+                        "Derived Elo gap 44.1",
+                        "Recent win-rate gap 27.8 percentage points",
+                        "Recent H2H win-share gap 60.0 percentage points"
+                    ],
+                    "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                    "officialRanking": "UNKNOWN / NOT CONNECTED",
+                    "sourceLimitations": [],
+                    "majorTeamAsymmetryProxyUsed": false
+                },
+                "swingCatalysts": [
+                    "Historically two-way venue: 51.2% chasing wins",
+                    "Middle-overs wicket volatility: 4.17 wickets/match in overs 7-14"
+                ],
+                "swingPenalties": [
+                    "High dew may create strong chase-side bias",
+                    "High rain-interruption risk"
+                ],
+                "scoreComponents": [
+                    {
+                        "name": "competitive_balance",
+                        "score": 74.6,
+                        "weight": 0.35
+                    },
+                    {
+                        "name": "venue_two_way",
+                        "score": 97.6,
+                        "weight": 0.2
+                    },
+                    {
+                        "name": "middle_over_volatility",
+                        "score": 69.5,
+                        "weight": 0.15
+                    },
+                    {
+                        "name": "weather",
+                        "score": 20.0,
+                        "weight": 0.1
+                    },
+                    {
+                        "name": "market_proxy",
+                        "score": 100.0,
+                        "weight": 0.2
+                    }
+                ],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "CricketData match_squad"
+            },
+            "squadSummary": {
+                "status": "SQUAD AVAILABLE — XI PENDING",
+                "teams": {
+                    "Hobart Hurricanes Women": {
+                        "players": 13,
+                        "knownBowlingStyles": 12,
+                        "spinOptions": 1,
+                        "paceOptions": 6,
+                        "roleCounts": {
+                            "batters": 2,
+                            "allRounders": 4,
+                            "bowlers": 7,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    },
+                    "Melbourne Renegades Women": {
+                        "players": 13,
+                        "knownBowlingStyles": 10,
+                        "spinOptions": 2,
+                        "paceOptions": 5,
+                        "roleCounts": {
+                            "batters": 1,
+                            "allRounders": 7,
+                            "bowlers": 4,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    }
+                },
+                "source": "CricketData match_squad"
+            },
+            "initialAnalysis": {
+                "phase": "INITIAL PRE-TOSS READ",
+                "preTossStatus": "PRE-TOSS CONDITIONAL",
+                "dataConfidencePct": 86,
+                "initialPrediction": "Hobart Hurricanes Women has a moderate edge on the available pre-toss historical evidence.",
+                "edgeTeam": "Hobart Hurricanes Women",
+                "edgeStrength": "MODERATE EDGE",
+                "edgeScore": 2.84,
+                "swingRead": "CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+                "conditions": [
+                    "Historical first-innings baseline: 156.7",
+                    "Powerplay baseline: 44.6 runs / 1.48 wickets",
+                    "Two-way venue: 51.2% chasing wins",
+                    "Overs 7-14 wicket pressure: 4.17 wickets/match",
+                    "16th-over baseline: 8.4 runs; wicket in 31.8% of sampled innings",
+                    "Weather: rain 100%, dew HIGH"
+                ],
+                "evidence": [
+                    "Elo: Hobart Hurricanes Women 1525.0 vs Melbourne Renegades Women 1480.9",
+                    "Recent form: 77.8% vs 50.0% wins",
+                    "H2H: 8-2 across 10 recent meetings"
+                ],
+                "pendingGates": [
+                    "Toss result and batting/fielding decision",
+                    "Confirmed Playing XI",
+                    "Actual exchange BACK/LAY prices and matched liquidity"
+                ],
+                "tossCheckpoints": [
+                    "Compare the toss decision with the venue chasing/defending bias.",
+                    "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                    "Only calculate equal-profit targets from the actual matched exchange entry price."
+                ],
+                "firstInningsBaseline": 156.73,
+                "powerplayBaseline": 44.61,
+                "powerplayWicketsBaseline": 1.48,
+                "chasingWinPct": 51.18,
+                "middleOversWicketsPerMatch": 4.17,
+                "over16AvgRuns": 8.4,
+                "over16WicketEventPct": 31.82,
+                "spinWicketSharePct": null,
+                "squadStatus": "SQUAD AVAILABLE — XI PENDING",
+                "summary": "Hobart Hurricanes Women has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            },
+            "pendingGates": [
+                "Toss result and batting/fielding decision",
+                "Confirmed Playing XI",
+                "Actual exchange BACK/LAY prices and matched liquidity"
+            ],
+            "formA": {
+                "matches": 10,
+                "wins": 7,
+                "losses": 2,
+                "winRatePct": 77.8,
+                "avgMarginImpact": 0.482,
+                "recent": [
+                    {
+                        "date": "2025-12-13",
+                        "winner": "Hobart Hurricanes",
+                        "won": true,
+                        "venue": "Bellerive Oval, Hobart",
+                        "marginType": "wickets",
+                        "marginValue": 8.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2025-12-05",
+                        "winner": null,
+                        "won": null,
+                        "venue": "Karen Rolton Oval, Adelaide",
+                        "marginType": null,
+                        "marginValue": null,
+                        "marginImpact": 0.0
+                    },
+                    {
+                        "date": "2025-12-01",
+                        "winner": "Hobart Hurricanes",
+                        "won": true,
+                        "venue": "Bellerive Oval, Hobart",
+                        "marginType": "runs",
+                        "marginValue": 81.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2025-11-29",
+                        "winner": "Hobart Hurricanes",
+                        "won": true,
+                        "venue": "Bellerive Oval, Hobart",
+                        "marginType": "wickets",
+                        "marginValue": 7.0,
+                        "marginImpact": 0.875
+                    },
+                    {
+                        "date": "2025-11-26",
+                        "winner": "Melbourne Stars",
+                        "won": false,
+                        "venue": "Junction Oval, Melbourne",
+                        "marginType": "runs",
+                        "marginValue": 37.0,
+                        "marginImpact": -0.617
+                    },
+                    {
+                        "date": "2025-11-22",
+                        "winner": "Sydney Sixers",
+                        "won": false,
+                        "venue": "Bellerive Oval, Hobart",
+                        "marginType": "runs",
+                        "marginValue": 11.0,
+                        "marginImpact": -0.183
+                    },
+                    {
+                        "date": "2025-11-20",
+                        "winner": "Hobart Hurricanes",
+                        "won": true,
+                        "venue": "North Sydney Oval, Sydney",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": 0.75
+                    },
+                    {
+                        "date": "2025-11-18",
+                        "winner": "Hobart Hurricanes",
+                        "won": true,
+                        "venue": "Bellerive Oval, Hobart",
+                        "marginType": "wickets",
+                        "marginValue": 4.0,
+                        "marginImpact": 0.5
+                    },
+                    {
+                        "date": "2025-11-15",
+                        "winner": "Hobart Hurricanes",
+                        "won": true,
+                        "venue": "Drummoyne Oval, Sydney",
+                        "marginType": "runs",
+                        "marginValue": 16.0,
+                        "marginImpact": 0.267
+                    },
+                    {
+                        "date": "2025-11-13",
+                        "winner": "Hobart Hurricanes",
+                        "won": true,
+                        "venue": "North Sydney Oval, Sydney",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": 0.75
+                    }
+                ]
+            },
+            "formB": {
+                "matches": 10,
+                "wins": 5,
+                "losses": 5,
+                "winRatePct": 50.0,
+                "avgMarginImpact": 0.025,
+                "recent": [
+                    {
+                        "date": "2025-12-05",
+                        "winner": "Melbourne Renegades",
+                        "won": true,
+                        "venue": "Junction Oval, Melbourne",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": 0.75
+                    },
+                    {
+                        "date": "2025-12-02",
+                        "winner": "Perth Scorchers",
+                        "won": false,
+                        "venue": "Western Australia Cricket Association Ground, Perth",
+                        "marginType": "runs",
+                        "marginValue": 30.0,
+                        "marginImpact": -0.5
+                    },
+                    {
+                        "date": "2025-11-29",
+                        "winner": "Melbourne Stars",
+                        "won": false,
+                        "venue": "Junction Oval, Melbourne",
+                        "marginType": "runs",
+                        "marginValue": 45.0,
+                        "marginImpact": -0.75
+                    },
+                    {
+                        "date": "2025-11-27",
+                        "winner": "Perth Scorchers",
+                        "won": false,
+                        "venue": "Junction Oval, Melbourne",
+                        "marginType": "wickets",
+                        "marginValue": 4.0,
+                        "marginImpact": -0.5
+                    },
+                    {
+                        "date": "2025-11-23",
+                        "winner": "Melbourne Renegades",
+                        "won": true,
+                        "venue": "Drummoyne Oval, Sydney",
+                        "marginType": "wickets",
+                        "marginValue": 8.0,
+                        "marginImpact": 1.0
+                    },
+                    {
+                        "date": "2025-11-20",
+                        "winner": "Hobart Hurricanes",
+                        "won": false,
+                        "venue": "North Sydney Oval, Sydney",
+                        "marginType": "wickets",
+                        "marginValue": 6.0,
+                        "marginImpact": -0.75
+                    },
+                    {
+                        "date": "2025-11-16",
+                        "winner": "Melbourne Renegades",
+                        "won": true,
+                        "venue": "Junction Oval, Melbourne",
+                        "marginType": "wickets",
+                        "marginValue": 4.0,
+                        "marginImpact": 0.5
+                    },
+                    {
+                        "date": "2025-11-14",
+                        "winner": "Adelaide Strikers",
+                        "won": false,
+                        "venue": "Karen Rolton Oval, Adelaide",
+                        "marginType": "wickets",
+                        "marginValue": 7.0,
+                        "marginImpact": -0.875
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "winner": "Melbourne Renegades",
+                        "won": true,
+                        "venue": "Junction Oval, Melbourne",
+                        "marginType": "wickets",
+                        "marginValue": 4.0,
+                        "marginImpact": 0.5
+                    },
+                    {
+                        "date": "2025-11-09",
+                        "winner": "Melbourne Renegades",
+                        "won": true,
+                        "venue": "Allan Border Field, Brisbane",
+                        "marginType": "wickets",
+                        "marginValue": 7.0,
+                        "marginImpact": 0.875
+                    }
+                ]
+            },
+            "weather": {
+                "status": "OK",
+                "local_time": "2026-11-04T19:10:00+11:00",
+                "temperature_c": 12.9,
+                "humidity_pct": 97,
+                "dew_point_c": 12.4,
+                "rain_probability_pct": 100,
+                "precipitation_mm": 1.2,
+                "wind_kmh": 2.7,
+                "dew_risk": "HIGH",
+                "rain_risk": "HIGH"
+            },
+            "weatherText": "12.9°C | RH 97% | Rain 100% | Wind 2.7 km/h",
+            "dewRisk": "HIGH",
+            "tossBias": "51.18% Chasing Wins",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "44.61",
+            "ppWicketsAvg": 1.48,
+            "ppRunRate": "Historical first-innings PP",
+            "over16AvgRuns": 8.4,
+            "over16WicketsPerInnings": 0.368,
+            "over16WicketEventPct": 31.82,
+            "over16SampleInnings": 242,
+            "spinIndex": "UNKNOWN",
+            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.17/match",
+            "metricSources": {
+                "fixture": "CricketData cricScore + match_info",
+                "weather": "Open-Meteo match-hour forecast",
+                "tossBias": "Cricsheet venue T20 history (n=133)",
+                "powerplay": "Cricsheet first-innings overs 1-6 (n=133)",
+                "over16": "Cricsheet 16th-over history (n=242)",
+                "spinChoke": "Cricsheet overs 7-14; bowler-style classification 2.54%"
+            },
+            "venueIntel": {
+                "status": "OK",
+                "matches": 133,
+                "venue_confidence": 1.0,
+                "avg_first_innings": 156.73,
+                "powerplay_avg": 44.61,
+                "powerplay_wickets_avg": 1.48,
+                "chasing_win_pct": 51.18,
+                "over16_sample_innings": 242,
+                "over16_avg_runs": 8.4,
+                "over16_wickets_per_innings": 0.368,
+                "over16_wicket_event_pct": 31.82,
+                "mid_overs_7_14_wickets": 554,
+                "mid_overs_7_14_wickets_per_match": 4.17,
+                "spin_classification_pct": 2.54,
+                "spinner_7_14_wickets": null,
+                "spin_wicket_share_pct": null,
+                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+            },
+            "midOversWickets": 554,
+            "midOversWicketsPerMatch": 4.17,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": 2.54,
+            "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
+            "noBetReasons": [
+                "HIGH DEW RISK",
+                "HIGH RAIN INTERRUPTION RISK"
+            ],
+            "warnings": [
+                "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "MODERATE SKILL GAP",
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-yellow",
+            "strategyText": "Hobart Hurricanes Women has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+        }
+    },
+    "england lions|west indies a|2026-11-04": {
+        "capturedAt": "2026-11-03T23:35:33.855231+00:00",
+        "matchDate": "2026-11-04",
+        "report": {
+            "teamA": "West Indies A",
+            "teamB": "England Lions",
+            "name": "West Indies A vs England Lions",
+            "matchType": "T20",
+            "venue": "Warner Park, Basseterre, St Kitts",
+            "dateTimeGMT": "2026-11-04T18:00:00",
+            "sourceDate": "2026-11-04",
+            "matchTimeIST": "2026-11-04T23:30:00+05:30",
+            "indiaDate": "2026-11-04",
+            "series": "England Lions tour of West Indies, 2026",
+            "sourceName": "CricketData cricScore + match_info",
+            "supplementalSourceName": "Cricbuzz via text relay",
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/176485/wia-vs-enga-3rd-t20-england-lions-tour-of-west-indies-2026",
+            "cricketDataMatchId": "d2eca8a2-ed50-46fc-8369-e48cc1c757e0",
+            "liveScoreText": null,
+            "sourceStatus": "Match starts at Nov 04, 18:00 GMT",
+            "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
+            "marketVisibility": "PREMIUM / LIKELY LISTED",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": true,
+            "competitiveBalance": {
+                "label": "UNKNOWN",
+                "balanceScore": null,
+                "teamAElo": null,
+                "teamBElo": null,
+                "eloMatchesA": 0,
+                "eloMatchesB": 0,
+                "eloGap": null,
+                "recentWinRateA": null,
+                "recentWinRateB": null,
+                "recentFormGapPct": null,
+                "headToHead": {
+                    "matches": 0,
+                    "teamAWins": 0,
+                    "teamBWins": 0,
+                    "recent": []
+                },
+                "headToHeadGapPct": null,
+                "historicallyStrongerSide": null,
+                "signals": [],
+                "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                "officialRanking": "UNKNOWN / NOT CONNECTED",
+                "sourceLimitations": [],
+                "majorTeamAsymmetryProxyUsed": false
+            },
+            "skillGap": "UNKNOWN",
+            "swingScore": 63.7,
+            "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+            "analysisEngineVersion": 4,
+            "tradeProfile": {
+                "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 50,
+                "swingProfile": "CONDITIONAL SWING PROFILE",
+                "swingScore": 63.7,
+                "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                "competitiveBalance": {
+                    "label": "UNKNOWN",
+                    "balanceScore": null,
+                    "teamAElo": null,
+                    "teamBElo": null,
+                    "eloMatchesA": 0,
+                    "eloMatchesB": 0,
+                    "eloGap": null,
+                    "recentWinRateA": null,
+                    "recentWinRateB": null,
+                    "recentFormGapPct": null,
+                    "headToHead": {
+                        "matches": 0,
+                        "teamAWins": 0,
+                        "teamBWins": 0,
+                        "recent": []
+                    },
+                    "headToHeadGapPct": null,
+                    "historicallyStrongerSide": null,
+                    "signals": [],
+                    "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                    "officialRanking": "UNKNOWN / NOT CONNECTED",
+                    "sourceLimitations": [],
+                    "majorTeamAsymmetryProxyUsed": false
+                },
+                "swingCatalysts": [
+                    "Historically two-way venue: 56.9% chasing wins",
+                    "Middle-overs wicket volatility: 4.37 wickets/match in overs 7-14"
+                ],
+                "swingPenalties": [],
+                "scoreComponents": [
+                    {
+                        "name": "venue_two_way",
+                        "score": 86.2,
+                        "weight": 0.2
+                    },
+                    {
+                        "name": "middle_over_volatility",
+                        "score": 72.8,
+                        "weight": 0.15
+                    },
+                    {
+                        "name": "weather",
+                        "score": 70.0,
+                        "weight": 0.1
+                    },
+                    {
+                        "name": "market_proxy",
+                        "score": 100.0,
+                        "weight": 0.2
+                    }
+                ],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "squadSummary": {
+                "status": "NO SQUAD DATA",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "initialAnalysis": {
+                "phase": "INITIAL PRE-TOSS READ",
+                "preTossStatus": "PRE-TOSS DATA LIMITED",
+                "dataConfidencePct": 29,
+                "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
+                "edgeTeam": null,
+                "edgeStrength": "DATA LIMITED",
+                "edgeScore": null,
+                "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                "conditions": [
+                    "Historical first-innings baseline: 163.0",
+                    "Powerplay baseline: 45.9 runs / 1.60 wickets",
+                    "Two-way venue: 56.9% chasing wins",
+                    "Overs 7-14 wicket pressure: 4.37 wickets/match",
+                    "16th-over baseline: 8.7 runs; wicket in 30.7% of sampled innings",
+                    "Weather: rain 16%, dew LOW"
+                ],
+                "evidence": [],
+                "pendingGates": [
+                    "Toss result and batting/fielding decision",
+                    "Confirmed Playing XI",
+                    "Actual exchange BACK/LAY prices and matched liquidity"
+                ],
+                "tossCheckpoints": [
+                    "Compare the toss decision with the venue chasing/defending bias.",
+                    "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                    "Only calculate equal-profit targets from the actual matched exchange entry price."
+                ],
+                "firstInningsBaseline": 163.03,
+                "powerplayBaseline": 45.86,
+                "powerplayWicketsBaseline": 1.6,
+                "chasingWinPct": 56.88,
+                "middleOversWicketsPerMatch": 4.37,
+                "over16AvgRuns": 8.7,
+                "over16WicketEventPct": 30.73,
+                "spinWicketSharePct": null,
+                "squadStatus": "NO SQUAD DATA",
+                "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            },
+            "pendingGates": [
+                "Toss result and batting/fielding decision",
+                "Confirmed Playing XI",
+                "Actual exchange BACK/LAY prices and matched liquidity"
+            ],
+            "formA": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "winRatePct": null,
+                "avgMarginImpact": null,
+                "recent": []
+            },
+            "formB": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "winRatePct": null,
+                "avgMarginImpact": null,
+                "recent": []
+            },
+            "weather": {
+                "status": "OK",
+                "local_time": "2026-11-04T14:00:00-04:00",
+                "temperature_c": 29.7,
+                "humidity_pct": 66,
+                "dew_point_c": 22.8,
+                "rain_probability_pct": 16,
+                "precipitation_mm": 0.6,
+                "wind_kmh": 9.2,
+                "dew_risk": "LOW",
+                "rain_risk": "LOW"
+            },
+            "weatherText": "29.7°C | RH 66% | Rain 16% | Wind 9.2 km/h",
+            "dewRisk": "LOW",
+            "tossBias": "56.88% Chasing Wins",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "45.86",
+            "ppWicketsAvg": 1.6,
+            "ppRunRate": "Historical first-innings PP",
+            "over16AvgRuns": 8.7,
+            "over16WicketsPerInnings": 0.38,
+            "over16WicketEventPct": 30.73,
+            "over16SampleInnings": 205,
+            "spinIndex": "UNKNOWN",
+            "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.37/match",
+            "metricSources": {
+                "fixture": "CricketData cricScore + match_info",
+                "weather": "Open-Meteo match-hour forecast",
+                "tossBias": "Cricsheet venue T20 history (n=115)",
+                "powerplay": "Cricsheet first-innings overs 1-6 (n=115)",
+                "over16": "Cricsheet 16th-over history (n=205)",
+                "spinChoke": "Cricsheet overs 7-14; bowler-style classification 3.73%"
+            },
+            "venueIntel": {
+                "status": "OK",
+                "matches": 115,
+                "venue_confidence": 1.0,
+                "avg_first_innings": 163.03,
+                "powerplay_avg": 45.86,
+                "powerplay_wickets_avg": 1.6,
+                "chasing_win_pct": 56.88,
+                "over16_sample_innings": 205,
+                "over16_avg_runs": 8.7,
+                "over16_wickets_per_innings": 0.38,
+                "over16_wicket_event_pct": 30.73,
+                "mid_overs_7_14_wickets": 503,
+                "mid_overs_7_14_wickets_per_match": 4.37,
+                "spin_classification_pct": 3.73,
+                "spinner_7_14_wickets": null,
+                "spin_wicket_share_pct": null,
+                "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+            },
+            "midOversWickets": 503,
+            "midOversWicketsPerMatch": 4.37,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": 3.73,
+            "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+            "noBetReasons": [
+                "LIMITED RECENT T20 DATA FOR West Indies A",
+                "LIMITED RECENT T20 DATA FOR England Lions"
+            ],
+            "warnings": [
+                "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-yellow",
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+        }
+    },
+    "england lions 3rd t20 conaree sports club basseterre st kitts|west indies a|2026-11-04": {
+        "capturedAt": "2026-11-03T23:35:33.855246+00:00",
+        "matchDate": "2026-11-04",
+        "report": {
+            "teamA": "West Indies A",
+            "teamB": "England Lions,3rd T20 Conaree Sports Club , Basseterre, St Kitts",
+            "name": "West Indies A vs England Lions,3rd T20 Conaree Sports Club , Basseterre, St Kitts",
+            "matchType": "T20",
+            "venue": "3rd T20 Conaree Sports Club , Basseterre, St Kitts",
+            "dateTimeGMT": "2026-11-04T18:00:00+00:00",
+            "sourceDate": "2026-11-04",
+            "matchTimeIST": "2026-11-04T23:30:00+05:30",
+            "indiaDate": "2026-11-04",
+            "series": "England Lions tour of West Indies, 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "supplementalSourceName": null,
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/176485/wia-vs-enga-3rd-t20-england-lions-tour-of-west-indies-2026",
+            "cricketDataMatchId": null,
+            "liveScoreText": null,
+            "sourceStatus": "Scheduled",
+            "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
+            "marketVisibility": "PREMIUM / LIKELY LISTED",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": true,
+            "competitiveBalance": {
+                "label": "UNKNOWN",
+                "balanceScore": null,
+                "teamAElo": null,
+                "teamBElo": null,
+                "eloMatchesA": 0,
+                "eloMatchesB": 0,
+                "eloGap": null,
+                "recentWinRateA": null,
+                "recentWinRateB": null,
+                "recentFormGapPct": null,
+                "headToHead": {
+                    "matches": 0,
+                    "teamAWins": 0,
+                    "teamBWins": 0,
+                    "recent": []
+                },
+                "headToHeadGapPct": null,
+                "historicallyStrongerSide": null,
+                "signals": [],
+                "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                "officialRanking": "UNKNOWN / NOT CONNECTED",
+                "sourceLimitations": [],
+                "majorTeamAsymmetryProxyUsed": false
+            },
+            "skillGap": "UNKNOWN",
+            "swingScore": 59.8,
+            "strategyLabel": "INSUFFICIENT DATA",
+            "analysisEngineVersion": 4,
+            "tradeProfile": {
+                "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 33,
+                "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                "swingScore": 59.8,
+                "strategyLabel": "INSUFFICIENT DATA",
+                "competitiveBalance": {
+                    "label": "UNKNOWN",
+                    "balanceScore": null,
+                    "teamAElo": null,
+                    "teamBElo": null,
+                    "eloMatchesA": 0,
+                    "eloMatchesB": 0,
+                    "eloGap": null,
+                    "recentWinRateA": null,
+                    "recentWinRateB": null,
+                    "recentFormGapPct": null,
+                    "headToHead": {
+                        "matches": 0,
+                        "teamAWins": 0,
+                        "teamBWins": 0,
+                        "recent": []
+                    },
+                    "headToHeadGapPct": null,
+                    "historicallyStrongerSide": null,
+                    "signals": [],
+                    "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                    "officialRanking": "UNKNOWN / NOT CONNECTED",
+                    "sourceLimitations": [],
+                    "majorTeamAsymmetryProxyUsed": false
+                },
+                "swingCatalysts": [],
+                "swingPenalties": [],
+                "scoreComponents": [
+                    {
+                        "name": "weather",
+                        "score": 70.0,
+                        "weight": 0.1
+                    },
+                    {
+                        "name": "market_proxy",
+                        "score": 100.0,
+                        "weight": 0.2
+                    }
+                ],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "squadSummary": {
+                "status": "NO SQUAD DATA",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "initialAnalysis": {
+                "phase": "INITIAL PRE-TOSS READ",
+                "preTossStatus": "PRE-TOSS DATA LIMITED",
+                "dataConfidencePct": 14,
+                "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
+                "edgeTeam": null,
+                "edgeStrength": "DATA LIMITED",
+                "edgeScore": null,
+                "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                "conditions": [
+                    "Weather: rain 16%, dew LOW"
+                ],
+                "evidence": [],
+                "pendingGates": [
+                    "Toss result and batting/fielding decision",
+                    "Confirmed Playing XI",
+                    "Actual exchange BACK/LAY prices and matched liquidity"
+                ],
+                "tossCheckpoints": [
+                    "Compare the toss decision with the venue chasing/defending bias.",
+                    "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                    "Only calculate equal-profit targets from the actual matched exchange entry price."
+                ],
+                "firstInningsBaseline": null,
+                "powerplayBaseline": null,
+                "powerplayWicketsBaseline": null,
+                "chasingWinPct": null,
+                "middleOversWicketsPerMatch": null,
+                "over16AvgRuns": null,
+                "over16WicketEventPct": null,
+                "spinWicketSharePct": null,
+                "squadStatus": "NO SQUAD DATA",
+                "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            },
+            "pendingGates": [
+                "Toss result and batting/fielding decision",
+                "Confirmed Playing XI",
+                "Actual exchange BACK/LAY prices and matched liquidity"
+            ],
+            "formA": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "winRatePct": null,
+                "avgMarginImpact": null,
+                "recent": []
+            },
+            "formB": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "winRatePct": null,
+                "avgMarginImpact": null,
+                "recent": []
+            },
+            "weather": {
+                "status": "OK",
+                "local_time": "2026-11-04T14:00:00-04:00",
+                "temperature_c": 29.7,
+                "humidity_pct": 66,
+                "dew_point_c": 22.8,
+                "rain_probability_pct": 16,
+                "precipitation_mm": 0.6,
+                "wind_kmh": 9.2,
+                "dew_risk": "LOW",
+                "rain_risk": "LOW"
+            },
+            "weatherText": "29.7°C | RH 66% | Rain 16% | Wind 9.2 km/h",
+            "dewRisk": "LOW",
+            "tossBias": "UNKNOWN",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "UNKNOWN",
+            "ppWicketsAvg": null,
+            "ppRunRate": "Historical first-innings PP",
+            "over16AvgRuns": null,
+            "over16WicketsPerInnings": null,
+            "over16WicketEventPct": null,
+            "over16SampleInnings": null,
+            "spinIndex": "UNKNOWN",
+            "spinNote": "UNKNOWN",
+            "metricSources": {
+                "fixture": "Cricbuzz via text relay",
+                "weather": "Open-Meteo match-hour forecast",
+                "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
+                "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
+                "over16": "Cricsheet 16th-over history insufficient/UNKNOWN",
+                "spinChoke": "Cricsheet overs 7-14; bowler-style classification UNKNOWN"
+            },
+            "venueIntel": {
+                "status": "NO DATA / UNKNOWN VENUE",
+                "matches": 0,
+                "venue_confidence": 0.667
+            },
+            "midOversWickets": null,
+            "midOversWicketsPerMatch": null,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": null,
+            "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+            "noBetReasons": [
+                "NO DATA / UNKNOWN VENUE",
+                "LIMITED RECENT T20 DATA FOR West Indies A",
+                "LIMITED RECENT T20 DATA FOR England Lions,3rd T20 Conaree Sports Club , Basseterre, St Kitts"
+            ],
+            "warnings": [
+                "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-yellow",
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+        }
     }
 }
