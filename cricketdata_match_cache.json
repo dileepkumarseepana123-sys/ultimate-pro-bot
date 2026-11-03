@@ -6600,5 +6600,72 @@
       ],
       "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
     }
+  },
+  "e94f6544-143e-4fdb-ac41-a922022899ed": {
+    "cachedAt": "2026-11-03T17:58:54.011280+00:00",
+    "data": {
+      "id": "e94f6544-143e-4fdb-ac41-a922022899ed",
+      "name": "Pakistan Cricket Board Patrons XI vs Sri Lanka, 3-Day Warm-up Match, Sri Lanka tour of Pakistan, 2026",
+      "status": "Match starts at Nov 04, 04:30 GMT",
+      "venue": "Islamabad Club Cricket Oval, Islamabad",
+      "date": "2026-11-04",
+      "dateTimeGMT": "2026-11-04T05:00:00",
+      "teams": [
+        "Pakistan Cricket Board Patrons XI",
+        "Sri Lanka"
+      ],
+      "series_id": "a67cb0af-300c-4449-8e80-e006301e5706"
+    }
+  },
+  "e6bb497f-1c63-4cab-911c-e03091e96029": {
+    "cachedAt": "2026-11-03T17:58:54.144939+00:00",
+    "data": {
+      "id": "e6bb497f-1c63-4cab-911c-e03091e96029",
+      "name": "Hobart Hurricanes Women vs Adelaide Strikers Women, 17th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 10, 08:10 GMT",
+      "venue": "Bellerive Oval, Hobart",
+      "date": "2026-11-10",
+      "dateTimeGMT": "2026-11-10T08:10:00",
+      "teams": [
+        "Hobart Hurricanes Women",
+        "Adelaide Strikers Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "6bef77c2-048c-4c66-a71b-e40b0a9c4350": {
+    "cachedAt": "2026-11-03T17:58:54.275284+00:00",
+    "data": {
+      "id": "6bef77c2-048c-4c66-a71b-e40b0a9c4350",
+      "name": "Yas Lions vs United Tigers, 9th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 10, 13:45 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-10",
+      "dateTimeGMT": "2026-11-10T13:45:00",
+      "teams": [
+        "Yas Lions",
+        "United Tigers"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "4ef7125e-16e3-4125-8138-5d354cb1637d": {
+    "cachedAt": "2026-11-03T17:58:54.408766+00:00",
+    "data": {
+      "id": "4ef7125e-16e3-4125-8138-5d354cb1637d",
+      "name": "Uae Bulls vs Emirates Eagles, 10th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 10, 16:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-10",
+      "dateTimeGMT": "2026-11-10T16:00:00",
+      "teams": [
+        "Uae Bulls",
+        "Emirates Eagles"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
   }
 }

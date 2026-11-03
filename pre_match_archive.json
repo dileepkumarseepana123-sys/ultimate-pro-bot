@@ -108262,7 +108262,7 @@
         }
     },
     "england lions|west indies a|2026-11-03": {
-        "capturedAt": "2026-11-03T07:07:14.674830+00:00",
+        "capturedAt": "2026-11-03T17:59:07.361518+00:00",
         "matchDate": "2026-11-03",
         "report": {
             "teamA": "West Indies A",
@@ -108276,8 +108276,8 @@
             "indiaDate": "2026-11-03",
             "series": "England Lions tour of West Indies, 2026",
             "sourceName": "CricketData cricScore + match_info",
-            "supplementalSourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/176481/wia-vs-enga-2nd-t20-england-lions-tour-of-west-indies-2026",
+            "supplementalSourceName": null,
+            "sourceMatchUrl": null,
             "cricketDataMatchId": "537ccc9a-901e-4ab0-90e8-eda0d1a9960a",
             "liveScoreText": null,
             "sourceStatus": "Match starts at Nov 03, 18:00 GMT",
@@ -108429,7 +108429,7 @@
                     "Two-way venue: 56.9% chasing wins",
                     "Overs 7-14 wicket pressure: 4.37 wickets/match",
                     "16th-over baseline: 8.7 runs; wicket in 30.7% of sampled innings",
-                    "Weather: rain 51%, dew LOW"
+                    "Weather: rain 16%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -108478,15 +108478,15 @@
                 "status": "OK",
                 "local_time": "2026-11-03T14:00:00-04:00",
                 "temperature_c": 30.7,
-                "humidity_pct": 63,
-                "dew_point_c": 22.8,
-                "rain_probability_pct": 51,
+                "humidity_pct": 64,
+                "dew_point_c": 23.0,
+                "rain_probability_pct": 16,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 15.8,
+                "wind_kmh": 15.0,
                 "dew_risk": "LOW",
-                "rain_risk": "MEDIUM"
+                "rain_risk": "LOW"
             },
-            "weatherText": "30.7°C | RH 63% | Rain 51% | Wind 15.8 km/h",
+            "weatherText": "30.7°C | RH 64% | Rain 16% | Wind 15.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "56.88% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -108544,7 +108544,7 @@
         }
     },
     "dolphins|western province super eights kingsmead durban|2026-11-03": {
-        "capturedAt": "2026-11-03T07:07:14.674866+00:00",
+        "capturedAt": "2026-11-03T17:59:07.361549+00:00",
         "matchDate": "2026-11-03",
         "report": {
             "teamA": "Dolphins",
@@ -108562,7 +108562,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173577/dol-vs-wpr-super-eights-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -108863,7 +108863,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "england lions 2nd t20 conaree sports club basseterre st kitts|west indies a|2026-11-03": {
