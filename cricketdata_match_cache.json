@@ -6550,5 +6550,55 @@
       ],
       "series_id": "de4e4745-dcbb-42bd-8254-ebf28f10d449"
     }
+  },
+  "4cb54768-b317-42c6-bb7d-409dd2a6c862": {
+    "cachedAt": "2026-11-03T07:05:37.685557+00:00",
+    "data": {
+      "id": "4cb54768-b317-42c6-bb7d-409dd2a6c862",
+      "name": "New Zealand vs India, 3rd ODI, India tour of New Zealand 2026",
+      "status": "Match starts at Nov 10, 02:00 GMT",
+      "venue": "Seddon Park, Hamilton",
+      "date": "2026-11-10",
+      "dateTimeGMT": "2026-11-10T02:00:00",
+      "teams": [
+        "New Zealand",
+        "India"
+      ],
+      "series_id": "9f0a2527-1508-42b3-9945-4ade13fd4b5a"
+    }
+  },
+  "3fb2e0da-8759-48ec-8913-672394777f2f": {
+    "cachedAt": "2026-11-03T07:05:37.850883+00:00",
+    "data": {
+      "id": "3fb2e0da-8759-48ec-8913-672394777f2f",
+      "name": "India U19 vs United Arab Emirates U19, 11th Match, Group A, ACC Mens U19 Asia Cup 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 10, 05:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 2), Al Amerat",
+      "date": "2026-11-10",
+      "dateTimeGMT": "2026-11-10T05:00:00",
+      "teams": [
+        "India U19",
+        "United Arab Emirates U19"
+      ],
+      "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
+    }
+  },
+  "03d3ac80-f74f-4e02-9738-61edd8672fbb": {
+    "cachedAt": "2026-11-03T07:05:38.017921+00:00",
+    "data": {
+      "id": "03d3ac80-f74f-4e02-9738-61edd8672fbb",
+      "name": "Pakistan U19 vs Nepal U19, 12th Match, Group A, ACC Mens U19 Asia Cup 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 10, 05:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 1), Al Amerat",
+      "date": "2026-11-10",
+      "dateTimeGMT": "2026-11-10T05:00:00",
+      "teams": [
+        "Pakistan U19",
+        "Nepal U19"
+      ],
+      "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
+    }
   }
 }
