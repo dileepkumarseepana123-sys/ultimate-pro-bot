@@ -6751,5 +6751,39 @@
       ],
       "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
     }
+  },
+  "b8010e85-796f-472d-bc57-ce716405834a": {
+    "cachedAt": "2026-11-04T23:52:56.215449+00:00",
+    "data": {
+      "id": "b8010e85-796f-472d-bc57-ce716405834a",
+      "name": "Victoria vs Western Australia, 11th Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 11, 23:30 GMT",
+      "venue": "Melbourne Cricket Ground, Melbourne",
+      "date": "2026-11-11",
+      "dateTimeGMT": "2026-11-11T23:30:00",
+      "teams": [
+        "Victoria",
+        "Western Australia"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
+  },
+  "28620c9b-4a53-4276-bdf6-2e81813ea69f": {
+    "cachedAt": "2026-11-04T23:52:56.405293+00:00",
+    "data": {
+      "id": "28620c9b-4a53-4276-bdf6-2e81813ea69f",
+      "name": "New South Wales vs South Australia, 10th Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 11, 23:30 GMT",
+      "venue": "Cricket Central, Sydney",
+      "date": "2026-11-11",
+      "dateTimeGMT": "2026-11-11T23:30:00",
+      "teams": [
+        "New South Wales",
+        "South Australia"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
   }
 }
