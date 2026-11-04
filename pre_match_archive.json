@@ -109093,7 +109093,7 @@
         }
     },
     "hobart hurricanes women|melbourne renegades women|2026-11-04": {
-        "capturedAt": "2026-11-03T23:35:33.855213+00:00",
+        "capturedAt": "2026-11-04T06:50:48.135088+00:00",
         "matchDate": "2026-11-04",
         "report": {
             "teamA": "Hobart Hurricanes Women",
@@ -109632,16 +109632,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-04T19:10:00+11:00",
-                "temperature_c": 12.9,
+                "temperature_c": 13.0,
                 "humidity_pct": 97,
-                "dew_point_c": 12.4,
+                "dew_point_c": 12.6,
                 "rain_probability_pct": 100,
-                "precipitation_mm": 1.2,
-                "wind_kmh": 2.7,
+                "precipitation_mm": 0.5,
+                "wind_kmh": 1.5,
                 "dew_risk": "HIGH",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "12.9°C | RH 97% | Rain 100% | Wind 2.7 km/h",
+            "weatherText": "13.0°C | RH 97% | Rain 100% | Wind 1.5 km/h",
             "dewRisk": "HIGH",
             "tossBias": "51.18% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -109700,7 +109700,7 @@
         }
     },
     "england lions|west indies a|2026-11-04": {
-        "capturedAt": "2026-11-03T23:35:33.855231+00:00",
+        "capturedAt": "2026-11-04T06:50:48.135129+00:00",
         "matchDate": "2026-11-04",
         "report": {
             "teamA": "West Indies A",
@@ -109718,7 +109718,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/176485/wia-vs-enga-3rd-t20-england-lions-tour-of-west-indies-2026",
             "cricketDataMatchId": "d2eca8a2-ed50-46fc-8369-e48cc1c757e0",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 04, 18:00 GMT",
+            "sourceStatus": "Match starts at Nov 04, 17:00 GMT",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -109818,17 +109818,44 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "CricketData match_squad"
             },
             "squadSummary": {
-                "status": "NO SQUAD DATA",
-                "teams": {},
-                "source": "Not queried"
+                "status": "SQUAD AVAILABLE — XI PENDING",
+                "teams": {
+                    "England Lions": {
+                        "players": 19,
+                        "knownBowlingStyles": 17,
+                        "spinOptions": 2,
+                        "paceOptions": 8,
+                        "roleCounts": {
+                            "batters": 8,
+                            "allRounders": 4,
+                            "bowlers": 7,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    },
+                    "West Indies A": {
+                        "players": 22,
+                        "knownBowlingStyles": 14,
+                        "spinOptions": 1,
+                        "paceOptions": 9,
+                        "roleCounts": {
+                            "batters": 6,
+                            "allRounders": 8,
+                            "bowlers": 3,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    }
+                },
+                "source": "CricketData match_squad"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS DATA LIMITED",
-                "dataConfidencePct": 29,
+                "dataConfidencePct": 43,
                 "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
                 "edgeTeam": null,
                 "edgeStrength": "DATA LIMITED",
@@ -109840,7 +109867,7 @@
                     "Two-way venue: 56.9% chasing wins",
                     "Overs 7-14 wicket pressure: 4.37 wickets/match",
                     "16th-over baseline: 8.7 runs; wicket in 30.7% of sampled innings",
-                    "Weather: rain 16%, dew LOW"
+                    "Weather: rain 10%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -109861,7 +109888,7 @@
                 "over16AvgRuns": 8.7,
                 "over16WicketEventPct": 30.73,
                 "spinWicketSharePct": null,
-                "squadStatus": "NO SQUAD DATA",
+                "squadStatus": "SQUAD AVAILABLE — XI PENDING",
                 "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
             },
             "pendingGates": [
@@ -109888,16 +109915,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-04T14:00:00-04:00",
-                "temperature_c": 29.7,
-                "humidity_pct": 66,
-                "dew_point_c": 22.8,
-                "rain_probability_pct": 16,
-                "precipitation_mm": 0.6,
-                "wind_kmh": 9.2,
+                "temperature_c": 30.2,
+                "humidity_pct": 63,
+                "dew_point_c": 22.5,
+                "rain_probability_pct": 10,
+                "precipitation_mm": 0.3,
+                "wind_kmh": 8.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.7°C | RH 66% | Rain 16% | Wind 9.2 km/h",
+            "weatherText": "30.2°C | RH 63% | Rain 10% | Wind 8.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "56.88% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -109955,7 +109982,7 @@
         }
     },
     "england lions 3rd t20 conaree sports club basseterre st kitts|west indies a|2026-11-04": {
-        "capturedAt": "2026-11-03T23:35:33.855246+00:00",
+        "capturedAt": "2026-11-04T06:50:48.135150+00:00",
         "matchDate": "2026-11-04",
         "report": {
             "teamA": "West Indies A",
@@ -109963,9 +109990,9 @@
             "name": "West Indies A vs England Lions,3rd T20 Conaree Sports Club , Basseterre, St Kitts",
             "matchType": "T20",
             "venue": "3rd T20 Conaree Sports Club , Basseterre, St Kitts",
-            "dateTimeGMT": "2026-11-04T18:00:00+00:00",
+            "dateTimeGMT": "2026-11-04T17:00:00+00:00",
             "sourceDate": "2026-11-04",
-            "matchTimeIST": "2026-11-04T23:30:00+05:30",
+            "matchTimeIST": "2026-11-04T22:30:00+05:30",
             "indiaDate": "2026-11-04",
             "series": "England Lions tour of West Indies, 2026",
             "sourceName": "Cricbuzz via text relay",
@@ -110077,7 +110104,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 16%, dew LOW"
+                    "Weather: rain 13%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -110124,17 +110151,17 @@
             },
             "weather": {
                 "status": "OK",
-                "local_time": "2026-11-04T14:00:00-04:00",
-                "temperature_c": 29.7,
-                "humidity_pct": 66,
-                "dew_point_c": 22.8,
-                "rain_probability_pct": 16,
-                "precipitation_mm": 0.6,
-                "wind_kmh": 9.2,
+                "local_time": "2026-11-04T13:00:00-04:00",
+                "temperature_c": 30.4,
+                "humidity_pct": 63,
+                "dew_point_c": 22.5,
+                "rain_probability_pct": 13,
+                "precipitation_mm": 0.3,
+                "wind_kmh": 8.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.7°C | RH 66% | Rain 16% | Wind 9.2 km/h",
+            "weatherText": "30.4°C | RH 63% | Rain 13% | Wind 8.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",

@@ -6311,7 +6311,7 @@
     }
   },
   "786781a5-0548-479e-b268-a87521ea2e36": {
-    "cachedAt": "2026-11-03T23:35:26.224882+00:00",
+    "cachedAt": "2026-11-04T06:50:39.724708+00:00",
     "payload": {
       "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
       "data": [
@@ -6562,12 +6562,394 @@
       ],
       "status": "success",
       "info": {
-        "hitsToday": 14,
+        "hitsToday": 29,
         "hitsUsed": 10,
         "hitsLimit": 100,
         "credits": 0,
-        "server": 4,
-        "queryTime": 23.1356,
+        "server": 14,
+        "queryTime": 22.3142,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "d2eca8a2-ed50-46fc-8369-e48cc1c757e0": {
+    "cachedAt": "2026-11-04T06:50:43.294082+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [
+        {
+          "teamName": "England Lions",
+          "shortname": "ENGL",
+          "img": "https://g.cricapi.com/iapi/1739-637934886041420623.webp?w=48",
+          "players": [
+            {
+              "id": "e5b89c42-ecc1-4c66-bff0-06f0dd2bfb9d",
+              "name": "Ekansh Singh",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "7cedc5db-4a83-4a8a-83a9-243c1fd00699",
+              "name": "Thomas Rew",
+              "role": "WK-Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "b9c5f867-ee85-4db9-b0a5-335a72a2c03e",
+              "name": "Rehan Ahmed",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm legbreak",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "93b48a58-a371-4f1f-b440-45ca7cdd7fd4",
+              "name": "Liam Patterson-White",
+              "role": "Bowler",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Left-arm orthodox",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "f0c61710-ba67-47b2-a0e3-47e868cdc4d9",
+              "name": "James Coles",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Left-arm orthodox",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "b672f837-fcff-4479-8aeb-5abe5ba652fe",
+              "name": "Sam Cook",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "bf03de4b-5856-42b6-873a-657e1a4b40b1",
+              "name": "Ben McKinney",
+              "role": "Batsman",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "8f682a31-393b-4973-b972-685a1ec35e78",
+              "name": "Mason Crane",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm legbreak",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "8aac8d52-41d8-4b3e-b721-6986b3c49bf0",
+              "name": "Ben Kellaway",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "39e40311-9798-4c21-a30b-6a18d5987b59",
+              "name": "Jack Haynes",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "25264e68-8661-439a-ba17-6ab1eecee3bf",
+              "name": "Naavya Sharma",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "d283655d-1653-4df4-b244-6da4c00d994b",
+              "name": "James Rew",
+              "role": "WK-Batsman",
+              "battingStyle": "Left Handed Bat",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "df05e760-48fb-4f5b-bc1c-8c7be6477f2b",
+              "name": "Dan Lawrence",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/players/df05e760-48fb-4f5b-bc1c-8c7be6477f2b.jpg"
+            },
+            {
+              "id": "d55fba67-a80c-4db9-b66c-9e8a552a2201",
+              "name": "Asa Tribe",
+              "role": "WK-Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "Jersey",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "c1bc3ec2-f534-4c7d-a665-a447ae7b2d87",
+              "name": "Adam Finch",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "d2995816-1ab3-4ea0-9912-c40cd73d55e3",
+              "name": "Scott Currie",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "427d3153-a74d-4d29-8676-c43fd406a009",
+              "name": "Eddie Jack",
+              "role": "Bowler",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "3704971d-fe17-44e5-9a36-c4afeab4c57a",
+              "name": "Ben Mayes",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "5d90a624-90ed-4b17-b860-e28def201e05",
+              "name": "Calvin Harrison",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm legbreak",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            }
+          ]
+        },
+        {
+          "teamName": "West Indies A",
+          "shortname": "WIA",
+          "img": "https://g.cricapi.com/iapi/100-637877077978319234.webp?w=48",
+          "players": [
+            {
+              "id": "9ff2bee9-69d2-46b8-abbf-00f477ec3a2b",
+              "name": "Zachary Carter",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "631c0ba9-3863-44c9-a644-03c517d65be1",
+              "name": "Jewel Andrew",
+              "role": "WK-Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "c21498b4-ec78-4d83-a315-12978e544674",
+              "name": "Sadrack Descarte",
+              "role": "Batting Allrounder",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "c968d1d8-ea1a-4608-b867-1eea09088c29",
+              "name": "Vitel Lawes",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "8c3270be-9b18-4fa6-b13e-3e37a06a08d7",
+              "name": "Keacy Carty",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "ef469d02-e7ec-44ab-9dd3-45d5087b35a5",
+              "name": "Jakeem Pollard",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "60445a80-0f3e-463f-98fa-4a8a77bde856",
+              "name": "Karima Gore",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Left-arm orthodox",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "5ee086d2-e0b5-4818-b0d1-4b5dcf599ba7",
+              "name": "Rivaldo Clarke",
+              "role": "WK-Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "5e250b38-3d7e-4879-8e34-51684aca4b2f",
+              "name": "Shamar Springer",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/players/5e250b38-3d7e-4879-8e34-51684aca4b2f.jpg"
+            },
+            {
+              "id": "967518f7-ba07-41f5-87ae-580f403fed2a",
+              "name": "Kamil Pooran",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "ed37ee66-9b66-4982-82a3-62f56181065d",
+              "name": "Keon Gaston",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "254bd372-585c-4cf7-abd8-633aee31e88a",
+              "name": "Micah McKenzie",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "4eb88f90-1a1b-460e-a693-6ce4a5fac9b4",
+              "name": "Quentin Sampson",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "63ea49da-8242-4cc5-a918-747a9db877b1",
+              "name": "Alick Athanaze",
+              "role": "Batsman",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/players/63ea49da-8242-4cc5-a918-747a9db877b1.jpg"
+            },
+            {
+              "id": "8f1937ea-83b3-417c-a0bb-7e9caa5aead2",
+              "name": "Zishan Motara",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm legbreak",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "181cc808-e390-4b82-a3ec-82c78da263ef",
+              "name": "Kevlon Anderson",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "9d670f93-4175-4e50-a6b3-946f4c6bf9ac",
+              "name": "Jyd Goolie",
+              "role": "Batsman",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "a870c646-27e5-4747-8c40-99761728af7e",
+              "name": "Jediah Blades",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Left-arm fast-medium",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "a92efeb0-4afc-42de-9dd4-cb8763214e9e",
+              "name": "Oshane Thomas",
+              "role": "Bowler",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Right-arm fast",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "ba0c736b-7114-4bc4-a84d-d327653862ac",
+              "name": "Shaqkere Parris",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "544bcc22-d8e8-4d1b-8ccb-d86c166b7467",
+              "name": "Joshua James",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "a8666335-aae8-4795-ad33-fd249f8024cc",
+              "name": "Kirk McKenzie",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            }
+          ]
+        }
+      ],
+      "status": "success",
+      "info": {
+        "hitsToday": 39,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 11,
+        "queryTime": 21.9954,
         "s": 0,
         "cache": 0
       }

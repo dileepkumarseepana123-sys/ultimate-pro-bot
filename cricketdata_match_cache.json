@@ -6667,5 +6667,22 @@
       ],
       "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
     }
+  },
+  "e46111e9-6e96-4447-87c1-edbe892b222f": {
+    "cachedAt": "2026-11-04T06:50:03.524506+00:00",
+    "data": {
+      "id": "e46111e9-6e96-4447-87c1-edbe892b222f",
+      "name": "Queensland vs Tasmania, 12th Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 11, 00:30 GMT",
+      "venue": "The Gabba, Brisbane",
+      "date": "2026-11-11",
+      "dateTimeGMT": "2026-11-11T00:30:00",
+      "teams": [
+        "Queensland",
+        "Tasmania"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
   }
 }
