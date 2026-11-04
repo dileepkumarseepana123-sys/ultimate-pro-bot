@@ -6684,5 +6684,72 @@
       ],
       "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
     }
+  },
+  "555337b0-04e8-4e3f-870a-8a8a0896b101": {
+    "cachedAt": "2026-11-04T18:17:38.997119+00:00",
+    "data": {
+      "id": "555337b0-04e8-4e3f-870a-8a8a0896b101",
+      "name": "Perth Scorchers Women vs Sydney Thunder Women, 18th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 11, 08:10 GMT",
+      "venue": "W.A.C.A. Ground, Perth",
+      "date": "2026-11-11",
+      "dateTimeGMT": "2026-11-11T08:10:00",
+      "teams": [
+        "Perth Scorchers Women",
+        "Sydney Thunder Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "191f8d98-f583-47aa-bd09-38f7f52a36c7": {
+    "cachedAt": "2026-11-04T18:17:39.180763+00:00",
+    "data": {
+      "id": "191f8d98-f583-47aa-bd09-38f7f52a36c7",
+      "name": "West Indies A vs England Lions, 3rd Unofficial ODI, England Lions tour of West Indies, 2026",
+      "status": "Match starts at Nov 11, 13:30 GMT",
+      "venue": "Warner Park, Basseterre, St Kitts",
+      "date": "2026-11-11",
+      "dateTimeGMT": "2026-11-11T13:30:00",
+      "teams": [
+        "West Indies A",
+        "England Lions"
+      ],
+      "series_id": "de4e4745-dcbb-42bd-8254-ebf28f10d449"
+    }
+  },
+  "3482d510-ad84-4730-a5c9-85431352162f": {
+    "cachedAt": "2026-11-04T18:17:39.365502+00:00",
+    "data": {
+      "id": "3482d510-ad84-4730-a5c9-85431352162f",
+      "name": "Royal Desert Champions vs Uae Bulls, 11th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 11, 13:45 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-11",
+      "dateTimeGMT": "2026-11-11T13:45:00",
+      "teams": [
+        "Royal Desert Champions",
+        "Uae Bulls"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "a370e183-65df-43dd-83d0-ff872ca35eab": {
+    "cachedAt": "2026-11-04T18:17:39.549497+00:00",
+    "data": {
+      "id": "a370e183-65df-43dd-83d0-ff872ca35eab",
+      "name": "Arabian Aces vs Yas Lions, 12th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 11, 16:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-11",
+      "dateTimeGMT": "2026-11-11T16:00:00",
+      "teams": [
+        "Arabian Aces",
+        "Yas Lions"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
   }
 }
