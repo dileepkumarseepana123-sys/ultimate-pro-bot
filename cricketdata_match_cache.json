@@ -6835,5 +6835,56 @@
       ],
       "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
     }
+  },
+  "d0545a30-0a95-42d1-ada7-a98498edebb9": {
+    "cachedAt": "2026-11-05T23:46:37.885249+00:00",
+    "data": {
+      "id": "d0545a30-0a95-42d1-ada7-a98498edebb9",
+      "name": "Central Stags vs Wellington, 14th Match, The Ford Trophy 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Nov 12, 21:30 GMT",
+      "venue": "McLean Park, Napier",
+      "date": "2026-11-12",
+      "dateTimeGMT": "2026-11-12T21:30:00",
+      "teams": [
+        "Central Stags",
+        "Wellington"
+      ],
+      "series_id": "127a3118-68a6-4f22-8375-1e2a9a8da0b3"
+    }
+  },
+  "dc2e8bef-0693-4011-ab3c-94948076ea3e": {
+    "cachedAt": "2026-11-05T23:46:38.013287+00:00",
+    "data": {
+      "id": "dc2e8bef-0693-4011-ab3c-94948076ea3e",
+      "name": "Canterbury vs Northern Districts, 15th Match, The Ford Trophy 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Nov 12, 21:30 GMT",
+      "venue": "Hagley Oval, Christchurch",
+      "date": "2026-11-12",
+      "dateTimeGMT": "2026-11-12T21:30:00",
+      "teams": [
+        "Canterbury",
+        "Northern Districts"
+      ],
+      "series_id": "127a3118-68a6-4f22-8375-1e2a9a8da0b3"
+    }
+  },
+  "9ab21144-1fea-4a6f-b198-8a8c287c353a": {
+    "cachedAt": "2026-11-05T23:46:38.141463+00:00",
+    "data": {
+      "id": "9ab21144-1fea-4a6f-b198-8a8c287c353a",
+      "name": "Auckland vs Otago, 13th Match, The Ford Trophy 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Nov 12, 21:30 GMT",
+      "venue": "Eden Park Outer Oval, Auckland",
+      "date": "2026-11-12",
+      "dateTimeGMT": "2026-11-12T21:30:00",
+      "teams": [
+        "Auckland",
+        "Otago"
+      ],
+      "series_id": "127a3118-68a6-4f22-8375-1e2a9a8da0b3"
+    }
   }
 }
