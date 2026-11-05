@@ -6818,5 +6818,22 @@
       ],
       "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
     }
+  },
+  "2643e1b7-5921-4c4f-8805-32a3defbae85": {
+    "cachedAt": "2026-11-05T18:11:27.308462+00:00",
+    "data": {
+      "id": "2643e1b7-5921-4c4f-8805-32a3defbae85",
+      "name": "Melbourne Renegades Women vs Sydney Sixers Women, 20th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 12, 08:10 GMT",
+      "venue": "Junction Oval, Melbourne",
+      "date": "2026-11-12",
+      "dateTimeGMT": "2026-11-12T08:10:00",
+      "teams": [
+        "Melbourne Renegades Women",
+        "Sydney Sixers Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }
