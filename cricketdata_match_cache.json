@@ -6785,5 +6785,38 @@
       ],
       "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
     }
+  },
+  "558f2771-a71f-4328-b84e-6ecf5b0eb18d": {
+    "cachedAt": "2026-11-05T07:09:45.925003+00:00",
+    "data": {
+      "id": "558f2771-a71f-4328-b84e-6ecf5b0eb18d",
+      "name": "Australia vs England, 1st ODI, England tour of Australia, 2026",
+      "status": "Match starts at Nov 12, 03:30 GMT",
+      "venue": "Perth Stadium, Perth",
+      "date": "2026-11-12",
+      "dateTimeGMT": "2026-11-12T03:30:00",
+      "teams": [
+        "Australia",
+        "England"
+      ],
+      "series_id": "9c385594-20fe-4d3d-b2bb-df4de8e043bc"
+    }
+  },
+  "0e094a86-1a1e-4a3e-9f41-4cf61c748b7e": {
+    "cachedAt": "2026-11-05T07:09:46.104764+00:00",
+    "data": {
+      "id": "0e094a86-1a1e-4a3e-9f41-4cf61c748b7e",
+      "name": "Melbourne Stars Women vs Brisbane Heat Women, 19th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 12, 04:40 GMT",
+      "venue": "Junction Oval, Melbourne",
+      "date": "2026-11-12",
+      "dateTimeGMT": "2026-11-12T04:40:00",
+      "teams": [
+        "Melbourne Stars Women",
+        "Brisbane Heat Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }
