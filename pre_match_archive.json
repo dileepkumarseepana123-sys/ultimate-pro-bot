@@ -113253,7 +113253,7 @@
         }
     },
     "namibia women|uganda women|2026-11-06": {
-        "capturedAt": "2026-11-05T23:48:33.064488+00:00",
+        "capturedAt": "2026-11-06T17:38:41.958007+00:00",
         "matchDate": "2026-11-06",
         "report": {
             "teamA": "Uganda Women",
@@ -113271,7 +113271,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177262/ugaw-vs-namw-1st-match-womens-victoria-t20i-series-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -113829,11 +113829,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Uganda Women has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Uganda Women has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "rwanda women|united states of america women|2026-11-06": {
-        "capturedAt": "2026-11-06T07:10:37.926918+00:00",
+        "capturedAt": "2026-11-06T17:38:41.958029+00:00",
         "matchDate": "2026-11-06",
         "report": {
             "teamA": "Rwanda Women",
@@ -113851,7 +113852,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177273/rwaw-vs-usaw-2nd-match-womens-victoria-t20i-series-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -114311,11 +114312,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Rwanda Women has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Rwanda Women has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "karnali yaks|sudur paschim royals|2026-11-06": {
-        "capturedAt": "2026-11-05T23:48:33.064517+00:00",
+        "capturedAt": "2026-11-06T17:38:41.958039+00:00",
         "matchDate": "2026-11-06",
         "report": {
             "teamA": "Karnali Yaks",
@@ -114333,7 +114335,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177711/kay-vs-spr-16th-match-nepal-premier-league-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -114791,11 +114793,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Sudur Paschim Royals has a strong edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Sudur Paschim Royals has a strong edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "chitwan rhinos|pokhara avengers|2026-11-06": {
-        "capturedAt": "2026-11-06T07:10:37.926950+00:00",
+        "capturedAt": "2026-11-06T17:38:41.958050+00:00",
         "matchDate": "2026-11-06",
         "report": {
             "teamA": "Chitwan Rhinos",
@@ -114813,7 +114816,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177721/chr-vs-poa-17th-match-nepal-premier-league-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -115273,7 +115276,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "dolphins super eights willowmoore park benoni|eastern storm|2026-11-06": {

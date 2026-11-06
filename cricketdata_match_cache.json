@@ -6918,5 +6918,72 @@
       ],
       "series_id": "7d61737b-c4d8-4f44-b8cb-309ce4d9c57a"
     }
+  },
+  "d8216e26-8588-4a59-83a0-6e233969ba3a": {
+    "cachedAt": "2026-11-06T17:38:12.063389+00:00",
+    "data": {
+      "id": "d8216e26-8588-4a59-83a0-6e233969ba3a",
+      "name": "Zimbabwe A vs Ireland A, 2nd unofficial Test, Ireland A tour of Zimbabwe, 2026",
+      "status": "Match starts at Nov 13, 07:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-13",
+      "dateTimeGMT": "2026-11-13T07:30:00",
+      "teams": [
+        "Zimbabwe A",
+        "Ireland A"
+      ],
+      "series_id": "55616b78-3f8c-429a-b9c2-cf73c72d4cd4"
+    }
+  },
+  "91763eea-e1a4-4fa2-bbb1-4122bbbcc9eb": {
+    "cachedAt": "2026-11-06T17:38:12.218700+00:00",
+    "data": {
+      "id": "91763eea-e1a4-4fa2-bbb1-4122bbbcc9eb",
+      "name": "United Tigers vs Emirates Eagles, 13th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 13, 11:30 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-13",
+      "dateTimeGMT": "2026-11-13T11:30:00",
+      "teams": [
+        "United Tigers",
+        "Emirates Eagles"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "9d26916e-9789-4f8d-8dd3-4394c41e195b": {
+    "cachedAt": "2026-11-06T17:38:12.375980+00:00",
+    "data": {
+      "id": "9d26916e-9789-4f8d-8dd3-4394c41e195b",
+      "name": "Royal Desert Champions vs Yas Lions, 14th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 13, 13:45 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-13",
+      "dateTimeGMT": "2026-11-13T13:45:00",
+      "teams": [
+        "Royal Desert Champions",
+        "Yas Lions"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "43157dfe-858c-46c0-acae-428fde8f0089": {
+    "cachedAt": "2026-11-06T17:38:12.534689+00:00",
+    "data": {
+      "id": "43157dfe-858c-46c0-acae-428fde8f0089",
+      "name": "Arabian Aces vs Uae Bulls, 15th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 13, 16:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-13",
+      "dateTimeGMT": "2026-11-13T16:00:00",
+      "teams": [
+        "Arabian Aces",
+        "Uae Bulls"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
   }
 }
