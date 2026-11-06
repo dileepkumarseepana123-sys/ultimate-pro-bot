@@ -112653,7 +112653,7 @@
         }
     },
     "melbourne stars women|sydney sixers women|2026-11-06": {
-        "capturedAt": "2026-11-05T23:48:33.064447+00:00",
+        "capturedAt": "2026-11-06T07:10:37.926861+00:00",
         "matchDate": "2026-11-06",
         "report": {
             "teamA": "Melbourne Stars Women",
@@ -113189,16 +113189,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-06T19:10:00+11:00",
-                "temperature_c": 19.5,
-                "humidity_pct": 53,
-                "dew_point_c": 9.5,
+                "temperature_c": 18.9,
+                "humidity_pct": 67,
+                "dew_point_c": 12.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 11.0,
+                "wind_kmh": 5.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "19.5°C | RH 53% | Rain 0% | Wind 11.0 km/h",
+            "weatherText": "18.9°C | RH 67% | Rain 0% | Wind 5.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "57.89% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -113833,7 +113833,7 @@
         }
     },
     "rwanda women|united states of america women|2026-11-06": {
-        "capturedAt": "2026-11-05T23:48:33.064504+00:00",
+        "capturedAt": "2026-11-06T07:10:37.926918+00:00",
         "matchDate": "2026-11-06",
         "report": {
             "teamA": "Rwanda Women",
@@ -114013,7 +114013,7 @@
                     "Two-way venue: 48.9% chasing wins",
                     "Overs 7-14 wicket pressure: 4.64 wickets/match",
                     "16th-over baseline: 6.6 runs; wicket in 44.9% of sampled innings",
-                    "Weather: rain 79%, dew LOW"
+                    "Weather: rain 67%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Rwanda Women 1657.2 vs United States of America Women 1570.2",
@@ -114248,16 +114248,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-06T14:00:00+03:00",
-                "temperature_c": 25.1,
-                "humidity_pct": 70,
-                "dew_point_c": 19.2,
-                "rain_probability_pct": 79,
-                "precipitation_mm": 0.2,
-                "wind_kmh": 11.4,
+                "temperature_c": 26.5,
+                "humidity_pct": 65,
+                "dew_point_c": 19.4,
+                "rain_probability_pct": 67,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 10.7,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "25.1°C | RH 70% | Rain 79% | Wind 11.4 km/h",
+            "weatherText": "26.5°C | RH 65% | Rain 67% | Wind 10.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "48.94% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -114795,7 +114795,7 @@
         }
     },
     "chitwan rhinos|pokhara avengers|2026-11-06": {
-        "capturedAt": "2026-11-05T23:48:33.064527+00:00",
+        "capturedAt": "2026-11-06T07:10:37.926950+00:00",
         "matchDate": "2026-11-06",
         "report": {
             "teamA": "Chitwan Rhinos",
@@ -115210,16 +115210,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-06T17:00:00+05:45",
-                "temperature_c": 16.9,
-                "humidity_pct": 81,
+                "temperature_c": 16.7,
+                "humidity_pct": 82,
                 "dew_point_c": 13.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 1.2,
+                "wind_kmh": 0.9,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "16.9°C | RH 81% | Rain 0% | Wind 1.2 km/h",
+            "weatherText": "16.7°C | RH 82% | Rain 0% | Wind 0.9 km/h",
             "dewRisk": "HIGH",
             "tossBias": "48.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -115277,7 +115277,7 @@
         }
     },
     "dolphins super eights willowmoore park benoni|eastern storm|2026-11-06": {
-        "capturedAt": "2026-11-05T23:48:33.064538+00:00",
+        "capturedAt": "2026-11-06T07:10:37.926973+00:00",
         "matchDate": "2026-11-06",
         "report": {
             "teamA": "Eastern Storm",
@@ -115326,14 +115326,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 27.3,
+            "swingScore": 17.5,
             "strategyLabel": "INSUFFICIENT DATA",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 17,
                 "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 27.3,
+                "swingScore": 17.5,
                 "strategyLabel": "INSUFFICIENT DATA",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -115362,12 +115362,13 @@
                 },
                 "swingCatalysts": [],
                 "swingPenalties": [
+                    "High rain-interruption risk",
                     "Liquidity/market depth is not verified"
                 ],
                 "scoreComponents": [
                     {
                         "name": "weather",
-                        "score": 70.0,
+                        "score": 20.0,
                         "weight": 0.1
                     },
                     {
@@ -115401,7 +115402,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 45%, dew LOW"
+                    "Weather: rain 81%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -115451,16 +115452,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-06T18:00:00+02:00",
-                "temperature_c": 22.4,
-                "humidity_pct": 61,
-                "dew_point_c": 14.6,
-                "rain_probability_pct": 45,
-                "precipitation_mm": 1.7,
-                "wind_kmh": 13.2,
+                "temperature_c": 26.1,
+                "humidity_pct": 40,
+                "dew_point_c": 11.3,
+                "rain_probability_pct": 81,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 9.9,
                 "dew_risk": "LOW",
-                "rain_risk": "MEDIUM"
+                "rain_risk": "HIGH"
             },
-            "weatherText": "22.4°C | RH 61% | Rain 45% | Wind 13.2 km/h",
+            "weatherText": "26.1°C | RH 40% | Rain 81% | Wind 9.9 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -115493,6 +115494,7 @@
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
+                "HIGH RAIN INTERRUPTION RISK",
                 "LIMITED RECENT T20 DATA FOR Eastern Storm",
                 "LIMITED RECENT T20 DATA FOR Dolphins,Super Eights Willowmoore Park , Benoni"
             ],

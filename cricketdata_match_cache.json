@@ -6886,5 +6886,37 @@
       ],
       "series_id": "127a3118-68a6-4f22-8375-1e2a9a8da0b3"
     }
+  },
+  "dcd3e81d-98af-4ccc-b42a-05a6f3bd59e8": {
+    "cachedAt": "2026-11-06T07:09:18.443196+00:00",
+    "data": {
+      "id": "dcd3e81d-98af-4ccc-b42a-05a6f3bd59e8",
+      "name": "New Zealand vs India, 4th ODI, India tour of New Zealand 2026",
+      "status": "Match starts at Nov 13, 02:00 GMT",
+      "venue": "Bay Oval, Mount Maunganui",
+      "date": "2026-11-13",
+      "dateTimeGMT": "2026-11-13T02:00:00",
+      "teams": [
+        "New Zealand",
+        "India"
+      ],
+      "series_id": "9f0a2527-1508-42b3-9945-4ade13fd4b5a"
+    }
+  },
+  "57c2fd02-75b1-49c8-9a02-b300f903f7a4": {
+    "cachedAt": "2026-11-06T07:09:18.616541+00:00",
+    "data": {
+      "id": "57c2fd02-75b1-49c8-9a02-b300f903f7a4",
+      "name": "Afghanistan vs Zimbabwe, 2nd Test, Afghanistan vs Zimbabwe in UAE, 2026",
+      "status": "Match starts at Nov 13, 05:00 GMT",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-11-13",
+      "dateTimeGMT": "2026-11-13T05:30:00",
+      "teams": [
+        "Afghanistan",
+        "Zimbabwe"
+      ],
+      "series_id": "7d61737b-c4d8-4f44-b8cb-309ce4d9c57a"
+    }
   }
 }
