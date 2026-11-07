@@ -6985,5 +6985,141 @@
       ],
       "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
     }
+  },
+  "51eb4717-1fc8-464e-9c60-f9cafca2ac8b": {
+    "cachedAt": "2026-11-07T06:21:03.945747+00:00",
+    "data": {
+      "id": "51eb4717-1fc8-464e-9c60-f9cafca2ac8b",
+      "name": "Hyderabad vs Mumbai, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T04:00:00",
+      "teams": [
+        "Hyderabad",
+        "Mumbai"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "5ff0d617-a6de-4294-bb63-a1693d9014fa": {
+    "cachedAt": "2026-11-07T06:21:04.100167+00:00",
+    "data": {
+      "id": "5ff0d617-a6de-4294-bb63-a1693d9014fa",
+      "name": "Maharashtra vs Puducherry, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T04:00:00",
+      "teams": [
+        "Maharashtra",
+        "Puducherry"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "991ae7c9-ff35-4961-942e-6de98fae1439": {
+    "cachedAt": "2026-11-07T06:21:04.250472+00:00",
+    "data": {
+      "id": "991ae7c9-ff35-4961-942e-6de98fae1439",
+      "name": "Chandigarh vs Baroda, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T04:00:00",
+      "teams": [
+        "Chandigarh",
+        "Baroda"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "e599d9ca-fe4f-4e31-a726-304641489576": {
+    "cachedAt": "2026-11-07T06:21:04.405396+00:00",
+    "data": {
+      "id": "e599d9ca-fe4f-4e31-a726-304641489576",
+      "name": "Punjab vs Haryana, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 04:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T04:00:00",
+      "teams": [
+        "Punjab",
+        "Haryana"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "94adaed4-2917-43c6-9990-eee50849a7dc": {
+    "cachedAt": "2026-11-07T06:21:04.555143+00:00",
+    "data": {
+      "id": "94adaed4-2917-43c6-9990-eee50849a7dc",
+      "name": "Hobart Hurricanes Women vs Brisbane Heat Women, 21st Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 04:40 GMT",
+      "venue": "Bellerive Oval, Hobart",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T04:40:00",
+      "teams": [
+        "Hobart Hurricanes Women",
+        "Brisbane Heat Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "c6f00696-f91a-4e22-a2da-e98bbd87adbc": {
+    "cachedAt": "2026-11-07T06:21:04.704631+00:00",
+    "data": {
+      "id": "c6f00696-f91a-4e22-a2da-e98bbd87adbc",
+      "name": "Nagaland vs Meghalaya, Plate, Syed Mushtaq Ali Trophy Plate 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T05:30:00",
+      "teams": [
+        "Nagaland",
+        "Meghalaya"
+      ],
+      "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
+    }
+  },
+  "d8d10d5c-1f2d-4765-a3a6-bc657cc588f4": {
+    "cachedAt": "2026-11-07T06:21:04.854477+00:00",
+    "data": {
+      "id": "d8d10d5c-1f2d-4765-a3a6-bc657cc588f4",
+      "name": "Arunachal Pradesh vs Manipur, Plate, Syed Mushtaq Ali Trophy Plate 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T05:30:00",
+      "teams": [
+        "Arunachal Pradesh",
+        "Manipur"
+      ],
+      "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
+    }
+  },
+  "18808e0c-3357-4b2c-8f5f-e185e336eca0": {
+    "cachedAt": "2026-11-07T06:21:05.005050+00:00",
+    "data": {
+      "id": "18808e0c-3357-4b2c-8f5f-e185e336eca0",
+      "name": "Mizoram vs Jharkhand, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 06:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T06:00:00",
+      "teams": [
+        "Mizoram",
+        "Jharkhand"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
   }
 }
