@@ -7257,5 +7257,141 @@
       ],
       "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
     }
+  },
+  "df484f6c-3c1d-4128-9f3e-4520ad03ba3c": {
+    "cachedAt": "2026-11-07T19:32:06.156128+00:00",
+    "data": {
+      "id": "df484f6c-3c1d-4128-9f3e-4520ad03ba3c",
+      "name": "Namibia Women vs Rwanda Women, 5th Match, Womens Victoria T20I Series, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 08, 06:30 GMT",
+      "venue": "Entebbe Cricket Oval, Entebbe",
+      "date": "2026-11-08",
+      "dateTimeGMT": "2026-11-08T06:30:00",
+      "teams": [
+        "Namibia Women",
+        "Rwanda Women"
+      ],
+      "series_id": "6e1cdeda-f551-467c-a8d6-c66f14bf170b"
+    }
+  },
+  "958aa945-930f-4e17-af8a-c8966226ec1e": {
+    "cachedAt": "2026-11-07T19:32:06.289585+00:00",
+    "data": {
+      "id": "958aa945-930f-4e17-af8a-c8966226ec1e",
+      "name": "Uganda Women vs United States of America Women, 6th Match, Womens Victoria T20I Series, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 08, 11:00 GMT",
+      "venue": "Entebbe Cricket Oval, Entebbe",
+      "date": "2026-11-08",
+      "dateTimeGMT": "2026-11-08T11:00:00",
+      "teams": [
+        "Uganda Women",
+        "United States of America Women"
+      ],
+      "series_id": "6e1cdeda-f551-467c-a8d6-c66f14bf170b"
+    }
+  },
+  "1f8b1266-3bbc-4b01-9269-62ec2db5b7c6": {
+    "cachedAt": "2026-11-07T19:32:06.427109+00:00",
+    "data": {
+      "id": "1f8b1266-3bbc-4b01-9269-62ec2db5b7c6",
+      "name": "Rwanda Women vs United States Of America Women, 7th Match, Womens Victoria T20I Series, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Entebbe Cricket Oval, Entebbe",
+      "date": "2026-11-10",
+      "dateTimeGMT": "2026-11-10T06:30:00",
+      "teams": [
+        "Rwanda Women",
+        "United States Of America Women"
+      ],
+      "series_id": "6e1cdeda-f551-467c-a8d6-c66f14bf170b"
+    }
+  },
+  "37c4b752-cba7-474c-a413-45679a2f8927": {
+    "cachedAt": "2026-11-07T19:32:06.560359+00:00",
+    "data": {
+      "id": "37c4b752-cba7-474c-a413-45679a2f8927",
+      "name": "Namibia Women vs Uganda Women, 8th Match, Womens Victoria T20I Series, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Entebbe Cricket Oval, Entebbe",
+      "date": "2026-11-10",
+      "dateTimeGMT": "2026-11-10T11:00:00",
+      "teams": [
+        "Namibia Women",
+        "Uganda Women"
+      ],
+      "series_id": "6e1cdeda-f551-467c-a8d6-c66f14bf170b"
+    }
+  },
+  "41a2b361-72c1-43a8-919a-eb7f68e50ef0": {
+    "cachedAt": "2026-11-07T19:32:06.696759+00:00",
+    "data": {
+      "id": "41a2b361-72c1-43a8-919a-eb7f68e50ef0",
+      "name": "Uganda Women vs Rwanda Women, 9th Match, Womens Victoria T20I Series, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Entebbe Cricket Oval, Entebbe",
+      "date": "2026-11-11",
+      "dateTimeGMT": "2026-11-11T06:30:00",
+      "teams": [
+        "Uganda Women",
+        "Rwanda Women"
+      ],
+      "series_id": "6e1cdeda-f551-467c-a8d6-c66f14bf170b"
+    }
+  },
+  "e2f98e6f-8267-433a-a915-f4d4b3b73ad0": {
+    "cachedAt": "2026-11-07T19:32:06.829818+00:00",
+    "data": {
+      "id": "e2f98e6f-8267-433a-a915-f4d4b3b73ad0",
+      "name": "Namibia Women vs United States Of America Women, 10th Match, Womens Victoria T20I Series, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Entebbe Cricket Oval, Entebbe",
+      "date": "2026-11-11",
+      "dateTimeGMT": "2026-11-11T11:00:00",
+      "teams": [
+        "Namibia Women",
+        "United States Of America Women"
+      ],
+      "series_id": "6e1cdeda-f551-467c-a8d6-c66f14bf170b"
+    }
+  },
+  "4ca29712-186c-4d8b-9a33-3f9ea6dc2da2": {
+    "cachedAt": "2026-11-07T19:32:06.963089+00:00",
+    "data": {
+      "id": "4ca29712-186c-4d8b-9a33-3f9ea6dc2da2",
+      "name": "Services vs Sikkim, Plate, Syed Mushtaq Ali Trophy Plate 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 11:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T11:00:00",
+      "teams": [
+        "Services",
+        "Sikkim"
+      ],
+      "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
+    }
+  },
+  "f9f598c4-86d1-41c4-ad06-f11dc55b8bac": {
+    "cachedAt": "2026-11-07T19:32:07.094074+00:00",
+    "data": {
+      "id": "f9f598c4-86d1-41c4-ad06-f11dc55b8bac",
+      "name": "Uttarakhand vs Chhattisgarh, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 11:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T11:00:00",
+      "teams": [
+        "Uttarakhand",
+        "Chhattisgarh"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
   }
 }
