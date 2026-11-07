@@ -118072,7 +118072,7 @@
         }
     },
     "lions super eights newlands cape town|western province|2026-11-07": {
-        "capturedAt": "2026-11-07T06:22:29.172981+00:00",
+        "capturedAt": "2026-11-07T13:26:41.231823+00:00",
         "matchDate": "2026-11-07",
         "report": {
             "teamA": "Western Province",
@@ -118337,16 +118337,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-07T18:00:00+02:00",
-                "temperature_c": 16.7,
-                "humidity_pct": 56,
-                "dew_point_c": 7.9,
+                "temperature_c": 16.8,
+                "humidity_pct": 57,
+                "dew_point_c": 8.2,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 24.8,
+                "wind_kmh": 22.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "16.7°C | RH 56% | Rain 0% | Wind 24.8 km/h",
+            "weatherText": "16.8°C | RH 57% | Rain 0% | Wind 22.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",

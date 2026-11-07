@@ -7121,5 +7121,141 @@
       ],
       "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
     }
+  },
+  "97ab8e92-4d67-4dec-9348-ae70f0ea500c": {
+    "cachedAt": "2026-11-07T13:24:27.746329+00:00",
+    "data": {
+      "id": "97ab8e92-4d67-4dec-9348-ae70f0ea500c",
+      "name": "Tripura vs Andhra, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 06:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T06:00:00",
+      "teams": [
+        "Tripura",
+        "Andhra"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "99026261-235e-4a0a-9256-63b480584dc4": {
+    "cachedAt": "2026-11-07T13:24:27.905995+00:00",
+    "data": {
+      "id": "99026261-235e-4a0a-9256-63b480584dc4",
+      "name": "Saurashtra vs Bihar, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 06:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T06:00:00",
+      "teams": [
+        "Saurashtra",
+        "Bihar"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "210426dc-a250-4acb-b7f9-0f8369d03928": {
+    "cachedAt": "2026-11-07T13:24:28.063259+00:00",
+    "data": {
+      "id": "210426dc-a250-4acb-b7f9-0f8369d03928",
+      "name": "Gujarat vs Odisha, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 06:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T06:00:00",
+      "teams": [
+        "Gujarat",
+        "Odisha"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "cd6be6bf-bc28-4c48-bf80-a27cb68d59c9": {
+    "cachedAt": "2026-11-07T13:24:28.218682+00:00",
+    "data": {
+      "id": "cd6be6bf-bc28-4c48-bf80-a27cb68d59c9",
+      "name": "Perth Scorchers Women vs Adelaide Strikers Women, 22nd Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 08:10 GMT",
+      "venue": "W.A.C.A. Ground, Perth",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T08:10:00",
+      "teams": [
+        "Perth Scorchers Women",
+        "Adelaide Strikers Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "651a4c7d-d0f9-4955-bc5b-cd45a39419d9": {
+    "cachedAt": "2026-11-07T13:24:28.376139+00:00",
+    "data": {
+      "id": "651a4c7d-d0f9-4955-bc5b-cd45a39419d9",
+      "name": "Railways vs Tamil Nadu, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 10:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T10:30:00",
+      "teams": [
+        "Railways",
+        "Tamil Nadu"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "ffff0e29-97e8-4b0e-b71b-91ff7b4a7889": {
+    "cachedAt": "2026-11-07T13:24:28.532547+00:00",
+    "data": {
+      "id": "ffff0e29-97e8-4b0e-b71b-91ff7b4a7889",
+      "name": "Vidarbha vs Goa, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 10:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T10:30:00",
+      "teams": [
+        "Vidarbha",
+        "Goa"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "99c3abf1-1c59-43e3-af34-5d53f5698ec0": {
+    "cachedAt": "2026-11-07T13:24:28.688997+00:00",
+    "data": {
+      "id": "99c3abf1-1c59-43e3-af34-5d53f5698ec0",
+      "name": "Himachal Pradesh vs Assam, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 10:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T10:30:00",
+      "teams": [
+        "Himachal Pradesh",
+        "Assam"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "8815948e-9e9b-4010-8b35-04b1404dd504": {
+    "cachedAt": "2026-11-07T13:24:28.845235+00:00",
+    "data": {
+      "id": "8815948e-9e9b-4010-8b35-04b1404dd504",
+      "name": "Rajasthan vs Uttar Pradesh, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 10:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T10:30:00",
+      "teams": [
+        "Rajasthan",
+        "Uttar Pradesh"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
   }
 }
