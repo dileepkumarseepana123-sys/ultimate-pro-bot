@@ -7528,5 +7528,70 @@
       ],
       "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
     }
+  },
+  "8f6dadd6-2ac1-48b7-bfd4-a07ac156ca1b": {
+    "cachedAt": "2026-11-08T13:45:49.692100+00:00",
+    "data": {
+      "id": "8f6dadd6-2ac1-48b7-bfd4-a07ac156ca1b",
+      "name": "New Zealand vs India, 5th ODI, India tour of New Zealand 2026",
+      "status": "Match starts at Nov 15, 02:00 GMT",
+      "venue": "Bay Oval, Mount Maunganui",
+      "date": "2026-11-15",
+      "dateTimeGMT": "2026-11-15T02:00:00",
+      "teams": [
+        "New Zealand",
+        "India"
+      ],
+      "series_id": "9f0a2527-1508-42b3-9945-4ade13fd4b5a"
+    }
+  },
+  "224357e5-a0a8-4394-bacb-45b5a330ca20": {
+    "cachedAt": "2026-11-08T13:45:49.819323+00:00",
+    "data": {
+      "id": "224357e5-a0a8-4394-bacb-45b5a330ca20",
+      "name": "Australia vs England, 2nd ODI, England tour of Australia, 2026",
+      "status": "Match starts at Nov 15, 03:30 GMT",
+      "venue": "Adelaide Oval, Adelaide",
+      "date": "2026-11-15",
+      "dateTimeGMT": "2026-11-15T03:30:00",
+      "teams": [
+        "Australia",
+        "England"
+      ],
+      "series_id": "9c385594-20fe-4d3d-b2bb-df4de8e043bc"
+    }
+  },
+  "f2ccd740-e51f-4cdc-bf0a-fe5c86005503": {
+    "cachedAt": "2026-11-08T13:45:49.946521+00:00",
+    "data": {
+      "id": "f2ccd740-e51f-4cdc-bf0a-fe5c86005503",
+      "name": "South Africa vs Bangladesh, 1st Test, Bangladesh tour of South Africa, 2026",
+      "status": "Match starts at Nov 15, 07:30 GMT",
+      "venue": "The Wanderers Stadium, Johannesburg",
+      "date": "2026-11-15",
+      "dateTimeGMT": "2026-11-15T07:30:00",
+      "teams": [
+        "South Africa",
+        "Bangladesh"
+      ],
+      "series_id": "7acadb0c-bc4e-4c91-8c47-7bbe53f2227b"
+    }
+  },
+  "cc699368-6fb5-4dce-b95f-5b62a373689e": {
+    "cachedAt": "2026-11-08T13:45:50.073730+00:00",
+    "data": {
+      "id": "cc699368-6fb5-4dce-b95f-5b62a373689e",
+      "name": "Royal Desert Champions vs Arabian Aces, 19th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 15, 11:30 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-15",
+      "dateTimeGMT": "2026-11-15T11:30:00",
+      "teams": [
+        "Royal Desert Champions",
+        "Arabian Aces"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
   }
 }
