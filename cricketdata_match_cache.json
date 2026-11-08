@@ -7593,5 +7593,141 @@
       ],
       "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
     }
+  },
+  "e49f3fb3-d0dc-415c-aaca-f792ed27c663": {
+    "cachedAt": "2026-11-08T19:52:13.003367+00:00",
+    "data": {
+      "id": "e49f3fb3-d0dc-415c-aaca-f792ed27c663",
+      "name": "Karnali Yaks vs Pokhara Avengers, 19th Match, Nepal Premier League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 09, 06:45 GMT",
+      "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+      "date": "2026-11-09",
+      "dateTimeGMT": "2026-11-09T06:45:00",
+      "teams": [
+        "Karnali Yaks",
+        "Pokhara Avengers"
+      ],
+      "series_id": "79d251de-9b11-4ddf-aa7d-ba7c0b95daee"
+    }
+  },
+  "13a6d29e-3f89-4910-8e92-f7d90c85a763": {
+    "cachedAt": "2026-11-08T19:52:13.154885+00:00",
+    "data": {
+      "id": "13a6d29e-3f89-4910-8e92-f7d90c85a763",
+      "name": "Chitwan Rhinos vs Kathmandu Gorkhas, 20th Match, Nepal Premier League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 09, 11:15 GMT",
+      "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+      "date": "2026-11-09",
+      "dateTimeGMT": "2026-11-09T11:15:00",
+      "teams": [
+        "Chitwan Rhinos",
+        "Kathmandu Gorkhas"
+      ],
+      "series_id": "79d251de-9b11-4ddf-aa7d-ba7c0b95daee"
+    }
+  },
+  "517d9afa-4519-4bcf-a49d-8478ce657665": {
+    "cachedAt": "2026-11-08T19:52:13.309961+00:00",
+    "data": {
+      "id": "517d9afa-4519-4bcf-a49d-8478ce657665",
+      "name": "Janakpur Bolts vs Sudur Paschim Royals, 21st Match, Nepal Premier League 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+      "date": "2026-11-10",
+      "dateTimeGMT": "2026-11-10T10:45:00",
+      "teams": [
+        "Janakpur Bolts",
+        "Sudur Paschim Royals"
+      ],
+      "series_id": "79d251de-9b11-4ddf-aa7d-ba7c0b95daee"
+    }
+  },
+  "4e2d8b76-cf53-4b26-8fcf-f3bf777fdfbc": {
+    "cachedAt": "2026-11-08T19:52:13.462607+00:00",
+    "data": {
+      "id": "4e2d8b76-cf53-4b26-8fcf-f3bf777fdfbc",
+      "name": "Western Province vs South Western Districts, Super Eights, CSA T20 Challenge 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Newlands, Cape Town",
+      "date": "2026-11-10",
+      "dateTimeGMT": "2026-11-10T16:00:00",
+      "teams": [
+        "Western Province",
+        "South Western Districts"
+      ],
+      "series_id": "2e8ef833-bbaa-4b0c-8d4f-a0c4c2fe58b6"
+    }
+  },
+  "545b0bb8-2345-4999-bc55-ac97e8c1b22f": {
+    "cachedAt": "2026-11-08T19:52:13.615311+00:00",
+    "data": {
+      "id": "545b0bb8-2345-4999-bc55-ac97e8c1b22f",
+      "name": "Boland vs Lions, Super Eights, CSA T20 Challenge 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Boland Park, Paarl",
+      "date": "2026-11-11",
+      "dateTimeGMT": "2026-11-11T11:00:00",
+      "teams": [
+        "Boland",
+        "Lions"
+      ],
+      "series_id": "2e8ef833-bbaa-4b0c-8d4f-a0c4c2fe58b6"
+    }
+  },
+  "ece37dee-f69c-4534-9144-6af0257714fa": {
+    "cachedAt": "2026-11-08T19:52:13.768436+00:00",
+    "data": {
+      "id": "ece37dee-f69c-4534-9144-6af0257714fa",
+      "name": "Titans vs Warriors, Super Eights, CSA T20 Challenge 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "SuperSport Park, Centurion",
+      "date": "2026-11-11",
+      "dateTimeGMT": "2026-11-11T16:00:00",
+      "teams": [
+        "Titans",
+        "Warriors"
+      ],
+      "series_id": "2e8ef833-bbaa-4b0c-8d4f-a0c4c2fe58b6"
+    }
+  },
+  "487a116a-24df-41d2-80b1-692b855df4dc": {
+    "cachedAt": "2026-11-08T19:52:13.924432+00:00",
+    "data": {
+      "id": "487a116a-24df-41d2-80b1-692b855df4dc",
+      "name": "Papua New Guinea Women vs Scotland Women, 2nd Match, Group A, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Seven Districts Ground, Ajman",
+      "date": "2026-11-12",
+      "dateTimeGMT": "2026-11-12T05:30:00",
+      "teams": [
+        "Papua New Guinea Women",
+        "Scotland Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "981e8508-63fe-4ac4-b92c-655fef836ae5": {
+    "cachedAt": "2026-11-08T19:52:14.076735+00:00",
+    "data": {
+      "id": "981e8508-63fe-4ac4-b92c-655fef836ae5",
+      "name": "Sri Lanka Women vs Ireland Women, 1st Match, Group A, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "TBC, TBC",
+      "date": "2026-11-12",
+      "dateTimeGMT": "2026-11-12T05:30:00",
+      "teams": [
+        "Sri Lanka Women",
+        "Ireland Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
   }
 }
