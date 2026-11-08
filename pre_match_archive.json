@@ -120063,7 +120063,7 @@
         }
     },
     "namibia women|rwanda women|2026-11-08": {
-        "capturedAt": "2026-11-07T19:34:55.994374+00:00",
+        "capturedAt": "2026-11-08T06:29:04.664852+00:00",
         "matchDate": "2026-11-08",
         "report": {
             "teamA": "Namibia Women",
@@ -120128,14 +120128,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "MODERATE GAP",
-            "swingScore": 57.9,
+            "swingScore": 55.4,
             "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 67,
                 "swingProfile": "CONDITIONAL SWING PROFILE",
-                "swingScore": 57.9,
+                "swingScore": 55.4,
                 "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
                 "competitiveBalance": {
                     "label": "MODERATE GAP",
@@ -120180,10 +120180,10 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 48.9% chasing wins",
-                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
+                    "High dew may create strong chase-side bias",
                     "Liquidity/market depth is not verified"
                 ],
                 "scoreComponents": [
@@ -120204,7 +120204,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 90.0,
+                        "score": 60.0,
                         "weight": 0.1
                     },
                     {
@@ -120243,7 +120243,7 @@
                     "Two-way venue: 48.9% chasing wins",
                     "Overs 7-14 wicket pressure: 4.64 wickets/match",
                     "16th-over baseline: 6.6 runs; wicket in 44.9% of sampled innings",
-                    "Weather: rain 49%, dew MEDIUM"
+                    "Weather: rain 59%, dew HIGH"
                 ],
                 "evidence": [
                     "Elo: Namibia Women 1540.4 vs Rwanda Women 1657.2",
@@ -120478,17 +120478,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-08T09:30:00+03:00",
-                "temperature_c": 21.3,
-                "humidity_pct": 87,
-                "dew_point_c": 19.1,
-                "rain_probability_pct": 49,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 9.3,
-                "dew_risk": "MEDIUM",
+                "temperature_c": 21.1,
+                "humidity_pct": 91,
+                "dew_point_c": 19.6,
+                "rain_probability_pct": 59,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 9.2,
+                "dew_risk": "HIGH",
                 "rain_risk": "MEDIUM"
             },
-            "weatherText": "21.3°C | RH 87% | Rain 49% | Wind 9.3 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "21.1°C | RH 91% | Rain 59% | Wind 9.2 km/h",
+            "dewRisk": "HIGH",
             "tossBias": "48.94% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "32.30",
@@ -120532,10 +120532,11 @@
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.0,
             "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
-            "noBetReasons": [],
+            "noBetReasons": [
+                "HIGH DEW RISK"
+            ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "MODERATE SKILL GAP",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
@@ -120544,7 +120545,7 @@
         }
     },
     "uganda women|united states of america women|2026-11-08": {
-        "capturedAt": "2026-11-07T19:34:55.994387+00:00",
+        "capturedAt": "2026-11-08T06:29:04.664882+00:00",
         "matchDate": "2026-11-08",
         "report": {
             "teamA": "Uganda Women",
@@ -120603,15 +120604,15 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "BALANCED",
-            "swingScore": 60.0,
-            "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+            "swingScore": 35.0,
+            "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 67,
                 "swingProfile": "CONDITIONAL SWING PROFILE",
-                "swingScore": 60.0,
-                "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                "swingScore": 35.0,
+                "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
                 "competitiveBalance": {
                     "label": "BALANCED",
                     "balanceScore": 81.7,
@@ -120649,10 +120650,11 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 48.9% chasing wins",
-                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
+                    "High dew may create strong chase-side bias",
+                    "High rain-interruption risk",
                     "Liquidity/market depth is not verified"
                 ],
                 "scoreComponents": [
@@ -120673,7 +120675,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 90.0,
+                        "score": 20.0,
                         "weight": 0.1
                     },
                     {
@@ -120690,12 +120692,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -120712,7 +120714,7 @@
                     "Two-way venue: 48.9% chasing wins",
                     "Overs 7-14 wicket pressure: 4.64 wickets/match",
                     "16th-over baseline: 6.6 runs; wicket in 44.9% of sampled innings",
-                    "Weather: rain 53%, dew MEDIUM"
+                    "Weather: rain 71%, dew HIGH"
                 ],
                 "evidence": [
                     "Elo: Uganda Women 1637.1 vs United States of America Women 1570.2",
@@ -120947,17 +120949,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-08T14:00:00+03:00",
-                "temperature_c": 23.1,
-                "humidity_pct": 81,
-                "dew_point_c": 19.7,
-                "rain_probability_pct": 53,
-                "precipitation_mm": 1.1,
-                "wind_kmh": 12.3,
-                "dew_risk": "MEDIUM",
-                "rain_risk": "MEDIUM"
+                "temperature_c": 21.2,
+                "humidity_pct": 89,
+                "dew_point_c": 19.3,
+                "rain_probability_pct": 71,
+                "precipitation_mm": 2.8,
+                "wind_kmh": 4.1,
+                "dew_risk": "HIGH",
+                "rain_risk": "HIGH"
             },
-            "weatherText": "23.1°C | RH 81% | Rain 53% | Wind 12.3 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "21.2°C | RH 89% | Rain 71% | Wind 4.1 km/h",
+            "dewRisk": "HIGH",
             "tossBias": "48.94% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "32.30",
@@ -121001,10 +121003,12 @@
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.0,
             "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
-            "noBetReasons": [],
+            "noBetReasons": [
+                "HIGH DEW RISK",
+                "HIGH RAIN INTERRUPTION RISK"
+            ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
@@ -121012,7 +121016,7 @@
         }
     },
     "rwanda women|uganda women|2026-11-08": {
-        "capturedAt": "2026-11-07T19:34:55.994397+00:00",
+        "capturedAt": "2026-11-08T06:29:04.664900+00:00",
         "matchDate": "2026-11-08",
         "report": {
             "teamA": "Uganda Women",
@@ -121114,14 +121118,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "BALANCED",
-            "swingScore": 60.0,
+            "swingScore": 59.9,
             "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 67,
                 "swingProfile": "CONDITIONAL SWING PROFILE",
-                "swingScore": 60.0,
+                "swingScore": 59.9,
                 "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
                 "competitiveBalance": {
                     "label": "BALANCED",
@@ -121203,10 +121207,10 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 48.9% chasing wins",
-                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
+                    "High dew may create strong chase-side bias",
                     "Liquidity/market depth is not verified"
                 ],
                 "scoreComponents": [
@@ -121227,7 +121231,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 90.0,
+                        "score": 60.0,
                         "weight": 0.1
                     },
                     {
@@ -121266,7 +121270,7 @@
                     "Two-way venue: 48.9% chasing wins",
                     "Overs 7-14 wicket pressure: 4.64 wickets/match",
                     "16th-over baseline: 6.6 runs; wicket in 44.9% of sampled innings",
-                    "Weather: rain 49%, dew MEDIUM"
+                    "Weather: rain 59%, dew HIGH"
                 ],
                 "evidence": [
                     "Elo: Uganda Women 1637.1 vs Rwanda Women 1657.2",
@@ -121502,17 +121506,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-08T09:30:00+03:00",
-                "temperature_c": 21.3,
-                "humidity_pct": 87,
-                "dew_point_c": 19.1,
-                "rain_probability_pct": 49,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 9.3,
-                "dew_risk": "MEDIUM",
+                "temperature_c": 21.1,
+                "humidity_pct": 91,
+                "dew_point_c": 19.6,
+                "rain_probability_pct": 59,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 9.2,
+                "dew_risk": "HIGH",
                 "rain_risk": "MEDIUM"
             },
-            "weatherText": "21.3°C | RH 87% | Rain 49% | Wind 9.3 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "21.1°C | RH 91% | Rain 59% | Wind 9.2 km/h",
+            "dewRisk": "HIGH",
             "tossBias": "48.94% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "32.30",
@@ -121556,10 +121560,11 @@
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.0,
             "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
-            "noBetReasons": [],
+            "noBetReasons": [
+                "HIGH DEW RISK"
+            ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
@@ -121567,7 +121572,7 @@
         }
     },
     "eastern storm|warriors super eights willowmoore park benoni|2026-11-08": {
-        "capturedAt": "2026-11-07T19:34:55.994410+00:00",
+        "capturedAt": "2026-11-08T06:29:04.664921+00:00",
         "matchDate": "2026-11-08",
         "report": {
             "teamA": "Eastern Storm",
@@ -121616,14 +121621,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 17.5,
+            "swingScore": 27.3,
             "strategyLabel": "INSUFFICIENT DATA",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 17,
                 "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 17.5,
+                "swingScore": 27.3,
                 "strategyLabel": "INSUFFICIENT DATA",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -121652,13 +121657,12 @@
                 },
                 "swingCatalysts": [],
                 "swingPenalties": [
-                    "High rain-interruption risk",
                     "Liquidity/market depth is not verified"
                 ],
                 "scoreComponents": [
                     {
                         "name": "weather",
-                        "score": 20.0,
+                        "score": 70.0,
                         "weight": 0.1
                     },
                     {
@@ -121692,7 +121696,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 72%, dew LOW"
+                    "Weather: rain 47%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -121742,16 +121746,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-08T10:00:00+02:00",
-                "temperature_c": 23.5,
-                "humidity_pct": 53,
-                "dew_point_c": 13.4,
-                "rain_probability_pct": 72,
-                "precipitation_mm": 0.2,
-                "wind_kmh": 7.1,
+                "temperature_c": 24.0,
+                "humidity_pct": 51,
+                "dew_point_c": 13.1,
+                "rain_probability_pct": 47,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 13.6,
                 "dew_risk": "LOW",
-                "rain_risk": "HIGH"
+                "rain_risk": "MEDIUM"
             },
-            "weatherText": "23.5°C | RH 53% | Rain 72% | Wind 7.1 km/h",
+            "weatherText": "24.0°C | RH 51% | Rain 47% | Wind 13.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -121784,7 +121788,6 @@
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
-                "HIGH RAIN INTERRUPTION RISK",
                 "LIMITED RECENT T20 DATA FOR Eastern Storm",
                 "LIMITED RECENT T20 DATA FOR Warriors,Super Eights Willowmoore Park , Benoni"
             ],
@@ -121798,7 +121801,7 @@
         }
     },
     "dolphins super eights supersport park centurion|titans|2026-11-08": {
-        "capturedAt": "2026-11-07T19:34:55.994422+00:00",
+        "capturedAt": "2026-11-08T06:29:04.664933+00:00",
         "matchDate": "2026-11-08",
         "report": {
             "teamA": "Titans",
@@ -121881,7 +121884,9 @@
                     "sourceLimitations": [],
                     "majorTeamAsymmetryProxyUsed": false
                 },
-                "swingCatalysts": [],
+                "swingCatalysts": [
+                    "Medium dew can change second-innings conditions"
+                ],
                 "swingPenalties": [
                     "High rain-interruption risk",
                     "Liquidity/market depth is not verified"
@@ -121923,7 +121928,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 94%, dew LOW"
+                    "Weather: rain 88%, dew MEDIUM"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -122064,17 +122069,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-08T14:30:00+02:00",
-                "temperature_c": 26.1,
-                "humidity_pct": 45,
-                "dew_point_c": 13.2,
-                "rain_probability_pct": 94,
-                "precipitation_mm": 0.2,
-                "wind_kmh": 7.6,
-                "dew_risk": "LOW",
+                "temperature_c": 19.7,
+                "humidity_pct": 83,
+                "dew_point_c": 16.7,
+                "rain_probability_pct": 88,
+                "precipitation_mm": 4.5,
+                "wind_kmh": 14.9,
+                "dew_risk": "MEDIUM",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "26.1°C | RH 45% | Rain 94% | Wind 7.6 km/h",
-            "dewRisk": "LOW",
+            "weatherText": "19.7°C | RH 83% | Rain 88% | Wind 14.9 km/h",
+            "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "UNKNOWN",
@@ -122112,6 +122117,7 @@
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",

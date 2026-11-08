@@ -7393,5 +7393,140 @@
       ],
       "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
     }
+  },
+  "68f30d32-661f-45b7-ac3a-7fa2413a2854": {
+    "cachedAt": "2026-11-08T06:27:52.743724+00:00",
+    "data": {
+      "id": "68f30d32-661f-45b7-ac3a-7fa2413a2854",
+      "name": "Karnataka vs Bengal, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 11:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T11:00:00",
+      "teams": [
+        "Karnataka",
+        "Bengal"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "48066ba4-51bb-4b4a-873a-6fb9f90bef1a": {
+    "cachedAt": "2026-11-08T06:27:52.920488+00:00",
+    "data": {
+      "id": "48066ba4-51bb-4b4a-873a-6fb9f90bef1a",
+      "name": "Madhya Pradesh vs Kerala, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 11:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T11:00:00",
+      "teams": [
+        "Madhya Pradesh",
+        "Kerala"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "30d61bdf-cf46-461f-866b-329ee5b5d4cf": {
+    "cachedAt": "2026-11-08T06:27:53.099847+00:00",
+    "data": {
+      "id": "30d61bdf-cf46-461f-866b-329ee5b5d4cf",
+      "name": "Jammu And Kashmir vs Delhi, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 14, 11:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T11:00:00",
+      "teams": [
+        "Jammu And Kashmir",
+        "Delhi"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "6c7a29f6-46e6-4823-bff8-d2f4a8834a50": {
+    "cachedAt": "2026-11-08T06:27:53.276873+00:00",
+    "data": {
+      "id": "6c7a29f6-46e6-4823-bff8-d2f4a8834a50",
+      "name": "Royal Desert Champions vs United Tigers, 16th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 14, 11:30 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T11:30:00",
+      "teams": [
+        "Royal Desert Champions",
+        "United Tigers"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "4408c117-75fa-4266-8886-faa366f67afc": {
+    "cachedAt": "2026-11-08T06:27:53.460186+00:00",
+    "data": {
+      "id": "4408c117-75fa-4266-8886-faa366f67afc",
+      "name": "Arabian Aces vs Emirates Eagles, 17th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 14, 13:45 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T13:45:00",
+      "teams": [
+        "Arabian Aces",
+        "Emirates Eagles"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "d712a999-8378-48b8-869d-8000ff6cdd28": {
+    "cachedAt": "2026-11-08T06:27:53.638319+00:00",
+    "data": {
+      "id": "d712a999-8378-48b8-869d-8000ff6cdd28",
+      "name": "Yas Lions vs Uae Bulls, 18th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t10",
+      "status": "Match starts at Nov 14, 16:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T16:00:00",
+      "teams": [
+        "Yas Lions",
+        "Uae Bulls"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "a1ba201b-941e-4b34-a1e7-8f057e6c1dcb": {
+    "cachedAt": "2026-11-08T06:27:53.816830+00:00",
+    "data": {
+      "id": "a1ba201b-941e-4b34-a1e7-8f057e6c1dcb",
+      "name": "West Indies A vs England Lions, 4th Unofficial ODI, England Lions tour of West Indies, 2026",
+      "status": "Match starts at Nov 14, 18:00 GMT",
+      "venue": "Warner Park, Basseterre, St Kitts",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T18:00:00",
+      "teams": [
+        "West Indies A",
+        "England Lions"
+      ],
+      "series_id": "de4e4745-dcbb-42bd-8254-ebf28f10d449"
+    }
+  },
+  "f27075e3-6957-4e29-a50e-a15ac0d61205": {
+    "cachedAt": "2026-11-08T06:27:53.994302+00:00",
+    "data": {
+      "id": "f27075e3-6957-4e29-a50e-a15ac0d61205",
+      "name": "Sydney Sixers Women vs Melbourne Renegades Women, 23rd Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 15, 00:00 GMT",
+      "venue": "North Sydney Oval, Sydney",
+      "date": "2026-11-15",
+      "dateTimeGMT": "2026-11-15T00:00:00",
+      "teams": [
+        "Sydney Sixers Women",
+        "Melbourne Renegades Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }
