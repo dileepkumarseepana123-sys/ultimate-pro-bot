@@ -7865,5 +7865,141 @@
       ],
       "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
     }
+  },
+  "3e6b3fc6-c2dc-4830-9f64-2d73e8942ffc": {
+    "cachedAt": "2026-11-09T20:56:16.746734+00:00",
+    "data": {
+      "id": "3e6b3fc6-c2dc-4830-9f64-2d73e8942ffc",
+      "name": "Vidarbha vs Odisha, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 03:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T03:30:00",
+      "teams": [
+        "Vidarbha",
+        "Odisha"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "1ff33ce1-11b0-420f-9c32-17bda8900d7a": {
+    "cachedAt": "2026-11-09T20:56:16.943393+00:00",
+    "data": {
+      "id": "1ff33ce1-11b0-420f-9c32-17bda8900d7a",
+      "name": "Railways vs Bihar, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 03:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T03:30:00",
+      "teams": [
+        "Railways",
+        "Bihar"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "ade20e74-e225-4e76-ab6a-e32cc9c15484": {
+    "cachedAt": "2026-11-09T20:56:17.139266+00:00",
+    "data": {
+      "id": "ade20e74-e225-4e76-ab6a-e32cc9c15484",
+      "name": "Uttarakhand vs Goa, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T05:30:00",
+      "teams": [
+        "Uttarakhand",
+        "Goa"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "45ed22a4-43f1-4abf-a0ff-b5cd70dcc304": {
+    "cachedAt": "2026-11-09T20:56:17.334936+00:00",
+    "data": {
+      "id": "45ed22a4-43f1-4abf-a0ff-b5cd70dcc304",
+      "name": "Jammu And Kashmir vs Tamil Nadu, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T05:30:00",
+      "teams": [
+        "Jammu And Kashmir",
+        "Tamil Nadu"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "05686b22-c798-4b34-bc21-9d643d183cf4": {
+    "cachedAt": "2026-11-09T20:56:17.530492+00:00",
+    "data": {
+      "id": "05686b22-c798-4b34-bc21-9d643d183cf4",
+      "name": "Madhya Pradesh vs Assam, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T05:30:00",
+      "teams": [
+        "Madhya Pradesh",
+        "Assam"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "b57dc6fb-3326-435c-9408-22aa46cb6d3a": {
+    "cachedAt": "2026-11-09T20:56:17.725952+00:00",
+    "data": {
+      "id": "b57dc6fb-3326-435c-9408-22aa46cb6d3a",
+      "name": "Karnataka vs Uttar Pradesh, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T05:30:00",
+      "teams": [
+        "Karnataka",
+        "Uttar Pradesh"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "75474fb9-0fa4-43b3-85a2-b7be9c51f366": {
+    "cachedAt": "2026-11-09T20:56:17.922807+00:00",
+    "data": {
+      "id": "75474fb9-0fa4-43b3-85a2-b7be9c51f366",
+      "name": "Nagaland vs Manipur, Plate, Syed Mushtaq Ali Trophy Plate 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T05:30:00",
+      "teams": [
+        "Nagaland",
+        "Manipur"
+      ],
+      "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
+    }
+  },
+  "e6e7af56-0206-4955-934d-08a2901d4185": {
+    "cachedAt": "2026-11-09T20:56:18.118500+00:00",
+    "data": {
+      "id": "e6e7af56-0206-4955-934d-08a2901d4185",
+      "name": "Sikkim vs Arunachal Pradesh, Plate, Syed Mushtaq Ali Trophy Plate 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T05:30:00",
+      "teams": [
+        "Sikkim",
+        "Arunachal Pradesh"
+      ],
+      "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
+    }
   }
 }
