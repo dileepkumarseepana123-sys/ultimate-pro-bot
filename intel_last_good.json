@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-11-08T19:52:51.005051+00:00",
+    "last_updated": "2026-11-09T07:00:28.823979+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -23,22 +23,21 @@
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
         "match_info_calls_this_run": 8,
-        "match_info_cache_hits_this_run": 133,
-        "match_info_enriched_rows": 141,
-        "match_info_cache_size": 457,
+        "match_info_cache_hits_this_run": 114,
+        "match_info_enriched_rows": 122,
+        "match_info_cache_size": 465,
         "max_match_info_lookups_per_run": 8,
-        "squad_calls_this_run": 1,
+        "squad_calls_this_run": 0,
         "squad_cache_hits_this_run": 0,
         "squad_cache_size": 103,
         "endpoint_calls_this_run": {
             "cricScore": 1,
             "currentMatches": 1,
             "match_info": 8,
-            "matches": 2,
-            "match_squad": 1
+            "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 22,
+        "hits_today_reported": 34,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -71,39 +70,39 @@
         "current_matches_rows": 25,
         "current_matches_t20_rows": 8,
         "current_matches_today_t20_rows": 0,
-        "cricscore_rows": 149,
-        "cricscore_t20_rows": 66,
-        "cricscore_today_t20_rows": 2,
+        "cricscore_rows": 130,
+        "cricscore_t20_rows": 65,
+        "cricscore_today_t20_rows": 0,
         "cricketdata_rows": 50,
-        "cricketdata_t20_rows": 28,
-        "cricketdata_today_t20_rows": 2,
-        "merged_candidates": 70,
+        "cricketdata_t20_rows": 17,
+        "cricketdata_today_t20_rows": 0,
+        "merged_candidates": 69,
         "final_reports": 2
     },
     "summary": {
         "today_t20_count": 2,
-        "no_bet_or_high_caution": 0,
+        "no_bet_or_high_caution": 1,
         "wait": 0,
-        "data_clear": 2
+        "data_clear": 1
     },
     "matches": [
         {
             "teamA": "Karnali Yaks",
             "teamB": "Pokhara Avengers",
-            "name": "Karnali Yaks vs Pokhara Avengers",
+            "name": "Karnali Yaks vs Pokhara Avengers,19th Match Tribhuvan University International Cricket Ground , Kirtipur",
             "matchType": "T20",
-            "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
-            "dateTimeGMT": "2026-11-09T06:45:00",
+            "venue": "Tribhuvan University International Cricket Ground , Kirtipur",
+            "dateTimeGMT": "2026-11-09T06:45:00+00:00",
             "sourceDate": "2026-11-09",
             "matchTimeIST": "2026-11-09T12:15:00+05:30",
             "indiaDate": "2026-11-09",
             "series": "Nepal Premier League 2026",
-            "sourceName": "CricketData cricScore + Match List",
-            "supplementalSourceName": "Cricbuzz via text relay",
+            "sourceName": "Cricbuzz via text relay",
+            "supplementalSourceName": null,
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177740/kay-vs-poa-19th-match-nepal-premier-league-2026",
-            "cricketDataMatchId": "e49f3fb3-d0dc-415c-aaca-f792ed27c663",
+            "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 09, 06:45 GMT",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -237,17 +236,494 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-11-08T19:52:50.907655+00:00",
+                "matchDate": "2026-11-09",
+                "report": {
+                    "teamA": "Karnali Yaks",
+                    "teamB": "Pokhara Avengers",
+                    "name": "Karnali Yaks vs Pokhara Avengers",
+                    "matchType": "T20",
+                    "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                    "dateTimeGMT": "2026-11-09T06:45:00",
+                    "sourceDate": "2026-11-09",
+                    "matchTimeIST": "2026-11-09T12:15:00+05:30",
+                    "indiaDate": "2026-11-09",
+                    "series": "Nepal Premier League 2026",
+                    "sourceName": "CricketData cricScore + Match List",
+                    "supplementalSourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177740/kay-vs-poa-19th-match-nepal-premier-league-2026",
+                    "cricketDataMatchId": "e49f3fb3-d0dc-415c-aaca-f792ed27c663",
+                    "liveScoreText": null,
+                    "sourceStatus": "Match starts at Nov 09, 06:45 GMT",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "BALANCED",
+                        "balanceScore": 91.9,
+                        "teamAElo": 1478.0,
+                        "teamBElo": 1445.8,
+                        "eloMatchesA": 16,
+                        "eloMatchesB": 13,
+                        "eloGap": 32.2,
+                        "recentWinRateA": 30.0,
+                        "recentWinRateB": 33.3,
+                        "recentFormGapPct": 3.3,
+                        "headToHead": {
+                            "matches": 2,
+                            "teamAWins": 1,
+                            "teamBWins": 1,
+                            "recent": [
+                                {
+                                    "date": "2025-12-02",
+                                    "winner": "Pokhara Avengers",
+                                    "marginType": "runs",
+                                    "marginValue": 34.0
+                                },
+                                {
+                                    "date": "2024-12-10",
+                                    "winner": "Karnali Yaks",
+                                    "marginType": "wickets",
+                                    "marginValue": 7.0
+                                }
+                            ]
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": "Karnali Yaks",
+                        "signals": [
+                            "Derived Elo gap 32.2",
+                            "Recent win-rate gap 3.3 percentage points"
+                        ],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "BALANCED",
+                    "swingScore": 60.0,
+                    "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 67,
+                        "swingProfile": "CONDITIONAL SWING PROFILE",
+                        "swingScore": 60.0,
+                        "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                        "competitiveBalance": {
+                            "label": "BALANCED",
+                            "balanceScore": 91.9,
+                            "teamAElo": 1478.0,
+                            "teamBElo": 1445.8,
+                            "eloMatchesA": 16,
+                            "eloMatchesB": 13,
+                            "eloGap": 32.2,
+                            "recentWinRateA": 30.0,
+                            "recentWinRateB": 33.3,
+                            "recentFormGapPct": 3.3,
+                            "headToHead": {
+                                "matches": 2,
+                                "teamAWins": 1,
+                                "teamBWins": 1,
+                                "recent": [
+                                    {
+                                        "date": "2025-12-02",
+                                        "winner": "Pokhara Avengers",
+                                        "marginType": "runs",
+                                        "marginValue": 34.0
+                                    },
+                                    {
+                                        "date": "2024-12-10",
+                                        "winner": "Karnali Yaks",
+                                        "marginType": "wickets",
+                                        "marginValue": 7.0
+                                    }
+                                ]
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": "Karnali Yaks",
+                            "signals": [
+                                "Derived Elo gap 32.2",
+                                "Recent win-rate gap 3.3 percentage points"
+                            ],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [
+                            "Historically two-way venue: 48.0% chasing wins",
+                            "Middle-overs wicket volatility: 4.54 wickets/match in overs 7-14"
+                        ],
+                        "swingPenalties": [
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "competitive_balance",
+                                "score": 91.9,
+                                "weight": 0.35
+                            },
+                            {
+                                "name": "venue_two_way",
+                                "score": 96.0,
+                                "weight": 0.2
+                            },
+                            {
+                                "name": "middle_over_volatility",
+                                "score": 75.7,
+                                "weight": 0.15
+                            },
+                            {
+                                "name": "weather",
+                                "score": 70.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "No squad data"
+                    },
+                    "squadSummary": {
+                        "status": "NO SQUAD DATA",
+                        "teams": {},
+                        "source": "No squad data"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS WATCHLIST",
+                        "dataConfidencePct": 57,
+                        "initialPrediction": "Pre-toss evidence is broadly balanced; no clear historical side edge.",
+                        "edgeTeam": null,
+                        "edgeStrength": "BALANCED",
+                        "edgeScore": 0.24,
+                        "swingRead": "GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+                        "conditions": [
+                            "Historical first-innings baseline: 148.2",
+                            "Powerplay baseline: 40.4 runs / 1.67 wickets",
+                            "Two-way venue: 48.0% chasing wins",
+                            "Overs 7-14 wicket pressure: 4.54 wickets/match",
+                            "16th-over baseline: 7.8 runs; wicket in 43.5% of sampled innings",
+                            "Weather: rain 1%, dew LOW"
+                        ],
+                        "evidence": [
+                            "Elo: Karnali Yaks 1478.0 vs Pokhara Avengers 1445.8",
+                            "Recent form: 30.0% vs 33.3% wins"
+                        ],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": 148.21,
+                        "powerplayBaseline": 40.35,
+                        "powerplayWicketsBaseline": 1.67,
+                        "chasingWinPct": 48.0,
+                        "middleOversWicketsPerMatch": 4.54,
+                        "over16AvgRuns": 7.76,
+                        "over16WicketEventPct": 43.46,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "NO SQUAD DATA",
+                        "summary": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 10,
+                        "wins": 3,
+                        "losses": 7,
+                        "winRatePct": 30.0,
+                        "avgMarginImpact": -0.242,
+                        "recent": [
+                            {
+                                "date": "2025-12-07",
+                                "winner": "Karnali Yaks",
+                                "won": true,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 3.0,
+                                "marginImpact": 0.05
+                            },
+                            {
+                                "date": "2025-12-02",
+                                "winner": "Pokhara Avengers",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 34.0,
+                                "marginImpact": -0.567
+                            },
+                            {
+                                "date": "2025-11-30",
+                                "winner": "Kathmandu Gorkhas",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "wickets",
+                                "marginValue": 5.0,
+                                "marginImpact": -0.625
+                            },
+                            {
+                                "date": "2025-11-28",
+                                "winner": "Biratnagar Kings",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "wickets",
+                                "marginValue": 3.0,
+                                "marginImpact": -0.375
+                            },
+                            {
+                                "date": "2025-11-24",
+                                "winner": "Sudur Paschim Royals",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 45.0,
+                                "marginImpact": -0.75
+                            },
+                            {
+                                "date": "2025-11-22",
+                                "winner": "Karnali Yaks",
+                                "won": true,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "wickets",
+                                "marginValue": 9.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2025-11-18",
+                                "winner": "Chitwan Rhinos",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "wickets",
+                                "marginValue": 4.0,
+                                "marginImpact": -0.5
+                            },
+                            {
+                                "date": "2024-12-19",
+                                "winner": "Janakpur Bolts",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "wickets",
+                                "marginValue": 2.0,
+                                "marginImpact": -0.25
+                            },
+                            {
+                                "date": "2024-12-18",
+                                "winner": "Karnali Yaks",
+                                "won": true,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 21.0,
+                                "marginImpact": 0.35
+                            },
+                            {
+                                "date": "2024-12-16",
+                                "winner": "Sudur Paschim Royals",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.75
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 10,
+                        "wins": 3,
+                        "losses": 6,
+                        "winRatePct": 33.3,
+                        "avgMarginImpact": -0.069,
+                        "recent": [
+                            {
+                                "date": "2025-12-06",
+                                "winner": "Pokhara Avengers",
+                                "won": true,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "wickets",
+                                "marginValue": 8.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2025-12-04",
+                                "winner": "Kathmandu Gorkhas",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 13.0,
+                                "marginImpact": -0.217
+                            },
+                            {
+                                "date": "2025-12-02",
+                                "winner": "Pokhara Avengers",
+                                "won": true,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 34.0,
+                                "marginImpact": 0.567
+                            },
+                            {
+                                "date": "2025-11-29",
+                                "winner": "Lumbini Lions",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "wickets",
+                                "marginValue": 3.0,
+                                "marginImpact": -0.375
+                            },
+                            {
+                                "date": "2025-11-27",
+                                "winner": "Pokhara Avengers",
+                                "won": true,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 25.0,
+                                "marginImpact": 0.417
+                            },
+                            {
+                                "date": "2025-11-21",
+                                "winner": "Sudur Paschim Royals",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 18.0,
+                                "marginImpact": -0.3
+                            },
+                            {
+                                "date": "2025-11-18",
+                                "winner": "Biratnagar Kings",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 53.0,
+                                "marginImpact": -0.883
+                            },
+                            {
+                                "date": "2024-12-15",
+                                "winner": "Sudur Paschim Royals",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 5.0,
+                                "marginImpact": -0.083
+                            },
+                            {
+                                "date": "2024-12-14",
+                                "winner": "Kathmandu Gurkhas",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.75
+                            },
+                            {
+                                "date": "2024-12-12",
+                                "winner": null,
+                                "won": null,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": null,
+                                "marginValue": null,
+                                "marginImpact": 0.0
+                            }
+                        ]
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-11-09T12:30:00+05:45",
+                        "temperature_c": 22.7,
+                        "humidity_pct": 32,
+                        "dew_point_c": 5.3,
+                        "rain_probability_pct": 1,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 3.1,
+                        "dew_risk": "LOW",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "22.7°C | RH 32% | Rain 1% | Wind 3.1 km/h",
+                    "dewRisk": "LOW",
+                    "tossBias": "48.0% Chasing Wins",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "40.35",
+                    "ppWicketsAvg": 1.67,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": 7.76,
+                    "over16WicketsPerInnings": 0.544,
+                    "over16WicketEventPct": 43.46,
+                    "over16SampleInnings": 237,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.54/match",
+                    "metricSources": {
+                        "fixture": "CricketData cricScore + Match List",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue T20 history (n=129)",
+                        "powerplay": "Cricsheet first-innings overs 1-6 (n=129)",
+                        "over16": "Cricsheet 16th-over history (n=237)",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification 0.55%"
+                    },
+                    "venueIntel": {
+                        "status": "OK",
+                        "matches": 129,
+                        "venue_confidence": 1.0,
+                        "avg_first_innings": 148.21,
+                        "powerplay_avg": 40.35,
+                        "powerplay_wickets_avg": 1.67,
+                        "chasing_win_pct": 48.0,
+                        "over16_sample_innings": 237,
+                        "over16_avg_runs": 7.76,
+                        "over16_wickets_per_innings": 0.544,
+                        "over16_wicket_event_pct": 43.46,
+                        "mid_overs_7_14_wickets": 586,
+                        "mid_overs_7_14_wickets_per_match": 4.54,
+                        "spin_classification_pct": 0.55,
+                        "spinner_7_14_wickets": null,
+                        "spin_wicket_share_pct": null,
+                        "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+                    },
+                    "midOversWickets": 586,
+                    "midOversWicketsPerMatch": 4.54,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": 0.55,
+                    "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
+                    "noBetReasons": [],
+                    "warnings": [
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-green",
+                    "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "No squad data"
+                "source": "Not queried"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "No squad data"
+                "source": "Not queried"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -499,16 +975,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-09T12:30:00+05:45",
-                "temperature_c": 22.7,
-                "humidity_pct": 32,
-                "dew_point_c": 5.3,
+                "temperature_c": 23.1,
+                "humidity_pct": 29,
+                "dew_point_c": 4.3,
                 "rain_probability_pct": 1,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 3.1,
+                "wind_kmh": 5.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "22.7°C | RH 32% | Rain 1% | Wind 3.1 km/h",
+            "weatherText": "23.1°C | RH 29% | Rain 1% | Wind 5.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "48.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -522,7 +998,7 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.54/match",
             "metricSources": {
-                "fixture": "CricketData cricScore + Match List",
+                "fixture": "Cricbuzz via text relay",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=129)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=129)",
@@ -552,32 +1028,35 @@
             "midOversWicketsPerMatch": 4.54,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.55,
-            "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
-            "noBetReasons": [],
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
+            "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED"
+            ],
             "warnings": [
+                "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-green",
+            "badgeClass": "badge-red",
             "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
         },
         {
             "teamA": "Chitwan Rhinos",
             "teamB": "Kathmandu Gorkhas",
-            "name": "Chitwan Rhinos vs Kathmandu Gorkhas",
+            "name": "Chitwan Rhinos vs Kathmandu Gorkhas,20th Match Tribhuvan University International Cricket Ground , Kirtipur",
             "matchType": "T20",
-            "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
-            "dateTimeGMT": "2026-11-09T11:15:00",
+            "venue": "Tribhuvan University International Cricket Ground , Kirtipur",
+            "dateTimeGMT": "2026-11-09T11:15:00+00:00",
             "sourceDate": "2026-11-09",
             "matchTimeIST": "2026-11-09T16:45:00+05:30",
             "indiaDate": "2026-11-09",
             "series": "Nepal Premier League 2026",
-            "sourceName": "CricketData cricScore + Match List",
-            "supplementalSourceName": "Cricbuzz via text relay",
+            "sourceName": "Cricbuzz via text relay",
+            "supplementalSourceName": null,
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177743/chr-vs-kag-20th-match-nepal-premier-league-2026",
-            "cricketDataMatchId": "13a6d29e-3f89-4910-8e92-f7d90c85a763",
+            "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 09, 11:15 GMT",
+            "sourceStatus": "Scheduled",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -726,7 +1205,7 @@
                     "Two-way venue: 48.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.54 wickets/match",
                     "16th-over baseline: 7.8 runs; wicket in 43.5% of sampled innings",
-                    "Weather: rain 4%, dew LOW"
+                    "Weather: rain 2%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Chitwan Rhinos 1464.0 vs Kathmandu Gorkhas 1522.5",
@@ -943,16 +1422,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-09T17:00:00+05:45",
-                "temperature_c": 16.2,
-                "humidity_pct": 67,
-                "dew_point_c": 10.0,
-                "rain_probability_pct": 4,
+                "temperature_c": 17.7,
+                "humidity_pct": 52,
+                "dew_point_c": 7.6,
+                "rain_probability_pct": 2,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 1.4,
+                "wind_kmh": 0.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "16.2°C | RH 67% | Rain 4% | Wind 1.4 km/h",
+            "weatherText": "17.7°C | RH 52% | Rain 2% | Wind 0.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "48.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -966,7 +1445,7 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.54/match",
             "metricSources": {
-                "fixture": "CricketData cricScore + Match List",
+                "fixture": "Cricbuzz via text relay",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=129)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=129)",
@@ -999,6 +1478,7 @@
             "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
             "noBetReasons": [],
             "warnings": [
+                "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],

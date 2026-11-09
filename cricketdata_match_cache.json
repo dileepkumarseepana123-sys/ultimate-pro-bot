@@ -7729,5 +7729,141 @@
       ],
       "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
     }
+  },
+  "d374d074-eb3b-428e-abab-9a6e94b83e5b": {
+    "cachedAt": "2026-11-09T06:59:46.637964+00:00",
+    "data": {
+      "id": "d374d074-eb3b-428e-abab-9a6e94b83e5b",
+      "name": "Netherlands Women vs Thailand Women, 4th Match, Group B, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Seven Districts Ground, Ajman",
+      "date": "2026-11-12",
+      "dateTimeGMT": "2026-11-12T09:15:00",
+      "teams": [
+        "Netherlands Women",
+        "Thailand Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "48c5e2f6-e4e4-4c45-b4b8-4ec66635a835": {
+    "cachedAt": "2026-11-09T06:59:46.779181+00:00",
+    "data": {
+      "id": "48c5e2f6-e4e4-4c45-b4b8-4ec66635a835",
+      "name": "Pakistan Women vs Bangladesh Women, 3rd Match, Group B, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Karwan Cricket Ground, Ajman",
+      "date": "2026-11-12",
+      "dateTimeGMT": "2026-11-12T09:15:00",
+      "teams": [
+        "Pakistan Women",
+        "Bangladesh Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "82d50082-2904-4ffc-8a2a-b4a2f82461bb": {
+    "cachedAt": "2026-11-09T06:59:46.917093+00:00",
+    "data": {
+      "id": "82d50082-2904-4ffc-8a2a-b4a2f82461bb",
+      "name": "Emirates Eagles vs Uae Bulls, 20th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 15, 13:45 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-15",
+      "dateTimeGMT": "2026-11-15T13:45:00",
+      "teams": [
+        "Emirates Eagles",
+        "Uae Bulls"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "3175e662-c49e-4cfa-8743-5d1940c91e08": {
+    "cachedAt": "2026-11-09T06:59:47.053843+00:00",
+    "data": {
+      "id": "3175e662-c49e-4cfa-8743-5d1940c91e08",
+      "name": "United Tigers vs Yas Lions, 21st Match, Abu Dhabi T10 League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 15, 16:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-15",
+      "dateTimeGMT": "2026-11-15T16:00:00",
+      "teams": [
+        "United Tigers",
+        "Yas Lions"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "609fb9ac-0207-4117-b1fe-8c7d5951461d": {
+    "cachedAt": "2026-11-09T06:59:47.191174+00:00",
+    "data": {
+      "id": "609fb9ac-0207-4117-b1fe-8c7d5951461d",
+      "name": "Queensland vs Tasmania, 14th Match, Australia Domestic One-Day Cup 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Nov 16, 00:00 GMT",
+      "venue": "The Gabba, Brisbane",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T00:00:00",
+      "teams": [
+        "Queensland",
+        "Tasmania"
+      ],
+      "series_id": "54464f6f-3be4-4730-9ba7-cf77ce0a9ad8"
+    }
+  },
+  "f74b451f-1295-421c-9845-8fec1c166c07": {
+    "cachedAt": "2026-11-09T06:59:47.330727+00:00",
+    "data": {
+      "id": "f74b451f-1295-421c-9845-8fec1c166c07",
+      "name": "Victoria vs Western Australia, 15th Match, Australia Domestic One-Day Cup 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Nov 16, 03:00 GMT",
+      "venue": "Junction Oval, Melbourne",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T03:00:00",
+      "teams": [
+        "Victoria",
+        "Western Australia"
+      ],
+      "series_id": "54464f6f-3be4-4730-9ba7-cf77ce0a9ad8"
+    }
+  },
+  "d20babac-d25d-4d6d-bb2b-c5c735bcc20c": {
+    "cachedAt": "2026-11-09T06:59:47.468371+00:00",
+    "data": {
+      "id": "d20babac-d25d-4d6d-bb2b-c5c735bcc20c",
+      "name": "Himachal Pradesh vs Andhra, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 03:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T03:30:00",
+      "teams": [
+        "Himachal Pradesh",
+        "Andhra"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "8ef3c59c-5aca-41ec-bc41-7ae3221b74e6": {
+    "cachedAt": "2026-11-09T06:59:47.604155+00:00",
+    "data": {
+      "id": "8ef3c59c-5aca-41ec-bc41-7ae3221b74e6",
+      "name": "Rajasthan vs Jharkhand, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 03:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T03:30:00",
+      "teams": [
+        "Rajasthan",
+        "Jharkhand"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
   }
 }

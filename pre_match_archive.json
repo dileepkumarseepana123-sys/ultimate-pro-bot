@@ -122603,25 +122603,25 @@
         }
     },
     "chitwan rhinos|kathmandu gorkhas|2026-11-09": {
-        "capturedAt": "2026-11-08T19:52:50.907666+00:00",
+        "capturedAt": "2026-11-09T07:00:28.674784+00:00",
         "matchDate": "2026-11-09",
         "report": {
             "teamA": "Chitwan Rhinos",
             "teamB": "Kathmandu Gorkhas",
-            "name": "Chitwan Rhinos vs Kathmandu Gorkhas",
+            "name": "Chitwan Rhinos vs Kathmandu Gorkhas,20th Match Tribhuvan University International Cricket Ground , Kirtipur",
             "matchType": "T20",
-            "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
-            "dateTimeGMT": "2026-11-09T11:15:00",
+            "venue": "Tribhuvan University International Cricket Ground , Kirtipur",
+            "dateTimeGMT": "2026-11-09T11:15:00+00:00",
             "sourceDate": "2026-11-09",
             "matchTimeIST": "2026-11-09T16:45:00+05:30",
             "indiaDate": "2026-11-09",
             "series": "Nepal Premier League 2026",
-            "sourceName": "CricketData cricScore + Match List",
-            "supplementalSourceName": "Cricbuzz via text relay",
+            "sourceName": "Cricbuzz via text relay",
+            "supplementalSourceName": null,
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177743/chr-vs-kag-20th-match-nepal-premier-league-2026",
-            "cricketDataMatchId": "13a6d29e-3f89-4910-8e92-f7d90c85a763",
+            "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 09, 11:15 GMT",
+            "sourceStatus": "Scheduled",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -122770,7 +122770,7 @@
                     "Two-way venue: 48.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.54 wickets/match",
                     "16th-over baseline: 7.8 runs; wicket in 43.5% of sampled innings",
-                    "Weather: rain 4%, dew LOW"
+                    "Weather: rain 2%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Chitwan Rhinos 1464.0 vs Kathmandu Gorkhas 1522.5",
@@ -122987,16 +122987,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-09T17:00:00+05:45",
-                "temperature_c": 16.2,
-                "humidity_pct": 67,
-                "dew_point_c": 10.0,
-                "rain_probability_pct": 4,
+                "temperature_c": 17.7,
+                "humidity_pct": 52,
+                "dew_point_c": 7.6,
+                "rain_probability_pct": 2,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 1.4,
+                "wind_kmh": 0.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "16.2°C | RH 67% | Rain 4% | Wind 1.4 km/h",
+            "weatherText": "17.7°C | RH 52% | Rain 2% | Wind 0.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "48.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -123010,7 +123010,7 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.54/match",
             "metricSources": {
-                "fixture": "CricketData cricScore + Match List",
+                "fixture": "Cricbuzz via text relay",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=129)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=129)",
@@ -123043,6 +123043,7 @@
             "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
             "noBetReasons": [],
             "warnings": [
+                "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
