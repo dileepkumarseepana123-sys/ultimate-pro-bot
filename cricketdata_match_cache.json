@@ -8271,5 +8271,39 @@
       ],
       "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
     }
+  },
+  "2d027931-371d-4a5f-b403-2ba83b7a11e1": {
+    "cachedAt": "2026-11-10T23:38:39.963672+00:00",
+    "data": {
+      "id": "2d027931-371d-4a5f-b403-2ba83b7a11e1",
+      "name": "Yas Lions vs Arabian Aces, 24th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 17, 13:45 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-17",
+      "dateTimeGMT": "2026-11-17T13:45:00",
+      "teams": [
+        "Yas Lions",
+        "Arabian Aces"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "be37347b-6a36-4259-bde2-5b7cda7dfb2a": {
+    "cachedAt": "2026-11-10T23:38:40.153058+00:00",
+    "data": {
+      "id": "be37347b-6a36-4259-bde2-5b7cda7dfb2a",
+      "name": "Uae Bulls vs Royal Desert Champions, 25th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 17, 16:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-17",
+      "dateTimeGMT": "2026-11-17T16:00:00",
+      "teams": [
+        "Uae Bulls",
+        "Royal Desert Champions"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
   }
 }
