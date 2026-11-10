@@ -8137,5 +8137,139 @@
       ],
       "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
     }
+  },
+  "6cfb06db-52cd-4bd6-bb71-85b860e05967": {
+    "cachedAt": "2026-11-10T18:04:48.049596+00:00",
+    "data": {
+      "id": "6cfb06db-52cd-4bd6-bb71-85b860e05967",
+      "name": "Services vs Meghalaya, Plate, Syed Mushtaq Ali Trophy Plate 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 11:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T11:00:00",
+      "teams": [
+        "Services",
+        "Meghalaya"
+      ],
+      "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
+    }
+  },
+  "b2a451a0-ff80-43b6-a783-504b1e392f32": {
+    "cachedAt": "2026-11-10T18:04:48.205899+00:00",
+    "data": {
+      "id": "b2a451a0-ff80-43b6-a783-504b1e392f32",
+      "name": "Delhi vs Punjab, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 11:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T11:00:00",
+      "teams": [
+        "Delhi",
+        "Punjab"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "ad3b2da8-1730-43f2-b43b-f0ef2dc26358": {
+    "cachedAt": "2026-11-10T18:04:48.362752+00:00",
+    "data": {
+      "id": "ad3b2da8-1730-43f2-b43b-f0ef2dc26358",
+      "name": "Arabian Aces vs United Tigers, 22nd Match, Abu Dhabi T10 League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 13:45 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T13:45:00",
+      "teams": [
+        "Arabian Aces",
+        "United Tigers"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "101c2f19-2936-4083-8430-e90f3c660c78": {
+    "cachedAt": "2026-11-10T18:04:48.520770+00:00",
+    "data": {
+      "id": "101c2f19-2936-4083-8430-e90f3c660c78",
+      "name": "Emirates Eagles vs Royal Desert Champions, 23rd Match, Abu Dhabi T10 League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 16:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T16:00:00",
+      "teams": [
+        "Emirates Eagles",
+        "Royal Desert Champions"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "5d186a70-3349-470a-b123-ccad1022a0ef": {
+    "cachedAt": "2026-11-10T18:04:48.677800+00:00",
+    "data": {
+      "id": "5d186a70-3349-470a-b123-ccad1022a0ef",
+      "name": "West Indies A vs England Lions, 5th Unofficial ODI, England Lions tour of West Indies, 2026",
+      "status": "Match starts at Nov 16, 18:00 GMT",
+      "venue": "Warner Park, Basseterre, St Kitts",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T18:00:00",
+      "teams": [
+        "West Indies A",
+        "England Lions"
+      ],
+      "series_id": "de4e4745-dcbb-42bd-8254-ebf28f10d449"
+    }
+  },
+  "f53bf156-1433-4a13-8ace-c69bf86619ce": {
+    "cachedAt": "2026-11-10T18:04:48.835201+00:00",
+    "data": {
+      "id": "f53bf156-1433-4a13-8ace-c69bf86619ce",
+      "name": "New South Wales vs South Australia, 13th Match, Australia Domestic One-Day Cup 2026-27",
+      "matchType": "odi",
+      "status": "Match starts at Nov 16, 23:00 GMT",
+      "venue": "Cricket Central, Sydney",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T23:00:00",
+      "teams": [
+        "New South Wales",
+        "South Australia"
+      ],
+      "series_id": "54464f6f-3be4-4730-9ba7-cf77ce0a9ad8"
+    }
+  },
+  "f5e3ea0a-1952-4abc-bde1-597cf73cf330": {
+    "cachedAt": "2026-11-10T18:04:48.993703+00:00",
+    "data": {
+      "id": "f5e3ea0a-1952-4abc-bde1-597cf73cf330",
+      "name": "Pakistan vs Sri Lanka, 2nd Test, Sri Lanka tour of Pakistan, 2026",
+      "status": "Match starts at Nov 17, 04:30 GMT",
+      "venue": "Gaddafi Stadium, Lahore",
+      "date": "2026-11-17",
+      "dateTimeGMT": "2026-11-17T05:00:00",
+      "teams": [
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "series_id": "a67cb0af-300c-4449-8e80-e006301e5706"
+    }
+  },
+  "127588b2-a969-4fe5-9a56-72bbe279d40f": {
+    "cachedAt": "2026-11-10T18:04:49.151698+00:00",
+    "data": {
+      "id": "127588b2-a969-4fe5-9a56-72bbe279d40f",
+      "name": "Adelaide Strikers Women vs Sydney Sixers Women, 25th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 17, 08:10 GMT",
+      "venue": "Karen Rolton Oval, Adelaide, South Australia",
+      "date": "2026-11-17",
+      "dateTimeGMT": "2026-11-17T08:10:00",
+      "teams": [
+        "Adelaide Strikers Women",
+        "Sydney Sixers Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }

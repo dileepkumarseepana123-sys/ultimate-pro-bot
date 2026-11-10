@@ -125273,7 +125273,7 @@
         }
     },
     "janakpur bolts|sudur paschim royals|2026-11-10": {
-        "capturedAt": "2026-11-10T07:38:44.993090+00:00",
+        "capturedAt": "2026-11-10T18:05:58.166141+00:00",
         "matchDate": "2026-11-10",
         "report": {
             "teamA": "Janakpur Bolts",
@@ -125291,7 +125291,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177753/jab-vs-spr-21st-match-nepal-premier-league-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -125776,7 +125776,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Sudur Paschim Royals has a strong edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Sudur Paschim Royals has a strong edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "south western districts super eights newlands cape town|western province|2026-11-10": {
