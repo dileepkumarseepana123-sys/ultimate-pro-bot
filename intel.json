@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-11-09T20:57:26.670538+00:00",
+    "last_updated": "2026-11-10T07:38:45.165069+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -23,22 +23,22 @@
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
         "match_info_calls_this_run": 8,
-        "match_info_cache_hits_this_run": 120,
-        "match_info_enriched_rows": 128,
-        "match_info_cache_size": 473,
+        "match_info_cache_hits_this_run": 127,
+        "match_info_enriched_rows": 135,
+        "match_info_cache_size": 481,
         "max_match_info_lookups_per_run": 8,
-        "squad_calls_this_run": 2,
+        "squad_calls_this_run": 3,
         "squad_cache_hits_this_run": 0,
-        "squad_cache_size": 105,
+        "squad_cache_size": 106,
         "endpoint_calls_this_run": {
             "cricScore": 1,
             "currentMatches": 1,
             "match_info": 8,
             "matches": 2,
-            "match_squad": 2
+            "match_squad": 3
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 32,
+        "hits_today_reported": 74,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -69,10 +69,10 @@
         "final_reports_with_known_time": 6,
         "final_reports_with_weather": 6,
         "current_matches_rows": 25,
-        "current_matches_t20_rows": 6,
-        "current_matches_today_t20_rows": 0,
-        "cricscore_rows": 141,
-        "cricscore_t20_rows": 75,
+        "current_matches_t20_rows": 5,
+        "current_matches_today_t20_rows": 2,
+        "cricscore_rows": 142,
+        "cricscore_t20_rows": 74,
         "cricscore_today_t20_rows": 3,
         "cricketdata_rows": 50,
         "cricketdata_t20_rows": 17,
@@ -82,9 +82,9 @@
     },
     "summary": {
         "today_t20_count": 6,
-        "no_bet_or_high_caution": 0,
+        "no_bet_or_high_caution": 1,
         "wait": 2,
-        "data_clear": 4
+        "data_clear": 3
     },
     "matches": [
         {
@@ -98,7 +98,7 @@
             "matchTimeIST": "2026-11-10T13:40:00+05:30",
             "indiaDate": "2026-11-10",
             "series": "Womens Big Bash League 2026",
-            "sourceName": "CricketData cricScore + match_info",
+            "sourceName": "CricketData cricScore + currentMatches",
             "supplementalSourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/162823/hbhw-vs-adsw-17th-match-womens-big-bash-league-2026",
             "cricketDataMatchId": "e6bb497f-1c63-4cab-911c-e03091e96029",
@@ -389,7 +389,7 @@
                     "Two-way venue: 51.2% chasing wins",
                     "Overs 7-14 wicket pressure: 4.17 wickets/match",
                     "16th-over baseline: 8.4 runs; wicket in 31.8% of sampled innings",
-                    "Weather: rain 37%, dew HIGH"
+                    "Weather: rain 28%, dew HIGH"
                 ],
                 "evidence": [
                     "Elo: Hobart Hurricanes Women 1525.0 vs Adelaide Strikers Women 1544.2",
@@ -623,16 +623,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-10T19:10:00+11:00",
-                "temperature_c": 12.8,
-                "humidity_pct": 85,
-                "dew_point_c": 10.4,
-                "rain_probability_pct": 37,
-                "precipitation_mm": 0.4,
-                "wind_kmh": 7.3,
+                "temperature_c": 13.6,
+                "humidity_pct": 80,
+                "dew_point_c": 10.1,
+                "rain_probability_pct": 28,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 5.7,
                 "dew_risk": "HIGH",
-                "rain_risk": "MEDIUM"
+                "rain_risk": "LOW"
             },
-            "weatherText": "12.8°C | RH 85% | Rain 37% | Wind 7.3 km/h",
+            "weatherText": "13.6°C | RH 80% | Rain 28% | Wind 5.7 km/h",
             "dewRisk": "HIGH",
             "tossBias": "51.18% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -646,7 +646,7 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.17/match",
             "metricSources": {
-                "fixture": "CricketData cricScore + match_info",
+                "fixture": "CricketData cricScore + currentMatches",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=133)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=133)",
@@ -689,8 +689,8 @@
         },
         {
             "teamA": "Rwanda Women",
-            "teamB": "United States Of America Women",
-            "name": "Rwanda Women vs United States Of America Women",
+            "teamB": "United States of America Women",
+            "name": "Rwanda Women vs United States of America Women",
             "matchType": "T20",
             "venue": "Entebbe Cricket Oval, Entebbe",
             "dateTimeGMT": "2026-11-10T06:30:00",
@@ -702,8 +702,8 @@
             "supplementalSourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177313/rwaw-vs-usaw-7th-match-womens-victoria-t20i-series-2026",
             "cricketDataMatchId": "1f8b1266-3bbc-4b01-9269-62ec2db5b7c6",
-            "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 10, 06:30 GMT",
+            "liveScoreText": "15/0 (3.2)",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -750,14 +750,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "BALANCED",
-            "swingScore": 59.6,
+            "swingScore": 60.0,
             "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 67,
                 "swingProfile": "CONDITIONAL SWING PROFILE",
-                "swingScore": 59.6,
+                "swingScore": 60.0,
                 "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
                 "competitiveBalance": {
                     "label": "BALANCED",
@@ -802,10 +802,10 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 48.9% chasing wins",
-                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14"
+                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14",
+                    "Medium dew can change second-innings conditions"
                 ],
                 "swingPenalties": [
-                    "High dew may create strong chase-side bias",
                     "Liquidity/market depth is not verified"
                 ],
                 "scoreComponents": [
@@ -826,7 +826,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 60.0,
+                        "score": 90.0,
                         "weight": 0.1
                     },
                     {
@@ -838,17 +838,497 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-11-09T20:57:26.523958+00:00",
+                "matchDate": "2026-11-10",
+                "report": {
+                    "teamA": "Rwanda Women",
+                    "teamB": "United States Of America Women",
+                    "name": "Rwanda Women vs United States Of America Women",
+                    "matchType": "T20",
+                    "venue": "Entebbe Cricket Oval, Entebbe",
+                    "dateTimeGMT": "2026-11-10T06:30:00",
+                    "sourceDate": "2026-11-10",
+                    "matchTimeIST": "2026-11-10T12:00:00+05:30",
+                    "indiaDate": "2026-11-10",
+                    "series": "Women's Victoria T20I Series, 2026",
+                    "sourceName": "CricketData cricScore + Match List",
+                    "supplementalSourceName": "Cricbuzz via text relay",
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177313/rwaw-vs-usaw-7th-match-womens-victoria-t20i-series-2026",
+                    "cricketDataMatchId": "1f8b1266-3bbc-4b01-9269-62ec2db5b7c6",
+                    "liveScoreText": null,
+                    "sourceStatus": "Match starts at Nov 10, 06:30 GMT",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "BALANCED",
+                        "balanceScore": 77.8,
+                        "teamAElo": 1657.2,
+                        "teamBElo": 1570.2,
+                        "eloMatchesA": 81,
+                        "eloMatchesB": 52,
+                        "eloGap": 87.0,
+                        "recentWinRateA": 87.5,
+                        "recentWinRateB": 77.8,
+                        "recentFormGapPct": 9.7,
+                        "headToHead": {
+                            "matches": 2,
+                            "teamAWins": 1,
+                            "teamBWins": 0,
+                            "recent": [
+                                {
+                                    "date": "2026-05-01",
+                                    "winner": null,
+                                    "marginType": null,
+                                    "marginValue": null
+                                },
+                                {
+                                    "date": "2026-04-21",
+                                    "winner": "Rwanda",
+                                    "marginType": "runs",
+                                    "marginValue": 1.0
+                                }
+                            ]
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": "Rwanda Women",
+                        "signals": [
+                            "Derived Elo gap 87.0",
+                            "Recent win-rate gap 9.7 percentage points"
+                        ],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "BALANCED",
+                    "swingScore": 59.6,
+                    "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 67,
+                        "swingProfile": "CONDITIONAL SWING PROFILE",
+                        "swingScore": 59.6,
+                        "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                        "competitiveBalance": {
+                            "label": "BALANCED",
+                            "balanceScore": 77.8,
+                            "teamAElo": 1657.2,
+                            "teamBElo": 1570.2,
+                            "eloMatchesA": 81,
+                            "eloMatchesB": 52,
+                            "eloGap": 87.0,
+                            "recentWinRateA": 87.5,
+                            "recentWinRateB": 77.8,
+                            "recentFormGapPct": 9.7,
+                            "headToHead": {
+                                "matches": 2,
+                                "teamAWins": 1,
+                                "teamBWins": 0,
+                                "recent": [
+                                    {
+                                        "date": "2026-05-01",
+                                        "winner": null,
+                                        "marginType": null,
+                                        "marginValue": null
+                                    },
+                                    {
+                                        "date": "2026-04-21",
+                                        "winner": "Rwanda",
+                                        "marginType": "runs",
+                                        "marginValue": 1.0
+                                    }
+                                ]
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": "Rwanda Women",
+                            "signals": [
+                                "Derived Elo gap 87.0",
+                                "Recent win-rate gap 9.7 percentage points"
+                            ],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [
+                            "Historically two-way venue: 48.9% chasing wins",
+                            "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14"
+                        ],
+                        "swingPenalties": [
+                            "High dew may create strong chase-side bias",
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "competitive_balance",
+                                "score": 77.8,
+                                "weight": 0.35
+                            },
+                            {
+                                "name": "venue_two_way",
+                                "score": 97.9,
+                                "weight": 0.2
+                            },
+                            {
+                                "name": "middle_over_volatility",
+                                "score": 77.3,
+                                "weight": 0.15
+                            },
+                            {
+                                "name": "weather",
+                                "score": 60.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "No squad data"
+                    },
+                    "squadSummary": {
+                        "status": "NO SQUAD DATA",
+                        "teams": {},
+                        "source": "No squad data"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS WATCHLIST",
+                        "dataConfidencePct": 57,
+                        "initialPrediction": "Rwanda Women has a slight edge on the available pre-toss historical evidence.",
+                        "edgeTeam": "Rwanda Women",
+                        "edgeStrength": "SLIGHT EDGE",
+                        "edgeScore": 1.57,
+                        "swingRead": "GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+                        "conditions": [
+                            "Historical first-innings baseline: 110.2",
+                            "Powerplay baseline: 32.3 runs / 1.62 wickets",
+                            "Two-way venue: 48.9% chasing wins",
+                            "Overs 7-14 wicket pressure: 4.64 wickets/match",
+                            "16th-over baseline: 6.6 runs; wicket in 44.9% of sampled innings",
+                            "Weather: rain 45%, dew HIGH"
+                        ],
+                        "evidence": [
+                            "Elo: Rwanda Women 1657.2 vs United States Of America Women 1570.2",
+                            "Recent form: 87.5% vs 77.8% wins"
+                        ],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": 110.19,
+                        "powerplayBaseline": 32.3,
+                        "powerplayWicketsBaseline": 1.62,
+                        "chasingWinPct": 48.94,
+                        "middleOversWicketsPerMatch": 4.64,
+                        "over16AvgRuns": 6.56,
+                        "over16WicketEventPct": 44.87,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "NO SQUAD DATA",
+                        "summary": "Rwanda Women has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 10,
+                        "wins": 7,
+                        "losses": 1,
+                        "winRatePct": 87.5,
+                        "avgMarginImpact": 0.419,
+                        "recent": [
+                            {
+                                "date": "2026-06-19",
+                                "winner": "Rwanda",
+                                "won": true,
+                                "venue": "Gahanga B Ground, Rwanda",
+                                "marginType": "runs",
+                                "marginValue": 11.0,
+                                "marginImpact": 0.183
+                            },
+                            {
+                                "date": "2026-06-18",
+                                "winner": null,
+                                "won": null,
+                                "venue": "Gahanga B Ground, Rwanda",
+                                "marginType": null,
+                                "marginValue": null,
+                                "marginImpact": 0.0
+                            },
+                            {
+                                "date": "2026-06-15",
+                                "winner": "Rwanda",
+                                "won": true,
+                                "venue": "Gahanga International Cricket Stadium, Rwanda",
+                                "marginType": "runs",
+                                "marginValue": 68.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-06-14",
+                                "winner": "Rwanda",
+                                "won": true,
+                                "venue": "Gahanga B Ground, Rwanda",
+                                "marginType": "runs",
+                                "marginValue": 58.0,
+                                "marginImpact": 0.967
+                            },
+                            {
+                                "date": "2026-06-12",
+                                "winner": "Rwanda",
+                                "won": true,
+                                "venue": "Gahanga International Cricket Stadium, Rwanda",
+                                "marginType": "runs",
+                                "marginValue": 2.0,
+                                "marginImpact": 0.033
+                            },
+                            {
+                                "date": "2026-06-11",
+                                "winner": "Rwanda",
+                                "won": true,
+                                "venue": "Gahanga B Ground, Rwanda",
+                                "marginType": "runs",
+                                "marginValue": 66.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-05-01",
+                                "winner": null,
+                                "won": null,
+                                "venue": "Gahanga B Ground, Rwanda",
+                                "marginType": null,
+                                "marginValue": null,
+                                "marginImpact": 0.0
+                            },
+                            {
+                                "date": "2026-04-28",
+                                "winner": "Nepal",
+                                "won": false,
+                                "venue": "Gahanga B Ground, Rwanda",
+                                "marginType": "runs",
+                                "marginValue": 38.0,
+                                "marginImpact": -0.633
+                            },
+                            {
+                                "date": "2026-04-27",
+                                "winner": "Rwanda",
+                                "won": true,
+                                "venue": "Gahanga International Cricket Stadium, Rwanda",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": 0.75
+                            },
+                            {
+                                "date": "2026-04-26",
+                                "winner": "Rwanda",
+                                "won": true,
+                                "venue": "Gahanga B Ground, Rwanda",
+                                "marginType": "runs",
+                                "marginValue": 3.0,
+                                "marginImpact": 0.05
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 10,
+                        "wins": 7,
+                        "losses": 2,
+                        "winRatePct": 77.8,
+                        "avgMarginImpact": 0.584,
+                        "recent": [
+                            {
+                                "date": "2026-05-01",
+                                "winner": null,
+                                "won": null,
+                                "venue": "Gahanga B Ground, Rwanda",
+                                "marginType": null,
+                                "marginValue": null,
+                                "marginImpact": 0.0
+                            },
+                            {
+                                "date": "2026-04-30",
+                                "winner": "United States of America",
+                                "won": true,
+                                "venue": "Gahanga International Cricket Stadium, Rwanda",
+                                "marginType": "wickets",
+                                "marginValue": 9.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-04-27",
+                                "winner": "United States of America",
+                                "won": true,
+                                "venue": "Gahanga International Cricket Stadium, Rwanda",
+                                "marginType": "runs",
+                                "marginValue": 72.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-04-26",
+                                "winner": "United States of America",
+                                "won": true,
+                                "venue": "Gahanga B Ground, Rwanda",
+                                "marginType": "wickets",
+                                "marginValue": 7.0,
+                                "marginImpact": 0.875
+                            },
+                            {
+                                "date": "2026-04-24",
+                                "winner": "United States of America",
+                                "won": true,
+                                "venue": "Gahanga International Cricket Stadium, Rwanda",
+                                "marginType": "runs",
+                                "marginValue": 72.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2026-04-22",
+                                "winner": "United States of America",
+                                "won": true,
+                                "venue": "Gahanga B Ground, Rwanda",
+                                "marginType": "runs",
+                                "marginValue": 53.0,
+                                "marginImpact": 0.883
+                            },
+                            {
+                                "date": "2026-04-21",
+                                "winner": "Rwanda",
+                                "won": false,
+                                "venue": "Gahanga International Cricket Stadium, Rwanda",
+                                "marginType": "runs",
+                                "marginValue": 1.0,
+                                "marginImpact": -0.017
+                            },
+                            {
+                                "date": "2026-04-18",
+                                "winner": "United States of America",
+                                "won": true,
+                                "venue": "Gahanga International Cricket Stadium, Rwanda",
+                                "marginType": "runs",
+                                "marginValue": 44.0,
+                                "marginImpact": 0.733
+                            },
+                            {
+                                "date": "2026-02-01",
+                                "winner": "Scotland",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 41.0,
+                                "marginImpact": -0.683
+                            },
+                            {
+                                "date": "2026-01-30",
+                                "winner": "United States of America",
+                                "won": true,
+                                "venue": "Mulpani Cricket Ground",
+                                "marginType": "runs",
+                                "marginValue": 28.0,
+                                "marginImpact": 0.467
+                            }
+                        ]
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-11-10T09:30:00+03:00",
+                        "temperature_c": 21.6,
+                        "humidity_pct": 87,
+                        "dew_point_c": 19.4,
+                        "rain_probability_pct": 45,
+                        "precipitation_mm": 0.1,
+                        "wind_kmh": 6.9,
+                        "dew_risk": "HIGH",
+                        "rain_risk": "MEDIUM"
+                    },
+                    "weatherText": "21.6°C | RH 87% | Rain 45% | Wind 6.9 km/h",
+                    "dewRisk": "HIGH",
+                    "tossBias": "48.94% Chasing Wins",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "32.30",
+                    "ppWicketsAvg": 1.62,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": 6.56,
+                    "over16WicketsPerInnings": 0.538,
+                    "over16WicketEventPct": 44.87,
+                    "over16SampleInnings": 78,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.64/match",
+                    "metricSources": {
+                        "fixture": "CricketData cricScore + Match List",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue T20 history (n=47)",
+                        "powerplay": "Cricsheet first-innings overs 1-6 (n=47)",
+                        "over16": "Cricsheet 16th-over history (n=78)",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification 0.0%"
+                    },
+                    "venueIntel": {
+                        "status": "OK",
+                        "matches": 47,
+                        "venue_confidence": 1.0,
+                        "avg_first_innings": 110.19,
+                        "powerplay_avg": 32.3,
+                        "powerplay_wickets_avg": 1.62,
+                        "chasing_win_pct": 48.94,
+                        "over16_sample_innings": 78,
+                        "over16_avg_runs": 6.56,
+                        "over16_wickets_per_innings": 0.538,
+                        "over16_wicket_event_pct": 44.87,
+                        "mid_overs_7_14_wickets": 218,
+                        "mid_overs_7_14_wickets_per_match": 4.64,
+                        "spin_classification_pct": 0.0,
+                        "spinner_7_14_wickets": null,
+                        "spin_wicket_share_pct": null,
+                        "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+                    },
+                    "midOversWickets": 218,
+                    "midOversWicketsPerMatch": 4.64,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": 0.0,
+                    "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
+                    "noBetReasons": [
+                        "HIGH DEW RISK"
+                    ],
+                    "warnings": [
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-green",
+                    "strategyText": "Rwanda Women has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "No squad data"
+                "source": "Not queried"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "No squad data"
+                "source": "Not queried"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -865,10 +1345,10 @@
                     "Two-way venue: 48.9% chasing wins",
                     "Overs 7-14 wicket pressure: 4.64 wickets/match",
                     "16th-over baseline: 6.6 runs; wicket in 44.9% of sampled innings",
-                    "Weather: rain 45%, dew HIGH"
+                    "Weather: rain 25%, dew MEDIUM"
                 ],
                 "evidence": [
-                    "Elo: Rwanda Women 1657.2 vs United States Of America Women 1570.2",
+                    "Elo: Rwanda Women 1657.2 vs United States of America Women 1570.2",
                     "Recent form: 87.5% vs 77.8% wins"
                 ],
                 "pendingGates": [
@@ -1100,17 +1580,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-10T09:30:00+03:00",
-                "temperature_c": 21.6,
-                "humidity_pct": 87,
-                "dew_point_c": 19.4,
-                "rain_probability_pct": 45,
-                "precipitation_mm": 0.1,
-                "wind_kmh": 6.9,
-                "dew_risk": "HIGH",
-                "rain_risk": "MEDIUM"
+                "temperature_c": 21.7,
+                "humidity_pct": 83,
+                "dew_point_c": 18.8,
+                "rain_probability_pct": 25,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 10.4,
+                "dew_risk": "MEDIUM",
+                "rain_risk": "LOW"
             },
-            "weatherText": "21.6°C | RH 87% | Rain 45% | Wind 6.9 km/h",
-            "dewRisk": "HIGH",
+            "weatherText": "21.7°C | RH 83% | Rain 25% | Wind 10.4 km/h",
+            "dewRisk": "MEDIUM",
             "tossBias": "48.94% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "32.30",
@@ -1153,15 +1633,16 @@
             "midOversWicketsPerMatch": 4.64,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.0,
-            "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
-                "HIGH DEW RISK"
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED"
             ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-green",
+            "badgeClass": "badge-red",
             "strategyText": "Rwanda Women has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
         },
         {
@@ -1367,7 +1848,7 @@
                     "Two-way venue: 48.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.54 wickets/match",
                     "16th-over baseline: 7.8 runs; wicket in 43.5% of sampled innings",
-                    "Weather: rain 8%, dew LOW"
+                    "Weather: rain 15%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Janakpur Bolts 1479.2 vs Sudur Paschim Royals 1591.1",
@@ -1603,16 +2084,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-10T16:45:00+05:45",
-                "temperature_c": 18.8,
-                "humidity_pct": 59,
-                "dew_point_c": 10.6,
-                "rain_probability_pct": 8,
+                "temperature_c": 18.3,
+                "humidity_pct": 66,
+                "dew_point_c": 11.9,
+                "rain_probability_pct": 15,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 1.0,
+                "wind_kmh": 1.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "18.8°C | RH 59% | Rain 8% | Wind 1.0 km/h",
+            "weatherText": "18.3°C | RH 66% | Rain 15% | Wind 1.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "48.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -1880,8 +2361,7 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 48.9% chasing wins",
-                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
                     "High rain-interruption risk",
@@ -1922,12 +2402,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -1944,7 +2424,7 @@
                     "Two-way venue: 48.9% chasing wins",
                     "Overs 7-14 wicket pressure: 4.64 wickets/match",
                     "16th-over baseline: 6.6 runs; wicket in 44.9% of sampled innings",
-                    "Weather: rain 62%, dew MEDIUM"
+                    "Weather: rain 68%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Namibia Women 1540.4 vs Uganda Women 1637.1",
@@ -2180,17 +2660,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-10T14:00:00+03:00",
-                "temperature_c": 23.4,
-                "humidity_pct": 79,
+                "temperature_c": 26.2,
+                "humidity_pct": 67,
                 "dew_point_c": 19.6,
-                "rain_probability_pct": 62,
-                "precipitation_mm": 0.8,
-                "wind_kmh": 10.6,
-                "dew_risk": "MEDIUM",
+                "rain_probability_pct": 68,
+                "precipitation_mm": 0.2,
+                "wind_kmh": 1.5,
+                "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "23.4°C | RH 79% | Rain 62% | Wind 10.6 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "26.2°C | RH 67% | Rain 68% | Wind 1.5 km/h",
+            "dewRisk": "LOW",
             "tossBias": "48.94% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "32.30",
@@ -2239,7 +2719,6 @@
             ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
@@ -2434,8 +2913,7 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 48.9% chasing wins",
-                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
                     "High rain-interruption risk",
@@ -2476,12 +2954,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -2498,7 +2976,7 @@
                     "Two-way venue: 48.9% chasing wins",
                     "Overs 7-14 wicket pressure: 4.64 wickets/match",
                     "16th-over baseline: 6.6 runs; wicket in 44.9% of sampled innings",
-                    "Weather: rain 62%, dew MEDIUM"
+                    "Weather: rain 68%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Uganda Women 1637.1 vs Rwanda Women 1657.2",
@@ -2734,17 +3212,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-10T14:00:00+03:00",
-                "temperature_c": 23.4,
-                "humidity_pct": 79,
+                "temperature_c": 26.2,
+                "humidity_pct": 67,
                 "dew_point_c": 19.6,
-                "rain_probability_pct": 62,
-                "precipitation_mm": 0.8,
-                "wind_kmh": 10.6,
-                "dew_risk": "MEDIUM",
+                "rain_probability_pct": 68,
+                "precipitation_mm": 0.2,
+                "wind_kmh": 1.5,
+                "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "23.4°C | RH 79% | Rain 62% | Wind 10.6 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "26.2°C | RH 67% | Rain 68% | Wind 1.5 km/h",
+            "dewRisk": "LOW",
             "tossBias": "48.94% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "32.30",
@@ -2793,7 +3271,6 @@
             ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
@@ -3062,16 +3539,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-10T18:00:00+02:00",
-                "temperature_c": 23.4,
-                "humidity_pct": 46,
-                "dew_point_c": 11.2,
+                "temperature_c": 23.7,
+                "humidity_pct": 44,
+                "dew_point_c": 10.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.3,
+                "wind_kmh": 10.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "23.4°C | RH 46% | Rain 0% | Wind 10.3 km/h",
+            "weatherText": "23.7°C | RH 44% | Rain 0% | Wind 10.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",

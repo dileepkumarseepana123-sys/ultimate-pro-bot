@@ -8001,5 +8001,141 @@
       ],
       "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
     }
+  },
+  "cc7ef0d4-9b11-4e96-a0ee-a6f20e9c7c4a": {
+    "cachedAt": "2026-11-10T07:37:24.852798+00:00",
+    "data": {
+      "id": "cc7ef0d4-9b11-4e96-a0ee-a6f20e9c7c4a",
+      "name": "Gujarat vs Mumbai, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 08:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T08:00:00",
+      "teams": [
+        "Gujarat",
+        "Mumbai"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "868f8439-2dda-4254-ad23-9f57233fb50b": {
+    "cachedAt": "2026-11-10T07:37:25.036260+00:00",
+    "data": {
+      "id": "868f8439-2dda-4254-ad23-9f57233fb50b",
+      "name": "Mizoram vs Baroda, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 08:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T08:00:00",
+      "teams": [
+        "Mizoram",
+        "Baroda"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "f5f9d69e-d2ae-428b-be71-11fdafe49194": {
+    "cachedAt": "2026-11-10T07:37:25.221627+00:00",
+    "data": {
+      "id": "f5f9d69e-d2ae-428b-be71-11fdafe49194",
+      "name": "Tripura vs Puducherry, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 08:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T08:00:00",
+      "teams": [
+        "Tripura",
+        "Puducherry"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "286eb572-3fef-4aae-aeff-07fbb22ddbad": {
+    "cachedAt": "2026-11-10T07:37:25.409665+00:00",
+    "data": {
+      "id": "286eb572-3fef-4aae-aeff-07fbb22ddbad",
+      "name": "Saurashtra vs Haryana, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 08:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T08:00:00",
+      "teams": [
+        "Saurashtra",
+        "Haryana"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "2c1ad823-6908-41db-a452-a922e37743b8": {
+    "cachedAt": "2026-11-10T07:37:25.594921+00:00",
+    "data": {
+      "id": "2c1ad823-6908-41db-a452-a922e37743b8",
+      "name": "Sydney Thunder Women vs Melbourne Stars Women, 24th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 08:10 GMT",
+      "venue": "Drummoyne Oval, Sydney",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T08:10:00",
+      "teams": [
+        "Sydney Thunder Women",
+        "Melbourne Stars Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "bf5d1187-7c35-46ef-a928-dfd5cc5d8010": {
+    "cachedAt": "2026-11-10T07:37:25.780023+00:00",
+    "data": {
+      "id": "bf5d1187-7c35-46ef-a928-dfd5cc5d8010",
+      "name": "Kerala vs Maharashtra, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 11:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T11:00:00",
+      "teams": [
+        "Kerala",
+        "Maharashtra"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "cca957c2-1944-4b2f-8c7c-a1f57c8af5aa": {
+    "cachedAt": "2026-11-10T07:37:25.965364+00:00",
+    "data": {
+      "id": "cca957c2-1944-4b2f-8c7c-a1f57c8af5aa",
+      "name": "Bengal vs Chandigarh, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 11:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T11:00:00",
+      "teams": [
+        "Bengal",
+        "Chandigarh"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "38563d46-23aa-4cd9-bff1-87819dab5cfe": {
+    "cachedAt": "2026-11-10T07:37:26.149907+00:00",
+    "data": {
+      "id": "38563d46-23aa-4cd9-bff1-87819dab5cfe",
+      "name": "Chhattisgarh vs Hyderabad, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 16, 11:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T11:00:00",
+      "teams": [
+        "Chhattisgarh",
+        "Hyderabad"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
   }
 }

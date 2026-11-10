@@ -123533,7 +123533,7 @@
         }
     },
     "adelaide strikers women|hobart hurricanes women|2026-11-10": {
-        "capturedAt": "2026-11-09T20:57:26.523977+00:00",
+        "capturedAt": "2026-11-10T07:38:44.993002+00:00",
         "matchDate": "2026-11-10",
         "report": {
             "teamA": "Hobart Hurricanes Women",
@@ -123546,7 +123546,7 @@
             "matchTimeIST": "2026-11-10T13:40:00+05:30",
             "indiaDate": "2026-11-10",
             "series": "Womens Big Bash League 2026",
-            "sourceName": "CricketData cricScore + match_info",
+            "sourceName": "CricketData cricScore + currentMatches",
             "supplementalSourceName": "Cricbuzz via text relay",
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/162823/hbhw-vs-adsw-17th-match-womens-big-bash-league-2026",
             "cricketDataMatchId": "e6bb497f-1c63-4cab-911c-e03091e96029",
@@ -123837,7 +123837,7 @@
                     "Two-way venue: 51.2% chasing wins",
                     "Overs 7-14 wicket pressure: 4.17 wickets/match",
                     "16th-over baseline: 8.4 runs; wicket in 31.8% of sampled innings",
-                    "Weather: rain 37%, dew HIGH"
+                    "Weather: rain 28%, dew HIGH"
                 ],
                 "evidence": [
                     "Elo: Hobart Hurricanes Women 1525.0 vs Adelaide Strikers Women 1544.2",
@@ -124071,16 +124071,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-10T19:10:00+11:00",
-                "temperature_c": 12.8,
-                "humidity_pct": 85,
-                "dew_point_c": 10.4,
-                "rain_probability_pct": 37,
-                "precipitation_mm": 0.4,
-                "wind_kmh": 7.3,
+                "temperature_c": 13.6,
+                "humidity_pct": 80,
+                "dew_point_c": 10.1,
+                "rain_probability_pct": 28,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 5.7,
                 "dew_risk": "HIGH",
-                "rain_risk": "MEDIUM"
+                "rain_risk": "LOW"
             },
-            "weatherText": "12.8°C | RH 85% | Rain 37% | Wind 7.3 km/h",
+            "weatherText": "13.6°C | RH 80% | Rain 28% | Wind 5.7 km/h",
             "dewRisk": "HIGH",
             "tossBias": "51.18% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -124094,7 +124094,7 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.17/match",
             "metricSources": {
-                "fixture": "CricketData cricScore + match_info",
+                "fixture": "CricketData cricScore + currentMatches",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=133)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=133)",
@@ -124137,7 +124137,7 @@
         }
     },
     "namibia women|uganda women|2026-11-10": {
-        "capturedAt": "2026-11-09T20:57:26.523987+00:00",
+        "capturedAt": "2026-11-10T07:38:44.993040+00:00",
         "matchDate": "2026-11-10",
         "report": {
             "teamA": "Namibia Women",
@@ -124352,8 +124352,7 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 48.9% chasing wins",
-                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
                     "High rain-interruption risk",
@@ -124394,12 +124393,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -124416,7 +124415,7 @@
                     "Two-way venue: 48.9% chasing wins",
                     "Overs 7-14 wicket pressure: 4.64 wickets/match",
                     "16th-over baseline: 6.6 runs; wicket in 44.9% of sampled innings",
-                    "Weather: rain 62%, dew MEDIUM"
+                    "Weather: rain 68%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Namibia Women 1540.4 vs Uganda Women 1637.1",
@@ -124652,17 +124651,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-10T14:00:00+03:00",
-                "temperature_c": 23.4,
-                "humidity_pct": 79,
+                "temperature_c": 26.2,
+                "humidity_pct": 67,
                 "dew_point_c": 19.6,
-                "rain_probability_pct": 62,
-                "precipitation_mm": 0.8,
-                "wind_kmh": 10.6,
-                "dew_risk": "MEDIUM",
+                "rain_probability_pct": 68,
+                "precipitation_mm": 0.2,
+                "wind_kmh": 1.5,
+                "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "23.4°C | RH 79% | Rain 62% | Wind 10.6 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "26.2°C | RH 67% | Rain 68% | Wind 1.5 km/h",
+            "dewRisk": "LOW",
             "tossBias": "48.94% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "32.30",
@@ -124711,7 +124710,6 @@
             ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
@@ -124719,7 +124717,7 @@
         }
     },
     "rwanda women|uganda women|2026-11-10": {
-        "capturedAt": "2026-11-09T20:57:26.523995+00:00",
+        "capturedAt": "2026-11-10T07:38:44.993067+00:00",
         "matchDate": "2026-11-10",
         "report": {
             "teamA": "Uganda Women",
@@ -124910,8 +124908,7 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 48.9% chasing wins",
-                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
                     "High rain-interruption risk",
@@ -124952,12 +124949,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -124974,7 +124971,7 @@
                     "Two-way venue: 48.9% chasing wins",
                     "Overs 7-14 wicket pressure: 4.64 wickets/match",
                     "16th-over baseline: 6.6 runs; wicket in 44.9% of sampled innings",
-                    "Weather: rain 62%, dew MEDIUM"
+                    "Weather: rain 68%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Uganda Women 1637.1 vs Rwanda Women 1657.2",
@@ -125210,17 +125207,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-10T14:00:00+03:00",
-                "temperature_c": 23.4,
-                "humidity_pct": 79,
+                "temperature_c": 26.2,
+                "humidity_pct": 67,
                 "dew_point_c": 19.6,
-                "rain_probability_pct": 62,
-                "precipitation_mm": 0.8,
-                "wind_kmh": 10.6,
-                "dew_risk": "MEDIUM",
+                "rain_probability_pct": 68,
+                "precipitation_mm": 0.2,
+                "wind_kmh": 1.5,
+                "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "23.4°C | RH 79% | Rain 62% | Wind 10.6 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "26.2°C | RH 67% | Rain 68% | Wind 1.5 km/h",
+            "dewRisk": "LOW",
             "tossBias": "48.94% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "32.30",
@@ -125269,7 +125266,6 @@
             ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
@@ -125277,7 +125273,7 @@
         }
     },
     "janakpur bolts|sudur paschim royals|2026-11-10": {
-        "capturedAt": "2026-11-09T20:57:26.524025+00:00",
+        "capturedAt": "2026-11-10T07:38:44.993090+00:00",
         "matchDate": "2026-11-10",
         "report": {
             "teamA": "Janakpur Bolts",
@@ -125482,7 +125478,7 @@
                     "Two-way venue: 48.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.54 wickets/match",
                     "16th-over baseline: 7.8 runs; wicket in 43.5% of sampled innings",
-                    "Weather: rain 8%, dew LOW"
+                    "Weather: rain 15%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Janakpur Bolts 1479.2 vs Sudur Paschim Royals 1591.1",
@@ -125718,16 +125714,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-10T16:45:00+05:45",
-                "temperature_c": 18.8,
-                "humidity_pct": 59,
-                "dew_point_c": 10.6,
-                "rain_probability_pct": 8,
+                "temperature_c": 18.3,
+                "humidity_pct": 66,
+                "dew_point_c": 11.9,
+                "rain_probability_pct": 15,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 1.0,
+                "wind_kmh": 1.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "18.8°C | RH 59% | Rain 8% | Wind 1.0 km/h",
+            "weatherText": "18.3°C | RH 66% | Rain 15% | Wind 1.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "48.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -125784,7 +125780,7 @@
         }
     },
     "south western districts super eights newlands cape town|western province|2026-11-10": {
-        "capturedAt": "2026-11-09T20:57:26.524041+00:00",
+        "capturedAt": "2026-11-10T07:38:44.993115+00:00",
         "matchDate": "2026-11-10",
         "report": {
             "teamA": "Western Province",
@@ -126049,16 +126045,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-10T18:00:00+02:00",
-                "temperature_c": 23.4,
-                "humidity_pct": 46,
-                "dew_point_c": 11.2,
+                "temperature_c": 23.7,
+                "humidity_pct": 44,
+                "dew_point_c": 10.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.3,
+                "wind_kmh": 10.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "23.4°C | RH 46% | Rain 0% | Wind 10.3 km/h",
+            "weatherText": "23.7°C | RH 44% | Rain 0% | Wind 10.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
