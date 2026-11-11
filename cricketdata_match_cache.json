@@ -8305,5 +8305,140 @@
       ],
       "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
     }
+  },
+  "054494ce-cd56-4327-81ca-2dae89b08713": {
+    "cachedAt": "2026-11-11T06:55:34.061222+00:00",
+    "data": {
+      "id": "054494ce-cd56-4327-81ca-2dae89b08713",
+      "name": "Central Districts vs Wellington, 2nd Match, Plunket Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 18, 00:00 GMT",
+      "venue": "Fitzherbert Park, Palmerston North",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T00:00:00",
+      "teams": [
+        "Central Districts",
+        "Wellington"
+      ],
+      "series_id": "ded5b9f9-9a41-44c9-a8ad-356df72cc432"
+    }
+  },
+  "d9935c14-eabe-41c7-882a-3ac684b12a21": {
+    "cachedAt": "2026-11-11T06:55:34.192266+00:00",
+    "data": {
+      "id": "d9935c14-eabe-41c7-882a-3ac684b12a21",
+      "name": "Kerala vs Andhra, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 03:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T03:30:00",
+      "teams": [
+        "Kerala",
+        "Andhra"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "be052f9a-d1ce-4205-b125-22761fa16675": {
+    "cachedAt": "2026-11-11T06:55:34.322704+00:00",
+    "data": {
+      "id": "be052f9a-d1ce-4205-b125-22761fa16675",
+      "name": "Bengal vs Jharkhand, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 03:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T03:30:00",
+      "teams": [
+        "Bengal",
+        "Jharkhand"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "12aed0ab-6d5d-4a97-8825-cbbcaf34f4b2": {
+    "cachedAt": "2026-11-11T06:55:34.455895+00:00",
+    "data": {
+      "id": "12aed0ab-6d5d-4a97-8825-cbbcaf34f4b2",
+      "name": "Delhi vs Bihar, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 03:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T03:30:00",
+      "teams": [
+        "Delhi",
+        "Bihar"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "79d1fb33-5bf8-4140-a487-742694e7ccdb": {
+    "cachedAt": "2026-11-11T06:55:34.585852+00:00",
+    "data": {
+      "id": "79d1fb33-5bf8-4140-a487-742694e7ccdb",
+      "name": "Chhattisgarh vs Odisha, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 03:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T03:30:00",
+      "teams": [
+        "Chhattisgarh",
+        "Odisha"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "39dd598c-9c6b-4343-bf0d-646230dddc2e": {
+    "cachedAt": "2026-11-11T06:55:34.715180+00:00",
+    "data": {
+      "id": "39dd598c-9c6b-4343-bf0d-646230dddc2e",
+      "name": "Australia vs England, 3rd ODI, England tour of Australia, 2026",
+      "status": "Match starts at Nov 18, 03:30 GMT",
+      "venue": "Bellerive Oval, Hobart",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T03:30:00",
+      "teams": [
+        "Australia",
+        "England"
+      ],
+      "series_id": "9c385594-20fe-4d3d-b2bb-df4de8e043bc"
+    }
+  },
+  "d2f677fe-d3cc-4107-a1a5-526605eea759": {
+    "cachedAt": "2026-11-11T06:55:34.845457+00:00",
+    "data": {
+      "id": "d2f677fe-d3cc-4107-a1a5-526605eea759",
+      "name": "Sikkim vs Nagaland, Plate, Syed Mushtaq Ali Trophy Plate 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T05:30:00",
+      "teams": [
+        "Sikkim",
+        "Nagaland"
+      ],
+      "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
+    }
+  },
+  "9dcb5de3-7410-44b9-bb09-0d07e34ba7e6": {
+    "cachedAt": "2026-11-11T06:55:34.975555+00:00",
+    "data": {
+      "id": "9dcb5de3-7410-44b9-bb09-0d07e34ba7e6",
+      "name": "Services vs Arunachal Pradesh, Plate, Syed Mushtaq Ali Trophy Plate 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T05:30:00",
+      "teams": [
+        "Services",
+        "Arunachal Pradesh"
+      ],
+      "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
+    }
   }
 }

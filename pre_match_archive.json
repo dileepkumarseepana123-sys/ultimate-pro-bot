@@ -126655,7 +126655,7 @@
         }
     },
     "perth scorchers women|sydney thunder women|2026-11-11": {
-        "capturedAt": "2026-11-10T23:39:48.362359+00:00",
+        "capturedAt": "2026-11-11T06:56:46.743121+00:00",
         "matchDate": "2026-11-11",
         "report": {
             "teamA": "Perth Scorchers Women",
@@ -126956,7 +126956,7 @@
                     "Chase-lean venue: 72.0% chasing wins",
                     "Overs 7-14 wicket pressure: 2.92 wickets/match",
                     "16th-over baseline: 7.2 runs; wicket in 33.3% of sampled innings",
-                    "Weather: rain 15%, dew LOW"
+                    "Weather: rain 16%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Perth Scorchers Women 1526.6 vs Sydney Thunder Women 1484.9",
@@ -127190,16 +127190,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-11T16:10:00+08:00",
-                "temperature_c": 24.8,
-                "humidity_pct": 45,
-                "dew_point_c": 12.0,
-                "rain_probability_pct": 15,
+                "temperature_c": 24.3,
+                "humidity_pct": 48,
+                "dew_point_c": 12.7,
+                "rain_probability_pct": 16,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 21.0,
+                "wind_kmh": 21.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "24.8°C | RH 45% | Rain 15% | Wind 21.0 km/h",
+            "weatherText": "24.3°C | RH 48% | Rain 16% | Wind 21.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "72.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -127254,7 +127254,7 @@
         }
     },
     "namibia women|united states of america women|2026-11-11": {
-        "capturedAt": "2026-11-10T23:39:48.362376+00:00",
+        "capturedAt": "2026-11-11T06:56:46.743170+00:00",
         "matchDate": "2026-11-11",
         "report": {
             "teamA": "Namibia Women",
@@ -127319,15 +127319,15 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "BALANCED",
-            "swingScore": 35.0,
-            "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
+            "swingScore": 60.0,
+            "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 67,
                 "swingProfile": "CONDITIONAL SWING PROFILE",
-                "swingScore": 35.0,
-                "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
+                "swingScore": 60.0,
+                "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
                 "competitiveBalance": {
                     "label": "BALANCED",
                     "balanceScore": 85.7,
@@ -127371,11 +127371,10 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 48.9% chasing wins",
-                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14"
+                    "Middle-overs wicket volatility: 4.64 wickets/match in overs 7-14",
+                    "Medium dew can change second-innings conditions"
                 ],
                 "swingPenalties": [
-                    "High dew may create strong chase-side bias",
-                    "High rain-interruption risk",
                     "Liquidity/market depth is not verified"
                 ],
                 "scoreComponents": [
@@ -127396,7 +127395,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 20.0,
+                        "score": 90.0,
                         "weight": 0.1
                     },
                     {
@@ -127435,7 +127434,7 @@
                     "Two-way venue: 48.9% chasing wins",
                     "Overs 7-14 wicket pressure: 4.64 wickets/match",
                     "16th-over baseline: 6.6 runs; wicket in 44.9% of sampled innings",
-                    "Weather: rain 64%, dew HIGH"
+                    "Weather: rain 46%, dew MEDIUM"
                 ],
                 "evidence": [
                     "Elo: Namibia Women 1540.4 vs United States Of America Women 1570.2",
@@ -127670,17 +127669,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-11T14:00:00+03:00",
-                "temperature_c": 21.5,
-                "humidity_pct": 90,
-                "dew_point_c": 19.7,
-                "rain_probability_pct": 64,
-                "precipitation_mm": 0.9,
-                "wind_kmh": 1.9,
-                "dew_risk": "HIGH",
-                "rain_risk": "HIGH"
+                "temperature_c": 25.4,
+                "humidity_pct": 70,
+                "dew_point_c": 19.5,
+                "rain_probability_pct": 46,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 3.2,
+                "dew_risk": "MEDIUM",
+                "rain_risk": "MEDIUM"
             },
-            "weatherText": "21.5°C | RH 90% | Rain 64% | Wind 1.9 km/h",
-            "dewRisk": "HIGH",
+            "weatherText": "25.4°C | RH 70% | Rain 46% | Wind 3.2 km/h",
+            "dewRisk": "MEDIUM",
             "tossBias": "48.94% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "32.30",
@@ -127724,12 +127723,10 @@
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.0,
             "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
-            "noBetReasons": [
-                "HIGH DEW RISK",
-                "HIGH RAIN INTERRUPTION RISK"
-            ],
+            "noBetReasons": [],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
@@ -127737,7 +127734,7 @@
         }
     },
     "boland|lions super eights boland park paarl|2026-11-11": {
-        "capturedAt": "2026-11-10T23:39:48.362389+00:00",
+        "capturedAt": "2026-11-11T06:56:46.743200+00:00",
         "matchDate": "2026-11-11",
         "report": {
             "teamA": "Boland",
@@ -128002,16 +127999,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-11T13:00:00+02:00",
-                "temperature_c": 27.8,
-                "humidity_pct": 46,
-                "dew_point_c": 15.1,
+                "temperature_c": 27.1,
+                "humidity_pct": 50,
+                "dew_point_c": 15.8,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 15.5,
+                "wind_kmh": 13.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.8°C | RH 46% | Rain 0% | Wind 15.5 km/h",
+            "weatherText": "27.1°C | RH 50% | Rain 0% | Wind 13.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -128056,7 +128053,7 @@
         }
     },
     "titans|warriors super eights supersport park centurion|2026-11-11": {
-        "capturedAt": "2026-11-10T23:39:48.362402+00:00",
+        "capturedAt": "2026-11-11T06:56:46.743224+00:00",
         "matchDate": "2026-11-11",
         "report": {
             "teamA": "Titans",
@@ -128180,7 +128177,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 0%, dew LOW"
+                    "Weather: rain 8%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -128321,16 +128318,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-11T18:00:00+02:00",
-                "temperature_c": 29.6,
-                "humidity_pct": 24,
-                "dew_point_c": 7.0,
-                "rain_probability_pct": 0,
+                "temperature_c": 30.3,
+                "humidity_pct": 22,
+                "dew_point_c": 6.2,
+                "rain_probability_pct": 8,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 8.8,
+                "wind_kmh": 11.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "29.6°C | RH 24% | Rain 0% | Wind 8.8 km/h",
+            "weatherText": "30.3°C | RH 22% | Rain 8% | Wind 11.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
