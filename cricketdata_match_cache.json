@@ -8440,5 +8440,141 @@
       ],
       "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
     }
+  },
+  "b8a5db46-e867-432c-b24f-46539d720c3c": {
+    "cachedAt": "2026-11-11T17:59:18.749320+00:00",
+    "data": {
+      "id": "b8a5db46-e867-432c-b24f-46539d720c3c",
+      "name": "Pakistan U19 vs Bangladesh U19, Semi Final 1 (A1 v B2), ACC Mens U19 Asia Cup 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 12, 05:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 1), Al Amerat",
+      "date": "2026-11-12",
+      "dateTimeGMT": "2026-11-12T05:00:00",
+      "teams": [
+        "Pakistan U19",
+        "Bangladesh U19"
+      ],
+      "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
+    }
+  },
+  "d1b15e05-287b-4a51-a115-2e6ea555f783": {
+    "cachedAt": "2026-11-11T17:59:18.882397+00:00",
+    "data": {
+      "id": "d1b15e05-287b-4a51-a115-2e6ea555f783",
+      "name": "Afghanistan U19 vs India U19, Semi Final 2 (B1 v A2), ACC Mens U19 Asia Cup 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 12, 05:00 GMT",
+      "venue": "Al Amerat Cricket Ground (Ministry Turf 2), Al Amerat",
+      "date": "2026-11-12",
+      "dateTimeGMT": "2026-11-12T05:00:00",
+      "teams": [
+        "Afghanistan U19",
+        "India U19"
+      ],
+      "series_id": "d1cd3983-e0d2-4abd-87dc-4b122cc48481"
+    }
+  },
+  "1785e26c-fb54-4b8b-b05c-a8645a49538c": {
+    "cachedAt": "2026-11-11T17:59:19.018291+00:00",
+    "data": {
+      "id": "1785e26c-fb54-4b8b-b05c-a8645a49538c",
+      "name": "Punjab vs Railways, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T05:30:00",
+      "teams": [
+        "Punjab",
+        "Railways"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "d679fdac-3d95-43fb-beb2-9772740fbbc0": {
+    "cachedAt": "2026-11-11T17:59:19.152123+00:00",
+    "data": {
+      "id": "d679fdac-3d95-43fb-beb2-9772740fbbc0",
+      "name": "Hyderabad vs Vidarbha, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T05:30:00",
+      "teams": [
+        "Hyderabad",
+        "Vidarbha"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "24a61250-77d5-4f83-bbbd-4cff0d2cf86f": {
+    "cachedAt": "2026-11-11T17:59:19.284891+00:00",
+    "data": {
+      "id": "24a61250-77d5-4f83-bbbd-4cff0d2cf86f",
+      "name": "Chandigarh vs Rajasthan, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T05:30:00",
+      "teams": [
+        "Chandigarh",
+        "Rajasthan"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "c1720071-0d96-463b-b00c-1961c698cb93": {
+    "cachedAt": "2026-11-11T17:59:19.417376+00:00",
+    "data": {
+      "id": "c1720071-0d96-463b-b00c-1961c698cb93",
+      "name": "Maharashtra vs Himachal Pradesh, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 05:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T05:30:00",
+      "teams": [
+        "Maharashtra",
+        "Himachal Pradesh"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "a219b99b-f10c-4225-832d-faa96d553318": {
+    "cachedAt": "2026-11-11T17:59:19.550314+00:00",
+    "data": {
+      "id": "a219b99b-f10c-4225-832d-faa96d553318",
+      "name": "Tamil Nadu vs Haryana, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 08:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T08:00:00",
+      "teams": [
+        "Tamil Nadu",
+        "Haryana"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "6fbbc8c2-82a4-4643-91a1-dad6169ea394": {
+    "cachedAt": "2026-11-11T17:59:19.685189+00:00",
+    "data": {
+      "id": "6fbbc8c2-82a4-4643-91a1-dad6169ea394",
+      "name": "Goa vs Mumbai, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 08:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T08:00:00",
+      "teams": [
+        "Goa",
+        "Mumbai"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
   }
 }
