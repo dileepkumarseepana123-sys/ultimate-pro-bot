@@ -8712,5 +8712,137 @@
       ],
       "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
     }
+  },
+  "e6df88d1-b952-468d-ba43-e02ed46b1194": {
+    "cachedAt": "2026-11-12T15:30:07.556185+00:00",
+    "data": {
+      "id": "e6df88d1-b952-468d-ba43-e02ed46b1194",
+      "name": "Emirates Eagles vs Yas Lions, 27th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 16:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T16:00:00",
+      "teams": [
+        "Emirates Eagles",
+        "Yas Lions"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "0f63b918-a76b-422c-9019-04219f5aec34": {
+    "cachedAt": "2026-11-12T15:30:07.836288+00:00",
+    "data": {
+      "id": "0f63b918-a76b-422c-9019-04219f5aec34",
+      "name": "Hobart Hurricanes Women vs Perth Scorchers Women, 26th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 19, 04:40 GMT",
+      "venue": "Allan Border Field, Brisbane",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T04:40:00",
+      "teams": [
+        "Hobart Hurricanes Women",
+        "Perth Scorchers Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "c9701e3b-c010-4de1-8e65-7d309e53a9d0": {
+    "cachedAt": "2026-11-12T15:30:07.977362+00:00",
+    "data": {
+      "id": "c9701e3b-c010-4de1-8e65-7d309e53a9d0",
+      "name": "Zimbabwe A vs Ireland A, 1st unofficial ODI, Ireland A tour of Zimbabwe, 2026",
+      "status": "Match starts at Nov 19, 07:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T07:30:00",
+      "teams": [
+        "Zimbabwe A",
+        "Ireland A"
+      ],
+      "series_id": "55616b78-3f8c-429a-b9c2-cf73c72d4cd4"
+    }
+  },
+  "72085336-9f9e-4ebe-9b48-8abfc42f833c": {
+    "cachedAt": "2026-11-12T15:30:08.113922+00:00",
+    "data": {
+      "id": "72085336-9f9e-4ebe-9b48-8abfc42f833c",
+      "name": "South Western Districts vs Border, 7th Match, CSA Three-Day Series Division Two 2026-27",
+      "status": "Match starts at Nov 19, 08:00 GMT",
+      "venue": "Recreation Ground, Oudtshoorn",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T08:00:00",
+      "teams": [
+        "South Western Districts",
+        "Border"
+      ],
+      "series_id": "a276e556-845d-4c43-8351-1af035d3db64"
+    }
+  },
+  "869e8a21-fab7-4709-9d97-f446031f7e88": {
+    "cachedAt": "2026-11-12T15:30:08.248512+00:00",
+    "data": {
+      "id": "869e8a21-fab7-4709-9d97-f446031f7e88",
+      "name": "Eastern Storm vs Northern Cape, 9th Match, CSA Three-Day Series Division Two 2026-27",
+      "status": "Match starts at Nov 19, 08:00 GMT",
+      "venue": "Willowmoore Park, Benoni",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T08:00:00",
+      "teams": [
+        "Eastern Storm",
+        "Northern Cape"
+      ],
+      "series_id": "a276e556-845d-4c43-8351-1af035d3db64"
+    }
+  },
+  "13013357-fdce-4425-b993-34cffc54e4aa": {
+    "cachedAt": "2026-11-12T15:30:08.391754+00:00",
+    "data": {
+      "id": "13013357-fdce-4425-b993-34cffc54e4aa",
+      "name": "Limpopo vs Kwazulu-natal Inland",
+      "status": "Match starts at Nov 19, 08:00 GMT",
+      "venue": "Polokwane Cricket Club, Polokwane",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T08:00:00",
+      "teams": [
+        "Limpopo",
+        "Kwazulu-natal Inland - Tuskers"
+      ],
+      "series_id": "a276e556-845d-4c43-8351-1af035d3db64"
+    }
+  },
+  "c038aabe-bcd8-4198-ba18-26572f666880": {
+    "cachedAt": "2026-11-12T15:30:08.534902+00:00",
+    "data": {
+      "id": "c038aabe-bcd8-4198-ba18-26572f666880",
+      "name": "Knights vs Boland, 11th Match, CSA Four-Day Series Division One 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 19, 08:00 GMT",
+      "venue": "Mangaung Oval, Bloemfontein",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T08:00:00",
+      "teams": [
+        "Knights",
+        "Boland"
+      ],
+      "series_id": "4e9b136f-04eb-4f34-a30a-26f954576a12"
+    }
+  },
+  "3082f812-4c40-4199-9353-f2352e6ebce0": {
+    "cachedAt": "2026-11-12T15:30:08.678217+00:00",
+    "data": {
+      "id": "3082f812-4c40-4199-9353-f2352e6ebce0",
+      "name": "Dolphins vs Western Province, 10th Match, CSA Four-Day Series Division One 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 19, 08:00 GMT",
+      "venue": "Kingsmead, Durban",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T08:00:00",
+      "teams": [
+        "Dolphins",
+        "Western Province"
+      ],
+      "series_id": "4e9b136f-04eb-4f34-a30a-26f954576a12"
+    }
   }
 }

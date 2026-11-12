@@ -132189,7 +132189,7 @@
         }
     },
     "uganda women|united states of america women|2026-11-12": {
-        "capturedAt": "2026-11-12T00:57:45.694644+00:00",
+        "capturedAt": "2026-11-12T15:31:04.768147+00:00",
         "matchDate": "2026-11-12",
         "report": {
             "teamA": "Uganda Women",
@@ -132207,7 +132207,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177343/ugaw-vs-usaw-11th-match-womens-victoria-t20i-series-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -132654,11 +132654,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "namibia women|rwanda women|2026-11-12": {
-        "capturedAt": "2026-11-12T00:57:45.694649+00:00",
+        "capturedAt": "2026-11-12T15:31:04.768168+00:00",
         "matchDate": "2026-11-12",
         "report": {
             "teamA": "Namibia Women",
@@ -132676,7 +132677,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177354/namw-vs-rwaw-12th-match-womens-victoria-t20i-series-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -133137,11 +133138,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Rwanda Women has a strong edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Rwanda Women has a strong edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "biratnagar kings|pokhara avengers|2026-11-12": {
-        "capturedAt": "2026-11-12T00:57:45.694654+00:00",
+        "capturedAt": "2026-11-12T15:31:04.768180+00:00",
         "matchDate": "2026-11-12",
         "report": {
             "teamA": "Biratnagar Kings",
@@ -133159,7 +133161,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177760/bik-vs-poa-22nd-match-nepal-premier-league-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -133616,11 +133618,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Biratnagar Kings has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Biratnagar Kings has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "karnali yaks|lumbini lions|2026-11-12": {
-        "capturedAt": "2026-11-12T00:57:45.694660+00:00",
+        "capturedAt": "2026-11-12T15:31:04.768190+00:00",
         "matchDate": "2026-11-12",
         "report": {
             "teamA": "Karnali Yaks",
@@ -133638,7 +133641,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177770/kay-vs-lul-23rd-match-nepal-premier-league-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -134097,7 +134100,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Lumbini Lions has a moderate edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Lumbini Lions has a moderate edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     }
 }
