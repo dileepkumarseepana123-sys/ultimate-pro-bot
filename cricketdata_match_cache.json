@@ -8844,5 +8844,141 @@
       ],
       "series_id": "4e9b136f-04eb-4f34-a30a-26f954576a12"
     }
+  },
+  "ae5392dd-571b-461b-9064-53137546b7a3": {
+    "cachedAt": "2026-11-12T21:55:01.070315+00:00",
+    "data": {
+      "id": "ae5392dd-571b-461b-9064-53137546b7a3",
+      "name": "Titans vs Warriors, 9th Match, CSA Four-Day Series Division One 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 19, 08:00 GMT",
+      "venue": "LC de Villiers Oval, Pretoria",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T08:00:00",
+      "teams": [
+        "Titans",
+        "Warriors"
+      ],
+      "series_id": "4e9b136f-04eb-4f34-a30a-26f954576a12"
+    }
+  },
+  "717cf4eb-02f0-4148-9ee7-c32e85cb9acc": {
+    "cachedAt": "2026-11-12T21:55:01.259511+00:00",
+    "data": {
+      "id": "717cf4eb-02f0-4148-9ee7-c32e85cb9acc",
+      "name": "North West",
+      "matchType": "test",
+      "status": "Match starts at Nov 19, 08:00 GMT",
+      "venue": "Senwes Park, Potchefstroom",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T08:00:00",
+      "teams": [
+        "North West - Eastvaal Renault Dragons",
+        "Lions"
+      ],
+      "series_id": "4e9b136f-04eb-4f34-a30a-26f954576a12"
+    }
+  },
+  "b5d34f36-f5e6-4203-b19d-9ddef4631f57": {
+    "cachedAt": "2026-11-12T21:55:01.449451+00:00",
+    "data": {
+      "id": "b5d34f36-f5e6-4203-b19d-9ddef4631f57",
+      "name": "Brisbane Heat Women vs Sydney Thunder Women, 27th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 19, 08:10 GMT",
+      "venue": "Allan Border Field, Brisbane",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T08:10:00",
+      "teams": [
+        "Brisbane Heat Women",
+        "Sydney Thunder Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "173955a8-1dd0-48c8-9a47-5a9514c489d2": {
+    "cachedAt": "2026-11-12T21:55:01.639143+00:00",
+    "data": {
+      "id": "173955a8-1dd0-48c8-9a47-5a9514c489d2",
+      "name": "Uae Bulls vs Arabian Aces, 28th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 19, 11:30 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T11:30:00",
+      "teams": [
+        "Uae Bulls",
+        "Arabian Aces"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "619df1c5-0aef-473f-a455-e4109c120e78": {
+    "cachedAt": "2026-11-12T21:55:01.836957+00:00",
+    "data": {
+      "id": "619df1c5-0aef-473f-a455-e4109c120e78",
+      "name": "Yas Lions vs Royal Desert Champions, 29th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 19, 13:45 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T13:45:00",
+      "teams": [
+        "Yas Lions",
+        "Royal Desert Champions"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "e27e77b0-57d7-4ab5-8b89-3fa231fc2619": {
+    "cachedAt": "2026-11-12T21:55:02.025668+00:00",
+    "data": {
+      "id": "e27e77b0-57d7-4ab5-8b89-3fa231fc2619",
+      "name": "Emirates Eagles vs United Tigers, 30th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 19, 16:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T16:00:00",
+      "teams": [
+        "Emirates Eagles",
+        "United Tigers"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "42eb1bd1-bb5f-460a-8fa3-9de034893e30": {
+    "cachedAt": "2026-11-12T21:55:02.214365+00:00",
+    "data": {
+      "id": "42eb1bd1-bb5f-460a-8fa3-9de034893e30",
+      "name": "Otago vs Canterbury, 3rd Match, Plunket Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 18, 21:30 GMT",
+      "venue": "University Oval, Dunedin",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T21:30:00",
+      "teams": [
+        "Otago",
+        "Canterbury"
+      ],
+      "series_id": "ded5b9f9-9a41-44c9-a8ad-356df72cc432"
+    }
+  },
+  "d6a32863-2b67-47fd-9c2f-53ae0ab566d2": {
+    "cachedAt": "2026-11-12T21:55:02.407626+00:00",
+    "data": {
+      "id": "d6a32863-2b67-47fd-9c2f-53ae0ab566d2",
+      "name": "Northern Districts vs Auckland, 1st Match, Plunket Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 18, 21:30 GMT",
+      "venue": "Seddon Park, Hamilton",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T21:30:00",
+      "teams": [
+        "Northern Districts",
+        "Auckland"
+      ],
+      "series_id": "ded5b9f9-9a41-44c9-a8ad-356df72cc432"
+    }
   }
 }
