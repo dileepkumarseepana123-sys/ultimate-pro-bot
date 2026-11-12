@@ -8576,5 +8576,141 @@
       ],
       "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
     }
+  },
+  "8fa3af3c-f303-42d1-9d2e-441a4327006f": {
+    "cachedAt": "2026-11-12T00:56:17.161544+00:00",
+    "data": {
+      "id": "8fa3af3c-f303-42d1-9d2e-441a4327006f",
+      "name": "Uttar Pradesh vs Baroda, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 08:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T08:00:00",
+      "teams": [
+        "Uttar Pradesh",
+        "Baroda"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "3abd621d-50a9-41eb-ade6-2ce38eb4a536": {
+    "cachedAt": "2026-11-12T00:56:17.351033+00:00",
+    "data": {
+      "id": "3abd621d-50a9-41eb-ade6-2ce38eb4a536",
+      "name": "Assam vs Puducherry, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 08:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T08:00:00",
+      "teams": [
+        "Assam",
+        "Puducherry"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "e7b3156e-b63b-4323-ae10-eb61d9695515": {
+    "cachedAt": "2026-11-12T00:56:17.540604+00:00",
+    "data": {
+      "id": "e7b3156e-b63b-4323-ae10-eb61d9695515",
+      "name": "Uttarakhand vs Gujarat, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 11:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T11:00:00",
+      "teams": [
+        "Uttarakhand",
+        "Gujarat"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "e2823135-4f2d-4f38-9c44-d9288e419963": {
+    "cachedAt": "2026-11-12T00:56:17.726900+00:00",
+    "data": {
+      "id": "e2823135-4f2d-4f38-9c44-d9288e419963",
+      "name": "Jammu And Kashmir vs Saurashtra, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 11:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T11:00:00",
+      "teams": [
+        "Jammu And Kashmir",
+        "Saurashtra"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "7ff7cb4c-f522-4de6-a04c-9c89a5c09c0a": {
+    "cachedAt": "2026-11-12T00:56:17.912865+00:00",
+    "data": {
+      "id": "7ff7cb4c-f522-4de6-a04c-9c89a5c09c0a",
+      "name": "Meghalaya vs Manipur, Plate, Syed Mushtaq Ali Trophy Plate 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 11:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T11:00:00",
+      "teams": [
+        "Meghalaya",
+        "Manipur"
+      ],
+      "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
+    }
+  },
+  "286eb042-6319-4a98-ad09-91ee0aced593": {
+    "cachedAt": "2026-11-12T00:56:18.098350+00:00",
+    "data": {
+      "id": "286eb042-6319-4a98-ad09-91ee0aced593",
+      "name": "Karnataka vs Mizoram, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 11:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T11:00:00",
+      "teams": [
+        "Karnataka",
+        "Mizoram"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "0a913f95-1d97-4bf5-a8c7-4cfcd453ca62": {
+    "cachedAt": "2026-11-12T00:56:18.284581+00:00",
+    "data": {
+      "id": "0a913f95-1d97-4bf5-a8c7-4cfcd453ca62",
+      "name": "Madhya Pradesh vs Tripura, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 11:00 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T11:00:00",
+      "teams": [
+        "Madhya Pradesh",
+        "Tripura"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "22361ddb-38e2-4fed-8cdf-f4655220ef00": {
+    "cachedAt": "2026-11-12T00:56:18.475504+00:00",
+    "data": {
+      "id": "22361ddb-38e2-4fed-8cdf-f4655220ef00",
+      "name": "Uae Bulls vs United Tigers, 26th Match, Abu Dhabi T10 League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 18, 13:45 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T13:45:00",
+      "teams": [
+        "Uae Bulls",
+        "United Tigers"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
   }
 }
