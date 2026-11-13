@@ -134105,7 +134105,7 @@
         }
     },
     "kathmandu gorkhas|sudur paschim royals|2026-11-13": {
-        "capturedAt": "2026-11-12T21:56:06.669161+00:00",
+        "capturedAt": "2026-11-13T17:58:49.786844+00:00",
         "matchDate": "2026-11-13",
         "report": {
             "teamA": "Kathmandu Gorkhas",
@@ -134123,7 +134123,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177771/kag-vs-spr-24th-match-nepal-premier-league-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -134550,11 +134550,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Sudur Paschim Royals has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Sudur Paschim Royals has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "chitwan rhinos|janakpur bolts|2026-11-13": {
-        "capturedAt": "2026-11-13T07:05:19.075744+00:00",
+        "capturedAt": "2026-11-13T17:58:49.786863+00:00",
         "matchDate": "2026-11-13",
         "report": {
             "teamA": "Chitwan Rhinos",
@@ -134572,7 +134573,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177781/chr-vs-jab-25th-match-nepal-premier-league-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -135017,11 +135018,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "boland|warriors|2026-11-13": {
-        "capturedAt": "2026-11-13T07:05:19.075781+00:00",
+        "capturedAt": "2026-11-13T17:58:49.786869+00:00",
         "matchDate": "2026-11-13",
         "report": {
             "teamA": "Warriors",
@@ -135039,7 +135041,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173597/war-vs-bol-1st-semi-final-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -135499,11 +135501,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "lions|western province|2026-11-13": {
-        "capturedAt": "2026-11-13T07:05:19.075821+00:00",
+        "capturedAt": "2026-11-13T17:58:49.786876+00:00",
         "matchDate": "2026-11-13",
         "report": {
             "teamA": "Lions",
@@ -135521,7 +135524,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173607/lions-vs-wpr-2nd-semi-final-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -135982,7 +135985,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Lions has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Lions has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     }
 }
