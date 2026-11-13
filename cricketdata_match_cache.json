@@ -9251,5 +9251,107 @@
       ],
       "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
     }
+  },
+  "994c9cae-f89b-44b8-9e0f-c6f9455b1b67": {
+    "cachedAt": "2026-11-13T23:47:37.091903+00:00",
+    "data": {
+      "id": "994c9cae-f89b-44b8-9e0f-c6f9455b1b67",
+      "name": "Adelaide Strikers Women vs Melbourne Renegades Women, 28th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 20, 08:10 GMT",
+      "venue": "Adelaide Oval, Adelaide",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T08:10:00",
+      "teams": [
+        "Adelaide Strikers Women",
+        "Melbourne Renegades Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "13fd81ef-3627-466c-b69d-2feeb11134a2": {
+    "cachedAt": "2026-11-13T23:47:37.269326+00:00",
+    "data": {
+      "id": "13fd81ef-3627-466c-b69d-2feeb11134a2",
+      "name": "Sikkim vs Manipur, Plate, Syed Mushtaq Ali Trophy Plate 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 20, 07:30 GMT",
+      "venue": "Nagaland Cricket Stadium, Sovima, Dimapur",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T11:00:00",
+      "teams": [
+        "Sikkim",
+        "Manipur"
+      ],
+      "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
+    }
+  },
+  "2312d51c-4f77-49e7-bc96-f61dea7d1492": {
+    "cachedAt": "2026-11-13T23:47:37.445893+00:00",
+    "data": {
+      "id": "2312d51c-4f77-49e7-bc96-f61dea7d1492",
+      "name": "Himachal Pradesh vs Puducherry, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 20, 11:00 GMT",
+      "venue": "PCA International Cricket Stadium, Ground A, New Chandigarh",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T11:00:00",
+      "teams": [
+        "Himachal Pradesh",
+        "Puducherry"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "cb06e950-be06-4f3d-88aa-ab9c370ee50b": {
+    "cachedAt": "2026-11-13T23:47:37.623362+00:00",
+    "data": {
+      "id": "cb06e950-be06-4f3d-88aa-ab9c370ee50b",
+      "name": "Railways vs Haryana, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 20, 11:00 GMT",
+      "venue": "Holkar Stadium, Indore",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T11:00:00",
+      "teams": [
+        "Railways",
+        "Haryana"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "ba15b126-aca3-425f-94c9-37e5baa29e8f": {
+    "cachedAt": "2026-11-13T23:47:37.799727+00:00",
+    "data": {
+      "id": "ba15b126-aca3-425f-94c9-37e5baa29e8f",
+      "name": "Rajasthan vs Baroda, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 20, 11:00 GMT",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T11:00:00",
+      "teams": [
+        "Rajasthan",
+        "Baroda"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "2c05b44d-8628-4589-b57d-1994393ed128": {
+    "cachedAt": "2026-11-13T23:47:37.976166+00:00",
+    "data": {
+      "id": "2c05b44d-8628-4589-b57d-1994393ed128",
+      "name": "Vidarbha vs Mumbai, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 20, 11:00 GMT",
+      "venue": "Eden Gardens, Kolkata",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T11:00:00",
+      "teams": [
+        "Vidarbha",
+        "Mumbai"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
   }
 }
