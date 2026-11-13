@@ -134554,7 +134554,7 @@
         }
     },
     "chitwan rhinos|janakpur bolts|2026-11-13": {
-        "capturedAt": "2026-11-12T21:56:06.669177+00:00",
+        "capturedAt": "2026-11-13T07:05:19.075744+00:00",
         "matchDate": "2026-11-13",
         "report": {
             "teamA": "Chitwan Rhinos",
@@ -134562,9 +134562,9 @@
             "name": "Chitwan Rhinos vs Janakpur Bolts,25th Match Tribhuvan University International Cricket Ground , Kirtipur",
             "matchType": "T20",
             "venue": "Tribhuvan University International Cricket Ground , Kirtipur",
-            "dateTimeGMT": "2026-11-13T10:45:00+00:00",
+            "dateTimeGMT": "2026-11-13T11:15:00+00:00",
             "sourceDate": "2026-11-13",
-            "matchTimeIST": "2026-11-13T16:15:00+05:30",
+            "matchTimeIST": "2026-11-13T16:45:00+05:30",
             "indiaDate": "2026-11-13",
             "series": "Nepal Premier League 2026",
             "sourceName": "Cricbuzz via text relay",
@@ -134619,14 +134619,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "BALANCED",
-            "swingScore": 60.0,
+            "swingScore": 59.5,
             "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 67,
+                "dataCompletenessPct": 50,
                 "swingProfile": "CONDITIONAL SWING PROFILE",
-                "swingScore": 60.0,
+                "swingScore": 59.5,
                 "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
                 "competitiveBalance": {
                     "label": "BALANCED",
@@ -134671,8 +134671,7 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 48.0% chasing wins",
-                    "Middle-overs wicket volatility: 4.54 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.54 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
                     "Liquidity/market depth is not verified"
@@ -134692,11 +134691,6 @@
                         "name": "middle_over_volatility",
                         "score": 75.7,
                         "weight": 0.15
-                    },
-                    {
-                        "name": "weather",
-                        "score": 90.0,
-                        "weight": 0.1
                     },
                     {
                         "name": "market_proxy",
@@ -134722,7 +134716,7 @@
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS WATCHLIST",
-                "dataConfidencePct": 57,
+                "dataConfidencePct": 43,
                 "initialPrediction": "Pre-toss evidence is broadly balanced; no clear historical side edge.",
                 "edgeTeam": null,
                 "edgeStrength": "BALANCED",
@@ -134733,8 +134727,7 @@
                     "Powerplay baseline: 40.4 runs / 1.67 wickets",
                     "Two-way venue: 48.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.54 wickets/match",
-                    "16th-over baseline: 7.8 runs; wicket in 43.5% of sampled innings",
-                    "Weather: rain 2%, dew MEDIUM"
+                    "16th-over baseline: 7.8 runs; wicket in 43.5% of sampled innings"
                 ],
                 "evidence": [
                     "Elo: Chitwan Rhinos 1464.0 vs Janakpur Bolts 1479.2",
@@ -134967,19 +134960,11 @@
                 ]
             },
             "weather": {
-                "status": "OK",
-                "local_time": "2026-11-13T16:30:00+05:45",
-                "temperature_c": 16.8,
-                "humidity_pct": 76,
-                "dew_point_c": 12.5,
-                "rain_probability_pct": 2,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 1.5,
-                "dew_risk": "MEDIUM",
-                "rain_risk": "LOW"
+                "status": "UNKNOWN",
+                "reason": "Weather API error: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
             },
-            "weatherText": "16.8°C | RH 76% | Rain 2% | Wind 1.5 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
             "tossBias": "48.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "40.35",
@@ -134993,7 +134978,7 @@
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.54/match",
             "metricSources": {
                 "fixture": "Cricbuzz via text relay",
-                "weather": "Open-Meteo match-hour forecast",
+                "weather": "Open-Meteo unavailable/UNKNOWN",
                 "tossBias": "Cricsheet venue T20 history (n=129)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=129)",
                 "over16": "Cricsheet 16th-over history (n=237)",
@@ -135023,11 +135008,12 @@
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.55,
             "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
-            "noBetReasons": [],
+            "noBetReasons": [
+                "WEATHER DATA UNKNOWN"
+            ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
@@ -135035,7 +135021,7 @@
         }
     },
     "boland|warriors|2026-11-13": {
-        "capturedAt": "2026-11-12T21:56:06.669187+00:00",
+        "capturedAt": "2026-11-13T07:05:19.075781+00:00",
         "matchDate": "2026-11-13",
         "report": {
             "teamA": "Warriors",
@@ -135107,14 +135093,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "BALANCED",
-            "swingScore": 60.0,
+            "swingScore": 55.0,
             "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 67,
+                "dataCompletenessPct": 50,
                 "swingProfile": "CONDITIONAL SWING PROFILE",
-                "swingScore": 60.0,
+                "swingScore": 55.0,
                 "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
                 "competitiveBalance": {
                     "label": "BALANCED",
@@ -135188,11 +135174,6 @@
                         "weight": 0.15
                     },
                     {
-                        "name": "weather",
-                        "score": 70.0,
-                        "weight": 0.1
-                    },
-                    {
                         "name": "market_proxy",
                         "score": 35.0,
                         "weight": 0.2
@@ -135216,7 +135197,7 @@
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS WATCHLIST",
-                "dataConfidencePct": 71,
+                "dataConfidencePct": 57,
                 "initialPrediction": "Pre-toss evidence is broadly balanced; no clear historical side edge.",
                 "edgeTeam": null,
                 "edgeStrength": "BALANCED",
@@ -135227,8 +135208,7 @@
                     "Powerplay baseline: 43.6 runs / 1.42 wickets",
                     "Two-way venue: 53.1% chasing wins",
                     "Overs 7-14 wicket pressure: 4.17 wickets/match",
-                    "16th-over baseline: 8.2 runs; wicket in 39.0% of sampled innings",
-                    "Weather: rain 4%, dew LOW"
+                    "16th-over baseline: 8.2 runs; wicket in 39.0% of sampled innings"
                 ],
                 "evidence": [
                     "Elo: Warriors 1483.2 vs Boland 1520.3",
@@ -135462,19 +135442,11 @@
                 ]
             },
             "weather": {
-                "status": "OK",
-                "local_time": "2026-11-13T13:00:00+02:00",
-                "temperature_c": 21.4,
-                "humidity_pct": 56,
-                "dew_point_c": 12.2,
-                "rain_probability_pct": 4,
-                "precipitation_mm": 0.2,
-                "wind_kmh": 17.9,
-                "dew_risk": "LOW",
-                "rain_risk": "LOW"
+                "status": "UNKNOWN",
+                "reason": "Weather API error: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
             },
-            "weatherText": "21.4°C | RH 56% | Rain 4% | Wind 17.9 km/h",
-            "dewRisk": "LOW",
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
             "tossBias": "53.06% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "43.60",
@@ -135488,7 +135460,7 @@
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.17/match",
             "metricSources": {
                 "fixture": "Cricbuzz via text relay",
-                "weather": "Open-Meteo match-hour forecast",
+                "weather": "Open-Meteo unavailable/UNKNOWN",
                 "tossBias": "Cricsheet venue T20 history (n=100)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=100)",
                 "over16": "Cricsheet 16th-over history (n=182)",
@@ -135518,7 +135490,9 @@
             "spinnerWickets7to14": null,
             "spinClassificationPct": 4.67,
             "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
-            "noBetReasons": [],
+            "noBetReasons": [
+                "WEATHER DATA UNKNOWN"
+            ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
@@ -135529,7 +135503,7 @@
         }
     },
     "lions|western province|2026-11-13": {
-        "capturedAt": "2026-11-12T21:56:06.669195+00:00",
+        "capturedAt": "2026-11-13T07:05:19.075821+00:00",
         "matchDate": "2026-11-13",
         "report": {
             "teamA": "Lions",
@@ -135601,15 +135575,15 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "MODERATE GAP",
-            "swingScore": 55.7,
-            "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+            "swingScore": 49.8,
+            "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 67,
+                "dataCompletenessPct": 50,
                 "swingProfile": "CONDITIONAL SWING PROFILE",
-                "swingScore": 55.7,
-                "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                "swingScore": 49.8,
+                "strategyLabel": "LOW SWING POTENTIAL / CAUTION",
                 "competitiveBalance": {
                     "label": "MODERATE GAP",
                     "balanceScore": 67.3,
@@ -135682,11 +135656,6 @@
                         "weight": 0.15
                     },
                     {
-                        "name": "weather",
-                        "score": 70.0,
-                        "weight": 0.1
-                    },
-                    {
                         "name": "market_proxy",
                         "score": 35.0,
                         "weight": 0.2
@@ -135710,7 +135679,7 @@
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS CONDITIONAL",
-                "dataConfidencePct": 71,
+                "dataConfidencePct": 57,
                 "initialPrediction": "Lions has a moderate edge on the available pre-toss historical evidence.",
                 "edgeTeam": "Lions",
                 "edgeStrength": "MODERATE EDGE",
@@ -135721,8 +135690,7 @@
                     "Powerplay baseline: 43.6 runs / 1.42 wickets",
                     "Two-way venue: 53.1% chasing wins",
                     "Overs 7-14 wicket pressure: 4.17 wickets/match",
-                    "16th-over baseline: 8.2 runs; wicket in 39.0% of sampled innings",
-                    "Weather: rain 0%, dew LOW"
+                    "16th-over baseline: 8.2 runs; wicket in 39.0% of sampled innings"
                 ],
                 "evidence": [
                     "Elo: Lions 1571.4 vs Western Province 1486.0",
@@ -135956,19 +135924,11 @@
                 ]
             },
             "weather": {
-                "status": "OK",
-                "local_time": "2026-11-13T18:00:00+02:00",
-                "temperature_c": 19.5,
-                "humidity_pct": 58,
-                "dew_point_c": 10.9,
-                "rain_probability_pct": 0,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 24.1,
-                "dew_risk": "LOW",
-                "rain_risk": "LOW"
+                "status": "UNKNOWN",
+                "reason": "Weather API error: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
             },
-            "weatherText": "19.5°C | RH 58% | Rain 0% | Wind 24.1 km/h",
-            "dewRisk": "LOW",
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
             "tossBias": "53.06% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "43.60",
@@ -135982,7 +135942,7 @@
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.17/match",
             "metricSources": {
                 "fixture": "Cricbuzz via text relay",
-                "weather": "Open-Meteo match-hour forecast",
+                "weather": "Open-Meteo unavailable/UNKNOWN",
                 "tossBias": "Cricsheet venue T20 history (n=100)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=100)",
                 "over16": "Cricsheet 16th-over history (n=182)",
@@ -136012,7 +135972,9 @@
             "spinnerWickets7to14": null,
             "spinClassificationPct": 4.67,
             "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
-            "noBetReasons": [],
+            "noBetReasons": [
+                "WEATHER DATA UNKNOWN"
+            ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",

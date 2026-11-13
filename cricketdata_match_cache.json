@@ -8980,5 +8980,140 @@
       ],
       "series_id": "ded5b9f9-9a41-44c9-a8ad-356df72cc432"
     }
+  },
+  "163a0512-5f23-4446-b450-fa888e36038e": {
+    "cachedAt": "2026-11-13T07:02:48.933897+00:00",
+    "data": {
+      "id": "163a0512-5f23-4446-b450-fa888e36038e",
+      "name": "New Zealand vs India, 1st Test, India tour of New Zealand 2026",
+      "status": "Match starts at Nov 19, 22:00 GMT",
+      "venue": "Basin Reserve, Wellington",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T22:00:00",
+      "teams": [
+        "New Zealand",
+        "India"
+      ],
+      "series_id": "9f0a2527-1508-42b3-9945-4ade13fd4b5a"
+    }
+  },
+  "8d7a8c7b-4ba4-4b67-89e1-eeb517ed71f8": {
+    "cachedAt": "2026-11-13T07:02:49.119515+00:00",
+    "data": {
+      "id": "8d7a8c7b-4ba4-4b67-89e1-eeb517ed71f8",
+      "name": "Chandigarh vs Uttar Pradesh, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 20, 03:30 GMT",
+      "venue": "Sharad Pawar Cricket Academy BKC, Mumbai",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T03:30:00",
+      "teams": [
+        "Chandigarh",
+        "Uttar Pradesh"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "a5116a4f-a501-47ed-9dd1-ec82be7567fb": {
+    "cachedAt": "2026-11-13T07:02:49.306004+00:00",
+    "data": {
+      "id": "a5116a4f-a501-47ed-9dd1-ec82be7567fb",
+      "name": "Maharashtra vs Assam, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 20, 03:30 GMT",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T03:30:00",
+      "teams": [
+        "Maharashtra",
+        "Assam"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "c6733362-51f2-444c-8189-de48524c88dc": {
+    "cachedAt": "2026-11-13T07:02:49.493821+00:00",
+    "data": {
+      "id": "c6733362-51f2-444c-8189-de48524c88dc",
+      "name": "Punjab vs Tamil Nadu, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 20, 03:30 GMT",
+      "venue": "Daly College Ground, Indore",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T03:30:00",
+      "teams": [
+        "Punjab",
+        "Tamil Nadu"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "8fbe5f27-85b7-4275-8e07-b3139073ac5e": {
+    "cachedAt": "2026-11-13T07:02:49.679873+00:00",
+    "data": {
+      "id": "8fbe5f27-85b7-4275-8e07-b3139073ac5e",
+      "name": "Hyderabad vs Goa, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 20, 03:30 GMT",
+      "venue": "Jadavpur University Campus 2nd Ground, Kolkata",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T03:30:00",
+      "teams": [
+        "Hyderabad",
+        "Goa"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "d7de5ef6-247a-4e72-ba88-5e3b2bb23388": {
+    "cachedAt": "2026-11-13T07:02:49.866063+00:00",
+    "data": {
+      "id": "d7de5ef6-247a-4e72-ba88-5e3b2bb23388",
+      "name": "Karnataka vs Jharkhand, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 20, 05:30 GMT",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T03:30:00",
+      "teams": [
+        "Karnataka",
+        "Jharkhand"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "2aa68a18-ec46-42c0-a339-3f50f1c33140": {
+    "cachedAt": "2026-11-13T07:02:50.052648+00:00",
+    "data": {
+      "id": "2aa68a18-ec46-42c0-a339-3f50f1c33140",
+      "name": "Services vs Nagaland, Plate, Syed Mushtaq Ali Trophy Plate 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 20, 03:00 GMT",
+      "venue": "Sovima Cricket Ground, Dimapur",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T05:30:00",
+      "teams": [
+        "Services",
+        "Nagaland"
+      ],
+      "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
+    }
+  },
+  "1d4943a0-7a83-42fd-ad37-ab7122e59e37": {
+    "cachedAt": "2026-11-13T07:02:50.238538+00:00",
+    "data": {
+      "id": "1d4943a0-7a83-42fd-ad37-ab7122e59e37",
+      "name": "Arunachal Pradesh vs Meghalaya, Plate, Syed Mushtaq Ali Trophy Plate 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 20, 03:00 GMT",
+      "venue": "Nagaland Cricket Stadium, Sovima, Dimapur",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T05:30:00",
+      "teams": [
+        "Arunachal Pradesh",
+        "Meghalaya"
+      ],
+      "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
+    }
   }
 }
