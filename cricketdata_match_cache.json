@@ -9353,5 +9353,39 @@
       ],
       "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
     }
+  },
+  "b1da5f1d-5a90-4a7f-abbb-a7b283bbf4a1": {
+    "cachedAt": "2026-11-14T06:51:51.946072+00:00",
+    "data": {
+      "id": "b1da5f1d-5a90-4a7f-abbb-a7b283bbf4a1",
+      "name": "Hobart Hurricanes Women vs Sydney Thunder Women, 29th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 21, 01:00 GMT",
+      "venue": "Bellerive Oval, Hobart",
+      "date": "2026-11-21",
+      "dateTimeGMT": "2026-11-21T01:00:00",
+      "teams": [
+        "Hobart Hurricanes Women",
+        "Sydney Thunder Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "f87d6b6b-f781-49d3-b644-2fed29044df3": {
+    "cachedAt": "2026-11-14T06:51:52.078523+00:00",
+    "data": {
+      "id": "f87d6b6b-f781-49d3-b644-2fed29044df3",
+      "name": "Sydney Sixers Women vs Perth Scorchers Women, 30th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 21, 04:30 GMT",
+      "venue": "North Sydney Oval, Sydney",
+      "date": "2026-11-21",
+      "dateTimeGMT": "2026-11-21T04:30:00",
+      "teams": [
+        "Sydney Sixers Women",
+        "Perth Scorchers Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }

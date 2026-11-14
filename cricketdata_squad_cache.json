@@ -10039,5 +10039,296 @@
         "cache": 0
       }
     }
+  },
+  "cd6be6bf-bc28-4c48-bf80-a27cb68d59c9": {
+    "cachedAt": "2026-11-14T06:53:27.772439+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [
+        {
+          "teamName": "Adelaide Strikers Women",
+          "shortname": "AS-W",
+          "img": "https://g.cricapi.com/iapi/2645-638040168980778527.webp?w=48",
+          "players": [
+            {
+              "id": "d756a9a9-2410-4625-8ff9-00459a6cdc35",
+              "name": "Madeline Penna",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm legbreak",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "7807e6fe-835f-4470-83f8-27a4e6dc6d8c",
+              "name": "Tahlia McGrath",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/players/7807e6fe-835f-4470-83f8-27a4e6dc6d8c.jpg"
+            },
+            {
+              "id": "624e6bf4-28fa-4741-b327-611b4c6a86d1",
+              "name": "Amanda-Jade Wellington",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm legbreak",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/players/624e6bf4-28fa-4741-b327-611b4c6a86d1.jpg"
+            },
+            {
+              "id": "097f1919-e09c-4a2f-ae0f-6a707cc33b26",
+              "name": "Darcie Brown",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/players/097f1919-e09c-4a2f-ae0f-6a707cc33b26.jpg"
+            },
+            {
+              "id": "a94b40c6-f70c-46c8-b1eb-6ad0a3894b30",
+              "name": "Emma de Broughe",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "4582b917-a313-458d-9c7e-7a7ee8ddcea3",
+              "name": "Ellie Johnston",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm legbreak",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "f7e7e7bd-c07b-4de6-96a1-7b4f5db66b1d",
+              "name": "Maia Bouchier",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "1d982fb7-6ad5-429a-a6f4-7faecf1a6166",
+              "name": "Laura Wolvaardt",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "South Africa",
+              "playerImg": "https://h.cricapi.com/img/players/1d982fb7-6ad5-429a-a6f4-7faecf1a6166.jpg"
+            },
+            {
+              "id": "294d21e2-ed23-4fe5-afe0-8a8bf56fe46a",
+              "name": "Megan Schutt",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/players/294d21e2-ed23-4fe5-afe0-8a8bf56fe46a.jpg"
+            },
+            {
+              "id": "da248274-6727-47d9-a725-a4c7c91f9ae7",
+              "name": "Sophie Ecclestone",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Left-arm orthodox",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/players/da248274-6727-47d9-a725-a4c7c91f9ae7.jpg"
+            },
+            {
+              "id": "c44fdf25-cfeb-4d4b-9ff7-b17bdfa405ad",
+              "name": "Bridget Patterson",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "a4cfab7c-4468-41a1-a1bd-e660bc6d5158",
+              "name": "Eleanor Larosa",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            }
+          ]
+        },
+        {
+          "teamName": "Perth Scorchers Women",
+          "shortname": "PS-W",
+          "img": "https://g.cricapi.com/iapi/2656-638040167042932787.webp?w=48",
+          "players": [
+            {
+              "id": "a5e4738a-f9e0-4c1e-be6d-056eb728f9ec",
+              "name": "Freya Kemp",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Left-arm medium",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "88cf71c2-ea05-44dd-8506-120bf4b8ce9b",
+              "name": "Katie Mack",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm legbreak",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "0eb44853-02d5-453e-ba71-311ee5c0575a",
+              "name": "Amy Edgar",
+              "role": "Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "4c3105e4-86f6-4e88-8389-550eaf5dad81",
+              "name": "Lilly Mills",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "98635bf6-b9c7-49a6-a9d1-6788c07efc67",
+              "name": "Fatima Sana",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Pakistan",
+              "playerImg": "https://h.cricapi.com/img/players/98635bf6-b9c7-49a6-a9d1-6788c07efc67.jpg"
+            },
+            {
+              "id": "3395b57d-d2e7-41a1-814f-7971032f00d2",
+              "name": "Alana King",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm legbreak",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/players/3395b57d-d2e7-41a1-814f-7971032f00d2.jpg"
+            },
+            {
+              "id": "dea8b4b0-6d39-4101-aa31-819b1e16b759",
+              "name": "Ebony Hoskin",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "a2df782f-cebb-46e1-a3bd-b4e0ad7c7fba",
+              "name": "Ruby Strange",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Left Handed Bat",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "9bdb82f2-b7bd-4506-b18d-c26bd37d9b33",
+              "name": "Beth Mooney",
+              "role": "WK-Batsman",
+              "battingStyle": "Left Handed Bat",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/players/9bdb82f2-b7bd-4506-b18d-c26bd37d9b33.jpg"
+            },
+            {
+              "id": "94883e5a-39a6-4e40-83cf-e244dcd97ed0",
+              "name": "Sophie Devine",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "New Zealand",
+              "playerImg": "https://h.cricapi.com/img/players/94883e5a-39a6-4e40-83cf-e244dcd97ed0.jpg"
+            },
+            {
+              "id": "bf451c9d-dcc6-4ee0-be82-f013f7089979",
+              "name": "Chloe Ainsworth",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            }
+          ]
+        }
+      ],
+      "status": "success",
+      "info": {
+        "hitsToday": 66,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 12,
+        "queryTime": 17.333,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "651a4c7d-d0f9-4955-bc5b-cd45a39419d9": {
+    "cachedAt": "2026-11-14T06:53:29.893988+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 76,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 1,
+        "queryTime": 11.9449,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "ffff0e29-97e8-4b0e-b71b-91ff7b4a7889": {
+    "cachedAt": "2026-11-14T06:53:31.066911+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 86,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 5,
+        "queryTime": 12.7052,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "99c3abf1-1c59-43e3-af34-5d53f5698ec0": {
+    "cachedAt": "2026-11-14T06:53:32.247569+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 96,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 5,
+        "queryTime": 12.108,
+        "s": 0,
+        "cache": 0
+      }
+    }
   }
 }
