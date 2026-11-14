@@ -9419,5 +9419,56 @@
       ],
       "series_id": "55616b78-3f8c-429a-b9c2-cf73c72d4cd4"
     }
+  },
+  "137259d7-7a59-4ce4-9a5e-3add8dc7875c": {
+    "cachedAt": "2026-11-14T22:40:15.224800+00:00",
+    "data": {
+      "id": "137259d7-7a59-4ce4-9a5e-3add8dc7875c",
+      "name": "Australia vs England, 1st T20I, England tour of Australia, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 21, 08:15 GMT",
+      "venue": "Melbourne Cricket Ground, Melbourne",
+      "date": "2026-11-21",
+      "dateTimeGMT": "2026-11-21T08:15:00",
+      "teams": [
+        "Australia",
+        "England"
+      ],
+      "series_id": "9c385594-20fe-4d3d-b2bb-df4de8e043bc"
+    }
+  },
+  "281c9aff-3fba-455b-a01d-f22bc22a8168": {
+    "cachedAt": "2026-11-14T22:40:15.390069+00:00",
+    "data": {
+      "id": "281c9aff-3fba-455b-a01d-f22bc22a8168",
+      "name": "Desert Vipers vs Mi Emirates, 1st Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 21, 14:30 GMT",
+      "venue": "Dubai International Cricket Stadium, Dubai",
+      "date": "2026-11-21",
+      "dateTimeGMT": "2026-11-21T14:30:00",
+      "teams": [
+        "Desert Vipers",
+        "Mi Emirates"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
+  },
+  "6945aa38-429f-47a9-9d8d-5c041e8fdda6": {
+    "cachedAt": "2026-11-14T22:40:15.552690+00:00",
+    "data": {
+      "id": "6945aa38-429f-47a9-9d8d-5c041e8fdda6",
+      "name": "Dubai Capitals vs Abu Dhabi Knight Riders, 3rd Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 21, 14:30 GMT",
+      "venue": "Dubai International Cricket Stadium, Dubai",
+      "date": "2026-11-21",
+      "dateTimeGMT": "2026-11-21T14:30:00",
+      "teams": [
+        "Dubai Capitals",
+        "Abu Dhabi Knight Riders"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
   }
 }
