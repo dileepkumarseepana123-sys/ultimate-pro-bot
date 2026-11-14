@@ -145161,7 +145161,7 @@
         }
     },
     "rwanda women|uganda women|2026-11-14": {
-        "capturedAt": "2026-11-14T06:53:54.524634+00:00",
+        "capturedAt": "2026-11-14T16:41:56.654936+00:00",
         "matchDate": "2026-11-14",
         "report": {
             "teamA": "Uganda Women",
@@ -145179,7 +145179,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177368/ugaw-vs-rwaw-final-womens-victoria-t20i-series-2026",
             "cricketDataMatchId": "3aaad226-9e10-423d-a23b-c0ee8310372c",
             "liveScoreText": null,
-            "sourceStatus": "Uganda Women opt to bat",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -145715,11 +145715,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "namibia women|united states of america women 3rd place play off entebbe cricket oval entebbe|2026-11-14": {
-        "capturedAt": "2026-11-13T23:49:26.958483+00:00",
+        "capturedAt": "2026-11-14T16:41:56.654956+00:00",
         "matchDate": "2026-11-14",
         "report": {
             "teamA": "Namibia Women",
@@ -145737,7 +145738,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177365/namw-vs-usaw-3rd-place-play-off-womens-victoria-t20i-series-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -146036,11 +146037,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "boland|warriors|2026-11-14": {
-        "capturedAt": "2026-11-14T06:53:54.524674+00:00",
+        "capturedAt": "2026-11-14T16:41:56.654962+00:00",
         "matchDate": "2026-11-14",
         "report": {
             "teamA": "Warriors",
@@ -146058,7 +146060,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173597/war-vs-bol-1st-semi-final-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -146530,11 +146532,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "lions|western province|2026-11-14": {
-        "capturedAt": "2026-11-14T06:53:54.524698+00:00",
+        "capturedAt": "2026-11-14T16:41:56.654969+00:00",
         "matchDate": "2026-11-14",
         "report": {
             "teamA": "Lions",
@@ -146552,7 +146555,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173607/lions-vs-wpr-2nd-semi-final-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -147025,11 +147028,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Lions has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Lions has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "tbc|tbc|2026-11-14": {
-        "capturedAt": "2026-11-14T06:53:54.524718+00:00",
+        "capturedAt": "2026-11-14T16:41:56.654975+00:00",
         "matchDate": "2026-11-14",
         "report": {
             "teamA": "TBC",
@@ -147047,7 +147051,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/173617/tbc-vs-tbc-final-csa-t20-challenge-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -147257,11 +147261,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "biratnagar kings|lumbini lions|2026-11-14": {
-        "capturedAt": "2026-11-14T06:53:54.524734+00:00",
+        "capturedAt": "2026-11-14T16:41:56.654981+00:00",
         "matchDate": "2026-11-14",
         "report": {
             "teamA": "Biratnagar Kings",
@@ -147279,7 +147284,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177791/bik-vs-lul-26th-match-nepal-premier-league-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -147754,7 +147759,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Lumbini Lions has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Lumbini Lions has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     }
 }

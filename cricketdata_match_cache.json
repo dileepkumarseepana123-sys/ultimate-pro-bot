@@ -9387,5 +9387,37 @@
       ],
       "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
     }
+  },
+  "a782f595-acd8-461b-944c-c01d6bfae956": {
+    "cachedAt": "2026-11-14T16:41:09.775883+00:00",
+    "data": {
+      "id": "a782f595-acd8-461b-944c-c01d6bfae956",
+      "name": "Zimbabwe A vs Ireland A, 3rd unofficial ODI, Ireland A tour of Zimbabwe, 2026",
+      "status": "Match starts at Nov 21, 07:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-21",
+      "dateTimeGMT": "2026-11-21T07:30:00",
+      "teams": [
+        "Zimbabwe A",
+        "Ireland A"
+      ],
+      "series_id": "55616b78-3f8c-429a-b9c2-cf73c72d4cd4"
+    }
+  },
+  "53b0c4a5-6153-4e6b-92db-badf60704165": {
+    "cachedAt": "2026-11-14T16:41:09.932271+00:00",
+    "data": {
+      "id": "53b0c4a5-6153-4e6b-92db-badf60704165",
+      "name": "Zimbabwe A vs Ireland A, 2nd unofficial ODI, Ireland A tour of Zimbabwe, 2026",
+      "status": "Match starts at Nov 21, 07:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-21",
+      "dateTimeGMT": "2026-11-21T07:30:00",
+      "teams": [
+        "Zimbabwe A",
+        "Ireland A"
+      ],
+      "series_id": "55616b78-3f8c-429a-b9c2-cf73c72d4cd4"
+    }
   }
 }
