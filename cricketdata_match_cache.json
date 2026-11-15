@@ -9470,5 +9470,141 @@
       ],
       "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
     }
+  },
+  "8f40d3a2-695f-4634-9d64-7eac40f1040c": {
+    "cachedAt": "2026-11-15T06:56:18.795270+00:00",
+    "data": {
+      "id": "8f40d3a2-695f-4634-9d64-7eac40f1040c",
+      "name": "Railways vs Saurashtra, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 03:30 GMT",
+      "venue": "Daly College Ground, Indore",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T03:30:00",
+      "teams": [
+        "Railways",
+        "Saurashtra"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "a255fb19-0c08-481e-a28b-7768ee95f6d2": {
+    "cachedAt": "2026-11-15T06:56:18.927860+00:00",
+    "data": {
+      "id": "a255fb19-0c08-481e-a28b-7768ee95f6d2",
+      "name": "Rajasthan vs Mizoram, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 03:30 GMT",
+      "venue": "Sharad Pawar Cricket Academy BKC, Mumbai",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T03:30:00",
+      "teams": [
+        "Rajasthan",
+        "Mizoram"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "534180d8-091b-4172-9776-66d363196c18": {
+    "cachedAt": "2026-11-15T06:56:19.061875+00:00",
+    "data": {
+      "id": "534180d8-091b-4172-9776-66d363196c18",
+      "name": "Himachal Pradesh vs Tripura, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 03:30 GMT",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T03:30:00",
+      "teams": [
+        "Himachal Pradesh",
+        "Tripura"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "c4b8a65d-2523-4138-8935-0854da24fd1b": {
+    "cachedAt": "2026-11-15T06:56:19.195815+00:00",
+    "data": {
+      "id": "c4b8a65d-2523-4138-8935-0854da24fd1b",
+      "name": "Vidarbha vs Gujarat, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 03:30 GMT",
+      "venue": "Jadavpur University Campus 2nd Ground, Kolkata",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T03:30:00",
+      "teams": [
+        "Vidarbha",
+        "Gujarat"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "7c602ec5-22e0-47fc-b1a1-2f62d1da035c": {
+    "cachedAt": "2026-11-15T06:56:19.712053+00:00",
+    "data": {
+      "id": "7c602ec5-22e0-47fc-b1a1-2f62d1da035c",
+      "name": "Brisbane Heat Women vs Adelaide Strikers Women, 31st Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 04:40 GMT",
+      "venue": "Allan Border Field, Brisbane",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T04:40:00",
+      "teams": [
+        "Brisbane Heat Women",
+        "Adelaide Strikers Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "ae64a6f3-397d-4035-8a3a-926df5a33678": {
+    "cachedAt": "2026-11-15T06:56:19.849969+00:00",
+    "data": {
+      "id": "ae64a6f3-397d-4035-8a3a-926df5a33678",
+      "name": "Sikkim vs Meghalaya, Plate, Syed Mushtaq Ali Trophy Plate 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 03:00 GMT",
+      "venue": "Sovima Cricket Ground, Dimapur",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T05:30:00",
+      "teams": [
+        "Sikkim",
+        "Meghalaya"
+      ],
+      "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
+    }
+  },
+  "761e325c-59df-49fe-b9cb-eccaa053cad3": {
+    "cachedAt": "2026-11-15T06:56:19.985496+00:00",
+    "data": {
+      "id": "761e325c-59df-49fe-b9cb-eccaa053cad3",
+      "name": "Services vs Manipur, Plate, Syed Mushtaq Ali Trophy Plate 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 03:00 GMT",
+      "venue": "Nagaland Cricket Stadium, Sovima, Dimapur",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T05:30:00",
+      "teams": [
+        "Services",
+        "Manipur"
+      ],
+      "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
+    }
+  },
+  "b81f0945-de92-4192-b95a-73d3f7826ec4": {
+    "cachedAt": "2026-11-15T06:56:20.120114+00:00",
+    "data": {
+      "id": "b81f0945-de92-4192-b95a-73d3f7826ec4",
+      "name": "Kerala vs Puducherry, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 05:30 GMT",
+      "venue": "PCA International Cricket Stadium, Ground A, New Chandigarh",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T05:30:00",
+      "teams": [
+        "Kerala",
+        "Puducherry"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
   }
 }

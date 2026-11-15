@@ -148364,7 +148364,7 @@
         }
     },
     "arabian aces|royal desert champions|2026-11-15": {
-        "capturedAt": "2026-11-14T22:42:04.672686+00:00",
+        "capturedAt": "2026-11-15T06:57:35.969620+00:00",
         "matchDate": "2026-11-15",
         "report": {
             "teamA": "Royal Desert Champions",
@@ -148483,12 +148483,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -148555,16 +148555,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-15T15:30:00+04:00",
-                "temperature_c": 27.8,
-                "humidity_pct": 54,
-                "dew_point_c": 17.7,
+                "temperature_c": 28.5,
+                "humidity_pct": 48,
+                "dew_point_c": 16.5,
                 "rain_probability_pct": 15,
-                "precipitation_mm": 0.3,
-                "wind_kmh": 15.0,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 14.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.8°C | RH 54% | Rain 15% | Wind 15.0 km/h",
+            "weatherText": "28.5°C | RH 48% | Rain 15% | Wind 14.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.1% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -148622,7 +148622,7 @@
         }
     },
     "emirates eagles|uae bulls|2026-11-15": {
-        "capturedAt": "2026-11-14T22:42:04.672699+00:00",
+        "capturedAt": "2026-11-15T06:57:35.969661+00:00",
         "matchDate": "2026-11-15",
         "report": {
             "teamA": "Emirates Eagles",
@@ -148741,12 +148741,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -148813,16 +148813,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-15T17:45:00+04:00",
-                "temperature_c": 27.2,
-                "humidity_pct": 57,
-                "dew_point_c": 17.9,
+                "temperature_c": 27.5,
+                "humidity_pct": 52,
+                "dew_point_c": 16.7,
                 "rain_probability_pct": 11,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 13.6,
+                "wind_kmh": 13.5,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.2°C | RH 57% | Rain 11% | Wind 13.6 km/h",
+            "weatherText": "27.5°C | RH 52% | Rain 11% | Wind 13.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.1% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -148880,7 +148880,7 @@
         }
     },
     "united tigers|yas lions|2026-11-15": {
-        "capturedAt": "2026-11-14T22:42:04.672709+00:00",
+        "capturedAt": "2026-11-15T06:57:35.969677+00:00",
         "matchDate": "2026-11-15",
         "report": {
             "teamA": "United Tigers",
@@ -148999,12 +148999,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -149071,16 +149071,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-15T20:00:00+04:00",
-                "temperature_c": 26.4,
-                "humidity_pct": 61,
-                "dew_point_c": 18.3,
+                "temperature_c": 26.5,
+                "humidity_pct": 56,
+                "dew_point_c": 17.0,
                 "rain_probability_pct": 2,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 13.2,
+                "wind_kmh": 12.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.4°C | RH 61% | Rain 2% | Wind 13.2 km/h",
+            "weatherText": "26.5°C | RH 56% | Rain 2% | Wind 12.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.1% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -149632,14 +149632,14 @@
         }
     },
     "kathmandu gorkhas|pokhara avengers|2026-11-15": {
-        "capturedAt": "2026-11-14T22:42:04.672747+00:00",
+        "capturedAt": "2026-11-15T06:57:35.969697+00:00",
         "matchDate": "2026-11-15",
         "report": {
             "teamA": "Kathmandu Gorkhas",
             "teamB": "Pokhara Avengers",
-            "name": "Kathmandu Gorkhas vs Pokhara Avengers,28th Match Tribhuvan University International Cricket Ground , Kirtipur",
+            "name": "Kathmandu Gorkhas vs Pokhara Avengers,28th Match Tribhuvan University International Cricket Ground,Kirtipur",
             "matchType": "T20",
-            "venue": "Tribhuvan University International Cricket Ground , Kirtipur",
+            "venue": "Tribhuvan University International Cricket Ground,Kirtipur",
             "dateTimeGMT": "2026-11-15T11:15:00+00:00",
             "sourceDate": "2026-11-15",
             "matchTimeIST": "2026-11-15T16:45:00+05:30",
@@ -150017,16 +150017,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-15T17:00:00+05:45",
-                "temperature_c": 14.7,
-                "humidity_pct": 90,
-                "dew_point_c": 13.1,
+                "temperature_c": 14.9,
+                "humidity_pct": 87,
+                "dew_point_c": 12.8,
                 "rain_probability_pct": 2,
-                "precipitation_mm": 0.2,
-                "wind_kmh": 0.4,
+                "precipitation_mm": 0.3,
+                "wind_kmh": 0.7,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "14.7°C | RH 90% | Rain 2% | Wind 0.4 km/h",
+            "weatherText": "14.9°C | RH 87% | Rain 2% | Wind 0.7 km/h",
             "dewRisk": "HIGH",
             "tossBias": "48.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -150085,14 +150085,14 @@
         }
     },
     "costa rica 1st t20i platinum oval falkland islands stanley|falkland islands|2026-11-15": {
-        "capturedAt": "2026-11-14T22:42:04.672763+00:00",
+        "capturedAt": "2026-11-15T06:57:35.969722+00:00",
         "matchDate": "2026-11-15",
         "report": {
             "teamA": "Falkland Islands",
-            "teamB": "Costa Rica,1st T20I Platinum Oval, Falkland Islands , Stanley",
-            "name": "Falkland Islands vs Costa Rica,1st T20I Platinum Oval, Falkland Islands , Stanley",
+            "teamB": "Costa Rica,1st T20I Platinum Oval, Falkland Islands,Stanley",
+            "name": "Falkland Islands vs Costa Rica,1st T20I Platinum Oval, Falkland Islands,Stanley",
             "matchType": "T20",
-            "venue": "1st T20I Platinum Oval, Falkland Islands , Stanley",
+            "venue": "1st T20I Platinum Oval, Falkland Islands,Stanley",
             "dateTimeGMT": "2026-11-15T13:00:00+00:00",
             "sourceDate": "2026-11-15",
             "matchTimeIST": "2026-11-15T18:30:00+05:30",
@@ -150259,16 +150259,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-15T10:00:00-03:00",
-                "temperature_c": 10.4,
-                "humidity_pct": 67,
-                "dew_point_c": 4.6,
+                "temperature_c": 10.1,
+                "humidity_pct": 64,
+                "dew_point_c": 3.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 3.6,
+                "wind_kmh": 4.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "10.4°C | RH 67% | Rain 0% | Wind 3.6 km/h",
+            "weatherText": "10.1°C | RH 64% | Rain 0% | Wind 4.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -150302,7 +150302,7 @@
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
                 "LIMITED RECENT T20 DATA FOR Falkland Islands",
-                "LIMITED RECENT T20 DATA FOR Costa Rica,1st T20I Platinum Oval, Falkland Islands , Stanley"
+                "LIMITED RECENT T20 DATA FOR Costa Rica,1st T20I Platinum Oval, Falkland Islands,Stanley"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
@@ -150314,14 +150314,14 @@
         }
     },
     "costa rica 2nd t20i platinum oval falkland islands stanley|falkland islands|2026-11-15": {
-        "capturedAt": "2026-11-14T22:42:04.672777+00:00",
+        "capturedAt": "2026-11-15T06:57:35.969736+00:00",
         "matchDate": "2026-11-15",
         "report": {
             "teamA": "Falkland Islands",
-            "teamB": "Costa Rica,2nd T20I Platinum Oval, Falkland Islands , Stanley",
-            "name": "Falkland Islands vs Costa Rica,2nd T20I Platinum Oval, Falkland Islands , Stanley",
+            "teamB": "Costa Rica,2nd T20I Platinum Oval, Falkland Islands,Stanley",
+            "name": "Falkland Islands vs Costa Rica,2nd T20I Platinum Oval, Falkland Islands,Stanley",
             "matchType": "T20",
-            "venue": "2nd T20I Platinum Oval, Falkland Islands , Stanley",
+            "venue": "2nd T20I Platinum Oval, Falkland Islands,Stanley",
             "dateTimeGMT": "2026-11-15T17:00:00+00:00",
             "sourceDate": "2026-11-15",
             "matchTimeIST": "2026-11-15T22:30:00+05:30",
@@ -150488,16 +150488,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-15T14:00:00-03:00",
-                "temperature_c": 14.0,
+                "temperature_c": 13.3,
                 "humidity_pct": 61,
-                "dew_point_c": 6.5,
+                "dew_point_c": 5.9,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.1,
+                "wind_kmh": 6.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "14.0°C | RH 61% | Rain 0% | Wind 7.1 km/h",
+            "weatherText": "13.3°C | RH 61% | Rain 0% | Wind 6.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -150531,7 +150531,7 @@
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
                 "LIMITED RECENT T20 DATA FOR Falkland Islands",
-                "LIMITED RECENT T20 DATA FOR Costa Rica,2nd T20I Platinum Oval, Falkland Islands , Stanley"
+                "LIMITED RECENT T20 DATA FOR Costa Rica,2nd T20I Platinum Oval, Falkland Islands,Stanley"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
