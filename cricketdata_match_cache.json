@@ -9742,5 +9742,107 @@
       ],
       "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
     }
+  },
+  "bc66ba93-9e50-4322-bdbb-cdd601083f04": {
+    "cachedAt": "2026-11-15T23:04:00.663587+00:00",
+    "data": {
+      "id": "bc66ba93-9e50-4322-bdbb-cdd601083f04",
+      "name": "Melbourne Stars Women vs Melbourne Renegades Women, 32nd Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 08:10 GMT",
+      "venue": "Junction Oval, Melbourne",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T08:10:00",
+      "teams": [
+        "Melbourne Stars Women",
+        "Melbourne Renegades Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "dce3e47e-ea10-4c69-aa29-052afb8661cf": {
+    "cachedAt": "2026-11-15T23:04:00.850367+00:00",
+    "data": {
+      "id": "dce3e47e-ea10-4c69-aa29-052afb8661cf",
+      "name": "Sharjah Warriorz vs Gulf Giants, 2nd Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 10:00 GMT",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T10:00:00",
+      "teams": [
+        "Sharjah Warriorz",
+        "Gulf Giants"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
+  },
+  "d1682582-df80-433b-be68-ff1ad6893667": {
+    "cachedAt": "2026-11-15T23:04:01.038685+00:00",
+    "data": {
+      "id": "d1682582-df80-433b-be68-ff1ad6893667",
+      "name": "Arunachal Pradesh vs Nagaland, Plate, Syed Mushtaq Ali Trophy Plate 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 07:30 GMT",
+      "venue": "Nagaland Cricket Stadium, Sovima, Dimapur",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T11:00:00",
+      "teams": [
+        "Arunachal Pradesh",
+        "Nagaland"
+      ],
+      "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
+    }
+  },
+  "bf972f22-4737-41ae-b163-837070f1e317": {
+    "cachedAt": "2026-11-15T23:04:01.228135+00:00",
+    "data": {
+      "id": "bf972f22-4737-41ae-b163-837070f1e317",
+      "name": "Tamil Nadu vs Bihar, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 11:00 GMT",
+      "venue": "Holkar Stadium, Indore",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T11:00:00",
+      "teams": [
+        "Tamil Nadu",
+        "Bihar"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "4f615ec7-a021-44cd-b3d9-3ac0131c3c93": {
+    "cachedAt": "2026-11-15T23:04:01.432237+00:00",
+    "data": {
+      "id": "4f615ec7-a021-44cd-b3d9-3ac0131c3c93",
+      "name": "Assam vs Andhra, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 11:00 GMT",
+      "venue": "PCA International Cricket Stadium, Ground A, New Chandigarh",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T11:00:00",
+      "teams": [
+        "Assam",
+        "Andhra"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "fd87e160-de4e-4e3f-a6a0-37594e292aec": {
+    "cachedAt": "2026-11-15T23:04:01.624847+00:00",
+    "data": {
+      "id": "fd87e160-de4e-4e3f-a6a0-37594e292aec",
+      "name": "Goa vs Odisha, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 11:00 GMT",
+      "venue": "Eden Gardens, Kolkata",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T11:00:00",
+      "teams": [
+        "Goa",
+        "Odisha"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
   }
 }
