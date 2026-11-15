@@ -9606,5 +9606,141 @@
       ],
       "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
     }
+  },
+  "03ddf49e-1a26-462d-824f-96f91f9e9cd1": {
+    "cachedAt": "2026-11-15T17:20:53.318663+00:00",
+    "data": {
+      "id": "03ddf49e-1a26-462d-824f-96f91f9e9cd1",
+      "name": "Delhi vs Haryana, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 05:30 GMT",
+      "venue": "Holkar Stadium, Indore",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T05:30:00",
+      "teams": [
+        "Delhi",
+        "Haryana"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "7bb269f7-5bb0-4c52-a047-4850d8f5c571": {
+    "cachedAt": "2026-11-15T17:20:53.454036+00:00",
+    "data": {
+      "id": "7bb269f7-5bb0-4c52-a047-4850d8f5c571",
+      "name": "Chhattisgarh vs Mumbai, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 05:30 GMT",
+      "venue": "Eden Gardens, Kolkata",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T05:30:00",
+      "teams": [
+        "Chhattisgarh",
+        "Mumbai"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "d1ec063a-d081-4202-a697-33041ce756e4": {
+    "cachedAt": "2026-11-15T17:20:53.587237+00:00",
+    "data": {
+      "id": "d1ec063a-d081-4202-a697-33041ce756e4",
+      "name": "Bengal vs Baroda, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 05:30 GMT",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T05:30:00",
+      "teams": [
+        "Bengal",
+        "Baroda"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "28a3f884-5661-4827-b6cc-fe96b078865f": {
+    "cachedAt": "2026-11-15T17:20:53.720148+00:00",
+    "data": {
+      "id": "28a3f884-5661-4827-b6cc-fe96b078865f",
+      "name": "Jammu And Kashmir vs Punjab, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 08:00 GMT",
+      "venue": "Daly College Ground, Indore",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T08:00:00",
+      "teams": [
+        "Jammu And Kashmir",
+        "Punjab"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "ef9d57ce-cc2f-43e3-a051-edf3e431400f": {
+    "cachedAt": "2026-11-15T17:20:53.994701+00:00",
+    "data": {
+      "id": "ef9d57ce-cc2f-43e3-a051-edf3e431400f",
+      "name": "Madhya Pradesh vs Maharashtra, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 08:00 GMT",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T08:00:00",
+      "teams": [
+        "Madhya Pradesh",
+        "Maharashtra"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "49d50b01-f5a5-45f2-bab6-c20499bae1ce": {
+    "cachedAt": "2026-11-15T17:20:54.126313+00:00",
+    "data": {
+      "id": "49d50b01-f5a5-45f2-bab6-c20499bae1ce",
+      "name": "Uttarakhand vs Hyderabad, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 08:00 GMT",
+      "venue": "Jadavpur University Campus 2nd Ground, Kolkata",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T08:00:00",
+      "teams": [
+        "Uttarakhand",
+        "Hyderabad"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "92965950-8f42-4a3f-a9ba-6e19a84ea73c": {
+    "cachedAt": "2026-11-15T17:20:54.259709+00:00",
+    "data": {
+      "id": "92965950-8f42-4a3f-a9ba-6e19a84ea73c",
+      "name": "Karnataka vs Chandigarh, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 08:00 GMT",
+      "venue": "Sharad Pawar Cricket Academy BKC, Mumbai",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T08:00:00",
+      "teams": [
+        "Karnataka",
+        "Chandigarh"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "f2ea35eb-2ae7-4bfc-9914-2797e5060883": {
+    "cachedAt": "2026-11-15T17:20:54.391836+00:00",
+    "data": {
+      "id": "f2ea35eb-2ae7-4bfc-9914-2797e5060883",
+      "name": "Uttar Pradesh vs Jharkhand, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 11:00 GMT",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T08:00:00",
+      "teams": [
+        "Uttar Pradesh",
+        "Jharkhand"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
   }
 }

@@ -149138,7 +149138,7 @@
         }
     },
     "chitwan rhinos|karnali yaks|2026-11-15": {
-        "capturedAt": "2026-11-14T22:42:04.672730+00:00",
+        "capturedAt": "2026-11-15T17:22:01.776386+00:00",
         "matchDate": "2026-11-15",
         "report": {
             "teamA": "Chitwan Rhinos",
@@ -149156,7 +149156,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177800/chr-vs-kay-27th-match-nepal-premier-league-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -149628,11 +149628,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "kathmandu gorkhas|pokhara avengers|2026-11-15": {
-        "capturedAt": "2026-11-15T06:57:35.969697+00:00",
+        "capturedAt": "2026-11-15T17:22:01.776405+00:00",
         "matchDate": "2026-11-15",
         "report": {
             "teamA": "Kathmandu Gorkhas",
@@ -149650,7 +149651,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177810/kag-vs-poa-28th-match-nepal-premier-league-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -150081,7 +150082,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Kathmandu Gorkhas has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Kathmandu Gorkhas has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "costa rica 1st t20i platinum oval falkland islands stanley|falkland islands|2026-11-15": {

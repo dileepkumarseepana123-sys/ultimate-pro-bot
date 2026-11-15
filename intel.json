@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-11-15T06:57:36.138071+00:00",
+    "last_updated": "2026-11-15T17:22:01.958931+00:00",
     "scanner_status": {
         "state": "OK",
         "stale": false,
@@ -23,22 +23,21 @@
         "current_matches_calls_this_run": 1,
         "match_list_calls_this_run": 2,
         "match_info_calls_this_run": 8,
-        "match_info_cache_hits_this_run": 177,
-        "match_info_enriched_rows": 185,
-        "match_info_cache_size": 568,
+        "match_info_cache_hits_this_run": 181,
+        "match_info_enriched_rows": 189,
+        "match_info_cache_size": 576,
         "max_match_info_lookups_per_run": 8,
-        "squad_calls_this_run": 3,
+        "squad_calls_this_run": 0,
         "squad_cache_hits_this_run": 0,
         "squad_cache_size": 125,
         "endpoint_calls_this_run": {
             "cricScore": 1,
             "currentMatches": 1,
             "match_info": 8,
-            "matches": 2,
-            "match_squad": 3
+            "matches": 2
         },
         "max_squad_calls_per_run": 4,
-        "hits_today_reported": 59,
+        "hits_today_reported": 71,
         "hits_limit_reported": 100,
         "quota_exhausted": false,
         "api_last_error": null
@@ -60,31 +59,31 @@
     },
     "discovery": {
         "live_text_relay_rows": 0,
-        "schedule_text_relay_rows": 4,
-        "text_relay_rows": 4,
-        "text_relay_t20_rows": 4,
-        "text_relay_today_t20_rows": 4,
-        "text_relay_match_url_rows": 4,
-        "text_relay_time_enriched_rows": 4,
+        "schedule_text_relay_rows": 2,
+        "text_relay_rows": 2,
+        "text_relay_t20_rows": 2,
+        "text_relay_today_t20_rows": 2,
+        "text_relay_match_url_rows": 2,
+        "text_relay_time_enriched_rows": 2,
         "final_reports_with_known_time": 8,
         "final_reports_with_weather": 8,
         "current_matches_rows": 25,
-        "current_matches_t20_rows": 10,
-        "current_matches_today_t20_rows": 1,
-        "cricscore_rows": 188,
-        "cricscore_t20_rows": 125,
+        "current_matches_t20_rows": 12,
+        "current_matches_today_t20_rows": 3,
+        "cricscore_rows": 195,
+        "cricscore_t20_rows": 135,
         "cricscore_today_t20_rows": 4,
         "cricketdata_rows": 50,
         "cricketdata_t20_rows": 17,
         "cricketdata_today_t20_rows": 0,
-        "merged_candidates": 137,
+        "merged_candidates": 146,
         "final_reports": 8
     },
     "summary": {
         "today_t20_count": 8,
-        "no_bet_or_high_caution": 2,
-        "wait": 6,
-        "data_clear": 0
+        "no_bet_or_high_caution": 6,
+        "wait": 1,
+        "data_clear": 1
     },
     "matches": [
         {
@@ -98,7 +97,7 @@
             "matchTimeIST": "2026-11-15T05:30:00+05:30",
             "indiaDate": "2026-11-15",
             "series": "Womens Big Bash League 2026",
-            "sourceName": "CricketData cricScore + currentMatches",
+            "sourceName": "CricketData cricScore + match_info",
             "supplementalSourceName": null,
             "sourceMatchUrl": null,
             "cricketDataMatchId": "f27075e3-6957-4e29-a50e-a15ac0d61205",
@@ -1193,16 +1192,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-15T11:00:00+11:00",
-                "temperature_c": 21.2,
-                "humidity_pct": 74,
-                "dew_point_c": 16.3,
+                "temperature_c": 20.5,
+                "humidity_pct": 76,
+                "dew_point_c": 16.2,
                 "rain_probability_pct": 59,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 17.1,
+                "wind_kmh": 19.3,
                 "dew_risk": "LOW",
                 "rain_risk": "MEDIUM"
             },
-            "weatherText": "21.2°C | RH 74% | Rain 59% | Wind 17.1 km/h",
+            "weatherText": "20.5°C | RH 76% | Rain 59% | Wind 19.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "44.12% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -1216,7 +1215,7 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.19/match",
             "metricSources": {
-                "fixture": "CricketData cricScore + currentMatches",
+                "fixture": "CricketData cricScore + match_info",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=70)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=70)",
@@ -1260,9 +1259,9 @@
         {
             "teamA": "Chitwan Rhinos",
             "teamB": "Karnali Yaks",
-            "name": "Chitwan Rhinos vs Karnali Yaks,27th Match Tribhuvan University International Cricket Ground,Kirtipur",
+            "name": "Chitwan Rhinos vs Karnali Yaks,27th Match Tribhuvan University International Cricket Ground , Kirtipur",
             "matchType": "T20",
-            "venue": "Tribhuvan University International Cricket Ground,Kirtipur",
+            "venue": "Tribhuvan University International Cricket Ground , Kirtipur",
             "dateTimeGMT": "2026-11-15T06:45:00+00:00",
             "sourceDate": "2026-11-15",
             "matchTimeIST": "2026-11-15T12:15:00+05:30",
@@ -1273,7 +1272,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177800/chr-vs-kay-27th-match-nepal-premier-league-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -2177,16 +2176,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-15T12:30:00+05:45",
-                "temperature_c": 19.1,
-                "humidity_pct": 62,
-                "dew_point_c": 11.8,
+                "temperature_c": 19.2,
+                "humidity_pct": 63,
+                "dew_point_c": 12.0,
                 "rain_probability_pct": 4,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.2,
+                "wind_kmh": 7.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "19.1°C | RH 62% | Rain 4% | Wind 7.2 km/h",
+            "weatherText": "19.2°C | RH 63% | Rain 4% | Wind 7.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "48.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -2230,17 +2229,16 @@
             "midOversWicketsPerMatch": 4.54,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.55,
-            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
-            "noBetReasons": [
-                "START TIME PASSED — PRE-MATCH WINDOW CLOSED"
-            ],
+            "verdict": "🟢 PRE-TOSS WATCHLIST — TOSS/PRICE CHECK REQUIRED",
+            "noBetReasons": [],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-red",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "badgeClass": "badge-green",
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         },
         {
             "teamA": "Kathmandu Gorkhas",
@@ -2258,7 +2256,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177810/kag-vs-poa-28th-match-nepal-premier-league-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -2381,7 +2379,459 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-11-15T06:57:35.969697+00:00",
+                "matchDate": "2026-11-15",
+                "report": {
+                    "teamA": "Kathmandu Gorkhas",
+                    "teamB": "Pokhara Avengers",
+                    "name": "Kathmandu Gorkhas vs Pokhara Avengers,28th Match Tribhuvan University International Cricket Ground,Kirtipur",
+                    "matchType": "T20",
+                    "venue": "Tribhuvan University International Cricket Ground,Kirtipur",
+                    "dateTimeGMT": "2026-11-15T11:15:00+00:00",
+                    "sourceDate": "2026-11-15",
+                    "matchTimeIST": "2026-11-15T16:45:00+05:30",
+                    "indiaDate": "2026-11-15",
+                    "series": "Nepal Premier League 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "supplementalSourceName": null,
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/177810/kag-vs-poa-28th-match-nepal-premier-league-2026",
+                    "cricketDataMatchId": null,
+                    "liveScoreText": null,
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "MODERATE GAP",
+                        "balanceScore": 73.2,
+                        "teamAElo": 1522.5,
+                        "teamBElo": 1445.8,
+                        "eloMatchesA": 8,
+                        "eloMatchesB": 13,
+                        "eloGap": 76.7,
+                        "recentWinRateA": 62.5,
+                        "recentWinRateB": 33.3,
+                        "recentFormGapPct": 29.2,
+                        "headToHead": {
+                            "matches": 1,
+                            "teamAWins": 1,
+                            "teamBWins": 0,
+                            "recent": [
+                                {
+                                    "date": "2025-12-04",
+                                    "winner": "Kathmandu Gorkhas",
+                                    "marginType": "runs",
+                                    "marginValue": 13.0
+                                }
+                            ]
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": "Kathmandu Gorkhas",
+                        "signals": [
+                            "Derived Elo gap 76.7",
+                            "Recent win-rate gap 29.2 percentage points"
+                        ],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "MODERATE GAP",
+                    "swingScore": 57.8,
+                    "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 67,
+                        "swingProfile": "CONDITIONAL SWING PROFILE",
+                        "swingScore": 57.8,
+                        "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
+                        "competitiveBalance": {
+                            "label": "MODERATE GAP",
+                            "balanceScore": 73.2,
+                            "teamAElo": 1522.5,
+                            "teamBElo": 1445.8,
+                            "eloMatchesA": 8,
+                            "eloMatchesB": 13,
+                            "eloGap": 76.7,
+                            "recentWinRateA": 62.5,
+                            "recentWinRateB": 33.3,
+                            "recentFormGapPct": 29.2,
+                            "headToHead": {
+                                "matches": 1,
+                                "teamAWins": 1,
+                                "teamBWins": 0,
+                                "recent": [
+                                    {
+                                        "date": "2025-12-04",
+                                        "winner": "Kathmandu Gorkhas",
+                                        "marginType": "runs",
+                                        "marginValue": 13.0
+                                    }
+                                ]
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": "Kathmandu Gorkhas",
+                            "signals": [
+                                "Derived Elo gap 76.7",
+                                "Recent win-rate gap 29.2 percentage points"
+                            ],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [
+                            "Historically two-way venue: 48.0% chasing wins",
+                            "Middle-overs wicket volatility: 4.54 wickets/match in overs 7-14"
+                        ],
+                        "swingPenalties": [
+                            "High dew may create strong chase-side bias",
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "competitive_balance",
+                                "score": 73.2,
+                                "weight": 0.35
+                            },
+                            {
+                                "name": "venue_two_way",
+                                "score": 96.0,
+                                "weight": 0.2
+                            },
+                            {
+                                "name": "middle_over_volatility",
+                                "score": 75.7,
+                                "weight": 0.15
+                            },
+                            {
+                                "name": "weather",
+                                "score": 60.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "squadSummary": {
+                        "status": "NO SQUAD DATA",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS CONDITIONAL",
+                        "dataConfidencePct": 57,
+                        "initialPrediction": "Kathmandu Gorkhas has a moderate edge on the available pre-toss historical evidence.",
+                        "edgeTeam": "Kathmandu Gorkhas",
+                        "edgeStrength": "MODERATE EDGE",
+                        "edgeScore": 2.42,
+                        "swingRead": "CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+                        "conditions": [
+                            "Historical first-innings baseline: 148.2",
+                            "Powerplay baseline: 40.4 runs / 1.67 wickets",
+                            "Two-way venue: 48.0% chasing wins",
+                            "Overs 7-14 wicket pressure: 4.54 wickets/match",
+                            "16th-over baseline: 7.8 runs; wicket in 43.5% of sampled innings",
+                            "Weather: rain 2%, dew HIGH"
+                        ],
+                        "evidence": [
+                            "Elo: Kathmandu Gorkhas 1522.5 vs Pokhara Avengers 1445.8",
+                            "Recent form: 62.5% vs 33.3% wins"
+                        ],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": 148.21,
+                        "powerplayBaseline": 40.35,
+                        "powerplayWicketsBaseline": 1.67,
+                        "chasingWinPct": 48.0,
+                        "middleOversWicketsPerMatch": 4.54,
+                        "over16AvgRuns": 7.76,
+                        "over16WicketEventPct": 43.46,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "NO SQUAD DATA",
+                        "summary": "Kathmandu Gorkhas has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 8,
+                        "wins": 5,
+                        "losses": 3,
+                        "winRatePct": 62.5,
+                        "avgMarginImpact": 0.139,
+                        "recent": [
+                            {
+                                "date": "2025-12-10",
+                                "winner": "Lumbini Lions",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "wickets",
+                                "marginValue": 4.0,
+                                "marginImpact": -0.5
+                            },
+                            {
+                                "date": "2025-12-04",
+                                "winner": "Kathmandu Gorkhas",
+                                "won": true,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 13.0,
+                                "marginImpact": 0.217
+                            },
+                            {
+                                "date": "2025-11-30",
+                                "winner": "Kathmandu Gorkhas",
+                                "won": true,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "wickets",
+                                "marginValue": 5.0,
+                                "marginImpact": 0.625
+                            },
+                            {
+                                "date": "2025-11-28",
+                                "winner": "Kathmandu Gorkhas",
+                                "won": true,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 53.0,
+                                "marginImpact": 0.883
+                            },
+                            {
+                                "date": "2025-11-25",
+                                "winner": "Kathmandu Gorkhas",
+                                "won": true,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 22.0,
+                                "marginImpact": 0.367
+                            },
+                            {
+                                "date": "2025-11-22",
+                                "winner": "Biratnagar Kings",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "wickets",
+                                "marginValue": 5.0,
+                                "marginImpact": -0.625
+                            },
+                            {
+                                "date": "2025-11-19",
+                                "winner": "Sudur Paschim Royals",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 29.0,
+                                "marginImpact": -0.483
+                            },
+                            {
+                                "date": "2025-11-17",
+                                "winner": "Kathmandu Gorkhas",
+                                "won": true,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "wickets",
+                                "marginValue": 5.0,
+                                "marginImpact": 0.625
+                            }
+                        ]
+                    },
+                    "formB": {
+                        "matches": 10,
+                        "wins": 3,
+                        "losses": 6,
+                        "winRatePct": 33.3,
+                        "avgMarginImpact": -0.069,
+                        "recent": [
+                            {
+                                "date": "2025-12-06",
+                                "winner": "Pokhara Avengers",
+                                "won": true,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "wickets",
+                                "marginValue": 8.0,
+                                "marginImpact": 1.0
+                            },
+                            {
+                                "date": "2025-12-04",
+                                "winner": "Kathmandu Gorkhas",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 13.0,
+                                "marginImpact": -0.217
+                            },
+                            {
+                                "date": "2025-12-02",
+                                "winner": "Pokhara Avengers",
+                                "won": true,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 34.0,
+                                "marginImpact": 0.567
+                            },
+                            {
+                                "date": "2025-11-29",
+                                "winner": "Lumbini Lions",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "wickets",
+                                "marginValue": 3.0,
+                                "marginImpact": -0.375
+                            },
+                            {
+                                "date": "2025-11-27",
+                                "winner": "Pokhara Avengers",
+                                "won": true,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 25.0,
+                                "marginImpact": 0.417
+                            },
+                            {
+                                "date": "2025-11-21",
+                                "winner": "Sudur Paschim Royals",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 18.0,
+                                "marginImpact": -0.3
+                            },
+                            {
+                                "date": "2025-11-18",
+                                "winner": "Biratnagar Kings",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 53.0,
+                                "marginImpact": -0.883
+                            },
+                            {
+                                "date": "2024-12-15",
+                                "winner": "Sudur Paschim Royals",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "runs",
+                                "marginValue": 5.0,
+                                "marginImpact": -0.083
+                            },
+                            {
+                                "date": "2024-12-14",
+                                "winner": "Kathmandu Gurkhas",
+                                "won": false,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": "wickets",
+                                "marginValue": 6.0,
+                                "marginImpact": -0.75
+                            },
+                            {
+                                "date": "2024-12-12",
+                                "winner": null,
+                                "won": null,
+                                "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+                                "marginType": null,
+                                "marginValue": null,
+                                "marginImpact": 0.0
+                            }
+                        ]
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-11-15T17:00:00+05:45",
+                        "temperature_c": 14.9,
+                        "humidity_pct": 87,
+                        "dew_point_c": 12.8,
+                        "rain_probability_pct": 2,
+                        "precipitation_mm": 0.3,
+                        "wind_kmh": 0.7,
+                        "dew_risk": "HIGH",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "14.9°C | RH 87% | Rain 2% | Wind 0.7 km/h",
+                    "dewRisk": "HIGH",
+                    "tossBias": "48.0% Chasing Wins",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "40.35",
+                    "ppWicketsAvg": 1.67,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": 7.76,
+                    "over16WicketsPerInnings": 0.544,
+                    "over16WicketEventPct": 43.46,
+                    "over16SampleInnings": 237,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.54/match",
+                    "metricSources": {
+                        "fixture": "Cricbuzz via text relay",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue T20 history (n=129)",
+                        "powerplay": "Cricsheet first-innings overs 1-6 (n=129)",
+                        "over16": "Cricsheet 16th-over history (n=237)",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification 0.55%"
+                    },
+                    "venueIntel": {
+                        "status": "OK",
+                        "matches": 129,
+                        "venue_confidence": 1.0,
+                        "avg_first_innings": 148.21,
+                        "powerplay_avg": 40.35,
+                        "powerplay_wickets_avg": 1.67,
+                        "chasing_win_pct": 48.0,
+                        "over16_sample_innings": 237,
+                        "over16_avg_runs": 7.76,
+                        "over16_wickets_per_innings": 0.544,
+                        "over16_wicket_event_pct": 43.46,
+                        "mid_overs_7_14_wickets": 586,
+                        "mid_overs_7_14_wickets_per_match": 4.54,
+                        "spin_classification_pct": 0.55,
+                        "spinner_7_14_wickets": null,
+                        "spin_wicket_share_pct": null,
+                        "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+                    },
+                    "midOversWickets": 586,
+                    "midOversWicketsPerMatch": 4.54,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": 0.55,
+                    "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
+                    "noBetReasons": [
+                        "HIGH DEW RISK"
+                    ],
+                    "warnings": [
+                        "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "MODERATE SKILL GAP",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-yellow",
+                    "strategyText": "Kathmandu Gorkhas has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -2689,7 +3139,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Kathmandu Gorkhas has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Kathmandu Gorkhas has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         },
         {
             "teamA": "Royal Desert Champions",
@@ -2702,12 +3153,12 @@
             "matchTimeIST": "2026-11-15T17:00:00+05:30",
             "indiaDate": "2026-11-15",
             "series": "Abu Dhabi T10 League 2026",
-            "sourceName": "CricketData cricScore + match_info",
+            "sourceName": "CricketData cricScore + currentMatches",
             "supplementalSourceName": null,
             "sourceMatchUrl": null,
             "cricketDataMatchId": "cc699368-6fb5-4dce-b95f-5b62a373689e",
-            "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 15, 11:30 GMT",
+            "liveScoreText": "124/3 (10) | 113/4 (10)",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -2803,17 +3254,274 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-11-15T06:57:35.969620+00:00",
+                "matchDate": "2026-11-15",
+                "report": {
+                    "teamA": "Royal Desert Champions",
+                    "teamB": "Arabian Aces",
+                    "name": "Royal Desert Champions vs Arabian Aces",
+                    "matchType": "T20",
+                    "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+                    "dateTimeGMT": "2026-11-15T11:30:00",
+                    "sourceDate": "2026-11-15",
+                    "matchTimeIST": "2026-11-15T17:00:00+05:30",
+                    "indiaDate": "2026-11-15",
+                    "series": "Abu Dhabi T10 League 2026",
+                    "sourceName": "CricketData cricScore + match_info",
+                    "supplementalSourceName": null,
+                    "sourceMatchUrl": null,
+                    "cricketDataMatchId": "cc699368-6fb5-4dce-b95f-5b62a373689e",
+                    "liveScoreText": null,
+                    "sourceStatus": "Match starts at Nov 15, 11:30 GMT",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 0,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": null,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 43.7,
+                    "strategyLabel": "INSUFFICIENT DATA",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 33,
+                        "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                        "swingScore": 43.7,
+                        "strategyLabel": "INSUFFICIENT DATA",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 0,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": null,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [
+                            "Historically two-way venue: 53.1% chasing wins"
+                        ],
+                        "swingPenalties": [
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "venue_two_way",
+                                "score": 93.8,
+                                "weight": 0.2
+                            },
+                            {
+                                "name": "middle_over_volatility",
+                                "score": 66.2,
+                                "weight": 0.15
+                            },
+                            {
+                                "name": "weather",
+                                "score": 70.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "No squad data"
+                    },
+                    "squadSummary": {
+                        "status": "NO SQUAD DATA",
+                        "teams": {},
+                        "source": "No squad data"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS DATA LIMITED",
+                        "dataConfidencePct": 29,
+                        "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
+                        "edgeTeam": null,
+                        "edgeStrength": "DATA LIMITED",
+                        "edgeScore": null,
+                        "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                        "conditions": [
+                            "Historical first-innings baseline: 148.1",
+                            "Powerplay baseline: 40.8 runs / 1.58 wickets",
+                            "Two-way venue: 53.1% chasing wins",
+                            "Overs 7-14 wicket pressure: 3.97 wickets/match",
+                            "16th-over baseline: 8.0 runs; wicket in 34.1% of sampled innings",
+                            "Weather: rain 15%, dew LOW"
+                        ],
+                        "evidence": [],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": 148.06,
+                        "powerplayBaseline": 40.79,
+                        "powerplayWicketsBaseline": 1.58,
+                        "chasingWinPct": 53.1,
+                        "middleOversWicketsPerMatch": 3.97,
+                        "over16AvgRuns": 8.03,
+                        "over16WicketEventPct": 34.09,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "NO SQUAD DATA",
+                        "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-11-15T15:30:00+04:00",
+                        "temperature_c": 28.5,
+                        "humidity_pct": 48,
+                        "dew_point_c": 16.5,
+                        "rain_probability_pct": 15,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 14.7,
+                        "dew_risk": "LOW",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "28.5°C | RH 48% | Rain 15% | Wind 14.7 km/h",
+                    "dewRisk": "LOW",
+                    "tossBias": "53.1% Chasing Wins",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "40.79",
+                    "ppWicketsAvg": 1.58,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": 8.03,
+                    "over16WicketsPerInnings": 0.382,
+                    "over16WicketEventPct": 34.09,
+                    "over16SampleInnings": 220,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 3.97/match",
+                    "metricSources": {
+                        "fixture": "CricketData cricScore + match_info",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue T20 history (n=115)",
+                        "powerplay": "Cricsheet first-innings overs 1-6 (n=115)",
+                        "over16": "Cricsheet 16th-over history (n=220)",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification 7.01%"
+                    },
+                    "venueIntel": {
+                        "status": "OK",
+                        "matches": 115,
+                        "venue_confidence": 1.0,
+                        "avg_first_innings": 148.06,
+                        "powerplay_avg": 40.79,
+                        "powerplay_wickets_avg": 1.58,
+                        "chasing_win_pct": 53.1,
+                        "over16_sample_innings": 220,
+                        "over16_avg_runs": 8.03,
+                        "over16_wickets_per_innings": 0.382,
+                        "over16_wicket_event_pct": 34.09,
+                        "mid_overs_7_14_wickets": 456,
+                        "mid_overs_7_14_wickets_per_match": 3.97,
+                        "spin_classification_pct": 7.01,
+                        "spinner_7_14_wickets": null,
+                        "spin_wicket_share_pct": null,
+                        "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+                    },
+                    "midOversWickets": 456,
+                    "midOversWicketsPerMatch": 3.97,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": 7.01,
+                    "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+                    "noBetReasons": [
+                        "LIMITED RECENT T20 DATA FOR Royal Desert Champions",
+                        "LIMITED RECENT T20 DATA FOR Arabian Aces"
+                    ],
+                    "warnings": [
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-yellow",
+                    "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "No squad data"
+                "source": "Not queried"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "No squad data"
+                "source": "Not queried"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -2880,16 +3588,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-15T15:30:00+04:00",
-                "temperature_c": 28.5,
-                "humidity_pct": 48,
-                "dew_point_c": 16.5,
+                "temperature_c": 28.6,
+                "humidity_pct": 49,
+                "dew_point_c": 16.7,
                 "rain_probability_pct": 15,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 14.7,
+                "wind_kmh": 15.3,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "28.5°C | RH 48% | Rain 15% | Wind 14.7 km/h",
+            "weatherText": "28.6°C | RH 49% | Rain 15% | Wind 15.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.1% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -2903,7 +3611,7 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 3.97/match",
             "metricSources": {
-                "fixture": "CricketData cricScore + match_info",
+                "fixture": "CricketData cricScore + currentMatches",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=115)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=115)",
@@ -2933,8 +3641,9 @@
             "midOversWicketsPerMatch": 3.97,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 7.01,
-            "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "LIMITED RECENT T20 DATA FOR Royal Desert Champions",
                 "LIMITED RECENT T20 DATA FOR Arabian Aces"
             ],
@@ -2942,13 +3651,13 @@
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-yellow",
+            "badgeClass": "badge-red",
             "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
         },
         {
             "teamA": "Emirates Eagles",
-            "teamB": "Uae Bulls",
-            "name": "Emirates Eagles vs Uae Bulls",
+            "teamB": "UAE Bulls",
+            "name": "Emirates Eagles vs UAE Bulls",
             "matchType": "T20",
             "venue": "Sheikh Zayed Stadium, Abu Dhabi",
             "dateTimeGMT": "2026-11-15T13:45:00",
@@ -2956,12 +3665,12 @@
             "matchTimeIST": "2026-11-15T19:15:00+05:30",
             "indiaDate": "2026-11-15",
             "series": "Abu Dhabi T10 League 2026",
-            "sourceName": "CricketData cricScore + match_info",
+            "sourceName": "CricketData cricScore + currentMatches",
             "supplementalSourceName": null,
             "sourceMatchUrl": null,
             "cricketDataMatchId": "82d50082-2904-4ffc-8a2a-b4a2f82461bb",
-            "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 15, 13:45 GMT",
+            "liveScoreText": "123/4 (10) | 114/8 (10)",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -3057,17 +3766,274 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-11-15T06:57:35.969661+00:00",
+                "matchDate": "2026-11-15",
+                "report": {
+                    "teamA": "Emirates Eagles",
+                    "teamB": "Uae Bulls",
+                    "name": "Emirates Eagles vs Uae Bulls",
+                    "matchType": "T20",
+                    "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+                    "dateTimeGMT": "2026-11-15T13:45:00",
+                    "sourceDate": "2026-11-15",
+                    "matchTimeIST": "2026-11-15T19:15:00+05:30",
+                    "indiaDate": "2026-11-15",
+                    "series": "Abu Dhabi T10 League 2026",
+                    "sourceName": "CricketData cricScore + match_info",
+                    "supplementalSourceName": null,
+                    "sourceMatchUrl": null,
+                    "cricketDataMatchId": "82d50082-2904-4ffc-8a2a-b4a2f82461bb",
+                    "liveScoreText": null,
+                    "sourceStatus": "Match starts at Nov 15, 13:45 GMT",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 0,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": null,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 43.7,
+                    "strategyLabel": "INSUFFICIENT DATA",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 33,
+                        "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                        "swingScore": 43.7,
+                        "strategyLabel": "INSUFFICIENT DATA",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 0,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": null,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [
+                            "Historically two-way venue: 53.1% chasing wins"
+                        ],
+                        "swingPenalties": [
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "venue_two_way",
+                                "score": 93.8,
+                                "weight": 0.2
+                            },
+                            {
+                                "name": "middle_over_volatility",
+                                "score": 66.2,
+                                "weight": 0.15
+                            },
+                            {
+                                "name": "weather",
+                                "score": 70.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "No squad data"
+                    },
+                    "squadSummary": {
+                        "status": "NO SQUAD DATA",
+                        "teams": {},
+                        "source": "No squad data"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS DATA LIMITED",
+                        "dataConfidencePct": 29,
+                        "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
+                        "edgeTeam": null,
+                        "edgeStrength": "DATA LIMITED",
+                        "edgeScore": null,
+                        "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                        "conditions": [
+                            "Historical first-innings baseline: 148.1",
+                            "Powerplay baseline: 40.8 runs / 1.58 wickets",
+                            "Two-way venue: 53.1% chasing wins",
+                            "Overs 7-14 wicket pressure: 3.97 wickets/match",
+                            "16th-over baseline: 8.0 runs; wicket in 34.1% of sampled innings",
+                            "Weather: rain 11%, dew LOW"
+                        ],
+                        "evidence": [],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": 148.06,
+                        "powerplayBaseline": 40.79,
+                        "powerplayWicketsBaseline": 1.58,
+                        "chasingWinPct": 53.1,
+                        "middleOversWicketsPerMatch": 3.97,
+                        "over16AvgRuns": 8.03,
+                        "over16WicketEventPct": 34.09,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "NO SQUAD DATA",
+                        "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-11-15T17:45:00+04:00",
+                        "temperature_c": 27.5,
+                        "humidity_pct": 52,
+                        "dew_point_c": 16.7,
+                        "rain_probability_pct": 11,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 13.5,
+                        "dew_risk": "LOW",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "27.5°C | RH 52% | Rain 11% | Wind 13.5 km/h",
+                    "dewRisk": "LOW",
+                    "tossBias": "53.1% Chasing Wins",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "40.79",
+                    "ppWicketsAvg": 1.58,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": 8.03,
+                    "over16WicketsPerInnings": 0.382,
+                    "over16WicketEventPct": 34.09,
+                    "over16SampleInnings": 220,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 3.97/match",
+                    "metricSources": {
+                        "fixture": "CricketData cricScore + match_info",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue T20 history (n=115)",
+                        "powerplay": "Cricsheet first-innings overs 1-6 (n=115)",
+                        "over16": "Cricsheet 16th-over history (n=220)",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification 7.01%"
+                    },
+                    "venueIntel": {
+                        "status": "OK",
+                        "matches": 115,
+                        "venue_confidence": 1.0,
+                        "avg_first_innings": 148.06,
+                        "powerplay_avg": 40.79,
+                        "powerplay_wickets_avg": 1.58,
+                        "chasing_win_pct": 53.1,
+                        "over16_sample_innings": 220,
+                        "over16_avg_runs": 8.03,
+                        "over16_wickets_per_innings": 0.382,
+                        "over16_wicket_event_pct": 34.09,
+                        "mid_overs_7_14_wickets": 456,
+                        "mid_overs_7_14_wickets_per_match": 3.97,
+                        "spin_classification_pct": 7.01,
+                        "spinner_7_14_wickets": null,
+                        "spin_wicket_share_pct": null,
+                        "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+                    },
+                    "midOversWickets": 456,
+                    "midOversWicketsPerMatch": 3.97,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": 7.01,
+                    "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+                    "noBetReasons": [
+                        "LIMITED RECENT T20 DATA FOR Emirates Eagles",
+                        "LIMITED RECENT T20 DATA FOR Uae Bulls"
+                    ],
+                    "warnings": [
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-yellow",
+                    "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "No squad data"
+                "source": "Not queried"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "No squad data"
+                "source": "Not queried"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -3134,16 +4100,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-15T17:45:00+04:00",
-                "temperature_c": 27.5,
+                "temperature_c": 27.6,
                 "humidity_pct": 52,
-                "dew_point_c": 16.7,
+                "dew_point_c": 16.8,
                 "rain_probability_pct": 11,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 13.5,
+                "wind_kmh": 12.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.5°C | RH 52% | Rain 11% | Wind 13.5 km/h",
+            "weatherText": "27.6°C | RH 52% | Rain 11% | Wind 12.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.1% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -3157,7 +4123,7 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 3.97/match",
             "metricSources": {
-                "fixture": "CricketData cricScore + match_info",
+                "fixture": "CricketData cricScore + currentMatches",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=115)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=115)",
@@ -3187,16 +4153,17 @@
             "midOversWicketsPerMatch": 3.97,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 7.01,
-            "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "LIMITED RECENT T20 DATA FOR Emirates Eagles",
-                "LIMITED RECENT T20 DATA FOR Uae Bulls"
+                "LIMITED RECENT T20 DATA FOR UAE Bulls"
             ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-yellow",
+            "badgeClass": "badge-red",
             "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
         },
         {
@@ -3210,12 +4177,12 @@
             "matchTimeIST": "2026-11-15T21:30:00+05:30",
             "indiaDate": "2026-11-15",
             "series": "Abu Dhabi T10 League 2026",
-            "sourceName": "CricketData cricScore + match_info",
+            "sourceName": "CricketData cricScore + currentMatches",
             "supplementalSourceName": null,
             "sourceMatchUrl": null,
             "cricketDataMatchId": "3175e662-c49e-4cfa-8743-5d1940c91e08",
-            "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 15, 16:00 GMT",
+            "liveScoreText": "88/10 (8.4) | 46/2 (3)",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -3311,17 +4278,274 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-11-15T06:57:35.969677+00:00",
+                "matchDate": "2026-11-15",
+                "report": {
+                    "teamA": "United Tigers",
+                    "teamB": "Yas Lions",
+                    "name": "United Tigers vs Yas Lions",
+                    "matchType": "T20",
+                    "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+                    "dateTimeGMT": "2026-11-15T16:00:00",
+                    "sourceDate": "2026-11-15",
+                    "matchTimeIST": "2026-11-15T21:30:00+05:30",
+                    "indiaDate": "2026-11-15",
+                    "series": "Abu Dhabi T10 League 2026",
+                    "sourceName": "CricketData cricScore + match_info",
+                    "supplementalSourceName": null,
+                    "sourceMatchUrl": null,
+                    "cricketDataMatchId": "3175e662-c49e-4cfa-8743-5d1940c91e08",
+                    "liveScoreText": null,
+                    "sourceStatus": "Match starts at Nov 15, 16:00 GMT",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 0,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": null,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 43.7,
+                    "strategyLabel": "INSUFFICIENT DATA",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 33,
+                        "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                        "swingScore": 43.7,
+                        "strategyLabel": "INSUFFICIENT DATA",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 0,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": null,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [
+                            "Historically two-way venue: 53.1% chasing wins"
+                        ],
+                        "swingPenalties": [
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "venue_two_way",
+                                "score": 93.8,
+                                "weight": 0.2
+                            },
+                            {
+                                "name": "middle_over_volatility",
+                                "score": 66.2,
+                                "weight": 0.15
+                            },
+                            {
+                                "name": "weather",
+                                "score": 70.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "No squad data"
+                    },
+                    "squadSummary": {
+                        "status": "NO SQUAD DATA",
+                        "teams": {},
+                        "source": "No squad data"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS DATA LIMITED",
+                        "dataConfidencePct": 29,
+                        "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
+                        "edgeTeam": null,
+                        "edgeStrength": "DATA LIMITED",
+                        "edgeScore": null,
+                        "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                        "conditions": [
+                            "Historical first-innings baseline: 148.1",
+                            "Powerplay baseline: 40.8 runs / 1.58 wickets",
+                            "Two-way venue: 53.1% chasing wins",
+                            "Overs 7-14 wicket pressure: 3.97 wickets/match",
+                            "16th-over baseline: 8.0 runs; wicket in 34.1% of sampled innings",
+                            "Weather: rain 2%, dew LOW"
+                        ],
+                        "evidence": [],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": 148.06,
+                        "powerplayBaseline": 40.79,
+                        "powerplayWicketsBaseline": 1.58,
+                        "chasingWinPct": 53.1,
+                        "middleOversWicketsPerMatch": 3.97,
+                        "over16AvgRuns": 8.03,
+                        "over16WicketEventPct": 34.09,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "NO SQUAD DATA",
+                        "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-11-15T20:00:00+04:00",
+                        "temperature_c": 26.5,
+                        "humidity_pct": 56,
+                        "dew_point_c": 17.0,
+                        "rain_probability_pct": 2,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 12.1,
+                        "dew_risk": "LOW",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "26.5°C | RH 56% | Rain 2% | Wind 12.1 km/h",
+                    "dewRisk": "LOW",
+                    "tossBias": "53.1% Chasing Wins",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "40.79",
+                    "ppWicketsAvg": 1.58,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": 8.03,
+                    "over16WicketsPerInnings": 0.382,
+                    "over16WicketEventPct": 34.09,
+                    "over16SampleInnings": 220,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 3.97/match",
+                    "metricSources": {
+                        "fixture": "CricketData cricScore + match_info",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue T20 history (n=115)",
+                        "powerplay": "Cricsheet first-innings overs 1-6 (n=115)",
+                        "over16": "Cricsheet 16th-over history (n=220)",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification 7.01%"
+                    },
+                    "venueIntel": {
+                        "status": "OK",
+                        "matches": 115,
+                        "venue_confidence": 1.0,
+                        "avg_first_innings": 148.06,
+                        "powerplay_avg": 40.79,
+                        "powerplay_wickets_avg": 1.58,
+                        "chasing_win_pct": 53.1,
+                        "over16_sample_innings": 220,
+                        "over16_avg_runs": 8.03,
+                        "over16_wickets_per_innings": 0.382,
+                        "over16_wicket_event_pct": 34.09,
+                        "mid_overs_7_14_wickets": 456,
+                        "mid_overs_7_14_wickets_per_match": 3.97,
+                        "spin_classification_pct": 7.01,
+                        "spinner_7_14_wickets": null,
+                        "spin_wicket_share_pct": null,
+                        "spin_index_status": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION"
+                    },
+                    "midOversWickets": 456,
+                    "midOversWicketsPerMatch": 3.97,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": 7.01,
+                    "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+                    "noBetReasons": [
+                        "LIMITED RECENT T20 DATA FOR United Tigers",
+                        "LIMITED RECENT T20 DATA FOR Yas Lions"
+                    ],
+                    "warnings": [
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-yellow",
+                    "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "No squad data"
+                "source": "Not queried"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "No squad data"
+                "source": "Not queried"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -3388,16 +4612,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-15T20:00:00+04:00",
-                "temperature_c": 26.5,
+                "temperature_c": 26.7,
                 "humidity_pct": 56,
-                "dew_point_c": 17.0,
+                "dew_point_c": 17.3,
                 "rain_probability_pct": 2,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 12.1,
+                "wind_kmh": 11.3,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.5°C | RH 56% | Rain 2% | Wind 12.1 km/h",
+            "weatherText": "26.7°C | RH 56% | Rain 2% | Wind 11.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.1% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -3411,7 +4635,7 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 3.97/match",
             "metricSources": {
-                "fixture": "CricketData cricScore + match_info",
+                "fixture": "CricketData cricScore + currentMatches",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue T20 history (n=115)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=115)",
@@ -3441,8 +4665,9 @@
             "midOversWicketsPerMatch": 3.97,
             "spinnerWickets7to14": null,
             "spinClassificationPct": 7.01,
-            "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "LIMITED RECENT T20 DATA FOR United Tigers",
                 "LIMITED RECENT T20 DATA FOR Yas Lions"
             ],
@@ -3450,15 +4675,15 @@
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-yellow",
+            "badgeClass": "badge-red",
             "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
         },
         {
             "teamA": "Falkland Islands",
-            "teamB": "Costa Rica,1st T20I Platinum Oval, Falkland Islands,Stanley",
-            "name": "Falkland Islands vs Costa Rica,1st T20I Platinum Oval, Falkland Islands,Stanley",
+            "teamB": "Costa Rica,1st T20I Platinum Oval, Falkland Islands , Stanley",
+            "name": "Falkland Islands vs Costa Rica,1st T20I Platinum Oval, Falkland Islands , Stanley",
             "matchType": "T20",
-            "venue": "1st T20I Platinum Oval, Falkland Islands,Stanley",
+            "venue": "1st T20I Platinum Oval, Falkland Islands , Stanley",
             "dateTimeGMT": "2026-11-15T13:00:00+00:00",
             "sourceDate": "2026-11-15",
             "matchTimeIST": "2026-11-15T18:30:00+05:30",
@@ -3469,7 +4694,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/178161/falk-vs-cri-1st-t20i-costa-rica-tour-of-falkland-islands-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -3553,7 +4778,235 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-11-15T06:57:35.969722+00:00",
+                "matchDate": "2026-11-15",
+                "report": {
+                    "teamA": "Falkland Islands",
+                    "teamB": "Costa Rica,1st T20I Platinum Oval, Falkland Islands,Stanley",
+                    "name": "Falkland Islands vs Costa Rica,1st T20I Platinum Oval, Falkland Islands,Stanley",
+                    "matchType": "T20",
+                    "venue": "1st T20I Platinum Oval, Falkland Islands,Stanley",
+                    "dateTimeGMT": "2026-11-15T13:00:00+00:00",
+                    "sourceDate": "2026-11-15",
+                    "matchTimeIST": "2026-11-15T18:30:00+05:30",
+                    "indiaDate": "2026-11-15",
+                    "series": "Costa Rica tour of Falkland Islands, 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "supplementalSourceName": null,
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/178161/falk-vs-cri-1st-t20i-costa-rica-tour-of-falkland-islands-2026",
+                    "cricketDataMatchId": null,
+                    "liveScoreText": null,
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 0,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": null,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 27.3,
+                    "strategyLabel": "INSUFFICIENT DATA",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 17,
+                        "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                        "swingScore": 27.3,
+                        "strategyLabel": "INSUFFICIENT DATA",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 0,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": null,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [],
+                        "swingPenalties": [
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "weather",
+                                "score": 70.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "squadSummary": {
+                        "status": "NO SQUAD DATA",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS DATA LIMITED",
+                        "dataConfidencePct": 14,
+                        "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
+                        "edgeTeam": null,
+                        "edgeStrength": "DATA LIMITED",
+                        "edgeScore": null,
+                        "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                        "conditions": [
+                            "Weather: rain 0%, dew LOW"
+                        ],
+                        "evidence": [],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": null,
+                        "powerplayBaseline": null,
+                        "powerplayWicketsBaseline": null,
+                        "chasingWinPct": null,
+                        "middleOversWicketsPerMatch": null,
+                        "over16AvgRuns": null,
+                        "over16WicketEventPct": null,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "NO SQUAD DATA",
+                        "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-11-15T10:00:00-03:00",
+                        "temperature_c": 10.1,
+                        "humidity_pct": 64,
+                        "dew_point_c": 3.7,
+                        "rain_probability_pct": 0,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 4.0,
+                        "dew_risk": "LOW",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "10.1°C | RH 64% | Rain 0% | Wind 4.0 km/h",
+                    "dewRisk": "LOW",
+                    "tossBias": "UNKNOWN",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "UNKNOWN",
+                    "ppWicketsAvg": null,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": null,
+                    "over16WicketsPerInnings": null,
+                    "over16WicketEventPct": null,
+                    "over16SampleInnings": null,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "UNKNOWN",
+                    "metricSources": {
+                        "fixture": "Cricbuzz via text relay",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
+                        "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
+                        "over16": "Cricsheet 16th-over history insufficient/UNKNOWN",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification UNKNOWN"
+                    },
+                    "venueIntel": {
+                        "status": "NO DATA / UNKNOWN VENUE",
+                        "matches": 0,
+                        "venue_confidence": 0.556
+                    },
+                    "midOversWickets": null,
+                    "midOversWicketsPerMatch": null,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": null,
+                    "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+                    "noBetReasons": [
+                        "NO DATA / UNKNOWN VENUE",
+                        "LIMITED RECENT T20 DATA FOR Falkland Islands",
+                        "LIMITED RECENT T20 DATA FOR Costa Rica,1st T20I Platinum Oval, Falkland Islands,Stanley"
+                    ],
+                    "warnings": [
+                        "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-yellow",
+                    "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -3625,16 +5078,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-15T10:00:00-03:00",
-                "temperature_c": 10.1,
-                "humidity_pct": 64,
+                "temperature_c": 9.9,
+                "humidity_pct": 66,
                 "dew_point_c": 3.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 4.0,
+                "wind_kmh": 2.3,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "10.1°C | RH 64% | Rain 0% | Wind 4.0 km/h",
+            "weatherText": "9.9°C | RH 66% | Rain 0% | Wind 2.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -3664,26 +5117,27 @@
             "midOversWicketsPerMatch": null,
             "spinnerWickets7to14": null,
             "spinClassificationPct": null,
-            "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "NO DATA / UNKNOWN VENUE",
                 "LIMITED RECENT T20 DATA FOR Falkland Islands",
-                "LIMITED RECENT T20 DATA FOR Costa Rica,1st T20I Platinum Oval, Falkland Islands,Stanley"
+                "LIMITED RECENT T20 DATA FOR Costa Rica,1st T20I Platinum Oval, Falkland Islands , Stanley"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-yellow",
+            "badgeClass": "badge-red",
             "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
         },
         {
             "teamA": "Falkland Islands",
-            "teamB": "Costa Rica,2nd T20I Platinum Oval, Falkland Islands,Stanley",
-            "name": "Falkland Islands vs Costa Rica,2nd T20I Platinum Oval, Falkland Islands,Stanley",
+            "teamB": "Costa Rica,2nd T20I Platinum Oval, Falkland Islands , Stanley",
+            "name": "Falkland Islands vs Costa Rica,2nd T20I Platinum Oval, Falkland Islands , Stanley",
             "matchType": "T20",
-            "venue": "2nd T20I Platinum Oval, Falkland Islands,Stanley",
+            "venue": "2nd T20I Platinum Oval, Falkland Islands , Stanley",
             "dateTimeGMT": "2026-11-15T17:00:00+00:00",
             "sourceDate": "2026-11-15",
             "matchTimeIST": "2026-11-15T22:30:00+05:30",
@@ -3694,7 +5148,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/178170/falk-vs-cri-2nd-t20i-costa-rica-tour-of-falkland-islands-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "START TIME PASSED / LIVE STATUS UNVERIFIED",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -3778,7 +5232,235 @@
                 "equalProfitTargetRequiresEntryOdds": true,
                 "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
             },
-            "preMatchSnapshot": null,
+            "preMatchSnapshot": {
+                "capturedAt": "2026-11-15T06:57:35.969736+00:00",
+                "matchDate": "2026-11-15",
+                "report": {
+                    "teamA": "Falkland Islands",
+                    "teamB": "Costa Rica,2nd T20I Platinum Oval, Falkland Islands,Stanley",
+                    "name": "Falkland Islands vs Costa Rica,2nd T20I Platinum Oval, Falkland Islands,Stanley",
+                    "matchType": "T20",
+                    "venue": "2nd T20I Platinum Oval, Falkland Islands,Stanley",
+                    "dateTimeGMT": "2026-11-15T17:00:00+00:00",
+                    "sourceDate": "2026-11-15",
+                    "matchTimeIST": "2026-11-15T22:30:00+05:30",
+                    "indiaDate": "2026-11-15",
+                    "series": "Costa Rica tour of Falkland Islands, 2026",
+                    "sourceName": "Cricbuzz via text relay",
+                    "supplementalSourceName": null,
+                    "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/178170/falk-vs-cri-2nd-t20i-costa-rica-tour-of-falkland-islands-2026",
+                    "cricketDataMatchId": null,
+                    "liveScoreText": null,
+                    "sourceStatus": "Scheduled",
+                    "marketTier": "LOW/UNKNOWN MARKET TIER",
+                    "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+                    "liquidityProxyOnly": true,
+                    "premiumMarketProxy": false,
+                    "competitiveBalance": {
+                        "label": "UNKNOWN",
+                        "balanceScore": null,
+                        "teamAElo": null,
+                        "teamBElo": null,
+                        "eloMatchesA": 0,
+                        "eloMatchesB": 0,
+                        "eloGap": null,
+                        "recentWinRateA": null,
+                        "recentWinRateB": null,
+                        "recentFormGapPct": null,
+                        "headToHead": {
+                            "matches": 0,
+                            "teamAWins": 0,
+                            "teamBWins": 0,
+                            "recent": []
+                        },
+                        "headToHeadGapPct": null,
+                        "historicallyStrongerSide": null,
+                        "signals": [],
+                        "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                        "officialRanking": "UNKNOWN / NOT CONNECTED",
+                        "sourceLimitations": [],
+                        "majorTeamAsymmetryProxyUsed": false
+                    },
+                    "skillGap": "UNKNOWN",
+                    "swingScore": 27.3,
+                    "strategyLabel": "INSUFFICIENT DATA",
+                    "analysisEngineVersion": 4,
+                    "tradeProfile": {
+                        "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                        "dataCompletenessPct": 17,
+                        "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                        "swingScore": 27.3,
+                        "strategyLabel": "INSUFFICIENT DATA",
+                        "competitiveBalance": {
+                            "label": "UNKNOWN",
+                            "balanceScore": null,
+                            "teamAElo": null,
+                            "teamBElo": null,
+                            "eloMatchesA": 0,
+                            "eloMatchesB": 0,
+                            "eloGap": null,
+                            "recentWinRateA": null,
+                            "recentWinRateB": null,
+                            "recentFormGapPct": null,
+                            "headToHead": {
+                                "matches": 0,
+                                "teamAWins": 0,
+                                "teamBWins": 0,
+                                "recent": []
+                            },
+                            "headToHeadGapPct": null,
+                            "historicallyStrongerSide": null,
+                            "signals": [],
+                            "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                            "officialRanking": "UNKNOWN / NOT CONNECTED",
+                            "sourceLimitations": [],
+                            "majorTeamAsymmetryProxyUsed": false
+                        },
+                        "swingCatalysts": [],
+                        "swingPenalties": [
+                            "Liquidity/market depth is not verified"
+                        ],
+                        "scoreComponents": [
+                            {
+                                "name": "weather",
+                                "score": 70.0,
+                                "weight": 0.1
+                            },
+                            {
+                                "name": "market_proxy",
+                                "score": 35.0,
+                                "weight": 0.2
+                            }
+                        ],
+                        "equalProfitTargetRequiresEntryOdds": true,
+                        "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+                    },
+                    "preMatchSnapshot": null,
+                    "standardT20": true,
+                    "playingXI": {
+                        "status": "NOT CONFIRMED",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "squadSummary": {
+                        "status": "NO SQUAD DATA",
+                        "teams": {},
+                        "source": "Not queried"
+                    },
+                    "initialAnalysis": {
+                        "phase": "INITIAL PRE-TOSS READ",
+                        "preTossStatus": "PRE-TOSS DATA LIMITED",
+                        "dataConfidencePct": 14,
+                        "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
+                        "edgeTeam": null,
+                        "edgeStrength": "DATA LIMITED",
+                        "edgeScore": null,
+                        "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                        "conditions": [
+                            "Weather: rain 0%, dew LOW"
+                        ],
+                        "evidence": [],
+                        "pendingGates": [
+                            "Toss result and batting/fielding decision",
+                            "Confirmed Playing XI",
+                            "Actual exchange BACK/LAY prices and matched liquidity",
+                            "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                        ],
+                        "tossCheckpoints": [
+                            "Compare the toss decision with the venue chasing/defending bias.",
+                            "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                            "Only calculate equal-profit targets from the actual matched exchange entry price."
+                        ],
+                        "firstInningsBaseline": null,
+                        "powerplayBaseline": null,
+                        "powerplayWicketsBaseline": null,
+                        "chasingWinPct": null,
+                        "middleOversWicketsPerMatch": null,
+                        "over16AvgRuns": null,
+                        "over16WicketEventPct": null,
+                        "spinWicketSharePct": null,
+                        "squadStatus": "NO SQUAD DATA",
+                        "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                    },
+                    "pendingGates": [
+                        "Toss result and batting/fielding decision",
+                        "Confirmed Playing XI",
+                        "Actual exchange BACK/LAY prices and matched liquidity",
+                        "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                    ],
+                    "formA": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "formB": {
+                        "matches": 0,
+                        "wins": 0,
+                        "losses": 0,
+                        "winRatePct": null,
+                        "avgMarginImpact": null,
+                        "recent": []
+                    },
+                    "weather": {
+                        "status": "OK",
+                        "local_time": "2026-11-15T14:00:00-03:00",
+                        "temperature_c": 13.3,
+                        "humidity_pct": 61,
+                        "dew_point_c": 5.9,
+                        "rain_probability_pct": 0,
+                        "precipitation_mm": 0.0,
+                        "wind_kmh": 6.8,
+                        "dew_risk": "LOW",
+                        "rain_risk": "LOW"
+                    },
+                    "weatherText": "13.3°C | RH 61% | Rain 0% | Wind 6.8 km/h",
+                    "dewRisk": "LOW",
+                    "tossBias": "UNKNOWN",
+                    "tossTrend": "Historical venue trend",
+                    "ppScoreAvg": "UNKNOWN",
+                    "ppWicketsAvg": null,
+                    "ppRunRate": "Historical first-innings PP",
+                    "over16AvgRuns": null,
+                    "over16WicketsPerInnings": null,
+                    "over16WicketEventPct": null,
+                    "over16SampleInnings": null,
+                    "spinIndex": "UNKNOWN",
+                    "spinNote": "UNKNOWN",
+                    "metricSources": {
+                        "fixture": "Cricbuzz via text relay",
+                        "weather": "Open-Meteo match-hour forecast",
+                        "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
+                        "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
+                        "over16": "Cricsheet 16th-over history insufficient/UNKNOWN",
+                        "spinChoke": "Cricsheet overs 7-14; bowler-style classification UNKNOWN"
+                    },
+                    "venueIntel": {
+                        "status": "NO DATA / UNKNOWN VENUE",
+                        "matches": 0,
+                        "venue_confidence": 0.532
+                    },
+                    "midOversWickets": null,
+                    "midOversWicketsPerMatch": null,
+                    "spinnerWickets7to14": null,
+                    "spinClassificationPct": null,
+                    "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+                    "noBetReasons": [
+                        "NO DATA / UNKNOWN VENUE",
+                        "LIMITED RECENT T20 DATA FOR Falkland Islands",
+                        "LIMITED RECENT T20 DATA FOR Costa Rica,2nd T20I Platinum Oval, Falkland Islands,Stanley"
+                    ],
+                    "warnings": [
+                        "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                        "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                        "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+                    ],
+                    "badgeClass": "badge-yellow",
+                    "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+                }
+            },
             "standardT20": true,
             "playingXI": {
                 "status": "NOT CONFIRMED",
@@ -3850,16 +5532,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-15T14:00:00-03:00",
-                "temperature_c": 13.3,
+                "temperature_c": 13.4,
                 "humidity_pct": 61,
-                "dew_point_c": 5.9,
+                "dew_point_c": 6.0,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 6.8,
+                "wind_kmh": 5.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "13.3°C | RH 61% | Rain 0% | Wind 6.8 km/h",
+            "weatherText": "13.4°C | RH 61% | Rain 0% | Wind 5.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -3889,18 +5571,19 @@
             "midOversWicketsPerMatch": null,
             "spinnerWickets7to14": null,
             "spinClassificationPct": null,
-            "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+            "verdict": "🔴 LIVE/STARTED — PRE-MATCH SNAPSHOT ONLY",
             "noBetReasons": [
+                "START TIME PASSED — PRE-MATCH WINDOW CLOSED",
                 "NO DATA / UNKNOWN VENUE",
                 "LIMITED RECENT T20 DATA FOR Falkland Islands",
-                "LIMITED RECENT T20 DATA FOR Costa Rica,2nd T20I Platinum Oval, Falkland Islands,Stanley"
+                "LIMITED RECENT T20 DATA FOR Costa Rica,2nd T20I Platinum Oval, Falkland Islands , Stanley"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
-            "badgeClass": "badge-yellow",
+            "badgeClass": "badge-red",
             "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
         }
     ]
