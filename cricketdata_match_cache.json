@@ -9878,5 +9878,38 @@
       ],
       "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
     }
+  },
+  "a1b375bd-c1c7-42ae-b10a-d67a7b727e87": {
+    "cachedAt": "2026-11-16T20:38:01.161822+00:00",
+    "data": {
+      "id": "a1b375bd-c1c7-42ae-b10a-d67a7b727e87",
+      "name": "South Africa vs Bangladesh, 2nd Test, Bangladesh tour of South Africa, 2026",
+      "status": "Match starts at Nov 23, 08:00 GMT",
+      "venue": "SuperSport Park, Centurion",
+      "date": "2026-11-23",
+      "dateTimeGMT": "2026-11-23T08:00:00",
+      "teams": [
+        "South Africa",
+        "Bangladesh"
+      ],
+      "series_id": "7acadb0c-bc4e-4c91-8c47-7bbe53f2227b"
+    }
+  },
+  "55c2366a-800f-47c4-8174-e810abfd1495": {
+    "cachedAt": "2026-11-16T20:38:01.308010+00:00",
+    "data": {
+      "id": "55c2366a-800f-47c4-8174-e810abfd1495",
+      "name": "Sharjah Warriorz vs Desert Vipers, 4th Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 23, 14:30 GMT",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-11-23",
+      "dateTimeGMT": "2026-11-23T14:30:00",
+      "teams": [
+        "Sharjah Warriorz",
+        "Desert Vipers"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
   }
 }
