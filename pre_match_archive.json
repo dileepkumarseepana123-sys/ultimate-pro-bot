@@ -154770,7 +154770,7 @@
         }
     },
     "gujarat|mumbai|2026-11-16": {
-        "capturedAt": "2026-11-15T23:05:11.206478+00:00",
+        "capturedAt": "2026-11-16T07:01:33.262064+00:00",
         "matchDate": "2026-11-16",
         "report": {
             "teamA": "Gujarat",
@@ -154788,7 +154788,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "cc7ef0d4-9b11-4e96-a0ee-a6f20e9c7c4a",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 16, 07:00 GMT",
+            "sourceStatus": "Mumbai opt to bowl",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -155156,16 +155156,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-16T01:00:00-07:00",
-                "temperature_c": 3.1,
-                "humidity_pct": 77,
-                "dew_point_c": -0.5,
+                "temperature_c": 3.2,
+                "humidity_pct": 83,
+                "dew_point_c": 0.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.4,
+                "wind_kmh": 10.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "3.1°C | RH 77% | Rain 0% | Wind 10.4 km/h",
+            "weatherText": "3.2°C | RH 83% | Rain 0% | Wind 10.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -155210,7 +155210,7 @@
         }
     },
     "baroda|mizoram|2026-11-16": {
-        "capturedAt": "2026-11-15T23:05:11.206483+00:00",
+        "capturedAt": "2026-11-16T07:01:33.262105+00:00",
         "matchDate": "2026-11-16",
         "report": {
             "teamA": "Mizoram",
@@ -155583,16 +155583,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-16T01:00:00-07:00",
-                "temperature_c": 3.1,
-                "humidity_pct": 77,
-                "dew_point_c": -0.5,
+                "temperature_c": 3.2,
+                "humidity_pct": 83,
+                "dew_point_c": 0.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.4,
+                "wind_kmh": 10.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "3.1°C | RH 77% | Rain 0% | Wind 10.4 km/h",
+            "weatherText": "3.2°C | RH 83% | Rain 0% | Wind 10.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -155637,7 +155637,7 @@
         }
     },
     "puducherry|tripura|2026-11-16": {
-        "capturedAt": "2026-11-15T23:05:11.206488+00:00",
+        "capturedAt": "2026-11-16T07:01:33.262130+00:00",
         "matchDate": "2026-11-16",
         "report": {
             "teamA": "Tripura",
@@ -156035,16 +156035,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-16T01:00:00-07:00",
-                "temperature_c": 3.1,
-                "humidity_pct": 77,
-                "dew_point_c": -0.5,
+                "temperature_c": 3.2,
+                "humidity_pct": 83,
+                "dew_point_c": 0.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.4,
+                "wind_kmh": 10.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "3.1°C | RH 77% | Rain 0% | Wind 10.4 km/h",
+            "weatherText": "3.2°C | RH 83% | Rain 0% | Wind 10.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -156088,7 +156088,7 @@
         }
     },
     "haryana|saurashtra|2026-11-16": {
-        "capturedAt": "2026-11-15T23:05:11.206494+00:00",
+        "capturedAt": "2026-11-16T07:01:33.262167+00:00",
         "matchDate": "2026-11-16",
         "report": {
             "teamA": "Saurashtra",
@@ -156460,16 +156460,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-16T01:00:00-07:00",
-                "temperature_c": 3.1,
-                "humidity_pct": 77,
-                "dew_point_c": -0.5,
+                "temperature_c": 3.2,
+                "humidity_pct": 83,
+                "dew_point_c": 0.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.4,
+                "wind_kmh": 10.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "3.1°C | RH 77% | Rain 0% | Wind 10.4 km/h",
+            "weatherText": "3.2°C | RH 83% | Rain 0% | Wind 10.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -156513,7 +156513,7 @@
         }
     },
     "melbourne stars women|sydney thunder women|2026-11-16": {
-        "capturedAt": "2026-11-15T23:05:11.206502+00:00",
+        "capturedAt": "2026-11-16T07:01:33.262194+00:00",
         "matchDate": "2026-11-16",
         "report": {
             "teamA": "Sydney Thunder Women",
@@ -156527,8 +156527,8 @@
             "indiaDate": "2026-11-16",
             "series": "Womens Big Bash League 2026",
             "sourceName": "CricketData cricScore + match_info",
-            "supplementalSourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/162863/sytw-vs-mlsw-24th-match-womens-big-bash-league-2026",
+            "supplementalSourceName": null,
+            "sourceMatchUrl": null,
             "cricketDataMatchId": "2c1ad823-6908-41db-a452-a922e37743b8",
             "liveScoreText": null,
             "sourceStatus": "Match starts at Nov 16, 08:10 GMT",
@@ -157023,16 +157023,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-16T19:10:00+11:00",
-                "temperature_c": 17.3,
-                "humidity_pct": 73,
+                "temperature_c": 16.9,
+                "humidity_pct": 75,
                 "dew_point_c": 12.3,
                 "rain_probability_pct": 80,
                 "precipitation_mm": 0.1,
-                "wind_kmh": 16.6,
+                "wind_kmh": 14.8,
                 "dew_risk": "LOW",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "17.3°C | RH 73% | Rain 80% | Wind 16.6 km/h",
+            "weatherText": "16.9°C | RH 75% | Rain 80% | Wind 14.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "59.26% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -157089,7 +157089,7 @@
         }
     },
     "meghalaya|services|2026-11-16": {
-        "capturedAt": "2026-11-15T23:05:11.206507+00:00",
+        "capturedAt": "2026-11-16T07:01:33.262225+00:00",
         "matchDate": "2026-11-16",
         "report": {
             "teamA": "Services",
@@ -157102,12 +157102,12 @@
             "matchTimeIST": "2026-11-16T16:30:00+05:30",
             "indiaDate": "2026-11-16",
             "series": "Syed Mushtaq Ali Trophy Plate 2026",
-            "sourceName": "CricketData cricScore + match_info",
+            "sourceName": "CricketData cricScore + currentMatches",
             "supplementalSourceName": null,
             "sourceMatchUrl": null,
             "cricketDataMatchId": "6cfb06db-52cd-4bd6-bb71-85b860e05967",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 16, 07:00 GMT",
+            "sourceStatus": "Meghalaya opt to bat",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -157461,16 +157461,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-16T04:00:00-07:00",
-                "temperature_c": 2.0,
-                "humidity_pct": 76,
-                "dew_point_c": -1.8,
+                "temperature_c": 2.1,
+                "humidity_pct": 79,
+                "dew_point_c": -1.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.7,
+                "wind_kmh": 9.7,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "2.0°C | RH 76% | Rain 0% | Wind 10.7 km/h",
+            "weatherText": "2.1°C | RH 79% | Rain 0% | Wind 9.7 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -157484,7 +157484,7 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "UNKNOWN",
             "metricSources": {
-                "fixture": "CricketData cricScore + match_info",
+                "fixture": "CricketData cricScore + currentMatches",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
                 "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
@@ -157514,7 +157514,7 @@
         }
     },
     "delhi|punjab|2026-11-16": {
-        "capturedAt": "2026-11-15T23:05:11.206512+00:00",
+        "capturedAt": "2026-11-16T07:01:33.262248+00:00",
         "matchDate": "2026-11-16",
         "report": {
             "teamA": "Delhi",
@@ -157927,16 +157927,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-16T04:00:00-07:00",
-                "temperature_c": 2.0,
-                "humidity_pct": 76,
-                "dew_point_c": -1.8,
+                "temperature_c": 2.1,
+                "humidity_pct": 79,
+                "dew_point_c": -1.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.7,
+                "wind_kmh": 9.7,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "2.0°C | RH 76% | Rain 0% | Wind 10.7 km/h",
+            "weatherText": "2.1°C | RH 79% | Rain 0% | Wind 9.7 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -157980,7 +157980,7 @@
         }
     },
     "kerala|maharashtra|2026-11-16": {
-        "capturedAt": "2026-11-15T23:05:11.206518+00:00",
+        "capturedAt": "2026-11-16T07:01:33.262273+00:00",
         "matchDate": "2026-11-16",
         "report": {
             "teamA": "Kerala",
@@ -158352,16 +158352,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-16T04:00:00-07:00",
-                "temperature_c": 2.0,
-                "humidity_pct": 76,
-                "dew_point_c": -1.8,
+                "temperature_c": 2.1,
+                "humidity_pct": 79,
+                "dew_point_c": -1.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.7,
+                "wind_kmh": 9.7,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "2.0°C | RH 76% | Rain 0% | Wind 10.7 km/h",
+            "weatherText": "2.1°C | RH 79% | Rain 0% | Wind 9.7 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -158405,7 +158405,7 @@
         }
     },
     "bengal|chandigarh|2026-11-16": {
-        "capturedAt": "2026-11-15T23:05:11.206523+00:00",
+        "capturedAt": "2026-11-16T07:01:33.262296+00:00",
         "matchDate": "2026-11-16",
         "report": {
             "teamA": "Bengal",
@@ -158791,16 +158791,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-16T04:00:00-07:00",
-                "temperature_c": 2.0,
-                "humidity_pct": 76,
-                "dew_point_c": -1.8,
+                "temperature_c": 2.1,
+                "humidity_pct": 79,
+                "dew_point_c": -1.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.7,
+                "wind_kmh": 9.7,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "2.0°C | RH 76% | Rain 0% | Wind 10.7 km/h",
+            "weatherText": "2.1°C | RH 79% | Rain 0% | Wind 9.7 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -158844,7 +158844,7 @@
         }
     },
     "chhattisgarh|hyderabad|2026-11-16": {
-        "capturedAt": "2026-11-15T23:05:11.206528+00:00",
+        "capturedAt": "2026-11-16T07:01:33.262320+00:00",
         "matchDate": "2026-11-16",
         "report": {
             "teamA": "Chhattisgarh",
@@ -159111,16 +159111,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-16T04:00:00-07:00",
-                "temperature_c": 2.0,
-                "humidity_pct": 76,
-                "dew_point_c": -1.8,
+                "temperature_c": 2.1,
+                "humidity_pct": 79,
+                "dew_point_c": -1.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.7,
+                "wind_kmh": 9.7,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "2.0°C | RH 76% | Rain 0% | Wind 10.7 km/h",
+            "weatherText": "2.1°C | RH 79% | Rain 0% | Wind 9.7 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -159165,7 +159165,7 @@
         }
     },
     "arabian aces|united tigers|2026-11-16": {
-        "capturedAt": "2026-11-15T23:05:11.206535+00:00",
+        "capturedAt": "2026-11-16T07:01:33.262342+00:00",
         "matchDate": "2026-11-16",
         "report": {
             "teamA": "Arabian Aces",
@@ -159284,12 +159284,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -159357,15 +159357,15 @@
                 "status": "OK",
                 "local_time": "2026-11-16T17:45:00+04:00",
                 "temperature_c": 26.3,
-                "humidity_pct": 59,
-                "dew_point_c": 17.8,
+                "humidity_pct": 61,
+                "dew_point_c": 18.1,
                 "rain_probability_pct": 3,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 13.9,
+                "wind_kmh": 16.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.3°C | RH 59% | Rain 3% | Wind 13.9 km/h",
+            "weatherText": "26.3°C | RH 61% | Rain 3% | Wind 16.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.1% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -159423,7 +159423,7 @@
         }
     },
     "emirates eagles|royal desert champions|2026-11-16": {
-        "capturedAt": "2026-11-15T23:05:11.206542+00:00",
+        "capturedAt": "2026-11-16T07:01:33.262358+00:00",
         "matchDate": "2026-11-16",
         "report": {
             "teamA": "Emirates Eagles",
@@ -159542,12 +159542,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -159614,16 +159614,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-16T20:00:00+04:00",
-                "temperature_c": 26.1,
-                "humidity_pct": 61,
-                "dew_point_c": 18.0,
+                "temperature_c": 25.8,
+                "humidity_pct": 63,
+                "dew_point_c": 18.3,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.4,
+                "wind_kmh": 13.9,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.1°C | RH 61% | Rain 0% | Wind 10.4 km/h",
+            "weatherText": "25.8°C | RH 63% | Rain 0% | Wind 13.9 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.1% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -159681,7 +159681,7 @@
         }
     },
     "costa rica 3rd t20i platinum oval falkland islands stanley|falkland islands|2026-11-16": {
-        "capturedAt": "2026-11-15T23:05:11.206552+00:00",
+        "capturedAt": "2026-11-16T07:01:33.262378+00:00",
         "matchDate": "2026-11-16",
         "report": {
             "teamA": "Falkland Islands",
@@ -159699,7 +159699,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/178177/falk-vs-cri-3rd-t20i-costa-rica-tour-of-falkland-islands-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -159909,7 +159909,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "costa rica 4th t20i platinum oval falkland islands stanley|falkland islands|2026-11-16": {

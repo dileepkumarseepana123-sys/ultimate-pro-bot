@@ -9844,5 +9844,39 @@
       ],
       "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
     }
+  },
+  "37a3f97c-f4f7-47f9-896a-483beae086da": {
+    "cachedAt": "2026-11-16T07:01:12.712224+00:00",
+    "data": {
+      "id": "37a3f97c-f4f7-47f9-896a-483beae086da",
+      "name": "New South Wales vs Queensland, 13th Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 21, 23:30 GMT",
+      "venue": "Sydney Cricket Ground, Sydney",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T23:30:00",
+      "teams": [
+        "New South Wales",
+        "Queensland"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
+  },
+  "27ac6ffe-73c7-4900-bb05-1feedc21a61d": {
+    "cachedAt": "2026-11-16T07:01:12.835978+00:00",
+    "data": {
+      "id": "27ac6ffe-73c7-4900-bb05-1feedc21a61d",
+      "name": "Western Australia vs Tasmania, 14th Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 23, 02:30 GMT",
+      "venue": "Perth Stadium, Perth",
+      "date": "2026-11-23",
+      "dateTimeGMT": "2026-11-23T02:30:00",
+      "teams": [
+        "Western Australia",
+        "Tasmania"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
   }
 }
