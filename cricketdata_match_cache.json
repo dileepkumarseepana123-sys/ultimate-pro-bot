@@ -10047,5 +10047,141 @@
       ],
       "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
     }
+  },
+  "a04a03ff-3b18-470c-81ad-18abc5fda344": {
+    "cachedAt": "2026-11-17T19:16:48.682563+00:00",
+    "data": {
+      "id": "a04a03ff-3b18-470c-81ad-18abc5fda344",
+      "name": "Hyderabad vs Gujarat, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 05:30 GMT",
+      "venue": "Eden Gardens, Kolkata",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T05:30:00",
+      "teams": [
+        "Hyderabad",
+        "Gujarat"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "b4ef89d8-538d-45ca-b20b-d11e19a42966": {
+    "cachedAt": "2026-11-17T19:16:48.862281+00:00",
+    "data": {
+      "id": "b4ef89d8-538d-45ca-b20b-d11e19a42966",
+      "name": "Karnataka vs Rajasthan, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 08:00 GMT",
+      "venue": "Sharad Pawar Cricket Academy BKC, Mumbai",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T08:00:00",
+      "teams": [
+        "Karnataka",
+        "Rajasthan"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "77ecb6b7-3372-4e19-80d1-a955700867dd": {
+    "cachedAt": "2026-11-17T19:16:49.039964+00:00",
+    "data": {
+      "id": "77ecb6b7-3372-4e19-80d1-a955700867dd",
+      "name": "Jammu And Kashmir vs Railways, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 08:00 GMT",
+      "venue": "Daly College Ground, Indore",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T08:00:00",
+      "teams": [
+        "Jammu And Kashmir",
+        "Railways"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "fdd4cdb3-25ce-4ff3-aade-9febca748f5c": {
+    "cachedAt": "2026-11-17T19:16:49.219382+00:00",
+    "data": {
+      "id": "fdd4cdb3-25ce-4ff3-aade-9febca748f5c",
+      "name": "Uttarakhand vs Vidarbha, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 08:00 GMT",
+      "venue": "Jadavpur University Campus 2nd Ground, Kolkata",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T08:00:00",
+      "teams": [
+        "Uttarakhand",
+        "Vidarbha"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "ef15d18c-e964-4e2a-99be-8f783a14fdf8": {
+    "cachedAt": "2026-11-17T19:16:49.396700+00:00",
+    "data": {
+      "id": "ef15d18c-e964-4e2a-99be-8f783a14fdf8",
+      "name": "Madhya Pradesh vs Himachal Pradesh, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 08:00 GMT",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T08:00:00",
+      "teams": [
+        "Madhya Pradesh",
+        "Himachal Pradesh"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "5fe792e6-b1dc-40af-9157-f77113c6fffd": {
+    "cachedAt": "2026-11-17T19:16:49.573894+00:00",
+    "data": {
+      "id": "5fe792e6-b1dc-40af-9157-f77113c6fffd",
+      "name": "Australia vs England, 2nd T20I, England tour of Australia, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 08:15 GMT",
+      "venue": "Carrara Oval, Queensland",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T08:15:00",
+      "teams": [
+        "Australia",
+        "England"
+      ],
+      "series_id": "9c385594-20fe-4d3d-b2bb-df4de8e043bc"
+    }
+  },
+  "b0e0e8ce-0690-4f25-b852-df21d250e2fe": {
+    "cachedAt": "2026-11-17T19:16:49.758020+00:00",
+    "data": {
+      "id": "b0e0e8ce-0690-4f25-b852-df21d250e2fe",
+      "name": "Bihar vs Haryana, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 11:00 GMT",
+      "venue": "Holkar Stadium, Indore",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T11:00:00",
+      "teams": [
+        "Bihar",
+        "Haryana"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "92c562d8-dacf-4ddb-b532-4a3b2d459a81": {
+    "cachedAt": "2026-11-17T19:16:49.935331+00:00",
+    "data": {
+      "id": "92c562d8-dacf-4ddb-b532-4a3b2d459a81",
+      "name": "Jharkhand vs Baroda, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 11:00 GMT",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T11:00:00",
+      "teams": [
+        "Jharkhand",
+        "Baroda"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
   }
 }
