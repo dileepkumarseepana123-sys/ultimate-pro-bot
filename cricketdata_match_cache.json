@@ -9911,5 +9911,141 @@
       ],
       "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
     }
+  },
+  "8056394a-3293-4f2f-8d88-e3b7934aa9d2": {
+    "cachedAt": "2026-11-17T08:16:13.611861+00:00",
+    "data": {
+      "id": "8056394a-3293-4f2f-8d88-e3b7934aa9d2",
+      "name": "South Australia vs Victoria, 15th Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 24, 00:00 GMT",
+      "venue": "Adelaide Oval, Adelaide",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T00:00:00",
+      "teams": [
+        "South Australia",
+        "Victoria"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
+  },
+  "1a869330-377e-4026-a4f7-cd87b834905e": {
+    "cachedAt": "2026-11-17T08:16:13.770099+00:00",
+    "data": {
+      "id": "1a869330-377e-4026-a4f7-cd87b834905e",
+      "name": "Kerala vs Assam, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 03:30 GMT",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T03:30:00",
+      "teams": [
+        "Kerala",
+        "Assam"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "b9f0d64d-7aad-46a9-a7c0-7fe1a411c84f": {
+    "cachedAt": "2026-11-17T08:16:13.930416+00:00",
+    "data": {
+      "id": "b9f0d64d-7aad-46a9-a7c0-7fe1a411c84f",
+      "name": "Bengal vs Uttar Pradesh, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 03:30 GMT",
+      "venue": "Sharad Pawar Cricket Academy BKC, Mumbai",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T03:30:00",
+      "teams": [
+        "Bengal",
+        "Uttar Pradesh"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "c0c76102-268a-468f-bb1c-3f8390d864cb": {
+    "cachedAt": "2026-11-17T08:16:14.090234+00:00",
+    "data": {
+      "id": "c0c76102-268a-468f-bb1c-3f8390d864cb",
+      "name": "Delhi vs Tamil Nadu, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 03:30 GMT",
+      "venue": "Daly College Ground, Indore",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T03:30:00",
+      "teams": [
+        "Delhi",
+        "Tamil Nadu"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "43c632b0-7aa2-438f-8a5d-35da2357f4b3": {
+    "cachedAt": "2026-11-17T08:16:14.250505+00:00",
+    "data": {
+      "id": "43c632b0-7aa2-438f-8a5d-35da2357f4b3",
+      "name": "Chhattisgarh vs Goa, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 03:30 GMT",
+      "venue": "Jadavpur University Campus 2nd Ground, Kolkata",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T03:30:00",
+      "teams": [
+        "Chhattisgarh",
+        "Goa"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "4b4e891d-f8a7-4869-9673-e6f96d92a3ea": {
+    "cachedAt": "2026-11-17T08:16:14.408972+00:00",
+    "data": {
+      "id": "4b4e891d-f8a7-4869-9673-e6f96d92a3ea",
+      "name": "Maharashtra vs Tripura, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 05:30 GMT",
+      "venue": "PCA International Cricket Stadium, Ground A, New Chandigarh",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T05:30:00",
+      "teams": [
+        "Maharashtra",
+        "Tripura"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "d36441e9-f6cd-4de7-b1e4-dc885ff3a37b": {
+    "cachedAt": "2026-11-17T08:16:14.566698+00:00",
+    "data": {
+      "id": "d36441e9-f6cd-4de7-b1e4-dc885ff3a37b",
+      "name": "Punjab vs Saurashtra, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 05:30 GMT",
+      "venue": "Holkar Stadium, Indore",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T05:30:00",
+      "teams": [
+        "Punjab",
+        "Saurashtra"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "1c0d7573-5747-4217-abb3-beec7009d3c6": {
+    "cachedAt": "2026-11-17T08:16:14.725429+00:00",
+    "data": {
+      "id": "1c0d7573-5747-4217-abb3-beec7009d3c6",
+      "name": "Chandigarh vs Mizoram, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 05:30 GMT",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T05:30:00",
+      "teams": [
+        "Chandigarh",
+        "Mizoram"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
   }
 }

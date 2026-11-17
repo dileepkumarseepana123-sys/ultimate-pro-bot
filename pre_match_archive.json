@@ -160745,7 +160745,7 @@
         }
     },
     "arabian aces|yas lions|2026-11-17": {
-        "capturedAt": "2026-11-16T20:39:19.008661+00:00",
+        "capturedAt": "2026-11-17T08:17:19.360392+00:00",
         "matchDate": "2026-11-17",
         "report": {
             "teamA": "Yas Lions",
@@ -160864,12 +160864,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -160886,7 +160886,7 @@
                     "Two-way venue: 53.1% chasing wins",
                     "Overs 7-14 wicket pressure: 3.97 wickets/match",
                     "16th-over baseline: 8.0 runs; wicket in 34.1% of sampled innings",
-                    "Weather: rain 3%, dew LOW"
+                    "Weather: rain 0%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -160936,16 +160936,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-17T17:45:00+04:00",
-                "temperature_c": 26.3,
-                "humidity_pct": 59,
-                "dew_point_c": 17.8,
-                "rain_probability_pct": 3,
+                "temperature_c": 27.3,
+                "humidity_pct": 50,
+                "dew_point_c": 15.8,
+                "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 13.6,
+                "wind_kmh": 11.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.3°C | RH 59% | Rain 3% | Wind 13.6 km/h",
+            "weatherText": "27.3°C | RH 50% | Rain 0% | Wind 11.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.1% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -161003,7 +161003,7 @@
         }
     },
     "royal desert champions|uae bulls|2026-11-17": {
-        "capturedAt": "2026-11-16T20:39:19.008673+00:00",
+        "capturedAt": "2026-11-17T08:17:19.360468+00:00",
         "matchDate": "2026-11-17",
         "report": {
             "teamA": "Uae Bulls",
@@ -161122,12 +161122,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -161194,16 +161194,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-17T20:00:00+04:00",
-                "temperature_c": 25.7,
-                "humidity_pct": 60,
-                "dew_point_c": 17.5,
+                "temperature_c": 25.9,
+                "humidity_pct": 62,
+                "dew_point_c": 18.0,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 9.7,
+                "wind_kmh": 11.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "25.7°C | RH 60% | Rain 0% | Wind 9.7 km/h",
+            "weatherText": "25.9°C | RH 62% | Rain 0% | Wind 11.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.1% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -161261,7 +161261,7 @@
         }
     },
     "lumbini lions|sudur paschim royals|2026-11-17": {
-        "capturedAt": "2026-11-16T20:39:19.008684+00:00",
+        "capturedAt": "2026-11-17T08:17:19.360485+00:00",
         "matchDate": "2026-11-17",
         "report": {
             "teamA": "Lumbini Lions",
@@ -161691,16 +161691,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-17T17:00:00+05:45",
-                "temperature_c": 15.3,
+                "temperature_c": 15.4,
                 "humidity_pct": 75,
-                "dew_point_c": 11.0,
+                "dew_point_c": 10.9,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.1,
+                "wind_kmh": 0.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "15.3°C | RH 75% | Rain 0% | Wind 2.1 km/h",
+            "weatherText": "15.4°C | RH 75% | Rain 0% | Wind 0.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "48.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -161757,7 +161757,7 @@
         }
     },
     "costa rica 5th t20i platinum oval stanley|falkland islands|2026-11-17": {
-        "capturedAt": "2026-11-16T20:39:19.008697+00:00",
+        "capturedAt": "2026-11-17T08:17:19.360511+00:00",
         "matchDate": "2026-11-17",
         "report": {
             "teamA": "Falkland Islands",
@@ -161806,14 +161806,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 25.3,
+            "swingScore": 27.3,
             "strategyLabel": "INSUFFICIENT DATA",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 17,
                 "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 25.3,
+                "swingScore": 27.3,
                 "strategyLabel": "INSUFFICIENT DATA",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -161842,13 +161842,12 @@
                 },
                 "swingCatalysts": [],
                 "swingPenalties": [
-                    "High dew may create strong chase-side bias",
                     "Liquidity/market depth is not verified"
                 ],
                 "scoreComponents": [
                     {
                         "name": "weather",
-                        "score": 60.0,
+                        "score": 70.0,
                         "weight": 0.1
                     },
                     {
@@ -161882,7 +161881,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 1%, dew HIGH"
+                    "Weather: rain 0%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -161933,16 +161932,16 @@
                 "status": "OK",
                 "local_time": "2026-11-17T11:00:00-06:00",
                 "temperature_c": 6.5,
-                "humidity_pct": 87,
-                "dew_point_c": 4.5,
-                "rain_probability_pct": 1,
+                "humidity_pct": 73,
+                "dew_point_c": 2.0,
+                "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 16.9,
-                "dew_risk": "HIGH",
+                "wind_kmh": 12.6,
+                "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "6.5°C | RH 87% | Rain 1% | Wind 16.9 km/h",
-            "dewRisk": "HIGH",
+            "weatherText": "6.5°C | RH 73% | Rain 0% | Wind 12.6 km/h",
+            "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "UNKNOWN",
@@ -161974,7 +161973,6 @@
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
-                "HIGH DEW RISK",
                 "LIMITED RECENT T20 DATA FOR Falkland Islands",
                 "LIMITED RECENT T20 DATA FOR Costa Rica,5th T20I Platinum Oval , Stanley"
             ],
