@@ -166224,7 +166224,7 @@
         }
     },
     "haryana|tamil nadu|2026-11-18": {
-        "capturedAt": "2026-11-17T19:18:02.110282+00:00",
+        "capturedAt": "2026-11-18T07:54:26.259827+00:00",
         "matchDate": "2026-11-18",
         "report": {
             "teamA": "Tamil Nadu",
@@ -166356,12 +166356,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -166609,15 +166609,15 @@
                 "status": "OK",
                 "local_time": "2026-11-18T01:00:00-07:00",
                 "temperature_c": 1.3,
-                "humidity_pct": 66,
-                "dew_point_c": -4.3,
+                "humidity_pct": 60,
+                "dew_point_c": -5.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 5.3,
+                "wind_kmh": 10.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "1.3°C | RH 66% | Rain 0% | Wind 5.3 km/h",
+            "weatherText": "1.3°C | RH 60% | Rain 0% | Wind 10.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -166661,7 +166661,7 @@
         }
     },
     "goa|mumbai|2026-11-18": {
-        "capturedAt": "2026-11-17T19:18:02.110290+00:00",
+        "capturedAt": "2026-11-18T07:54:26.259863+00:00",
         "matchDate": "2026-11-18",
         "report": {
             "teamA": "Goa",
@@ -166678,8 +166678,8 @@
             "supplementalSourceName": null,
             "sourceMatchUrl": null,
             "cricketDataMatchId": "6fbbc8c2-82a4-4643-91a1-dad6169ea394",
-            "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 18, 07:00 GMT",
+            "liveScoreText": "67/3 (6)",
+            "sourceStatus": "Mumbai opt to bat",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -166794,12 +166794,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -167047,15 +167047,15 @@
                 "status": "OK",
                 "local_time": "2026-11-18T01:00:00-07:00",
                 "temperature_c": 1.3,
-                "humidity_pct": 66,
-                "dew_point_c": -4.3,
+                "humidity_pct": 60,
+                "dew_point_c": -5.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 5.3,
+                "wind_kmh": 10.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "1.3°C | RH 66% | Rain 0% | Wind 5.3 km/h",
+            "weatherText": "1.3°C | RH 60% | Rain 0% | Wind 10.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -167099,7 +167099,7 @@
         }
     },
     "baroda|uttar pradesh|2026-11-18": {
-        "capturedAt": "2026-11-17T19:18:02.110299+00:00",
+        "capturedAt": "2026-11-18T07:54:26.259887+00:00",
         "matchDate": "2026-11-18",
         "report": {
             "teamA": "Uttar Pradesh",
@@ -167257,12 +167257,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -167511,15 +167511,15 @@
                 "status": "OK",
                 "local_time": "2026-11-18T01:00:00-07:00",
                 "temperature_c": 1.3,
-                "humidity_pct": 66,
-                "dew_point_c": -4.3,
+                "humidity_pct": 60,
+                "dew_point_c": -5.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 5.3,
+                "wind_kmh": 10.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "1.3°C | RH 66% | Rain 0% | Wind 5.3 km/h",
+            "weatherText": "1.3°C | RH 60% | Rain 0% | Wind 10.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -167562,7 +167562,7 @@
         }
     },
     "assam|puducherry|2026-11-18": {
-        "capturedAt": "2026-11-17T19:18:02.110307+00:00",
+        "capturedAt": "2026-11-18T07:54:26.259910+00:00",
         "matchDate": "2026-11-18",
         "report": {
             "teamA": "Assam",
@@ -167580,7 +167580,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "3abd621d-50a9-41eb-ade6-2ce38eb4a536",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 18, 07:15 GMT",
+            "sourceStatus": "Puducherry opt to bat",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -167694,12 +167694,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -167947,15 +167947,15 @@
                 "status": "OK",
                 "local_time": "2026-11-18T01:00:00-07:00",
                 "temperature_c": 1.3,
-                "humidity_pct": 66,
-                "dew_point_c": -4.3,
+                "humidity_pct": 60,
+                "dew_point_c": -5.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 5.3,
+                "wind_kmh": 10.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "1.3°C | RH 66% | Rain 0% | Wind 5.3 km/h",
+            "weatherText": "1.3°C | RH 60% | Rain 0% | Wind 10.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -167998,7 +167998,7 @@
         }
     },
     "manipur|meghalaya|2026-11-18": {
-        "capturedAt": "2026-11-17T19:18:02.110316+00:00",
+        "capturedAt": "2026-11-18T07:54:26.259932+00:00",
         "matchDate": "2026-11-18",
         "report": {
             "teamA": "Meghalaya",
@@ -168011,12 +168011,12 @@
             "matchTimeIST": "2026-11-18T16:30:00+05:30",
             "indiaDate": "2026-11-18",
             "series": "Syed Mushtaq Ali Trophy Plate 2026",
-            "sourceName": "CricketData cricScore + match_info",
+            "sourceName": "CricketData cricScore + currentMatches",
             "supplementalSourceName": null,
             "sourceMatchUrl": null,
             "cricketDataMatchId": "7ff7cb4c-f522-4de6-a04c-9c89a5c09c0a",
-            "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 18, 07:00 GMT",
+            "liveScoreText": "41/5 (6)",
+            "sourceStatus": "Manipur opt to bat",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -168132,12 +168132,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -168385,15 +168385,15 @@
                 "status": "OK",
                 "local_time": "2026-11-18T04:00:00-07:00",
                 "temperature_c": 0.4,
-                "humidity_pct": 79,
-                "dew_point_c": -2.8,
+                "humidity_pct": 77,
+                "dew_point_c": -3.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.7,
+                "wind_kmh": 9.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "0.4°C | RH 79% | Rain 0% | Wind 10.7 km/h",
+            "weatherText": "0.4°C | RH 77% | Rain 0% | Wind 9.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -168407,7 +168407,7 @@
             "spinIndex": "UNKNOWN",
             "spinNote": "UNKNOWN",
             "metricSources": {
-                "fixture": "CricketData cricScore + match_info",
+                "fixture": "CricketData cricScore + currentMatches",
                 "weather": "Open-Meteo match-hour forecast",
                 "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
                 "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
@@ -168438,7 +168438,7 @@
         }
     },
     "karnataka|mizoram|2026-11-18": {
-        "capturedAt": "2026-11-17T19:18:02.110324+00:00",
+        "capturedAt": "2026-11-18T07:54:26.260015+00:00",
         "matchDate": "2026-11-18",
         "report": {
             "teamA": "Karnataka",
@@ -168573,12 +168573,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -168826,15 +168826,15 @@
                 "status": "OK",
                 "local_time": "2026-11-18T04:00:00-07:00",
                 "temperature_c": 0.4,
-                "humidity_pct": 79,
-                "dew_point_c": -2.8,
+                "humidity_pct": 77,
+                "dew_point_c": -3.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.7,
+                "wind_kmh": 9.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "0.4°C | RH 79% | Rain 0% | Wind 10.7 km/h",
+            "weatherText": "0.4°C | RH 77% | Rain 0% | Wind 9.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -168879,7 +168879,7 @@
         }
     },
     "madhya pradesh|tripura|2026-11-18": {
-        "capturedAt": "2026-11-17T19:18:02.110333+00:00",
+        "capturedAt": "2026-11-18T07:54:26.260038+00:00",
         "matchDate": "2026-11-18",
         "report": {
             "teamA": "Madhya Pradesh",
@@ -168999,12 +168999,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -169252,15 +169252,15 @@
                 "status": "OK",
                 "local_time": "2026-11-18T04:00:00-07:00",
                 "temperature_c": 0.4,
-                "humidity_pct": 79,
-                "dew_point_c": -2.8,
+                "humidity_pct": 77,
+                "dew_point_c": -3.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.7,
+                "wind_kmh": 9.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "0.4°C | RH 79% | Rain 0% | Wind 10.7 km/h",
+            "weatherText": "0.4°C | RH 77% | Rain 0% | Wind 9.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -169305,7 +169305,7 @@
         }
     },
     "gujarat|uttarakhand|2026-11-18": {
-        "capturedAt": "2026-11-17T19:18:02.110341+00:00",
+        "capturedAt": "2026-11-18T07:54:26.259954+00:00",
         "matchDate": "2026-11-18",
         "report": {
             "teamA": "Uttarakhand",
@@ -169439,12 +169439,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -169692,15 +169692,15 @@
                 "status": "OK",
                 "local_time": "2026-11-18T04:00:00-07:00",
                 "temperature_c": 0.4,
-                "humidity_pct": 79,
-                "dew_point_c": -2.8,
+                "humidity_pct": 77,
+                "dew_point_c": -3.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.7,
+                "wind_kmh": 9.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "0.4°C | RH 79% | Rain 0% | Wind 10.7 km/h",
+            "weatherText": "0.4°C | RH 77% | Rain 0% | Wind 9.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -169745,7 +169745,7 @@
         }
     },
     "jammu and kashmir|saurashtra|2026-11-18": {
-        "capturedAt": "2026-11-17T19:18:02.110351+00:00",
+        "capturedAt": "2026-11-18T07:54:26.259981+00:00",
         "matchDate": "2026-11-18",
         "report": {
             "teamA": "Jammu And Kashmir",
@@ -169854,12 +169854,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -170013,15 +170013,15 @@
                 "status": "OK",
                 "local_time": "2026-11-18T04:00:00-07:00",
                 "temperature_c": 0.4,
-                "humidity_pct": 79,
-                "dew_point_c": -2.8,
+                "humidity_pct": 77,
+                "dew_point_c": -3.1,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.7,
+                "wind_kmh": 9.2,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "0.4°C | RH 79% | Rain 0% | Wind 10.7 km/h",
+            "weatherText": "0.4°C | RH 77% | Rain 0% | Wind 9.2 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -170066,7 +170066,7 @@
         }
     },
     "uae bulls|united tigers|2026-11-18": {
-        "capturedAt": "2026-11-17T19:18:02.110361+00:00",
+        "capturedAt": "2026-11-18T07:54:26.260059+00:00",
         "matchDate": "2026-11-18",
         "report": {
             "teamA": "Uae Bulls",
@@ -170185,12 +170185,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -170257,16 +170257,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-18T17:45:00+04:00",
-                "temperature_c": 26.7,
-                "humidity_pct": 46,
-                "dew_point_c": 14.2,
+                "temperature_c": 26.9,
+                "humidity_pct": 49,
+                "dew_point_c": 15.3,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 14.3,
+                "wind_kmh": 15.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.7°C | RH 46% | Rain 0% | Wind 14.3 km/h",
+            "weatherText": "26.9°C | RH 49% | Rain 0% | Wind 15.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.1% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -170324,7 +170324,7 @@
         }
     },
     "emirates eagles|yas lions|2026-11-18": {
-        "capturedAt": "2026-11-17T19:18:02.110371+00:00",
+        "capturedAt": "2026-11-18T07:54:26.260082+00:00",
         "matchDate": "2026-11-18",
         "report": {
             "teamA": "Emirates Eagles",
@@ -170443,12 +170443,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -170515,16 +170515,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-18T20:00:00+04:00",
-                "temperature_c": 25.7,
+                "temperature_c": 26.0,
                 "humidity_pct": 53,
-                "dew_point_c": 15.6,
+                "dew_point_c": 15.8,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 9.4,
+                "wind_kmh": 11.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "25.7°C | RH 53% | Rain 0% | Wind 9.4 km/h",
+            "weatherText": "26.0°C | RH 53% | Rain 0% | Wind 11.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.1% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -170582,7 +170582,7 @@
         }
     },
     "chitwan rhinos|kathmandu gorkhas|2026-11-18": {
-        "capturedAt": "2026-11-17T19:18:02.110381+00:00",
+        "capturedAt": "2026-11-18T07:54:26.260099+00:00",
         "matchDate": "2026-11-18",
         "report": {
             "teamA": "Kathmandu Gorkhas",
@@ -170967,16 +170967,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-18T17:00:00+05:45",
-                "temperature_c": 14.0,
-                "humidity_pct": 73,
+                "temperature_c": 13.8,
+                "humidity_pct": 74,
                 "dew_point_c": 9.2,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 1.0,
+                "wind_kmh": 0.6,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "14.0°C | RH 73% | Rain 0% | Wind 1.0 km/h",
+            "weatherText": "13.8°C | RH 74% | Rain 0% | Wind 0.6 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "48.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -171253,6 +171253,468 @@
                 "HIGH DEW RISK",
                 "LIMITED RECENT T20 DATA FOR Falkland Islands",
                 "LIMITED RECENT T20 DATA FOR Costa Rica,6th T20I Platinum Oval , Stanley"
+            ],
+            "warnings": [
+                "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-yellow",
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+        }
+    },
+    "costa rica 7th t20i platinum oval stanley|falkland islands|2026-11-18": {
+        "capturedAt": "2026-11-18T07:54:26.260127+00:00",
+        "matchDate": "2026-11-18",
+        "report": {
+            "teamA": "Falkland Islands",
+            "teamB": "Costa Rica,7th T20I Platinum Oval , Stanley",
+            "name": "Falkland Islands vs Costa Rica,7th T20I Platinum Oval , Stanley",
+            "matchType": "T20",
+            "venue": "7th T20I Platinum Oval , Stanley",
+            "dateTimeGMT": "2026-11-18T13:00:00+00:00",
+            "sourceDate": "2026-11-18",
+            "matchTimeIST": "2026-11-18T18:30:00+05:30",
+            "indiaDate": "2026-11-18",
+            "series": "Costa Rica tour of Falkland Islands, 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "supplementalSourceName": null,
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/178210/falk-vs-cri-7th-t20i-costa-rica-tour-of-falkland-islands-2026",
+            "cricketDataMatchId": null,
+            "liveScoreText": null,
+            "sourceStatus": "Scheduled",
+            "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": false,
+            "competitiveBalance": {
+                "label": "UNKNOWN",
+                "balanceScore": null,
+                "teamAElo": null,
+                "teamBElo": null,
+                "eloMatchesA": 0,
+                "eloMatchesB": 0,
+                "eloGap": null,
+                "recentWinRateA": null,
+                "recentWinRateB": null,
+                "recentFormGapPct": null,
+                "headToHead": {
+                    "matches": 0,
+                    "teamAWins": 0,
+                    "teamBWins": 0,
+                    "recent": []
+                },
+                "headToHeadGapPct": null,
+                "historicallyStrongerSide": null,
+                "signals": [],
+                "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                "officialRanking": "UNKNOWN / NOT CONNECTED",
+                "sourceLimitations": [],
+                "majorTeamAsymmetryProxyUsed": false
+            },
+            "skillGap": "UNKNOWN",
+            "swingScore": 25.3,
+            "strategyLabel": "INSUFFICIENT DATA",
+            "analysisEngineVersion": 4,
+            "tradeProfile": {
+                "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 17,
+                "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                "swingScore": 25.3,
+                "strategyLabel": "INSUFFICIENT DATA",
+                "competitiveBalance": {
+                    "label": "UNKNOWN",
+                    "balanceScore": null,
+                    "teamAElo": null,
+                    "teamBElo": null,
+                    "eloMatchesA": 0,
+                    "eloMatchesB": 0,
+                    "eloGap": null,
+                    "recentWinRateA": null,
+                    "recentWinRateB": null,
+                    "recentFormGapPct": null,
+                    "headToHead": {
+                        "matches": 0,
+                        "teamAWins": 0,
+                        "teamBWins": 0,
+                        "recent": []
+                    },
+                    "headToHeadGapPct": null,
+                    "historicallyStrongerSide": null,
+                    "signals": [],
+                    "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                    "officialRanking": "UNKNOWN / NOT CONNECTED",
+                    "sourceLimitations": [],
+                    "majorTeamAsymmetryProxyUsed": false
+                },
+                "swingCatalysts": [],
+                "swingPenalties": [
+                    "High dew may create strong chase-side bias",
+                    "Liquidity/market depth is not verified"
+                ],
+                "scoreComponents": [
+                    {
+                        "name": "weather",
+                        "score": 60.0,
+                        "weight": 0.1
+                    },
+                    {
+                        "name": "market_proxy",
+                        "score": 35.0,
+                        "weight": 0.2
+                    }
+                ],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "squadSummary": {
+                "status": "NO SQUAD DATA",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "initialAnalysis": {
+                "phase": "INITIAL PRE-TOSS READ",
+                "preTossStatus": "PRE-TOSS DATA LIMITED",
+                "dataConfidencePct": 14,
+                "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
+                "edgeTeam": null,
+                "edgeStrength": "DATA LIMITED",
+                "edgeScore": null,
+                "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                "conditions": [
+                    "Weather: rain 1%, dew HIGH"
+                ],
+                "evidence": [],
+                "pendingGates": [
+                    "Toss result and batting/fielding decision",
+                    "Confirmed Playing XI",
+                    "Actual exchange BACK/LAY prices and matched liquidity",
+                    "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                ],
+                "tossCheckpoints": [
+                    "Compare the toss decision with the venue chasing/defending bias.",
+                    "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                    "Only calculate equal-profit targets from the actual matched exchange entry price."
+                ],
+                "firstInningsBaseline": null,
+                "powerplayBaseline": null,
+                "powerplayWicketsBaseline": null,
+                "chasingWinPct": null,
+                "middleOversWicketsPerMatch": null,
+                "over16AvgRuns": null,
+                "over16WicketEventPct": null,
+                "spinWicketSharePct": null,
+                "squadStatus": "NO SQUAD DATA",
+                "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            },
+            "pendingGates": [
+                "Toss result and batting/fielding decision",
+                "Confirmed Playing XI",
+                "Actual exchange BACK/LAY prices and matched liquidity",
+                "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+            ],
+            "formA": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "winRatePct": null,
+                "avgMarginImpact": null,
+                "recent": []
+            },
+            "formB": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "winRatePct": null,
+                "avgMarginImpact": null,
+                "recent": []
+            },
+            "weather": {
+                "status": "OK",
+                "local_time": "2026-11-18T07:00:00-06:00",
+                "temperature_c": 5.7,
+                "humidity_pct": 100,
+                "dew_point_c": 5.7,
+                "rain_probability_pct": 1,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 20.5,
+                "dew_risk": "HIGH",
+                "rain_risk": "LOW"
+            },
+            "weatherText": "5.7°C | RH 100% | Rain 1% | Wind 20.5 km/h",
+            "dewRisk": "HIGH",
+            "tossBias": "UNKNOWN",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "UNKNOWN",
+            "ppWicketsAvg": null,
+            "ppRunRate": "Historical first-innings PP",
+            "over16AvgRuns": null,
+            "over16WicketsPerInnings": null,
+            "over16WicketEventPct": null,
+            "over16SampleInnings": null,
+            "spinIndex": "UNKNOWN",
+            "spinNote": "UNKNOWN",
+            "metricSources": {
+                "fixture": "Cricbuzz via text relay",
+                "weather": "Open-Meteo match-hour forecast",
+                "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
+                "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
+                "over16": "Cricsheet 16th-over history insufficient/UNKNOWN",
+                "spinChoke": "Cricsheet overs 7-14; bowler-style classification UNKNOWN"
+            },
+            "venueIntel": {
+                "status": "NO DATA / UNKNOWN VENUE",
+                "matches": 0,
+                "venue_confidence": 0.519
+            },
+            "midOversWickets": null,
+            "midOversWicketsPerMatch": null,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": null,
+            "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+            "noBetReasons": [
+                "NO DATA / UNKNOWN VENUE",
+                "HIGH DEW RISK",
+                "LIMITED RECENT T20 DATA FOR Falkland Islands",
+                "LIMITED RECENT T20 DATA FOR Costa Rica,7th T20I Platinum Oval , Stanley"
+            ],
+            "warnings": [
+                "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",
+                "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
+            ],
+            "badgeClass": "badge-yellow",
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+        }
+    },
+    "costa rica 8th t20i platinum oval stanley|falkland islands|2026-11-18": {
+        "capturedAt": "2026-11-18T07:54:26.260141+00:00",
+        "matchDate": "2026-11-18",
+        "report": {
+            "teamA": "Falkland Islands",
+            "teamB": "Costa Rica,8th T20I Platinum Oval , Stanley",
+            "name": "Falkland Islands vs Costa Rica,8th T20I Platinum Oval , Stanley",
+            "matchType": "T20",
+            "venue": "8th T20I Platinum Oval , Stanley",
+            "dateTimeGMT": "2026-11-18T17:00:00+00:00",
+            "sourceDate": "2026-11-18",
+            "matchTimeIST": "2026-11-18T22:30:00+05:30",
+            "indiaDate": "2026-11-18",
+            "series": "Costa Rica tour of Falkland Islands, 2026",
+            "sourceName": "Cricbuzz via text relay",
+            "supplementalSourceName": null,
+            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/178213/falk-vs-cri-8th-t20i-costa-rica-tour-of-falkland-islands-2026",
+            "cricketDataMatchId": null,
+            "liveScoreText": null,
+            "sourceStatus": "Scheduled",
+            "marketTier": "LOW/UNKNOWN MARKET TIER",
+            "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
+            "liquidityProxyOnly": true,
+            "premiumMarketProxy": false,
+            "competitiveBalance": {
+                "label": "UNKNOWN",
+                "balanceScore": null,
+                "teamAElo": null,
+                "teamBElo": null,
+                "eloMatchesA": 0,
+                "eloMatchesB": 0,
+                "eloGap": null,
+                "recentWinRateA": null,
+                "recentWinRateB": null,
+                "recentFormGapPct": null,
+                "headToHead": {
+                    "matches": 0,
+                    "teamAWins": 0,
+                    "teamBWins": 0,
+                    "recent": []
+                },
+                "headToHeadGapPct": null,
+                "historicallyStrongerSide": null,
+                "signals": [],
+                "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                "officialRanking": "UNKNOWN / NOT CONNECTED",
+                "sourceLimitations": [],
+                "majorTeamAsymmetryProxyUsed": false
+            },
+            "skillGap": "UNKNOWN",
+            "swingScore": 25.3,
+            "strategyLabel": "INSUFFICIENT DATA",
+            "analysisEngineVersion": 4,
+            "tradeProfile": {
+                "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
+                "dataCompletenessPct": 17,
+                "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
+                "swingScore": 25.3,
+                "strategyLabel": "INSUFFICIENT DATA",
+                "competitiveBalance": {
+                    "label": "UNKNOWN",
+                    "balanceScore": null,
+                    "teamAElo": null,
+                    "teamBElo": null,
+                    "eloMatchesA": 0,
+                    "eloMatchesB": 0,
+                    "eloGap": null,
+                    "recentWinRateA": null,
+                    "recentWinRateB": null,
+                    "recentFormGapPct": null,
+                    "headToHead": {
+                        "matches": 0,
+                        "teamAWins": 0,
+                        "teamBWins": 0,
+                        "recent": []
+                    },
+                    "headToHeadGapPct": null,
+                    "historicallyStrongerSide": null,
+                    "signals": [],
+                    "ratingSource": "Cricsheet-derived T20 Elo; not ICC ranking",
+                    "officialRanking": "UNKNOWN / NOT CONNECTED",
+                    "sourceLimitations": [],
+                    "majorTeamAsymmetryProxyUsed": false
+                },
+                "swingCatalysts": [],
+                "swingPenalties": [
+                    "High dew may create strong chase-side bias",
+                    "Liquidity/market depth is not verified"
+                ],
+                "scoreComponents": [
+                    {
+                        "name": "weather",
+                        "score": 60.0,
+                        "weight": 0.1
+                    },
+                    {
+                        "name": "market_proxy",
+                        "score": 35.0,
+                        "weight": 0.2
+                    }
+                ],
+                "equalProfitTargetRequiresEntryOdds": true,
+                "equalProfitTargetBasis": "Use actual risk capital: BACK stake, or LAY liability."
+            },
+            "preMatchSnapshot": null,
+            "standardT20": true,
+            "playingXI": {
+                "status": "NOT CONFIRMED",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "squadSummary": {
+                "status": "NO SQUAD DATA",
+                "teams": {},
+                "source": "Not queried"
+            },
+            "initialAnalysis": {
+                "phase": "INITIAL PRE-TOSS READ",
+                "preTossStatus": "PRE-TOSS DATA LIMITED",
+                "dataConfidencePct": 14,
+                "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
+                "edgeTeam": null,
+                "edgeStrength": "DATA LIMITED",
+                "edgeScore": null,
+                "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+                "conditions": [
+                    "Weather: rain 2%, dew HIGH"
+                ],
+                "evidence": [],
+                "pendingGates": [
+                    "Toss result and batting/fielding decision",
+                    "Confirmed Playing XI",
+                    "Actual exchange BACK/LAY prices and matched liquidity",
+                    "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+                ],
+                "tossCheckpoints": [
+                    "Compare the toss decision with the venue chasing/defending bias.",
+                    "Check whether final XI changes strengthen or weaken spin/pace resources.",
+                    "Only calculate equal-profit targets from the actual matched exchange entry price."
+                ],
+                "firstInningsBaseline": null,
+                "powerplayBaseline": null,
+                "powerplayWicketsBaseline": null,
+                "chasingWinPct": null,
+                "middleOversWicketsPerMatch": null,
+                "over16AvgRuns": null,
+                "over16WicketEventPct": null,
+                "spinWicketSharePct": null,
+                "squadStatus": "NO SQUAD DATA",
+                "summary": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            },
+            "pendingGates": [
+                "Toss result and batting/fielding decision",
+                "Confirmed Playing XI",
+                "Actual exchange BACK/LAY prices and matched liquidity",
+                "Market depth is unverified; LOW/UNKNOWN tier is only a competition proxy"
+            ],
+            "formA": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "winRatePct": null,
+                "avgMarginImpact": null,
+                "recent": []
+            },
+            "formB": {
+                "matches": 0,
+                "wins": 0,
+                "losses": 0,
+                "winRatePct": null,
+                "avgMarginImpact": null,
+                "recent": []
+            },
+            "weather": {
+                "status": "OK",
+                "local_time": "2026-11-18T11:00:00-06:00",
+                "temperature_c": 5.2,
+                "humidity_pct": 100,
+                "dew_point_c": 5.2,
+                "rain_probability_pct": 2,
+                "precipitation_mm": 0.0,
+                "wind_kmh": 15.3,
+                "dew_risk": "HIGH",
+                "rain_risk": "LOW"
+            },
+            "weatherText": "5.2°C | RH 100% | Rain 2% | Wind 15.3 km/h",
+            "dewRisk": "HIGH",
+            "tossBias": "UNKNOWN",
+            "tossTrend": "Historical venue trend",
+            "ppScoreAvg": "UNKNOWN",
+            "ppWicketsAvg": null,
+            "ppRunRate": "Historical first-innings PP",
+            "over16AvgRuns": null,
+            "over16WicketsPerInnings": null,
+            "over16WicketEventPct": null,
+            "over16SampleInnings": null,
+            "spinIndex": "UNKNOWN",
+            "spinNote": "UNKNOWN",
+            "metricSources": {
+                "fixture": "Cricbuzz via text relay",
+                "weather": "Open-Meteo match-hour forecast",
+                "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
+                "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
+                "over16": "Cricsheet 16th-over history insufficient/UNKNOWN",
+                "spinChoke": "Cricsheet overs 7-14; bowler-style classification UNKNOWN"
+            },
+            "venueIntel": {
+                "status": "NO DATA / UNKNOWN VENUE",
+                "matches": 0,
+                "venue_confidence": 0.519
+            },
+            "midOversWickets": null,
+            "midOversWicketsPerMatch": null,
+            "spinnerWickets7to14": null,
+            "spinClassificationPct": null,
+            "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
+            "noBetReasons": [
+                "NO DATA / UNKNOWN VENUE",
+                "HIGH DEW RISK",
+                "LIMITED RECENT T20 DATA FOR Falkland Islands",
+                "LIMITED RECENT T20 DATA FOR Costa Rica,8th T20I Platinum Oval , Stanley"
             ],
             "warnings": [
                 "CRICKETDATA FIXTURE ROW UNAVAILABLE — FALLBACK SOURCE USED",

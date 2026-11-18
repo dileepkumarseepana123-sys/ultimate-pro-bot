@@ -10183,5 +10183,73 @@
       ],
       "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
     }
+  },
+  "d77b6351-4ea1-4f6b-8c2b-19602623160a": {
+    "cachedAt": "2026-11-18T07:49:43.726799+00:00",
+    "data": {
+      "id": "d77b6351-4ea1-4f6b-8c2b-19602623160a",
+      "name": "Odisha vs Mumbai, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 11:00 GMT",
+      "venue": "Eden Gardens, Kolkata",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T11:00:00",
+      "teams": [
+        "Odisha",
+        "Mumbai"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "89e2d674-07cf-4471-b41e-0376afe9ff1f": {
+    "cachedAt": "2026-11-18T07:49:43.919067+00:00",
+    "data": {
+      "id": "89e2d674-07cf-4471-b41e-0376afe9ff1f",
+      "name": "Andhra vs Puducherry, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 11:00 GMT",
+      "venue": "PCA International Cricket Stadium, Ground A, New Chandigarh",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T11:00:00",
+      "teams": [
+        "Andhra",
+        "Puducherry"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "9736d8fa-050e-4657-b0a3-3529bc2bb9ec": {
+    "cachedAt": "2026-11-18T07:49:44.110334+00:00",
+    "data": {
+      "id": "9736d8fa-050e-4657-b0a3-3529bc2bb9ec",
+      "name": "Gulf Giants vs Mi Emirates, 5th Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 14:30 GMT",
+      "venue": "Dubai International Cricket Stadium, Dubai",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T14:30:00",
+      "teams": [
+        "Gulf Giants",
+        "Mi Emirates"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
+  },
+  "411e1c08-86e0-46d0-a6f6-d086058fd973": {
+    "cachedAt": "2026-11-18T07:49:44.302904+00:00",
+    "data": {
+      "id": "411e1c08-86e0-46d0-a6f6-d086058fd973",
+      "name": "Melbourne Renegades Women vs Brisbane Heat Women, 33rd Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 25, 04:40 GMT",
+      "venue": "Junction Oval, Melbourne",
+      "date": "2026-11-25",
+      "dateTimeGMT": "2026-11-25T04:40:00",
+      "teams": [
+        "Melbourne Renegades Women",
+        "Brisbane Heat Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }
