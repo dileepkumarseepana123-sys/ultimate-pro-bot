@@ -10387,5 +10387,141 @@
       ],
       "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
     }
+  },
+  "3242490f-67c3-4cbd-9364-b39094c54b56": {
+    "cachedAt": "2026-11-19T07:46:47.785690+00:00",
+    "data": {
+      "id": "3242490f-67c3-4cbd-9364-b39094c54b56",
+      "name": "Zimbabwe Women vs Bangladesh Women, 8th Match, Group B, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Bangladesh Women won by 9 wkts",
+      "venue": "Seven Districts Ground, Ajman",
+      "date": "2026-11-13",
+      "dateTimeGMT": "2026-11-13T00:00:00",
+      "teams": [
+        "Zimbabwe Women",
+        "Bangladesh Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "de0dd1d4-07dd-49fa-9d01-9600c35606e9": {
+    "cachedAt": "2026-11-19T07:46:47.919165+00:00",
+    "data": {
+      "id": "de0dd1d4-07dd-49fa-9d01-9600c35606e9",
+      "name": "United Arab Emirates Women vs Ireland Women, 6th Match, Group A, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Ireland Women won by 61 runs",
+      "venue": "Seven Districts Ground, Ajman",
+      "date": "2026-11-13",
+      "dateTimeGMT": "2026-11-13T00:00:00",
+      "teams": [
+        "United Arab Emirates Women",
+        "Ireland Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "66657469-fb54-4434-9790-6dbc0c792f88": {
+    "cachedAt": "2026-11-19T07:46:48.052519+00:00",
+    "data": {
+      "id": "66657469-fb54-4434-9790-6dbc0c792f88",
+      "name": "Thailand Women vs Pakistan Women, 7th Match, Group B, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Pakistan Women won by 24 runs",
+      "venue": "Karwan Cricket Ground, Ajman",
+      "date": "2026-11-13",
+      "dateTimeGMT": "2026-11-13T00:00:00",
+      "teams": [
+        "Thailand Women",
+        "Pakistan Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "65020a6f-3d79-4812-a16d-d54f28ed40a7": {
+    "cachedAt": "2026-11-19T07:46:48.190470+00:00",
+    "data": {
+      "id": "65020a6f-3d79-4812-a16d-d54f28ed40a7",
+      "name": "Uganda Women vs Rwanda Women, Final, Womens Victoria T20I Series, 2026",
+      "matchType": "t20",
+      "status": "Uganda Women won by 19 runs",
+      "venue": "Entebbe Cricket Oval, Entebbe",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T00:00:00",
+      "teams": [
+        "Uganda Women",
+        "Rwanda Women"
+      ],
+      "series_id": "6e1cdeda-f551-467c-a8d6-c66f14bf170b"
+    }
+  },
+  "82bb57d2-11e1-42f6-b2b4-2f3c6dba165e": {
+    "cachedAt": "2026-11-19T07:46:48.326302+00:00",
+    "data": {
+      "id": "82bb57d2-11e1-42f6-b2b4-2f3c6dba165e",
+      "name": "Namibia Women vs United States of America Women, 3rd Place Play-off, Womens Victoria T20I Series, 2026",
+      "matchType": "t20",
+      "status": "United States of America Women won by 28 runs",
+      "venue": "Entebbe Cricket Oval, Entebbe",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T00:00:00",
+      "teams": [
+        "Namibia Women",
+        "United States of America Women"
+      ],
+      "series_id": "6e1cdeda-f551-467c-a8d6-c66f14bf170b"
+    }
+  },
+  "2ef27870-674a-447e-9239-9f52184a395f": {
+    "cachedAt": "2026-11-19T07:46:48.459678+00:00",
+    "data": {
+      "id": "2ef27870-674a-447e-9239-9f52184a395f",
+      "name": "Biratnagar Kings vs Lumbini Lions, 26th Match, Nepal Premier League 2026",
+      "matchType": "t20",
+      "status": "Lumbini Lions won by 4 wkts",
+      "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+      "date": "2026-11-14",
+      "dateTimeGMT": "2026-11-14T00:00:00",
+      "teams": [
+        "Biratnagar Kings",
+        "Lumbini Lions"
+      ],
+      "series_id": "a8815363-b07e-48df-b185-42e43d1745cd"
+    }
+  },
+  "82585c58-d4b2-4d3e-b343-13f17cebcd4d": {
+    "cachedAt": "2026-11-19T07:46:48.593341+00:00",
+    "data": {
+      "id": "82585c58-d4b2-4d3e-b343-13f17cebcd4d",
+      "name": "Kathmandu Gorkhas vs Pokhara Avengers, 28th Match, Nepal Premier League 2026",
+      "matchType": "t20",
+      "status": "Pokhara Avengers won by 55 runs",
+      "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+      "date": "2026-11-15",
+      "dateTimeGMT": "2026-11-15T00:00:00",
+      "teams": [
+        "Kathmandu Gorkhas",
+        "Pokhara Avengers"
+      ],
+      "series_id": "a8815363-b07e-48df-b185-42e43d1745cd"
+    }
+  },
+  "81ec0634-4749-430e-b481-c7a57c88c00a": {
+    "cachedAt": "2026-11-19T07:46:48.726654+00:00",
+    "data": {
+      "id": "81ec0634-4749-430e-b481-c7a57c88c00a",
+      "name": "Chitwan Rhinos vs Karnali Yaks, 27th Match, Nepal Premier League 2026",
+      "matchType": "t20",
+      "status": "Karnali Yaks won by 24 runs",
+      "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+      "date": "2026-11-15",
+      "dateTimeGMT": "2026-11-15T00:00:00",
+      "teams": [
+        "Chitwan Rhinos",
+        "Karnali Yaks"
+      ],
+      "series_id": "a8815363-b07e-48df-b185-42e43d1745cd"
+    }
   }
 }

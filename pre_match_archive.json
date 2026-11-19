@@ -172325,7 +172325,7 @@
         }
     },
     "brisbane heat women|sydney thunder women|2026-11-19": {
-        "capturedAt": "2026-11-18T18:59:04.470404+00:00",
+        "capturedAt": "2026-11-19T07:47:50.243049+00:00",
         "matchDate": "2026-11-19",
         "report": {
             "teamA": "Brisbane Heat Women",
@@ -172439,14 +172439,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "BALANCED",
-            "swingScore": 78.4,
+            "swingScore": 76.5,
             "strategyLabel": "HIGH SWING POTENTIAL — PRICE CHECK REQUIRED",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 83,
                 "swingProfile": "TWO-WAY SWING PROFILE",
-                "swingScore": 78.4,
+                "swingScore": 76.5,
                 "strategyLabel": "HIGH SWING POTENTIAL — PRICE CHECK REQUIRED",
                 "competitiveBalance": {
                     "label": "BALANCED",
@@ -172539,8 +172539,7 @@
                     "majorTeamAsymmetryProxyUsed": false
                 },
                 "swingCatalysts": [
-                    "Middle-overs wicket volatility: 4.26 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.26 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [],
                 "scoreComponents": [
@@ -172561,7 +172560,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 90.0,
+                        "score": 70.0,
                         "weight": 0.1
                     },
                     {
@@ -172578,17 +172577,44 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "CricketData match_squad"
             },
             "squadSummary": {
-                "status": "NO SQUAD DATA",
-                "teams": {},
-                "source": "Not queried"
+                "status": "SQUAD AVAILABLE — XI PENDING",
+                "teams": {
+                    "Brisbane Heat Women": {
+                        "players": 13,
+                        "knownBowlingStyles": 9,
+                        "spinOptions": 0,
+                        "paceOptions": 5,
+                        "roleCounts": {
+                            "batters": 3,
+                            "allRounders": 8,
+                            "bowlers": 2,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    },
+                    "Sydney Thunder Women": {
+                        "players": 13,
+                        "knownBowlingStyles": 8,
+                        "spinOptions": 1,
+                        "paceOptions": 4,
+                        "roleCounts": {
+                            "batters": 5,
+                            "allRounders": 1,
+                            "bowlers": 5,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    }
+                },
+                "source": "CricketData match_squad"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS CONDITIONAL",
-                "dataConfidencePct": 71,
+                "dataConfidencePct": 86,
                 "initialPrediction": "Sydney Thunder Women has a moderate edge on the available pre-toss historical evidence.",
                 "edgeTeam": "Sydney Thunder Women",
                 "edgeStrength": "MODERATE EDGE",
@@ -172600,7 +172626,7 @@
                     "Chase-lean venue: 59.0% chasing wins",
                     "Overs 7-14 wicket pressure: 4.26 wickets/match",
                     "16th-over baseline: 8.7 runs; wicket in 26.4% of sampled innings",
-                    "Weather: rain 1%, dew MEDIUM"
+                    "Weather: rain 4%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Brisbane Heat Women 1473.0 vs Sydney Thunder Women 1484.9",
@@ -172625,7 +172651,7 @@
                 "over16AvgRuns": 8.68,
                 "over16WicketEventPct": 26.39,
                 "spinWicketSharePct": null,
-                "squadStatus": "NO SQUAD DATA",
+                "squadStatus": "SQUAD AVAILABLE — XI PENDING",
                 "summary": "Sydney Thunder Women has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
             },
             "pendingGates": [
@@ -172834,17 +172860,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-19T18:10:00+10:00",
-                "temperature_c": 21.2,
-                "humidity_pct": 71,
-                "dew_point_c": 15.8,
-                "rain_probability_pct": 1,
+                "temperature_c": 21.7,
+                "humidity_pct": 68,
+                "dew_point_c": 15.6,
+                "rain_probability_pct": 4,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 6.1,
-                "dew_risk": "MEDIUM",
+                "wind_kmh": 5.9,
+                "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "21.2°C | RH 71% | Rain 1% | Wind 6.1 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "21.7°C | RH 68% | Rain 4% | Wind 5.9 km/h",
+            "dewRisk": "LOW",
             "tossBias": "58.97% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "40.90",
@@ -172891,7 +172917,6 @@
             "noBetReasons": [],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
@@ -172899,7 +172924,7 @@
         }
     },
     "chitwan rhinos|sudur paschim royals|2026-11-19": {
-        "capturedAt": "2026-11-18T18:59:04.470415+00:00",
+        "capturedAt": "2026-11-19T07:47:50.243098+00:00",
         "matchDate": "2026-11-19",
         "report": {
             "teamA": "Sudur Paschim Royals",
@@ -173056,12 +173081,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -173313,16 +173338,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-19T16:30:00+05:45",
-                "temperature_c": 16.9,
-                "humidity_pct": 63,
-                "dew_point_c": 9.8,
+                "temperature_c": 16.5,
+                "humidity_pct": 68,
+                "dew_point_c": 10.5,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 1.5,
+                "wind_kmh": 2.5,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "16.9°C | RH 63% | Rain 0% | Wind 1.5 km/h",
+            "weatherText": "16.5°C | RH 68% | Rain 0% | Wind 2.5 km/h",
             "dewRisk": "LOW",
             "tossBias": "48.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -173378,7 +173403,7 @@
         }
     },
     "arabian aces|uae bulls|2026-11-19": {
-        "capturedAt": "2026-11-18T18:59:04.470424+00:00",
+        "capturedAt": "2026-11-19T07:47:50.243123+00:00",
         "matchDate": "2026-11-19",
         "report": {
             "teamA": "Uae Bulls",
@@ -173497,12 +173522,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -173569,16 +173594,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-19T15:30:00+04:00",
-                "temperature_c": 28.3,
+                "temperature_c": 28.4,
                 "humidity_pct": 42,
                 "dew_point_c": 14.2,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 13.6,
+                "wind_kmh": 16.3,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "28.3°C | RH 42% | Rain 0% | Wind 13.6 km/h",
+            "weatherText": "28.4°C | RH 42% | Rain 0% | Wind 16.3 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.1% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -173636,7 +173661,7 @@
         }
     },
     "royal desert champions|yas lions|2026-11-19": {
-        "capturedAt": "2026-11-18T18:59:04.470433+00:00",
+        "capturedAt": "2026-11-19T07:47:50.243141+00:00",
         "matchDate": "2026-11-19",
         "report": {
             "teamA": "Yas Lions",
@@ -173755,12 +173780,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -173828,15 +173853,15 @@
                 "status": "OK",
                 "local_time": "2026-11-19T17:45:00+04:00",
                 "temperature_c": 27.3,
-                "humidity_pct": 47,
-                "dew_point_c": 15.0,
+                "humidity_pct": 50,
+                "dew_point_c": 15.8,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
                 "wind_kmh": 14.2,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.3°C | RH 47% | Rain 0% | Wind 14.2 km/h",
+            "weatherText": "27.3°C | RH 50% | Rain 0% | Wind 14.2 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.1% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -173894,7 +173919,7 @@
         }
     },
     "emirates eagles|united tigers|2026-11-19": {
-        "capturedAt": "2026-11-18T18:59:04.470443+00:00",
+        "capturedAt": "2026-11-19T07:47:50.243156+00:00",
         "matchDate": "2026-11-19",
         "report": {
             "teamA": "Emirates Eagles",
@@ -174013,12 +174038,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -174085,16 +174110,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-19T20:00:00+04:00",
-                "temperature_c": 26.2,
-                "humidity_pct": 53,
-                "dew_point_c": 15.8,
+                "temperature_c": 26.5,
+                "humidity_pct": 51,
+                "dew_point_c": 15.5,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 10.6,
+                "wind_kmh": 9.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.2°C | RH 53% | Rain 0% | Wind 10.6 km/h",
+            "weatherText": "26.5°C | RH 51% | Rain 0% | Wind 9.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.1% Chasing Wins",
             "tossTrend": "Historical venue trend",
