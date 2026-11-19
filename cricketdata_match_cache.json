@@ -10523,5 +10523,141 @@
       ],
       "series_id": "a8815363-b07e-48df-b185-42e43d1745cd"
     }
+  },
+  "83bd6cc0-7309-4468-9b86-dd04398bdfd1": {
+    "cachedAt": "2026-11-19T19:06:44.132147+00:00",
+    "data": {
+      "id": "83bd6cc0-7309-4468-9b86-dd04398bdfd1",
+      "name": "Thailand Women vs Zimbabwe Women, 9th Match, Group B, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Zimbabwe Women won by 28 runs",
+      "venue": "Karwan Cricket Ground, Ajman",
+      "date": "2026-11-15",
+      "dateTimeGMT": "2026-11-15T00:00:00",
+      "teams": [
+        "Thailand Women",
+        "Zimbabwe Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "f573b4db-aeb0-4d1e-a3ce-7ec1eac74c7b": {
+    "cachedAt": "2026-11-19T19:06:44.317247+00:00",
+    "data": {
+      "id": "f573b4db-aeb0-4d1e-a3ce-7ec1eac74c7b",
+      "name": "Scotland Women vs United Arab Emirates Women, 11th Match, Group A, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Scotland Women won by 7 wkts",
+      "venue": "Karwan Cricket Ground, Ajman",
+      "date": "2026-11-15",
+      "dateTimeGMT": "2026-11-15T00:00:00",
+      "teams": [
+        "Scotland Women",
+        "United Arab Emirates Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "197abfaf-5650-40b0-b135-4f24aec79512": {
+    "cachedAt": "2026-11-19T19:06:44.505142+00:00",
+    "data": {
+      "id": "197abfaf-5650-40b0-b135-4f24aec79512",
+      "name": "Sri Lanka Women vs Papua New Guinea Women, 12th Match, Group A, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Sri Lanka Women won by 67 runs",
+      "venue": "Seven Districts Ground, Ajman",
+      "date": "2026-11-15",
+      "dateTimeGMT": "2026-11-15T00:00:00",
+      "teams": [
+        "Sri Lanka Women",
+        "Papua New Guinea Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "1538bd2a-e355-4bef-864e-0e9409517e8b": {
+    "cachedAt": "2026-11-19T19:06:44.700085+00:00",
+    "data": {
+      "id": "1538bd2a-e355-4bef-864e-0e9409517e8b",
+      "name": "Pakistan Women vs Netherlands Women, 10th Match, Group B, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Netherlands Women won by 8 wkts",
+      "venue": "Seven Districts Ground, Ajman",
+      "date": "2026-11-15",
+      "dateTimeGMT": "2026-11-15T00:00:00",
+      "teams": [
+        "Pakistan Women",
+        "Netherlands Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "1a886bb2-f94c-4998-a967-cca6373098dd": {
+    "cachedAt": "2026-11-19T19:06:44.888027+00:00",
+    "data": {
+      "id": "1a886bb2-f94c-4998-a967-cca6373098dd",
+      "name": "Ireland Women vs Papua New Guinea Women, 15th Match, Group A, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Ireland Women won by 45 runs",
+      "venue": "Karwan Cricket Ground, Ajman",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T00:00:00",
+      "teams": [
+        "Ireland Women",
+        "Papua New Guinea Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "48fa1d18-1f27-468e-85e4-c489f4fb3103": {
+    "cachedAt": "2026-11-19T19:06:45.076001+00:00",
+    "data": {
+      "id": "48fa1d18-1f27-468e-85e4-c489f4fb3103",
+      "name": "United Arab Emirates Women vs Sri Lanka Women, 16th Match, Group A, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Sri Lanka Women won by 5 wkts",
+      "venue": "Seven Districts Ground, Ajman",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T00:00:00",
+      "teams": [
+        "United Arab Emirates Women",
+        "Sri Lanka Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "4d51b994-cf92-451b-b91f-3a3ad0c251b1": {
+    "cachedAt": "2026-11-19T19:06:45.263778+00:00",
+    "data": {
+      "id": "4d51b994-cf92-451b-b91f-3a3ad0c251b1",
+      "name": "Zimbabwe Women vs Pakistan Women, 14th Match, Group B, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Pakistan Women won by 51 runs",
+      "venue": "Seven Districts Ground, Ajman",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T00:00:00",
+      "teams": [
+        "Zimbabwe Women",
+        "Pakistan Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "a6ec5488-21eb-4859-a091-12a981cda443": {
+    "cachedAt": "2026-11-19T19:06:45.461041+00:00",
+    "data": {
+      "id": "a6ec5488-21eb-4859-a091-12a981cda443",
+      "name": "Bangladesh Women vs Netherlands Women, 13th Match, Group B, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Netherlands Women won by 5 wkts",
+      "venue": "Karwan Cricket Ground, Ajman",
+      "date": "2026-11-16",
+      "dateTimeGMT": "2026-11-16T00:00:00",
+      "teams": [
+        "Bangladesh Women",
+        "Netherlands Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
   }
 }
