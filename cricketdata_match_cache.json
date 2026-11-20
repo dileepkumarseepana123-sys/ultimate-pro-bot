@@ -10795,5 +10795,141 @@
       ],
       "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
     }
+  },
+  "38961c95-3cdb-4559-9a4b-f4b59e7aab03": {
+    "cachedAt": "2026-11-20T18:49:07.827205+00:00",
+    "data": {
+      "id": "38961c95-3cdb-4559-9a4b-f4b59e7aab03",
+      "name": "Lumbini Lions vs Sudur Paschim Royals, Final, Nepal Premier League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 21, 11:15 GMT",
+      "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+      "date": "2026-11-21",
+      "dateTimeGMT": "2026-11-21T10:45:00",
+      "teams": [
+        "Lumbini Lions",
+        "Sudur Paschim Royals"
+      ],
+      "series_id": "a8815363-b07e-48df-b185-42e43d1745cd"
+    }
+  },
+  "ca1e79e1-cff2-420e-9ce4-858ae45c402b": {
+    "cachedAt": "2026-11-20T18:49:08.017834+00:00",
+    "data": {
+      "id": "ca1e79e1-cff2-420e-9ce4-858ae45c402b",
+      "name": "Bangladesh Women vs Thailand Women, 20th Match, Group B, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Bangladesh Women won by 3 runs",
+      "venue": "Seven Districts Ground, Ajman",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T09:15:00",
+      "teams": [
+        "Bangladesh Women",
+        "Thailand Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "b2c12e64-3f13-41fb-a65d-5e8a3b5c655b": {
+    "cachedAt": "2026-11-20T18:49:08.207685+00:00",
+    "data": {
+      "id": "b2c12e64-3f13-41fb-a65d-5e8a3b5c655b",
+      "name": "Netherlands Women vs Zimbabwe Women, 19th Match, Group B, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Zimbabwe Women won by 33 runs",
+      "venue": "Karwan Cricket Ground, Ajman",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T09:15:00",
+      "teams": [
+        "Netherlands Women",
+        "Zimbabwe Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "2b71cf65-0739-4709-acc5-4c3f93c535e9": {
+    "cachedAt": "2026-11-20T18:49:08.395494+00:00",
+    "data": {
+      "id": "2b71cf65-0739-4709-acc5-4c3f93c535e9",
+      "name": "Kathmandu Gorkhas vs Chitwan Rhinos, Eliminator, Nepal Premier League 2026",
+      "matchType": "t20",
+      "status": "Chitwan Rhinos won by 61 runs",
+      "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T11:15:00",
+      "teams": [
+        "Kathmandu Gorkhas",
+        "Chitwan Rhinos"
+      ],
+      "series_id": "a8815363-b07e-48df-b185-42e43d1745cd"
+    }
+  },
+  "a1899243-cdaf-4ad5-98db-72477456b3fb": {
+    "cachedAt": "2026-11-20T18:49:08.601014+00:00",
+    "data": {
+      "id": "a1899243-cdaf-4ad5-98db-72477456b3fb",
+      "name": "Dubai Capitals vs Desert Vipers, 6th Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 25, 14:30 GMT",
+      "venue": "Dubai International Cricket Stadium, Dubai",
+      "date": "2026-11-25",
+      "dateTimeGMT": "2026-11-25T14:30:00",
+      "teams": [
+        "Dubai Capitals",
+        "Desert Vipers"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
+  },
+  "17bee8c5-65e0-4a7b-be92-b5cf1dfb6d6a": {
+    "cachedAt": "2026-11-20T18:49:08.803903+00:00",
+    "data": {
+      "id": "17bee8c5-65e0-4a7b-be92-b5cf1dfb6d6a",
+      "name": "Madhya Pradesh vs Puducherry, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 03:30 GMT",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T03:30:00",
+      "teams": [
+        "Madhya Pradesh",
+        "Puducherry"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "a8d964bd-f013-4d19-b1ba-474196d8db94": {
+    "cachedAt": "2026-11-20T18:49:09.010705+00:00",
+    "data": {
+      "id": "a8d964bd-f013-4d19-b1ba-474196d8db94",
+      "name": "Karnataka vs Baroda, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 03:30 GMT",
+      "venue": "Sharad Pawar Cricket Academy BKC, Mumbai",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T03:30:00",
+      "teams": [
+        "Karnataka",
+        "Baroda"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "427ca93d-25d2-4bf7-b74f-4672bbbfcd0e": {
+    "cachedAt": "2026-11-20T18:49:09.202014+00:00",
+    "data": {
+      "id": "427ca93d-25d2-4bf7-b74f-4672bbbfcd0e",
+      "name": "Jammu And Kashmir vs Haryana, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 03:30 GMT",
+      "venue": "Daly College Ground, Indore",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T03:30:00",
+      "teams": [
+        "Jammu And Kashmir",
+        "Haryana"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
   }
 }
