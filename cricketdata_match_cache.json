@@ -10659,5 +10659,141 @@
       ],
       "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
     }
+  },
+  "4ae1d337-a9fb-4791-8e10-e3f8f802d218": {
+    "cachedAt": "2026-11-20T07:36:28.483321+00:00",
+    "data": {
+      "id": "4ae1d337-a9fb-4791-8e10-e3f8f802d218",
+      "name": "Sri Lanka Women vs Zimbabwe Women, 22nd Match, Super Six (A1 v B3), ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Innings Break",
+      "venue": "Seven Districts Ground, Ajman",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T05:00:00",
+      "teams": [
+        "Sri Lanka Women",
+        "Zimbabwe Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "b61c3067-ac06-4ade-aaaf-dc0b705174e0": {
+    "cachedAt": "2026-11-20T07:36:28.675430+00:00",
+    "data": {
+      "id": "b61c3067-ac06-4ade-aaaf-dc0b705174e0",
+      "name": "Scotland Women vs Netherlands Women, 21st Match, Super Six (A2 v B2), ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Innings Break",
+      "venue": "Karwan Cricket Ground, Ajman",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T05:00:00",
+      "teams": [
+        "Scotland Women",
+        "Netherlands Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "f71a23e0-f244-4e76-8e6c-0655d76704c7": {
+    "cachedAt": "2026-11-20T07:36:28.865949+00:00",
+    "data": {
+      "id": "f71a23e0-f244-4e76-8e6c-0655d76704c7",
+      "name": "Pakistan Women vs Ireland Women, 23rd Match, Super Six (B1 v A3), ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 20, 09:15 GMT",
+      "venue": "Karwan Cricket Ground, Ajman",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T09:15:00",
+      "teams": [
+        "Pakistan Women",
+        "Ireland Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "e00acde9-cf77-4fe7-a7fa-880872693963": {
+    "cachedAt": "2026-11-20T07:36:29.056116+00:00",
+    "data": {
+      "id": "e00acde9-cf77-4fe7-a7fa-880872693963",
+      "name": "Arabian Aces vs UAE Bulls, Qualifier (2v3), Abu Dhabi T10 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 20, 13:30 GMT",
+      "venue": "Zayed Cricket Stadium, Abu Dhabi",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T13:30:00",
+      "teams": [
+        "Arabian Aces",
+        "UAE Bulls"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "26ae3018-c96f-443d-8ec0-33aa9fccb54e": {
+    "cachedAt": "2026-11-20T07:36:29.246847+00:00",
+    "data": {
+      "id": "26ae3018-c96f-443d-8ec0-33aa9fccb54e",
+      "name": "Yas Lions vs Tbc, Final, Abu Dhabi T10 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 20, 15:45 GMT",
+      "venue": "Zayed Cricket Stadium, Abu Dhabi",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T15:45:00",
+      "teams": [
+        "Yas Lions",
+        "Tbc"
+      ],
+      "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c"
+    }
+  },
+  "3e16916c-f32d-4dda-ac36-bfeff833ce83": {
+    "cachedAt": "2026-11-20T07:36:29.441789+00:00",
+    "data": {
+      "id": "3e16916c-f32d-4dda-ac36-bfeff833ce83",
+      "name": "Lumbini Lions vs Sudur Paschim Royals, Qualifier 1, Nepal Premier League 2026",
+      "matchType": "t20",
+      "status": "Lumbini Lions won by 6 wkts",
+      "venue": "Tribhuvan University International Cricket Ground, Kirtipur",
+      "date": "2026-11-17",
+      "dateTimeGMT": "2026-11-17T00:00:00",
+      "teams": [
+        "Lumbini Lions",
+        "Sudur Paschim Royals"
+      ],
+      "series_id": "a8815363-b07e-48df-b185-42e43d1745cd"
+    }
+  },
+  "713cc62b-8d36-47d1-965d-6a1a652f10db": {
+    "cachedAt": "2026-11-20T07:36:29.632174+00:00",
+    "data": {
+      "id": "713cc62b-8d36-47d1-965d-6a1a652f10db",
+      "name": "Ireland Women vs Scotland Women, 18th Match, Group A, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Scotland Women won by 8 wkts",
+      "venue": "Seven Districts Ground, Ajman",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T00:00:00",
+      "teams": [
+        "Ireland Women",
+        "Scotland Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "ca788778-34dd-4693-8a7f-627ba08bdb3d": {
+    "cachedAt": "2026-11-20T07:36:29.821534+00:00",
+    "data": {
+      "id": "ca788778-34dd-4693-8a7f-627ba08bdb3d",
+      "name": "Papua New Guinea Women vs United Arab Emirates Women, 17th Match, Group A, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "United Arab Emirates Women won by 70 runs",
+      "venue": "Karwan Cricket Ground, Ajman",
+      "date": "2026-11-18",
+      "dateTimeGMT": "2026-11-18T00:00:00",
+      "teams": [
+        "Papua New Guinea Women",
+        "United Arab Emirates Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
   }
 }
