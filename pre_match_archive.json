@@ -186151,7 +186151,7 @@
         }
     },
     "australia|england|2026-11-21": {
-        "capturedAt": "2026-11-20T18:51:36.931836+00:00",
+        "capturedAt": "2026-11-21T07:34:09.121940+00:00",
         "matchDate": "2026-11-21",
         "report": {
             "teamA": "Australia",
@@ -186403,12 +186403,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -186659,16 +186659,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-21T19:15:00+11:00",
-                "temperature_c": 19.6,
+                "temperature_c": 19.3,
                 "humidity_pct": 81,
-                "dew_point_c": 16.3,
+                "dew_point_c": 15.9,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 9.9,
+                "wind_kmh": 10.8,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "19.6°C | RH 81% | Rain 0% | Wind 9.9 km/h",
+            "weatherText": "19.3°C | RH 81% | Rain 0% | Wind 10.8 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "60.91% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -186725,7 +186725,7 @@
         }
     },
     "lumbini lions|sudur paschim royals|2026-11-21": {
-        "capturedAt": "2026-11-20T18:51:36.931845+00:00",
+        "capturedAt": "2026-11-21T07:34:09.121983+00:00",
         "matchDate": "2026-11-21",
         "report": {
             "teamA": "Lumbini Lions",
@@ -186896,12 +186896,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -187154,16 +187154,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-21T16:30:00+05:45",
-                "temperature_c": 17.0,
+                "temperature_c": 16.8,
                 "humidity_pct": 67,
-                "dew_point_c": 10.9,
+                "dew_point_c": 10.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 1.2,
+                "wind_kmh": 1.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "17.0°C | RH 67% | Rain 0% | Wind 1.2 km/h",
+            "weatherText": "16.8°C | RH 67% | Rain 0% | Wind 1.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "48.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -187218,7 +187218,7 @@
         }
     },
     "desert vipers|mi emirates|2026-11-21": {
-        "capturedAt": "2026-11-20T18:51:36.931855+00:00",
+        "capturedAt": "2026-11-21T07:34:09.122010+00:00",
         "matchDate": "2026-11-21",
         "report": {
             "teamA": "Desert Vipers",
@@ -187473,12 +187473,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -187731,16 +187731,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-21T18:30:00+04:00",
-                "temperature_c": 27.3,
-                "humidity_pct": 62,
-                "dew_point_c": 19.3,
+                "temperature_c": 27.1,
+                "humidity_pct": 61,
+                "dew_point_c": 18.9,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
                 "wind_kmh": 13.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.3°C | RH 62% | Rain 0% | Wind 13.0 km/h",
+            "weatherText": "27.1°C | RH 61% | Rain 0% | Wind 13.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "54.58% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -187795,7 +187795,7 @@
         }
     },
     "abu dhabi knight riders|dubai capitals|2026-11-21": {
-        "capturedAt": "2026-11-20T18:51:36.931864+00:00",
+        "capturedAt": "2026-11-21T07:34:09.122038+00:00",
         "matchDate": "2026-11-21",
         "report": {
             "teamA": "Dubai Capitals",
@@ -188050,12 +188050,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -188308,16 +188308,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-21T18:30:00+04:00",
-                "temperature_c": 27.3,
-                "humidity_pct": 62,
-                "dew_point_c": 19.3,
+                "temperature_c": 27.1,
+                "humidity_pct": 61,
+                "dew_point_c": 18.9,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
                 "wind_kmh": 13.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.3°C | RH 62% | Rain 0% | Wind 13.0 km/h",
+            "weatherText": "27.1°C | RH 61% | Rain 0% | Wind 13.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "54.58% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -188373,7 +188373,7 @@
         }
     },
     "china women|indonesia women|2026-11-21": {
-        "capturedAt": "2026-11-20T18:51:36.931872+00:00",
+        "capturedAt": "2026-11-21T07:34:09.122079+00:00",
         "matchDate": "2026-11-21",
         "report": {
             "teamA": "China Women",
@@ -188391,7 +188391,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/178400/chnw-vs-idnw-2nd-match-malaysia-womens-t20i-tri-series-2026",
             "cricketDataMatchId": null,
             "liveScoreText": null,
-            "sourceStatus": "Scheduled",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -188839,11 +188839,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Indonesia Women has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Indonesia Women has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "australia|england 1st t20i melbourne cricket ground melbourne|2026-11-21": {
-        "capturedAt": "2026-11-20T18:51:36.931881+00:00",
+        "capturedAt": "2026-11-21T07:34:09.122070+00:00",
         "matchDate": "2026-11-21",
         "report": {
             "teamA": "Australia",
@@ -189106,16 +189107,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-21T19:15:00+11:00",
-                "temperature_c": 19.6,
+                "temperature_c": 19.3,
                 "humidity_pct": 81,
-                "dew_point_c": 16.3,
+                "dew_point_c": 15.9,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 9.9,
+                "wind_kmh": 10.8,
                 "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "19.6°C | RH 81% | Rain 0% | Wind 9.9 km/h",
+            "weatherText": "19.3°C | RH 81% | Rain 0% | Wind 10.8 km/h",
             "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",

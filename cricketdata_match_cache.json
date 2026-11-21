@@ -10931,5 +10931,141 @@
       ],
       "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
     }
+  },
+  "0560de5e-4b94-4527-ba9e-26036fc10df2": {
+    "cachedAt": "2026-11-21T07:32:43.447295+00:00",
+    "data": {
+      "id": "0560de5e-4b94-4527-ba9e-26036fc10df2",
+      "name": "Sri Lanka A vs Hong Kong, China, 5th Match, Group A, ACC Mens Asia Cup Rising Stars 2026",
+      "matchType": "odi",
+      "status": "Sri Lanka A opt to bat",
+      "venue": "University of Doha for Science and Technology, Doha",
+      "date": "2026-11-21",
+      "dateTimeGMT": "2026-11-21T06:00:00",
+      "teams": [
+        "Sri Lanka A",
+        "Hong Kong"
+      ],
+      "series_id": "fe4c9986-8622-4938-8f19-d5db8cbc43e2"
+    }
+  },
+  "92cae33c-1743-488c-aa5e-dce5d1887a91": {
+    "cachedAt": "2026-11-21T07:32:43.618141+00:00",
+    "data": {
+      "id": "92cae33c-1743-488c-aa5e-dce5d1887a91",
+      "name": "Bangladesh A vs Afghanistan A, 6th Match, Group A, ACC Mens Asia Cup Rising Stars 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 21, 10:00 GMT",
+      "venue": "West End Park International Cricket Stadium, Doha",
+      "date": "2026-11-21",
+      "dateTimeGMT": "2026-11-21T10:00:00",
+      "teams": [
+        "Bangladesh A",
+        "Afghanistan A"
+      ],
+      "series_id": "fe4c9986-8622-4938-8f19-d5db8cbc43e2"
+    }
+  },
+  "b143ee8f-6faa-48bd-a69e-dc7aa65494ba": {
+    "cachedAt": "2026-11-21T07:32:43.792851+00:00",
+    "data": {
+      "id": "b143ee8f-6faa-48bd-a69e-dc7aa65494ba",
+      "name": "Sri Lanka A vs Afghanistan A, 2nd Match, Group A, ACC Mens Asia Cup Rising Stars 2026",
+      "matchType": "odi",
+      "status": "Sri Lanka A won by 6 wkts",
+      "venue": "West End Park International Cricket Stadium, Doha",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T00:00:00",
+      "teams": [
+        "Sri Lanka A",
+        "Afghanistan A"
+      ],
+      "series_id": "fe4c9986-8622-4938-8f19-d5db8cbc43e2"
+    }
+  },
+  "6e68f8dd-bcb7-49fc-a3ee-7e58ebff2d67": {
+    "cachedAt": "2026-11-21T07:32:43.962373+00:00",
+    "data": {
+      "id": "6e68f8dd-bcb7-49fc-a3ee-7e58ebff2d67",
+      "name": "Bangladesh A vs Hong Kong, China, 1st Match, Group A, ACC Mens Asia Cup Rising Stars 2026",
+      "matchType": "odi",
+      "status": "Bangladesh A won by 8 wkts",
+      "venue": "University of Doha for Science and Technology, Doha",
+      "date": "2026-11-19",
+      "dateTimeGMT": "2026-11-19T00:00:00",
+      "teams": [
+        "Bangladesh A",
+        "Hong Kong"
+      ],
+      "series_id": "fe4c9986-8622-4938-8f19-d5db8cbc43e2"
+    }
+  },
+  "2ccadc74-616d-40d4-9931-d03a39313ada": {
+    "cachedAt": "2026-11-21T07:32:44.132250+00:00",
+    "data": {
+      "id": "2ccadc74-616d-40d4-9931-d03a39313ada",
+      "name": "Malaysia Women vs Indonesia Women, 1st Match, Malaysia Womens T20I Tri-Series, 2026",
+      "matchType": "t20",
+      "status": "Indonesia Women won by 7 wkts",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T00:00:00",
+      "teams": [
+        "Malaysia Women",
+        "Indonesia Women"
+      ],
+      "series_id": "91f85089-04b9-4c17-8825-f8eabf2ee8be"
+    }
+  },
+  "39bb2cbe-5c92-4892-99ad-4f49a5b1e51b": {
+    "cachedAt": "2026-11-21T07:32:44.302669+00:00",
+    "data": {
+      "id": "39bb2cbe-5c92-4892-99ad-4f49a5b1e51b",
+      "name": "India A vs Nepal, 4th Match, Group B, ACC Mens Asia Cup Rising Stars 2026",
+      "matchType": "odi",
+      "status": "India A won by 306 runs",
+      "venue": "West End Park International Cricket Stadium, Doha",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T00:00:00",
+      "teams": [
+        "India A",
+        "Nepal"
+      ],
+      "series_id": "fe4c9986-8622-4938-8f19-d5db8cbc43e2"
+    }
+  },
+  "72455080-e167-4dfe-8f30-120a5fa644a4": {
+    "cachedAt": "2026-11-21T07:32:44.478058+00:00",
+    "data": {
+      "id": "72455080-e167-4dfe-8f30-120a5fa644a4",
+      "name": "Pakistan A vs United Arab Emirates, 3rd Match, Group B, ACC Mens Asia Cup Rising Stars 2026",
+      "matchType": "odi",
+      "status": "Pakistan A won by 61 runs",
+      "venue": "University of Doha for Science and Technology, Doha",
+      "date": "2026-11-20",
+      "dateTimeGMT": "2026-11-20T00:00:00",
+      "teams": [
+        "Pakistan A",
+        "United Arab Emirates"
+      ],
+      "series_id": "fe4c9986-8622-4938-8f19-d5db8cbc43e2"
+    }
+  },
+  "8e97677f-1eae-440e-bb87-d0c6153c4c84": {
+    "cachedAt": "2026-11-21T07:32:44.648331+00:00",
+    "data": {
+      "id": "8e97677f-1eae-440e-bb87-d0c6153c4c84",
+      "name": "Malaysia Women vs China Women, 3rd Match, Malaysia Womens T20I Tri-Series, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T02:00:00",
+      "teams": [
+        "Malaysia Women",
+        "China Women"
+      ],
+      "series_id": "91f85089-04b9-4c17-8825-f8eabf2ee8be"
+    }
   }
 }
