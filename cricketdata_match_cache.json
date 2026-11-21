@@ -11203,5 +11203,141 @@
       ],
       "series_id": "fe4c9986-8622-4938-8f19-d5db8cbc43e2"
     }
+  },
+  "55d8876a-0e3e-44df-9826-dece3fe4d219": {
+    "cachedAt": "2026-11-21T23:32:20.352164+00:00",
+    "data": {
+      "id": "55d8876a-0e3e-44df-9826-dece3fe4d219",
+      "name": "China Women vs Indonesia Women, 5th Match, Malaysia Womens T20I Tri-Series, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T02:00:00",
+      "teams": [
+        "China Women",
+        "Indonesia Women"
+      ],
+      "series_id": "91f85089-04b9-4c17-8825-f8eabf2ee8be"
+    }
+  },
+  "34838ce0-fb99-4126-a4e4-2f1557abc8c1": {
+    "cachedAt": "2026-11-21T23:32:20.513570+00:00",
+    "data": {
+      "id": "34838ce0-fb99-4126-a4e4-2f1557abc8c1",
+      "name": "India A vs United Arab Emirates, 11th Match, Group B, ACC Mens Asia Cup Rising Stars 2026",
+      "matchType": "odi",
+      "status": "Match not started",
+      "venue": "University of Doha for Science and Technology, Doha",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T06:00:00",
+      "teams": [
+        "India A",
+        "United Arab Emirates"
+      ],
+      "series_id": "fe4c9986-8622-4938-8f19-d5db8cbc43e2"
+    }
+  },
+  "3d6289f5-71db-4917-8de3-9872ba0437e9": {
+    "cachedAt": "2026-11-21T23:32:20.676116+00:00",
+    "data": {
+      "id": "3d6289f5-71db-4917-8de3-9872ba0437e9",
+      "name": "Pakistan A vs Nepal, 12th Match, Group B, ACC Mens Asia Cup Rising Stars 2026",
+      "matchType": "odi",
+      "status": "Match not started",
+      "venue": "West End Park International Cricket Stadium, Doha",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T10:00:00",
+      "teams": [
+        "Pakistan A",
+        "Nepal"
+      ],
+      "series_id": "fe4c9986-8622-4938-8f19-d5db8cbc43e2"
+    }
+  },
+  "20c5f3c7-3f93-46c7-a445-e4bcb2322ab4": {
+    "cachedAt": "2026-11-21T23:32:20.838953+00:00",
+    "data": {
+      "id": "20c5f3c7-3f93-46c7-a445-e4bcb2322ab4",
+      "name": "Malaysia Women vs China Women, 6th Match, Malaysia Womens T20I Tri-Series, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 25, 02:00 GMT",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-11-25",
+      "dateTimeGMT": "2026-11-25T02:00:00",
+      "teams": [
+        "Malaysia Women",
+        "China Women"
+      ],
+      "series_id": "91f85089-04b9-4c17-8825-f8eabf2ee8be"
+    }
+  },
+  "4de75da2-7012-404d-8a79-42547831df7f": {
+    "cachedAt": "2026-11-21T23:32:20.999944+00:00",
+    "data": {
+      "id": "4de75da2-7012-404d-8a79-42547831df7f",
+      "name": "Uttarakhand vs Mumbai, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 03:30 GMT",
+      "venue": "Jadavpur University Campus 2nd Ground, Kolkata",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T03:30:00",
+      "teams": [
+        "Uttarakhand",
+        "Mumbai"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "8c276df2-f50f-44d0-8b8f-645b5c538456": {
+    "cachedAt": "2026-11-21T23:32:21.160031+00:00",
+    "data": {
+      "id": "8c276df2-f50f-44d0-8b8f-645b5c538456",
+      "name": "Sydney Thunder Women vs Adelaide Strikers Women, 34th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 04:40 GMT",
+      "venue": "North Sydney Oval, Sydney",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T04:40:00",
+      "teams": [
+        "Sydney Thunder Women",
+        "Adelaide Strikers Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "45bee10c-9a59-4ffd-913d-ae359304a3fe": {
+    "cachedAt": "2026-11-21T23:32:21.319931+00:00",
+    "data": {
+      "id": "45bee10c-9a59-4ffd-913d-ae359304a3fe",
+      "name": "Chhattisgarh vs Vidarbha, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 05:30 GMT",
+      "venue": "Eden Gardens, Kolkata",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T05:30:00",
+      "teams": [
+        "Chhattisgarh",
+        "Vidarbha"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "4c70f753-4024-434c-a44a-6c688816a71a": {
+    "cachedAt": "2026-11-21T23:32:21.479974+00:00",
+    "data": {
+      "id": "4c70f753-4024-434c-a44a-6c688816a71a",
+      "name": "Kerala vs Himachal Pradesh, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 05:30 GMT",
+      "venue": "PCA International Cricket Stadium, Ground A, New Chandigarh",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T05:30:00",
+      "teams": [
+        "Kerala",
+        "Himachal Pradesh"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
   }
 }
