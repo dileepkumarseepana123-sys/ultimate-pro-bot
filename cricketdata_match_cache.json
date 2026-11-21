@@ -11067,5 +11067,141 @@
       ],
       "series_id": "91f85089-04b9-4c17-8825-f8eabf2ee8be"
     }
+  },
+  "12438d6a-fe97-4687-9f0b-d3b787f8c560": {
+    "cachedAt": "2026-11-21T17:43:31.214386+00:00",
+    "data": {
+      "id": "12438d6a-fe97-4687-9f0b-d3b787f8c560",
+      "name": "Netherlands Women vs Sri Lanka Women, 24th Match, Super Six (B2 v A1), ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 05:00 GMT",
+      "venue": "Karwan Cricket Ground, Ajman",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T05:00:00",
+      "teams": [
+        "Netherlands Women",
+        "Sri Lanka Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "43bc3831-3f8d-4c84-bd00-839b2b53bc2c": {
+    "cachedAt": "2026-11-21T17:43:31.408477+00:00",
+    "data": {
+      "id": "43bc3831-3f8d-4c84-bd00-839b2b53bc2c",
+      "name": "Pakistan Women vs Scotland Women, 25th Match, Super Six (B1 v A2), ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 05:00 GMT",
+      "venue": "Seven Districts Ground, Ajman",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T05:00:00",
+      "teams": [
+        "Pakistan Women",
+        "Scotland Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "fbb92c7e-d888-454b-9f21-cff468b527ea": {
+    "cachedAt": "2026-11-21T17:43:31.605231+00:00",
+    "data": {
+      "id": "fbb92c7e-d888-454b-9f21-cff468b527ea",
+      "name": "United Arab Emirates vs Nepal, 7th Match, Group B, ACC Mens Asia Cup Rising Stars 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 22, 06:00 GMT",
+      "venue": "University of Doha for Science and Technology, Doha",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T06:00:00",
+      "teams": [
+        "United Arab Emirates",
+        "Nepal"
+      ],
+      "series_id": "fe4c9986-8622-4938-8f19-d5db8cbc43e2"
+    }
+  },
+  "05c61325-eade-4489-8af5-0ce99f56be6b": {
+    "cachedAt": "2026-11-21T17:43:31.812231+00:00",
+    "data": {
+      "id": "05c61325-eade-4489-8af5-0ce99f56be6b",
+      "name": "Ireland Women vs Zimbabwe Women, 26th Match, Super Six (A3 v B3), ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 22, 09:15 GMT",
+      "venue": "Seven Districts Ground, Ajman",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T09:15:00",
+      "teams": [
+        "Ireland Women",
+        "Zimbabwe Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "41baa734-f7a7-4dcf-95c0-544026630c44": {
+    "cachedAt": "2026-11-21T17:43:32.022205+00:00",
+    "data": {
+      "id": "41baa734-f7a7-4dcf-95c0-544026630c44",
+      "name": "India A vs Pakistan A, 8th Match, Group B, ACC Mens Asia Cup Rising Stars 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 22, 10:00 GMT",
+      "venue": "West End Park International Cricket Stadium, Doha",
+      "date": "2026-11-22",
+      "dateTimeGMT": "2026-11-22T10:00:00",
+      "teams": [
+        "India A",
+        "Pakistan A"
+      ],
+      "series_id": "fe4c9986-8622-4938-8f19-d5db8cbc43e2"
+    }
+  },
+  "cc5fbd79-6d33-4ae8-be50-5be987be9110": {
+    "cachedAt": "2026-11-21T17:43:32.234512+00:00",
+    "data": {
+      "id": "cc5fbd79-6d33-4ae8-be50-5be987be9110",
+      "name": "Malaysia Women vs Indonesia Women, 4th Match, Malaysia Womens T20I Tri-Series, 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-11-23",
+      "dateTimeGMT": "2026-11-23T02:00:00",
+      "teams": [
+        "Malaysia Women",
+        "Indonesia Women"
+      ],
+      "series_id": "91f85089-04b9-4c17-8825-f8eabf2ee8be"
+    }
+  },
+  "011b83cc-8535-4b5f-9366-bc6f89100a7e": {
+    "cachedAt": "2026-11-21T17:43:32.431327+00:00",
+    "data": {
+      "id": "011b83cc-8535-4b5f-9366-bc6f89100a7e",
+      "name": "Afghanistan A vs Hong Kong, China, 9th Match, Group A, ACC Mens Asia Cup Rising Stars 2026",
+      "matchType": "odi",
+      "status": "Match not started",
+      "venue": "University of Doha for Science and Technology, Doha",
+      "date": "2026-11-23",
+      "dateTimeGMT": "2026-11-23T06:00:00",
+      "teams": [
+        "Afghanistan A",
+        "Hong Kong"
+      ],
+      "series_id": "fe4c9986-8622-4938-8f19-d5db8cbc43e2"
+    }
+  },
+  "f666c7b1-fe23-4213-a2b4-3685f784a958": {
+    "cachedAt": "2026-11-21T17:43:32.628131+00:00",
+    "data": {
+      "id": "f666c7b1-fe23-4213-a2b4-3685f784a958",
+      "name": "Sri Lanka A vs Bangladesh A, 10th Match, Group A, ACC Mens Asia Cup Rising Stars 2026",
+      "matchType": "odi",
+      "status": "Match not started",
+      "venue": "West End Park International Cricket Stadium, Doha",
+      "date": "2026-11-23",
+      "dateTimeGMT": "2026-11-23T10:00:00",
+      "teams": [
+        "Sri Lanka A",
+        "Bangladesh A"
+      ],
+      "series_id": "fe4c9986-8622-4938-8f19-d5db8cbc43e2"
+    }
   }
 }
