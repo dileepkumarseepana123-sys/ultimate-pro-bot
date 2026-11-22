@@ -11474,5 +11474,141 @@
       ],
       "series_id": "4e9b136f-04eb-4f34-a30a-26f954576a12"
     }
+  },
+  "dd5a2c21-8582-400f-83d9-69b4cebbd8f5": {
+    "cachedAt": "2026-11-22T23:43:57.444587+00:00",
+    "data": {
+      "id": "dd5a2c21-8582-400f-83d9-69b4cebbd8f5",
+      "name": "Sri Lanka Women vs Pakistan Women, 27th Match, Super Six (A1 v B1), ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 23, 05:00 GMT",
+      "venue": "Karwan Cricket Ground, Ajman",
+      "date": "2026-11-23",
+      "dateTimeGMT": "2026-11-23T05:00:00",
+      "teams": [
+        "Sri Lanka Women",
+        "Pakistan Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "5d855fd8-05b9-4f7f-8c0e-d3f6d5ad7540": {
+    "cachedAt": "2026-11-22T23:43:57.575783+00:00",
+    "data": {
+      "id": "5d855fd8-05b9-4f7f-8c0e-d3f6d5ad7540",
+      "name": "Zimbabwe Women vs Scotland Women, 28th Match, Super Six (B3 v A2), ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 23, 09:15 GMT",
+      "venue": "Karwan Cricket Ground, Ajman",
+      "date": "2026-11-23",
+      "dateTimeGMT": "2026-11-23T09:15:00",
+      "teams": [
+        "Zimbabwe Women",
+        "Scotland Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "e402c771-289a-47b1-9a2a-733eec27ac01": {
+    "cachedAt": "2026-11-22T23:43:57.707923+00:00",
+    "data": {
+      "id": "e402c771-289a-47b1-9a2a-733eec27ac01",
+      "name": "Ireland Women vs Netherlands Women, 29th Match, Super Six (A3 v B2), ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 23, 09:15 GMT",
+      "venue": "Seven Districts Ground, Ajman",
+      "date": "2026-11-23",
+      "dateTimeGMT": "2026-11-23T09:15:00",
+      "teams": [
+        "Ireland Women",
+        "Netherlands Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "41e79191-0939-477d-9cc6-e3b67465d62f": {
+    "cachedAt": "2026-11-22T23:43:57.850505+00:00",
+    "data": {
+      "id": "41e79191-0939-477d-9cc6-e3b67465d62f",
+      "name": "Western Province vs Titans, 14th Match, CSA Four-Day Series Division One 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 26, 08:00 GMT",
+      "venue": "Newlands, Cape Town",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T08:00:00",
+      "teams": [
+        "Western Province",
+        "Titans"
+      ],
+      "series_id": "4e9b136f-04eb-4f34-a30a-26f954576a12"
+    }
+  },
+  "3951705c-3438-4d7f-a901-6c49951ababe": {
+    "cachedAt": "2026-11-22T23:43:57.982157+00:00",
+    "data": {
+      "id": "3951705c-3438-4d7f-a901-6c49951ababe",
+      "name": "Warriors vs Dolphins, 15th Match, CSA Four-Day Series Division One 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 26, 08:00 GMT",
+      "venue": "St George's Park, Gqeberha",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T08:00:00",
+      "teams": [
+        "Warriors",
+        "Dolphins"
+      ],
+      "series_id": "4e9b136f-04eb-4f34-a30a-26f954576a12"
+    }
+  },
+  "65da601f-4e46-411a-acc4-37bdf68ba6ed": {
+    "cachedAt": "2026-11-22T23:43:58.115324+00:00",
+    "data": {
+      "id": "65da601f-4e46-411a-acc4-37bdf68ba6ed",
+      "name": "Boland vs Knights, 13th Match, CSA Four-Day Series Division One 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 26, 08:00 GMT",
+      "venue": "Boland Park, Paarl",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T08:00:00",
+      "teams": [
+        "Boland",
+        "Knights"
+      ],
+      "series_id": "4e9b136f-04eb-4f34-a30a-26f954576a12"
+    }
+  },
+  "5ac40469-f6b2-4030-802e-ec80e81c4912": {
+    "cachedAt": "2026-11-22T23:43:58.248589+00:00",
+    "data": {
+      "id": "5ac40469-f6b2-4030-802e-ec80e81c4912",
+      "name": "Sydney Sixers Women vs Melbourne Stars Women, 35th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 08:10 GMT",
+      "venue": "North Sydney Oval, Sydney",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T08:10:00",
+      "teams": [
+        "Sydney Sixers Women",
+        "Melbourne Stars Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "09b4f555-c841-458a-8108-f5766d564d44": {
+    "cachedAt": "2026-11-22T23:43:58.383042+00:00",
+    "data": {
+      "id": "09b4f555-c841-458a-8108-f5766d564d44",
+      "name": "Gujarat vs Goa, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 11:00 GMT",
+      "venue": "Eden Gardens, Kolkata",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T11:00:00",
+      "teams": [
+        "Gujarat",
+        "Goa"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
   }
 }
