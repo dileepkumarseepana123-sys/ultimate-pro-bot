@@ -11339,5 +11339,140 @@
       ],
       "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
     }
+  },
+  "75fd2246-d35a-4617-8aaa-12500dac9471": {
+    "cachedAt": "2026-11-22T07:13:25.769142+00:00",
+    "data": {
+      "id": "75fd2246-d35a-4617-8aaa-12500dac9471",
+      "name": "Bengal vs Rajasthan, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 05:30 GMT",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T05:30:00",
+      "teams": [
+        "Bengal",
+        "Rajasthan"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "7e8330ce-69a4-456c-9aa4-02d68e51d44c": {
+    "cachedAt": "2026-11-22T07:13:25.955083+00:00",
+    "data": {
+      "id": "7e8330ce-69a4-456c-9aa4-02d68e51d44c",
+      "name": "Delhi vs Railways, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 05:30 GMT",
+      "venue": "Holkar Stadium, Indore",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T05:30:00",
+      "teams": [
+        "Delhi",
+        "Railways"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "5937478a-0e83-441a-bd32-a45453b3a231": {
+    "cachedAt": "2026-11-22T07:13:26.141070+00:00",
+    "data": {
+      "id": "5937478a-0e83-441a-bd32-a45453b3a231",
+      "name": "Zimbabwe A vs Ireland A, 4th unofficial ODI, Ireland A tour of Zimbabwe, 2026",
+      "status": "Match starts at Nov 26, 07:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T07:30:00",
+      "teams": [
+        "Zimbabwe A",
+        "Ireland A"
+      ],
+      "series_id": "55616b78-3f8c-429a-b9c2-cf73c72d4cd4"
+    }
+  },
+  "8c1457c3-5d2d-4955-82bc-e2e292882972": {
+    "cachedAt": "2026-11-22T07:13:26.325259+00:00",
+    "data": {
+      "id": "8c1457c3-5d2d-4955-82bc-e2e292882972",
+      "name": "Hyderabad vs Odisha, Elite Group D, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 08:00 GMT",
+      "venue": "Jadavpur University Campus 2nd Ground, Kolkata",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T08:00:00",
+      "teams": [
+        "Hyderabad",
+        "Odisha"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "158a8708-8638-4381-babb-d2ddc39468a7": {
+    "cachedAt": "2026-11-22T07:13:26.509584+00:00",
+    "data": {
+      "id": "158a8708-8638-4381-babb-d2ddc39468a7",
+      "name": "Maharashtra vs Andhra, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 08:00 GMT",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T08:00:00",
+      "teams": [
+        "Maharashtra",
+        "Andhra"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "78e81394-2747-4fce-bec2-aec33df7a859": {
+    "cachedAt": "2026-11-22T07:13:26.695234+00:00",
+    "data": {
+      "id": "78e81394-2747-4fce-bec2-aec33df7a859",
+      "name": "Punjab vs Bihar, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 08:00 GMT",
+      "venue": "Daly College Ground, Indore",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T08:00:00",
+      "teams": [
+        "Punjab",
+        "Bihar"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "1edd8fcf-6318-42e2-96f4-52315b15f8cf": {
+    "cachedAt": "2026-11-22T07:13:26.880333+00:00",
+    "data": {
+      "id": "1edd8fcf-6318-42e2-96f4-52315b15f8cf",
+      "name": "Chandigarh vs Jharkhand, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 08:00 GMT",
+      "venue": "Sharad Pawar Cricket Academy BKC, Mumbai",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T08:00:00",
+      "teams": [
+        "Chandigarh",
+        "Jharkhand"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "92ac319e-0b3e-4566-b23e-e8a9b547333b": {
+    "cachedAt": "2026-11-22T07:13:27.067558+00:00",
+    "data": {
+      "id": "92ac319e-0b3e-4566-b23e-e8a9b547333b",
+      "name": "Lions vs North West",
+      "matchType": "test",
+      "status": "Match starts at Nov 26, 08:00 GMT",
+      "venue": "The Wanderers Stadium, Johannesburg",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T08:00:00",
+      "teams": [
+        "Lions",
+        "North West - Eastvaal Renault Dragons"
+      ],
+      "series_id": "4e9b136f-04eb-4f34-a30a-26f954576a12"
+    }
   }
 }
