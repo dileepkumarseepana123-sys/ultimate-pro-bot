@@ -189162,7 +189162,7 @@
         }
     },
     "china women|malaysia women|2026-11-22": {
-        "capturedAt": "2026-11-21T23:34:37.960676+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583782+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Malaysia Women",
@@ -189180,7 +189180,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/178410/mlyw-vs-chnw-3rd-match-malaysia-womens-t20i-tri-series-2026",
             "cricketDataMatchId": "8e97677f-1eae-440e-bb87-d0c6153c4c84",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 02:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -189668,11 +189668,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Malaysia Women has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Malaysia Women has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "railways|saurashtra|2026-11-22": {
-        "capturedAt": "2026-11-21T23:34:37.960693+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583793+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Railways",
@@ -189690,7 +189691,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "8f40d3a2-695f-4634-9d64-7eac40f1040c",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 03:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -190105,11 +190106,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Saurashtra has a moderate edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "Saurashtra has a moderate edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "mizoram|rajasthan|2026-11-22": {
-        "capturedAt": "2026-11-21T23:34:37.960700+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583799+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Rajasthan",
@@ -190127,7 +190129,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "a255fb19-0c08-481e-a28b-7768ee95f6d2",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 03:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -190558,11 +190560,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Rajasthan has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Rajasthan has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "himachal pradesh|tripura|2026-11-22": {
-        "capturedAt": "2026-11-21T23:34:37.960709+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583805+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Himachal Pradesh",
@@ -190580,7 +190583,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "534180d8-091b-4172-9776-66d363196c18",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 03:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -190967,11 +190970,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Himachal Pradesh has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Himachal Pradesh has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "gujarat|vidarbha|2026-11-22": {
-        "capturedAt": "2026-11-21T23:34:37.960716+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583810+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Vidarbha",
@@ -190989,7 +190993,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "c4b8a65d-2523-4138-8935-0854da24fd1b",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 02:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -191417,11 +191421,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "adelaide strikers women|brisbane heat women|2026-11-22": {
-        "capturedAt": "2026-11-21T23:34:37.960726+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583818+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Brisbane Heat Women",
@@ -191439,7 +191444,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/162907/brhw-vs-adsw-31st-match-womens-big-bash-league-2026",
             "cricketDataMatchId": "7c602ec5-22e0-47fc-b1a1-2f62d1da035c",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 04:40 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "PREMIUM COMPETITION",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -191990,11 +191995,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Adelaide Strikers Women has a strong edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Adelaide Strikers Women has a strong edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "netherlands women|sri lanka women|2026-11-22": {
-        "capturedAt": "2026-11-21T23:34:37.960735+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583825+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Netherlands Women",
@@ -192012,7 +192018,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "12438d6a-fe97-4687-9f0b-d3b787f8c560",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 05:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -192427,11 +192433,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Sri Lanka Women has a moderate edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "Sri Lanka Women has a moderate edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "pakistan women|scotland women|2026-11-22": {
-        "capturedAt": "2026-11-21T23:34:37.960744+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583830+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Pakistan Women",
@@ -192449,7 +192456,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "43bc3831-3f8d-4c84-bd00-839b2b53bc2c",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 05:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -192849,11 +192856,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Scotland Women has a slight edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "Scotland Women has a slight edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "kerala|puducherry|2026-11-22": {
-        "capturedAt": "2026-11-21T23:34:37.960751+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583835+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Kerala",
@@ -192871,7 +192879,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "b81f0945-de92-4192-b95a-73d3f7826ec4",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 05:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -193304,11 +193312,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Kerala has a moderate edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "Kerala has a moderate edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "chhattisgarh|mumbai|2026-11-22": {
-        "capturedAt": "2026-11-21T23:34:37.960759+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583840+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Chhattisgarh",
@@ -193326,7 +193335,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "7bb269f7-5bb0-4c52-a047-4850d8f5c571",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 05:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -193775,11 +193784,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Mumbai has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Mumbai has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "baroda|bengal|2026-11-22": {
-        "capturedAt": "2026-11-21T23:34:37.960765+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583845+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Bengal",
@@ -193797,7 +193807,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "d1ec063a-d081-4202-a697-33041ce756e4",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 05:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -194268,11 +194278,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "delhi|haryana|2026-11-22": {
-        "capturedAt": "2026-11-21T23:34:37.960772+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583849+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Delhi",
@@ -194290,7 +194301,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "03ddf49e-1a26-462d-824f-96f91f9e9cd1",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 05:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -194746,11 +194757,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Delhi has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Delhi has a slight edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "manipur|services|2026-11-22": {
-        "capturedAt": "2026-11-21T23:34:37.960778+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583853+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Services",
@@ -194768,7 +194780,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "761e325c-59df-49fe-b9cb-eccaa053cad3",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 02:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -195174,11 +195186,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Services has a moderate edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "Services has a moderate edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "meghalaya|sikkim|2026-11-22": {
-        "capturedAt": "2026-11-21T23:34:37.960784+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583858+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Sikkim",
@@ -195196,7 +195209,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "ae64a6f3-397d-4035-8a3a-926df5a33678",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 02:30 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -195658,11 +195671,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Meghalaya has a strong edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Meghalaya has a strong edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "jammu and kashmir|punjab|2026-11-22": {
-        "capturedAt": "2026-11-22T07:18:44.841247+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583863+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Jammu And Kashmir",
@@ -195680,7 +195694,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "28a3f884-5661-4827-b6cc-fe96b078865f",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 08:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -195976,11 +195990,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "madhya pradesh|maharashtra|2026-11-22": {
-        "capturedAt": "2026-11-22T07:18:44.841278+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583868+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Madhya Pradesh",
@@ -195998,7 +196013,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "ef9d57ce-cc2f-43e3-a051-edf3e431400f",
             "liveScoreText": null,
-            "sourceStatus": "Madhya Pradesh opt to bat",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -196427,11 +196442,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "hyderabad|uttarakhand|2026-11-22": {
-        "capturedAt": "2026-11-22T07:18:44.841302+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583872+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Uttarakhand",
@@ -196449,7 +196465,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "49d50b01-f5a5-45f2-bab6-c20499bae1ce",
             "liveScoreText": "3/1 (1)",
-            "sourceStatus": "Hyderabad opt to bowl",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -196747,11 +196763,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "chandigarh|karnataka|2026-11-22": {
-        "capturedAt": "2026-11-22T07:18:44.841319+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583876+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Karnataka",
@@ -196769,7 +196786,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "92965950-8f42-4a3f-a9ba-6e19a84ea73c",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 08:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -197198,11 +197215,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Karnataka has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Karnataka has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "jharkhand|uttar pradesh|2026-11-22": {
-        "capturedAt": "2026-11-22T07:18:44.841340+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583881+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Uttar Pradesh",
@@ -197220,7 +197238,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "f2ea35eb-2ae7-4bfc-9914-2797e5060883",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 11:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -197650,11 +197668,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Uttar Pradesh has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Uttar Pradesh has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "melbourne renegades women|melbourne stars women|2026-11-22": {
-        "capturedAt": "2026-11-22T07:18:44.841366+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583887+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Melbourne Stars Women",
@@ -197672,7 +197691,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/162917/mlsw-vs-mlrw-32nd-match-womens-big-bash-league-2026",
             "cricketDataMatchId": "bc66ba93-9e50-4322-bdbb-cdd601083f04",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 08:10 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "PREMIUM COMPETITION",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -198227,11 +198246,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "ireland women|zimbabwe women|2026-11-22": {
-        "capturedAt": "2026-11-22T07:18:44.841392+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583892+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Ireland Women",
@@ -198249,7 +198269,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "05c61325-eade-4489-8af5-0ce99f56be6b",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 09:15 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "MAJOR INTERNATIONAL T20I PROXY",
             "marketVisibility": "PREMIUM / LIKELY LISTED",
             "liquidityProxyOnly": true,
@@ -198773,11 +198793,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Ireland Women has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Ireland Women has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "gulf giants|sharjah warriorz|2026-11-22": {
-        "capturedAt": "2026-11-22T07:18:44.841418+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583897+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Sharjah Warriorz",
@@ -198795,7 +198816,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/175237/sw-vs-gg-2nd-match-international-league-t20-2026",
             "cricketDataMatchId": "dce3e47e-ea10-4c69-aa29-052afb8661cf",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 10:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -199277,11 +199298,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation.",
+            "archivedOnly": true
         }
     },
     "arunachal pradesh|nagaland|2026-11-22": {
-        "capturedAt": "2026-11-22T07:18:44.841442+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583902+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Arunachal Pradesh",
@@ -199299,7 +199321,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "d1682582-df80-433b-be68-ff1ad6893667",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 07:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -199729,11 +199751,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "Nagaland has a moderate edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "Nagaland has a moderate edge on the available pre-toss historical evidence. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "bihar|tamil nadu|2026-11-22": {
-        "capturedAt": "2026-11-22T07:18:44.841463+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583906+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Tamil Nadu",
@@ -199751,7 +199774,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "bf972f22-4737-41ae-b163-837070f1e317",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 11:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -200198,11 +200221,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
-            "strategyText": "Tamil Nadu has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
+            "strategyText": "Tamil Nadu has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal.",
+            "archivedOnly": true
         }
     },
     "andhra|assam|2026-11-22": {
-        "capturedAt": "2026-11-22T07:18:44.841484+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583910+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Assam",
@@ -200220,7 +200244,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "4f615ec7-a021-44cd-b3d9-3ac0131c3c93",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 11:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -200652,11 +200676,12 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Assam has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Assam has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "goa|odisha|2026-11-22": {
-        "capturedAt": "2026-11-22T07:18:44.841503+00:00",
+        "capturedAt": "2026-11-22T17:58:17.583914+00:00",
         "matchDate": "2026-11-22",
         "report": {
             "teamA": "Goa",
@@ -200674,7 +200699,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "fd87e160-de4e-4e3f-a6a0-37594e292aec",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 22, 11:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -201123,7 +201148,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-green",
-            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
+            "strategyText": "Pre-toss evidence is broadly balanced; no clear historical side edge. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check.",
+            "archivedOnly": true
         }
     },
     "abu dhabi knight riders|dubai capitals|2026-11-22": {
