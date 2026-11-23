@@ -11746,5 +11746,141 @@
       ],
       "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
     }
+  },
+  "051aa0b8-d225-48f9-bf60-e325671b44ba": {
+    "cachedAt": "2026-11-23T22:09:46.405774+00:00",
+    "data": {
+      "id": "051aa0b8-d225-48f9-bf60-e325671b44ba",
+      "name": "Services vs Meghalaya, Final, Syed Mushtaq Ali Trophy Plate 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 24, 05:30 GMT",
+      "venue": "Nagaland Cricket Stadium, Sovima, Dimapur",
+      "date": "2026-11-24",
+      "dateTimeGMT": "2026-11-24T11:00:00",
+      "teams": [
+        "Services",
+        "Meghalaya"
+      ],
+      "series_id": "c4807728-f69b-4067-813a-18c656328b2a"
+    }
+  },
+  "7842c1c6-cf1d-4a79-8063-27df6a6ddfdc": {
+    "cachedAt": "2026-11-23T22:09:46.889008+00:00",
+    "data": {
+      "id": "7842c1c6-cf1d-4a79-8063-27df6a6ddfdc",
+      "name": "Bihar Rising vs Andhra Warriors, 1st Match, Group B, Indian Softball Cricket League 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Acharya Stadium, Bengaluru",
+      "date": "2026-11-25",
+      "dateTimeGMT": "2026-11-25T14:00:00",
+      "teams": [
+        "Bihar Rising",
+        "Andhra Warriors"
+      ],
+      "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
+    }
+  },
+  "444b7a54-20d3-4a47-9e22-de5024e0f00c": {
+    "cachedAt": "2026-11-23T22:09:47.101005+00:00",
+    "data": {
+      "id": "444b7a54-20d3-4a47-9e22-de5024e0f00c",
+      "name": "Twin Hills United vs Telangana Singhams, 2nd Match, Group B, Indian Softball Cricket League 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Acharya Stadium, Bengaluru",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T09:30:00",
+      "teams": [
+        "Twin Hills United",
+        "Telangana Singhams"
+      ],
+      "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
+    }
+  },
+  "2abf13c7-c314-4313-be7c-d99ad98d4aef": {
+    "cachedAt": "2026-11-23T22:09:47.265505+00:00",
+    "data": {
+      "id": "2abf13c7-c314-4313-be7c-d99ad98d4aef",
+      "name": "Andaman Admirals vs Haryana Phoenix, 3rd Match, Group B, Indian Softball Cricket League 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Acharya Stadium, Bengaluru",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T11:30:00",
+      "teams": [
+        "Andaman Admirals",
+        "Haryana Phoenix"
+      ],
+      "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
+    }
+  },
+  "1f5bec9f-567f-430b-886d-05f1bad06179": {
+    "cachedAt": "2026-11-23T22:09:47.431574+00:00",
+    "data": {
+      "id": "1f5bec9f-567f-430b-886d-05f1bad06179",
+      "name": "J&k Northern Warriors vs Chandigarh Royal Strikers, 4th Match, Group B, Indian Softball Cricket League 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Acharya Stadium, Bengaluru",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T13:30:00",
+      "teams": [
+        "J&k Northern Warriors",
+        "Chandigarh Royal Strikers"
+      ],
+      "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
+    }
+  },
+  "03e96f7c-b12c-4fee-b32d-f385ab68e572": {
+    "cachedAt": "2026-11-23T22:09:47.596459+00:00",
+    "data": {
+      "id": "03e96f7c-b12c-4fee-b32d-f385ab68e572",
+      "name": "Andaman Admirals vs Twin Hills United, 5th Match, Group B, Indian Softball Cricket League 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Acharya Stadium, Bengaluru",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T15:30:00",
+      "teams": [
+        "Andaman Admirals",
+        "Twin Hills United"
+      ],
+      "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
+    }
+  },
+  "edf5ff2c-ce8a-45d5-a1ce-ae874af05073": {
+    "cachedAt": "2026-11-23T22:09:47.759682+00:00",
+    "data": {
+      "id": "edf5ff2c-ce8a-45d5-a1ce-ae874af05073",
+      "name": "Chandigarh Royal Strikers vs Andhra Warriors, 6th Match, Group B, Indian Softball Cricket League 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Acharya Stadium, Bengaluru",
+      "date": "2026-11-27",
+      "dateTimeGMT": "2026-11-27T09:30:00",
+      "teams": [
+        "Chandigarh Royal Strikers",
+        "Andhra Warriors"
+      ],
+      "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
+    }
+  },
+  "ba2d551c-6403-4a69-acfe-572a432ac931": {
+    "cachedAt": "2026-11-23T22:09:47.936306+00:00",
+    "data": {
+      "id": "ba2d551c-6403-4a69-acfe-572a432ac931",
+      "name": "J&k Northern Warriors vs Telangana Singhams, 7th Match, Group B, Indian Softball Cricket League 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Acharya Stadium, Bengaluru",
+      "date": "2026-11-27",
+      "dateTimeGMT": "2026-11-27T11:30:00",
+      "teams": [
+        "J&k Northern Warriors",
+        "Telangana Singhams"
+      ],
+      "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
+    }
   }
 }
