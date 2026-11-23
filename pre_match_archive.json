@@ -202772,7 +202772,7 @@
         }
     },
     "scotland women|zimbabwe women|2026-11-23": {
-        "capturedAt": "2026-11-22T23:44:58.287552+00:00",
+        "capturedAt": "2026-11-23T08:00:02.258953+00:00",
         "matchDate": "2026-11-23",
         "report": {
             "teamA": "Zimbabwe Women",
@@ -203174,11 +203174,11 @@
                 "dew_point_c": 12.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.6,
+                "wind_kmh": 6.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "31.9°C | RH 31% | Rain 0% | Wind 2.6 km/h",
+            "weatherText": "31.9°C | RH 31% | Rain 0% | Wind 6.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -203222,7 +203222,7 @@
         }
     },
     "ireland women|netherlands women|2026-11-23": {
-        "capturedAt": "2026-11-22T23:44:58.287563+00:00",
+        "capturedAt": "2026-11-23T08:00:02.258989+00:00",
         "matchDate": "2026-11-23",
         "report": {
             "teamA": "Ireland Women",
@@ -203722,11 +203722,11 @@
                 "dew_point_c": 12.7,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.6,
+                "wind_kmh": 6.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "31.9°C | RH 31% | Rain 0% | Wind 2.6 km/h",
+            "weatherText": "31.9°C | RH 31% | Rain 0% | Wind 6.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -203770,7 +203770,7 @@
         }
     },
     "desert vipers|sharjah warriorz|2026-11-23": {
-        "capturedAt": "2026-11-22T23:44:58.287586+00:00",
+        "capturedAt": "2026-11-23T08:00:02.259013+00:00",
         "matchDate": "2026-11-23",
         "report": {
             "teamA": "Sharjah Warriorz",
@@ -203965,12 +203965,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -204224,15 +204224,15 @@
                 "status": "OK",
                 "local_time": "2026-11-23T18:30:00+04:00",
                 "temperature_c": 27.4,
-                "humidity_pct": 61,
-                "dew_point_c": 19.2,
+                "humidity_pct": 58,
+                "dew_point_c": 18.4,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 11.3,
+                "wind_kmh": 9.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.4°C | RH 61% | Rain 0% | Wind 11.3 km/h",
+            "weatherText": "27.4°C | RH 58% | Rain 0% | Wind 9.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "59.59% Chasing Wins",
             "tossTrend": "Historical venue trend",

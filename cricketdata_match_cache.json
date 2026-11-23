@@ -11610,5 +11610,141 @@
       ],
       "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
     }
+  },
+  "61530299-3c6a-49ed-ba0b-c00da99b351f": {
+    "cachedAt": "2026-11-23T07:59:09.579292+00:00",
+    "data": {
+      "id": "61530299-3c6a-49ed-ba0b-c00da99b351f",
+      "name": "Mizoram vs Uttar Pradesh, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 11:00 GMT",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T11:00:00",
+      "teams": [
+        "Mizoram",
+        "Uttar Pradesh"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "eda34126-10a2-47cb-bf03-34d68c27f1b5": {
+    "cachedAt": "2026-11-23T07:59:09.722877+00:00",
+    "data": {
+      "id": "eda34126-10a2-47cb-bf03-34d68c27f1b5",
+      "name": "Tripura vs Assam, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 11:00 GMT",
+      "venue": "PCA International Cricket Stadium, Ground A, New Chandigarh",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T11:00:00",
+      "teams": [
+        "Tripura",
+        "Assam"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "c597385e-8a88-4320-bcda-3074c7c5076c": {
+    "cachedAt": "2026-11-23T07:59:09.867274+00:00",
+    "data": {
+      "id": "c597385e-8a88-4320-bcda-3074c7c5076c",
+      "name": "Saurashtra vs Tamil Nadu, Elite Group B, Syed Mushtaq Ali Trophy Elite 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 11:00 GMT",
+      "venue": "Holkar Stadium, Indore",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T11:00:00",
+      "teams": [
+        "Saurashtra",
+        "Tamil Nadu"
+      ],
+      "series_id": "d7c7977a-0a0a-41d2-9e2b-6481943eee7c"
+    }
+  },
+  "4830a892-257d-42e7-9921-6ab81b5fe5c6": {
+    "cachedAt": "2026-11-23T07:59:10.011087+00:00",
+    "data": {
+      "id": "4830a892-257d-42e7-9921-6ab81b5fe5c6",
+      "name": "India Women U19 vs England Women U19, 1st unofficial T20, England Women U19 tour of India 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 12:30 GMT",
+      "venue": "BCA Stadium, Kotambi, Vadodara",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T12:30:00",
+      "teams": [
+        "India Women U19",
+        "England Women U19"
+      ],
+      "series_id": "e52665ad-f801-47a8-85f7-b4fe9fdefdb5"
+    }
+  },
+  "e16ecbed-6301-4cd8-b968-05f2cbedb252": {
+    "cachedAt": "2026-11-23T07:59:10.153799+00:00",
+    "data": {
+      "id": "e16ecbed-6301-4cd8-b968-05f2cbedb252",
+      "name": "Abu Dhabi Knight Riders vs Mi Emirates, 7th Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 26, 14:30 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T14:30:00",
+      "teams": [
+        "Abu Dhabi Knight Riders",
+        "Mi Emirates"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
+  },
+  "c308d96d-b24e-4353-9afe-69972a6598ec": {
+    "cachedAt": "2026-11-23T07:59:10.296529+00:00",
+    "data": {
+      "id": "c308d96d-b24e-4353-9afe-69972a6598ec",
+      "name": "Australia vs England, 3rd T20I, England tour of Australia, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 27, 08:15 GMT",
+      "venue": "The Gabba, Brisbane",
+      "date": "2026-11-27",
+      "dateTimeGMT": "2026-11-27T08:15:00",
+      "teams": [
+        "Australia",
+        "England"
+      ],
+      "series_id": "9c385594-20fe-4d3d-b2bb-df4de8e043bc"
+    }
+  },
+  "115b6095-9d3b-4d4f-a006-cfa1de176353": {
+    "cachedAt": "2026-11-23T07:59:10.441119+00:00",
+    "data": {
+      "id": "115b6095-9d3b-4d4f-a006-cfa1de176353",
+      "name": "Perth Scorchers Women vs Hobart Hurricanes Women, 36th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 27, 10:10 GMT",
+      "venue": "W.A.C.A. Ground, Perth",
+      "date": "2026-11-27",
+      "dateTimeGMT": "2026-11-27T10:10:00",
+      "teams": [
+        "Perth Scorchers Women",
+        "Hobart Hurricanes Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "549a8787-9383-4e56-8b50-70fe4c91fcb6": {
+    "cachedAt": "2026-11-23T07:59:10.581921+00:00",
+    "data": {
+      "id": "549a8787-9383-4e56-8b50-70fe4c91fcb6",
+      "name": "Sharjah Warriorz vs Dubai Capitals, 8th Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 27, 14:30 GMT",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-11-27",
+      "dateTimeGMT": "2026-11-27T14:30:00",
+      "teams": [
+        "Sharjah Warriorz",
+        "Dubai Capitals"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
   }
 }
