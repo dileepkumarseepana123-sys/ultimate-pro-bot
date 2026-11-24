@@ -12016,5 +12016,141 @@
       ],
       "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
     }
+  },
+  "c49f2ce6-af5c-446d-8790-c1968209af3a": {
+    "cachedAt": "2026-11-24T20:45:59.662137+00:00",
+    "data": {
+      "id": "c49f2ce6-af5c-446d-8790-c1968209af3a",
+      "name": "Sri Lanka Women vs Ireland Women, Final, ICC Womens Emerging Nations Trophy, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 25, 05:00 GMT",
+      "venue": "Karwan Cricket Ground, Ajman",
+      "date": "2026-11-25",
+      "dateTimeGMT": "2026-11-25T05:00:00",
+      "teams": [
+        "Sri Lanka Women",
+        "Ireland Women"
+      ],
+      "series_id": "267a5b0d-370a-4955-8016-17b8790cc33f"
+    }
+  },
+  "0cef4b6c-9889-4964-9bc8-5d8e79d85ab4": {
+    "cachedAt": "2026-11-24T20:45:59.857123+00:00",
+    "data": {
+      "id": "0cef4b6c-9889-4964-9bc8-5d8e79d85ab4",
+      "name": "Melbourne Renegades Women vs Melbourne Stars Women, 37th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 28, 08:10 GMT",
+      "venue": "Junction Oval, Melbourne",
+      "date": "2026-11-28",
+      "dateTimeGMT": "2026-11-28T08:10:00",
+      "teams": [
+        "Melbourne Renegades Women",
+        "Melbourne Stars Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "196ef114-a56c-467b-8309-4ff721c55216": {
+    "cachedAt": "2026-11-24T20:46:00.043468+00:00",
+    "data": {
+      "id": "196ef114-a56c-467b-8309-4ff721c55216",
+      "name": "Desert Vipers vs Mi Emirates, 9th Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 28, 10:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-28",
+      "dateTimeGMT": "2026-11-28T10:00:00",
+      "teams": [
+        "Desert Vipers",
+        "Mi Emirates"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
+  },
+  "b1ff0832-181d-4a12-9770-726e86f78932": {
+    "cachedAt": "2026-11-24T20:46:00.234351+00:00",
+    "data": {
+      "id": "b1ff0832-181d-4a12-9770-726e86f78932",
+      "name": "Dubai Capitals vs Gulf Giants, 10th Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 28, 14:30 GMT",
+      "venue": "Dubai International Cricket Stadium, Dubai",
+      "date": "2026-11-28",
+      "dateTimeGMT": "2026-11-28T14:30:00",
+      "teams": [
+        "Dubai Capitals",
+        "Gulf Giants"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
+  },
+  "096eb4e2-9138-4d28-918d-17e93eb7b1ce": {
+    "cachedAt": "2026-11-24T20:46:00.422122+00:00",
+    "data": {
+      "id": "096eb4e2-9138-4d28-918d-17e93eb7b1ce",
+      "name": "Auckland vs Canterbury, 6th Match, Plunket Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 27, 21:30 GMT",
+      "venue": "Eden Park Outer Oval, Auckland",
+      "date": "2026-11-28",
+      "dateTimeGMT": "2026-11-28T21:30:00",
+      "teams": [
+        "Auckland",
+        "Canterbury"
+      ],
+      "series_id": "ded5b9f9-9a41-44c9-a8ad-356df72cc432"
+    }
+  },
+  "4ae8ce2a-71cb-47ba-a045-e5a17d3f249b": {
+    "cachedAt": "2026-11-24T20:46:00.608598+00:00",
+    "data": {
+      "id": "4ae8ce2a-71cb-47ba-a045-e5a17d3f249b",
+      "name": "Brisbane Heat Women vs Perth Scorchers Women, 39th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 29, 01:00 GMT",
+      "venue": "Karen Rolton Oval, Adelaide, South Australia",
+      "date": "2026-11-29",
+      "dateTimeGMT": "2026-11-29T01:00:00",
+      "teams": [
+        "Brisbane Heat Women",
+        "Perth Scorchers Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "7b23c327-5e07-441a-a2c8-eff30ce65071": {
+    "cachedAt": "2026-11-24T20:46:00.796949+00:00",
+    "data": {
+      "id": "7b23c327-5e07-441a-a2c8-eff30ce65071",
+      "name": "Adelaide Strikers Women vs Hobart Hurricanes Women, 40th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 29, 04:30 GMT",
+      "venue": "Karen Rolton Oval, Adelaide, South Australia",
+      "date": "2026-11-29",
+      "dateTimeGMT": "2026-11-29T04:30:00",
+      "teams": [
+        "Adelaide Strikers Women",
+        "Hobart Hurricanes Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
+  },
+  "7c8aa4bc-2b41-4d9b-973a-c9eb42820e0c": {
+    "cachedAt": "2026-11-24T20:46:00.983463+00:00",
+    "data": {
+      "id": "7c8aa4bc-2b41-4d9b-973a-c9eb42820e0c",
+      "name": "Australia vs England, 4th T20I, England tour of Australia, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 29, 08:15 GMT",
+      "venue": "Sydney Cricket Ground, Sydney",
+      "date": "2026-11-29",
+      "dateTimeGMT": "2026-11-29T08:15:00",
+      "teams": [
+        "Australia",
+        "England"
+      ],
+      "series_id": "9c385594-20fe-4d3d-b2bb-df4de8e043bc"
+    }
   }
 }

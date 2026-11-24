@@ -14558,5 +14558,301 @@
         "cache": 0
       }
     }
+  },
+  "20c5f3c7-3f93-46c7-a445-e4bcb2322ab4": {
+    "cachedAt": "2026-11-24T20:46:46.222442+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 22,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 14,
+        "queryTime": 12.2486,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "411e1c08-86e0-46d0-a6f6-d086058fd973": {
+    "cachedAt": "2026-11-24T20:46:49.794266+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [
+        {
+          "teamName": "Brisbane Heat Women",
+          "shortname": "BH-W",
+          "img": "https://g.cricapi.com/iapi/2625-638040173617905942.webp?w=48",
+          "players": [
+            {
+              "id": "02a20c43-baf0-4d79-b82d-17a8966bbdf0",
+              "name": "Lily Bassingthwaighte",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "c62deb7e-cc3a-4139-ac63-2a4fc0e274cd",
+              "name": "Orla Prendergast",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Ireland",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "e182d2c3-a3c6-4877-bb70-2e43b2c82e9b",
+              "name": "Charli Knott",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "6b1d7010-d279-47bd-b966-42bc04db675f",
+              "name": "Georgia Redmayne",
+              "role": "WK-Batsman",
+              "battingStyle": "Left Handed Bat",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "799de62d-faf7-41af-b029-6aebb873ec7c",
+              "name": "Lucinda Bourke",
+              "role": "Batsman",
+              "battingStyle": "Left Handed Bat",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "101e56f3-96c3-4045-8a9d-6e2b9a6d514a",
+              "name": "Annie O Neil",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "4859dbe8-0009-4139-9795-79eb00deb636",
+              "name": "Grace Parsons",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm legbreak",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "fb88cc86-908f-45ea-a9b3-958743156824",
+              "name": "Bonnie Berry",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "8c8546cf-214b-4bd3-83e7-b33215e48ccb",
+              "name": "Sarah Glenn",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm legbreak",
+              "country": "England",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "e059bdc4-f377-47a2-a502-d00169a120c2",
+              "name": "Mikayla Wrigley",
+              "role": "WK-Batsman",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "9bb19406-4ee7-46bd-8d4a-d694f51d76e7",
+              "name": "Lucy Hamilton",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Left-arm medium",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "48f700b6-506c-43ec-9303-dfee62ab1b38",
+              "name": "Grace Harris",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/players/48f700b6-506c-43ec-9303-dfee62ab1b38.jpg"
+            },
+            {
+              "id": "5f80126b-d47e-406a-8531-f76722b1625d",
+              "name": "Sianna Ginger",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            }
+          ]
+        },
+        {
+          "teamName": "Melbourne Renegades Women",
+          "shortname": "MR-W",
+          "img": "https://g.cricapi.com/iapi/2655-638040167731668168.webp?w=48",
+          "players": [
+            {
+              "id": "c09cb35b-e318-4bea-acd1-02556129c27d",
+              "name": "Tayla Vlaeminck",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "67d96dae-fe77-4823-af22-05625a98a452",
+              "name": "Annie Wikman",
+              "role": "--",
+              "battingStyle": "Left Handed Bat",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "be2a4ab4-23a0-46a8-82b1-19559b2bf234",
+              "name": "Sophie Molineux",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Left Handed Bat",
+              "bowlingStyle": "Left-arm orthodox",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "4958aafe-b3dc-4f67-babd-1b4fe4b31030",
+              "name": "Georgia Wareham",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm legbreak",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "4d99ab07-46ed-4174-b01d-4f38fb2d81c8",
+              "name": "Chloe Tryon",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Left-arm orthodox",
+              "country": "South Africa",
+              "playerImg": "https://h.cricapi.com/img/players/4d99ab07-46ed-4174-b01d-4f38fb2d81c8.jpg"
+            },
+            {
+              "id": "b661feaa-209c-450b-bf1d-55a13f8c77b9",
+              "name": "Sara Kennedy",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "078ecc43-a0a4-4d90-abda-566d2b767529",
+              "name": "Nicole Faltum",
+              "role": "WK-Batsman",
+              "battingStyle": "Right Handed Bat",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "d4d1bd4f-57c1-496f-bb6c-586ecab594e8",
+              "name": "Deandra Dottin",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "West Indies",
+              "playerImg": "https://h.cricapi.com/img/players/d4d1bd4f-57c1-496f-bb6c-586ecab594e8.jpg"
+            },
+            {
+              "id": "2ecb578a-83ff-487a-aa32-a2a36972f8ae",
+              "name": "Tess Flintoff",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast-medium",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "2c8923db-24a6-457a-a210-b3346758897f",
+              "name": "Olivia Porter",
+              "role": "Bowling Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "1545cd34-7745-4b71-90e5-b7a5aae21517",
+              "name": "Courtney Webb",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm medium",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "ad6d4081-87bf-42a9-bc62-c2991f25da52",
+              "name": "Milly Illingworth",
+              "role": "Bowler",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm fast",
+              "country": "Australia",
+              "playerImg": "https://h.cricapi.com/img/icon512.png"
+            },
+            {
+              "id": "eabbdd92-cfe8-40b1-9b57-fb45a950f818",
+              "name": "Hayley Matthews",
+              "role": "Batting Allrounder",
+              "battingStyle": "Right Handed Bat",
+              "bowlingStyle": "Right-arm offbreak",
+              "country": "",
+              "playerImg": "https://h.cricapi.com/img/players/eabbdd92-cfe8-40b1-9b57-fb45a950f818.jpg"
+            }
+          ]
+        }
+      ],
+      "status": "success",
+      "info": {
+        "hitsToday": 32,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 11,
+        "queryTime": 16.3855,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "c49f2ce6-af5c-446d-8790-c1968209af3a": {
+    "cachedAt": "2026-11-24T20:46:52.209736+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 42,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 2,
+        "queryTime": 11.0725,
+        "s": 0,
+        "cache": 0
+      }
+    }
   }
 }
