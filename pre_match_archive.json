@@ -210624,7 +210624,7 @@
         }
     },
     "bihar|haryana|2026-11-24": {
-        "capturedAt": "2026-11-23T22:11:38.122231+00:00",
+        "capturedAt": "2026-11-24T10:14:28.056277+00:00",
         "matchDate": "2026-11-24",
         "report": {
             "teamA": "Bihar",
@@ -210755,17 +210755,44 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "CricketData match_squad"
             },
             "squadSummary": {
-                "status": "NO SQUAD DATA",
-                "teams": {},
-                "source": "Not queried"
+                "status": "SQUAD AVAILABLE — XI PENDING",
+                "teams": {
+                    "Bihar": {
+                        "players": 16,
+                        "knownBowlingStyles": 9,
+                        "spinOptions": 1,
+                        "paceOptions": 4,
+                        "roleCounts": {
+                            "batters": 5,
+                            "allRounders": 1,
+                            "bowlers": 4,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    },
+                    "Haryana": {
+                        "players": 17,
+                        "knownBowlingStyles": 9,
+                        "spinOptions": 1,
+                        "paceOptions": 3,
+                        "roleCounts": {
+                            "batters": 5,
+                            "allRounders": 3,
+                            "bowlers": 2,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    }
+                },
+                "source": "CricketData match_squad"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS CONDITIONAL",
-                "dataConfidencePct": 57,
+                "dataConfidencePct": 71,
                 "initialPrediction": "Haryana has a moderate edge on the available pre-toss historical evidence.",
                 "edgeTeam": "Haryana",
                 "edgeStrength": "MODERATE EDGE",
@@ -210802,7 +210829,7 @@
                 "over16AvgRuns": 8.79,
                 "over16WicketEventPct": 30.77,
                 "spinWicketSharePct": null,
-                "squadStatus": "NO SQUAD DATA",
+                "squadStatus": "SQUAD AVAILABLE — XI PENDING",
                 "summary": "Haryana has a moderate edge on the available pre-toss historical evidence. CONDITIONAL TWO-WAY PROFILE — useful setup, but not enough to enter without toss/price confirmation."
             },
             "pendingGates": [
@@ -211012,16 +211039,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-24T16:30:00+05:30",
-                "temperature_c": 27.1,
-                "humidity_pct": 23,
-                "dew_point_c": 4.0,
+                "temperature_c": 26.8,
+                "humidity_pct": 26,
+                "dew_point_c": 5.5,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.3,
+                "wind_kmh": 7.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.1°C | RH 23% | Rain 0% | Wind 7.3 km/h",
+            "weatherText": "26.8°C | RH 26% | Rain 0% | Wind 7.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "68.97% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -211077,7 +211104,7 @@
         }
     },
     "baroda|jharkhand|2026-11-24": {
-        "capturedAt": "2026-11-23T22:11:38.122238+00:00",
+        "capturedAt": "2026-11-24T10:14:28.056304+00:00",
         "matchDate": "2026-11-24",
         "report": {
             "teamA": "Jharkhand",
@@ -211208,17 +211235,44 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "CricketData match_squad"
             },
             "squadSummary": {
-                "status": "NO SQUAD DATA",
-                "teams": {},
-                "source": "Not queried"
+                "status": "SQUAD AVAILABLE — XI PENDING",
+                "teams": {
+                    "Baroda": {
+                        "players": 15,
+                        "knownBowlingStyles": 11,
+                        "spinOptions": 1,
+                        "paceOptions": 7,
+                        "roleCounts": {
+                            "batters": 4,
+                            "allRounders": 6,
+                            "bowlers": 2,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    },
+                    "Jharkhand": {
+                        "players": 15,
+                        "knownBowlingStyles": 10,
+                        "spinOptions": 2,
+                        "paceOptions": 2,
+                        "roleCounts": {
+                            "batters": 4,
+                            "allRounders": 4,
+                            "bowlers": 1,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    }
+                },
+                "source": "CricketData match_squad"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS WATCHLIST",
-                "dataConfidencePct": 57,
+                "dataConfidencePct": 71,
                 "initialPrediction": "Baroda has a slight edge on the available pre-toss historical evidence.",
                 "edgeTeam": "Baroda",
                 "edgeStrength": "SLIGHT EDGE",
@@ -211255,7 +211309,7 @@
                 "over16AvgRuns": 9.3,
                 "over16WicketEventPct": 35.41,
                 "spinWicketSharePct": null,
-                "squadStatus": "NO SQUAD DATA",
+                "squadStatus": "SQUAD AVAILABLE — XI PENDING",
                 "summary": "Baroda has a slight edge on the available pre-toss historical evidence. GOOD TWO-WAY PRE-TOSS PROFILE — suitable for a later price/liquidity check."
             },
             "pendingGates": [
@@ -211465,16 +211519,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-24T16:30:00+05:30",
-                "temperature_c": 32.3,
-                "humidity_pct": 41,
-                "dew_point_c": 17.5,
+                "temperature_c": 32.0,
+                "humidity_pct": 45,
+                "dew_point_c": 18.5,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 11.0,
+                "wind_kmh": 9.0,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "32.3°C | RH 41% | Rain 0% | Wind 11.0 km/h",
+            "weatherText": "32.0°C | RH 45% | Rain 0% | Wind 9.0 km/h",
             "dewRisk": "LOW",
             "tossBias": "56.83% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -211529,7 +211583,7 @@
         }
     },
     "mumbai|odisha|2026-11-24": {
-        "capturedAt": "2026-11-23T22:11:38.122244+00:00",
+        "capturedAt": "2026-11-24T10:14:28.056323+00:00",
         "matchDate": "2026-11-24",
         "report": {
             "teamA": "Odisha",
@@ -211634,8 +211688,7 @@
                 },
                 "swingCatalysts": [
                     "Historically two-way venue: 54.4% chasing wins",
-                    "Middle-overs wicket volatility: 4.11 wickets/match in overs 7-14",
-                    "Medium dew can change second-innings conditions"
+                    "Middle-overs wicket volatility: 4.11 wickets/match in overs 7-14"
                 ],
                 "swingPenalties": [
                     "Extreme skill gap: one-sided price path risk",
@@ -211659,7 +211712,7 @@
                     },
                     {
                         "name": "weather",
-                        "score": 90.0,
+                        "score": 70.0,
                         "weight": 0.1
                     },
                     {
@@ -211676,17 +211729,44 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "CricketData match_squad"
             },
             "squadSummary": {
-                "status": "NO SQUAD DATA",
-                "teams": {},
-                "source": "Not queried"
+                "status": "SQUAD AVAILABLE — XI PENDING",
+                "teams": {
+                    "Mumbai": {
+                        "players": 15,
+                        "knownBowlingStyles": 12,
+                        "spinOptions": 3,
+                        "paceOptions": 4,
+                        "roleCounts": {
+                            "batters": 6,
+                            "allRounders": 7,
+                            "bowlers": 1,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    },
+                    "Odisha": {
+                        "players": 18,
+                        "knownBowlingStyles": 11,
+                        "spinOptions": 1,
+                        "paceOptions": 6,
+                        "roleCounts": {
+                            "batters": 7,
+                            "allRounders": 3,
+                            "bowlers": 3,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    }
+                },
+                "source": "CricketData match_squad"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS POOR FIT",
-                "dataConfidencePct": 57,
+                "dataConfidencePct": 71,
                 "initialPrediction": "Mumbai has a strong edge on the available pre-toss historical evidence.",
                 "edgeTeam": "Mumbai",
                 "edgeStrength": "STRONG EDGE",
@@ -211698,7 +211778,7 @@
                     "Two-way venue: 54.4% chasing wins",
                     "Overs 7-14 wicket pressure: 4.11 wickets/match",
                     "16th-over baseline: 8.8 runs; wicket in 31.3% of sampled innings",
-                    "Weather: rain 0%, dew MEDIUM"
+                    "Weather: rain 1%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Odisha 1430.1 vs Mumbai 1672.3",
@@ -211723,7 +211803,7 @@
                 "over16AvgRuns": 8.81,
                 "over16WicketEventPct": 31.32,
                 "spinWicketSharePct": null,
-                "squadStatus": "NO SQUAD DATA",
+                "squadStatus": "SQUAD AVAILABLE — XI PENDING",
                 "summary": "Mumbai has a strong edge on the available pre-toss historical evidence. ONE-SIDED RISK — a major match-state shock may be needed for a deep price reversal."
             },
             "pendingGates": [
@@ -211933,17 +212013,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-24T16:30:00+05:30",
-                "temperature_c": 26.3,
-                "humidity_pct": 70,
-                "dew_point_c": 20.4,
-                "rain_probability_pct": 0,
+                "temperature_c": 26.2,
+                "humidity_pct": 68,
+                "dew_point_c": 19.8,
+                "rain_probability_pct": 1,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 2.4,
-                "dew_risk": "MEDIUM",
+                "wind_kmh": 5.1,
+                "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.3°C | RH 70% | Rain 0% | Wind 2.4 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "26.2°C | RH 68% | Rain 1% | Wind 5.1 km/h",
+            "dewRisk": "LOW",
             "tossBias": "54.42% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "47.28",
@@ -211992,7 +212072,6 @@
             ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-red",
@@ -212000,7 +212079,7 @@
         }
     },
     "andhra|puducherry|2026-11-24": {
-        "capturedAt": "2026-11-23T22:11:38.122251+00:00",
+        "capturedAt": "2026-11-24T10:14:28.056339+00:00",
         "matchDate": "2026-11-24",
         "report": {
             "teamA": "Andhra",
@@ -212140,12 +212219,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -212454,7 +212533,7 @@
         }
     },
     "meghalaya|services|2026-11-24": {
-        "capturedAt": "2026-11-23T22:11:38.122258+00:00",
+        "capturedAt": "2026-11-24T10:14:28.056354+00:00",
         "matchDate": "2026-11-24",
         "report": {
             "teamA": "Services",
@@ -212471,8 +212550,8 @@
             "supplementalSourceName": null,
             "sourceMatchUrl": null,
             "cricketDataMatchId": "051aa0b8-d225-48f9-bf60-e325671b44ba",
-            "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 24, 05:30 GMT",
+            "liveScoreText": "137/8 (20) | 136/8 (20)",
+            "sourceStatus": "Meghalaya won by 2 wkts",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -212573,12 +212652,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -212590,7 +212669,7 @@
                 "edgeScore": -0.86,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 20%, dew HIGH"
+                    "Weather: rain 6%, dew HIGH"
                 ],
                 "evidence": [
                     "Elo: Services 1490.4 vs Meghalaya 1439.6",
@@ -212825,16 +212904,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-24T16:30:00+05:30",
-                "temperature_c": 21.6,
-                "humidity_pct": 84,
-                "dew_point_c": 18.8,
-                "rain_probability_pct": 20,
+                "temperature_c": 21.1,
+                "humidity_pct": 96,
+                "dew_point_c": 20.5,
+                "rain_probability_pct": 6,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 4.1,
+                "wind_kmh": 2.9,
                 "dew_risk": "HIGH",
                 "rain_risk": "LOW"
             },
-            "weatherText": "21.6°C | RH 84% | Rain 20% | Wind 4.1 km/h",
+            "weatherText": "21.1°C | RH 96% | Rain 6% | Wind 2.9 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -212878,7 +212957,7 @@
         }
     },
     "gulf giants|mi emirates|2026-11-24": {
-        "capturedAt": "2026-11-23T22:11:38.122266+00:00",
+        "capturedAt": "2026-11-24T10:14:28.056369+00:00",
         "matchDate": "2026-11-24",
         "report": {
             "teamA": "Gulf Giants",
@@ -213121,12 +213200,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -213379,16 +213458,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-24T18:30:00+04:00",
-                "temperature_c": 27.0,
-                "humidity_pct": 62,
-                "dew_point_c": 19.1,
+                "temperature_c": 27.3,
+                "humidity_pct": 52,
+                "dew_point_c": 16.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 12.7,
+                "wind_kmh": 11.4,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.0°C | RH 62% | Rain 0% | Wind 12.7 km/h",
+            "weatherText": "27.3°C | RH 52% | Rain 0% | Wind 11.4 km/h",
             "dewRisk": "LOW",
             "tossBias": "54.58% Chasing Wins",
             "tossTrend": "Historical venue trend",

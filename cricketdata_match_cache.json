@@ -11882,5 +11882,139 @@
       ],
       "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
     }
+  },
+  "05172178-9638-4b9b-9691-8071cb08b0e8": {
+    "cachedAt": "2026-11-24T10:13:11.244450+00:00",
+    "data": {
+      "id": "05172178-9638-4b9b-9691-8071cb08b0e8",
+      "name": "Bihar Rising vs Haryana Phoenix, 8th Match, Group B, Indian Softball Cricket League 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Acharya Stadium, Bengaluru",
+      "date": "2026-11-27",
+      "dateTimeGMT": "2026-11-27T13:30:00",
+      "teams": [
+        "Bihar Rising",
+        "Haryana Phoenix"
+      ],
+      "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
+    }
+  },
+  "597a0b0e-59c7-4829-9e89-6eec4f167084": {
+    "cachedAt": "2026-11-24T10:13:11.403066+00:00",
+    "data": {
+      "id": "597a0b0e-59c7-4829-9e89-6eec4f167084",
+      "name": "Andaman Admirals vs Chandigarh Royal Strikers, 9th Match, Group B, Indian Softball Cricket League 2026",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Acharya Stadium, Bengaluru",
+      "date": "2026-11-27",
+      "dateTimeGMT": "2026-11-27T15:30:00",
+      "teams": [
+        "Andaman Admirals",
+        "Chandigarh Royal Strikers"
+      ],
+      "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
+    }
+  },
+  "a673e759-ca5c-440f-badc-6951524e1738": {
+    "cachedAt": "2026-11-24T10:13:11.561180+00:00",
+    "data": {
+      "id": "a673e759-ca5c-440f-badc-6951524e1738",
+      "name": "Otago vs Wellington, 5th Match, Plunket Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 26, 21:30 GMT",
+      "venue": "University Oval, Dunedin",
+      "date": "2026-11-27",
+      "dateTimeGMT": "2026-11-27T21:30:00",
+      "teams": [
+        "Otago",
+        "Wellington"
+      ],
+      "series_id": "ded5b9f9-9a41-44c9-a8ad-356df72cc432"
+    }
+  },
+  "84f222b4-c5e6-4eb2-81e9-663b7e84d3af": {
+    "cachedAt": "2026-11-24T10:13:11.718876+00:00",
+    "data": {
+      "id": "84f222b4-c5e6-4eb2-81e9-663b7e84d3af",
+      "name": "Northern Districts vs Central Districts, 4th Match, Plunket Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Nov 26, 21:30 GMT",
+      "venue": "Bay Oval, Mount Maunganui",
+      "date": "2026-11-27",
+      "dateTimeGMT": "2026-11-27T21:30:00",
+      "teams": [
+        "Northern Districts",
+        "Central Districts"
+      ],
+      "series_id": "ded5b9f9-9a41-44c9-a8ad-356df72cc432"
+    }
+  },
+  "c81e7d49-463b-478a-bc28-06608c6466d2": {
+    "cachedAt": "2026-11-24T10:13:11.876886+00:00",
+    "data": {
+      "id": "c81e7d49-463b-478a-bc28-06608c6466d2",
+      "name": "New Zealand vs India, 2nd Test, India tour of New Zealand 2026",
+      "status": "Match starts at Nov 26, 22:00 GMT",
+      "venue": "Hagley Oval, Christchurch",
+      "date": "2026-11-27",
+      "dateTimeGMT": "2026-11-27T22:00:00",
+      "teams": [
+        "New Zealand",
+        "India"
+      ],
+      "series_id": "9f0a2527-1508-42b3-9945-4ade13fd4b5a"
+    }
+  },
+  "91d6548c-b188-4ea8-ab44-799283ff0b75": {
+    "cachedAt": "2026-11-24T10:13:12.043715+00:00",
+    "data": {
+      "id": "91d6548c-b188-4ea8-ab44-799283ff0b75",
+      "name": "Zimbabwe A vs Ireland A, 5th unofficial ODI, Ireland A tour of Zimbabwe, 2026",
+      "status": "Match starts at Nov 28, 07:30 GMT",
+      "venue": "TBC, TBC",
+      "date": "2026-11-28",
+      "dateTimeGMT": "2026-11-28T07:30:00",
+      "teams": [
+        "Zimbabwe A",
+        "Ireland A"
+      ],
+      "series_id": "55616b78-3f8c-429a-b9c2-cf73c72d4cd4"
+    }
+  },
+  "63cc8c21-488d-4f6b-b059-a01c9337893e": {
+    "cachedAt": "2026-11-24T10:13:12.204809+00:00",
+    "data": {
+      "id": "63cc8c21-488d-4f6b-b059-a01c9337893e",
+      "name": "India Women U19 vs England Women U19, 2nd unofficial T20, England Women U19 tour of India 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 28, 07:30 GMT",
+      "venue": "BCA Stadium, Kotambi, Vadodara",
+      "date": "2026-11-28",
+      "dateTimeGMT": "2026-11-28T07:30:00",
+      "teams": [
+        "India Women U19",
+        "England Women U19"
+      ],
+      "series_id": "e52665ad-f801-47a8-85f7-b4fe9fdefdb5"
+    }
+  },
+  "9c9e7590-a78e-41f5-be1d-9baa730806dc": {
+    "cachedAt": "2026-11-24T10:13:12.364952+00:00",
+    "data": {
+      "id": "9c9e7590-a78e-41f5-be1d-9baa730806dc",
+      "name": "Sydney Thunder Women vs Sydney Sixers Women, 38th Match, Womens Big Bash League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 28, 08:10 GMT",
+      "venue": "Drummoyne Oval, Sydney",
+      "date": "2026-11-28",
+      "dateTimeGMT": "2026-11-28T08:10:00",
+      "teams": [
+        "Sydney Thunder Women",
+        "Sydney Sixers Women"
+      ],
+      "series_id": "99c71a79-bc1f-4496-be02-f6b9a2be03ba"
+    }
   }
 }
