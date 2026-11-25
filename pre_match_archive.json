@@ -215422,7 +215422,7 @@
         }
     },
     "andhra warriors|bihar rising|2026-11-25": {
-        "capturedAt": "2026-11-24T20:47:00.325172+00:00",
+        "capturedAt": "2026-11-25T08:58:59.715349+00:00",
         "matchDate": "2026-11-25",
         "report": {
             "teamA": "Bihar Rising",
@@ -215531,12 +215531,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -215548,7 +215548,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 71%, dew HIGH"
+                    "Weather: rain 66%, dew HIGH"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -215598,16 +215598,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-25T19:30:00+05:30",
-                "temperature_c": 21.3,
+                "temperature_c": 21.1,
                 "humidity_pct": 95,
-                "dew_point_c": 20.5,
-                "rain_probability_pct": 71,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 11.2,
+                "dew_point_c": 20.2,
+                "rain_probability_pct": 66,
+                "precipitation_mm": 0.1,
+                "wind_kmh": 8.4,
                 "dew_risk": "HIGH",
                 "rain_risk": "HIGH"
             },
-            "weatherText": "21.3°C | RH 95% | Rain 71% | Wind 11.2 km/h",
+            "weatherText": "21.1°C | RH 95% | Rain 66% | Wind 8.4 km/h",
             "dewRisk": "HIGH",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -215654,7 +215654,7 @@
         }
     },
     "desert vipers|dubai capitals|2026-11-25": {
-        "capturedAt": "2026-11-24T20:47:00.325181+00:00",
+        "capturedAt": "2026-11-25T08:58:59.715372+00:00",
         "matchDate": "2026-11-25",
         "report": {
             "teamA": "Dubai Capitals",
@@ -215909,12 +215909,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -216167,16 +216167,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-25T18:30:00+04:00",
-                "temperature_c": 26.5,
-                "humidity_pct": 59,
-                "dew_point_c": 17.9,
+                "temperature_c": 26.6,
+                "humidity_pct": 58,
+                "dew_point_c": 17.6,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 9.3,
+                "wind_kmh": 10.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.5°C | RH 59% | Rain 0% | Wind 9.3 km/h",
+            "weatherText": "26.6°C | RH 58% | Rain 0% | Wind 10.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "54.58% Chasing Wins",
             "tossTrend": "Historical venue trend",

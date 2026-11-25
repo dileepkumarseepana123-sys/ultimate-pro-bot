@@ -14854,5 +14854,41 @@
         "cache": 0
       }
     }
+  },
+  "7842c1c6-cf1d-4a79-8063-27df6a6ddfdc": {
+    "cachedAt": "2026-11-25T08:58:54.515583+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 64,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 5,
+        "queryTime": 14.7892,
+        "s": 0,
+        "cache": 0
+      }
+    }
+  },
+  "a1899243-cdaf-4ad5-98db-72477456b3fb": {
+    "cachedAt": "2026-11-25T08:58:55.988240+00:00",
+    "payload": {
+      "apikey": "8ea9030f-60fe-46a7-a2aa-e985361b63bd",
+      "data": [],
+      "status": "success",
+      "info": {
+        "hitsToday": 74,
+        "hitsUsed": 10,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 3,
+        "queryTime": 11.991,
+        "s": 0,
+        "cache": 0
+      }
+    }
   }
 }

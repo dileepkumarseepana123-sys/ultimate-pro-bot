@@ -12152,5 +12152,140 @@
       ],
       "series_id": "9c385594-20fe-4d3d-b2bb-df4de8e043bc"
     }
+  },
+  "55420f33-33d4-47f7-a712-04b690203485": {
+    "cachedAt": "2026-11-25T08:58:09.983573+00:00",
+    "data": {
+      "id": "55420f33-33d4-47f7-a712-04b690203485",
+      "name": "Abu Dhabi Knight Riders vs Sharjah Warriorz, 11th Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 29, 10:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-29",
+      "dateTimeGMT": "2026-11-29T10:00:00",
+      "teams": [
+        "Abu Dhabi Knight Riders",
+        "Sharjah Warriorz"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
+  },
+  "5fb1a137-66fe-49dd-9fd3-a8eb38d45ec1": {
+    "cachedAt": "2026-11-25T08:58:10.116875+00:00",
+    "data": {
+      "id": "5fb1a137-66fe-49dd-9fd3-a8eb38d45ec1",
+      "name": "Desert Vipers vs Gulf Giants, 12h Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 29, 14:30 GMT",
+      "venue": "Dubai International Cricket Stadium, Dubai",
+      "date": "2026-11-29",
+      "dateTimeGMT": "2026-11-29T14:30:00",
+      "teams": [
+        "Desert Vipers",
+        "Gulf Giants"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
+  },
+  "2111287d-c5a3-47f5-a146-7526e1bbccb3": {
+    "cachedAt": "2026-11-25T08:58:10.249215+00:00",
+    "data": {
+      "id": "2111287d-c5a3-47f5-a146-7526e1bbccb3",
+      "name": "India A Women vs England A Women, 1st unofficial T20, England A Women tour of India 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 30, 07:30 GMT",
+      "venue": "Maharashtra Cricket Association Stadium, Pune",
+      "date": "2026-11-30",
+      "dateTimeGMT": "2026-11-30T07:30:00",
+      "teams": [
+        "India A Women",
+        "England A Women"
+      ],
+      "series_id": "3197381a-f366-4883-8df6-9a437085a7ab"
+    }
+  },
+  "044db89c-4401-44ef-bfab-1b66d2129491": {
+    "cachedAt": "2026-11-25T08:58:10.381199+00:00",
+    "data": {
+      "id": "044db89c-4401-44ef-bfab-1b66d2129491",
+      "name": "Abu Dhabi Knight Riders vs Mi Emirates, 13th Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 30, 14:30 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-11-30",
+      "dateTimeGMT": "2026-11-30T14:30:00",
+      "teams": [
+        "Abu Dhabi Knight Riders",
+        "Mi Emirates"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
+  },
+  "93251275-ecae-4913-82ba-da8ee745cf9b": {
+    "cachedAt": "2026-11-25T08:58:10.512728+00:00",
+    "data": {
+      "id": "93251275-ecae-4913-82ba-da8ee745cf9b",
+      "name": "South Africa vs Bangladesh, 1st ODI, Bangladesh tour of South Africa, 2026",
+      "status": "Match starts at Dec 01, 11:30 GMT",
+      "venue": "Buffalo Park, East London",
+      "date": "2026-12-01",
+      "dateTimeGMT": "2026-12-01T11:30:00",
+      "teams": [
+        "South Africa",
+        "Bangladesh"
+      ],
+      "series_id": "7acadb0c-bc4e-4c91-8c47-7bbe53f2227b"
+    }
+  },
+  "ea50b8fe-afb3-41b0-9460-5bde3303ad0f": {
+    "cachedAt": "2026-11-25T08:58:10.644613+00:00",
+    "data": {
+      "id": "ea50b8fe-afb3-41b0-9460-5bde3303ad0f",
+      "name": "India Women U19 vs England Women U19, 3rd unofficial T20, England Women U19 tour of India 2026",
+      "matchType": "t20",
+      "status": "Match starts at Dec 01, 12:30 GMT",
+      "venue": "CB Patel International Cricket Stadium, Surat",
+      "date": "2026-12-01",
+      "dateTimeGMT": "2026-12-01T12:30:00",
+      "teams": [
+        "India Women U19",
+        "England Women U19"
+      ],
+      "series_id": "e52665ad-f801-47a8-85f7-b4fe9fdefdb5"
+    }
+  },
+  "9176678a-f1c2-4d7f-b00c-dfc531016a52": {
+    "cachedAt": "2026-11-25T08:58:10.776107+00:00",
+    "data": {
+      "id": "9176678a-f1c2-4d7f-b00c-dfc531016a52",
+      "name": "Sharjah Warriorz vs Gulf Giants, 14th Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Dec 01, 14:30 GMT",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-12-01",
+      "dateTimeGMT": "2026-12-01T14:30:00",
+      "teams": [
+        "Sharjah Warriorz",
+        "Gulf Giants"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
+  },
+  "c2978f95-2e4d-4e65-ae7e-b644f53c57e5": {
+    "cachedAt": "2026-11-25T08:58:10.908058+00:00",
+    "data": {
+      "id": "c2978f95-2e4d-4e65-ae7e-b644f53c57e5",
+      "name": "Australia vs England, 5th T20I, England tour of Australia, 2026",
+      "matchType": "t20",
+      "status": "Match starts at Dec 02, 08:15 GMT",
+      "venue": "Manuka Oval, Canberra",
+      "date": "2026-12-02",
+      "dateTimeGMT": "2026-12-02T08:15:00",
+      "teams": [
+        "Australia",
+        "England"
+      ],
+      "series_id": "9c385594-20fe-4d3d-b2bb-df4de8e043bc"
+    }
   }
 }
