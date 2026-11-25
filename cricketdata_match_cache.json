@@ -12287,5 +12287,56 @@
       ],
       "series_id": "9c385594-20fe-4d3d-b2bb-df4de8e043bc"
     }
+  },
+  "39dd6c08-96af-4a2d-9db6-b193a04c8787": {
+    "cachedAt": "2026-11-25T20:02:35.222652+00:00",
+    "data": {
+      "id": "39dd6c08-96af-4a2d-9db6-b193a04c8787",
+      "name": "Sri Lanka A vs India A, 1st Semi-Final (A1 v B2), ACC Mens Asia Cup Rising Stars 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 26, 10:00 GMT",
+      "venue": "West End Park International Cricket Stadium, Doha",
+      "date": "2026-11-26",
+      "dateTimeGMT": "2026-11-26T10:00:00",
+      "teams": [
+        "Sri Lanka A",
+        "India A"
+      ],
+      "series_id": "fe4c9986-8622-4938-8f19-d5db8cbc43e2"
+    }
+  },
+  "9d546d12-9d21-48ea-812d-116a14a9da03": {
+    "cachedAt": "2026-11-25T20:02:35.360025+00:00",
+    "data": {
+      "id": "9d546d12-9d21-48ea-812d-116a14a9da03",
+      "name": "Abu Dhabi Knight Riders vs Desert Vipers, 15th Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Dec 02, 10:00 GMT",
+      "venue": "Sheikh Zayed Stadium, Abu Dhabi",
+      "date": "2026-12-02",
+      "dateTimeGMT": "2026-12-02T10:00:00",
+      "teams": [
+        "Abu Dhabi Knight Riders",
+        "Desert Vipers"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
+  },
+  "dd83a768-ebe7-436d-9d41-d162b9cb9589": {
+    "cachedAt": "2026-11-25T20:02:35.493927+00:00",
+    "data": {
+      "id": "dd83a768-ebe7-436d-9d41-d162b9cb9589",
+      "name": "Dubai Capitals vs Mi Emirates, 16th Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Dec 02, 14:30 GMT",
+      "venue": "Dubai International Cricket Stadium, Dubai",
+      "date": "2026-12-02",
+      "dateTimeGMT": "2026-12-02T14:30:00",
+      "teams": [
+        "Dubai Capitals",
+        "Mi Emirates"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
   }
 }
