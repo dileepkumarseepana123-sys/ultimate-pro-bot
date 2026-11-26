@@ -12338,5 +12338,73 @@
       ],
       "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
     }
+  },
+  "04a45005-5ec7-4378-aae4-4ae387c51e05": {
+    "cachedAt": "2026-11-26T08:44:32.867288+00:00",
+    "data": {
+      "id": "04a45005-5ec7-4378-aae4-4ae387c51e05",
+      "name": "South Australia vs Tasmania, 18th Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Dec 03, 00:00 GMT",
+      "venue": "Adelaide Oval, Adelaide",
+      "date": "2026-12-03",
+      "dateTimeGMT": "2026-12-03T00:00:00",
+      "teams": [
+        "South Australia",
+        "Tasmania"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
+  },
+  "d370c360-03cd-4995-8130-b0c725902668": {
+    "cachedAt": "2026-11-26T08:44:33.051923+00:00",
+    "data": {
+      "id": "d370c360-03cd-4995-8130-b0c725902668",
+      "name": "Titans vs Lions, 19th Match, CSA Four-Day Series Division One 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Dec 03, 08:00 GMT",
+      "venue": "SuperSport Park, Centurion",
+      "date": "2026-12-03",
+      "dateTimeGMT": "2026-12-03T08:00:00",
+      "teams": [
+        "Titans",
+        "Lions"
+      ],
+      "series_id": "4e9b136f-04eb-4f34-a30a-26f954576a12"
+    }
+  },
+  "b6ff743c-3cf1-4b12-ab2c-a2f54825a2e8": {
+    "cachedAt": "2026-11-26T08:44:33.235447+00:00",
+    "data": {
+      "id": "b6ff743c-3cf1-4b12-ab2c-a2f54825a2e8",
+      "name": "Dolphins vs Boland, 17th Match, CSA Four-Day Series Division One 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Dec 03, 08:00 GMT",
+      "venue": "Kingsmead, Durban",
+      "date": "2026-12-03",
+      "dateTimeGMT": "2026-12-03T08:00:00",
+      "teams": [
+        "Dolphins",
+        "Boland"
+      ],
+      "series_id": "4e9b136f-04eb-4f34-a30a-26f954576a12"
+    }
+  },
+  "32246fda-cf60-4944-a6f2-35aaa17ae770": {
+    "cachedAt": "2026-11-26T08:44:33.418820+00:00",
+    "data": {
+      "id": "32246fda-cf60-4944-a6f2-35aaa17ae770",
+      "name": "Knights vs Warriors, 18th Match, CSA Four-Day Series Division One 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Dec 03, 08:00 GMT",
+      "venue": "Mangaung Oval, Bloemfontein",
+      "date": "2026-12-03",
+      "dateTimeGMT": "2026-12-03T08:00:00",
+      "teams": [
+        "Knights",
+        "Warriors"
+      ],
+      "series_id": "4e9b136f-04eb-4f34-a30a-26f954576a12"
+    }
   }
 }
