@@ -12406,5 +12406,73 @@
       ],
       "series_id": "4e9b136f-04eb-4f34-a30a-26f954576a12"
     }
+  },
+  "52e54477-0f42-4b04-8ae2-63851f0b1ef1": {
+    "cachedAt": "2026-11-26T19:45:22.416529+00:00",
+    "data": {
+      "id": "52e54477-0f42-4b04-8ae2-63851f0b1ef1",
+      "name": "Pakistan A vs Bangladesh A, 2nd Semi-Final (B1 v A2), ACC Mens Asia Cup Rising Stars 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 27, 10:00 GMT",
+      "venue": "West End Park International Cricket Stadium, Doha",
+      "date": "2026-11-27",
+      "dateTimeGMT": "2026-11-27T10:00:00",
+      "teams": [
+        "Pakistan A",
+        "Bangladesh A"
+      ],
+      "series_id": "fe4c9986-8622-4938-8f19-d5db8cbc43e2"
+    }
+  },
+  "5a5d0243-a858-4e11-9cc2-1bfdb8ae7809": {
+    "cachedAt": "2026-11-26T19:45:22.563247+00:00",
+    "data": {
+      "id": "5a5d0243-a858-4e11-9cc2-1bfdb8ae7809",
+      "name": "India A Women vs England A Women, 2nd unofficial T20, England A Women tour of India 2026",
+      "matchType": "t20",
+      "status": "Match starts at Dec 03, 12:30 GMT",
+      "venue": "Maharashtra Cricket Association Stadium, Pune",
+      "date": "2026-12-03",
+      "dateTimeGMT": "2026-12-03T12:30:00",
+      "teams": [
+        "India A Women",
+        "England A Women"
+      ],
+      "series_id": "3197381a-f366-4883-8df6-9a437085a7ab"
+    }
+  },
+  "9783d4aa-7323-4c52-bbab-1c6d174effc6": {
+    "cachedAt": "2026-11-26T19:45:22.704529+00:00",
+    "data": {
+      "id": "9783d4aa-7323-4c52-bbab-1c6d174effc6",
+      "name": "India Women U19 vs England Women U19, 4th unofficial T20, England Women U19 tour of India 2026",
+      "matchType": "t20",
+      "status": "Match starts at Dec 03, 12:30 GMT",
+      "venue": "CB Patel International Cricket Stadium, Surat",
+      "date": "2026-12-03",
+      "dateTimeGMT": "2026-12-03T12:30:00",
+      "teams": [
+        "India Women U19",
+        "England Women U19"
+      ],
+      "series_id": "e52665ad-f801-47a8-85f7-b4fe9fdefdb5"
+    }
+  },
+  "c776f80c-7f68-42e7-90e7-b988a7563214": {
+    "cachedAt": "2026-11-26T19:45:22.848863+00:00",
+    "data": {
+      "id": "c776f80c-7f68-42e7-90e7-b988a7563214",
+      "name": "Dubai Capitals vs Gulf Giants, 17th Match, International League T20 2026",
+      "matchType": "t20",
+      "status": "Match starts at Dec 03, 14:30 GMT",
+      "venue": "Dubai International Cricket Stadium, Dubai",
+      "date": "2026-12-03",
+      "dateTimeGMT": "2026-12-03T14:30:00",
+      "teams": [
+        "Dubai Capitals",
+        "Gulf Giants"
+      ],
+      "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
+    }
   }
 }
