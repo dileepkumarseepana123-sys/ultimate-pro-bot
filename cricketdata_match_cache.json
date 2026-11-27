@@ -12474,5 +12474,72 @@
       ],
       "series_id": "03ae5892-ea9f-4662-95f4-879d04dd2399"
     }
+  },
+  "0c634572-f50a-4265-bc9d-8ef5fea964d6": {
+    "cachedAt": "2026-11-27T08:55:21.267411+00:00",
+    "data": {
+      "id": "0c634572-f50a-4265-bc9d-8ef5fea964d6",
+      "name": "Indonesia Women vs Malaysia Women, Final, Malaysia Womens T20I Tri-Series, 2026",
+      "matchType": "t20",
+      "status": "Indonesia Women won by 8 wkts - 13 overs game due to rain",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-11-27",
+      "dateTimeGMT": "2026-11-27T02:00:00",
+      "teams": [
+        "Indonesia Women",
+        "Malaysia Women"
+      ],
+      "series_id": "91f85089-04b9-4c17-8825-f8eabf2ee8be"
+    }
+  },
+  "9c40cdbf-6971-4bb3-9154-a94015d582ed": {
+    "cachedAt": "2026-11-27T08:55:21.468426+00:00",
+    "data": {
+      "id": "9c40cdbf-6971-4bb3-9154-a94015d582ed",
+      "name": "South Africa A vs England Lions, 1st Unofficial ODI, England Lions tour of South Africa, 2026",
+      "status": "Match not started",
+      "venue": "City Oval, Pietermaritzburg",
+      "date": "2026-12-01",
+      "dateTimeGMT": "2026-12-01T08:00:00",
+      "teams": [
+        "South Africa A",
+        "England Lions"
+      ],
+      "series_id": "51e89ccc-40d2-4655-9df9-3f4349db1ba5"
+    }
+  },
+  "0bb15b07-959a-4695-a62d-87ff5bb386e9": {
+    "cachedAt": "2026-11-27T08:55:21.660823+00:00",
+    "data": {
+      "id": "0bb15b07-959a-4695-a62d-87ff5bb386e9",
+      "name": "Victoria vs Queensland, 17th Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Dec 02, 23:30 GMT",
+      "venue": "Melbourne Cricket Ground, Melbourne",
+      "date": "2026-12-03",
+      "dateTimeGMT": "2026-12-03T23:30:00",
+      "teams": [
+        "Victoria",
+        "Queensland"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
+  },
+  "034c10df-43e2-4f0c-8621-4505a4c3116e": {
+    "cachedAt": "2026-11-27T08:55:21.851187+00:00",
+    "data": {
+      "id": "034c10df-43e2-4f0c-8621-4505a4c3116e",
+      "name": "New South Wales vs Western Australia, 16th Match, Sheffield Shield 2026-27",
+      "matchType": "test",
+      "status": "Match starts at Dec 02, 23:30 GMT",
+      "venue": "Sydney Cricket Ground, Sydney",
+      "date": "2026-12-03",
+      "dateTimeGMT": "2026-12-03T23:30:00",
+      "teams": [
+        "New South Wales",
+        "Western Australia"
+      ],
+      "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
+    }
   }
 }

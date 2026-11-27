@@ -227032,7 +227032,7 @@
         }
     },
     "andhra warriors|chandigarh royal strikers|2026-11-27": {
-        "capturedAt": "2026-11-26T19:47:01.797517+00:00",
+        "capturedAt": "2026-11-27T08:59:20.161533+00:00",
         "matchDate": "2026-11-27",
         "report": {
             "teamA": "Chandigarh Royal Strikers",
@@ -227081,14 +227081,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 27.3,
+            "swingScore": 17.5,
             "strategyLabel": "INSUFFICIENT DATA",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 17,
+                "dataCompletenessPct": 0,
                 "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 27.3,
+                "swingScore": 17.5,
                 "strategyLabel": "INSUFFICIENT DATA",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -227121,11 +227121,6 @@
                 ],
                 "scoreComponents": [
                     {
-                        "name": "weather",
-                        "score": 70.0,
-                        "weight": 0.1
-                    },
-                    {
                         "name": "market_proxy",
                         "score": 35.0,
                         "weight": 0.2
@@ -227139,25 +227134,23 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS DATA LIMITED",
-                "dataConfidencePct": 14,
+                "dataConfidencePct": 0,
                 "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
                 "edgeTeam": null,
                 "edgeStrength": "DATA LIMITED",
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
-                "conditions": [
-                    "Weather: rain 58%, dew LOW"
-                ],
+                "conditions": [],
                 "evidence": [],
                 "pendingGates": [
                     "Toss result and batting/fielding decision",
@@ -227204,19 +227197,11 @@
                 "recent": []
             },
             "weather": {
-                "status": "OK",
-                "local_time": "2026-11-27T15:00:00+05:30",
-                "temperature_c": 25.7,
-                "humidity_pct": 63,
-                "dew_point_c": 18.1,
-                "rain_probability_pct": 58,
-                "precipitation_mm": 0.2,
-                "wind_kmh": 13.3,
-                "dew_risk": "LOW",
-                "rain_risk": "MEDIUM"
+                "status": "UNKNOWN",
+                "reason": "Weather API error: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
             },
-            "weatherText": "25.7°C | RH 63% | Rain 58% | Wind 13.3 km/h",
-            "dewRisk": "LOW",
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "UNKNOWN",
@@ -227230,7 +227215,7 @@
             "spinNote": "UNKNOWN",
             "metricSources": {
                 "fixture": "CricketData cricScore + Match List",
-                "weather": "Open-Meteo match-hour forecast",
+                "weather": "Open-Meteo unavailable/UNKNOWN",
                 "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
                 "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
                 "over16": "Cricsheet 16th-over history insufficient/UNKNOWN",
@@ -227248,6 +227233,7 @@
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
+                "WEATHER DATA UNKNOWN",
                 "LIMITED RECENT T20 DATA FOR Chandigarh Royal Strikers",
                 "LIMITED RECENT T20 DATA FOR Andhra Warriors"
             ],
@@ -227260,7 +227246,7 @@
         }
     },
     "hobart hurricanes women|perth scorchers women|2026-11-27": {
-        "capturedAt": "2026-11-26T19:47:01.797527+00:00",
+        "capturedAt": "2026-11-27T08:59:20.161561+00:00",
         "matchDate": "2026-11-27",
         "report": {
             "teamA": "Perth Scorchers Women",
@@ -227374,15 +227360,15 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "BALANCED",
-            "swingScore": 72.8,
-            "strategyLabel": "HIGH SWING POTENTIAL — PRICE CHECK REQUIRED",
+            "swingScore": 67.3,
+            "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 83,
-                "swingProfile": "TWO-WAY SWING PROFILE",
-                "swingScore": 72.8,
-                "strategyLabel": "HIGH SWING POTENTIAL — PRICE CHECK REQUIRED",
+                "dataCompletenessPct": 67,
+                "swingProfile": "CONDITIONAL SWING PROFILE",
+                "swingScore": 67.3,
+                "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
                 "competitiveBalance": {
                     "label": "BALANCED",
                     "balanceScore": 97.4,
@@ -227494,11 +227480,6 @@
                         "weight": 0.15
                     },
                     {
-                        "name": "weather",
-                        "score": 70.0,
-                        "weight": 0.1
-                    },
-                    {
                         "name": "market_proxy",
                         "score": 100.0,
                         "weight": 0.2
@@ -227512,12 +227493,39 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "CricketData match_squad"
             },
             "squadSummary": {
-                "status": "NO SQUAD DATA",
-                "teams": {},
-                "source": "Not queried"
+                "status": "SQUAD AVAILABLE — XI PENDING",
+                "teams": {
+                    "Hobart Hurricanes Women": {
+                        "players": 13,
+                        "knownBowlingStyles": 12,
+                        "spinOptions": 1,
+                        "paceOptions": 6,
+                        "roleCounts": {
+                            "batters": 2,
+                            "allRounders": 4,
+                            "bowlers": 7,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    },
+                    "Perth Scorchers Women": {
+                        "players": 11,
+                        "knownBowlingStyles": 9,
+                        "spinOptions": 0,
+                        "paceOptions": 5,
+                        "roleCounts": {
+                            "batters": 3,
+                            "allRounders": 5,
+                            "bowlers": 3,
+                            "keepers": 0
+                        },
+                        "playingFlagsPublished": 0
+                    }
+                },
+                "source": "CricketData match_squad"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -227533,8 +227541,7 @@
                     "Powerplay baseline: 38.1 runs / 1.28 wickets",
                     "Chase-lean venue: 72.0% chasing wins",
                     "Overs 7-14 wicket pressure: 2.92 wickets/match",
-                    "16th-over baseline: 7.2 runs; wicket in 33.3% of sampled innings",
-                    "Weather: rain 0%, dew LOW"
+                    "16th-over baseline: 7.2 runs; wicket in 33.3% of sampled innings"
                 ],
                 "evidence": [
                     "Elo: Perth Scorchers Women 1526.6 vs Hobart Hurricanes Women 1525.0",
@@ -227559,7 +227566,7 @@
                 "over16AvgRuns": 7.17,
                 "over16WicketEventPct": 33.33,
                 "spinWicketSharePct": null,
-                "squadStatus": "NO SQUAD DATA",
+                "squadStatus": "SQUAD AVAILABLE — XI PENDING",
                 "summary": "Pre-toss evidence is broadly balanced; no clear historical side edge. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
             },
             "pendingGates": [
@@ -227766,19 +227773,11 @@
                 ]
             },
             "weather": {
-                "status": "OK",
-                "local_time": "2026-11-27T18:10:00+08:00",
-                "temperature_c": 21.0,
-                "humidity_pct": 56,
-                "dew_point_c": 11.9,
-                "rain_probability_pct": 0,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 20.2,
-                "dew_risk": "LOW",
-                "rain_risk": "LOW"
+                "status": "UNKNOWN",
+                "reason": "Weather API error: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
             },
-            "weatherText": "21.0°C | RH 56% | Rain 0% | Wind 20.2 km/h",
-            "dewRisk": "LOW",
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
             "tossBias": "72.0% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "38.12",
@@ -227792,7 +227791,7 @@
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 2.92/match",
             "metricSources": {
                 "fixture": "CricketData cricScore + match_info",
-                "weather": "Open-Meteo match-hour forecast",
+                "weather": "Open-Meteo unavailable/UNKNOWN",
                 "tossBias": "Cricsheet venue T20 history (n=25)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=25)",
                 "over16": "Cricsheet 16th-over history (n=48)",
@@ -227822,7 +227821,9 @@
             "spinnerWickets7to14": null,
             "spinClassificationPct": 0.99,
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
-            "noBetReasons": [],
+            "noBetReasons": [
+                "WEATHER DATA UNKNOWN"
+            ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
@@ -227832,7 +227833,7 @@
         }
     },
     "j k northern warriors|telangana singhams|2026-11-27": {
-        "capturedAt": "2026-11-26T19:47:01.797537+00:00",
+        "capturedAt": "2026-11-27T08:59:20.161597+00:00",
         "matchDate": "2026-11-27",
         "report": {
             "teamA": "J&k Northern Warriors",
@@ -227886,7 +227887,7 @@
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 17,
+                "dataCompletenessPct": 0,
                 "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
                 "swingScore": 17.5,
                 "strategyLabel": "INSUFFICIENT DATA",
@@ -227917,15 +227918,9 @@
                 },
                 "swingCatalysts": [],
                 "swingPenalties": [
-                    "High rain-interruption risk",
                     "Liquidity/market depth is not verified"
                 ],
                 "scoreComponents": [
-                    {
-                        "name": "weather",
-                        "score": 20.0,
-                        "weight": 0.1
-                    },
                     {
                         "name": "market_proxy",
                         "score": 35.0,
@@ -227940,25 +227935,23 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS DATA LIMITED",
-                "dataConfidencePct": 14,
+                "dataConfidencePct": 0,
                 "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
                 "edgeTeam": null,
                 "edgeStrength": "DATA LIMITED",
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
-                "conditions": [
-                    "Weather: rain 75%, dew LOW"
-                ],
+                "conditions": [],
                 "evidence": [],
                 "pendingGates": [
                     "Toss result and batting/fielding decision",
@@ -228005,19 +227998,11 @@
                 "recent": []
             },
             "weather": {
-                "status": "OK",
-                "local_time": "2026-11-27T17:00:00+05:30",
-                "temperature_c": 23.8,
-                "humidity_pct": 76,
-                "dew_point_c": 19.4,
-                "rain_probability_pct": 75,
-                "precipitation_mm": 0.2,
-                "wind_kmh": 11.5,
-                "dew_risk": "LOW",
-                "rain_risk": "HIGH"
+                "status": "UNKNOWN",
+                "reason": "Weather API error: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
             },
-            "weatherText": "23.8°C | RH 76% | Rain 75% | Wind 11.5 km/h",
-            "dewRisk": "LOW",
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "UNKNOWN",
@@ -228031,7 +228016,7 @@
             "spinNote": "UNKNOWN",
             "metricSources": {
                 "fixture": "CricketData cricScore + Match List",
-                "weather": "Open-Meteo match-hour forecast",
+                "weather": "Open-Meteo unavailable/UNKNOWN",
                 "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
                 "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
                 "over16": "Cricsheet 16th-over history insufficient/UNKNOWN",
@@ -228049,7 +228034,7 @@
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
-                "HIGH RAIN INTERRUPTION RISK",
+                "WEATHER DATA UNKNOWN",
                 "LIMITED RECENT T20 DATA FOR J&k Northern Warriors",
                 "LIMITED RECENT T20 DATA FOR Telangana Singhams"
             ],
@@ -228062,7 +228047,7 @@
         }
     },
     "bihar rising|haryana phoenix|2026-11-27": {
-        "capturedAt": "2026-11-26T19:47:01.797546+00:00",
+        "capturedAt": "2026-11-27T08:59:20.161613+00:00",
         "matchDate": "2026-11-27",
         "report": {
             "teamA": "Bihar Rising",
@@ -228080,7 +228065,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "05172178-9638-4b9b-9691-8071cb08b0e8",
             "liveScoreText": null,
-            "sourceStatus": "Match not started",
+            "sourceStatus": "Match starts at Nov 27, 13:30 GMT",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -228111,14 +228096,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 31.2,
+            "swingScore": 17.5,
             "strategyLabel": "INSUFFICIENT DATA",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 17,
+                "dataCompletenessPct": 0,
                 "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 31.2,
+                "swingScore": 17.5,
                 "strategyLabel": "INSUFFICIENT DATA",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -228145,18 +228130,11 @@
                     "sourceLimitations": [],
                     "majorTeamAsymmetryProxyUsed": false
                 },
-                "swingCatalysts": [
-                    "Medium dew can change second-innings conditions"
-                ],
+                "swingCatalysts": [],
                 "swingPenalties": [
                     "Liquidity/market depth is not verified"
                 ],
                 "scoreComponents": [
-                    {
-                        "name": "weather",
-                        "score": 90.0,
-                        "weight": 0.1
-                    },
                     {
                         "name": "market_proxy",
                         "score": 35.0,
@@ -228171,25 +228149,23 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS DATA LIMITED",
-                "dataConfidencePct": 14,
+                "dataConfidencePct": 0,
                 "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
                 "edgeTeam": null,
                 "edgeStrength": "DATA LIMITED",
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
-                "conditions": [
-                    "Weather: rain 57%, dew MEDIUM"
-                ],
+                "conditions": [],
                 "evidence": [],
                 "pendingGates": [
                     "Toss result and batting/fielding decision",
@@ -228236,19 +228212,11 @@
                 "recent": []
             },
             "weather": {
-                "status": "OK",
-                "local_time": "2026-11-27T19:00:00+05:30",
-                "temperature_c": 21.6,
-                "humidity_pct": 87,
-                "dew_point_c": 19.3,
-                "rain_probability_pct": 57,
-                "precipitation_mm": 0.3,
-                "wind_kmh": 13.1,
-                "dew_risk": "MEDIUM",
-                "rain_risk": "MEDIUM"
+                "status": "UNKNOWN",
+                "reason": "Weather API error: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
             },
-            "weatherText": "21.6°C | RH 87% | Rain 57% | Wind 13.1 km/h",
-            "dewRisk": "MEDIUM",
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "UNKNOWN",
@@ -228262,7 +228230,7 @@
             "spinNote": "UNKNOWN",
             "metricSources": {
                 "fixture": "CricketData cricScore + Match List",
-                "weather": "Open-Meteo match-hour forecast",
+                "weather": "Open-Meteo unavailable/UNKNOWN",
                 "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
                 "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
                 "over16": "Cricsheet 16th-over history insufficient/UNKNOWN",
@@ -228280,12 +228248,12 @@
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
+                "WEATHER DATA UNKNOWN",
                 "LIMITED RECENT T20 DATA FOR Bihar Rising",
                 "LIMITED RECENT T20 DATA FOR Haryana Phoenix"
             ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
-                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
@@ -228293,7 +228261,7 @@
         }
     },
     "dubai capitals|sharjah warriorz|2026-11-27": {
-        "capturedAt": "2026-11-26T19:47:01.797554+00:00",
+        "capturedAt": "2026-11-27T08:59:20.161629+00:00",
         "matchDate": "2026-11-27",
         "report": {
             "teamA": "Sharjah Warriorz",
@@ -228371,14 +228339,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "BALANCED",
-            "swingScore": 59.3,
+            "swingScore": 53.3,
             "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 67,
+                "dataCompletenessPct": 50,
                 "swingProfile": "CONDITIONAL SWING PROFILE",
-                "swingScore": 59.3,
+                "swingScore": 53.3,
                 "strategyLabel": "MODERATE SWING POTENTIAL — CONDITIONAL",
                 "competitiveBalance": {
                     "label": "BALANCED",
@@ -228457,11 +228425,6 @@
                         "weight": 0.15
                     },
                     {
-                        "name": "weather",
-                        "score": 70.0,
-                        "weight": 0.1
-                    },
-                    {
                         "name": "market_proxy",
                         "score": 35.0,
                         "weight": 0.2
@@ -228475,17 +228438,17 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS CONDITIONAL",
-                "dataConfidencePct": 71,
+                "dataConfidencePct": 57,
                 "initialPrediction": "Dubai Capitals has a slight edge on the available pre-toss historical evidence.",
                 "edgeTeam": "Dubai Capitals",
                 "edgeStrength": "SLIGHT EDGE",
@@ -228496,8 +228459,7 @@
                     "Powerplay baseline: 42.9 runs / 1.52 wickets",
                     "Chase-lean venue: 59.6% chasing wins",
                     "Overs 7-14 wicket pressure: 4.36 wickets/match",
-                    "16th-over baseline: 8.2 runs; wicket in 34.1% of sampled innings",
-                    "Weather: rain 0%, dew LOW"
+                    "16th-over baseline: 8.2 runs; wicket in 34.1% of sampled innings"
                 ],
                 "evidence": [
                     "Elo: Sharjah Warriorz 1473.0 vs Dubai Capitals 1519.1",
@@ -228731,19 +228693,11 @@
                 ]
             },
             "weather": {
-                "status": "OK",
-                "local_time": "2026-11-27T18:30:00+04:00",
-                "temperature_c": 26.1,
-                "humidity_pct": 61,
-                "dew_point_c": 18.0,
-                "rain_probability_pct": 0,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 6.1,
-                "dew_risk": "LOW",
-                "rain_risk": "LOW"
+                "status": "UNKNOWN",
+                "reason": "Weather API error: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
             },
-            "weatherText": "26.1°C | RH 61% | Rain 0% | Wind 6.1 km/h",
-            "dewRisk": "LOW",
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
             "tossBias": "59.59% Chasing Wins",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "42.91",
@@ -228757,7 +228711,7 @@
             "spinNote": "NO DATA / INCOMPLETE BOWLER CLASSIFICATION | 7-14 wicket pressure 4.36/match",
             "metricSources": {
                 "fixture": "CricketData cricScore + match_info",
-                "weather": "Open-Meteo match-hour forecast",
+                "weather": "Open-Meteo unavailable/UNKNOWN",
                 "tossBias": "Cricsheet venue T20 history (n=150)",
                 "powerplay": "Cricsheet first-innings overs 1-6 (n=150)",
                 "over16": "Cricsheet 16th-over history (n=273)",
@@ -228787,7 +228741,9 @@
             "spinnerWickets7to14": null,
             "spinClassificationPct": 6.3,
             "verdict": "🟡 PRE-TOSS CONDITIONAL — TOSS/PRICE CHECK REQUIRED",
-            "noBetReasons": [],
+            "noBetReasons": [
+                "WEATHER DATA UNKNOWN"
+            ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
@@ -228797,7 +228753,7 @@
         }
     },
     "andaman admirals|chandigarh royal strikers|2026-11-27": {
-        "capturedAt": "2026-11-26T19:47:01.797564+00:00",
+        "capturedAt": "2026-11-27T08:59:20.161654+00:00",
         "matchDate": "2026-11-27",
         "report": {
             "teamA": "Andaman Admirals",
@@ -228815,7 +228771,7 @@
             "sourceMatchUrl": null,
             "cricketDataMatchId": "597a0b0e-59c7-4829-9e89-6eec4f167084",
             "liveScoreText": null,
-            "sourceStatus": "Match not started",
+            "sourceStatus": "Match starts at Nov 27, 15:30 GMT",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -228846,14 +228802,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 25.3,
+            "swingScore": 17.5,
             "strategyLabel": "INSUFFICIENT DATA",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
-                "dataCompletenessPct": 17,
+                "dataCompletenessPct": 0,
                 "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 25.3,
+                "swingScore": 17.5,
                 "strategyLabel": "INSUFFICIENT DATA",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -228882,15 +228838,9 @@
                 },
                 "swingCatalysts": [],
                 "swingPenalties": [
-                    "High dew may create strong chase-side bias",
                     "Liquidity/market depth is not verified"
                 ],
                 "scoreComponents": [
-                    {
-                        "name": "weather",
-                        "score": 60.0,
-                        "weight": 0.1
-                    },
                     {
                         "name": "market_proxy",
                         "score": 35.0,
@@ -228905,25 +228855,23 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
                 "preTossStatus": "PRE-TOSS DATA LIMITED",
-                "dataConfidencePct": 14,
+                "dataConfidencePct": 0,
                 "initialPrediction": "No reliable pre-toss team edge yet from the available historical inputs.",
                 "edgeTeam": null,
                 "edgeStrength": "DATA LIMITED",
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
-                "conditions": [
-                    "Weather: rain 37%, dew HIGH"
-                ],
+                "conditions": [],
                 "evidence": [],
                 "pendingGates": [
                     "Toss result and batting/fielding decision",
@@ -228970,19 +228918,11 @@
                 "recent": []
             },
             "weather": {
-                "status": "OK",
-                "local_time": "2026-11-27T21:00:00+05:30",
-                "temperature_c": 21.0,
-                "humidity_pct": 93,
-                "dew_point_c": 19.9,
-                "rain_probability_pct": 37,
-                "precipitation_mm": 0.0,
-                "wind_kmh": 12.2,
-                "dew_risk": "HIGH",
-                "rain_risk": "MEDIUM"
+                "status": "UNKNOWN",
+                "reason": "Weather API error: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
             },
-            "weatherText": "21.0°C | RH 93% | Rain 37% | Wind 12.2 km/h",
-            "dewRisk": "HIGH",
+            "weatherText": "NO DATA",
+            "dewRisk": "UNKNOWN",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "UNKNOWN",
@@ -228996,7 +228936,7 @@
             "spinNote": "UNKNOWN",
             "metricSources": {
                 "fixture": "CricketData cricScore + Match List",
-                "weather": "Open-Meteo match-hour forecast",
+                "weather": "Open-Meteo unavailable/UNKNOWN",
                 "tossBias": "Cricsheet venue history insufficient/UNKNOWN",
                 "powerplay": "Cricsheet venue history insufficient/UNKNOWN",
                 "over16": "Cricsheet 16th-over history insufficient/UNKNOWN",
@@ -229014,7 +228954,7 @@
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
-                "HIGH DEW RISK",
+                "WEATHER DATA UNKNOWN",
                 "LIMITED RECENT T20 DATA FOR Andaman Admirals",
                 "LIMITED RECENT T20 DATA FOR Chandigarh Royal Strikers"
             ],
@@ -229027,7 +228967,7 @@
         }
     },
     "tbc|tbc|2026-11-27": {
-        "capturedAt": "2026-11-26T19:47:01.797570+00:00",
+        "capturedAt": "2026-11-27T08:59:20.161676+00:00",
         "matchDate": "2026-11-27",
         "report": {
             "teamA": "Tbc",
@@ -229045,7 +228985,7 @@
             "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/178440/tbc-vs-tbc-final-malaysia-womens-t20i-tri-series-2026",
             "cricketDataMatchId": "0c634572-f50a-4265-bc9d-8ef5fea964d6",
             "liveScoreText": null,
-            "sourceStatus": "Match starts at Nov 27, 02:00 GMT",
+            "sourceStatus": "ARCHIVED PRE-MATCH",
             "marketTier": "LOW/UNKNOWN MARKET TIER",
             "marketVisibility": "SCHEDULE-ONLY / LOW-VISIBILITY",
             "liquidityProxyOnly": true,
@@ -229284,7 +229224,8 @@
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
-            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence."
+            "strategyText": "No reliable pre-toss team edge yet from the available historical inputs. DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
+            "archivedOnly": true
         }
     },
     "australia|england 3rd t20i the gabba brisbane|2026-11-27": {
