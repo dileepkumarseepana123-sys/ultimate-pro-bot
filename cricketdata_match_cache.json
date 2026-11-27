@@ -12541,5 +12541,141 @@
       ],
       "series_id": "ef62c07e-e21a-4b89-b705-c0c4d4d6c82e"
     }
+  },
+  "db7fffcb-7fd2-4816-8d65-8890476f12b6": {
+    "cachedAt": "2026-11-27T19:34:46.119879+00:00",
+    "data": {
+      "id": "db7fffcb-7fd2-4816-8d65-8890476f12b6",
+      "name": "UP Kings vs Haryana Phoenix, 10th Match, Group B, Indian Softball Cricket League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 28, 09:30 GMT",
+      "venue": "Acharya Stadium, Bengaluru",
+      "date": "2026-11-28",
+      "dateTimeGMT": "2026-11-28T09:30:00",
+      "teams": [
+        "UP Kings",
+        "Haryana Phoenix"
+      ],
+      "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
+    }
+  },
+  "42543cd8-56d0-4314-8341-d2035b024379": {
+    "cachedAt": "2026-11-27T19:34:46.273674+00:00",
+    "data": {
+      "id": "42543cd8-56d0-4314-8341-d2035b024379",
+      "name": "Bihar Rising vs Telangana Singhams, 11th Match, Group B, Indian Softball Cricket League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 28, 11:30 GMT",
+      "venue": "Acharya Stadium, Bengaluru",
+      "date": "2026-11-28",
+      "dateTimeGMT": "2026-11-28T11:30:00",
+      "teams": [
+        "Bihar Rising",
+        "Telangana Singhams"
+      ],
+      "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
+    }
+  },
+  "ded5eb53-62e3-480c-827d-5d3ad921d6e5": {
+    "cachedAt": "2026-11-27T19:34:46.426310+00:00",
+    "data": {
+      "id": "ded5eb53-62e3-480c-827d-5d3ad921d6e5",
+      "name": "JK Northern Warriors vs Andhra Warriors, 12th Match, Group B, Indian Softball Cricket League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 28, 13:30 GMT",
+      "venue": "Acharya Stadium, Bengaluru",
+      "date": "2026-11-28",
+      "dateTimeGMT": "2026-11-28T13:30:00",
+      "teams": [
+        "JK Northern Warriors",
+        "Andhra Warriors"
+      ],
+      "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
+    }
+  },
+  "2eb02b4d-4322-4487-b89c-d35280cdefc4": {
+    "cachedAt": "2026-11-27T19:34:46.579806+00:00",
+    "data": {
+      "id": "2eb02b4d-4322-4487-b89c-d35280cdefc4",
+      "name": "Andaman Admirals vs Bihar Rising, 13th Match, Group B, Indian Softball Cricket League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 28, 15:30 GMT",
+      "venue": "Acharya Stadium, Bengaluru",
+      "date": "2026-11-28",
+      "dateTimeGMT": "2026-11-28T15:30:00",
+      "teams": [
+        "Andaman Admirals",
+        "Bihar Rising"
+      ],
+      "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
+    }
+  },
+  "8d17f539-6918-412c-9b05-8e2cd73383b9": {
+    "cachedAt": "2026-11-27T19:34:46.734815+00:00",
+    "data": {
+      "id": "8d17f539-6918-412c-9b05-8e2cd73383b9",
+      "name": "Andhra Warriors vs Telangana Singhams, 14th Match, Group B, Indian Softball Cricket League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 29, 09:30 GMT",
+      "venue": "Acharya Stadium, Bengaluru",
+      "date": "2026-11-29",
+      "dateTimeGMT": "2026-11-29T09:30:00",
+      "teams": [
+        "Andhra Warriors",
+        "Telangana Singhams"
+      ],
+      "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
+    }
+  },
+  "5f3a0cb2-7221-4411-bdd8-fd5b9173399f": {
+    "cachedAt": "2026-11-27T19:34:46.891440+00:00",
+    "data": {
+      "id": "5f3a0cb2-7221-4411-bdd8-fd5b9173399f",
+      "name": "Sri Lanka A vs Pakistan A, Final, ACC Mens Asia Cup Rising Stars 2026",
+      "matchType": "odi",
+      "status": "Match starts at Nov 29, 10:00 GMT",
+      "venue": "West End Park International Cricket Stadium, Doha",
+      "date": "2026-11-29",
+      "dateTimeGMT": "2026-11-29T10:00:00",
+      "teams": [
+        "Sri Lanka A",
+        "Pakistan A"
+      ],
+      "series_id": "fe4c9986-8622-4938-8f19-d5db8cbc43e2"
+    }
+  },
+  "3e229444-7e48-48b4-b282-0ca9cd344ed0": {
+    "cachedAt": "2026-11-27T19:34:47.048635+00:00",
+    "data": {
+      "id": "3e229444-7e48-48b4-b282-0ca9cd344ed0",
+      "name": "Chandigarh Royal Strikers vs Haryana Phoenix, 15th Match, Group B, Indian Softball Cricket League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 29, 11:30 GMT",
+      "venue": "Acharya Stadium, Bengaluru",
+      "date": "2026-11-29",
+      "dateTimeGMT": "2026-11-29T11:30:00",
+      "teams": [
+        "Chandigarh Royal Strikers",
+        "Haryana Phoenix"
+      ],
+      "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
+    }
+  },
+  "968b91cc-f899-4a3a-b12c-bfe67807df3a": {
+    "cachedAt": "2026-11-27T19:34:47.201347+00:00",
+    "data": {
+      "id": "968b91cc-f899-4a3a-b12c-bfe67807df3a",
+      "name": "Up Kings vs J&k Northern Warriors, 16th Match, Group B, Indian Softball Cricket League 2026",
+      "matchType": "t20",
+      "status": "Match starts at Nov 29, 13:30 GMT",
+      "venue": "Acharya Stadium, Bengaluru",
+      "date": "2026-11-29",
+      "dateTimeGMT": "2026-11-29T13:30:00",
+      "teams": [
+        "Up Kings",
+        "J&k Northern Warriors"
+      ],
+      "series_id": "3ad43395-1335-4e03-8174-c50d35aed600"
+    }
   }
 }
