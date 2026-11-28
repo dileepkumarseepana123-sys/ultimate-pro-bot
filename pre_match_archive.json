@@ -230958,7 +230958,7 @@
         }
     },
     "haryana phoenix|up kings|2026-11-28": {
-        "capturedAt": "2026-11-27T19:36:02.991471+00:00",
+        "capturedAt": "2026-11-28T08:15:52.718597+00:00",
         "matchDate": "2026-11-28",
         "report": {
             "teamA": "UP Kings",
@@ -231065,12 +231065,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -231082,7 +231082,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 9%, dew LOW"
+                    "Weather: rain 5%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -231132,16 +231132,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-28T15:00:00+05:30",
-                "temperature_c": 28.3,
-                "humidity_pct": 43,
-                "dew_point_c": 14.6,
-                "rain_probability_pct": 9,
+                "temperature_c": 28.2,
+                "humidity_pct": 41,
+                "dew_point_c": 13.8,
+                "rain_probability_pct": 5,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 8.0,
+                "wind_kmh": 10.1,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "28.3°C | RH 43% | Rain 9% | Wind 8.0 km/h",
+            "weatherText": "28.2°C | RH 41% | Rain 5% | Wind 10.1 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -231186,7 +231186,7 @@
         }
     },
     "desert vipers|mi emirates|2026-11-28": {
-        "capturedAt": "2026-11-27T19:36:02.991488+00:00",
+        "capturedAt": "2026-11-28T08:15:52.718622+00:00",
         "matchDate": "2026-11-28",
         "report": {
             "teamA": "Desert Vipers",
@@ -231200,8 +231200,8 @@
             "indiaDate": "2026-11-28",
             "series": "International League T20 2026",
             "sourceName": "CricketData cricScore + match_info",
-            "supplementalSourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/175290/dv-vs-mie-9th-match-international-league-t20-2026",
+            "supplementalSourceName": null,
+            "sourceMatchUrl": null,
             "cricketDataMatchId": "196ef114-a56c-467b-8309-4ff721c55216",
             "liveScoreText": null,
             "sourceStatus": "Match starts at Nov 28, 10:00 GMT",
@@ -231440,12 +231440,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -231462,7 +231462,7 @@
                     "Two-way venue: 53.1% chasing wins",
                     "Overs 7-14 wicket pressure: 3.97 wickets/match",
                     "16th-over baseline: 8.0 runs; wicket in 34.1% of sampled innings",
-                    "Weather: rain 4%, dew LOW"
+                    "Weather: rain 3%, dew LOW"
                 ],
                 "evidence": [
                     "Elo: Desert Vipers 1592.6 vs Mi Emirates 1545.7",
@@ -231698,16 +231698,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-28T14:00:00+04:00",
-                "temperature_c": 27.9,
-                "humidity_pct": 54,
-                "dew_point_c": 17.6,
-                "rain_probability_pct": 4,
+                "temperature_c": 27.5,
+                "humidity_pct": 59,
+                "dew_point_c": 18.8,
+                "rain_probability_pct": 3,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 12.9,
+                "wind_kmh": 11.7,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "27.9°C | RH 54% | Rain 4% | Wind 12.9 km/h",
+            "weatherText": "27.5°C | RH 59% | Rain 3% | Wind 11.7 km/h",
             "dewRisk": "LOW",
             "tossBias": "53.1% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -231762,7 +231762,7 @@
         }
     },
     "bihar rising|telangana singhams|2026-11-28": {
-        "capturedAt": "2026-11-27T19:36:02.991494+00:00",
+        "capturedAt": "2026-11-28T08:15:52.718646+00:00",
         "matchDate": "2026-11-28",
         "report": {
             "teamA": "Bihar Rising",
@@ -231869,12 +231869,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -231886,7 +231886,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 18%, dew LOW"
+                    "Weather: rain 6%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -231936,16 +231936,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-28T17:00:00+05:30",
-                "temperature_c": 26.5,
-                "humidity_pct": 50,
-                "dew_point_c": 15.2,
-                "rain_probability_pct": 18,
+                "temperature_c": 26.6,
+                "humidity_pct": 47,
+                "dew_point_c": 14.4,
+                "rain_probability_pct": 6,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 7.8,
+                "wind_kmh": 9.9,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.5°C | RH 50% | Rain 18% | Wind 7.8 km/h",
+            "weatherText": "26.6°C | RH 47% | Rain 6% | Wind 9.9 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -231990,7 +231990,7 @@
         }
     },
     "andhra warriors|jk northern warriors|2026-11-28": {
-        "capturedAt": "2026-11-27T19:36:02.991501+00:00",
+        "capturedAt": "2026-11-28T08:15:52.718659+00:00",
         "matchDate": "2026-11-28",
         "report": {
             "teamA": "JK Northern Warriors",
@@ -232097,12 +232097,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -232114,7 +232114,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 11%, dew LOW"
+                    "Weather: rain 2%, dew LOW"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -232164,16 +232164,16 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-28T19:00:00+05:30",
-                "temperature_c": 23.9,
-                "humidity_pct": 69,
-                "dew_point_c": 17.8,
-                "rain_probability_pct": 11,
+                "temperature_c": 24.2,
+                "humidity_pct": 61,
+                "dew_point_c": 16.2,
+                "rain_probability_pct": 2,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 11.7,
+                "wind_kmh": 11.6,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "23.9°C | RH 69% | Rain 11% | Wind 11.7 km/h",
+            "weatherText": "24.2°C | RH 61% | Rain 2% | Wind 11.6 km/h",
             "dewRisk": "LOW",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
@@ -232218,7 +232218,7 @@
         }
     },
     "dubai capitals|gulf giants|2026-11-28": {
-        "capturedAt": "2026-11-27T19:36:02.991508+00:00",
+        "capturedAt": "2026-11-28T08:15:52.718669+00:00",
         "matchDate": "2026-11-28",
         "report": {
             "teamA": "Dubai Capitals",
@@ -232232,8 +232232,8 @@
             "indiaDate": "2026-11-28",
             "series": "International League T20 2026",
             "sourceName": "CricketData cricScore + match_info",
-            "supplementalSourceName": "Cricbuzz via text relay",
-            "sourceMatchUrl": "https://www.cricbuzz.com/live-cricket-scores/175300/dcp-vs-gg-10th-match-international-league-t20-2026",
+            "supplementalSourceName": null,
+            "sourceMatchUrl": null,
             "cricketDataMatchId": "b1ff0832-181d-4a12-9770-726e86f78932",
             "liveScoreText": null,
             "sourceStatus": "Match starts at Nov 28, 14:30 GMT",
@@ -232461,12 +232461,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -232720,15 +232720,15 @@
                 "status": "OK",
                 "local_time": "2026-11-28T18:30:00+04:00",
                 "temperature_c": 26.2,
-                "humidity_pct": 60,
-                "dew_point_c": 17.8,
+                "humidity_pct": 54,
+                "dew_point_c": 16.2,
                 "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 11.0,
+                "wind_kmh": 9.8,
                 "dew_risk": "LOW",
                 "rain_risk": "LOW"
             },
-            "weatherText": "26.2°C | RH 60% | Rain 0% | Wind 11.0 km/h",
+            "weatherText": "26.2°C | RH 54% | Rain 0% | Wind 9.8 km/h",
             "dewRisk": "LOW",
             "tossBias": "54.58% Chasing Wins",
             "tossTrend": "Historical venue trend",
@@ -232783,7 +232783,7 @@
         }
     },
     "andaman admirals|bihar rising|2026-11-28": {
-        "capturedAt": "2026-11-27T19:36:02.991515+00:00",
+        "capturedAt": "2026-11-28T08:15:52.718690+00:00",
         "matchDate": "2026-11-28",
         "report": {
             "teamA": "Andaman Admirals",
@@ -232832,14 +232832,14 @@
                 "majorTeamAsymmetryProxyUsed": false
             },
             "skillGap": "UNKNOWN",
-            "swingScore": 25.3,
+            "swingScore": 31.2,
             "strategyLabel": "INSUFFICIENT DATA",
             "analysisEngineVersion": 4,
             "tradeProfile": {
                 "purpose": "Pre-match two-way market-movement profile only; not a profit guarantee.",
                 "dataCompletenessPct": 17,
                 "swingProfile": "INSUFFICIENT PRE-MATCH DATA",
-                "swingScore": 25.3,
+                "swingScore": 31.2,
                 "strategyLabel": "INSUFFICIENT DATA",
                 "competitiveBalance": {
                     "label": "UNKNOWN",
@@ -232866,15 +232866,16 @@
                     "sourceLimitations": [],
                     "majorTeamAsymmetryProxyUsed": false
                 },
-                "swingCatalysts": [],
+                "swingCatalysts": [
+                    "Medium dew can change second-innings conditions"
+                ],
                 "swingPenalties": [
-                    "High dew may create strong chase-side bias",
                     "Liquidity/market depth is not verified"
                 ],
                 "scoreComponents": [
                     {
                         "name": "weather",
-                        "score": 60.0,
+                        "score": 90.0,
                         "weight": 0.1
                     },
                     {
@@ -232891,12 +232892,12 @@
             "playingXI": {
                 "status": "NOT CONFIRMED",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "squadSummary": {
                 "status": "NO SQUAD DATA",
                 "teams": {},
-                "source": "Not queried"
+                "source": "No squad data"
             },
             "initialAnalysis": {
                 "phase": "INITIAL PRE-TOSS READ",
@@ -232908,7 +232909,7 @@
                 "edgeScore": null,
                 "swingRead": "DATA-LIMITED / CONDITIONAL — keep on the board but require stronger toss/market evidence.",
                 "conditions": [
-                    "Weather: rain 3%, dew HIGH"
+                    "Weather: rain 0%, dew MEDIUM"
                 ],
                 "evidence": [],
                 "pendingGates": [
@@ -232958,17 +232959,17 @@
             "weather": {
                 "status": "OK",
                 "local_time": "2026-11-28T21:00:00+05:30",
-                "temperature_c": 20.8,
-                "humidity_pct": 91,
-                "dew_point_c": 19.2,
-                "rain_probability_pct": 3,
+                "temperature_c": 21.2,
+                "humidity_pct": 85,
+                "dew_point_c": 18.6,
+                "rain_probability_pct": 0,
                 "precipitation_mm": 0.0,
-                "wind_kmh": 14.6,
-                "dew_risk": "HIGH",
+                "wind_kmh": 14.2,
+                "dew_risk": "MEDIUM",
                 "rain_risk": "LOW"
             },
-            "weatherText": "20.8°C | RH 91% | Rain 3% | Wind 14.6 km/h",
-            "dewRisk": "HIGH",
+            "weatherText": "21.2°C | RH 85% | Rain 0% | Wind 14.2 km/h",
+            "dewRisk": "MEDIUM",
             "tossBias": "UNKNOWN",
             "tossTrend": "Historical venue trend",
             "ppScoreAvg": "UNKNOWN",
@@ -233000,12 +233001,12 @@
             "verdict": "🟡 PRE-TOSS DATA LIMITED — KEEP WATCHING",
             "noBetReasons": [
                 "NO DATA / UNKNOWN VENUE",
-                "HIGH DEW RISK",
                 "LIMITED RECENT T20 DATA FOR Andaman Admirals",
                 "LIMITED RECENT T20 DATA FOR Bihar Rising"
             ],
             "warnings": [
                 "PLAYING XI NOT CONFIRMED — INITIAL PRE-TOSS READ USES STABLE DATA ONLY",
+                "MEDIUM DEW RISK",
                 "SPIN CHOKE INDEX NOT FULLY CLASSIFIED"
             ],
             "badgeClass": "badge-yellow",
